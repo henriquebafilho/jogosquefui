@@ -1,22 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import Times from './Times';
 
 function App() {
+  var meuTime = "Botafogo";
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+      <header className="App-header" style={{backgroundColor: Times(meuTime).backgroundColor}}>
+        <img src={require('./escudos/'+Times(meuTime).escudo+'.png')} className="App-logo" alt={"Escudo do "+meuTime} />
+        <p style={{color: Times(meuTime).letterColor}}>
+          Eu sou {Times(meuTime).nomeAtual}
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <details style={{color: Times(meuTime).letterColor}}>
+          <summary style={{color: Times(meuTime).letterColor}}>
+            Summary
+          </summary>
+          <p>
+            Details
+          </p>
+        </details>
       </header>
     </div>
   );
