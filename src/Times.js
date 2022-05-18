@@ -13,6 +13,12 @@ function Times(time, jogo = null) {
                   backgroundColor = "#153160";
                   letterColor = "white";
                   break;
+            case "Altos-PI":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#01904e";
+                  letterColor = "white";
+                  break;
             case "América-MG":
                   nomeAtual = time;
                   escudo = time;
@@ -68,6 +74,7 @@ function Times(time, jogo = null) {
                   break;
             case "Aparecidense":
                   nomeAtual = time;
+                  // trocou de escudo
                   escudo = time;
                   backgroundColor = "#00005e";
                   letterColor = "#c8ad51";
@@ -152,6 +159,7 @@ function Times(time, jogo = null) {
                   break;
             case "Botafogo":
                   nomeAtual = time;
+                  // trocou escudo
                   escudo = time;
                   backgroundColor = "black";
                   letterColor = "white";
