@@ -5,13 +5,13 @@ import * as IoIcons from 'react-icons/io';
 
 export const SidebarData = [
     {
-        title: 'Home',
-        path: '/',
+        title: 'Início',
+        path: '/inicio',
         icon: <AiIcons.AiFillHome/>,
         cName: 'nav-text'
     },
     {
-        title: 'Adversarios',
+        title: 'Adversários',
         path: '/adversarios',
         icon: <AiIcons.AiFillHome/>,
         cName: 'nav-text'
@@ -23,8 +23,14 @@ export const SidebarData = [
         cName: 'nav-text'
     },
     {
-        title: 'Estadios',
+        title: 'Estádios',
         path: '/estadios',
+        icon: <AiIcons.AiFillHome/>,
+        cName: 'nav-text'
+    },
+    {
+        title: 'Todos os Jogos',
+        path: '/todosOsJogos',
         icon: <AiIcons.AiFillHome/>,
         cName: 'nav-text'
     },

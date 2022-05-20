@@ -2,40 +2,26 @@ import './App.css';
 import Times from './Times';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './pages/Home.js';
+import Inicio from './pages/Inicio.js';
+import TodosOsJogos from './pages/TodosOsJogos.js';
 import Adversarios from './pages/Adversarios.js';
 import Campeonatos from './pages/Campeonatos.js';
 import Estadios from './pages/Estadios.js';
 
 function App() {
-  var meuTime = "Cruzeiro";
+  var meuTime = "Botafogo";
   return (
     <>
       <Router>
-          <Navbar/>
+          <Navbar meuTime={meuTime}/>
           <Routes>
-            <Route path='/' exact component={Home}/>
-            <Route path='/adversarios' exact component={Adversarios}/>
-            <Route path='/campeonatos' component={Campeonatos}/>
-            <Route path='/estadios' component={Estadios}/>
+            <Route path='/inicio' element={<Inicio meuTime={meuTime}/>}/>
+            <Route path='/adversarios' element={<Adversarios meuTime={meuTime}/>}/>
+            <Route path='/campeonatos' element={<Campeonatos meuTime={meuTime}/>}/>
+            <Route path='/estadios' element={<Estadios meuTime={meuTime}/>}/>
+            <Route path='/todosOsJogos' element={<TodosOsJogos meuTime={meuTime}/>}/>
           </Routes>
       </Router>
-      <div className="App">
-        <header className="App-header" style={{backgroundColor: Times(meuTime).backgroundColor}}>
-          <img src={require('./escudos/'+Times(meuTime).escudo+'.png')} className="App-logo" alt={"Escudo do "+meuTime} />
-          <p style={{color: Times(meuTime).letterColor}}>
-            Eu sou {Times(meuTime).nomeAtual}
-          </p>
-          <details style={{color: Times(meuTime).letterColor}}>
-            <summary style={{color: Times(meuTime).letterColor}}>
-              Summary
-            </summary>
-            <p>
-              Details
-            </p>
-          </details>
-        </header>
-      </div>
       </>
   );
 }
