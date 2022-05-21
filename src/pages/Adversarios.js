@@ -1,18 +1,34 @@
 import React from 'react';
 import Times from '../Times';
+import jogos from '../jogos';
 
 function Adversarios(props) {
-  var adversarios = ['Palmeiras', 'Corinthians'];
+  var adversarios = [];
+  
+  jogos().map(function(i){
+    if(Times(i[0]).nomeAtual !== props.meuTime){
+      if(!adversarios.includes(Times(i[0]).nomeAtual)){
+        adversarios.push(Times(i[0]).nomeAtual);
+      }
+    }
+    if(Times(i[1]).nomeAtual !== props.meuTime){
+      if(!adversarios.includes(Times(i[1]).nomeAtual)){
+        adversarios.push(Times(i[1]).nomeAtual);
+      }
+    }
+  })
+  
+  adversarios.sort();
 
   return (
     <div className="App-header" style={{ backgroundColor: Times(props.meuTime).backgroundColor, color: Times(props.meuTime).letterColor }}>
       <h1>Adversários</h1>
-      <table style={{ border: Times(props.meuTime).letterColor, borderStyle: 'solid' }}>
+      <table>
         <tbody>
           {
             adversarios.map(function (i) {
-              return <tr>
-                <td><img src={require('../escudos/'+Times(Times(i).nomeAtual).escudo+'.png')} alt='escudo' height='100' width='100' /></td>
+              return <tr style={{ backgroundColor: Times(Times(i).nomeAtual).backgroundColor, color: Times(Times(i).nomeAtual).letterColor}}>
+                <td><img src={require('../escudos/'+Times(Times(i).nomeAtual).escudo+'.png')} alt='escudo' height='90' width='90' /></td>
                 <td>{Times(i).nomeAtual}</td>
               </tr>
             })

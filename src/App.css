@@ -33,7 +33,7 @@
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.adversarios, .campeonatos, .estadios{
+.adversarios, .campeonatos, .estadios, .todosOsJogos{
   display: flex;
   height: 90vh;
   align-items: center;
@@ -41,6 +41,7 @@
   font-size: 3rem;
 }
 
+/* Testando borda da row Adversário */
 tr{
   border: 5px solid red;
 }
