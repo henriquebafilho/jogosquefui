@@ -1,5 +1,4 @@
 import './App.css';
-import Times from './Times';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Inicio from './pages/Inicio.js';

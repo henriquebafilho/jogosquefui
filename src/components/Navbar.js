@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom';
 import { SidebarData } from './SidebarData';
 import './Navbar.css';
 import { IconContext } from 'react-icons';
-import Times from '../Times';
 
 function Navbar (props){
     const [sidebar, setSideBar] = useState(false);
@@ -14,15 +13,15 @@ function Navbar (props){
 
     return (
         <>
-        <IconContext.Provider value={{color: Times(props.meuTime).backgroundColor}}>
-            <div className='navbar' style={{backgroundColor:Times(props.meuTime).letterColor}}>
+        <IconContext.Provider value={{color: "white"}}>
+            <div className='navbar'>
                 <Link to='#' className='menu-bars'>
                     <FaIcons.FaBars onClick={showSideBar}/>
                 </Link>
             </div>
-            <nav className={sidebar ? 'nav-menu active' : 'nav-menu'} style={{backgroundColor:Times(props.meuTime).letterColor}}>
+            <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
                 <ul className='nav-menu-items' onClick={showSideBar}>
-                    <li className='navbar-toggle' style={{backgroundColor:Times(props.meuTime).letterColor}}>
+                    <li className='navbar-toggle'>
                         <Link to='#' className='menu-bars'>
                             <AiIcons.AiOutlineClose/>
                         </Link>
@@ -30,7 +29,7 @@ function Navbar (props){
                     {SidebarData.map((item, index) => {
                         return (
                             <li key={index} className={item.cName}>
-                                <Link to={item.path} style={{color:Times(props.meuTime).backgroundColor}}>
+                                <Link to={item.path}>
                                     {item.icon}
                                     <span>{item.title}</span>
                                 </Link>

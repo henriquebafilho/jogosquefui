@@ -1,9 +1,10 @@
 import React from 'react';
+import Times from '../Times';
 
-function Estadios() {
+function Estadios(props) {
   return (
-    <div className='estadios'>
-        <h1>Estadios</h1>
+    <div className="App-header" style={{backgroundColor: Times(props.meuTime).backgroundColor, color: Times(props.meuTime).letterColor}}>
+        <h1>Estádios</h1>
     </div>
   )
 }
