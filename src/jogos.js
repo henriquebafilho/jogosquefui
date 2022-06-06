@@ -455,6 +455,8 @@ function jogos() {
     jogos.push(jogo20220512);
     var jogo20220515 = ["Botafogo", "Fortaleza", 3, 1, "Série A", "2022-05-15", "Nilton Santos", "Luís Castro", ["Erison", "Patrick de Paula", "Daniel Borges"], ["Moises"], "https://www.youtube.com/embed/QmXYDDtgauA", false];
     jogos.push(jogo20220515);
+    var jogo20220529 = ["Coritiba", "Botafogo", 1, 0, "Série A", "2022-05-29", "Couto Pereira", "Luís Castro", ["Igor Paixão"], [""], "https://www.youtube.com/embed/JLarfjEtV9o", false];
+    jogos.push(jogo20220529);
 
     jogos.sort(function (a, b) {
         return a[5] < b[5] ? -1 : a[5] > b[5] ? 1 : 0;

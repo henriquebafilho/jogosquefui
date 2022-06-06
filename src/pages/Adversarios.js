@@ -27,13 +27,16 @@ function Adversarios(props) {
         <tbody>
           {
             adversarios.map(function (i) {
-              return <tr style={{ backgroundColor: Times(Times(i).nomeAtual).backgroundColor, color: Times(Times(i).nomeAtual).letterColor }}>
-                  <td>
+              return <details>
+                  <summary className='expandableButton' style={{ backgroundColor: Times(Times(i).nomeAtual).backgroundColor, color: Times(Times(i).nomeAtual).letterColor, borderColor:  Times(Times(i).nomeAtual).letterColor, borderStyle: 'solid'}}>
                     <img src={require('../escudos/' + Times(Times(i).nomeAtual).escudo + '.png')} style={{verticalAlign: 'middle'}} alt='escudo' height='90' width='90' />
-                    <div style={{display: 'inline'}}>{Times(i).nomeAtual}</div>
-                    {/* <p style={{display: 'inline', textAlign: 'right'}}>+</p> */}
-                  </td>
-                </tr>
+                    <div style={{display: 'inline', padding: '10px'}}>{Times(i).nomeAtual}</div>
+                  </summary>
+                  {/* CHAMAR OS JOGOS CONTRA O TIME */}
+                  <div>
+                    <p>Jogos contra o {Times(i).nomeAtual}</p>
+                  </div>
+                </details>
             })
           }
         </tbody>

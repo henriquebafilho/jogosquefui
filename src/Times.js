@@ -529,6 +529,12 @@ function Times(time, jogo = null) {
                   backgroundColor = "#d30a11";
                   letterColor = "black";
                   break;
+            case "Olaria":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#003a94";
+                  letterColor = "white";
+                  break;
             case "Olimpia":
                   nomeAtual = time;
                   escudo = time;

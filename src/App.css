@@ -33,7 +33,10 @@
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.adversarios, .campeonatos, .estadios, .todosOsJogos{
+.adversarios,
+.campeonatos,
+.estadios,
+.todosOsJogos {
   display: flex;
   height: 90vh;
   align-items: center;
@@ -41,7 +44,40 @@
   font-size: 3rem;
 }
 
-td{
+details {
+  margin-bottom: 5px;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+details>summary {
+  list-style-type: 'ᐳ';
+}
+
+details[open]>summary {
+  list-style-type: 'ᐯ';
+}
+
+details[open] summary~* {
+  animation: sweep .5s ease-in-out;
+}
+
+/* details[open] summary::-webkit-detais-marker{
+  background: url('../down.svg') center no-repeat;
+} */
+
+summary {
   padding: 10px;
   border-radius: 7px;
+  outline: none;
+}
+
+p {
+  text-align: center;
+}
+
+.expandableButton:hover {
+  cursor: pointer;
 }

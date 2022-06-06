@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       <Router>
-          <Navbar meuTime={meuTime}/>
+          <Navbar meuTime={meuTime} style={{position: 'fixed'}}/>
           <Routes>
             <Route path='/inicio' element={<Inicio meuTime={meuTime}/>}/>
             <Route path='/adversarios' element={<Adversarios meuTime={meuTime}/>}/>
