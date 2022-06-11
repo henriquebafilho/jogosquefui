@@ -258,7 +258,7 @@ function Times(time, jogo = null) {
             case "Coritiba":
                   nomeAtual = time;
                   escudo = time;
-                  backgroundColor = "#00544d";
+                  backgroundColor = "#006437";
                   letterColor = "white";
                   break;
             case "CRB":

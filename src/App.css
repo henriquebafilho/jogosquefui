@@ -64,14 +64,30 @@ details[open] summary~* {
   animation: sweep .5s ease-in-out;
 }
 
-/* details[open] summary::-webkit-detais-marker{
-  background: url('../down.svg') center no-repeat;
-} */
+details[open] summary::after {
+  transform: translate(0%, 80%) rotate(90deg);
+  float: right;
+  position: relative;
+  top: 50%;
+}
 
 summary {
   padding: 10px;
   border-radius: 7px;
   outline: none;
+  display: block;
+}
+
+summary::after{
+  margin-left: 1ch;
+  /* display: inline-block; */
+  vertical-align: middle;
+  transition: 0.2s;
+  content: '\203A';
+  float: right;
+  position: relative;
+  top: 50%;
+  transform: translateY(70%); 
 }
 
 p {
