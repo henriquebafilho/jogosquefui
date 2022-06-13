@@ -28,9 +28,9 @@ function Adversarios(props) {
           {
             adversarios.map(function (i) {
               return <details>
-                  <summary className='expandableButton' style={{ backgroundColor: Times(Times(i).nomeAtual).backgroundColor, color: Times(Times(i).nomeAtual).letterColor, borderColor:  'white', borderStyle: 'solid'}}>
+                  <summary id='summaryAdversario' style={{ backgroundColor: Times(Times(i).nomeAtual).backgroundColor, color: Times(Times(i).nomeAtual).letterColor, borderColor:  'white', borderStyle: 'solid'}}>
                     <img src={require('../escudos/' + Times(Times(i).nomeAtual).escudo + '.png')} style={{verticalAlign: 'middle'}} alt='escudo' height='90' width='90' />
-                    <div style={{display: 'inline', padding: '10px'}}>{Times(i).nomeAtual}</div>
+                    <div style={{display: 'inline', padding: '10px'}}>{Times(i).nomeAtual + ' (10)'}</div>
                   </summary>
                   {/* CHAMAR OS JOGOS CONTRA O TIME */}
                   <div>

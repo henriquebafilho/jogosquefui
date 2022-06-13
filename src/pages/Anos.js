@@ -2,31 +2,33 @@ import React from 'react';
 import Times from '../Times';
 import jogos from '../jogos';
 
-function Estadios(props) {
-  var estadios = [];
+function Anos(props) {
+  var anos = [];
 
   jogos().map(function (i) {
-    if(!estadios.includes(i[6])){
-      estadios.push(i[6]);
+    const currentDate = new Date(i[5]);
+    if(!anos.includes(currentDate.getFullYear())){
+      anos.push(currentDate.getFullYear());
     }
   })
 
-  estadios.sort();
+  anos.sort();
+  anos.reverse();
 
   return (
     <div className="App-header" style={{backgroundColor: Times(props.meuTime).backgroundColor, color: Times(props.meuTime).letterColor}}>
-        <h1>Estádios</h1>
+        <h1>Anos</h1>
         <table>
         <tbody>
           {
-            estadios.map(function (i) {
+            anos.map(function (i) {
               return <details>
               <summary id='summaryDefault' style={{ borderColor:  'white', borderStyle: 'solid'}}>
                 <div style={{display: 'inline', padding: '10px'}}>{i + ' (10)'}</div>
               </summary>
-              {/* CHAMAR OS JOGOS NO ESTÁDIO */}
+              {/* CHAMAR OS JOGOS NO ANO */}
               <div>
-                <p>Jogos no estádio {i}</p>
+                <p>Jogos no ano de {i}</p>
               </div>
             </details>
             })
@@ -37,4 +39,4 @@ function Estadios(props) {
   )
 }
 
-export default Estadios;
+export default Anos;

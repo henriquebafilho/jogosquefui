@@ -11,20 +11,20 @@ export const SidebarData = [
         cName: 'nav-text'
     },
     {
-        title: 'Adversários',
-        path: '/adversarios',
-        icon: <AiIcons.AiFillHome/>,
-        cName: 'nav-text'
-    },
-    {
-        title: 'Campeonatos',
-        path: '/campeonatos',
+        title: 'Anos',
+        path: '/anos',
         icon: <AiIcons.AiFillHome/>,
         cName: 'nav-text'
     },
     {
         title: 'Estádios',
         path: '/estadios',
+        icon: <AiIcons.AiFillHome/>,
+        cName: 'nav-text'
+    },
+    {
+        title: 'Adversários',
+        path: '/adversarios',
         icon: <AiIcons.AiFillHome/>,
         cName: 'nav-text'
     },

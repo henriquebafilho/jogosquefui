@@ -52,6 +52,10 @@ details {
   user-select: none;
 }
 
+details:hover {
+  cursor: pointer;
+}
+
 details>summary {
   list-style-type: 'ᐳ';
 }
@@ -64,13 +68,6 @@ details[open] summary~* {
   animation: sweep .5s ease-in-out;
 }
 
-details[open] summary::after {
-  transform: translate(0%, 80%) rotate(90deg);
-  float: right;
-  position: relative;
-  top: 50%;
-}
-
 summary {
   padding: 10px;
   border-radius: 7px;
@@ -80,20 +77,41 @@ summary {
 
 summary::after{
   margin-left: 1ch;
-  /* display: inline-block; */
   vertical-align: middle;
   transition: 0.2s;
   content: '\203A';
   float: right;
   position: relative;
   top: 50%;
-  transform: translateY(70%); 
+}
+
+details[open] summary::after {
+  float: right;
+  position: relative;
+  top: 50%;
 }
 
 p {
   text-align: center;
 }
 
-.expandableButton:hover {
-  cursor: pointer;
+/* SUMMARY DEFAULT */
+details[open] #summaryDefault::after {
+  transform: translate(0%, 5%) rotate(90deg);
+}
+
+
+#summaryDefault::after{
+  transform: translateY(5%); 
+}
+
+/* SUMMARY ADVERSÁRIO */
+
+details[open] #summaryAdversario::after {
+  transform: translate(0%, 80%) rotate(90deg);
+}
+
+
+#summaryAdversario::after{
+  transform: translateY(70%); 
 }
