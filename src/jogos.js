@@ -379,7 +379,7 @@ function jogos() {
     jogos.push(jogo20191021);
     var jogo20191031 = ["Botafogo", "Cruzeiro", 0, 2, "Série A", "2019-10-31", "Nilton Santos", "Alberto Valentim", [""], ["Cacá", "Éderson"], "https://www.youtube.com/embed/_bLGKgVu58A", false];
     jogos.push(jogo20191031);
-    var jogo20191103 = ["Santos", "Botafogo", 4, 1, "Série A", "2019-11-03", "Vila Belmiro (Santos-SP)", "Alberto Valentim", ["Eduardo Sasha", "Marinho", "Soteldo (2x)"], ["Igor Cássio"], "https://www.youtube.com/embed/iCaVvAAb3LE", false];
+    var jogo20191103 = ["Santos", "Botafogo", 4, 1, "Série A", "2019-11-03", "Vila Belmiro", "Alberto Valentim", ["Eduardo Sasha", "Marinho", "Soteldo (2x)"], ["Igor Cássio"], "https://www.youtube.com/embed/iCaVvAAb3LE", false];
     jogos.push(jogo20191103);
     var jogo20191111 = ["Botafogo", "Avaí", 2, 0, "Série A", "2019-11-11", "Nilton Santos", "Alberto Valentim", ["Ricardo Thalheimer (GC)", "Diego Souza"], [""], "https://www.youtube.com/embed/ld_KEovTwoU", false];
     jogos.push(jogo20191111);
