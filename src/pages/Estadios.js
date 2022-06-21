@@ -6,8 +6,8 @@ function Estadios(props) {
   var estadios = [];
 
   for(var i in jogos()){
-    if (!estadios.includes(jogos[i][6])) {
-      estadios.push(jogos[i][6]);
+    if (!estadios.includes(jogos()[i][6])) {
+      estadios.push(jogos()[i][6]);
     }
   }
 

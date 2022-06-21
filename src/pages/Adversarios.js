@@ -11,7 +11,7 @@ function Adversarios(props) {
         adversarios.push(Times(jogos()[i][0]).nomeAtual);
       }
     }
-    if (Times(i[1]).nomeAtual !== props.meuTime) {
+    if (Times(jogos()[i][1]).nomeAtual !== props.meuTime) {
       if (!adversarios.includes(Times(jogos()[i][1]).nomeAtual)) {
         adversarios.push(Times(jogos()[i][1]).nomeAtual);
       }

@@ -773,7 +773,7 @@ function Times(time, jogo = null) {
                   letterColor = "white";
                   break;
             default:
-                  console.log(time);
+                  //console.log(time);
                   nomeAtual = "time";
                   escudo = "escudo";
                   backgroundColor = "grey";
