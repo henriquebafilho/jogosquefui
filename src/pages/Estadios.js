@@ -5,11 +5,11 @@ import jogos from '../jogos';
 function Estadios(props) {
   var estadios = [];
 
-  jogos().map(function (i) {
-    if (!estadios.includes(i[6])) {
-      estadios.push(i[6]);
+  for(var i in jogos()){
+    if (!estadios.includes(jogos[i][6])) {
+      estadios.push(jogos[i][6]);
     }
-  })
+  }
 
   estadios.sort();
 
@@ -18,7 +18,7 @@ function Estadios(props) {
   function getVitoriasEstadio(estadio) {
     var vitorias = 0;
     for (var a in jogos()) {
-      if ((jogos()[a][6] === estadio.toString())) {
+      if ((jogos()[a][6] === estadio)) {
         if (((jogos()[a][0] === props.meuTime) && (jogos()[a][2] > jogos()[a][3])) ||
           ((jogos()[a][1] === props.meuTime) && (jogos()[a][3] > jogos()[a][2]))) {
           vitorias += 1;
@@ -31,7 +31,7 @@ function Estadios(props) {
   function getEmpatesEstadio(estadio) {
     var empates = 0;
     for (var a in jogos()) {
-      if ((jogos()[a][6] === estadio.toString())) {
+      if ((jogos()[a][6] === estadio)) {
         if ((jogos()[a][0] === props.meuTime || jogos()[a][1] === props.meuTime) && jogos()[a][2] === jogos()[a][3]) {
           empates += 1;
         }
@@ -43,7 +43,7 @@ function Estadios(props) {
   function getDerrotasEstadio(estadio) {
     var derrotas = 0;
     for (var a in jogos()) {
-      if ((jogos()[a][6] === estadio.toString())) {
+      if ((jogos()[a][6] === estadio)) {
         if ((jogos()[a][0] === props.meuTime && jogos()[a][2] < jogos()[a][3]) || (jogos()[a][1] === props.meuTime && jogos()[a][3] < jogos()[a][2])) {
           derrotas += 1;
         }
@@ -68,7 +68,7 @@ function Estadios(props) {
                   <div style={{ display: 'inline', padding: '10px' }}>{i + ' (' + total + ')'}</div>
                 </summary>
                 <div>
-                  <p>{total} jogos</p>
+                  <p>{total} jogo{total > 1 ? 's' : ''}</p>
                   <div className='resultsBar'>
                     <div className="vitoriasBar"
                       style={{
