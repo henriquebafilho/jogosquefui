@@ -1,11 +1,12 @@
 import React from 'react';
 import Times from '../Times';
 import jogos from '../jogos';
+import Estatisticas from '../components/Estatisticas';
 
 function Adversarios(props) {
   var adversarios = [];
 
-  for(var i in jogos()){
+  for (var i in jogos()) {
     if (Times(jogos()[i][0]).nomeAtual !== props.meuTime) {
       if (!adversarios.includes(Times(jogos()[i][0]).nomeAtual)) {
         adversarios.push(Times(jogos()[i][0]).nomeAtual);
@@ -89,39 +90,14 @@ function Adversarios(props) {
                   <img src={require('../escudos/' + Times(Times(i).nomeAtual).escudo + '.png')} style={{ verticalAlign: 'middle' }} alt='escudo' height='90' width='90' />
                   <div style={{ display: 'inline', padding: '10px' }}>{Times(i).nomeAtual + ' (' + total + ')'}</div>
                 </summary>
-                <div>
-                  <p>{total} jogo{total > 1 ? 's' : ''}</p>
-                  <div className='resultsBar'>
-                    <div className="vitoriasBar"
-                      style={{
-                        width: vitorias * 100 / total + '%',
-                        borderTopLeftRadius: vitorias > 0 ? '10px' : '',
-                        borderBottomLeftRadius: vitorias > 0 ? '10px' : '',
-                        borderTopRightRadius: (vitorias > 0 && empates === 0 && derrotas === 0) ? '10px' : '',
-                        borderBottomRightRadius: (vitorias > 0 && empates === 0 && derrotas === 0) ? '10px' : ''
-                      }}>
-                      {vitorias > 0 ? vitorias : ""}
+                <Estatisticas total={total} vitorias={vitorias} empates={empates} derrotas={derrotas} />
+                {jogos().reverse().map(function (jogo) {
+                  if (Times(jogo[0]).nomeAtual === Times(i).nomeAtual || Times(jogo[1]).nomeAtual === Times(i).nomeAtual) {
+                    return <div style={{textAlign: 'center'}}>
+                      {jogo[0] + ' ' + jogo[2] + ' x ' + jogo[3] + ' ' + jogo[1]}
                     </div>
-                    <div className="empatesBar" style={{
-                      width: empates * 100 / total + '%',
-                      borderTopLeftRadius: (vitorias === 0 && empates > 0) ? '10px' : '',
-                      borderBottomLeftRadius: (vitorias === 0 && empates > 0) ? '10px' : '',
-                      borderTopRightRadius: (empates > 0 && derrotas === 0) ? '10px' : '',
-                      borderBottomRightRadius: (empates > 0 && derrotas === 0) ? '10px' : ''
-                    }}>
-                      {empates > 0 ? empates : ""}
-                    </div>
-                    <div className="derrotasBar" style={{
-                      width: derrotas * 100 / total + '%',
-                      borderTopLeftRadius: (vitorias === 0 && empates === 0 && derrotas > 0) ? '10px' : '',
-                      borderBottomLeftRadius: (vitorias === 0 && empates === 0 && derrotas > 0) ? '10px' : '',
-                      borderTopRightRadius: derrotas > 0 ? '10px' : '',
-                      borderBottomRightRadius: derrotas > 0 ? '10px' : ''
-                    }}>
-                      {derrotas > 0 ? derrotas : ""}
-                    </div>
-                  </div>
-                </div>
+                  }
+                })}
               </details>
             })
           }

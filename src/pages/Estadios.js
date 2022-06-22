@@ -1,11 +1,12 @@
 import React from 'react';
 import Times from '../Times';
 import jogos from '../jogos';
+import Estatisticas from '../components/Estatisticas';
 
 function Estadios(props) {
   var estadios = [];
 
-  for(var i in jogos()){
+  for (var i in jogos()) {
     if (!estadios.includes(jogos()[i][6])) {
       estadios.push(jogos()[i][6]);
     }
@@ -67,39 +68,14 @@ function Estadios(props) {
                 <summary id='summaryDefault' style={{ borderColor: 'white', borderStyle: 'solid' }}>
                   <div style={{ display: 'inline', padding: '10px' }}>{i + ' (' + total + ')'}</div>
                 </summary>
-                <div>
-                  <p>{total} jogo{total > 1 ? 's' : ''}</p>
-                  <div className='resultsBar'>
-                    <div className="vitoriasBar"
-                      style={{
-                        width: vitorias * 100 / total + '%',
-                        borderTopLeftRadius: vitorias > 0 ? '10px' : '',
-                        borderBottomLeftRadius: vitorias > 0 ? '10px' : '',
-                        borderTopRightRadius: (vitorias > 0 && empates === 0 && derrotas === 0) ? '10px' : '',
-                        borderBottomRightRadius: (vitorias > 0 && empates === 0 && derrotas === 0) ? '10px' : ''
-                      }}>
-                      {vitorias > 0 ? vitorias : ""}
+                <Estatisticas total={total} vitorias={vitorias} empates={empates} derrotas={derrotas} />
+                {jogos().reverse().map(function (jogo) {
+                  if (jogo[6] === i) {
+                    return <div style={{textAlign: 'center'}}>
+                      {jogo[0] + ' ' + jogo[2] + ' x ' + jogo[3] + ' ' + jogo[1]}
                     </div>
-                    <div className="empatesBar" style={{
-                      width: empates * 100 / total + '%',
-                      borderTopLeftRadius: (vitorias === 0 && empates > 0) ? '10px' : '',
-                      borderBottomLeftRadius: (vitorias === 0 && empates > 0) ? '10px' : '',
-                      borderTopRightRadius: (empates > 0 && derrotas === 0) ? '10px' : '',
-                      borderBottomRightRadius: (empates > 0 && derrotas === 0) ? '10px' : ''
-                    }}>
-                      {empates > 0 ? empates : ""}
-                    </div>
-                    <div className="derrotasBar" style={{
-                      width: derrotas * 100 / total + '%',
-                      borderTopLeftRadius: (vitorias === 0 && empates === 0 && derrotas > 0) ? '10px' : '',
-                      borderBottomLeftRadius: (vitorias === 0 && empates === 0 && derrotas > 0) ? '10px' : '',
-                      borderTopRightRadius: derrotas > 0 ? '10px' : '',
-                      borderBottomRightRadius: derrotas > 0 ? '10px' : ''
-                    }}>
-                      {derrotas > 0 ? derrotas : ""}
-                    </div>
-                  </div>
-                </div>
+                  }
+                })}
               </details>
             })
           }
