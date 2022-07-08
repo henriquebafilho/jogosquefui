@@ -2,6 +2,7 @@ import React from 'react';
 import Times from '../Times';
 import jogos from '../jogos';
 import Estatisticas from '../components/Estatisticas';
+import LinhaJogo from '../components/LinhaJogo';
 
 function Adversarios(props) {
   var adversarios = [];
@@ -87,15 +88,13 @@ function Adversarios(props) {
               var total = vitorias + empates + derrotas;
               return <details>
                 <summary id='summaryAdversario' style={{ backgroundColor: Times(Times(i).nomeAtual).backgroundColor, color: Times(Times(i).nomeAtual).letterColor, borderColor: 'white', borderStyle: 'solid' }}>
-                  <img src={require('../escudos/' + Times(Times(i).nomeAtual).escudo + '.png')} style={{ verticalAlign: 'middle' }} alt='escudo' height='90' width='90' />
+                  <img src={require('../escudos/' + Times(Times(i).nomeAtual).escudo + '.png')} style={{ verticalAlign: 'middle' }} alt='escudo' height='75' width='75' />
                   <div style={{ display: 'inline', padding: '10px' }}>{Times(i).nomeAtual + ' (' + total + ')'}</div>
                 </summary>
                 <Estatisticas total={total} vitorias={vitorias} empates={empates} derrotas={derrotas} />
                 {jogos().reverse().map(function (jogo) {
                   if (Times(jogo[0]).nomeAtual === Times(i).nomeAtual || Times(jogo[1]).nomeAtual === Times(i).nomeAtual) {
-                    return <div style={{textAlign: 'center'}}>
-                      {jogo[0] + ' ' + jogo[2] + ' x ' + jogo[3] + ' ' + jogo[1]}
-                    </div>
+                    return <LinhaJogo jogo={jogo}/>
                   }
                 })}
               </details>

@@ -189,6 +189,12 @@ function Times(time, jogo = null) {
                   backgroundColor = "#fde900";
                   letterColor = "#018036";
                   break;
+            case "Brasil de Pelotas":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#d30a11";
+                  letterColor = "black";
+                  break;
             case "Brusque":
                   nomeAtual = time;
                   escudo = time;

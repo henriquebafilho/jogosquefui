@@ -147,3 +147,9 @@ details[open] #summaryAdversario::after {
   float: left;
 }
 
+/* Div Jogo */
+.divJogo{
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 10px;
+}

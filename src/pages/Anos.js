@@ -2,6 +2,7 @@ import React from 'react';
 import Times from '../Times';
 import jogos from '../jogos';
 import Estatisticas from '../components/Estatisticas';
+import LinhaJogo from '../components/LinhaJogo';
 
 function Anos(props) {
   var anos = [];
@@ -77,9 +78,7 @@ function Anos(props) {
                 {jogos().reverse().map(function (jogo) {
                   var anoJogo = jogo[5].split("-");
                   if (anoJogo[0] === i.toString()) {
-                    return <div style={{textAlign: 'center'}}>
-                      {jogo[0] + ' ' + jogo[2] + ' x ' + jogo[3] + ' ' + jogo[1]}
-                    </div>
+                    return <LinhaJogo jogo={jogo}/>
                   }
                 })}
               </details>

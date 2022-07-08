@@ -2,6 +2,7 @@ import React from 'react';
 import Times from '../Times';
 import jogos from '../jogos';
 import Estatisticas from '../components/Estatisticas';
+import LinhaJogo from '../components/LinhaJogo';
 
 function Estadios(props) {
   var estadios = [];
@@ -70,11 +71,7 @@ function Estadios(props) {
                 </summary>
                 <Estatisticas total={total} vitorias={vitorias} empates={empates} derrotas={derrotas} />
                 {jogos().reverse().map(function (jogo) {
-                  if (jogo[6] === i) {
-                    return <div style={{textAlign: 'center'}}>
-                      {jogo[0] + ' ' + jogo[2] + ' x ' + jogo[3] + ' ' + jogo[1]}
-                    </div>
-                  }
+                  if (jogo[6] === i) { return <LinhaJogo jogo={jogo}/> }
                 })}
               </details>
             })

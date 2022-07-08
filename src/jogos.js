@@ -463,6 +463,8 @@ function jogos() {
     jogos.push(jogo20220613);
     var jogo20220616 = ["Botafogo", "São Paulo", 1, 0, "Série A", "2022-06-16", "Nilton Santos", "Luís Castro", ["Kayque"], [""], "https://www.youtube.com/embed/qn9h91rXPpg", false];
     jogos.push(jogo20220616);
+    var jogo20220626 = ["Botafogo", "Fluminense", 0, 1, "Série A", "2022-06-26", "Nilton Santos", "Vítor Severino", [""], ["Manoel"], "https://www.youtube.com/embed/wc4GFWGA6Kc", false];
+    jogos.push(jogo20220626);
 
     jogos.sort(function (a, b) {
         return a[5] < b[5] ? -1 : a[5] > b[5] ? 1 : 0;
