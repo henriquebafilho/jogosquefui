@@ -6,6 +6,7 @@ import TodosOsJogos from './pages/TodosOsJogos.js';
 import Adversarios from './pages/Adversarios.js';
 import Anos from './pages/Anos.js';
 import Estadios from './pages/Estadios.js';
+import Jogos from './jogos'
 
 function App() {
   var meuTime = "Botafogo";
@@ -17,7 +18,7 @@ function App() {
             <Route path='/inicio' element={<Inicio meuTime={meuTime}/>}/>
             <Route path='/anos' element={<Anos meuTime={meuTime}/>}/>
             <Route path='/estadios' element={<Estadios meuTime={meuTime}/>}/>
-            <Route path='/adversarios' element={<Adversarios meuTime={meuTime}/>}/>
+            <Route path='/adversarios' element={<Adversarios meuTime={meuTime} jogos={Jogos}/>}/>
             <Route path='/todosOsJogos' element={<TodosOsJogos meuTime={meuTime}/>}/>
           </Routes>
       </Router>

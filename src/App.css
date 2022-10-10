@@ -69,10 +69,12 @@ details[open] summary~* {
 }
 
 summary {
+  margin-bottom: 5px;
   padding: 10px;
   border-radius: 7px;
   outline: none;
   display: block;
+  cursor: pointer;
 }
 
 summary::after{

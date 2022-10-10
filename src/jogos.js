@@ -465,6 +465,26 @@ function jogos() {
     jogos.push(jogo20220616);
     var jogo20220626 = ["Botafogo", "Fluminense", 0, 1, "Série A", "2022-06-26", "Nilton Santos", "Vítor Severino", [""], ["Manoel"], "https://www.youtube.com/embed/wc4GFWGA6Kc", false];
     jogos.push(jogo20220626);
+    var jogo20220714 = ["Botafogo", "América-MG", 0, 2, "Copa do Brasil", "2022-07-14", "Nilton Santos", "Luís Castro", [""], ["Felipe Azevedo", "Pedrinho"], "https://www.youtube.com/embed/SqEEBO35aT8", false];
+    jogos.push(jogo20220714);
+    var jogo20220717 = ["Botafogo", "Atlético-MG", 0, 0, "Série A", "2022-07-17", "Nilton Santos", "Luís Castro", [""], [""], "", false];
+    jogos.push(jogo20220717);
+    var jogo20220723 = ["Botafogo", "Athletico-PR", 2, 0, "Série A", "2022-07-23", "Nilton Santos", "Luís Castro", ["Erison", "Jeffinho"], [""], "https://www.youtube.com/embed/mLWuKWmT30A", false];
+    jogos.push(jogo20220723);
+    var jogo20220730 = ["Corinthians", "Botafogo", 1, 0, "Série A", "2022-07-30", "Neo Química Arena", "Luís Castro", ["Gustavo Mosquito"], [""], "https://www.youtube.com/embed/U7RmcgkBxAM", false];
+    jogos.push(jogo20220730);
+    var jogo20220806 = ["Botafogo", "Ceará", 1, 1, "Série A", "2022-08-06", "Nilton Santos", "Luís Castro", ["Victor Cuesta"], ["Mendoza"], "https://www.youtube.com/embed/fENVMErphCk", false];
+    jogos.push(jogo20220806);
+    var jogo20220813 = ["Botafogo", "Atlético-GO", 0, 0, "Série A", "2022-08-13", "Nilton Santos", "Luís Castro", [""], [""], "https://www.youtube.com/embed/t2HnSQmTCgY", false];
+    jogos.push(jogo20220813);
+    var jogo20220828 = ["Botafogo", "Flamengo", 0, 1, "Série A", "2022-08-28", "Nilton Santos", "Luís Castro", [""], ["Vidal"], "https://www.youtube.com/embed/Hd7Ck6RfCRU", false];
+    jogos.push(jogo20220828);
+    var jogo20220911 = ["Botafogo", "América-MG", 0, 0, "Série A", "2022-09-11", "Nilton Santos", "Luís Castro", [""], [""], "https://www.youtube.com/embed/YaXSQWnP0yw", false];
+    jogos.push(jogo20220911);
+    var jogo20220917 = ["Botafogo", "Coritiba", 2, 0, "Série A", "2022-09-17", "Nilton Santos", "Luís Castro", ["Victor Cuesta", "Tiquinho Soares"], [""], "https://www.youtube.com/embed/gM7gQkQrWco", false];
+    jogos.push(jogo20220917);
+    var jogo20221003 = ["Botafogo", "Palmeiras", 1, 3, "Série A", "2022-10-03", "Nilton Santos", "Luís Castro", ["Tiquinho Soares"], ["Gustavo Scarpa", "Mayke", "Dudu"], "https://www.youtube.com/embed/R8Nd42RBaoQ", false];
+    jogos.push(jogo20221003);
 
     jogos.sort(function (a, b) {
         return a[5] < b[5] ? -1 : a[5] > b[5] ? 1 : 0;
@@ -472,33 +492,3 @@ function jogos() {
     return jogos;
 }
 export default jogos;
-
-var outros = [];
-
-var jogo20070715 = ["Brasil", "Honduras", 3, 0, "Jogos Pan-Americanos", "2007-07-15", "Estádio João Havelange (Engenhão)", "Brasil - Luiz Nizzo/ Honduras - Miguel Escalante", ["Lulinha (3x)"], [""], "https://www.youtube.com/embed/z1FWdvBrd30", false];
-outros.push(jogo20070715);
-var jogo20180901 = ["Vasco", "Santos", 0, 3, "Série A", "2018-09-01", "Maracanã", "Vasco - Alberto Valentim/ Santos - Cuca", [""], ["Gabriel (3x)"], "https://www.youtube.com/embed/ilhdfEB76y0", false];
-outros.push(jogo20180901);
-var jogo20190624 = ["Chile", "Uruguai", 0, 1, "Copa América", "2019-06-24", "Maracanã", "Chile - Reinaldo Rueda/ Uruguai - Oscar Tabárez", [""], ["Cavani"], "https://www.youtube.com/embed/8_bRiPsk0wU", false];
-outros.push(jogo20190624);
-var jogo20190914 = ["Flamengo", "Santos", 1, 0, "Série A", "2019-09-14", "Maracanã", "Flamengo - Jorge Jesus/ Santos - Sampaoli", ["Gabriel"], [""], "https://www.youtube.com/embed/G0nmxxr6CDo", false];
-outros.push(jogo20190914);
-var jogo20191005 = ["Vasco", "Santos", 0, 1, "Série A", "2019-10-05", "São Januário", "Vasco - Vanderlei Luxemburgo/ Santos - Sampaoli", [""], ["Tailson"], "https://www.youtube.com/embed/cnv4cd9i2BY", false];
-outros.push(jogo20191005);
-var jogo20220109 = ["Aparecidense", "Petrolina", 3, 2, "Copinha", "2022-01-09", "Joaquim de Morais Filho (Taubaté-SP)", "Aparecidense - Rodrigo Limiro/ Petrolina - Assis", ["Diogo (3x)"], ["Paulo Jayke", "Kinho"], "https://www.youtube.com/embed/5K22zTV9W-0", false];
-outros.push(jogo20220109);
-var jogo20220324 = ["Brasil", "Chile", 4, 0, "Eliminatórias da Copa do Mundo", "2022-03-24", "Maracanã", "Brasil - Tite/ Chile - Martín Lasarte", ["Neymar", "Vinicius Júnior", "Philippe Coutinho", "Richarlison"], [""], "https://www.youtube.com/embed/izvPALvw46Q", false];
-outros.push(jogo20220324);
-var jogo20220409 = ["Fluminense", "Santos", 0, 0, "Série A", "2022-04-09", "Maracanã", "Fluminense - Abel Braga/ Santos - Fabián Bustos", [""], [""], "https://www.youtube.com/embed/Sg-kCX6dSoE", false];
-outros.push(jogo20220409);
-
-outros.sort(function (a, b) {
-    return a[5] < b[5] ? -1 : a[5] > b[5] ? 1 : 0;
-});
-
-var todos = [];
-Array.prototype.push.apply(todos, outros);
-Array.prototype.push.apply(todos, jogos);
-todos.sort(function (a, b) {
-    return a[5] < b[5] ? -1 : a[5] > b[5] ? 1 : 0;
-});
