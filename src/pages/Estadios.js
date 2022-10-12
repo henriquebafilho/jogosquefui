@@ -1,85 +1,59 @@
-import React from 'react';
+import React, { Component } from 'react';
 import Times from '../Times';
-import jogos from '../jogos';
-import Estatisticas from '../components/Estatisticas';
-import LinhaJogo from '../components/LinhaJogo';
 
-function Estadios(props) {
-  var estadios = [];
-
-  for (var i in jogos()) {
-    if (!estadios.includes(jogos()[i][6])) {
-      estadios.push(jogos()[i][6]);
-    }
+class Estadios extends Component {
+  state = {
+    meuTime: this.props.meuTime,
+    jogos: this.props.jogos(),
+    vitorias: [],
+    empates: [],
+    derrotas: [],
+    estadios: [],
+    isLoading: false
   }
 
-  estadios.sort();
+  async componentDidMount() {
+    this.setState({ isLoading: true })
+    await this.getEstadios();
+    this.setState({ isLoading: false })
+  }
 
-  /* ESTATÍSTICAS */
+  getEstadios = async () => {
+    var jogos = this.state.jogos;
 
-  function getVitoriasEstadio(estadio) {
-    var vitorias = 0;
-    for (var a in jogos()) {
-      if ((jogos()[a][6] === estadio)) {
-        if (((jogos()[a][0] === props.meuTime) && (jogos()[a][2] > jogos()[a][3])) ||
-          ((jogos()[a][1] === props.meuTime) && (jogos()[a][3] > jogos()[a][2]))) {
-          vitorias += 1;
-        }
+    for (var i in jogos) {
+      if (!this.state.estadios.includes(jogos[i][6])) {
+        this.state.estadios.push(jogos[i][6]);
       }
     }
-    return vitorias;
+
+    this.state.estadios.sort();
   }
 
-  function getEmpatesEstadio(estadio) {
-    var empates = 0;
-    for (var a in jogos()) {
-      if ((jogos()[a][6] === estadio)) {
-        if ((jogos()[a][0] === props.meuTime || jogos()[a][1] === props.meuTime) && jogos()[a][2] === jogos()[a][3]) {
-          empates += 1;
-        }
-      }
-    }
-    return empates;
+  render() {
+    return (
+      <div className="App-header" style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }}>
+        <h1>Estádios</h1>
+        <br />
+        <h4>{"Você foi a " + this.state.estadios.length + " estádios"}</h4>
+        <br />
+        <table>
+          <tbody>
+            {this.state.isLoading && <h1>ESPERA AÍ</h1>}
+            {
+              !this.state.isLoading && this.state.estadios.map(function (i) {
+                return <div>
+                  <button id='selectEstadio' style={{ borderColor: 'white', borderStyle: 'solid', backgroundColor: 'black', color: 'white' }}> {/* Mudar pra cores do time */}
+                    <div style={{ display: 'inline', padding: '10px', fontSize: '20px' }}>{i}</div>
+                  </button>
+                </div>
+              })
+            }
+          </tbody>
+        </table>
+      </div>
+    )
   }
-
-  function getDerrotasEstadio(estadio) {
-    var derrotas = 0;
-    for (var a in jogos()) {
-      if ((jogos()[a][6] === estadio)) {
-        if ((jogos()[a][0] === props.meuTime && jogos()[a][2] < jogos()[a][3]) || (jogos()[a][1] === props.meuTime && jogos()[a][3] < jogos()[a][2])) {
-          derrotas += 1;
-        }
-      }
-    }
-    return derrotas;
-  }
-
-  return (
-    <div className="App-header" style={{ backgroundColor: Times(props.meuTime).backgroundColor, color: Times(props.meuTime).letterColor }}>
-      <h1>Estádios</h1>
-      <table>
-        <tbody>
-          {
-            estadios.map(function (i) {
-              var vitorias = getVitoriasEstadio(i);
-              var empates = getEmpatesEstadio(i);
-              var derrotas = getDerrotasEstadio(i);
-              var total = vitorias + empates + derrotas;
-              return <details>
-                <summary id='summaryDefault' style={{ borderColor: 'white', borderStyle: 'solid' }}>
-                  <div style={{ display: 'inline', padding: '10px' }}>{i + ' (' + total + ')'}</div>
-                </summary>
-                <Estatisticas total={total} vitorias={vitorias} empates={empates} derrotas={derrotas} />
-                {jogos().reverse().map(function (jogo) {
-                  if (jogo[6] === i) { return <LinhaJogo jogo={jogo}/> }
-                })}
-              </details>
-            })
-          }
-        </tbody>
-      </table>
-    </div>
-  )
 }
 
 export default Estadios;

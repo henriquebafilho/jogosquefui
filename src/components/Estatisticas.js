@@ -1,6 +1,6 @@
 function Estatisticas(props) {
     return (
-        <div style={{paddingBottom: '20px'}}>
+        <div style={{paddingBottom: '20px', width: '50%'}}>
             <p>{props.total} jogo{props.total > 1 ? 's' : ''}</p>
             <div className='resultsBar'>
                 <div className="vitoriasBar"

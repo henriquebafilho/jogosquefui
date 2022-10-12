@@ -16,8 +16,8 @@ function App() {
           <Navbar meuTime={meuTime} style={{position: 'fixed'}}/>
           <Routes>
             <Route path='/inicio' element={<Inicio meuTime={meuTime}/>}/>
-            <Route path='/anos' element={<Anos meuTime={meuTime}/>}/>
-            <Route path='/estadios' element={<Estadios meuTime={meuTime}/>}/>
+            <Route path='/anos' element={<Anos meuTime={meuTime} jogos={Jogos}/>}/>
+            <Route path='/estadios' element={<Estadios meuTime={meuTime} jogos={Jogos}/>}/>
             <Route path='/adversarios' element={<Adversarios meuTime={meuTime} jogos={Jogos}/>}/>
             <Route path='/todosOsJogos' element={<TodosOsJogos meuTime={meuTime}/>}/>
           </Routes>

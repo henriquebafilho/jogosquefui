@@ -68,13 +68,20 @@ details[open] summary~* {
   animation: sweep .5s ease-in-out;
 }
 
-summary {
-  margin-bottom: 5px;
-  padding: 10px;
+#selectTime, #selectEstadio, #selectAno {
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  padding-top: 10px;
   border-radius: 7px;
   outline: none;
   display: block;
   cursor: pointer;
+  width: 50vw;
+  text-align: center;
+}
+
+#selectTime:hover, #selectEstadio:hover, #selectAno:hover {
+  text-decoration: underline;
 }
 
 summary::after{
