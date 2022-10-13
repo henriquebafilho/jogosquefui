@@ -78,10 +78,12 @@ details[open] summary~* {
   cursor: pointer;
   width: 50vw;
   text-align: center;
+  font-weight: bold;
 }
 
 #selectTime:hover, #selectEstadio:hover, #selectAno:hover {
   text-decoration: underline;
+  font-weight: bold;
 }
 
 summary::after{

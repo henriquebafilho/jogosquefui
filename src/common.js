@@ -1,8 +1,23 @@
-// Funções comuns para todas as telas (como getVitórias, empates e derrotas)
 import Jogos from './jogos';
+import Times from './Times';
 
-const getTotalJogos = (meuTime) => {
+const getTotalJogos = () => {
     return Jogos().length;
+}
+
+const getTotalAdversario = (meuTime, adversario) => {
+    var total = 0;
+    var jogos = Jogos();
+    var adversarioAtual = Times(adversario).nomeAtual;
+
+    for (var a in jogos) {
+        if (((jogos[a][0] === meuTime) && (Times(jogos[a][1]).nomeAtual === adversarioAtual)) ||
+            ((jogos[a][1] === meuTime) && (Times(jogos[a][0]).nomeAtual === adversarioAtual))) {
+            total += 1;
+        }
+    }
+
+    return total;
 }
 
 const getVitorias = (meuTime) => {
@@ -47,4 +62,12 @@ const getDerrotas = (meuTime) => {
     return derrotas;
 }
 
-export { getTotalJogos, getVitorias, getEmpates, getDerrotas };
+const commonFunctions = {
+    getTotalJogos,
+    getTotalAdversario,
+    getVitorias,
+    getEmpates,
+    getDerrotas
+}
+
+export default commonFunctions;

@@ -8,6 +8,7 @@ function Inicio(props) {
       <p style={{color: Times(props.meuTime).letterColor}}>
         Eu sou {Times(props.meuTime).nomeAtual}
       </p>
+      <p style={{color: Times(props.meuTime).letterColor}}>{props.jogos}</p>
   </div>
   )
 }
