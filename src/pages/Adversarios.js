@@ -14,6 +14,7 @@ class Adversarios extends Component {
       adversarios: [],
       isLoading: false
     }
+    this.buttonClick = this.buttonClick.bind(this);
   }
 
   async componentDidMount() {
@@ -42,19 +43,25 @@ class Adversarios extends Component {
     this.state.adversarios.sort();
   }
 
+  buttonClick() {
+    console.log("FUI CLICADO");
+  }
+
   render() {
+    const meuTime = this.state.meuTime;
+    const buttonClickFunction = () => this.buttonClick();
     return (
       <div className="App-header" style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }}>
         <h1>Adversários</h1>
         <br />
         <table>
           <tbody>
-            {this.state.isLoading && <h1>ESPERA AÍ</h1>}
+            {this.state.isLoading && <h1>Carregando...</h1>}
             {
               !this.state.isLoading && this.state.adversarios.map(function (i) {
-                var totalAdversario = common.getTotalAdversario("Botafogo", i); // trocar para props.meuTime
+                var totalAdversario = common.getTotalAdversario(meuTime, i);
                 return <div>
-                  <button id='selectTime' style={{ backgroundColor: Times(Times(i).nomeAtual).backgroundColor, color: Times(Times(i).nomeAtual).letterColor, borderColor: 'white', borderStyle: 'solid' }}>
+                  <button id='selectTime' onClick={() => buttonClickFunction()} style={{ backgroundColor: Times(Times(i).nomeAtual).backgroundColor, color: Times(Times(i).nomeAtual).letterColor, borderColor: 'white', borderStyle: 'solid' }}>
                     <img src={require('../escudos/' + Times(Times(i).nomeAtual).escudo + '.png')} style={{ verticalAlign: 'middle' }} alt='escudo' height='75' width='75' />
                     <div style={{ paddingTop: '5px', fontSize: '20px' }}>{Times(i).nomeAtual}</div>
                     <div style={{ paddingBottom: '5px', fontSize: '10px' }}>{totalAdversario} {totalAdversario > 1 ? "jogos" : "jogo"}</div>
