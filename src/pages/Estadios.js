@@ -1,18 +1,24 @@
 import React, { Component } from 'react';
 import Times from '../Times';
+import common from '../common';
 
 class Estadios extends Component {
-  state = {
-    meuTime: this.props.meuTime,
-    jogos: this.props.jogos(),
-    vitorias: [],
-    empates: [],
-    derrotas: [],
-    estadios: [],
-    isLoading: false
+  constructor(props) {
+    super(props);
+    this.state = {
+      meuTime: props.meuTime,
+      jogos: props.jogos(),
+      vitorias: [],
+      empates: [],
+      derrotas: [],
+      estadios: [],
+      isLoading: false
+    }
+    this.buttonClick = this.buttonClick.bind(this);
   }
 
   async componentDidMount() {
+    this._isMounted = true; // ???
     this.setState({ isLoading: true })
     await this.getEstadios();
     this.setState({ isLoading: false })
@@ -29,8 +35,14 @@ class Estadios extends Component {
 
     this.state.estadios.sort();
   }
+  
+  buttonClick() {
+    console.log("FUI CLICADO");
+  }
 
   render() {
+    const meuTime = this.state.meuTime;
+    const buttonClickFunction = () => this.buttonClick();
     return (
       <div className="App-header" style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }}>
         <h1>Estádios</h1>
@@ -39,12 +51,14 @@ class Estadios extends Component {
         <br />
         <table>
           <tbody>
-            {this.state.isLoading && <h1>ESPERA AÍ</h1>}
+          {this.state.isLoading && <h1>Carregando...</h1>}
             {
               !this.state.isLoading && this.state.estadios.map(function (i) {
+                var totalEstadio = common.getTotalEstadio(i);
                 return <div>
-                  <button id='selectEstadio' style={{ borderColor: 'white', borderStyle: 'solid', backgroundColor: 'black', color: 'white' }}> {/* Mudar pra cores do time */}
+                  <button id='selectEstadio' onClick={() => buttonClickFunction()} style={{ borderColor: 'white', borderStyle: 'solid', backgroundColor: Times(meuTime).backgroundColor, color: Times(meuTime).letterColor }}>
                     <div style={{ display: 'inline', padding: '10px', fontSize: '20px' }}>{i}</div>
+                    <div style={{ paddingBottom: '5px', fontSize: '10px' }}>{totalEstadio} {totalEstadio > 1 ? "jogos" : "jogo"}</div>
                   </button>
                 </div>
               })

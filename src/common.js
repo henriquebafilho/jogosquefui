@@ -20,6 +20,33 @@ const getTotalAdversario = (meuTime, adversario) => {
     return total;
 }
 
+const getTotalEstadio = (estadio) => {
+    var total = 0;
+    var jogos = Jogos();
+
+    for (var a in jogos) {
+        if (jogos[a][6] === estadio) {
+            total += 1;
+        }
+    }
+
+    return total;
+}
+
+const getTotalAno = (ano) => {
+    var total = 0;
+    var jogos = Jogos();
+
+    for (var a in jogos) {
+        const currentDate = new Date(jogos[a][5]);
+        if (ano.toString().includes(currentDate.getFullYear())) {
+            total += 1;
+        }
+    }
+
+    return total;
+}
+
 const getVitorias = (meuTime) => {
     var vitorias = 0;
     var jogos = Jogos();
@@ -65,6 +92,8 @@ const getDerrotas = (meuTime) => {
 const commonFunctions = {
     getTotalJogos,
     getTotalAdversario,
+    getTotalEstadio,
+    getTotalAno,
     getVitorias,
     getEmpates,
     getDerrotas
