@@ -1,7 +1,10 @@
+import Times from '../Times';
+
 function Estatisticas(props) {
+    // Calcular vitórias, empates e derrotas de acordo com o array de jogos
     return (
         <div style={{paddingBottom: '20px', width: '50%'}}>
-            <p>{props.total} jogo{props.total > 1 ? 's' : ''}</p>
+            <p style={{ color: Times(props.meuTime).letterColor}}>{props.total} jogo{props.total > 1 ? 's' : ''}</p>
             <div className='resultsBar'>
                 <div className="vitoriasBar"
                     style={{

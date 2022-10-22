@@ -58,7 +58,7 @@ class Adversarios extends Component {
               !this.state.isLoading && this.state.adversarios.map(function (i) {
                 var totalAdversario = common.getTotalAdversario(meuTime, i);
                 return <div>
-                  <button id='selectTime' onClick={() => buttonClickFunction()} style={{ backgroundColor: Times(Times(i).nomeAtual).backgroundColor, color: Times(Times(i).nomeAtual).letterColor, borderColor: Times(Times(i).nomeAtual).letterColor, borderStyle: 'solid' }}>
+                  <button id='selectTime' onClick={() => buttonClickFunction()} style={{ backgroundColor: Times(Times(i).nomeAtual).backgroundColor, color: Times(Times(i).nomeAtual).letterColor, borderColor: 'white', borderStyle: 'solid' }}>
                     <img src={require('../escudos/' + Times(Times(i).nomeAtual).escudo + '.png')} style={{ verticalAlign: 'middle' }} alt='escudo' height='75' width='75' />
                     <div style={{ paddingTop: '5px', fontSize: '20px' }}>{Times(i).nomeAtual}</div>
                     <div style={{ paddingBottom: '5px', fontSize: '10px' }}>{totalAdversario} {totalAdversario > 1 ? "jogos" : "jogo"}</div>

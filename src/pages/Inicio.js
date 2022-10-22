@@ -1,5 +1,7 @@
 import React from 'react';
 import Times from '../Times';
+import LinhaJogo from '../components/LinhaJogo';
+import Estatisticas from '../components/Estatisticas';
 
 function Inicio(props) {
   return (
@@ -8,7 +10,10 @@ function Inicio(props) {
       <p style={{color: Times(props.meuTime).letterColor}}>
         Eu sou {Times(props.meuTime).nomeAtual}
       </p>
-      <p style={{color: Times(props.meuTime).letterColor}}>{props.jogos}</p>
+      <Estatisticas meuTime={props.meuTime} vitorias={10} empates={10} derrotas={10} total={30} /> {/* mudar parâmetros */}
+      {props.jogos().reverse().map((index) => {
+        return <LinhaJogo jogo={index}/>
+      })}
   </div>
   )
 }

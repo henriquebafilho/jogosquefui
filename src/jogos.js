@@ -485,6 +485,8 @@ function jogos() {
     jogos.push(jogo20220917);
     var jogo20221003 = ["Botafogo", "Palmeiras", 1, 3, "Série A", "2022-10-03", "Nilton Santos", "Luís Castro", ["Tiquinho Soares"], ["Gustavo Scarpa", "Mayke", "Dudu"], "https://www.youtube.com/embed/R8Nd42RBaoQ", false];
     jogos.push(jogo20221003);
+    var jogo20221016 = ["Botafogo", "Internacional", 0, 1, "Série A", "2022-10-16", "Nilton Santos", "Luís Castro", [""], ["Braian Romero"], "https://www.youtube.com/embed/bIU2_RJ6aKs", false];
+    jogos.push(jogo20221016);
 
     jogos.sort(function (a, b) {
         return a[5] < b[5] ? -1 : a[5] > b[5] ? 1 : 0;
