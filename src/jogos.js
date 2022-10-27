@@ -487,6 +487,10 @@ function jogos() {
     jogos.push(jogo20221003);
     var jogo20221016 = ["Botafogo", "Internacional", 0, 1, "Série A", "2022-10-16", "Nilton Santos", "Luís Castro", [""], ["Braian Romero"], "https://www.youtube.com/embed/bIU2_RJ6aKs", false];
     jogos.push(jogo20221016);
+    var jogo20221023 = ["Fluminense", "Botafogo", 2, 2, "Série A", "2022-10-23", "Maracanã", "Luís Castro", ["Paulo Henrique Ganso","Matheus Martins"], ["Eduardo","Jeffinho"], "https://www.youtube.com/embed/64qsfn9vZQU", false];
+    jogos.push(jogo20221023);
+    var jogo20221026 = ["Botafogo", "Red Bull Bragantino", 2, 1, "Série A", "2022-10-26", "Nilton Santos", "Luís Castro", ["Gabriel Pires","Tchê Tchê"], ["Luan Cândido"], "https://www.youtube.com/embed/1Euzs2S5mt8", false];
+    jogos.push(jogo20221026);
 
     jogos.sort(function (a, b) {
         return a[5] < b[5] ? -1 : a[5] > b[5] ? 1 : 0;

@@ -1,10 +1,6 @@
 import Jogos from './jogos';
 import Times from './Times';
 
-const getTotalJogos = () => {
-    return Jogos().length;
-}
-
 const getTotalAdversario = (meuTime, adversario) => {
     var total = 0;
     var jogos = Jogos();
@@ -47,9 +43,8 @@ const getTotalAno = (ano) => {
     return total;
 }
 
-const getVitorias = (meuTime) => {
+const getVitorias = (meuTime, jogos) => {
     var vitorias = 0;
-    var jogos = Jogos();
 
     for (var a in jogos) {
         if (((jogos[a][0] === meuTime) && (jogos[a][2] > jogos[a][3])) ||
@@ -61,9 +56,8 @@ const getVitorias = (meuTime) => {
     return vitorias;
 }
 
-const getEmpates = (meuTime) => {
+const getEmpates = (meuTime, jogos) => {
     var empates = 0;
-    var jogos = Jogos();
 
     for (var a in jogos) {
         if (jogos[a][2] === jogos[a][3] &&
@@ -75,9 +69,8 @@ const getEmpates = (meuTime) => {
     return empates;
 }
 
-const getDerrotas = (meuTime) => {
+const getDerrotas = (meuTime, jogos) => {
     var derrotas = 0;
-    var jogos = Jogos();
 
     for (var a in jogos) {
         if (((jogos[a][0] === meuTime) && (jogos[a][2] < jogos[a][3])) ||
@@ -90,7 +83,6 @@ const getDerrotas = (meuTime) => {
 }
 
 const commonFunctions = {
-    getTotalJogos,
     getTotalAdversario,
     getTotalEstadio,
     getTotalAno,

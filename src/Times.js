@@ -179,7 +179,7 @@ function Times(time, jogo = null) {
                         letterColor = "black";
                   } else if (time === "Red Bull Bragantino") {
                         escudo = "RedBullBragantino";
-                        backgroundColor = "#001c44";
+                        backgroundColor = "#d30a11";
                         letterColor = "white";
                   }
                   break;
@@ -294,8 +294,8 @@ function Times(time, jogo = null) {
             case "Cuiabá":
                   nomeAtual = time;
                   escudo = time;
-                  backgroundColor = "#fde900";
-                  letterColor = "#018036";
+                  backgroundColor = "#018036";
+                  letterColor = "white";
                   break;
             case "Defensa y Justicia":
                   nomeAtual = time;

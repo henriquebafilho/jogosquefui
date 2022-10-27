@@ -1,38 +1,43 @@
 import Times from '../Times';
+import Common from '../common';
 
 function Estatisticas(props) {
     // Calcular vitórias, empates e derrotas de acordo com o array de jogos
+    var total = props.jogos.length;
+    var vitorias = Common.getVitorias(props.meuTime, props.jogos);
+    var empates = Common.getEmpates(props.meuTime, props.jogos);
+    var derrotas = Common.getDerrotas(props.meuTime, props.jogos);
     return (
         <div style={{paddingBottom: '20px', width: '50%'}}>
-            <p style={{ color: Times(props.meuTime).letterColor}}>{props.total} jogo{props.total > 1 ? 's' : ''}</p>
+            <p style={{ color: Times(props.meuTime).letterColor}}>{total} jogo{total > 1 ? 's' : ''}</p>
             <div className='resultsBar'>
                 <div className="vitoriasBar"
                     style={{
-                        width: props.vitorias * 100 / props.total + '%',
-                        borderTopLeftRadius: props.vitorias > 0 ? '10px' : '',
-                        borderBottomLeftRadius: props.vitorias > 0 ? '10px' : '',
-                        borderTopRightRadius: (props.vitorias > 0 && props.empates === 0 && props.derrotas === 0) ? '10px' : '',
-                        borderBottomRightRadius: (props.vitorias > 0 && props.empates === 0 && props.derrotas === 0) ? '10px' : ''
+                        width: vitorias * 100 / total + '%',
+                        borderTopLeftRadius: vitorias > 0 ? '10px' : '',
+                        borderBottomLeftRadius: vitorias > 0 ? '10px' : '',
+                        borderTopRightRadius: (vitorias > 0 && empates === 0 && derrotas === 0) ? '10px' : '',
+                        borderBottomRightRadius: (vitorias > 0 && empates === 0 && derrotas === 0) ? '10px' : ''
                     }}>
-                    {props.vitorias > 0 ? props.vitorias : ""}
+                    {vitorias > 0 ? vitorias : ""}
                 </div>
                 <div className="empatesBar" style={{
-                    width: props.empates * 100 / props.total + '%',
-                    borderTopLeftRadius: (props.vitorias === 0 && props.empates > 0) ? '10px' : '',
-                    borderBottomLeftRadius: (props.vitorias === 0 && props.empates > 0) ? '10px' : '',
-                    borderTopRightRadius: (props.empates > 0 && props.derrotas === 0) ? '10px' : '',
-                    borderBottomRightRadius: (props.empates > 0 && props.derrotas === 0) ? '10px' : ''
+                    width: empates * 100 / total + '%',
+                    borderTopLeftRadius: (vitorias === 0 && empates > 0) ? '10px' : '',
+                    borderBottomLeftRadius: (vitorias === 0 && empates > 0) ? '10px' : '',
+                    borderTopRightRadius: (empates > 0 && derrotas === 0) ? '10px' : '',
+                    borderBottomRightRadius: (empates > 0 && derrotas === 0) ? '10px' : ''
                 }}>
-                    {props.empates > 0 ? props.empates : ""}
+                    {empates > 0 ? empates : ""}
                 </div>
                 <div className="derrotasBar" style={{
-                    width: props.derrotas * 100 / props.total + '%',
-                    borderTopLeftRadius: (props.vitorias === 0 && props.empates === 0 && props.derrotas > 0) ? '10px' : '',
-                    borderBottomLeftRadius: (props.vitorias === 0 && props.empates === 0 && props.derrotas > 0) ? '10px' : '',
-                    borderTopRightRadius: props.derrotas > 0 ? '10px' : '',
-                    borderBottomRightRadius: props.derrotas > 0 ? '10px' : ''
+                    width: derrotas * 100 / total + '%',
+                    borderTopLeftRadius: (vitorias === 0 && empates === 0 && derrotas > 0) ? '10px' : '',
+                    borderBottomLeftRadius: (vitorias === 0 && empates === 0 && derrotas > 0) ? '10px' : '',
+                    borderTopRightRadius: derrotas > 0 ? '10px' : '',
+                    borderBottomRightRadius: derrotas > 0 ? '10px' : ''
                 }}>
-                    {props.derrotas > 0 ? props.derrotas : ""}
+                    {derrotas > 0 ? derrotas : ""}
                 </div>
             </div>
         </div>

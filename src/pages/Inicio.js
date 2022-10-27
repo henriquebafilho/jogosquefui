@@ -10,7 +10,7 @@ function Inicio(props) {
       <p style={{color: Times(props.meuTime).letterColor}}>
         Eu sou {Times(props.meuTime).nomeAtual}
       </p>
-      <Estatisticas meuTime={props.meuTime} vitorias={10} empates={10} derrotas={10} total={30} /> {/* mudar parâmetros */}
+      <Estatisticas meuTime={props.meuTime} jogos={props.jogos()} /* remover os 4 últimos e calculá-los dentro de estatísticas */ vitorias={118} empates={47} derrotas={73} total={238} /> {/* mudar parâmetros */}
       {props.jogos().reverse().map((index) => {
         return <LinhaJogo jogo={index}/>
       })}
