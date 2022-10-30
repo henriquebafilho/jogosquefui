@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Times from '../Times';
 import common from '../common';
+import { Link, Routes, Route, Router } from 'react-router-dom';
+import ViewAdversario from './viewScreens/ViewAdversario';
 
 class Adversarios extends Component {
   constructor(props) {
@@ -15,7 +17,7 @@ class Adversarios extends Component {
   }
 
   async componentDidMount() {
-    this._isMounted = true; 
+    this._isMounted = true;
     this.setState({ isLoading: true })
     await this.getAdversarios();
     this.setState({ isLoading: false })
@@ -47,6 +49,7 @@ class Adversarios extends Component {
   render() {
     const meuTime = this.state.meuTime;
     const buttonClickFunction = () => this.buttonClick();
+    const jogos = this.state.jogos;
     return (
       <div className="App-header" style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }}>
         <h1>Adversários</h1>
@@ -56,12 +59,19 @@ class Adversarios extends Component {
             {this.state.isLoading && <h1>Carregando...</h1>}
             {
               !this.state.isLoading && this.state.adversarios.map(function (i) {
-                var totalAdversario = common.getTotalAdversario(meuTime, i);
+                var totalAdversario = common.getTotalAdversario(meuTime, i, jogos);
                 return <div>
-                  <button id='selectTime' onClick={() => buttonClickFunction()} style={{ backgroundColor: Times(Times(i).nomeAtual).backgroundColor, color: Times(Times(i).nomeAtual).letterColor, borderColor: 'white', borderStyle: 'solid' }}>
-                    <img src={require('../escudos/' + Times(Times(i).nomeAtual).escudo + '.png')} style={{ verticalAlign: 'middle' }} alt='escudo' height='75' width='75' />
-                    <div style={{ paddingTop: '5px', fontSize: '20px' }}>{Times(i).nomeAtual}</div>
-                    <div style={{ paddingBottom: '5px', fontSize: '10px' }}>{totalAdversario} {totalAdversario > 1 ? "jogos" : "jogo"}</div>
+                  <button id='selectTime' onClick={() => buttonClickFunction()} style={{ backgroundColor: Times(Times(i).nomeAtual).backgroundColor, color: Times(Times(i).nomeAtual).letterColor, borderColor: Times(meuTime).backgroundColor === 'white' ? 'black' : 'white', borderStyle: 'solid' }}>
+                    {/* <Router>
+                      <Routes>
+                      <Route path='/viewAdversarios' element={<ViewAdversario meuTime={meuTime} jogos={jogos} adversario={Times(i)}/>} />
+                      </Routes>
+                    </Router> */}
+                    {/* <Link to="/viewAdversarios"> */}
+                      <img src={require('../escudos/' + Times(Times(i).nomeAtual).escudo + '.png')} style={{ verticalAlign: 'middle' }} alt='escudo' height='75' width='75' />
+                      <div style={{ paddingTop: '5px', fontSize: '20px' }}>{Times(i).nomeAtual}</div>
+                      <div style={{ paddingBottom: '5px', fontSize: '10px' }}>{totalAdversario} {totalAdversario > 1 ? "jogos" : "jogo"}</div>
+                    {/* </Link> */}
                   </button>
                 </div>
               })

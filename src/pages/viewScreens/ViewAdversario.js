@@ -1,56 +1,29 @@
-  /* getVitoriasAdversario(adversario) {
-    var vitorias = 0;
-    var jogos = this.state.jogos;
+import React, { Component } from 'react';
+import Times from '../../Times';
+import common from '../../common';
 
-    for (var a in jogos) {
-      if (((jogos[a][0] === this.props.meuTime) && (jogos[a][2] > jogos[a][3]))) {
-        if (Times(jogos()[a][1]).nomeAtual === Times(adversario).nomeAtual) {
-          vitorias += 1;
-        }
-      }
-      if ((jogos[a][1] === this.props.meuTime) && (jogos[a][3] > jogos[a][2])) {
-        if (Times(jogos()[a][0]).nomeAtual === Times(adversario).nomeAtual) {
-          vitorias += 1;
-        }
-      }
+class ViewAdversario extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      meuTime: props.meuTime,
+      jogos: props.jogos(),
     }
-    return vitorias;
-  } */
+  }
 
-  /* getEmpatesAdversario = (adversario) => {
-    var empates = 0;
-    var jogos = this.state.jogos;
+  async componentDidMount() {
+    this._isMounted = true; 
+  }
 
-    for (var a in jogos) {
-      if (((jogos[a][0] === this.props.meuTime) && (jogos[a][2] === jogos[a][3]))) {
-        if (Times(jogos[a][1]).nomeAtual === Times(adversario).nomeAtual) {
-          empates += 1;
-        }
-      }
-      if ((jogos[a][1] === this.props.meuTime) && (jogos[a][3] === jogos[a][2])) {
-        if (Times(jogos[a][0]).nomeAtual === Times(adversario).nomeAtual) {
-          empates += 1;
-        }
-      }
-    }
-    return empates;
-  } */
+  render() {
+    const meuTime = this.state.meuTime;
+    const adversario = this.state.adversario;
+    return (
+      <div className="App-header" style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }}>
+        <h1>{meuTime} x {adversario}</h1>
+      </div>
+    )
+  }
+}
 
-  /* getDerrotasAdversario = (adversario) => {
-    var derrotas = 0;
-    var jogos = this.state.jogos;
-
-    for (var a in jogos) {
-      if (((jogos[a][0] === this.props.meuTime) && (jogos[a][2] < jogos[a][3]))) {
-        if (Times(jogos[a][1]).nomeAtual === Times(adversario).nomeAtual) {
-          derrotas += 1;
-        }
-      }
-      if ((jogos[a][1] === this.props.meuTime) && (jogos[a][3] < jogos[a][2])) {
-        if (Times(jogos[a][0]).nomeAtual === Times(adversario).nomeAtual) {
-          derrotas += 1;
-        }
-      }
-    }
-    return derrotas;
-  } */
+export default ViewAdversario;

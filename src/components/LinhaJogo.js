@@ -3,7 +3,7 @@ import Times from '../Times';
 
 function LinhaJogo(props) {
     return (
-        <div className='divJogo' style={{ background: "linear-gradient(90deg, " + Times(props.jogo[0]).backgroundColor + " 49%, " + Times(props.jogo[1]).backgroundColor + " 52%)", padding: '15px', marginBottom: '10px', width:'700px' }}>
+        <div className='divJogo' style={{ background: "linear-gradient(90deg, " + Times(props.jogo[0]).backgroundColor + " 49%, " + Times(props.jogo[1]).backgroundColor + " 52%)", padding: '15px', marginBottom: '10px', width:'700px', borderColor: Times(props.meuTime).backgroundColor  === 'white' ? 'black' : 'white' }}>
             <p style={{ textShadow: "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000", color:"white" }}>{props.jogo[5]} | {props.jogo[4]} | {props.jogo[6]}</p>
             <div style={{ display: 'inline', fontSize: '25px', color: Times(props.jogo[0]).letterColor, textShadow: Times(props.jogo[0]).letterColor === "white" ? "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000" : "none", paddingRight: '5px' }}>
                 <p style={{ display: 'inline-block', verticalAlign: 'middle', paddingRight: '5px' }}>{props.jogo[0].toUpperCase() + ' '}</p>

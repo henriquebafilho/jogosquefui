@@ -10,7 +10,7 @@ function Estatisticas(props) {
     return (
         <div style={{paddingBottom: '20px', width: '50%'}}>
             <p style={{ color: Times(props.meuTime).letterColor}}>{total} jogo{total > 1 ? 's' : ''}</p>
-            <div className='resultsBar'>
+            <div className='resultsBar' style={{ borderColor: Times(props.meuTime).backgroundColor  === 'white' ? 'black' : 'white'}}>
                 <div className="vitoriasBar"
                     style={{
                         width: vitorias * 100 / total + '%',

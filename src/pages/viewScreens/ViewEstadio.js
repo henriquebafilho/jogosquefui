@@ -1,6 +1,4 @@
-  /* ESTATÍSTICAS */
-
-  function getVitoriasEstadio(estadio) {
+/*   function getVitoriasEstadio(estadio) {
     var vitorias = 0;
     for (var a in jogos()) {
       if ((jogos()[a][6] === estadio)) {
@@ -36,3 +34,4 @@
     }
     return derrotas;
   }
+ */

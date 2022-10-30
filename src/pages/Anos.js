@@ -46,6 +46,7 @@ class Anos extends Component {
   render() {
     const meuTime = this.state.meuTime;
     const buttonClickFunction = () => this.buttonClick();
+    const jogos = this.state.jogos;
     return (
       <div className="App-header" style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }}>
         <h1>Anos</h1>
@@ -55,7 +56,7 @@ class Anos extends Component {
             {this.state.isLoading && <h1>Carregando...</h1>}
             {
               !this.state.isLoading && this.state.anos.map(function (i) {
-                var totalAno = common.getTotalAno(i);
+                var totalAno = common.getTotalAno(i, jogos);
                 return <div>
                   <button id='selectAno' onClick={() => buttonClickFunction()} style={{ borderColor: Times(meuTime).letterColor, borderStyle: 'solid', backgroundColor: Times(meuTime).backgroundColor, color: Times(meuTime).letterColor }}>
                     <div style={{ display: 'inline', padding: '10px', fontSize: '20px' }}>{i}</div>

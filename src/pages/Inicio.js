@@ -12,7 +12,7 @@ function Inicio(props) {
       </p>
       <Estatisticas meuTime={props.meuTime} jogos={props.jogos()} /* remover os 4 últimos e calculá-los dentro de estatísticas */ vitorias={118} empates={47} derrotas={73} total={238} /> {/* mudar parâmetros */}
       {props.jogos().reverse().map((index) => {
-        return <LinhaJogo jogo={index}/>
+        return <LinhaJogo meuTime={props.meuTime} jogo={index}/>
       })}
   </div>
   )

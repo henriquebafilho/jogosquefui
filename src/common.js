@@ -1,9 +1,7 @@
-import Jogos from './jogos';
 import Times from './Times';
 
-const getTotalAdversario = (meuTime, adversario) => {
+const getTotalAdversario = (meuTime, adversario, jogos) => {
     var total = 0;
-    var jogos = Jogos();
     var adversarioAtual = Times(adversario).nomeAtual;
 
     for (var a in jogos) {
@@ -16,9 +14,8 @@ const getTotalAdversario = (meuTime, adversario) => {
     return total;
 }
 
-const getTotalEstadio = (estadio) => {
+const getTotalEstadio = (estadio, jogos) => {
     var total = 0;
-    var jogos = Jogos();
 
     for (var a in jogos) {
         if (jogos[a][6] === estadio) {
@@ -29,9 +26,8 @@ const getTotalEstadio = (estadio) => {
     return total;
 }
 
-const getTotalAno = (ano) => {
+const getTotalAno = (ano, jogos) => {
     var total = 0;
-    var jogos = Jogos();
 
     for (var a in jogos) {
         const currentDate = new Date(jogos[a][5]);

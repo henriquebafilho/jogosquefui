@@ -40,6 +40,7 @@ class Estadios extends Component {
   render() {
     const meuTime = this.state.meuTime;
     const buttonClickFunction = () => this.buttonClick();
+    const jogos = this.state.jogos;
     return (
       <div className="App-header" style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }}>
         <h1>Estádios</h1>
@@ -51,7 +52,7 @@ class Estadios extends Component {
           {this.state.isLoading && <h1>Carregando...</h1>}
             {
               !this.state.isLoading && this.state.estadios.map(function (i) {
-                var totalEstadio = common.getTotalEstadio(i);
+                var totalEstadio = common.getTotalEstadio(i, jogos);
                 return <div>
                   <button id='selectEstadio' onClick={() => buttonClickFunction()} style={{ borderColor: Times(meuTime).letterColor, borderStyle: 'solid', backgroundColor: Times(meuTime).backgroundColor, color: Times(meuTime).letterColor }}>
                     <div style={{ display: 'inline', padding: '10px', fontSize: '20px' }}>{i}</div>
