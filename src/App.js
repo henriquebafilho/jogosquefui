@@ -9,10 +9,10 @@ import Estadios from './pages/Estadios.js';
 import ViewAdversario from './pages/viewScreens/ViewAdversario';
 import ViewAno from './pages/viewScreens/ViewAno';
 import ViewEstadio from './pages/viewScreens/ViewEstadio';
-import Jogos from './VascoJogos'
+import Jogos from './FluminenseJogos'
 
 function App() {
-  var meuTime = "Vasco";
+  var meuTime = "Fluminense";
   return (
     <>
       <Router>
