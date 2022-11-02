@@ -27,11 +27,12 @@ function Navbar (props){
                         </Link>
                     </li>
                     {SidebarData.map((item, index) => {
+                        var meuTime = props.meuTime;
                         return (
                             <li key={index} className={item.cName}>
                                 <Link to={item.path}>
                                     {item.icon}
-                                    <span>{item.title}</span>
+                                    <span>{item.title} {item.title === "Todos os Jogos" ? " do " + meuTime : ""}</span>
                                 </Link>
                             </li>
                         )
