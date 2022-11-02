@@ -438,6 +438,18 @@ function Times(time, jogo = null) {
                   backgroundColor = "#d30a11";
                   letterColor = "black";
                   break;
+            case "Juazeirense":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#ffff00";
+                  letterColor = "#d30a11";
+                  break;
+            case "Junior Barranquilla":
+                  nomeAtual = time;
+                  escudo = "JuniorBarranquilla";
+                  backgroundColor = "#d30a11";
+                  letterColor = "white";
+                  break;
             case "Juventude":
                   nomeAtual = time;
                   escudo = time;
@@ -462,6 +474,12 @@ function Times(time, jogo = null) {
                   backgroundColor = "#d30a11";
                   letterColor = "white";
                   break;
+            case "Londrina":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#1b93d1";
+                  letterColor = "white";
+                  break;
             case "Luverdense":
                   nomeAtual = time;
                   escudo = time;
@@ -479,6 +497,12 @@ function Times(time, jogo = null) {
                   escudo = time;
                   backgroundColor = "#fde900";
                   letterColor = "#13007c";
+                  break;
+            case "Millonarios":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#003a94";
+                  letterColor = "white";
                   break;
             case "Mirassol":
                   nomeAtual = time;
@@ -557,6 +581,12 @@ function Times(time, jogo = null) {
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "black";
+                  letterColor = "white";
+                  break;
+            case "Oriente Petrolero":
+                  nomeAtual = time;
+                  escudo = "OrientePetrolero";
+                  backgroundColor = "#007c3a";
                   letterColor = "white";
                   break;
             case "Palmeiras":
@@ -729,10 +759,28 @@ function Times(time, jogo = null) {
                   backgroundColor = "#0d80bf";
                   letterColor = "white";
                   break;
+            case "Talleres":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#040d2d";
+                  letterColor = "white";
+                  break;
             case "Taubaté":
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#003a94";
+                  letterColor = "white";
+                  break;
+            case "Tolima":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#871518";
+                  letterColor = "#e6bc15";
+                  break;
+            case "Tombense":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#d30a11";
                   letterColor = "white";
                   break;
             case "The Strongest":
@@ -740,6 +788,18 @@ function Times(time, jogo = null) {
                   escudo = "TheStrongest";
                   backgroundColor = "#ffcc00";
                   letterColor = "black";
+                  break;
+            case "Unión":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#d30a11";
+                  letterColor = "white";
+                  break;
+            case "Universidad Católica":
+                  nomeAtual = time;
+                  escudo = "UniversidadCatólica";
+                  backgroundColor = "#1958a8";
+                  letterColor = "white";
                   break;
             case "Uruguai":
                   nomeAtual = time;
@@ -753,6 +813,12 @@ function Times(time, jogo = null) {
                   escudo = time;
                   backgroundColor = "white";
                   letterColor = "black";
+                  break;
+            case "Vélez Sarsfield":
+                  nomeAtual = time;
+                  escudo = "VélezSarsfield";
+                  backgroundColor = "#003a94";
+                  letterColor = "white";
                   break;
             case "Vila Nova":
                   nomeAtual = time;

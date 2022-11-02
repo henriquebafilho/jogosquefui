@@ -20,16 +20,16 @@ function App() {
 
   switch (meuTime) {
     case "Flamengo":
-      todosOsJogos = FlamengoJogos();
+      todosOsJogos = FlamengoJogos().reverse();
       break;
     case "Fluminense":
-      todosOsJogos = FluminenseJogos();
+      todosOsJogos = FluminenseJogos().reverse();
       break;
     case "Vasco":
-      todosOsJogos = VascoJogos();
+      todosOsJogos = VascoJogos().reverse();
       break;
     default:
-      todosOsJogos = Jogos();
+      todosOsJogos = Jogos().reverse();
       break;
   }
 
