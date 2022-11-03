@@ -2,6 +2,28 @@ import React from 'react';
 import Times from '../Times';
 
 function LinhaJogo(props) {
+
+    function converteData(data) {
+        var array = data.split("-");
+        var novaData = array[2] + "/" + array[1] + "/" + array[0];
+        
+        return novaData;
+    }
+    
+    function converteDia(data) {
+        data = new Date(data);
+        var dia = data.getDay();
+        switch (dia) {
+            case 0: return "Seg";
+            case 1: return "Ter";
+            case 2: return "Qua";
+            case 3: return "Qui";
+            case 4: return "Sex";
+            case 5: return "Sáb";
+            case 6: return "Dom";
+        }
+    }
+
     return (
         <div className='divJogo' style={{ 
             background: "linear-gradient(90deg, " + Times(props.jogo[0]).backgroundColor + " 49%, " + Times(props.jogo[1]).backgroundColor + " 52%)", 
@@ -9,7 +31,7 @@ function LinhaJogo(props) {
             marginBottom: '10px', 
             width:'700px', 
             borderColor: Times(props.meuTime).backgroundColor  === 'white' ? 'black' : 'white'}}>
-            <p style={{ textShadow: "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000", color:"white" }}>{props.jogo[5]} | {props.jogo[4]} | {props.jogo[6]}</p>
+            <p style={{ textShadow: "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000", color:"white" }}>{converteDia(props.jogo[5])}, {converteData(props.jogo[5])} | {props.jogo[4]} | {props.jogo[6]}</p>
             <div style={{ display: 'inline', fontSize: '25px', color: Times(props.jogo[0]).letterColor, textShadow: Times(props.jogo[0]).letterColor === "white" ? "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000" : "none", paddingRight: '5px' }}>
                 <p style={{ display: 'inline-block', verticalAlign: 'middle', paddingRight: '5px' }}>{props.jogo[0].toUpperCase() + ' '}</p>
                 <img src={require('../escudos/' + Times(props.jogo[0]).escudo + '.png')} style={{ display: 'inline-block', verticalAlign: 'middle', width: "3em", height: "3em" }} alt={props.jogo[0]} />
