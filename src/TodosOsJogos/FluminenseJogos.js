@@ -3,7 +3,7 @@ function FluminenseJogos() {
 
     jogos.push(["Red Bull Bragantino", "Fluminense", 0, 0, "Brasileirão", "2022-11-13", "Nabi Abi Chedid"])
     jogos.push(["Fluminense", "Goiás", 0, 0, "Brasileirão", "2022-11-09", "Maracanã"])
-    jogos.push(["Fluminense", "São Paulo", 0, 0, "Brasileirão", "2022-11-05", "Maracanã"])
+    jogos.push(["Fluminense", "São Paulo", 3, 1, "Brasileirão", "2022-11-05", "Maracanã"])
     jogos.push(["Ceará", "Fluminense", 0, 1, "Brasileirão", "2022-10-31", "Castelão-CE", [""], ["Germán Cano"], "https://www.youtube.com/embed/fY-qNT74i_I"])
     jogos.push(["Corinthians", "Fluminense", 0, 2, "Brasileirão", "2022-10-26", "Neo Química Arena"])
     jogos.push(["Fluminense", "Botafogo", 2, 2, "Brasileirão", "2022-10-23", "Maracanã"])

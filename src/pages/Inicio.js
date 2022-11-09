@@ -6,10 +6,10 @@ import Estatisticas from '../components/Estatisticas';
 function Inicio(props) {
   return (
     <div className="App-header" style={{ backgroundColor: Times(props.meuTime).backgroundColor }}>
-      <img src={require('../escudos/' + Times(props.meuTime).escudo + '.png')} className="App-logo" alt={"Escudo do " + props.meuTime} />
       <p style={{ color: Times(props.meuTime).letterColor }}>
         Eu sou {Times(props.meuTime).nomeAtual}
       </p>
+      <img src={require('../escudos/' + Times(props.meuTime).escudo + '.png')} className="App-logo" alt={"Escudo do " + props.meuTime} />
       {props.jogos().length > 0 && <Estatisticas meuTime={props.meuTime} jogos={props.jogos()} />}
       {props.jogos().length > 0 ? props.jogos().reverse().map((index) => {
         return <LinhaJogo meuTime={props.meuTime} jogo={index} />

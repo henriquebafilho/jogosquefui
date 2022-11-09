@@ -3,8 +3,8 @@ function FlamengoJogos() {
 
     jogos.push(["Flamengo", "Avaí", 0, 0, "Brasileirão", "2022-11-13", "Maracanã"]);
     jogos.push(["Juventude", "Flamengo", 0, 0, "Brasileirão", "2022-11-09", "Alfredo Jaconi"]);
-    jogos.push(["Coritiba", "Flamengo", 0, 0, "Brasileirão", "2022-11-06", "Couto Pereira"]);
-    jogos.push(["Flamengo", "Corinthians", 0, 0, "Brasileirão", "2022-11-02", "Maracanã"]);
+    jogos.push(["Coritiba", "Flamengo", 0, 1, "Brasileirão", "2022-11-06", "Couto Pereira"]);
+    jogos.push(["Flamengo", "Corinthians", 1, 2, "Brasileirão", "2022-11-02", "Maracanã"]);
     jogos.push(["Flamengo", "Athletico-PR", 1, 0, "Libertadores", "2022-10-29", "Monumental Isidro Romero Carbo"]);
     jogos.push(["Flamengo", "Santos", 3, 2, "Brasileirão", "2022-10-25", "Maracanã"]);
     jogos.push(["América-MG", "Flamengo", 1, 2, "Brasileirão", "2022-10-22", "Independência"]);

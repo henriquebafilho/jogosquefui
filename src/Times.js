@@ -88,7 +88,7 @@ function Times(time, jogo = null) {
             case "Audax-SP":
                   nomeAtual = time;
                   escudo = time;
-                  backgroundColor = "green";
+                  backgroundColor = "#d30a11";
                   letterColor = "white";
                   break;
             case "Audax Italiano":
@@ -107,6 +107,12 @@ function Times(time, jogo = null) {
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#0188d6";
+                  letterColor = "white";
+                  break;
+            case "Banfield":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#03953f";
                   letterColor = "white";
                   break;
             case "Bangu":

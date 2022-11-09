@@ -1,7 +1,7 @@
 function VascoJogos() {
     var jogos = [];
 
-    jogos.push(["Ituano", "Vasco", 0, 0, "Série B", "2022-11-06", "Novelli Júnior"]);
+    jogos.push(["Ituano", "Vasco", 0, 1, "Série B", "2022-11-06", "Novelli Júnior"]);
     jogos.push(["Vasco", "Sampaio Corrêa", 2, 3, "Série B", "2022-10-27", "São Januário"]);
     jogos.push(["Vasco", "Criciúma", 2, 1, "Série B", "2022-10-22", "São Januário"]);
     jogos.push(["Sport", "Vasco", 1, 1, "Série B", "2022-10-16", "Ilha do Retiro"]);

@@ -487,12 +487,18 @@ function jogos() {
     jogos.push(jogo20221003);
     var jogo20221016 = ["Botafogo", "Internacional", 0, 1, "Série A", "2022-10-16", "Nilton Santos", "Luís Castro", [""], ["Braian Romero"], "https://www.youtube.com/embed/bIU2_RJ6aKs"];
     jogos.push(jogo20221016);
-    var jogo20221023 = ["Fluminense", "Botafogo", 2, 2, "Série A", "2022-10-23", "Maracanã", "Luís Castro", ["Paulo Henrique Ganso","Matheus Martins"], ["Eduardo","Jeffinho"], "https://www.youtube.com/embed/64qsfn9vZQU"];
+    var jogo20221023 = ["Fluminense", "Botafogo", 2, 2, "Série A", "2022-10-23", "Maracanã", "Luís Castro", ["Paulo Henrique Ganso", "Matheus Martins"], ["Eduardo", "Jeffinho"], "https://www.youtube.com/embed/64qsfn9vZQU"];
     jogos.push(jogo20221023);
-    var jogo20221026 = ["Botafogo", "Red Bull Bragantino", 2, 1, "Série A", "2022-10-26", "Nilton Santos", "Luís Castro", ["Gabriel Pires","Tchê Tchê"], ["Luan Cândido"], "https://www.youtube.com/embed/1Euzs2S5mt8"];
+    var jogo20221026 = ["Botafogo", "Red Bull Bragantino", 2, 1, "Série A", "2022-10-26", "Nilton Santos", "Luís Castro", ["Gabriel Pires", "Tchê Tchê"], ["Luan Cândido"], "https://www.youtube.com/embed/1Euzs2S5mt8"];
     jogos.push(jogo20221026);
-    var jogo20221101 = ["Botafogo", "Cuiabá", 0, 2, "Série A", "2022-11-01", "Nilton Santos", "Luís Castro", [""], ["André Luís","Deyverson"], "https://www.youtube.com/embed/xdGBb3xmn3Y"];
+    var jogo20221101 = ["Botafogo", "Cuiabá", 0, 2, "Série A", "2022-11-01", "Nilton Santos", "Luís Castro", [""], ["André Luís", "Deyverson"], "https://www.youtube.com/embed/xdGBb3xmn3Y"];
     jogos.push(jogo20221101);
+    var jogo20221107 = ["Atlético-MG", "Botafogo", 0, 2, "Série A", "2022-11-07", "Mineirão", "Luís Castro", [""], ["Victor Sá", "Tiquinho Soares"], "https://www.youtube.com/embed/Y9DcfdXCElQ"];
+    jogos.push(jogo20221107);
+    var jogo20221110 = ["Botafogo", "Santos", 0, 0, "Série A", "2022-11-10", "Nilton Santos", "Luís Castro", [""], [""], ""];
+    jogos.push(jogo20221110);
+    var jogo20221113 = ["Athletico-PR", "Botafogo", 0, 0, "Série A", "2022-11-13", "Arena da Baixada", "Luís Castro", [""], [""], ""];
+    jogos.push(jogo20221113);
 
     jogos.sort(function (a, b) {
         return a[5] < b[5] ? -1 : a[5] > b[5] ? 1 : 0;

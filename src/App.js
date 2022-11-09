@@ -13,12 +13,16 @@ import Jogos from './meusJogos';
 import FlamengoJogos from './TodosOsJogos/FlamengoJogos';
 import FluminenseJogos from './TodosOsJogos/FluminenseJogos';
 import VascoJogos from './TodosOsJogos/VascoJogos';
+import BotafogoJogos from './TodosOsJogos/BotafogoJogos';
 
 function App() {
   var meuTime = "Botafogo";
   var todosOsJogos = [];
 
   switch (meuTime) {
+    /* case "Botafogo":
+      todosOsJogos = BotafogoJogos().reverse();
+      break; */
     case "Flamengo":
       todosOsJogos = FlamengoJogos().reverse();
       break;
