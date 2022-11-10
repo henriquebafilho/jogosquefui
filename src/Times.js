@@ -7,6 +7,12 @@ function Times(time, jogo = null) {
         } */
 
       switch (time) {
+            case "ABC":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "black";
+                  letterColor = "white";
+                  break;
             case "Água Santa":
                   nomeAtual = time;
                   escudo = "ÁguaSanta";
@@ -197,7 +203,7 @@ function Times(time, jogo = null) {
                   break;
             case "Brasil de Pelotas":
                   nomeAtual = time;
-                  escudo = time;
+                  escudo = "BrasildePelotas";
                   backgroundColor = "#d30a11";
                   letterColor = "black";
                   break;
@@ -522,6 +528,12 @@ function Times(time, jogo = null) {
                   backgroundColor = "#d30a11";
                   letterColor = "white";
                   break;
+            case "Moto Club":
+                  nomeAtual = time;
+                  escudo = "MotoClub";
+                  backgroundColor = "#d30a11";
+                  letterColor = "black";
+                  break;
             case "Montevideo Wanderers":
                   nomeAtual = time;
                   escudo = "MontevideoWanderers";
@@ -665,6 +677,12 @@ function Times(time, jogo = null) {
                   nomeAtual = time;
                   escudo = "RedBullBrasil";
                   backgroundColor = "#d30a11";
+                  letterColor = "white";
+                  break;
+            case "Remo":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#161923";
                   letterColor = "white";
                   break;
             case "Resende":

@@ -20,9 +20,9 @@ function App() {
   var todosOsJogos = [];
 
   switch (meuTime) {
-    /* case "Botafogo":
+    case "Botafogo":
       todosOsJogos = BotafogoJogos().reverse();
-      break; */
+      break;
     case "Flamengo":
       todosOsJogos = FlamengoJogos().reverse();
       break;

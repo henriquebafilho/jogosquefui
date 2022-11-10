@@ -32,7 +32,7 @@ function Navbar (props){
                             <li key={index} className={item.cName}>
                                 <Link to={item.path}>
                                     {item.icon}
-                                    <span>{item.title} {item.title === "Todos os Jogos" ? " do " + meuTime : ""}</span>
+                                    <span>{item.title === "Todos os Jogos" ? "Jogos do " + meuTime : item.title}</span>
                                 </Link>
                             </li>
                         )
