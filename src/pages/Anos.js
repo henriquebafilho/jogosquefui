@@ -58,9 +58,9 @@ class Anos extends Component {
               !this.state.isLoading && this.state.anos.map(function (i) {
                 var totalAno = common.getTotalAno(i, jogos);
                 return <div>
-                  <button id='selectAno' onClick={() => buttonClickFunction()} style={{ borderColor: Times(meuTime).letterColor, borderStyle: 'solid', backgroundColor: Times(meuTime).backgroundColor, color: Times(meuTime).letterColor }}>
-                    <div style={{ display: 'inline', padding: '10px', fontSize: '20px' }}>{i}</div>
-                    <div style={{ paddingBottom: '5px', fontSize: '10px' }}>{totalAno} {totalAno > 1 ? "jogos" : "jogo"}</div>
+                  <button id='selectAno' onClick={() => buttonClickFunction()} style={{ borderColor: Times(meuTime).letterColor, borderStyle: 'solid', backgroundColor: Times(meuTime).backgroundColor, color: Times(meuTime).letterColor, width: '60vw' }}>
+                    <div style={{ display: 'inline', padding: '10px', fontSize: '40px' }}>{i}</div>
+                    <div style={{ paddingBottom: '5px', fontSize: '15px' }}>{totalAno} {totalAno > 1 ? "jogos" : "jogo"}</div>
                   </button>
                 </div>
               })

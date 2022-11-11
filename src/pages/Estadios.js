@@ -54,9 +54,9 @@ class Estadios extends Component {
               !this.state.isLoading && this.state.estadios.map(function (i) {
                 var totalEstadio = common.getTotalEstadio(i, jogos);
                 return <div>
-                  <button id='selectEstadio' onClick={() => buttonClickFunction()} style={{ borderColor: Times(meuTime).letterColor, borderStyle: 'solid', backgroundColor: Times(meuTime).backgroundColor, color: Times(meuTime).letterColor }}>
-                    <div style={{ display: 'inline', padding: '10px', fontSize: '20px' }}>{i}</div>
-                    <div style={{ paddingBottom: '5px', fontSize: '10px' }}>{totalEstadio} {totalEstadio > 1 ? "jogos" : "jogo"}</div>
+                  <button id='selectEstadio' onClick={() => buttonClickFunction()} style={{ borderColor: Times(meuTime).letterColor, borderStyle: 'solid', backgroundColor: Times(meuTime).backgroundColor, color: Times(meuTime).letterColor, width: '60vw' }}>
+                    <div style={{ display: 'inline', padding: '10px', fontSize: '40px' }}>{i}</div>
+                    <div style={{ paddingBottom: '5px', fontSize: '15px' }}>{totalEstadio} {totalEstadio > 1 ? "jogos" : "jogo"}</div>
                   </button>
                 </div>
               })

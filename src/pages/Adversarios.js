@@ -60,8 +60,8 @@ class Adversarios extends Component {
             {
               !this.state.isLoading && this.state.adversarios.map(function (i) {
                 var totalAdversario = common.getTotalAdversario(meuTime, i, jogos);
-                return <div>
-                  <button id='selectTime' onClick={() => buttonClickFunction()} style={{ backgroundColor: Times(Times(i).nomeAtual).backgroundColor, color: Times(Times(i).nomeAtual).letterColor, borderColor: Times(meuTime).backgroundColor === 'white' ? 'black' : 'white', borderStyle: 'solid' }}>
+                return <div >
+                  <button id='selectTime' onClick={() => buttonClickFunction()} style={{ backgroundColor: Times(Times(i).nomeAtual).backgroundColor, color: Times(Times(i).nomeAtual).letterColor, borderColor: Times(meuTime).backgroundColor === 'white' ? 'black' : 'white', borderStyle: 'solid', width: '60vw' }}>
                     {/* <Router>
                       <Routes>
                       <Route path='/viewAdversarios' element={<ViewAdversario meuTime={meuTime} jogos={jogos} adversario={Times(i)}/>} />
