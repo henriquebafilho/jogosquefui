@@ -127,6 +127,12 @@ function Times(time, jogo = null) {
                   backgroundColor = "#d30a11";
                   letterColor = "white";
                   break;
+            case "Barra Mansa":
+                  nomeAtual = time;
+                  escudo = "BarraMansa";
+                  backgroundColor = "#003a94";
+                  letterColor = "white";
+                  break;
             case "Barcelona de Guayaquil":
                   nomeAtual = time;
                   escudo = "BarcelonadeGuayaquil";
@@ -183,6 +189,12 @@ function Times(time, jogo = null) {
                   backgroundColor = "#d30a11";
                   letterColor = "white";
                   break;
+            case "Botafogo-PB":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "black";
+                  letterColor = "white";
+                  break;
             case "Bragantino": case "Red Bull Bragantino":
                   nomeAtual = "Red Bull Bragantino";
                   if (time === "Bragantino") {
@@ -224,6 +236,12 @@ function Times(time, jogo = null) {
                   escudo = time;
                   backgroundColor = "#d30a11";
                   letterColor = "black";
+                  break;
+            case "Capivariano":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#d30a11";
+                  letterColor = "white";
                   break;
             case "Caxias":
                   nomeAtual = time;
@@ -286,6 +304,12 @@ function Times(time, jogo = null) {
                   letterColor = "white";
                   break;
             case "Coritiba":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#006437";
+                  letterColor = "white";
+                  break;
+            case "Coruripe":
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#006437";
@@ -806,6 +830,12 @@ function Times(time, jogo = null) {
                   escudo = time;
                   backgroundColor = "#003a94";
                   letterColor = "white";
+                  break;
+            case "Tigres do Brasil":
+                  nomeAtual = time;
+                  escudo = "TigresdoBrasil";
+                  backgroundColor = "#fde900";
+                  letterColor = "#048439";
                   break;
             case "Tolima":
                   nomeAtual = time;

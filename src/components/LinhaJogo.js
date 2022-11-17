@@ -14,13 +14,13 @@ function LinhaJogo(props) {
         data = new Date(data);
         var dia = data.getDay();
         switch (dia) {
-            case 0: return "Seg";
-            case 1: return "Ter";
-            case 2: return "Qua";
-            case 3: return "Qui";
-            case 4: return "Sex";
-            case 5: return "Sáb";
-            case 6: return "Dom";
+            case 0: return "Segunda";
+            case 1: return "Terça";
+            case 2: return "Quarta";
+            case 3: return "Quinta";
+            case 4: return "Sexta";
+            case 5: return "Sábado";
+            case 6: return "Domingo";
         }
     }/* 
     var dia = new Date().toLocaleDateString();
