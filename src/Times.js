@@ -216,7 +216,19 @@ function Times(time, jogo = null) {
             case "Cabofriense":
                   nomeAtual = time;
                   escudo = time;
-                  backgroundColor = "#0b9c54";
+                  backgroundColor = "#00913c";
+                  letterColor = "white";
+                  break;
+            case "Campinense":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#d30a11";
+                  letterColor = "black";
+                  break;
+            case "Caxias":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#7B1138";
                   letterColor = "white";
                   break;
             case "Ceará":
