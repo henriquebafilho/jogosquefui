@@ -1,8 +1,8 @@
 function jogos() {
     var jogos = [];
 
-    jogos.push(["Athletico-PR", "Botafogo", 0, 0, "Brasileirão", "2022-11-13", "Arena da Baixada"]);
-    jogos.push(["Botafogo", "Santos", 0, 0, "Brasileirão", "2022-11-10", "Nilton Santos"]);
+    jogos.push(["Athletico-PR", "Botafogo", 3, 0, "Brasileirão", "2022-11-13", "Arena da Baixada"]);
+    jogos.push(["Botafogo", "Santos", 3, 0, "Brasileirão", "2022-11-10", "Nilton Santos"]);
     jogos.push(["Atlético-MG", "Botafogo", 0, 2, "Brasileirão", "2022-11-07", "Mineirão"]);
     jogos.push(["Botafogo", "Cuiabá", 0, 2, "Brasileirão", "2022-11-01", "Nilton Santos"]);
     jogos.push(["Botafogo", "Red Bull Bragantino", 2, 1, "Brasileirão", "2022-10-26", "Nilton Santos"]);
