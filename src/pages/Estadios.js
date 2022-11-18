@@ -7,7 +7,7 @@ class Estadios extends Component {
     super(props);
     this.state = {
       meuTime: props.meuTime,
-      jogos: props.jogos(),
+      jogos: props.jogos,
       estadios: [],
       isLoading: false
     }

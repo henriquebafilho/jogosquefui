@@ -8,7 +8,7 @@ class Anos extends Component {
     super(props);
     this.state = {
       meuTime: props.meuTime,
-      jogos: props.jogos(),
+      jogos: props.jogos,
       anos: [],
       isLoading: false,
       viewAno: false

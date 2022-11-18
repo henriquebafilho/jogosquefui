@@ -8,7 +8,7 @@ class Adversarios extends Component {
     super(props);
     this.state = {
       meuTime: props.meuTime,
-      jogos: props.jogos(),
+      jogos: props.jogos,
       adversarios: [],
       isLoading: false,
       clicked: false,
@@ -64,10 +64,10 @@ class Adversarios extends Component {
 
   render() {
     const meuTime = this.state.meuTime;
-    const buttonClickFunction = (adversario) => this.buttonClick(adversario);
     const jogos = this.state.jogos;
+    const buttonClickFunction = (adversario) => this.buttonClick(adversario);
     return (
-      this.state.clicked ? <ViewAdversario meuTime={this.props.meuTime} jogos={this.state.jogosAdversario} adversario={this.state.adversarioAtual} /> :
+      this.state.clicked ? <ViewAdversario meuTime={this.props.meuTime} jogos={jogos} jogosAdversario={this.state.jogosAdversario} adversario={this.state.adversarioAtual} /> :
         (<div className="App-header" style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }}>
           <h1>Adversários</h1>
           <br />
