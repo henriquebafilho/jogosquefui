@@ -333,6 +333,12 @@ function Times(time, jogo = null) {
                   backgroundColor = "#003a94";
                   letterColor = "white";
                   break;
+            case "Crystal Palace":
+                  nomeAtual = time;
+                  escudo = "CrystalPalace";
+                  backgroundColor = "#003a94";
+                  letterColor = "white";
+                  break;
             case "CSA":
                   nomeAtual = time;
                   escudo = time;
@@ -366,7 +372,7 @@ function Times(time, jogo = null) {
             case "Deportivo Quito":
                   nomeAtual = time;
                   escudo = "DeportivoQuito";
-                  backgroundColor = "#073756";
+                  backgroundColor = "#003a94";
                   letterColor = "white";
                   break;
             case "Deportivo Tachira":
@@ -374,6 +380,12 @@ function Times(time, jogo = null) {
                   escudo = "DeportivoTachira";
                   backgroundColor = "#f2d902";
                   letterColor = "black";
+                  break;
+            case "Duque de Caxias":
+                  nomeAtual = time;
+                  escudo = "DuquedeCaxias";
+                  backgroundColor = "#003a94";
+                  letterColor = "#f48221";
                   break;
             case "Estudiantes":
                   nomeAtual = time;
@@ -703,6 +715,12 @@ function Times(time, jogo = null) {
                   backgroundColor = "#d30a11";
                   letterColor = "#fdd120";
                   break;
+            case "Quissamã":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#003a94";
+                  letterColor = "white";
+                  break;
             case "Real Garcilaso":
                   nomeAtual = time;
                   escudo = "RealGarcilaso";
@@ -758,6 +776,12 @@ function Times(time, jogo = null) {
                   backgroundColor = "#fde900";
                   letterColor = "#048439";
                   break;
+            case "San Lorenzo":
+                  nomeAtual = time;
+                  escudo = "SanLorenzo";
+                  backgroundColor = "#003a94";
+                  letterColor = "white";
+                  break;
             case "Santa Cruz":
                   nomeAtual = time;
                   escudo = "SantaCruz";
@@ -800,6 +824,18 @@ function Times(time, jogo = null) {
                   escudo = "SãoPaulo";
                   backgroundColor = "#d30a11";
                   letterColor = "white";
+                  break;
+            case "Shandong Luneng":
+                  nomeAtual = time;
+                  escudo = "ShandongLuneng";
+                  backgroundColor = "#ff6600";
+                  letterColor = "white";
+                  break;
+            case "Sobradinho":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "black";
+                  letterColor = "yellow";
                   break;
             case "Sol de America":
                   nomeAtual = time;
@@ -849,6 +885,12 @@ function Times(time, jogo = null) {
                   backgroundColor = "#d30a11";
                   letterColor = "white";
                   break;
+            case "Treze":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "white";
+                  letterColor = "black";
+                  break;
             case "The Strongest":
                   nomeAtual = time;
                   escudo = "TheStrongest";
@@ -860,6 +902,12 @@ function Times(time, jogo = null) {
                   escudo = time;
                   backgroundColor = "#d30a11";
                   letterColor = "white";
+                  break;
+            case "Unión Española":
+                  nomeAtual = time;
+                  escudo = "UniónEspañola";
+                  backgroundColor = "#d30a11";
+                  letterColor = "yellow";
                   break;
             case "Universidad Católica":
                   nomeAtual = time;

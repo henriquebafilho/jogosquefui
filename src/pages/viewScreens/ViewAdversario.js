@@ -16,6 +16,7 @@ class ViewAdversario extends Component {
 
   async componentDidMount() {
     this._isMounted = true;
+    window.scrollTo(0, 0);
   }
 
   buttonClick = async () => {
@@ -24,7 +25,6 @@ class ViewAdversario extends Component {
 
   render() {
     const meuTime = this.state.meuTime;
-    const jogos = this.state.jogos;
     const buttonClickFunction = () => this.buttonClick();
     return (
       this.state.clicked ? <Adversarios meuTime={meuTime} jogos={this.props.jogos} /> :

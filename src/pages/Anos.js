@@ -11,13 +11,16 @@ class Anos extends Component {
       jogos: props.jogos,
       anos: [],
       isLoading: false,
-      viewAno: false
+      clicked: false,
+      anoAtual: '',
+      jogosAno: []
     }
     this.buttonClick = this.buttonClick.bind(this);
   }
 
   async componentDidMount() {
-    this._isMounted = true; 
+    this._isMounted = true;
+    window.scrollTo(0, 0);
     this.setState({ isLoading: true })
     await this.getAnos();
     this.setState({ isLoading: false })
@@ -36,19 +39,31 @@ class Anos extends Component {
     this.state.anos.reverse();
   }
 
-  buttonClick() {
-    console.log("FUI CLICADO");
-    this.setState({
-      viewAno: true
-    })
+  buttonClick = async (ano) => {
+    this.setState({ clicked: true, anoAtual: ano });
+    await this.getAnoJogos(ano);
+  }
+
+  getAnoJogos = async (ano) => {
+    var anoAtual = ano;
+
+    for (var a = 0; a < this.state.jogos.length; a++) {
+      const currentDate = new Date(this.state.jogos[a][5]);
+      if (anoAtual.toString().includes(currentDate.getFullYear())) {
+        if (!this.state.jogosAno.includes(this.state.jogos[a])) {
+          this.state.jogosAno.push(this.state.jogos[a]);
+        }
+      }
+    }
   }
 
   render() {
     const meuTime = this.state.meuTime;
-    const buttonClickFunction = () => this.buttonClick();
     const jogos = this.state.jogos;
+    const buttonClickFunction = (ano) => this.buttonClick(ano);
     return (
-      <div className="App-header" style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }}>
+      this.state.clicked ? <ViewAno meuTime={this.props.meuTime} jogos={jogos} jogosAno={this.state.jogosAno} ano={this.state.anoAtual} /> :
+      (<div className="App-header" style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }}>
         <h1>Anos</h1>
         <br />
         <table>
@@ -58,22 +73,16 @@ class Anos extends Component {
               !this.state.isLoading && this.state.anos.map(function (i) {
                 var totalAno = common.getTotalAno(i, jogos);
                 return <div>
-                  <button id='selectAno' onClick={() => buttonClickFunction()} style={{ borderColor: Times(meuTime).letterColor, borderStyle: 'solid', backgroundColor: Times(meuTime).backgroundColor, color: Times(meuTime).letterColor, width: '60vw' }}>
+                  <button id='selectAno' onClick={() => buttonClickFunction(i)} style={{ borderColor: Times(meuTime).letterColor, borderStyle: 'solid', backgroundColor: Times(meuTime).backgroundColor, color: Times(meuTime).letterColor, width: '60vw' }}>
                     <div style={{ display: 'inline', padding: '10px', fontSize: '40px' }}>{i}</div>
                     <div style={{ paddingBottom: '5px', fontSize: '15px' }}>{totalAno} {totalAno > 1 ? "jogos" : "jogo"}</div>
                   </button>
                 </div>
               })
             }
-            {this.state.viewAno &&
-              <ViewAno
-                meuTime={this.state.meuTime}
-                jogos={this.state.jogos}
-                ano={"2022"}
-              />}
           </tbody>
         </table>
-      </div >
+      </div >)
     )
   }
 }

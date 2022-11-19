@@ -20,6 +20,7 @@ class Adversarios extends Component {
 
   async componentDidMount() {
     this._isMounted = true;
+    window.scrollTo(0, 0);
     this.setState({ isLoading: true })
     await this.getAdversarios();
     this.setState({ isLoading: false })

@@ -14,11 +14,11 @@ function Navbar (props){
     return (
         <>
         <IconContext.Provider value={{color: "white"}}>
-            <div className='navbar'>
-                <Link to='#' className='menu-bars'>
+            <header className='navbar'>
+                <Link to='#' className='menu-bars' style={{position: 'fixed'}}>
                     <FaIcons.FaBars onClick={showSideBar}/>
                 </Link>
-            </div>
+            </header>
             <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
                 <ul className='nav-menu-items' onClick={showSideBar}>
                     <li className='navbar-toggle'>

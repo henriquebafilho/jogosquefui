@@ -56,572 +56,638 @@ function jogos() {
     jogos.push(["Botafogo", "Madureira", 4, 2, "Carioca", "2022-02-03", "Nilton Santos"]);
     jogos.push(["Botafogo", "Bangu", 2, 0, "Carioca", "2022-01-30", "Nilton Santos"]);
     jogos.push(["Boavista", "Botafogo", 1, 1, "Carioca", "2022-01-25", "Nilton Santos"]);
-    jogos.push(["Botafogo", "Guarani", 2, 2, "Série B", "2021-11-28", "Nilton Santos"])
-    jogos.push(["Brasil de Pelotas", "Botafogo", 0, 1, "Série B", "2021-11-21", "Bento de Freitas"])
-    jogos.push(["Botafogo", "Operário", 2, 1, "Série B", "2021-11-15", "Nilton Santos"])
-    jogos.push(["Ponte Preta", "Botafogo", 0, 0, "Série B", "2021-11-11", "Moisés Lucarelli"])
-    jogos.push(["Vasco", "Botafogo", 0, 4, "Série B", "2021-11-07", "São Januário"])
-    jogos.push(["Botafogo", "Confiança", 1, 0, "Série B", "2021-11-03", "Nilton Santos"])
-    jogos.push(["Goiás", "Botafogo", 1, 1, "Série B", "2021-10-26", "Serrinha"])
-    jogos.push(["Botafogo", "Brusque", 3, 0, "Série B", "2021-10-20", "Nilton Santos"])
-    jogos.push(["Cruzeiro", "Botafogo", 0, 0, "Série B", "2021-10-12", "Independência"])
-    jogos.push(["Botafogo", "CRB", 2, 0, "Série B", "2021-10-08", "Nilton Santos"])
-    jogos.push(["Botafogo", "Avaí", 1, 2, "Série B", "2021-10-02", "Nilton Santos"])
-    jogos.push(["Vitória", "Botafogo", 0, 0, "Série B", "2021-09-29", "Barradão"])
-    jogos.push(["Botafogo", "Sampaio Corrêa", 2, 0, "Série B", "2021-09-26", "Nilton Santos"])
-    jogos.push(["CSA", "Botafogo", 2, 0, "Série B", "2021-09-23", "Rei Pelé"])
-    jogos.push(["Botafogo", "Náutico", 3, 1, "Série B", "2021-09-18", "Nilton Santos"])
-    jogos.push(["Botafogo", "Londrina", 4, 0, "Série B", "2021-09-11", "Nilton Santos"])
-    jogos.push(["Remo", "Botafogo", 0, 1, "Série B", "2021-09-04", "Baenão"])
-    jogos.push(["Coritiba", "Botafogo", 0, 1, "Série B", "2021-08-27", "Couto Pereira"])
-    jogos.push(["Botafogo", "Vila Nova", 3, 2, "Série B", "2021-08-22", "Nilton Santos"])
-    jogos.push(["Guarani", "Botafogo", 1, 1, "Série B", "2021-08-18", "Brinco de Ouro da Princesa"])
-    jogos.push(["Botafogo", "Brasil de Pelotas", 1, 0, "Série B", "2021-08-15", "Nilton Santos"])
-    jogos.push(["Operário", "Botafogo", 1, 0, "Série B", "2021-08-12", "Germano Kruger"])
-    jogos.push(["Botafogo", "Ponte Preta", 2, 0, "Série B", "2021-08-08", "Nilton Santos"])
-    jogos.push(["Botafogo", "Vasco", 2, 0, "Série B", "2021-07-31", "Nilton Santos"])
-    jogos.push(["Botafogo", "CSA", 2, 0, "Série B", "2021-07-27", "Nilton Santos"])
-    jogos.push(["Confiança", "Botafogo", 0, 1, "Série B", "2021-07-24", "Arena Batistão"])
-    jogos.push(["Botafogo", "Goiás", 0, 2, "Série B", "2021-07-20", "Nilton Santos"])
-    jogos.push(["Brusque", "Botafogo", 2, 1, "Série B", "2021-07-17", "Augusto Bauer"])
-    jogos.push(["Botafogo", "Cruzeiro", 3, 3, "Série B", "2021-07-10", "Nilton Santos"])
-    jogos.push(["CRB", "Botafogo", 2, 1, "Série B", "2021-07-06", "Rei Pelé"])
-    jogos.push(["Avaí", "Botafogo", 1, 1, "Série B", "2021-07-03", "Ressacada"])
-    jogos.push(["Botafogo", "Vitória", 1, 0, "Série B", "2021-06-30", "Raulino de Oliveira"])
-    jogos.push(["Sampaio Corrêa", "Botafogo", 2, 0, "Série B", "2021-06-26", "Castelão-MA"])
-    jogos.push(["Náutico", "Botafogo", 3, 1, "Série B", "2021-06-20", "Aflitos"])
-    jogos.push(["Londrina", "Botafogo", 2, 2, "Série B", "2021-06-17", "Estádio do Café"])
-    jogos.push(["Botafogo", "Remo", 3, 0, "Série B", "2021-06-13", "Raulino de Oliveira"])
-    jogos.push(["Botafogo", "Coritiba", 2, 0, "Série B", "2021-06-05", "Nilton Santos"])
-    jogos.push(["Vila Nova", "Botafogo", 1, 1, "Série B", "2021-05-28", "OBA"])
-    jogos.push(["Vasco", "Botafogo", 0, 1, "Carioca", "2021-05-22", "São Januário"]) // (3-0 Pen.)
-    jogos.push(["Botafogo", "Vasco", 0, 1, "Carioca", "2021-05-16", "Nilton Santos"])
-    jogos.push(["Nova Iguaçu", "Botafogo", 0, 1, "Carioca", "2021-05-09", "Nilton Santos"])
-    jogos.push(["Botafogo", "Nova Iguaçu", 0, 0, "Carioca", "2021-05-02", "Nilton Santos"])
-    jogos.push(["Botafogo", "Macaé", 4, 0, "Carioca", "2021-04-25", "Nilton Santos"])
-    jogos.push(["Fluminense", "Botafogo", 1, 0, "Carioca", "2021-04-17", "Maracanã"])
-    jogos.push(["ABC", "Botafogo", 1, 1, "Copa do Brasil", "2021-04-14", "Frasqueirão"]) // (4-1 Pen.)
-    jogos.push(["Volta Redonda", "Botafogo", 2, 2, "Carioca", "2021-04-10", "Raulino de Oliveira"])
-    jogos.push(["Botafogo", "Portuguesa-RJ", 1, 1, "Carioca", "2021-04-04", "Giulite Coutinho"])
-    jogos.push(["Botafogo", "Madureira", 1, 1, "Carioca", "2021-03-31", "Giulite Coutinho"])
-    jogos.push(["Nova Iguaçu", "Botafogo", 1, 2, "Carioca", "2021-03-28", "Bacaxá"])
-    jogos.push(["Botafogo", "Flamengo", 0, 2, "Carioca", "2021-03-24", "Nilton Santos"])
-    jogos.push(["Vasco", "Botafogo", 1, 1, "Carioca", "2021-03-21", "São Januário"])
-    jogos.push(["Bangu", "Botafogo", 0, 0, "Carioca", "2021-03-13", "Nilton Santos"])
-    jogos.push(["Moto Club", "Botafogo", 0, 5, "Copa do Brasil", "2021-03-10", "Castelão-MA"])
-    jogos.push(["Botafogo", "Resende", 3, 0, "Carioca", "2021-03-07", "Nilton Santos"])
-    jogos.push(["Botafogo", "Boavista", 0, 0, "Carioca", "2021-03-03", "Nilton Santos"])
-    jogos.push(["Ceará", "Botafogo", 2, 1, "Brasileirão", "2021-02-25", "Castelão-CE"])
-    jogos.push(["Botafogo", "São Paulo", 1, 0, "Brasileirão", "2021-02-22", "Nilton Santos"])
-    jogos.push(["Goiás", "Botafogo", 2, 0, "Brasileirão", "2021-02-13", "Serrinha"])
-    jogos.push(["Botafogo", "Grêmio", 2, 5, "Brasileirão", "2021-02-08", "Nilton Santos"])
-    jogos.push(["Botafogo", "Sport", 0, 1, "Brasileirão", "2021-02-05", "Nilton Santos"])
-    jogos.push(["Palmeiras", "Botafogo", 1, 1, "Brasileirão", "2021-02-02", "Allianz Parque"])
-    jogos.push(["Fluminense", "Botafogo", 2, 0, "Brasileirão", "2021-01-24", "São Januário"])
-    jogos.push(["Botafogo", "Atlético-GO", 1, 3, "Brasileirão", "2021-01-20", "Nilton Santos"])
-    jogos.push(["Santos", "Botafogo", 2, 1, "Brasileirão", "2021-01-17", "Vila Belmiro"])
-    jogos.push(["Vasco", "Botafogo", 3, 0, "Brasileirão", "2021-01-10", "São Januário"])
-    jogos.push(["Botafogo", "Athletico-PR", 0, 2, "Brasileirão", "2021-01-06", "Nilton Santos"])
-    jogos.push(["Botafogo", "Corinthians", 0, 2, "Brasileirão", "2020-12-27", "Nilton Santos"])
-    jogos.push(["Coritiba", "Botafogo", 1, 2, "Brasileirão", "2020-12-19", "Couto Pereira"])
-    jogos.push(["Internacional", "Botafogo", 2, 1, "Brasileirão", "2020-12-12", "Beira Rio"])
-    jogos.push(["São Paulo", "Botafogo", 4, 0, "Brasileirão", "2020-12-09", "Morumbi"])
-    jogos.push(["Botafogo", "Flamengo", 0, 1, "Brasileirão", "2020-12-05", "Nilton Santos"])
-    jogos.push(["Atlético-MG", "Botafogo", 2, 1, "Brasileirão", "2020-11-25", "Mineirão"])
-    jogos.push(["Botafogo", "Fortaleza", 1, 2, "Brasileirão", "2020-11-22", "Nilton Santos"])
-    jogos.push(["Botafogo", "Red Bull Bragantino", 1, 2, "Brasileirão", "2020-11-16", "Nilton Santos"])
-    jogos.push(["Bahia", "Botafogo", 1, 0, "Brasileirão", "2020-11-08", "Fonte Nova"])
-    jogos.push(["Cuiabá", "Botafogo", 0, 0, "Copa do Brasil", "2020-11-03", "Arena Pantanal"])
-    jogos.push(["Botafogo", "Ceará", 2, 2, "Brasileirão", "2020-10-31", "Nilton Santos"])
-    jogos.push(["Botafogo", "Cuiabá", 0, 1, "Copa do Brasil", "2020-10-27", "Nilton Santos"])
-    jogos.push(["Botafogo", "Goiás", 0, 0, "Brasileirão", "2020-10-19", "Nilton Santos"])
-    jogos.push(["Grêmio", "Botafogo", 3, 1, "Brasileirão", "2020-10-14", "Arena do Grêmio"])
-    jogos.push(["Sport", "Botafogo", 1, 2, "Brasileirão", "2020-10-11", "Ilha do Retiro"])
-    jogos.push(["Botafogo", "Palmeiras", 2, 1, "Brasileirão", "2020-10-07", "Nilton Santos"])
-    jogos.push(["Botafogo", "Fluminense", 1, 1, "Brasileirão", "2020-10-04", "Nilton Santos"])
-    jogos.push(["Botafogo", "Bahia", 1, 2, "Brasileirão", "2020-09-30", "Nilton Santos"])
-    jogos.push(["Atlético-GO", "Botafogo", 1, 1, "Brasileirão", "2020-09-27", "Olímpico(Goiânia)"])
-    jogos.push(["Vasco", "Botafogo", 0, 0, "Copa do Brasil", "2020-09-23", "São Januário"])
-    jogos.push(["Botafogo", "Santos", 0, 0, "Brasileirão", "2020-09-20", "Nilton Santos"])
-    jogos.push(["Botafogo", "Vasco", 1, 0, "Copa do Brasil", "2020-09-17", "Nilton Santos"])
-    jogos.push(["Botafogo", "Vasco", 2, 3, "Brasileirão", "2020-09-13", "Nilton Santos"])
-    jogos.push(["Athletico-PR", "Botafogo", 1, 1, "Brasileirão", "2020-09-09", "Arena da Baixada"])
-    jogos.push(["Corinthians", "Botafogo", 2, 2, "Brasileirão", "2020-09-05", "Neo Química Arena"])
-    jogos.push(["Botafogo", "Coritiba", 0, 0, "Brasileirão", "2020-09-02", "Nilton Santos"])
-    jogos.push(["Botafogo", "Internacional", 0, 2, "Brasileirão", "2020-08-29", "Nilton Santos"])
-    jogos.push(["Paraná", "Botafogo", 1, 2, "Copa do Brasil", "2020-08-26", "Vila Capanema"])
-    jogos.push(["Flamengo", "Botafogo", 1, 1, "Brasileirão", "2020-08-23", "Maracanã"])
-    jogos.push(["Botafogo", "Atlético-MG", 2, 1, "Brasileirão", "2020-08-19", "Nilton Santos"])
-    jogos.push(["Fortaleza", "Botafogo", 0, 0, "Brasileirão", "2020-08-16", "Castelão - CE"])
-    jogos.push(["Red Bull Bragantino", "Botafogo", 1, 1, "Brasileirão", "2020-08-12", "Nabi Abi Chedid"])
-    jogos.push(["Fluminense", "Botafogo", 0, 0, "Carioca", "2020-07-05", "Nilton Santos"])
-    jogos.push(["Portuguesa-RJ", "Botafogo", 0, 0, "Carioca", "2020-07-01", "Luso Brasileiro"])
-    jogos.push(["Botafogo", "Cabofriense", 6, 2, "Carioca", "2020-06-28", "Nilton Santos"])
-    jogos.push(["Botafogo", "Bangu", 1, 1, "Carioca", "2020-03-15", "Nilton Santos"])
-    jogos.push(["Botafogo", "Paraná", 1, 0, "Copa do Brasil", "2020-03-10", "Nilton Santos"])
-    jogos.push(["Flamengo", "Botafogo", 3, 0, "Carioca", "2020-03-07", "Maracanã"])
-    jogos.push(["Botafogo", "Boavista", 2, 1, "Carioca", "2020-03-01", "Nilton Santos"])
-    jogos.push(["Náutico", "Botafogo", 1, 1, "Copa do Brasil", "2020-02-19", "Aflitos"]) // (3 - 4 Pen.)
-    jogos.push(["Fluminense", "Botafogo", 3, 0, "Carioca", "2020-02-09", "Maracanã"])
-    jogos.push(["Caxias", "Botafogo", 1, 1, "Copa do Brasil", "2020-02-05", "Centenário (Caxias do Sul)"])
-    jogos.push(["Botafogo", "Vasco", 1, 0, "Carioca", "2020-02-02", "Nilton Santos"])
-    jogos.push(["Botafogo", "Resende", 2, 1, "Carioca", "2020-01-30", "Nilton Santos"])
-    jogos.push(["Botafogo", "Macaé", 3, 1, "Carioca", "2020-01-26", "Nilton Santos"])
-    jogos.push(["Madureira", "Botafogo", 2, 0, "Carioca", "2020-01-21", "Conselheiro Galvão"])
-    jogos.push(["Volta Redonda", "Botafogo", 1, 0, "Carioca", "2020-01-18", "Raulino de Oliveira"])
-    jogos.push(["Botafogo", "Ceará", 1, 1, "Brasileirão", "2019-12-08", "Nilton Santos"])
-    jogos.push(["Atlético-MG", "Botafogo", 2, 0, "Brasileirão", "2019-12-04", "Mineirão"])
-    jogos.push(["Botafogo", "Internacional", 0, 1, "Brasileirão", "2019-11-30", "Nilton Santos"])
-    jogos.push(["Chapecoense", "Botafogo", 0, 1, "Brasileirão", "2019-11-27", "Arena Condá"])
-    jogos.push(["Botafogo", "Corinthians", 1, 0, "Brasileirão", "2019-11-24", "Nilton Santos"])
-    jogos.push(["Athletico-PR", "Botafogo", 1, 0, "Brasileirão", "2019-11-17", "Arena da Baixada"])
-    jogos.push(["Botafogo", "Avaí", 2, 0, "Brasileirão", "2019-11-11", "Nilton Santos"])
-    jogos.push(["Botafogo", "Flamengo", 0, 1, "Brasileirão", "2019-11-07", "Nilton Santos"])
-    jogos.push(["Santos", "Botafogo", 4, 1, "Brasileirão", "2019-11-03", "Vila Belmiro"])
-    jogos.push(["Botafogo", "Cruzeiro", 0, 2, "Brasileirão", "2019-10-31", "Nilton Santos"])
-    jogos.push(["Grêmio", "Botafogo", 3, 0, "Brasileirão", "2019-10-27", "Arena do Grêmio"])
-    jogos.push(["Botafogo", "CSA", 2, 1, "Brasileirão", "2019-10-21", "Nilton Santos"])
-    jogos.push(["Vasco", "Botafogo", 2, 1, "Brasileirão", "2019-10-16", "São Januário"])
-    jogos.push(["Palmeiras", "Botafogo", 1, 0, "Brasileirão", "2019-10-12", "Allianz Parque"])
-    jogos.push(["Botafogo", "Goiás", 3, 1, "Brasileirão", "2019-10-09", "Nilton Santos"])
-    jogos.push(["Botafogo", "Fluminense", 0, 1, "Brasileirão", "2019-10-06", "Nilton Santos"])
-    jogos.push(["Fortaleza", "Botafogo", 1, 0, "Brasileirão", "2019-09-30", "Castelão-CE"])
-    jogos.push(["Bahia", "Botafogo", 2, 0, "Brasileirão", "2019-09-25", "Fonte Nova"])
-    jogos.push(["Botafogo", "São Paulo", 1, 2, "Brasileirão", "2019-09-21", "Nilton Santos"])
-    jogos.push(["Ceará", "Botafogo", 0, 0, "Brasileirão", "2019-09-14", "Castelão-CE"])
-    jogos.push(["Botafogo", "Atlético-MG", 2, 1, "Brasileirão", "2019-09-08", "Nilton Santos"])
-    jogos.push(["Internacional", "Botafogo", 3, 2, "Brasileirão", "2019-08-31", "Beira Rio"])
-    jogos.push(["Botafogo", "Chapecoense", 0, 0, "Brasileirão", "2019-08-26", "Nilton Santos"])
-    jogos.push(["Corinthians", "Botafogo", 2, 0, "Brasileirão", "2019-08-17", "Neo Química Arena"])
-    jogos.push(["Botafogo", "Athletico-PR", 2, 1, "Brasileirão", "2019-08-11", "Nilton Santos"])
-    jogos.push(["Avaí", "Botafogo", 0, 2, "Brasileirão", "2019-08-04", "Ressacada"])
-    jogos.push(["Atlético-MG", "Botafogo", 2, 0, "Copa Sul-Americana", "2019-07-31", "Independência"])
-    jogos.push(["Flamengo", "Botafogo", 3, 2, "Brasileirão", "2019-07-28", "Maracanã"])
-    jogos.push(["Botafogo", "Atlético-MG", 0, 1, "Copa Sul-Americana", "2019-07-24", "Nilton Santos"])
-    jogos.push(["Botafogo", "Santos", 0, 1, "Brasileirão", "2019-07-21", "Nilton Santos"])
-    jogos.push(["Cruzeiro", "Botafogo", 0, 0, "Brasileirão", "2019-07-14", "Mineirão"])
-    jogos.push(["Botafogo", "Grêmio", 0, 1, "Brasileirão", "2019-06-12", "Nilton Santos"])
-    jogos.push(["CSA", "Botafogo", 1, 2, "Brasileirão", "2019-06-09", "Rei Pelé"])
-    jogos.push(["Botafogo", "Vasco", 1, 0, "Brasileirão", "2019-06-02", "Nilton Santos"])
-    jogos.push(["Botafogo", "Sol de America", 4, 0, "Copa Sul-Americana", "2019-05-29", "Nilton Santos"])
-    jogos.push(["Botafogo", "Palmeiras", 0, 1, "Brasileirão", "2019-05-25", "Nilton Santos"])
-    jogos.push(["Sol de America", "Botafogo", 0, 1, "Copa Sul-Americana", "2019-05-22", "Luis Afonso Giagni"])
-    jogos.push(["Goiás", "Botafogo", 1, 0, "Brasileirão", "2019-05-19", "Serra Dourada"])
-    jogos.push(["Fluminense", "Botafogo", 0, 1, "Brasileirão", "2019-05-11", "Maracanã"])
-    jogos.push(["Botafogo", "Fortaleza", 1, 0, "Brasileirão", "2019-05-05", "Nilton Santos"])
-    jogos.push(["Botafogo", "Bahia", 3, 2, "Brasileirão", "2019-05-02", "Nilton Santos"])
-    jogos.push(["São Paulo", "Botafogo", 2, 0, "Brasileirão", "2019-04-27", "Morumbi"])
-    jogos.push(["Juventude", "Botafogo", 2, 1, "Copa do Brasil 2019", "2019-04-11", "Alfredo Jaconi"])
-    jogos.push(["Botafogo", "Juventude", 1, 1, "Copa do Brasil 2019", "2019-04-04", "Nilton Santos"])
-    jogos.push(["Americano", "Botafogo", 2, 2, "Carioca", "2019-03-24", "Bacaxá"])
-    jogos.push(["Botafogo", "Portuguesa-RJ", 4, 1, "Carioca", "2019-03-21", "Nilton Santos"])
-    jogos.push(["Fluminense", "Botafogo", 1, 1, "Carioca", "2019-03-17", "Maracanã"])
-    jogos.push(["Botafogo", "Madureira", 2, 1, "Carioca", "2019-03-11", "Nilton Santos"])
-    jogos.push(["Volta Redonda", "Botafogo", 1, 0, "Carioca", "2019-03-02", "Raulino de Oliveira"])
-    jogos.push(["Botafogo", "Cuiabá", 3, 0, "Copa do Brasil 2019", "2019-02-27", "Nilton Santos"])
-    jogos.push(["Botafogo", "Vasco", 1, 1, "Carioca", "2019-02-23", "Nilton Santos"])
-    jogos.push(["Defensa y Justicia", "Botafogo", 0, 3, "Copa Sul-Americana", "2019-02-20", "Norberto Tito Tomaghello"])
-    jogos.push(["Campinense", "Botafogo", 0, 2, "Copa do Brasil 2019", "2019-02-13", "Amigão"])
-    jogos.push(["Botafogo", "Defensa y Justicia", 1, 0, "Copa Sul-Americana", "2019-02-06", "Nilton Santos"])
-    jogos.push(["Boavista", "Botafogo", 0, 3, "Carioca", "2019-02-03", "Bacaxá"])
-    jogos.push(["Botafogo", "Resende", 0, 1, "Carioca", "2019-01-31", "Nilton Santos"])
-    jogos.push(["Botafogo", "Flamengo", 1, 2, "Carioca", "2019-01-26", "Nilton Santos"])
-    jogos.push(["Botafogo", "Bangu", 0, 0, "Carioca", "2019-01-23", "Nilton Santos"])
-    jogos.push(["Cabofriense", "Botafogo", 3, 1, "Carioca", "2019-01-20", "Moacyrzão"])
-    jogos.push(["Atlético-MG", "Botafogo", 1, 0, "Brasileirão", "2018-12-01", "Independência"])
-    jogos.push(["Botafogo", "Paraná", 2, 1, "Brasileirão", "2018-11-26", "Nilton Santos"])
-    jogos.push(["Santos", "Botafogo", 1, 1, "Brasileirão", "2018-11-21", "Vila Belmiro"])
-    jogos.push(["Botafogo", "Internacional", 1, 0, "Brasileirão", "2018-11-18", "Nilton Santos"])
-    jogos.push(["Chapecoense", "Botafogo", 0, 1, "Brasileirão", "2018-11-15", "Arena Condá"])
-    jogos.push(["Botafogo", "Flamengo", 2, 1, "Brasileirão", "2018-11-10", "Nilton Santos"])
-    jogos.push(["Botafogo", "Corinthians", 1, 0, "Brasileirão", "2018-11-04", "Nilton Santos"])
-    jogos.push(["Atlético-PR", "Botafogo", 2, 1, "Brasileirão", "2018-10-27", "Arena da Baixada"])
-    jogos.push(["Botafogo", "Bahia", 0, 1, "Brasileirão", "2018-10-20", "Nilton Santos"])
-    jogos.push(["Ceará", "Botafogo", 0, 0, "Brasileirão", "2018-10-15", "Castelão-CE"])
-    jogos.push(["Botafogo", "Vasco", 1, 1, "Brasileirão", "2018-10-09", "Nilton Santos"])
-    jogos.push(["Botafogo", "Bahia", 2, 1, "Copa Sul-Americana", "2018-10-03", "Nilton Santos"]) // (4-5 Pen.)
-    jogos.push(["Botafogo", "São Paulo", 2, 2, "Brasileirão", "2018-09-30", "Nilton Santos"])
-    jogos.push(["Vitória", "Botafogo", 3, 4, "Brasileirão", "2018-09-23", "Barradão"])
-    jogos.push(["Bahia", "Botafogo", 2, 1, "Copa Sul-Americana", "2018-09-20", "Fonte Nova"])
-    jogos.push(["Botafogo", "América-MG", 1, 0, "Brasileirão", "2018-09-16", "Nilton Santos"])
-    jogos.push(["Fluminense", "Botafogo", 1, 0, "Brasileirão", "2018-09-09", "Maracanã"])
-    jogos.push(["Botafogo", "Cruzeiro", 1, 1, "Brasileirão", "2018-09-05", "Nilton Santos"])
-    jogos.push(["Grêmio", "Botafogo", 4, 0, "Brasileirão", "2018-09-01", "Arena do Grêmio"])
-    jogos.push(["Botafogo", "Sport", 2, 0, "Brasileirão", "2018-08-25", "Nilton Santos"])
-    jogos.push(["Palmeiras", "Botafogo", 2, 0, "Brasileirão", "2018-08-22", "Allianz Parque"])
-    jogos.push(["Botafogo", "Atlético-MG", 0, 3, "Brasileirão", "2018-08-19", "Nilton Santos"])
-    jogos.push(["Botafogo", "Nacional-PAR", 2, 0, "Copa Sul-Americana", "2018-08-16", "Nilton Santos"])
-    jogos.push(["Paraná", "Botafogo", 1, 1, "Brasileirão", "2018-08-12", "Vila Capanema"])
-    jogos.push(["Botafogo", "Santos", 0, 0, "Brasileirão", "2018-08-04", "Nilton Santos"])
-    jogos.push(["Nacional-PAR", "Botafogo", 2, 1, "Copa Sul-Americana", "2018-08-01", "Defensores Del Chaco"])
-    jogos.push(["Internacional", "Botafogo", 3, 0, "Brasileirão", "2018-07-29", "Beira Rio"])
-    jogos.push(["Botafogo", "Chapecoense", 1, 0, "Brasileirão", "2018-07-26", "Nilton Santos"])
-    jogos.push(["Flamengo", "Botafogo", 2, 0, "Brasileirão", "2018-07-21", "Maracanã"])
-    jogos.push(["Corinthians", "Botafogo", 2, 0, "Brasileirão", "2018-07-18", "Neo Química Arena"])
-    jogos.push(["Botafogo", "Atlético-PR", 2, 0, "Brasileirão", "2018-06-13", "Nilton Santos"])
-    jogos.push(["Bahia", "Botafogo", 3, 3, "Brasileirão", "2018-06-10", "Fonte Nova"])
-    jogos.push(["Botafogo", "Ceará", 0, 0, "Brasileirão", "2018-06-06", "Nilton Santos"])
-    jogos.push(["Vasco", "Botafogo", 1, 2, "Brasileirão", "2018-06-02", "São Januário"])
-    jogos.push(["São Paulo", "Botafogo", 3, 2, "Brasileirão", "2018-05-30", "Morumbi"])
-    jogos.push(["Botafogo", "Vitória", 1, 1, "Brasileirão", "2018-05-27", "Nilton Santos"])
-    jogos.push(["América-MG", "Botafogo", 1, 0, "Brasileirão", "2018-05-20", "Independência"])
-    jogos.push(["Botafogo", "Fluminense", 2, 1, "Brasileirão", "2018-05-14", "Nilton Santos"])
-    jogos.push(["Botafogo", "Audax Italiano", 1, 1, "Copa Sul-Americana", "2018-05-09", "Nilton Santos"])
-    jogos.push(["Cruzeiro", "Botafogo", 1, 0, "Brasileirão", "2018-05-06", "Mineirão"])
-    jogos.push(["Botafogo", "Grêmio", 2, 1, "Brasileirão", "2018-04-28", "Nilton Santos"])
-    jogos.push(["Sport", "Botafogo", 1, 1, "Brasileirão", "2018-04-23", "Ilha do Retiro"])
-    jogos.push(["Botafogo", "Palmeiras", 1, 1, "Brasileirão", "2018-04-16", "Nilton Santos"])
-    jogos.push(["Audax Italiano", "Botafogo", 1, 2, "Copa Sul-Americana", "2018-04-12", "San Carlos de Apoquindo"])
-    jogos.push(["Vasco", "Botafogo", 0, 1, "Carioca", "2018-04-08", "Maracanã"]) // (3-4 Pen.)
-    jogos.push(["Botafogo", "Vasco", 2, 3, "Carioca", "2018-04-01", "Nilton Santos"])
-    jogos.push(["Flamengo", "Botafogo", 0, 1, "Carioca", "2018-03-28", "Maracanã"])
-    jogos.push(["Fluminense", "Botafogo", 3, 0, "Carioca", "2018-03-25", "Maracanã"])
-    jogos.push(["Vasco", "Botafogo", 2, 3, "Carioca", "2018-03-21", "Nilton Santos"])
-    jogos.push(["Botafogo", "Vasco", 2, 3, "Carioca", "2018-03-18", "Nilton Santos"])
-    jogos.push(["Volta Redonda", "Botafogo", 1, 1, "Carioca", "2018-03-11", "Raulino de Oliveira"])
-    jogos.push(["Botafogo", "Bangu", 1, 0, "Carioca", "2018-03-06", "Nilton Santos"])
-    jogos.push(["Flamengo", "Botafogo", 1, 0, "Carioca", "2018-03-03", "Nilton Santos"])
-    jogos.push(["Botafogo", "Cabofriense", 1, 0, "Carioca", "2018-02-25", "Nilton Santos"])
-    jogos.push(["Nova Iguaçu", "Botafogo", 1, 2, "Carioca", "2018-02-22", "Giulite Coutinho"])
-    jogos.push(["Flamengo", "Botafogo", 3, 1, "Carioca", "2018-02-10", "Raulino de Oliveira"])
-    jogos.push(["Aparecidense", "Botafogo", 2, 1, "Copa do Brasil", "2018-02-06", "Annibal Batista de Toledo"])
-    jogos.push(["Botafogo", "Madureira", 0, 0, "Carioca", "2018-02-03", "Nilton Santos"])
-    jogos.push(["Botafogo", "Boavista", 1, 0, "Carioca", "2018-01-28", "Nilton Santos"])
-    jogos.push(["Macaé", "Botafogo", 1, 2, "Carioca", "2018-01-25", "Moacyrzão"])
-    jogos.push(["Fluminense", "Botafogo", 0, 0, "Carioca", "2018-01-20", "Maracanã"])
-    jogos.push(["Botafogo", "Portuguesa-RJ", 2, 2, "Carioca", "2018-01-16", "Nilton Santos"])
-    jogos.push(["Botafogo", "Cruzeiro", 2, 2, "Brasileirão", "2017-12-03", "Nilton Santos"])
-    jogos.push(["Palmeiras", "Botafogo", 2, 0, "Brasileirão", "2017-11-27", "Allianz Parque"])
-    jogos.push(["São Paulo", "Botafogo", 0, 0, "Brasileirão", "2017-11-19", "Pacaembu"])
-    jogos.push(["Botafogo", "Atlético-GO", 1, 2, "Brasileirão", "2017-11-16", "Nilton Santos"])
-    jogos.push(["Botafogo", "Atlético-PR", 0, 1, "Brasileirão", "2017-11-11", "Nilton Santos"])
-    jogos.push(["Sport", "Botafogo", 1, 2, "Brasileirão", "2017-11-08", "Ilha do Retiro"])
-    jogos.push(["Botafogo", "Fluminense", 1, 2, "Brasileirão", "2017-11-04", "Nilton Santos"])
-    jogos.push(["Atlético-MG", "Botafogo", 0, 0, "Brasileirão", "2017-10-29", "Independência"])
-    jogos.push(["Botafogo", "Corinthians", 2, 1, "Brasileirão", "2017-10-23", "Nilton Santos"])
-    jogos.push(["Avaí", "Botafogo", 1, 1, "Brasileirão", "2017-10-18", "Ressacada"])
-    jogos.push(["Vasco", "Botafogo", 1, 0, "Brasileirão", "2017-10-14", "Maracanã"])
-    jogos.push(["Botafogo", "Chapecoense", 2, 1, "Brasileirão", "2017-10-11", "Nilton Santos"])
-    jogos.push(["Botafogo", "Vitória", 2, 3, "Brasileirão", "2017-10-01", "Nilton Santos"])
-    jogos.push(["Coritiba", "Botafogo", 2, 3, "Brasileirão", "2017-09-24", "Couto Pereira"])
-    jogos.push(["Grêmio", "Botafogo", 1, 0, "Libertadores", "2017-09-20", "Arena do Grêmio"])
-    jogos.push(["Botafogo", "Santos", 2, 0, "Brasileirão", "2017-09-16", "Nilton Santos"])
-    jogos.push(["Botafogo", "Grêmio", 0, 0, "Libertadores", "2017-09-13", "Nilton Santos"])
-    jogos.push(["Botafogo", "Flamengo", 2, 0, "Brasileirão", "2017-09-10", "Nilton Santos"])
-    jogos.push(["Bahia", "Botafogo", 1, 2, "Brasileirão", "2017-08-27", "Fonte Nova"])
-    jogos.push(["Flamengo", "Botafogo", 1, 0, "Copa do Brasil", "2017-08-23", "Maracanã"])
-    jogos.push(["Ponte Preta", "Botafogo", 2, 1, "Brasileirão", "2017-08-20", "Moisés Lucarelli"])
-    jogos.push(["Botafogo", "Flamengo", 0, 0, "Copa do Brasil", "2017-08-16", "Nilton Santos"])
-    jogos.push(["Botafogo", "Grêmio", 1, 0, "Brasileirão", "2017-08-13", "Nilton Santos"])
-    jogos.push(["Botafogo", "Nacional-URU", 2, 0, "Libertadores", "2017-08-10", "Nilton Santos"])
-    jogos.push(["Cruzeiro", "Botafogo", 0, 0, "Brasileirão", "2017-08-06", "Mineirão"])
-    jogos.push(["Botafogo", "Palmeiras", 1, 2, "Brasileirão", "2017-08-02", "Nilton Santos"])
-    jogos.push(["Botafogo", "São Paulo", 3, 4, "Brasileirão", "2017-07-29", "Nilton Santos"])
-    jogos.push(["Botafogo", "Atlético-MG", 3, 0, "Copa do Brasil", "2017-07-26", "Nilton Santos"])
-    jogos.push(["Atlético-GO", "Botafogo", 1, 1, "Brasileirão", "2017-07-23", "Olímpico (Goiânia)"])
-    jogos.push(["Atlético-PR", "Botafogo", 0, 0, "Brasileirão", "2017-07-20", "Arena da Baixada"])
-    jogos.push(["Botafogo", "Sport", 2, 1, "Brasileirão", "2017-07-17", "Nilton Santos"])
-    jogos.push(["Fluminense", "Botafogo", 0, 1, "Brasileirão", "2017-07-12", "Maracanã"])
-    jogos.push(["Botafogo", "Atlético-MG", 1, 1, "Brasileirão", "2017-07-09", "Nilton Santos"])
-    jogos.push(["Nacional-URU", "Botafogo", 0, 1, "Libertadores", "2017-07-06", "Gran Parque Central"])
-    jogos.push(["Corinthians", "Botafogo", 1, 0, "Brasileirão", "2017-07-02", "Neo Química Arena"])
-    jogos.push(["Atlético-MG", "Botafogo", 1, 0, "Copa do Brasil", "2017-06-29", "Independência"])
-    jogos.push(["Botafogo", "Avaí", 0, 2, "Brasileirão", "2017-06-26", "Nilton Santos"])
-    jogos.push(["Botafogo", "Vasco", 3, 1, "Brasileirão", "2017-06-21", "Nilton Santos"])
-    jogos.push(["Chapecoense", "Botafogo", 0, 2, "Brasileirão", "2017-06-18", "Arena Condá"])
-    jogos.push(["Vitória", "Botafogo", 2, 2, "Brasileirão", "2017-06-14", "Barradão"])
-    jogos.push(["Botafogo", "Coritiba", 2, 2, "Brasileirão", "2017-06-11", "Nilton Santos"])
-    jogos.push(["Santos", "Botafogo", 1, 0, "Brasileirão", "2017-06-07", "Pacaembu"])
-    jogos.push(["Flamengo", "Botafogo", 0, 0, "Brasileirão", "2017-06-04", "Raulino de Oliveira"])
-    jogos.push(["Sport", "Botafogo", 1, 1, "Copa do Brasil", "2017-05-31", "Ilha do Retiro"])
-    jogos.push(["Botafogo", "Bahia", 1, 0, "Brasileirão", "2017-05-28", "Nilton Santos"])
-    jogos.push(["Estudiantes", "Botafogo", 1, 0, "Libertadores", "2017-05-25", "Centenario Ciudad de Quilmes"])
-    jogos.push(["Botafogo", "Ponte Preta", 2, 0, "Brasileirão", "2017-05-21", "Nilton Santos"])
-    jogos.push(["Botafogo", "Atlético Nacional", 1, 0, "Libertadores", "2017-05-18", "Nilton Santos"])
-    jogos.push(["Grêmio", "Botafogo", 2, 0, "Brasileirão", "2017-05-14", "Arena do Grêmio"])
-    jogos.push(["Botafogo", "Barcelona de Guayaquil", 0, 2, "Libertadores", "2017-05-02", "Nilton Santos"])
-    jogos.push(["Botafogo", "Sport", 2, 1, "Copa do Brasil", "2017-04-26", "Nilton Santos"])
-    jogos.push(["Flamengo", "Botafogo", 2, 1, "Carioca", "2017-04-23", "Maracanã"])
-    jogos.push(["Barcelona de Guayaquil", "Botafogo", 1, 1, "Libertadores", "2017-04-20", "Monumental Banco Pichincha"])
-    jogos.push(["Vasco", "Botafogo", 2, 0, "Carioca", "2017-04-16", "Nilton Santos"])
-    jogos.push(["Atlético Nacional", "Botafogo", 0, 2, "Libertadores", "2017-04-13", "Atanasio Girardot"])
-    jogos.push(["Botafogo", "Fluminense", 3, 1, "Carioca", "2017-04-09", "Nilton Santos"])
-    jogos.push(["Botafogo", "Resende", 3, 2, "Carioca", "2017-04-02", "Nilton Santos"])
-    jogos.push(["Portuguesa-RJ", "Botafogo", 1, 4, "Carioca", "2017-03-30", "Los Larios"])
-    jogos.push(["Bangu", "Botafogo", 0, 2, "Carioca", "2017-03-26", "Moça Bonita"])
-    jogos.push(["Botafogo", "Fluminense", 2, 3, "Carioca", "2017-03-23", "Nilton Santos"])
-    jogos.push(["Vasco", "Botafogo", 0, 0, "Carioca", "2017-03-19", "Nilton Santos"])
-    jogos.push(["Botafogo", "Estudiantes", 2, 1, "Libertadores", "2017-03-14", "Nilton Santos"])
-    jogos.push(["Botafogo", "Volta Redonda", 1, 0, "Carioca", "2017-03-09", "Nilton Santos"])
-    jogos.push(["Olimpia", "Botafogo", 1, 0, "Libertadores", "2017-02-22", "Defensores Del Chaco"]) // (1-3 Pen.])
-    jogos.push(["Boavista", "Botafogo", 2, 3, "Carioca", "2017-02-19", "Bacaxá"])
-    jogos.push(["Botafogo", "Olimpia", 1, 0, "Libertadores", "2017-02-15", "Nilton Santos"])
-    jogos.push(["Botafogo", "Flamengo", 1, 2, "Carioca", "2017-02-12", "Nilton Santos"])
-    jogos.push(["Colo-Colo", "Botafogo", 1, 1, "Libertadores", "2017-02-08", "Monumental David Arellano"])
-    jogos.push(["Botafogo", "Macaé", 2, 1, "Carioca", "2017-02-04", "Nilton Santos"])
-    jogos.push(["Botafogo", "Colo-Colo", 2, 1, "Libertadores", "2017-02-01", "Nilton Santos"])
-    jogos.push(["Botafogo", "Nova Iguaçu", 1, 1, "Carioca", "2017-01-28", "Nilton Santos"])
-    jogos.push(["Madureira", "Botafogo", 2, 0, "Carioca", "2017-01-25", "Moça Bonita"])
-    jogos.push(["Grêmio", "Botafogo", 0, 1, "Brasileirão", "2016-12-11", "Arena do Grêmio"])
-    jogos.push(["Botafogo", "Ponte Preta", 1, 1, "Brasileirão", "2016-11-26", "Luso Brasileiro"])
-    jogos.push(["Palmeiras", "Botafogo", 1, 0, "Brasileirão", "2016-11-20", "Allianz Parque"])
-    jogos.push(["Botafogo", "Chapecoense", 0, 2, "Brasileirão", "2016-11-16", "Luso Brasileiro"])
-    jogos.push(["Flamengo", "Botafogo", 0, 0, "Brasileirão", "2016-11-05", "Maracanã"])
-    jogos.push(["Botafogo", "Coritiba", 0, 0, "Brasileirão", "2016-10-29", "Luso Brasileiro"])
-    jogos.push(["Santa Cruz", "Botafogo", 0, 1, "Brasileirão", "2016-10-19", "Arruda"])
-    jogos.push(["Botafogo", "Atlético-MG", 3, 2, "Brasileirão", "2016-10-16", "Luso Brasileiro"])
-    jogos.push(["Botafogo", "Internacional", 1, 0, "Brasileirão", "2016-10-12", "Luso Brasileiro"])
-    jogos.push(["Figueirense", "Botafogo", 0, 1, "Brasileirão", "2016-10-09", "Orlando Scarpelli"])
-    jogos.push(["Botafogo", "Corinthians", 2, 0, "Brasileirão", "2016-10-01", "Luso Brasileiro"])
-    jogos.push(["América-MG", "Botafogo", 1, 0, "Brasileirão", "2016-09-24", "Independência"])
-    jogos.push(["Cruzeiro", "Botafogo", 1, 0, "Copa do Brasil", "2016-09-21", "Mineirão"])
-    jogos.push(["Vitória", "Botafogo", 0, 1, "Brasileirão", "2016-09-18", "Barradão"])
-    jogos.push(["Botafogo", "Santos", 0, 1, "Brasileirão", "2016-09-14", "Luso Brasileiro"])
-    jogos.push(["Cruzeiro", "Botafogo", 0, 2, "Brasileirão", "2016-09-11", "Mineirão"])
-    jogos.push(["Botafogo", "Fluminense", 1, 0, "Brasileirão", "2016-09-07", "Luso Brasileiro"])
-    jogos.push(["Botafogo", "Grêmio", 2, 1, "Brasileirão", "2016-09-04", "Luso Brasileiro"])
-    jogos.push(["Botafogo", "Cruzeiro", 2, 5, "Copa do Brasil", "2016-09-01", "Luso Brasileiro"])
-    jogos.push(["Atlético-PR", "Botafogo", 1, 0, "Brasileirão", "2016-08-29", "Arena da Baixada"])
-    jogos.push(["Botafogo", "Sport", 3, 0, "Brasileirão", "2016-08-20", "Mário Helênio"])
-    jogos.push(["São Paulo", "Botafogo", 0, 1, "Brasileirão", "2016-08-14", "Morumbi"])
-    jogos.push(["Ponte Preta", "Botafogo", 2, 0, "Brasileirão", "2016-08-04", "Moisés Lucarelli"])
-    jogos.push(["Botafogo", "Palmeiras", 3, 1, "Brasileirão", "2016-07-31", "Luso Brasileiro"])
-    jogos.push(["Botafogo", "Bragantino", 1, 0, "Copa do Brasil", "2016-07-27", "Luso Brasileiro"])
-    jogos.push(["Chapecoense", "Botafogo", 2, 1, "Brasileirão", "2016-07-24", "Arena Condá"])
-    jogos.push(["Botafogo", "Flamengo", 3, 3, "Brasileirão", "2016-07-16", "Luso Brasileiro"])
-    jogos.push(["Bragantino", "Botafogo", 2, 2, "Copa do Brasil", "2016-07-13", "Nabi Abi Chedid"])
-    jogos.push(["Coritiba", "Botafogo", 0, 0, "Brasileirão", "2016-07-09", "Couto Pereira"])
-    jogos.push(["Botafogo", "Santa Cruz", 2, 1, "Brasileirão", "2016-07-03", "Mário Helênio"])
-    jogos.push(["Atlético-MG", "Botafogo", 5, 3, "Brasileirão", "2016-06-30", "Mineirão"])
-    jogos.push(["Internacional", "Botafogo", 2, 3, "Brasileirão", "2016-06-26", "Beira Rio"])
-    jogos.push(["Botafogo", "Figueirense", 0, 0, "Brasileirão", "2016-06-22", "Mário Helênio"])
-    jogos.push(["Corinthians", "Botafogo", 3, 1, "Brasileirão", "2016-06-19", "Neo Química Arena"])
-    jogos.push(["Botafogo", "América-MG", 3, 1, "Brasileirão", "2016-06-15", "Raulino de Oliveira"])
-    jogos.push(["Botafogo", "Vitória", 1, 1, "Brasileirão", "2016-06-12", "Raulino de Oliveira"])
-    jogos.push(["Santos", "Botafogo", 3, 0, "Brasileirão", "2016-06-05", "Pacaembu"])
-    jogos.push(["Botafogo", "Cruzeiro", 0, 1, "Brasileirão", "2016-06-01", "Mané Garrincha"])
-    jogos.push(["Fluminense", "Botafogo", 1, 0, "Brasileirão", "2016-05-29", "Raulino de Oliveira"])
-    jogos.push(["Botafogo", "Atlético-PR", 2, 1, "Brasileirão", "2016-05-25", "Mário Helênio"])
-    jogos.push(["Sport", "Botafogo", 1, 1, "Brasileirão", "2016-05-22", "Ilha do Retiro"])
-    jogos.push(["Botafogo", "Juazeirense", 1, 0, "Copa do Brasil", "2016-05-19", "Los Larios"])
-    jogos.push(["Botafogo", "São Paulo", 0, 1, "Brasileirão", "2016-05-15", "Raulino de Oliveira"])
-    jogos.push(["Juazeirense", "Botafogo", 1, 2, "Copa do Brasil", "2016-05-12", "Adautão"])
-    jogos.push(["Vasco", "Botafogo", 1, 1, "Carioca", "2016-05-08", "Maracanã"])
-    jogos.push(["Botafogo", "Vasco", 0, 1, "Carioca", "2016-05-01", "Maracanã"])
-    jogos.push(["Botafogo", "Coruripe", 1, 1, "Copa do Brasil", "2016-04-28", "Los Larios"])
-    jogos.push(["Fluminense", "Botafogo", 0, 1, "Carioca", "2016-04-24", "Raulino de Oliveira"])
-    jogos.push(["Boavista", "Botafogo", 0, 1, "Carioca", "2016-04-17", "Bacaxá"])
-    jogos.push(["Botafogo", "Bangu", 1, 0, "Carioca", "2016-04-10", "São Januário"])
-    jogos.push(["Coruripe", "Botafogo", 0, 1, "Copa do Brasil", "2016-04-05", "Gerson Amaral"])
-    jogos.push(["Botafogo", "Flamengo", 2, 2, "Carioca", "2016-04-02", "Mário Helênio"])
-    jogos.push(["Botafogo", "Volta Redonda", 2, 0, "Carioca", "2016-03-30", "São Januário"])
-    jogos.push(["Vasco", "Botafogo", 1, 0, "Carioca", "2016-03-27", "São Januário"])
-    jogos.push(["Botafogo", "Madureira", 1, 0, "Carioca", "2016-03-20", "Los Larios"])
-    jogos.push(["Fluminense", "Botafogo", 1, 1, "Carioca", "2016-03-13", "Raulino de Oliveira"])
-    jogos.push(["Boavista", "Botafogo", 0, 1, "Carioca", "2016-03-06", "São Januário"])
-    jogos.push(["Vasco", "Botafogo", 1, 1, "Carioca", "2016-02-28", "São Januário"])
-    jogos.push(["Botafogo", "Fluminense", 2, 0, "Carioca", "2016-02-24", "Kleber Andrade"])
-    jogos.push(["Botafogo", "Cabofriense", 2, 1, "Carioca", "2016-02-21", "São Januário"])
-    jogos.push(["Resende", "Botafogo", 0, 1, "Carioca", "2016-02-13", "Raulino de Oliveira"])
-    jogos.push(["Botafogo", "Macaé", 1, 0, "Carioca", "2016-02-10", "Los Larios"])
-    jogos.push(["Botafogo", "Portuguesa-RJ", 2, 1, "Carioca", "2016-02-02", "São Januário"])
-    jogos.push(["Bangu", "Botafogo", 0, 2, "Carioca", "2016-01-30", "São Januário"])
-    jogos.push(["Botafogo", "América-MG", 0, 0, "Série B", "2015-11-28", "Nilton Santos"])
-    jogos.push(["ABC", "Botafogo", 1, 2, "Série B", "2015-11-20", "Mané Garrincha"])
-    jogos.push(["Botafogo", "Santa Cruz", 0, 3, "Série B", "2015-11-14", "Nilton Santos"])
-    jogos.push(["Luverdense", "Botafogo", 0, 1, "Série B", "2015-11-10", "Passo das Emas"])
-    jogos.push(["Criciúma", "Botafogo", 1, 0, "Série B", "2015-11-07", "Heriberto Hulse"])
-    jogos.push(["Botafogo", "Bahia", 1, 0, "Série B", "2015-10-31", "Nilton Santos"])
-    jogos.push(["Náutico", "Botafogo", 1, 4, "Série B", "2015-10-24", "Arena de Pernambuco"])
-    jogos.push(["Botafogo", "Ceará", 0, 1, "Série B", "2015-10-20", "Nilton Santos"])
-    jogos.push(["Botafogo", "Bragantino", 4, 0, "Série B", "2015-10-17", "Nilton Santos"])
-    jogos.push(["Sampaio Corrêa", "Botafogo", 2, 2, "Série B", "2015-10-02", "Castelão-MA"])
-    jogos.push(["Botafogo", "Macaé", 2, 1, "Série B", "2015-09-22", "Nilton Santos"])
-    jogos.push(["Boa Esporte", "Botafogo", 0, 1, "Série B", "2015-09-18", "Melão"])
-    jogos.push(["Botafogo", "Oeste", 1, 1, "Série B", "2015-09-15", "Nilton Santos"])
-    jogos.push(["Mogi Mirim", "Botafogo", 0, 3, "Série B", "2015-09-11", "Kleber Andrade"])
-    jogos.push(["Botafogo", "Paraná", 2, 1, "Série B", "2015-09-08", "Nilton Santos"])
-    jogos.push(["Vitória", "Botafogo", 1, 2, "Série B", "2015-09-05", "Barradão"])
-    jogos.push(["Botafogo", "Atlético-GO", 4, 0, "Série B", "2015-09-01", "Nilton Santos"])
-    jogos.push(["CRB", "Botafogo", 2, 1, "Série B", "2015-08-28", "Rei Pelé"])
-    jogos.push(["Botafogo", "Paysandu", 2, 3, "Série B", "2015-08-23", "Nilton Santos"])
-    jogos.push(["América-MG", "Botafogo", 1, 2, "Série B", "2015-08-15", "Independência"])
-    jogos.push(["Botafogo", "ABC", 3, 1, "Série B", "2015-08-11", "Nilton Santos"])
-    jogos.push(["Santa Cruz", "Botafogo", 1, 0, "Série B", "2015-08-08", "Arruda"])
-    jogos.push(["Botafogo", "Luverdense", 0, 0, "Série B", "2015-08-01", "Nilton Santos"])
-    jogos.push(["Botafogo", "Criciúma", 0, 0, "Série B", "2015-07-28", "Nilton Santos"])
-    jogos.push(["Bahia", "Botafogo", 1, 1, "Série B", "2015-07-25", "Fonte Nova"])
-    jogos.push(["Botafogo", "Náutico", 1, 0, "Série B", "2015-07-18", "Nilton Santos"])
-    jogos.push(["Botafogo", "Figueirense", 0, 1, "Copa do Brasil", "2015-07-14", "Nilton Santos"])
-    jogos.push(["Bragantino", "Botafogo", 1, 0, "Série B", "2015-07-10", "Nabi Abi Chedid"])
-    jogos.push(["Ceará", "Botafogo", 0, 0, "Série B", "2015-07-07", "Castelão-CE"])
-    jogos.push(["Botafogo", "Sampaio Corrêa", 5, 0, "Série B", "2015-07-03", "Nilton Santos"])
-    jogos.push(["Macaé", "Botafogo", 4, 2, "Série B", "2015-06-27", "Moacyrzão"])
-    jogos.push(["Botafogo", "Boa Esporte", 1, 1, "Série B", "2015-06-19", "Nilton Santos"])
-    jogos.push(["Oeste", "Botafogo", 0, 1, "Série B", "2015-06-09", "José Liberatti"])
-    jogos.push(["Botafogo", "Mogi Mirim", 3, 0, "Série B", "2015-06-05", "Nilton Santos"])
-    jogos.push(["Paraná", "Botafogo", 1, 2, "Série B", "2015-06-02", "Vila Capanema"])
-    jogos.push(["Botafogo", "Vitória", 2, 0, "Série B", "2015-05-30", "Nilton Santos"])
-    jogos.push(["Atlético-GO", "Botafogo", 0, 0, "Série B", "2015-05-23", "Mané Garrincha"])
-    jogos.push(["Figueirense", "Botafogo", 2, 2, "Copa do Brasil", "2015-05-20", "Orlando Scarpelli"])
-    jogos.push(["Botafogo", "CRB", 4, 1, "Série B", "2015-05-16", "Nilton Santos"])
-    jogos.push(["Paysandu", "Botafogo", 0, 1, "Série B", "2015-05-09", "Mangueirão"])
-    jogos.push(["Botafogo", "Capivariano", 3, 0, "Copa do Brasil", "2015-05-06", "Nilton Santos"])
-    jogos.push(["Botafogo", "Vasco", 1, 2, "Carioca", "2015-05-03", "Maracanã"])
-    jogos.push(["Capivariano", "Botafogo", 1, 2, "Copa do Brasil", "2015-04-29", "Carlos Colnaghi"])
-    jogos.push(["Vasco", "Botafogo", 1, 0, "Carioca", "2015-04-26", "Maracanã"])
-    jogos.push(["Botafogo", "Fluminense", 2, 1, "Carioca", "2015-04-18", "Nilton Santos"]) // (9-8 Pen.)
-    jogos.push(["Botafogo", "Botafogo-PB", 4, 2, "Copa do Brasil", "2015-04-15", "Nilton Santos"])
-    jogos.push(["Fluminense", "Botafogo", 2, 1, "Carioca", "2015-04-11", "Maracanã"])
-    jogos.push(["Botafogo", "Macaé", 1, 0, "Carioca", "2015-04-08", "Nilton Santos"])
-    jogos.push(["Botafogo", "Madureira", 4, 1, "Carioca", "2015-04-05", "Nilton Santos"])
-    jogos.push(["Botafogo-PB", "Botafogo", 2, 2, "Copa do Brasil", "2015-04-01", "Almeidão"])
-    jogos.push(["Vasco", "Botafogo", 1, 1, "Carioca", "2015-03-29", "Maracanã"])
-    jogos.push(["Barra Mansa", "Botafogo", 1, 1, "Carioca", "2015-03-25", "Raulino de Oliveira"])
-    jogos.push(["Cabofriense", "Botafogo", 0, 1, "Carioca", "2015-03-22", "Moacyrzão"])
-    jogos.push(["Botafogo", "Resende", 3, 0, "Carioca", "2015-03-15", "Nilton Santos"])
-    jogos.push(["Botafogo", "Tigres do Brasil", 3, 0, "Carioca", "2015-03-11", "Nilton Santos"])
-    jogos.push(["Fluminense", "Botafogo", 3, 1, "Carioca", "2015-03-08", "Maracanã"])
-    jogos.push(["Botafogo", "Flamengo", 1, 0, "Carioca", "2015-03-01", "Maracanã"])
-    jogos.push(["Botafogo", "Nova Iguaçu", 2, 1, "Carioca", "2015-02-21", "Nilton Santos"])
-    jogos.push(["Friburguense", "Botafogo", 0, 3, "Carioca", "2015-02-18", "Eduardo Guinle"])
-    jogos.push(["Bangu", "Botafogo", 0, 3, "Carioca", "2015-02-11", "Los Larios"])
-    jogos.push(["Botafogo", "Bonsucesso", 4, 0, "Carioca", "2015-02-07", "Nilton Santos"])
-    jogos.push(["Volta Redonda", "Botafogo", 2, 2, "Carioca", "2015-02-04", "Raulino de Oliveira"])
-    jogos.push(["Botafogo", "Boavista", 1, 0, "Carioca", "2015-01-31", "São Januário"])
-    jogos.push(["Botafogo", "Shandong Luneng", 0, 1, "Amistoso", "2015-01-24", "Nilton Santos"])
-    jogos.push(["Botafogo", "Atlético-MG", 0, 0, "Brasileirão", "2014-12-07", "Mané Garrincha"])
-    jogos.push(["Santos", "Botafogo", 2, 0, "Brasileirão", "2014-11-30", "Vila Belmiro"])
-    jogos.push(["Chapecoense", "Botafogo", 2, 0, "Brasileirão", "2014-11-23", "Arena Condá"])
-    jogos.push(["Botafogo", "Figueirense", 0, 1, "Brasileirão", "2014-11-19", "São Januário"])
-    jogos.push(["Fluminense", "Botafogo", 1, 0, "Brasileirão", "2014-11-15", "Maracanã"])
-    jogos.push(["Botafogo", "Atlético-PR", 0, 2, "Brasileirão", "2014-11-08", "Raulino de Oliveira"])
-    jogos.push(["Cruzeiro", "Botafogo", 2, 1, "Brasileirão", "2014-11-02", "Mineirão"])
-    jogos.push(["Botafogo", "Flamengo", 2, 1, "Brasileirão", "2014-10-25", "Arena da Amazônia"])
-    jogos.push(["Coritiba", "Botafogo", 2, 0, "Brasileirão", "2014-10-22", "Couto Pereira"])
-    jogos.push(["Botafogo", "Sport", 1, 1, "Brasileirão", "2014-10-19", "Raulino de Oliveira"])
-    jogos.push(["Santos", "Botafogo", 5, 0, "Copa do Brasil", "2014-10-16", "Pacaembu"])
-    jogos.push(["Botafogo", "Corinthians", 1, 0, "Brasileirão", "2014-10-11", "Arena da Amazônia"])
-    jogos.push(["Botafogo", "Palmeiras", 0, 1, "Brasileirão", "2014-10-08", "Maracanã"])
-    jogos.push(["Vitória", "Botafogo", 2, 1, "Brasileirão", "2014-10-04", "Barradão"])
-    jogos.push(["Botafogo", "Santos", 2, 3, "Copa do Brasil", "2014-10-01", "Maracanã"])
-    jogos.push(["Botafogo", "Grêmio", 0, 2, "Brasileirão", "2014-09-28", "Maracanã"])
-    jogos.push(["Botafogo", "Goiás", 1, 0, "Brasileirão", "2014-09-25", "Maracanã"])
-    jogos.push(["Criciúma", "Botafogo", 1, 1, "Brasileirão", "2014-09-20", "Heriberto Hulse"])
-    jogos.push(["Botafogo", "Bahia", 2, 3, "Brasileirão", "2014-09-17", "Maracanã"])
-    jogos.push(["Internacional", "Botafogo", 2, 0, "Brasileirão", "2014-09-14", "Beira Rio"])
-    jogos.push(["Botafogo", "São Paulo", 2, 4, "Brasileirão", "2014-09-10", "Mané Garrincha"])
-    jogos.push(["Atlético-MG", "Botafogo", 1, 0, "Brasileirão", "2014-09-07", "Independência"])
-    jogos.push(["Ceará", "Botafogo", 3, 4, "Copa do Brasil", "2014-09-03", "Castelão-CE"])
-    jogos.push(["Botafogo", "Santos", 1, 0, "Brasileirão", "2014-08-31", "Maracanã"])
-    jogos.push(["Botafogo", "Ceará", 1, 2, "Copa do Brasil", "2014-08-27", "Maracanã"])
-    jogos.push(["Botafogo", "Chapecoense", 1, 0, "Brasileirão", "2014-08-23", "Maracanã"])
-    jogos.push(["Figueirense", "Botafogo", 1, 0, "Brasileirão", "2014-08-20", "Orlando Scarpelli"])
-    jogos.push(["Botafogo", "Fluminense", 2, 0, "Brasileirão", "2014-08-17", "Mané Garrincha"])
-    jogos.push(["Atlético-PR", "Botafogo", 2, 0, "Brasileirão", "2014-08-10", "Arena da Baixada"])
-    jogos.push(["Botafogo", "Cruzeiro", 1, 1, "Brasileirão", "2014-08-02", "Maracanã"])
-    jogos.push(["Flamengo", "Botafogo", 1, 0, "Brasileirão", "2014-07-27", "Maracanã"])
-    jogos.push(["Botafogo", "Coritiba", 1, 0, "Brasileirão", "2014-07-19", "Raulino de Oliveira"])
-    jogos.push(["Sport", "Botafogo", 1, 0, "Brasileirão", "2014-07-16", "Ilha do Retiro"])
-    jogos.push(["Corinthians", "Botafogo", 1, 1, "Brasileirão", "2014-06-01", "Neo Química Arena"])
-    jogos.push(["Palmeiras", "Botafogo", 0, 2, "Brasileirão", "2014-05-28", "Prudentão"])
-    jogos.push(["Botafogo", "Vitória", 1, 1, "Brasileirão", "2014-05-25", "Moacyrzão"])
-    jogos.push(["Grêmio", "Botafogo", 2, 1, "Brasileirão", "2014-05-21", "Alfredo Jaconi"])
-    jogos.push(["Goiás", "Botafogo", 2, 0, "Brasileirão", "2014-05-14", "Mário Helênio"])
-    jogos.push(["Botafogo", "Criciúma", 6, 0, "Brasileirão", "2014-05-10", "Maracanã"])
-    jogos.push(["Bahia", "Botafogo", 1, 0, "Brasileirão", "2014-05-04", "Fonte Nova"])
-    jogos.push(["Botafogo", "Internacional", 2, 2, "Brasileirão", "2014-04-27", "Maracanã"])
-    jogos.push(["São Paulo", "Botafogo", 3, 0, "Brasileirão", "2014-04-20", "Morumbi"])
-    jogos.push(["San Lorenzo", "Botafogo", 3, 0, "Libertadores 2014", "2014-04-09", "Nuevo Gasometro"])
-    jogos.push(["Botafogo", "Unión Española", 0, 1, "Libertadores 2014", "2014-04-02", "Maracanã"])
-    jogos.push(["Botafogo", "Nova Iguaçu", 1, 1, "Carioca", "2014-03-22", "Moça Bonita"])
-    jogos.push(["Botafogo", "Independiente Del Valle", 1, 0, "Libertadores 2014", "2014-03-18", "Maracanã"])
-    jogos.push(["Boavista", "Botafogo", 2, 1, "Carioca", "2014-03-15", "Bacaxá"])
-    jogos.push(["Independiente Del Valle", "Botafogo", 2, 1, "Libertadores 2014", "2014-03-12", "General Rumiñahui"])
-    jogos.push(["Botafogo", "Flamengo", 0, 2, "Carioca", "2014-03-09", "Maracanã"])
-    jogos.push(["Audax Rio", "Botafogo", 2, 2, "Carioca", "2014-03-06", "Moça Bonita"])
-    jogos.push(["Botafogo", "Macaé", 0, 2, "Carioca", "2014-03-01", "Moça Bonita"])
-    jogos.push(["Unión Española", "Botafogo", 1, 1, "Libertadores 2014", "2014-02-26", "Santa Laura"])
-    jogos.push(["Fluminense", "Botafogo", 0, 3, "Carioca", "2014-02-23", "Maracanã"])
-    jogos.push(["Botafogo", "Volta Redonda", 1, 1, "Carioca", "2014-02-20", "Maracanã"])
-    jogos.push(["Duque de Caxias", "Botafogo", 1, 2, "Carioca", "2014-02-16", "Raulino de Oliveira"])
-    jogos.push(["Botafogo", "Bonsucesso", 2, 0, "Carioca", "2014-02-13", "Moça Bonita"])
-    jogos.push(["Botafogo", "San Lorenzo", 2, 0, "Libertadores 2014", "2014-02-11", "Maracanã"])
-    jogos.push(["Botafogo", "Friburguense", 0, 1, "Carioca", "2014-02-08", "Moça Bonita"])
-    jogos.push(["Botafogo", "Deportivo Quito", 4, 0, "Libertadores 2014", "2014-02-05", "Maracanã"])
-    jogos.push(["Vasco", "Botafogo", 1, 0, "Carioca", "2014-02-02", "Maracanã"])
-    jogos.push(["Deportivo Quito", "Botafogo", 1, 0, "Libertadores 2014", "2014-01-29", "Olímpico Atahualpa"])
-    jogos.push(["Cabofriense", "Botafogo", 2, 1, "Carioca", "2014-01-26", "Moacyrzão"])
-    jogos.push(["Botafogo", "Madureira", 2, 1, "Carioca", "2014-01-23", "São Januário"])
-    jogos.push(["Botafogo", "Bangu", 0, 0, "Carioca", "2014-01-21", "São Januário"])
-    jogos.push(["Resende", "Botafogo", 1, 1, "Carioca", "2014-01-18", "Raulino de Oliveira"])
-    jogos.push(["Botafogo", "Criciúma", 3, 0, "Brasileirão", "2013-12-08", "Maracanã"])
-    jogos.push(["Coritiba", "Botafogo", 2, 1, "Brasileirão", "2013-12-01", "Couto Pereira"])
-    jogos.push(["São Paulo", "Botafogo", 1, 1, "Brasileirão", "2013-11-24", "Morumbi"])
-    jogos.push(["Botafogo", "Atlético-PR", 4, 0, "Brasileirão", "2013-11-16", "Maracanã"])
-    jogos.push(["Botafogo", "Portuguesa", 0, 0, "Brasileirão", "2013-11-13", "Maracanã"])
-    jogos.push(["Internacional", "Botafogo", 2, 1, "Brasileirão", "2013-11-10", "Centenário (Caxias do Sul)"])
-    jogos.push(["Goiás", "Botafogo", 1, 0, "Brasileirão", "2013-11-03", "Serra Dourada"])
-    jogos.push(["Botafogo", "Atlético-MG", 1, 0, "Brasileirão", "2013-10-26", "Maracanã"])
-    jogos.push(["Flamengo", "Botafogo", 4, 0, "Copa do Brasil", "2013-10-23", "Maracanã"])
-    jogos.push(["Botafogo", "Vasco", 2, 2, "Brasileirão", "2013-10-20", "Maracanã"])
-    jogos.push(["Vitória", "Botafogo", 1, 0, "Brasileirão", "2013-10-17", "Barradão"])
-    jogos.push(["Botafogo", "Flamengo", 2, 1, "Brasileirão", "2013-10-13", "Maracanã"])
-    jogos.push(["Náutico", "Botafogo", 1, 3, "Brasileirão", "2013-10-09", "Arena de Pernambuco"])
-    jogos.push(["Botafogo", "Grêmio", 0, 1, "Brasileirão", "2013-10-05", "Maracanã"])
-    jogos.push(["Fluminense", "Botafogo", 1, 1, "Brasileirão", "2013-10-02", "Maracanã"])
-    jogos.push(["Botafogo", "Ponte Preta", 0, 1, "Brasileirão", "2013-09-28", "Maracanã"])
-    jogos.push(["Botafogo", "Flamengo", 1, 1, "Copa do Brasil", "2013-09-25", "Maracanã"])
-    jogos.push(["Botafogo", "Bahia", 1, 2, "Brasileirão", "2013-09-22", "Maracanã"])
-    jogos.push(["Cruzeiro", "Botafogo", 3, 0, "Brasileirão", "2013-09-18", "Mineirão"])
-    jogos.push(["Santos", "Botafogo", 1, 2, "Brasileirão", "2013-09-15", "Vila Belmiro"])
-    jogos.push(["Botafogo", "Corinthians", 1, 0, "Brasileirão", "2013-09-11", "Maracanã"])
-    jogos.push(["Criciúma", "Botafogo", 1, 2, "Brasileirão", "2013-09-08", "Heriberto Hulse"])
-    jogos.push(["Botafogo", "Coritiba", 3, 1, "Brasileirão", "2013-09-05", "Maracanã"])
-    jogos.push(["Botafogo", "São Paulo", 0, 0, "Brasileirão", "2013-09-01", "Maracanã"])
-    jogos.push(["Atlético-MG", "Botafogo", 2, 2, "Copa do Brasil", "2013-08-28", "Independência"])
-    jogos.push(["Atlético-PR", "Botafogo", 2, 0, "Brasileirão", "2013-08-25", "Vila Capanema"])
-    jogos.push(["Botafogo", "Atlético-MG", 4, 2, "Copa do Brasil", "2013-08-22", "Maracanã"])
-    jogos.push(["Portuguesa", "Botafogo", 1, 3, "Brasileirão", "2013-08-18", "Canindé"])
-    jogos.push(["Botafogo", "Internacional", 3, 3, "Brasileirão", "2013-08-15", "Maracanã"])
-    jogos.push(["Botafogo", "Goiás", 1, 1, "Brasileirão", "2013-08-10", "Mané Garrincha"])
-    jogos.push(["Atlético-MG", "Botafogo", 2, 2, "Brasileirão", "2013-08-07", "Independência"])
-    jogos.push(["Vasco", "Botafogo", 2, 3, "Brasileirão", "2013-08-04", "Maracanã"])
-    jogos.push(["Botafogo", "Vitória", 2, 0, "Brasileirão", "2013-08-01", "Maracanã"])
-    jogos.push(["Flamengo", "Botafogo", 1, 1, "Brasileirão", "2013-07-28", "Maracanã"])
-    jogos.push(["Figueirense", "Botafogo", 1, 0, "Copa do Brasil", "2013-07-24", "Orlando Scarpelli"]) // (4-5 Pen.)
-    jogos.push(["Botafogo", "Náutico", 2, 0, "Brasileirão", "2013-07-20", "São Januário"])
-    jogos.push(["Grêmio", "Botafogo", 2, 1, "Brasileirão", "2013-07-14", "Arena do Grêmio"])
-    jogos.push(["Botafogo", "Fluminense", 1, 0, "Brasileirão", "2013-07-07", "Arena Pernambuco"])
-    jogos.push(["Botafogo", "Figueirense", 1, 0, "Copa do Brasil", "2013-07-03", "Raulino de Oliveira"])
-    jogos.push(["Ponte Preta", "Botafogo", 0, 2, "Brasileirão", "2013-06-08", "Moisés Lucarelli"])
-    jogos.push(["Bahia", "Botafogo", 2, 1, "Brasileirão", "2013-06-05", "Lourival Baptista"])
-    jogos.push(["Botafogo", "Cruzeiro", 2, 1, "Brasileirão", "2013-06-01", "Raulino de Oliveira"])
-    jogos.push(["Botafogo", "Santos", 2, 1, "Brasileirão", "2013-05-29", "Raulino de Oliveira"])
-    jogos.push(["Corinthians", "Botafogo", 1, 1, "Brasileirão", "2013-05-25", "Pacaembu"])
-    jogos.push(["Botafogo", "CRB", 3, 0, "Copa do Brasil", "2013-05-22", "Raulino de Oliveira"])
-    jogos.push(["Botafogo", "Fluminense", 1, 0, "Carioca", "2013-05-05", "Raulino de Oliveira"])
-    jogos.push(["CRB", "Botafogo", 0, 0, "Copa do Brasil", "2013-05-02", "Rei Pelé"])
-    jogos.push(["Botafogo", "Resende", 5, 0, "Carioca", "2013-04-27", "Raulino de Oliveira"])
-    jogos.push(["Botafogo", "Sobradinho", 2, 0, "Copa do Brasil", "2013-04-24", "Raulino de Oliveira"])
-    jogos.push(["Volta Redonda", "Botafogo", 0, 1, "Carioca", "2013-04-21", "Raulino de Oliveira"])
-    jogos.push(["Sobradinho", "Botafogo", 0, 0, "Copa do Brasil", "2013-04-17", "Bezerrão"])
-    jogos.push(["Botafogo", "Nova Iguaçu", 4, 1, "Carioca", "2013-04-14", "Moça Bonita"])
-    jogos.push(["Botafogo", "Friburguense", 3, 1, "Carioca", "2013-04-10", "Moça Bonita"])
-    jogos.push(["Botafogo", "Olaria", 3, 0, "Carioca", "2013-04-07", "Raulino de Oliveira"])
-    jogos.push(["Vasco", "Botafogo", 0, 3, "Carioca", "2013-04-03", "Raulino de Oliveira"])
-    jogos.push(["Madureira", "Botafogo", 1, 2, "Carioca", "2013-03-24", "Moça Bonita"])
-    jogos.push(["Botafogo", "Quissamã", 4, 0, "Carioca", "2013-03-16", "Nilton Santos"])
-    jogos.push(["Vasco", "Botafogo", 0, 1, "Carioca", "2013-03-10", "Nilton Santos"])
-    jogos.push(["Flamengo", "Botafogo", 0, 2, "Carioca", "2013-03-03", "Nilton Santos"])
-    jogos.push(["Botafogo", "Boavista", 2, 2, "Carioca", "2013-02-24", "Nilton Santos"])
-    jogos.push(["Flamengo", "Botafogo", 1, 0, "Carioca", "2013-02-17", "Nilton Santos"])
-    jogos.push(["Botafogo", "Resende", 4, 2, "Carioca", "2013-02-07", "Nilton Santos"])
-    jogos.push(["Macaé", "Botafogo", 1, 3, "Carioca", "2013-02-03", "Moacyrzão"])
-    jogos.push(["Audax Rio", "Botafogo", 0, 4, "Carioca", "2013-01-30", "Moça Bonita"])
-    jogos.push(["Botafogo", "Fluminense", 1, 1, "Carioca", "2013-01-27", "Nilton Santos"])
-    jogos.push(["Bangu", "Botafogo", 0, 0, "Carioca", "2013-01-24", "Moça Bonita"])
-    jogos.push(["Botafogo", "Duque de Caxias", 3, 0, "Carioca", "2013-01-20", "Nilton Santos"])
+    jogos.push(["Botafogo", "Guarani", 2, 2, "Série B", "2021-11-28", "Nilton Santos"]);
+    jogos.push(["Brasil de Pelotas", "Botafogo", 0, 1, "Série B", "2021-11-21", "Bento de Freitas"]);
+    jogos.push(["Botafogo", "Operário", 2, 1, "Série B", "2021-11-15", "Nilton Santos"]);
+    jogos.push(["Ponte Preta", "Botafogo", 0, 0, "Série B", "2021-11-11", "Moisés Lucarelli"]);
+    jogos.push(["Vasco", "Botafogo", 0, 4, "Série B", "2021-11-07", "São Januário"]);
+    jogos.push(["Botafogo", "Confiança", 1, 0, "Série B", "2021-11-03", "Nilton Santos"]);
+    jogos.push(["Goiás", "Botafogo", 1, 1, "Série B", "2021-10-26", "Serrinha"]);
+    jogos.push(["Botafogo", "Brusque", 3, 0, "Série B", "2021-10-20", "Nilton Santos"]);
+    jogos.push(["Cruzeiro", "Botafogo", 0, 0, "Série B", "2021-10-12", "Independência"]);
+    jogos.push(["Botafogo", "CRB", 2, 0, "Série B", "2021-10-08", "Nilton Santos"]);
+    jogos.push(["Botafogo", "Avaí", 1, 2, "Série B", "2021-10-02", "Nilton Santos"]);
+    jogos.push(["Vitória", "Botafogo", 0, 0, "Série B", "2021-09-29", "Barradão"]);
+    jogos.push(["Botafogo", "Sampaio Corrêa", 2, 0, "Série B", "2021-09-26", "Nilton Santos"]);
+    jogos.push(["CSA", "Botafogo", 2, 0, "Série B", "2021-09-23", "Rei Pelé"]);
+    jogos.push(["Botafogo", "Náutico", 3, 1, "Série B", "2021-09-18", "Nilton Santos"]);
+    jogos.push(["Botafogo", "Londrina", 4, 0, "Série B", "2021-09-11", "Nilton Santos"]);
+    jogos.push(["Remo", "Botafogo", 0, 1, "Série B", "2021-09-04", "Baenão"]);
+    jogos.push(["Coritiba", "Botafogo", 0, 1, "Série B", "2021-08-27", "Couto Pereira"]);
+    jogos.push(["Botafogo", "Vila Nova", 3, 2, "Série B", "2021-08-22", "Nilton Santos"]);
+    jogos.push(["Guarani", "Botafogo", 1, 1, "Série B", "2021-08-18", "Brinco de Ouro da Princesa"]);
+    jogos.push(["Botafogo", "Brasil de Pelotas", 1, 0, "Série B", "2021-08-15", "Nilton Santos"]);
+    jogos.push(["Operário", "Botafogo", 1, 0, "Série B", "2021-08-12", "Germano Kruger"]);
+    jogos.push(["Botafogo", "Ponte Preta", 2, 0, "Série B", "2021-08-08", "Nilton Santos"]);
+    jogos.push(["Botafogo", "Vasco", 2, 0, "Série B", "2021-07-31", "Nilton Santos"]);
+    jogos.push(["Botafogo", "CSA", 2, 0, "Série B", "2021-07-27", "Nilton Santos"]);
+    jogos.push(["Confiança", "Botafogo", 0, 1, "Série B", "2021-07-24", "Arena Batistão"]);
+    jogos.push(["Botafogo", "Goiás", 0, 2, "Série B", "2021-07-20", "Nilton Santos"]);
+    jogos.push(["Brusque", "Botafogo", 2, 1, "Série B", "2021-07-17", "Augusto Bauer"]);
+    jogos.push(["Botafogo", "Cruzeiro", 3, 3, "Série B", "2021-07-10", "Nilton Santos"]);
+    jogos.push(["CRB", "Botafogo", 2, 1, "Série B", "2021-07-06", "Rei Pelé"]);
+    jogos.push(["Avaí", "Botafogo", 1, 1, "Série B", "2021-07-03", "Ressacada"]);
+    jogos.push(["Botafogo", "Vitória", 1, 0, "Série B", "2021-06-30", "Raulino de Oliveira"]);
+    jogos.push(["Sampaio Corrêa", "Botafogo", 2, 0, "Série B", "2021-06-26", "Castelão-MA"]);
+    jogos.push(["Náutico", "Botafogo", 3, 1, "Série B", "2021-06-20", "Aflitos"]);
+    jogos.push(["Londrina", "Botafogo", 2, 2, "Série B", "2021-06-17", "Estádio do Café"]);
+    jogos.push(["Botafogo", "Remo", 3, 0, "Série B", "2021-06-13", "Raulino de Oliveira"]);
+    jogos.push(["Botafogo", "Coritiba", 2, 0, "Série B", "2021-06-05", "Nilton Santos"]);
+    jogos.push(["Vila Nova", "Botafogo", 1, 1, "Série B", "2021-05-28", "OBA"]);
+    jogos.push(["Vasco", "Botafogo", 0, 1, "Carioca", "2021-05-22", "São Januário"]); // (3-0 Pen.)
+    jogos.push(["Botafogo", "Vasco", 0, 1, "Carioca", "2021-05-16", "Nilton Santos"]);
+    jogos.push(["Nova Iguaçu", "Botafogo", 0, 1, "Carioca", "2021-05-09", "Nilton Santos"]);
+    jogos.push(["Botafogo", "Nova Iguaçu", 0, 0, "Carioca", "2021-05-02", "Nilton Santos"]);
+    jogos.push(["Botafogo", "Macaé", 4, 0, "Carioca", "2021-04-25", "Nilton Santos"]);
+    jogos.push(["Fluminense", "Botafogo", 1, 0, "Carioca", "2021-04-17", "Maracanã"]);
+    jogos.push(["ABC", "Botafogo", 1, 1, "Copa do Brasil", "2021-04-14", "Frasqueirão"]); // (4-1 Pen.)
+    jogos.push(["Volta Redonda", "Botafogo", 2, 2, "Carioca", "2021-04-10", "Raulino de Oliveira"]);
+    jogos.push(["Botafogo", "Portuguesa-RJ", 1, 1, "Carioca", "2021-04-04", "Giulite Coutinho"]);
+    jogos.push(["Botafogo", "Madureira", 1, 1, "Carioca", "2021-03-31", "Giulite Coutinho"]);
+    jogos.push(["Nova Iguaçu", "Botafogo", 1, 2, "Carioca", "2021-03-28", "Bacaxá"]);
+    jogos.push(["Botafogo", "Flamengo", 0, 2, "Carioca", "2021-03-24", "Nilton Santos"]);
+    jogos.push(["Vasco", "Botafogo", 1, 1, "Carioca", "2021-03-21", "São Januário"]);
+    jogos.push(["Bangu", "Botafogo", 0, 0, "Carioca", "2021-03-13", "Nilton Santos"]);
+    jogos.push(["Moto Club", "Botafogo", 0, 5, "Copa do Brasil", "2021-03-10", "Castelão-MA"]);
+    jogos.push(["Botafogo", "Resende", 3, 0, "Carioca", "2021-03-07", "Nilton Santos"]);
+    jogos.push(["Botafogo", "Boavista", 0, 0, "Carioca", "2021-03-03", "Nilton Santos"]);
+    jogos.push(["Ceará", "Botafogo", 2, 1, "Brasileirão", "2021-02-25", "Castelão-CE"]);
+    jogos.push(["Botafogo", "São Paulo", 1, 0, "Brasileirão", "2021-02-22", "Nilton Santos"]);
+    jogos.push(["Goiás", "Botafogo", 2, 0, "Brasileirão", "2021-02-13", "Serrinha"]);
+    jogos.push(["Botafogo", "Grêmio", 2, 5, "Brasileirão", "2021-02-08", "Nilton Santos"]);
+    jogos.push(["Botafogo", "Sport", 0, 1, "Brasileirão", "2021-02-05", "Nilton Santos"]);
+    jogos.push(["Palmeiras", "Botafogo", 1, 1, "Brasileirão", "2021-02-02", "Allianz Parque"]);
+    jogos.push(["Fluminense", "Botafogo", 2, 0, "Brasileirão", "2021-01-24", "São Januário"]);
+    jogos.push(["Botafogo", "Atlético-GO", 1, 3, "Brasileirão", "2021-01-20", "Nilton Santos"]);
+    jogos.push(["Santos", "Botafogo", 2, 1, "Brasileirão", "2021-01-17", "Vila Belmiro"]);
+    jogos.push(["Vasco", "Botafogo", 3, 0, "Brasileirão", "2021-01-10", "São Januário"]);
+    jogos.push(["Botafogo", "Athletico-PR", 0, 2, "Brasileirão", "2021-01-06", "Nilton Santos"]);
+    jogos.push(["Botafogo", "Corinthians", 0, 2, "Brasileirão", "2020-12-27", "Nilton Santos"]);
+    jogos.push(["Coritiba", "Botafogo", 1, 2, "Brasileirão", "2020-12-19", "Couto Pereira"]);
+    jogos.push(["Internacional", "Botafogo", 2, 1, "Brasileirão", "2020-12-12", "Beira Rio"]);
+    jogos.push(["São Paulo", "Botafogo", 4, 0, "Brasileirão", "2020-12-09", "Morumbi"]);
+    jogos.push(["Botafogo", "Flamengo", 0, 1, "Brasileirão", "2020-12-05", "Nilton Santos"]);
+    jogos.push(["Atlético-MG", "Botafogo", 2, 1, "Brasileirão", "2020-11-25", "Mineirão"]);
+    jogos.push(["Botafogo", "Fortaleza", 1, 2, "Brasileirão", "2020-11-22", "Nilton Santos"]);
+    jogos.push(["Botafogo", "Red Bull Bragantino", 1, 2, "Brasileirão", "2020-11-16", "Nilton Santos"]);
+    jogos.push(["Bahia", "Botafogo", 1, 0, "Brasileirão", "2020-11-08", "Fonte Nova"]);
+    jogos.push(["Cuiabá", "Botafogo", 0, 0, "Copa do Brasil", "2020-11-03", "Arena Pantanal"]);
+    jogos.push(["Botafogo", "Ceará", 2, 2, "Brasileirão", "2020-10-31", "Nilton Santos"]);
+    jogos.push(["Botafogo", "Cuiabá", 0, 1, "Copa do Brasil", "2020-10-27", "Nilton Santos"]);
+    jogos.push(["Botafogo", "Goiás", 0, 0, "Brasileirão", "2020-10-19", "Nilton Santos"]);
+    jogos.push(["Grêmio", "Botafogo", 3, 1, "Brasileirão", "2020-10-14", "Arena do Grêmio"]);
+    jogos.push(["Sport", "Botafogo", 1, 2, "Brasileirão", "2020-10-11", "Ilha do Retiro"]);
+    jogos.push(["Botafogo", "Palmeiras", 2, 1, "Brasileirão", "2020-10-07", "Nilton Santos"]);
+    jogos.push(["Botafogo", "Fluminense", 1, 1, "Brasileirão", "2020-10-04", "Nilton Santos"]);
+    jogos.push(["Botafogo", "Bahia", 1, 2, "Brasileirão", "2020-09-30", "Nilton Santos"]);
+    jogos.push(["Atlético-GO", "Botafogo", 1, 1, "Brasileirão", "2020-09-27", "Olímpico(Goiânia)"]);
+    jogos.push(["Vasco", "Botafogo", 0, 0, "Copa do Brasil", "2020-09-23", "São Januário"]);
+    jogos.push(["Botafogo", "Santos", 0, 0, "Brasileirão", "2020-09-20", "Nilton Santos"]);
+    jogos.push(["Botafogo", "Vasco", 1, 0, "Copa do Brasil", "2020-09-17", "Nilton Santos"]);
+    jogos.push(["Botafogo", "Vasco", 2, 3, "Brasileirão", "2020-09-13", "Nilton Santos"]);
+    jogos.push(["Athletico-PR", "Botafogo", 1, 1, "Brasileirão", "2020-09-09", "Arena da Baixada"]);
+    jogos.push(["Corinthians", "Botafogo", 2, 2, "Brasileirão", "2020-09-05", "Neo Química Arena"]);
+    jogos.push(["Botafogo", "Coritiba", 0, 0, "Brasileirão", "2020-09-02", "Nilton Santos"]);
+    jogos.push(["Botafogo", "Internacional", 0, 2, "Brasileirão", "2020-08-29", "Nilton Santos"]);
+    jogos.push(["Paraná", "Botafogo", 1, 2, "Copa do Brasil", "2020-08-26", "Vila Capanema"]);
+    jogos.push(["Flamengo", "Botafogo", 1, 1, "Brasileirão", "2020-08-23", "Maracanã"]);
+    jogos.push(["Botafogo", "Atlético-MG", 2, 1, "Brasileirão", "2020-08-19", "Nilton Santos"]);
+    jogos.push(["Fortaleza", "Botafogo", 0, 0, "Brasileirão", "2020-08-16", "Castelão - CE"]);
+    jogos.push(["Red Bull Bragantino", "Botafogo", 1, 1, "Brasileirão", "2020-08-12", "Nabi Abi Chedid"]);
+    jogos.push(["Fluminense", "Botafogo", 0, 0, "Carioca", "2020-07-05", "Nilton Santos"]);
+    jogos.push(["Portuguesa-RJ", "Botafogo", 0, 0, "Carioca", "2020-07-01", "Luso Brasileiro"]);
+    jogos.push(["Botafogo", "Cabofriense", 6, 2, "Carioca", "2020-06-28", "Nilton Santos"]);
+    jogos.push(["Botafogo", "Bangu", 1, 1, "Carioca", "2020-03-15", "Nilton Santos"]);
+    jogos.push(["Botafogo", "Paraná", 1, 0, "Copa do Brasil", "2020-03-10", "Nilton Santos"]);
+    jogos.push(["Flamengo", "Botafogo", 3, 0, "Carioca", "2020-03-07", "Maracanã"]);
+    jogos.push(["Botafogo", "Boavista", 2, 1, "Carioca", "2020-03-01", "Nilton Santos"]);
+    jogos.push(["Náutico", "Botafogo", 1, 1, "Copa do Brasil", "2020-02-19", "Aflitos"]); // (3 - 4 Pen.)
+    jogos.push(["Fluminense", "Botafogo", 3, 0, "Carioca", "2020-02-09", "Maracanã"]);
+    jogos.push(["Caxias", "Botafogo", 1, 1, "Copa do Brasil", "2020-02-05", "Centenário (Caxias do Sul)"]);
+    jogos.push(["Botafogo", "Vasco", 1, 0, "Carioca", "2020-02-02", "Nilton Santos"]);
+    jogos.push(["Botafogo", "Resende", 2, 1, "Carioca", "2020-01-30", "Nilton Santos"]);
+    jogos.push(["Botafogo", "Macaé", 3, 1, "Carioca", "2020-01-26", "Nilton Santos"]);
+    jogos.push(["Madureira", "Botafogo", 2, 0, "Carioca", "2020-01-21", "Conselheiro Galvão"]);
+    jogos.push(["Volta Redonda", "Botafogo", 1, 0, "Carioca", "2020-01-18", "Raulino de Oliveira"]);
+    jogos.push(["Botafogo", "Ceará", 1, 1, "Brasileirão", "2019-12-08", "Nilton Santos"]);
+    jogos.push(["Atlético-MG", "Botafogo", 2, 0, "Brasileirão", "2019-12-04", "Mineirão"]);
+    jogos.push(["Botafogo", "Internacional", 0, 1, "Brasileirão", "2019-11-30", "Nilton Santos"]);
+    jogos.push(["Chapecoense", "Botafogo", 0, 1, "Brasileirão", "2019-11-27", "Arena Condá"]);
+    jogos.push(["Botafogo", "Corinthians", 1, 0, "Brasileirão", "2019-11-24", "Nilton Santos"]);
+    jogos.push(["Athletico-PR", "Botafogo", 1, 0, "Brasileirão", "2019-11-17", "Arena da Baixada"]);
+    jogos.push(["Botafogo", "Avaí", 2, 0, "Brasileirão", "2019-11-11", "Nilton Santos"]);
+    jogos.push(["Botafogo", "Flamengo", 0, 1, "Brasileirão", "2019-11-07", "Nilton Santos"]);
+    jogos.push(["Santos", "Botafogo", 4, 1, "Brasileirão", "2019-11-03", "Vila Belmiro"]);
+    jogos.push(["Botafogo", "Cruzeiro", 0, 2, "Brasileirão", "2019-10-31", "Nilton Santos"]);
+    jogos.push(["Grêmio", "Botafogo", 3, 0, "Brasileirão", "2019-10-27", "Arena do Grêmio"]);
+    jogos.push(["Botafogo", "CSA", 2, 1, "Brasileirão", "2019-10-21", "Nilton Santos"]);
+    jogos.push(["Vasco", "Botafogo", 2, 1, "Brasileirão", "2019-10-16", "São Januário"]);
+    jogos.push(["Palmeiras", "Botafogo", 1, 0, "Brasileirão", "2019-10-12", "Allianz Parque"]);
+    jogos.push(["Botafogo", "Goiás", 3, 1, "Brasileirão", "2019-10-09", "Nilton Santos"]);
+    jogos.push(["Botafogo", "Fluminense", 0, 1, "Brasileirão", "2019-10-06", "Nilton Santos"]);
+    jogos.push(["Fortaleza", "Botafogo", 1, 0, "Brasileirão", "2019-09-30", "Castelão-CE"]);
+    jogos.push(["Bahia", "Botafogo", 2, 0, "Brasileirão", "2019-09-25", "Fonte Nova"]);
+    jogos.push(["Botafogo", "São Paulo", 1, 2, "Brasileirão", "2019-09-21", "Nilton Santos"]);
+    jogos.push(["Ceará", "Botafogo", 0, 0, "Brasileirão", "2019-09-14", "Castelão-CE"]);
+    jogos.push(["Botafogo", "Atlético-MG", 2, 1, "Brasileirão", "2019-09-08", "Nilton Santos"]);
+    jogos.push(["Internacional", "Botafogo", 3, 2, "Brasileirão", "2019-08-31", "Beira Rio"]);
+    jogos.push(["Botafogo", "Chapecoense", 0, 0, "Brasileirão", "2019-08-26", "Nilton Santos"]);
+    jogos.push(["Corinthians", "Botafogo", 2, 0, "Brasileirão", "2019-08-17", "Neo Química Arena"]);
+    jogos.push(["Botafogo", "Athletico-PR", 2, 1, "Brasileirão", "2019-08-11", "Nilton Santos"]);
+    jogos.push(["Avaí", "Botafogo", 0, 2, "Brasileirão", "2019-08-04", "Ressacada"]);
+    jogos.push(["Atlético-MG", "Botafogo", 2, 0, "Copa Sul-Americana", "2019-07-31", "Independência"]);
+    jogos.push(["Flamengo", "Botafogo", 3, 2, "Brasileirão", "2019-07-28", "Maracanã"]);
+    jogos.push(["Botafogo", "Atlético-MG", 0, 1, "Copa Sul-Americana", "2019-07-24", "Nilton Santos"]);
+    jogos.push(["Botafogo", "Santos", 0, 1, "Brasileirão", "2019-07-21", "Nilton Santos"]);
+    jogos.push(["Cruzeiro", "Botafogo", 0, 0, "Brasileirão", "2019-07-14", "Mineirão"]);
+    jogos.push(["Botafogo", "Grêmio", 0, 1, "Brasileirão", "2019-06-12", "Nilton Santos"]);
+    jogos.push(["CSA", "Botafogo", 1, 2, "Brasileirão", "2019-06-09", "Rei Pelé"]);
+    jogos.push(["Botafogo", "Vasco", 1, 0, "Brasileirão", "2019-06-02", "Nilton Santos"]);
+    jogos.push(["Botafogo", "Sol de America", 4, 0, "Copa Sul-Americana", "2019-05-29", "Nilton Santos"]);
+    jogos.push(["Botafogo", "Palmeiras", 0, 1, "Brasileirão", "2019-05-25", "Nilton Santos"]);
+    jogos.push(["Sol de America", "Botafogo", 0, 1, "Copa Sul-Americana", "2019-05-22", "Luis Afonso Giagni"]);
+    jogos.push(["Goiás", "Botafogo", 1, 0, "Brasileirão", "2019-05-19", "Serra Dourada"]);
+    jogos.push(["Fluminense", "Botafogo", 0, 1, "Brasileirão", "2019-05-11", "Maracanã"]);
+    jogos.push(["Botafogo", "Fortaleza", 1, 0, "Brasileirão", "2019-05-05", "Nilton Santos"]);
+    jogos.push(["Botafogo", "Bahia", 3, 2, "Brasileirão", "2019-05-02", "Nilton Santos"]);
+    jogos.push(["São Paulo", "Botafogo", 2, 0, "Brasileirão", "2019-04-27", "Morumbi"]);
+    jogos.push(["Juventude", "Botafogo", 2, 1, "Copa do Brasil 2019", "2019-04-11", "Alfredo Jaconi"]);
+    jogos.push(["Botafogo", "Juventude", 1, 1, "Copa do Brasil 2019", "2019-04-04", "Nilton Santos"]);
+    jogos.push(["Americano", "Botafogo", 2, 2, "Carioca", "2019-03-24", "Bacaxá"]);
+    jogos.push(["Botafogo", "Portuguesa-RJ", 4, 1, "Carioca", "2019-03-21", "Nilton Santos"]);
+    jogos.push(["Fluminense", "Botafogo", 1, 1, "Carioca", "2019-03-17", "Maracanã"]);
+    jogos.push(["Botafogo", "Madureira", 2, 1, "Carioca", "2019-03-11", "Nilton Santos"]);
+    jogos.push(["Volta Redonda", "Botafogo", 1, 0, "Carioca", "2019-03-02", "Raulino de Oliveira"]);
+    jogos.push(["Botafogo", "Cuiabá", 3, 0, "Copa do Brasil 2019", "2019-02-27", "Nilton Santos"]);
+    jogos.push(["Botafogo", "Vasco", 1, 1, "Carioca", "2019-02-23", "Nilton Santos"]);
+    jogos.push(["Defensa y Justicia", "Botafogo", 0, 3, "Copa Sul-Americana", "2019-02-20", "Norberto Tito Tomaghello"]);
+    jogos.push(["Campinense", "Botafogo", 0, 2, "Copa do Brasil 2019", "2019-02-13", "Amigão"]);
+    jogos.push(["Botafogo", "Defensa y Justicia", 1, 0, "Copa Sul-Americana", "2019-02-06", "Nilton Santos"]);
+    jogos.push(["Boavista", "Botafogo", 0, 3, "Carioca", "2019-02-03", "Bacaxá"]);
+    jogos.push(["Botafogo", "Resende", 0, 1, "Carioca", "2019-01-31", "Nilton Santos"]);
+    jogos.push(["Botafogo", "Flamengo", 1, 2, "Carioca", "2019-01-26", "Nilton Santos"]);
+    jogos.push(["Botafogo", "Bangu", 0, 0, "Carioca", "2019-01-23", "Nilton Santos"]);
+    jogos.push(["Cabofriense", "Botafogo", 3, 1, "Carioca", "2019-01-20", "Moacyrzão"]);
+    jogos.push(["Atlético-MG", "Botafogo", 1, 0, "Brasileirão", "2018-12-01", "Independência"]);
+    jogos.push(["Botafogo", "Paraná", 2, 1, "Brasileirão", "2018-11-26", "Nilton Santos"]);
+    jogos.push(["Santos", "Botafogo", 1, 1, "Brasileirão", "2018-11-21", "Vila Belmiro"]);
+    jogos.push(["Botafogo", "Internacional", 1, 0, "Brasileirão", "2018-11-18", "Nilton Santos"]);
+    jogos.push(["Chapecoense", "Botafogo", 0, 1, "Brasileirão", "2018-11-15", "Arena Condá"]);
+    jogos.push(["Botafogo", "Flamengo", 2, 1, "Brasileirão", "2018-11-10", "Nilton Santos"]);
+    jogos.push(["Botafogo", "Corinthians", 1, 0, "Brasileirão", "2018-11-04", "Nilton Santos"]);
+    jogos.push(["Atlético-PR", "Botafogo", 2, 1, "Brasileirão", "2018-10-27", "Arena da Baixada"]);
+    jogos.push(["Botafogo", "Bahia", 0, 1, "Brasileirão", "2018-10-20", "Nilton Santos"]);
+    jogos.push(["Ceará", "Botafogo", 0, 0, "Brasileirão", "2018-10-15", "Castelão-CE"]);
+    jogos.push(["Botafogo", "Vasco", 1, 1, "Brasileirão", "2018-10-09", "Nilton Santos"]);
+    jogos.push(["Botafogo", "Bahia", 2, 1, "Copa Sul-Americana", "2018-10-03", "Nilton Santos"]); // (4-5 Pen.)
+    jogos.push(["Botafogo", "São Paulo", 2, 2, "Brasileirão", "2018-09-30", "Nilton Santos"]);
+    jogos.push(["Vitória", "Botafogo", 3, 4, "Brasileirão", "2018-09-23", "Barradão"]);
+    jogos.push(["Bahia", "Botafogo", 2, 1, "Copa Sul-Americana", "2018-09-20", "Fonte Nova"]);
+    jogos.push(["Botafogo", "América-MG", 1, 0, "Brasileirão", "2018-09-16", "Nilton Santos"]);
+    jogos.push(["Fluminense", "Botafogo", 1, 0, "Brasileirão", "2018-09-09", "Maracanã"]);
+    jogos.push(["Botafogo", "Cruzeiro", 1, 1, "Brasileirão", "2018-09-05", "Nilton Santos"]);
+    jogos.push(["Grêmio", "Botafogo", 4, 0, "Brasileirão", "2018-09-01", "Arena do Grêmio"]);
+    jogos.push(["Botafogo", "Sport", 2, 0, "Brasileirão", "2018-08-25", "Nilton Santos"]);
+    jogos.push(["Palmeiras", "Botafogo", 2, 0, "Brasileirão", "2018-08-22", "Allianz Parque"]);
+    jogos.push(["Botafogo", "Atlético-MG", 0, 3, "Brasileirão", "2018-08-19", "Nilton Santos"]);
+    jogos.push(["Botafogo", "Nacional-PAR", 2, 0, "Copa Sul-Americana", "2018-08-16", "Nilton Santos"]);
+    jogos.push(["Paraná", "Botafogo", 1, 1, "Brasileirão", "2018-08-12", "Vila Capanema"]);
+    jogos.push(["Botafogo", "Santos", 0, 0, "Brasileirão", "2018-08-04", "Nilton Santos"]);
+    jogos.push(["Nacional-PAR", "Botafogo", 2, 1, "Copa Sul-Americana", "2018-08-01", "Defensores Del Chaco"]);
+    jogos.push(["Internacional", "Botafogo", 3, 0, "Brasileirão", "2018-07-29", "Beira Rio"]);
+    jogos.push(["Botafogo", "Chapecoense", 1, 0, "Brasileirão", "2018-07-26", "Nilton Santos"]);
+    jogos.push(["Flamengo", "Botafogo", 2, 0, "Brasileirão", "2018-07-21", "Maracanã"]);
+    jogos.push(["Corinthians", "Botafogo", 2, 0, "Brasileirão", "2018-07-18", "Neo Química Arena"]);
+    jogos.push(["Botafogo", "Atlético-PR", 2, 0, "Brasileirão", "2018-06-13", "Nilton Santos"]);
+    jogos.push(["Bahia", "Botafogo", 3, 3, "Brasileirão", "2018-06-10", "Fonte Nova"]);
+    jogos.push(["Botafogo", "Ceará", 0, 0, "Brasileirão", "2018-06-06", "Nilton Santos"]);
+    jogos.push(["Vasco", "Botafogo", 1, 2, "Brasileirão", "2018-06-02", "São Januário"]);
+    jogos.push(["São Paulo", "Botafogo", 3, 2, "Brasileirão", "2018-05-30", "Morumbi"]);
+    jogos.push(["Botafogo", "Vitória", 1, 1, "Brasileirão", "2018-05-27", "Nilton Santos"]);
+    jogos.push(["América-MG", "Botafogo", 1, 0, "Brasileirão", "2018-05-20", "Independência"]);
+    jogos.push(["Botafogo", "Fluminense", 2, 1, "Brasileirão", "2018-05-14", "Nilton Santos"]);
+    jogos.push(["Botafogo", "Audax Italiano", 1, 1, "Copa Sul-Americana", "2018-05-09", "Nilton Santos"]);
+    jogos.push(["Cruzeiro", "Botafogo", 1, 0, "Brasileirão", "2018-05-06", "Mineirão"]);
+    jogos.push(["Botafogo", "Grêmio", 2, 1, "Brasileirão", "2018-04-28", "Nilton Santos"]);
+    jogos.push(["Sport", "Botafogo", 1, 1, "Brasileirão", "2018-04-23", "Ilha do Retiro"]);
+    jogos.push(["Botafogo", "Palmeiras", 1, 1, "Brasileirão", "2018-04-16", "Nilton Santos"]);
+    jogos.push(["Audax Italiano", "Botafogo", 1, 2, "Copa Sul-Americana", "2018-04-12", "San Carlos de Apoquindo"]);
+    jogos.push(["Vasco", "Botafogo", 0, 1, "Carioca", "2018-04-08", "Maracanã"]); // (3-4 Pen.)
+    jogos.push(["Botafogo", "Vasco", 2, 3, "Carioca", "2018-04-01", "Nilton Santos"]);
+    jogos.push(["Flamengo", "Botafogo", 0, 1, "Carioca", "2018-03-28", "Maracanã"]);
+    jogos.push(["Fluminense", "Botafogo", 3, 0, "Carioca", "2018-03-25", "Maracanã"]);
+    jogos.push(["Vasco", "Botafogo", 2, 3, "Carioca", "2018-03-21", "Nilton Santos"]);
+    jogos.push(["Botafogo", "Vasco", 2, 3, "Carioca", "2018-03-18", "Nilton Santos"]);
+    jogos.push(["Volta Redonda", "Botafogo", 1, 1, "Carioca", "2018-03-11", "Raulino de Oliveira"]);
+    jogos.push(["Botafogo", "Bangu", 1, 0, "Carioca", "2018-03-06", "Nilton Santos"]);
+    jogos.push(["Flamengo", "Botafogo", 1, 0, "Carioca", "2018-03-03", "Nilton Santos"]);
+    jogos.push(["Botafogo", "Cabofriense", 1, 0, "Carioca", "2018-02-25", "Nilton Santos"]);
+    jogos.push(["Nova Iguaçu", "Botafogo", 1, 2, "Carioca", "2018-02-22", "Giulite Coutinho"]);
+    jogos.push(["Flamengo", "Botafogo", 3, 1, "Carioca", "2018-02-10", "Raulino de Oliveira"]);
+    jogos.push(["Aparecidense", "Botafogo", 2, 1, "Copa do Brasil", "2018-02-06", "Annibal Batista de Toledo"]);
+    jogos.push(["Botafogo", "Madureira", 0, 0, "Carioca", "2018-02-03", "Nilton Santos"]);
+    jogos.push(["Botafogo", "Boavista", 1, 0, "Carioca", "2018-01-28", "Nilton Santos"]);
+    jogos.push(["Macaé", "Botafogo", 1, 2, "Carioca", "2018-01-25", "Moacyrzão"]);
+    jogos.push(["Fluminense", "Botafogo", 0, 0, "Carioca", "2018-01-20", "Maracanã"]);
+    jogos.push(["Botafogo", "Portuguesa-RJ", 2, 2, "Carioca", "2018-01-16", "Nilton Santos"]);
+    jogos.push(["Botafogo", "Cruzeiro", 2, 2, "Brasileirão", "2017-12-03", "Nilton Santos"]);
+    jogos.push(["Palmeiras", "Botafogo", 2, 0, "Brasileirão", "2017-11-27", "Allianz Parque"]);
+    jogos.push(["São Paulo", "Botafogo", 0, 0, "Brasileirão", "2017-11-19", "Pacaembu"]);
+    jogos.push(["Botafogo", "Atlético-GO", 1, 2, "Brasileirão", "2017-11-16", "Nilton Santos"]);
+    jogos.push(["Botafogo", "Atlético-PR", 0, 1, "Brasileirão", "2017-11-11", "Nilton Santos"]);
+    jogos.push(["Sport", "Botafogo", 1, 2, "Brasileirão", "2017-11-08", "Ilha do Retiro"]);
+    jogos.push(["Botafogo", "Fluminense", 1, 2, "Brasileirão", "2017-11-04", "Nilton Santos"]);
+    jogos.push(["Atlético-MG", "Botafogo", 0, 0, "Brasileirão", "2017-10-29", "Independência"]);
+    jogos.push(["Botafogo", "Corinthians", 2, 1, "Brasileirão", "2017-10-23", "Nilton Santos"]);
+    jogos.push(["Avaí", "Botafogo", 1, 1, "Brasileirão", "2017-10-18", "Ressacada"]);
+    jogos.push(["Vasco", "Botafogo", 1, 0, "Brasileirão", "2017-10-14", "Maracanã"]);
+    jogos.push(["Botafogo", "Chapecoense", 2, 1, "Brasileirão", "2017-10-11", "Nilton Santos"]);
+    jogos.push(["Botafogo", "Vitória", 2, 3, "Brasileirão", "2017-10-01", "Nilton Santos"]);
+    jogos.push(["Coritiba", "Botafogo", 2, 3, "Brasileirão", "2017-09-24", "Couto Pereira"]);
+    jogos.push(["Grêmio", "Botafogo", 1, 0, "Libertadores", "2017-09-20", "Arena do Grêmio"]);
+    jogos.push(["Botafogo", "Santos", 2, 0, "Brasileirão", "2017-09-16", "Nilton Santos"]);
+    jogos.push(["Botafogo", "Grêmio", 0, 0, "Libertadores", "2017-09-13", "Nilton Santos"]);
+    jogos.push(["Botafogo", "Flamengo", 2, 0, "Brasileirão", "2017-09-10", "Nilton Santos"]);
+    jogos.push(["Bahia", "Botafogo", 1, 2, "Brasileirão", "2017-08-27", "Fonte Nova"]);
+    jogos.push(["Flamengo", "Botafogo", 1, 0, "Copa do Brasil", "2017-08-23", "Maracanã"]);
+    jogos.push(["Ponte Preta", "Botafogo", 2, 1, "Brasileirão", "2017-08-20", "Moisés Lucarelli"]);
+    jogos.push(["Botafogo", "Flamengo", 0, 0, "Copa do Brasil", "2017-08-16", "Nilton Santos"]);
+    jogos.push(["Botafogo", "Grêmio", 1, 0, "Brasileirão", "2017-08-13", "Nilton Santos"]);
+    jogos.push(["Botafogo", "Nacional-URU", 2, 0, "Libertadores", "2017-08-10", "Nilton Santos"]);
+    jogos.push(["Cruzeiro", "Botafogo", 0, 0, "Brasileirão", "2017-08-06", "Mineirão"]);
+    jogos.push(["Botafogo", "Palmeiras", 1, 2, "Brasileirão", "2017-08-02", "Nilton Santos"]);
+    jogos.push(["Botafogo", "São Paulo", 3, 4, "Brasileirão", "2017-07-29", "Nilton Santos"]);
+    jogos.push(["Botafogo", "Atlético-MG", 3, 0, "Copa do Brasil", "2017-07-26", "Nilton Santos"]);
+    jogos.push(["Atlético-GO", "Botafogo", 1, 1, "Brasileirão", "2017-07-23", "Olímpico (Goiânia)"]);
+    jogos.push(["Atlético-PR", "Botafogo", 0, 0, "Brasileirão", "2017-07-20", "Arena da Baixada"]);
+    jogos.push(["Botafogo", "Sport", 2, 1, "Brasileirão", "2017-07-17", "Nilton Santos"]);
+    jogos.push(["Fluminense", "Botafogo", 0, 1, "Brasileirão", "2017-07-12", "Maracanã"]);
+    jogos.push(["Botafogo", "Atlético-MG", 1, 1, "Brasileirão", "2017-07-09", "Nilton Santos"]);
+    jogos.push(["Nacional-URU", "Botafogo", 0, 1, "Libertadores", "2017-07-06", "Gran Parque Central"]);
+    jogos.push(["Corinthians", "Botafogo", 1, 0, "Brasileirão", "2017-07-02", "Neo Química Arena"]);
+    jogos.push(["Atlético-MG", "Botafogo", 1, 0, "Copa do Brasil", "2017-06-29", "Independência"]);
+    jogos.push(["Botafogo", "Avaí", 0, 2, "Brasileirão", "2017-06-26", "Nilton Santos"]);
+    jogos.push(["Botafogo", "Vasco", 3, 1, "Brasileirão", "2017-06-21", "Nilton Santos"]);
+    jogos.push(["Chapecoense", "Botafogo", 0, 2, "Brasileirão", "2017-06-18", "Arena Condá"]);
+    jogos.push(["Vitória", "Botafogo", 2, 2, "Brasileirão", "2017-06-14", "Barradão"]);
+    jogos.push(["Botafogo", "Coritiba", 2, 2, "Brasileirão", "2017-06-11", "Nilton Santos"]);
+    jogos.push(["Santos", "Botafogo", 1, 0, "Brasileirão", "2017-06-07", "Pacaembu"]);
+    jogos.push(["Flamengo", "Botafogo", 0, 0, "Brasileirão", "2017-06-04", "Raulino de Oliveira"]);
+    jogos.push(["Sport", "Botafogo", 1, 1, "Copa do Brasil", "2017-05-31", "Ilha do Retiro"]);
+    jogos.push(["Botafogo", "Bahia", 1, 0, "Brasileirão", "2017-05-28", "Nilton Santos"]);
+    jogos.push(["Estudiantes", "Botafogo", 1, 0, "Libertadores", "2017-05-25", "Centenario Ciudad de Quilmes"]);
+    jogos.push(["Botafogo", "Ponte Preta", 2, 0, "Brasileirão", "2017-05-21", "Nilton Santos"]);
+    jogos.push(["Botafogo", "Atlético Nacional", 1, 0, "Libertadores", "2017-05-18", "Nilton Santos"]);
+    jogos.push(["Grêmio", "Botafogo", 2, 0, "Brasileirão", "2017-05-14", "Arena do Grêmio"]);
+    jogos.push(["Botafogo", "Barcelona de Guayaquil", 0, 2, "Libertadores", "2017-05-02", "Nilton Santos"]);
+    jogos.push(["Botafogo", "Sport", 2, 1, "Copa do Brasil", "2017-04-26", "Nilton Santos"]);
+    jogos.push(["Flamengo", "Botafogo", 2, 1, "Carioca", "2017-04-23", "Maracanã"]);
+    jogos.push(["Barcelona de Guayaquil", "Botafogo", 1, 1, "Libertadores", "2017-04-20", "Monumental Banco Pichincha"]);
+    jogos.push(["Vasco", "Botafogo", 2, 0, "Carioca", "2017-04-16", "Nilton Santos"]);
+    jogos.push(["Atlético Nacional", "Botafogo", 0, 2, "Libertadores", "2017-04-13", "Atanasio Girardot"]);
+    jogos.push(["Botafogo", "Fluminense", 3, 1, "Carioca", "2017-04-09", "Nilton Santos"]);
+    jogos.push(["Botafogo", "Resende", 3, 2, "Carioca", "2017-04-02", "Nilton Santos"]);
+    jogos.push(["Portuguesa-RJ", "Botafogo", 1, 4, "Carioca", "2017-03-30", "Los Larios"]);
+    jogos.push(["Bangu", "Botafogo", 0, 2, "Carioca", "2017-03-26", "Moça Bonita"]);
+    jogos.push(["Botafogo", "Fluminense", 2, 3, "Carioca", "2017-03-23", "Nilton Santos"]);
+    jogos.push(["Vasco", "Botafogo", 0, 0, "Carioca", "2017-03-19", "Nilton Santos"]);
+    jogos.push(["Botafogo", "Estudiantes", 2, 1, "Libertadores", "2017-03-14", "Nilton Santos"]);
+    jogos.push(["Botafogo", "Volta Redonda", 1, 0, "Carioca", "2017-03-09", "Nilton Santos"]);
+    jogos.push(["Olimpia", "Botafogo", 1, 0, "Libertadores", "2017-02-22", "Defensores Del Chaco"]); // (1-3 Pen.])
+    jogos.push(["Boavista", "Botafogo", 2, 3, "Carioca", "2017-02-19", "Bacaxá"]);
+    jogos.push(["Botafogo", "Olimpia", 1, 0, "Libertadores", "2017-02-15", "Nilton Santos"]);
+    jogos.push(["Botafogo", "Flamengo", 1, 2, "Carioca", "2017-02-12", "Nilton Santos"]);
+    jogos.push(["Colo-Colo", "Botafogo", 1, 1, "Libertadores", "2017-02-08", "Monumental David Arellano"]);
+    jogos.push(["Botafogo", "Macaé", 2, 1, "Carioca", "2017-02-04", "Nilton Santos"]);
+    jogos.push(["Botafogo", "Colo-Colo", 2, 1, "Libertadores", "2017-02-01", "Nilton Santos"]);
+    jogos.push(["Botafogo", "Nova Iguaçu", 1, 1, "Carioca", "2017-01-28", "Nilton Santos"]);
+    jogos.push(["Madureira", "Botafogo", 2, 0, "Carioca", "2017-01-25", "Moça Bonita"]);
+    jogos.push(["Grêmio", "Botafogo", 0, 1, "Brasileirão", "2016-12-11", "Arena do Grêmio"]);
+    jogos.push(["Botafogo", "Ponte Preta", 1, 1, "Brasileirão", "2016-11-26", "Luso Brasileiro"]);
+    jogos.push(["Palmeiras", "Botafogo", 1, 0, "Brasileirão", "2016-11-20", "Allianz Parque"]);
+    jogos.push(["Botafogo", "Chapecoense", 0, 2, "Brasileirão", "2016-11-16", "Luso Brasileiro"]);
+    jogos.push(["Flamengo", "Botafogo", 0, 0, "Brasileirão", "2016-11-05", "Maracanã"]);
+    jogos.push(["Botafogo", "Coritiba", 0, 0, "Brasileirão", "2016-10-29", "Luso Brasileiro"]);
+    jogos.push(["Santa Cruz", "Botafogo", 0, 1, "Brasileirão", "2016-10-19", "Arruda"]);
+    jogos.push(["Botafogo", "Atlético-MG", 3, 2, "Brasileirão", "2016-10-16", "Luso Brasileiro"]);
+    jogos.push(["Botafogo", "Internacional", 1, 0, "Brasileirão", "2016-10-12", "Luso Brasileiro"]);
+    jogos.push(["Figueirense", "Botafogo", 0, 1, "Brasileirão", "2016-10-09", "Orlando Scarpelli"]);
+    jogos.push(["Botafogo", "Corinthians", 2, 0, "Brasileirão", "2016-10-01", "Luso Brasileiro"]);
+    jogos.push(["América-MG", "Botafogo", 1, 0, "Brasileirão", "2016-09-24", "Independência"]);
+    jogos.push(["Cruzeiro", "Botafogo", 1, 0, "Copa do Brasil", "2016-09-21", "Mineirão"]);
+    jogos.push(["Vitória", "Botafogo", 0, 1, "Brasileirão", "2016-09-18", "Barradão"]);
+    jogos.push(["Botafogo", "Santos", 0, 1, "Brasileirão", "2016-09-14", "Luso Brasileiro"]);
+    jogos.push(["Cruzeiro", "Botafogo", 0, 2, "Brasileirão", "2016-09-11", "Mineirão"]);
+    jogos.push(["Botafogo", "Fluminense", 1, 0, "Brasileirão", "2016-09-07", "Luso Brasileiro"]);
+    jogos.push(["Botafogo", "Grêmio", 2, 1, "Brasileirão", "2016-09-04", "Luso Brasileiro"]);
+    jogos.push(["Botafogo", "Cruzeiro", 2, 5, "Copa do Brasil", "2016-09-01", "Luso Brasileiro"]);
+    jogos.push(["Atlético-PR", "Botafogo", 1, 0, "Brasileirão", "2016-08-29", "Arena da Baixada"]);
+    jogos.push(["Botafogo", "Sport", 3, 0, "Brasileirão", "2016-08-20", "Mário Helênio"]);
+    jogos.push(["São Paulo", "Botafogo", 0, 1, "Brasileirão", "2016-08-14", "Morumbi"]);
+    jogos.push(["Ponte Preta", "Botafogo", 2, 0, "Brasileirão", "2016-08-04", "Moisés Lucarelli"]);
+    jogos.push(["Botafogo", "Palmeiras", 3, 1, "Brasileirão", "2016-07-31", "Luso Brasileiro"]);
+    jogos.push(["Botafogo", "Bragantino", 1, 0, "Copa do Brasil", "2016-07-27", "Luso Brasileiro"]);
+    jogos.push(["Chapecoense", "Botafogo", 2, 1, "Brasileirão", "2016-07-24", "Arena Condá"]);
+    jogos.push(["Botafogo", "Flamengo", 3, 3, "Brasileirão", "2016-07-16", "Luso Brasileiro"]);
+    jogos.push(["Bragantino", "Botafogo", 2, 2, "Copa do Brasil", "2016-07-13", "Nabi Abi Chedid"]);
+    jogos.push(["Coritiba", "Botafogo", 0, 0, "Brasileirão", "2016-07-09", "Couto Pereira"]);
+    jogos.push(["Botafogo", "Santa Cruz", 2, 1, "Brasileirão", "2016-07-03", "Mário Helênio"]);
+    jogos.push(["Atlético-MG", "Botafogo", 5, 3, "Brasileirão", "2016-06-30", "Mineirão"]);
+    jogos.push(["Internacional", "Botafogo", 2, 3, "Brasileirão", "2016-06-26", "Beira Rio"]);
+    jogos.push(["Botafogo", "Figueirense", 0, 0, "Brasileirão", "2016-06-22", "Mário Helênio"]);
+    jogos.push(["Corinthians", "Botafogo", 3, 1, "Brasileirão", "2016-06-19", "Neo Química Arena"]);
+    jogos.push(["Botafogo", "América-MG", 3, 1, "Brasileirão", "2016-06-15", "Raulino de Oliveira"]);
+    jogos.push(["Botafogo", "Vitória", 1, 1, "Brasileirão", "2016-06-12", "Raulino de Oliveira"]);
+    jogos.push(["Santos", "Botafogo", 3, 0, "Brasileirão", "2016-06-05", "Pacaembu"]);
+    jogos.push(["Botafogo", "Cruzeiro", 0, 1, "Brasileirão", "2016-06-01", "Mané Garrincha"]);
+    jogos.push(["Fluminense", "Botafogo", 1, 0, "Brasileirão", "2016-05-29", "Raulino de Oliveira"]);
+    jogos.push(["Botafogo", "Atlético-PR", 2, 1, "Brasileirão", "2016-05-25", "Mário Helênio"]);
+    jogos.push(["Sport", "Botafogo", 1, 1, "Brasileirão", "2016-05-22", "Ilha do Retiro"]);
+    jogos.push(["Botafogo", "Juazeirense", 1, 0, "Copa do Brasil", "2016-05-19", "Los Larios"]);
+    jogos.push(["Botafogo", "São Paulo", 0, 1, "Brasileirão", "2016-05-15", "Raulino de Oliveira"]);
+    jogos.push(["Juazeirense", "Botafogo", 1, 2, "Copa do Brasil", "2016-05-12", "Adautão"]);
+    jogos.push(["Vasco", "Botafogo", 1, 1, "Carioca", "2016-05-08", "Maracanã"]);
+    jogos.push(["Botafogo", "Vasco", 0, 1, "Carioca", "2016-05-01", "Maracanã"]);
+    jogos.push(["Botafogo", "Coruripe", 1, 1, "Copa do Brasil", "2016-04-28", "Los Larios"]);
+    jogos.push(["Fluminense", "Botafogo", 0, 1, "Carioca", "2016-04-24", "Raulino de Oliveira"]);
+    jogos.push(["Boavista", "Botafogo", 0, 1, "Carioca", "2016-04-17", "Bacaxá"]);
+    jogos.push(["Botafogo", "Bangu", 1, 0, "Carioca", "2016-04-10", "São Januário"]);
+    jogos.push(["Coruripe", "Botafogo", 0, 1, "Copa do Brasil", "2016-04-05", "Gerson Amaral"]);
+    jogos.push(["Botafogo", "Flamengo", 2, 2, "Carioca", "2016-04-02", "Mário Helênio"]);
+    jogos.push(["Botafogo", "Volta Redonda", 2, 0, "Carioca", "2016-03-30", "São Januário"]);
+    jogos.push(["Vasco", "Botafogo", 1, 0, "Carioca", "2016-03-27", "São Januário"]);
+    jogos.push(["Botafogo", "Madureira", 1, 0, "Carioca", "2016-03-20", "Los Larios"]);
+    jogos.push(["Fluminense", "Botafogo", 1, 1, "Carioca", "2016-03-13", "Raulino de Oliveira"]);
+    jogos.push(["Boavista", "Botafogo", 0, 1, "Carioca", "2016-03-06", "São Januário"]);
+    jogos.push(["Vasco", "Botafogo", 1, 1, "Carioca", "2016-02-28", "São Januário"]);
+    jogos.push(["Botafogo", "Fluminense", 2, 0, "Carioca", "2016-02-24", "Kleber Andrade"]);
+    jogos.push(["Botafogo", "Cabofriense", 2, 1, "Carioca", "2016-02-21", "São Januário"]);
+    jogos.push(["Resende", "Botafogo", 0, 1, "Carioca", "2016-02-13", "Raulino de Oliveira"]);
+    jogos.push(["Botafogo", "Macaé", 1, 0, "Carioca", "2016-02-10", "Los Larios"]);
+    jogos.push(["Botafogo", "Portuguesa-RJ", 2, 1, "Carioca", "2016-02-02", "São Januário"]);
+    jogos.push(["Bangu", "Botafogo", 0, 2, "Carioca", "2016-01-30", "São Januário"]);
+    jogos.push(["Botafogo", "América-MG", 0, 0, "Série B", "2015-11-28", "Nilton Santos"]);
+    jogos.push(["ABC", "Botafogo", 1, 2, "Série B", "2015-11-20", "Mané Garrincha"]);
+    jogos.push(["Botafogo", "Santa Cruz", 0, 3, "Série B", "2015-11-14", "Nilton Santos"]);
+    jogos.push(["Luverdense", "Botafogo", 0, 1, "Série B", "2015-11-10", "Passo das Emas"]);
+    jogos.push(["Criciúma", "Botafogo", 1, 0, "Série B", "2015-11-07", "Heriberto Hulse"]);
+    jogos.push(["Botafogo", "Bahia", 1, 0, "Série B", "2015-10-31", "Nilton Santos"]);
+    jogos.push(["Náutico", "Botafogo", 1, 4, "Série B", "2015-10-24", "Arena de Pernambuco"]);
+    jogos.push(["Botafogo", "Ceará", 0, 1, "Série B", "2015-10-20", "Nilton Santos"]);
+    jogos.push(["Botafogo", "Bragantino", 4, 0, "Série B", "2015-10-17", "Nilton Santos"]);
+    jogos.push(["Sampaio Corrêa", "Botafogo", 2, 2, "Série B", "2015-10-02", "Castelão-MA"]);
+    jogos.push(["Botafogo", "Macaé", 2, 1, "Série B", "2015-09-22", "Nilton Santos"]);
+    jogos.push(["Boa Esporte", "Botafogo", 0, 1, "Série B", "2015-09-18", "Melão"]);
+    jogos.push(["Botafogo", "Oeste", 1, 1, "Série B", "2015-09-15", "Nilton Santos"]);
+    jogos.push(["Mogi Mirim", "Botafogo", 0, 3, "Série B", "2015-09-11", "Kleber Andrade"]);
+    jogos.push(["Botafogo", "Paraná", 2, 1, "Série B", "2015-09-08", "Nilton Santos"]);
+    jogos.push(["Vitória", "Botafogo", 1, 2, "Série B", "2015-09-05", "Barradão"]);
+    jogos.push(["Botafogo", "Atlético-GO", 4, 0, "Série B", "2015-09-01", "Nilton Santos"]);
+    jogos.push(["CRB", "Botafogo", 2, 1, "Série B", "2015-08-28", "Rei Pelé"]);
+    jogos.push(["Botafogo", "Paysandu", 2, 3, "Série B", "2015-08-23", "Nilton Santos"]);
+    jogos.push(["América-MG", "Botafogo", 1, 2, "Série B", "2015-08-15", "Independência"]);
+    jogos.push(["Botafogo", "ABC", 3, 1, "Série B", "2015-08-11", "Nilton Santos"]);
+    jogos.push(["Santa Cruz", "Botafogo", 1, 0, "Série B", "2015-08-08", "Arruda"]);
+    jogos.push(["Botafogo", "Luverdense", 0, 0, "Série B", "2015-08-01", "Nilton Santos"]);
+    jogos.push(["Botafogo", "Criciúma", 0, 0, "Série B", "2015-07-28", "Nilton Santos"]);
+    jogos.push(["Bahia", "Botafogo", 1, 1, "Série B", "2015-07-25", "Fonte Nova"]);
+    jogos.push(["Botafogo", "Náutico", 1, 0, "Série B", "2015-07-18", "Nilton Santos"]);
+    jogos.push(["Botafogo", "Figueirense", 0, 1, "Copa do Brasil", "2015-07-14", "Nilton Santos"]);
+    jogos.push(["Bragantino", "Botafogo", 1, 0, "Série B", "2015-07-10", "Nabi Abi Chedid"]);
+    jogos.push(["Ceará", "Botafogo", 0, 0, "Série B", "2015-07-07", "Castelão-CE"]);
+    jogos.push(["Botafogo", "Sampaio Corrêa", 5, 0, "Série B", "2015-07-03", "Nilton Santos"]);
+    jogos.push(["Macaé", "Botafogo", 4, 2, "Série B", "2015-06-27", "Moacyrzão"]);
+    jogos.push(["Botafogo", "Boa Esporte", 1, 1, "Série B", "2015-06-19", "Nilton Santos"]);
+    jogos.push(["Oeste", "Botafogo", 0, 1, "Série B", "2015-06-09", "José Liberatti"]);
+    jogos.push(["Botafogo", "Mogi Mirim", 3, 0, "Série B", "2015-06-05", "Nilton Santos"]);
+    jogos.push(["Paraná", "Botafogo", 1, 2, "Série B", "2015-06-02", "Vila Capanema"]);
+    jogos.push(["Botafogo", "Vitória", 2, 0, "Série B", "2015-05-30", "Nilton Santos"]);
+    jogos.push(["Atlético-GO", "Botafogo", 0, 0, "Série B", "2015-05-23", "Mané Garrincha"]);
+    jogos.push(["Figueirense", "Botafogo", 2, 2, "Copa do Brasil", "2015-05-20", "Orlando Scarpelli"]);
+    jogos.push(["Botafogo", "CRB", 4, 1, "Série B", "2015-05-16", "Nilton Santos"]);
+    jogos.push(["Paysandu", "Botafogo", 0, 1, "Série B", "2015-05-09", "Mangueirão"]);
+    jogos.push(["Botafogo", "Capivariano", 3, 0, "Copa do Brasil", "2015-05-06", "Nilton Santos"]);
+    jogos.push(["Botafogo", "Vasco", 1, 2, "Carioca", "2015-05-03", "Maracanã"]);
+    jogos.push(["Capivariano", "Botafogo", 1, 2, "Copa do Brasil", "2015-04-29", "Carlos Colnaghi"]);
+    jogos.push(["Vasco", "Botafogo", 1, 0, "Carioca", "2015-04-26", "Maracanã"]);
+    jogos.push(["Botafogo", "Fluminense", 2, 1, "Carioca", "2015-04-18", "Nilton Santos"]); // (9-8 Pen.)
+    jogos.push(["Botafogo", "Botafogo-PB", 4, 2, "Copa do Brasil", "2015-04-15", "Nilton Santos"]);
+    jogos.push(["Fluminense", "Botafogo", 2, 1, "Carioca", "2015-04-11", "Maracanã"]);
+    jogos.push(["Botafogo", "Macaé", 1, 0, "Carioca", "2015-04-08", "Nilton Santos"]);
+    jogos.push(["Botafogo", "Madureira", 4, 1, "Carioca", "2015-04-05", "Nilton Santos"]);
+    jogos.push(["Botafogo-PB", "Botafogo", 2, 2, "Copa do Brasil", "2015-04-01", "Almeidão"]);
+    jogos.push(["Vasco", "Botafogo", 1, 1, "Carioca", "2015-03-29", "Maracanã"]);
+    jogos.push(["Barra Mansa", "Botafogo", 1, 1, "Carioca", "2015-03-25", "Raulino de Oliveira"]);
+    jogos.push(["Cabofriense", "Botafogo", 0, 1, "Carioca", "2015-03-22", "Moacyrzão"]);
+    jogos.push(["Botafogo", "Resende", 3, 0, "Carioca", "2015-03-15", "Nilton Santos"]);
+    jogos.push(["Botafogo", "Tigres do Brasil", 3, 0, "Carioca", "2015-03-11", "Nilton Santos"]);
+    jogos.push(["Fluminense", "Botafogo", 3, 1, "Carioca", "2015-03-08", "Maracanã"]);
+    jogos.push(["Botafogo", "Flamengo", 1, 0, "Carioca", "2015-03-01", "Maracanã"]);
+    jogos.push(["Botafogo", "Nova Iguaçu", 2, 1, "Carioca", "2015-02-21", "Nilton Santos"]);
+    jogos.push(["Friburguense", "Botafogo", 0, 3, "Carioca", "2015-02-18", "Eduardo Guinle"]);
+    jogos.push(["Bangu", "Botafogo", 0, 3, "Carioca", "2015-02-11", "Los Larios"]);
+    jogos.push(["Botafogo", "Bonsucesso", 4, 0, "Carioca", "2015-02-07", "Nilton Santos"]);
+    jogos.push(["Volta Redonda", "Botafogo", 2, 2, "Carioca", "2015-02-04", "Raulino de Oliveira"]);
+    jogos.push(["Botafogo", "Boavista", 1, 0, "Carioca", "2015-01-31", "São Januário"]);
+    jogos.push(["Botafogo", "Shandong Luneng", 0, 1, "Amistoso", "2015-01-24", "Nilton Santos"]);
+    jogos.push(["Botafogo", "Atlético-MG", 0, 0, "Brasileirão", "2014-12-07", "Mané Garrincha"]);
+    jogos.push(["Santos", "Botafogo", 2, 0, "Brasileirão", "2014-11-30", "Vila Belmiro"]);
+    jogos.push(["Chapecoense", "Botafogo", 2, 0, "Brasileirão", "2014-11-23", "Arena Condá"]);
+    jogos.push(["Botafogo", "Figueirense", 0, 1, "Brasileirão", "2014-11-19", "São Januário"]);
+    jogos.push(["Fluminense", "Botafogo", 1, 0, "Brasileirão", "2014-11-15", "Maracanã"]);
+    jogos.push(["Botafogo", "Atlético-PR", 0, 2, "Brasileirão", "2014-11-08", "Raulino de Oliveira"]);
+    jogos.push(["Cruzeiro", "Botafogo", 2, 1, "Brasileirão", "2014-11-02", "Mineirão"]);
+    jogos.push(["Botafogo", "Flamengo", 2, 1, "Brasileirão", "2014-10-25", "Arena da Amazônia"]);
+    jogos.push(["Coritiba", "Botafogo", 2, 0, "Brasileirão", "2014-10-22", "Couto Pereira"]);
+    jogos.push(["Botafogo", "Sport", 1, 1, "Brasileirão", "2014-10-19", "Raulino de Oliveira"]);
+    jogos.push(["Santos", "Botafogo", 5, 0, "Copa do Brasil", "2014-10-16", "Pacaembu"]);
+    jogos.push(["Botafogo", "Corinthians", 1, 0, "Brasileirão", "2014-10-11", "Arena da Amazônia"]);
+    jogos.push(["Botafogo", "Palmeiras", 0, 1, "Brasileirão", "2014-10-08", "Maracanã"]);
+    jogos.push(["Vitória", "Botafogo", 2, 1, "Brasileirão", "2014-10-04", "Barradão"]);
+    jogos.push(["Botafogo", "Santos", 2, 3, "Copa do Brasil", "2014-10-01", "Maracanã"]);
+    jogos.push(["Botafogo", "Grêmio", 0, 2, "Brasileirão", "2014-09-28", "Maracanã"]);
+    jogos.push(["Botafogo", "Goiás", 1, 0, "Brasileirão", "2014-09-25", "Maracanã"]);
+    jogos.push(["Criciúma", "Botafogo", 1, 1, "Brasileirão", "2014-09-20", "Heriberto Hulse"]);
+    jogos.push(["Botafogo", "Bahia", 2, 3, "Brasileirão", "2014-09-17", "Maracanã"]);
+    jogos.push(["Internacional", "Botafogo", 2, 0, "Brasileirão", "2014-09-14", "Beira Rio"]);
+    jogos.push(["Botafogo", "São Paulo", 2, 4, "Brasileirão", "2014-09-10", "Mané Garrincha"]);
+    jogos.push(["Atlético-MG", "Botafogo", 1, 0, "Brasileirão", "2014-09-07", "Independência"]);
+    jogos.push(["Ceará", "Botafogo", 3, 4, "Copa do Brasil", "2014-09-03", "Castelão-CE"]);
+    jogos.push(["Botafogo", "Santos", 1, 0, "Brasileirão", "2014-08-31", "Maracanã"]);
+    jogos.push(["Botafogo", "Ceará", 1, 2, "Copa do Brasil", "2014-08-27", "Maracanã"]);
+    jogos.push(["Botafogo", "Chapecoense", 1, 0, "Brasileirão", "2014-08-23", "Maracanã"]);
+    jogos.push(["Figueirense", "Botafogo", 1, 0, "Brasileirão", "2014-08-20", "Orlando Scarpelli"]);
+    jogos.push(["Botafogo", "Fluminense", 2, 0, "Brasileirão", "2014-08-17", "Mané Garrincha"]);
+    jogos.push(["Atlético-PR", "Botafogo", 2, 0, "Brasileirão", "2014-08-10", "Arena da Baixada"]);
+    jogos.push(["Botafogo", "Cruzeiro", 1, 1, "Brasileirão", "2014-08-02", "Maracanã"]);
+    jogos.push(["Flamengo", "Botafogo", 1, 0, "Brasileirão", "2014-07-27", "Maracanã"]);
+    jogos.push(["Botafogo", "Coritiba", 1, 0, "Brasileirão", "2014-07-19", "Raulino de Oliveira"]);
+    jogos.push(["Sport", "Botafogo", 1, 0, "Brasileirão", "2014-07-16", "Ilha do Retiro"]);
+    jogos.push(["Corinthians", "Botafogo", 1, 1, "Brasileirão", "2014-06-01", "Neo Química Arena"]);
+    jogos.push(["Palmeiras", "Botafogo", 0, 2, "Brasileirão", "2014-05-28", "Prudentão"]);
+    jogos.push(["Botafogo", "Vitória", 1, 1, "Brasileirão", "2014-05-25", "Moacyrzão"]);
+    jogos.push(["Grêmio", "Botafogo", 2, 1, "Brasileirão", "2014-05-21", "Alfredo Jaconi"]);
+    jogos.push(["Goiás", "Botafogo", 2, 0, "Brasileirão", "2014-05-14", "Mário Helênio"]);
+    jogos.push(["Botafogo", "Criciúma", 6, 0, "Brasileirão", "2014-05-10", "Maracanã"]);
+    jogos.push(["Bahia", "Botafogo", 1, 0, "Brasileirão", "2014-05-04", "Fonte Nova"]);
+    jogos.push(["Botafogo", "Internacional", 2, 2, "Brasileirão", "2014-04-27", "Maracanã"]);
+    jogos.push(["São Paulo", "Botafogo", 3, 0, "Brasileirão", "2014-04-20", "Morumbi"]);
+    jogos.push(["San Lorenzo", "Botafogo", 3, 0, "Libertadores 2014", "2014-04-09", "Nuevo Gasometro"]);
+    jogos.push(["Botafogo", "Unión Española", 0, 1, "Libertadores 2014", "2014-04-02", "Maracanã"]);
+    jogos.push(["Botafogo", "Nova Iguaçu", 1, 1, "Carioca", "2014-03-22", "Moça Bonita"]);
+    jogos.push(["Botafogo", "Independiente Del Valle", 1, 0, "Libertadores 2014", "2014-03-18", "Maracanã"]);
+    jogos.push(["Boavista", "Botafogo", 2, 1, "Carioca", "2014-03-15", "Bacaxá"]);
+    jogos.push(["Independiente Del Valle", "Botafogo", 2, 1, "Libertadores 2014", "2014-03-12", "General Rumiñahui"]);
+    jogos.push(["Botafogo", "Flamengo", 0, 2, "Carioca", "2014-03-09", "Maracanã"]);
+    jogos.push(["Audax Rio", "Botafogo", 2, 2, "Carioca", "2014-03-06", "Moça Bonita"]);
+    jogos.push(["Botafogo", "Macaé", 0, 2, "Carioca", "2014-03-01", "Moça Bonita"]);
+    jogos.push(["Unión Española", "Botafogo", 1, 1, "Libertadores 2014", "2014-02-26", "Santa Laura"]);
+    jogos.push(["Fluminense", "Botafogo", 0, 3, "Carioca", "2014-02-23", "Maracanã"]);
+    jogos.push(["Botafogo", "Volta Redonda", 1, 1, "Carioca", "2014-02-20", "Maracanã"]);
+    jogos.push(["Duque de Caxias", "Botafogo", 1, 2, "Carioca", "2014-02-16", "Raulino de Oliveira"]);
+    jogos.push(["Botafogo", "Bonsucesso", 2, 0, "Carioca", "2014-02-13", "Moça Bonita"]);
+    jogos.push(["Botafogo", "San Lorenzo", 2, 0, "Libertadores 2014", "2014-02-11", "Maracanã"]);
+    jogos.push(["Botafogo", "Friburguense", 0, 1, "Carioca", "2014-02-08", "Moça Bonita"]);
+    jogos.push(["Botafogo", "Deportivo Quito", 4, 0, "Libertadores 2014", "2014-02-05", "Maracanã"]);
+    jogos.push(["Vasco", "Botafogo", 1, 0, "Carioca", "2014-02-02", "Maracanã"]);
+    jogos.push(["Deportivo Quito", "Botafogo", 1, 0, "Libertadores 2014", "2014-01-29", "Olímpico Atahualpa"]);
+    jogos.push(["Cabofriense", "Botafogo", 2, 1, "Carioca", "2014-01-26", "Moacyrzão"]);
+    jogos.push(["Botafogo", "Madureira", 2, 1, "Carioca", "2014-01-23", "São Januário"]);
+    jogos.push(["Botafogo", "Bangu", 0, 0, "Carioca", "2014-01-21", "São Januário"]);
+    jogos.push(["Resende", "Botafogo", 1, 1, "Carioca", "2014-01-18", "Raulino de Oliveira"]);
+    jogos.push(["Botafogo", "Criciúma", 3, 0, "Brasileirão", "2013-12-08", "Maracanã"]);
+    jogos.push(["Coritiba", "Botafogo", 2, 1, "Brasileirão", "2013-12-01", "Couto Pereira"]);
+    jogos.push(["São Paulo", "Botafogo", 1, 1, "Brasileirão", "2013-11-24", "Morumbi"]);
+    jogos.push(["Botafogo", "Atlético-PR", 4, 0, "Brasileirão", "2013-11-16", "Maracanã"]);
+    jogos.push(["Botafogo", "Portuguesa", 0, 0, "Brasileirão", "2013-11-13", "Maracanã"]);
+    jogos.push(["Internacional", "Botafogo", 2, 1, "Brasileirão", "2013-11-10", "Centenário (Caxias do Sul)"]);
+    jogos.push(["Goiás", "Botafogo", 1, 0, "Brasileirão", "2013-11-03", "Serra Dourada"]);
+    jogos.push(["Botafogo", "Atlético-MG", 1, 0, "Brasileirão", "2013-10-26", "Maracanã"]);
+    jogos.push(["Flamengo", "Botafogo", 4, 0, "Copa do Brasil", "2013-10-23", "Maracanã"]);
+    jogos.push(["Botafogo", "Vasco", 2, 2, "Brasileirão", "2013-10-20", "Maracanã"]);
+    jogos.push(["Vitória", "Botafogo", 1, 0, "Brasileirão", "2013-10-17", "Barradão"]);
+    jogos.push(["Botafogo", "Flamengo", 2, 1, "Brasileirão", "2013-10-13", "Maracanã"]);
+    jogos.push(["Náutico", "Botafogo", 1, 3, "Brasileirão", "2013-10-09", "Arena de Pernambuco"]);
+    jogos.push(["Botafogo", "Grêmio", 0, 1, "Brasileirão", "2013-10-05", "Maracanã"]);
+    jogos.push(["Fluminense", "Botafogo", 1, 1, "Brasileirão", "2013-10-02", "Maracanã"]);
+    jogos.push(["Botafogo", "Ponte Preta", 0, 1, "Brasileirão", "2013-09-28", "Maracanã"]);
+    jogos.push(["Botafogo", "Flamengo", 1, 1, "Copa do Brasil", "2013-09-25", "Maracanã"]);
+    jogos.push(["Botafogo", "Bahia", 1, 2, "Brasileirão", "2013-09-22", "Maracanã"]);
+    jogos.push(["Cruzeiro", "Botafogo", 3, 0, "Brasileirão", "2013-09-18", "Mineirão"]);
+    jogos.push(["Santos", "Botafogo", 1, 2, "Brasileirão", "2013-09-15", "Vila Belmiro"]);
+    jogos.push(["Botafogo", "Corinthians", 1, 0, "Brasileirão", "2013-09-11", "Maracanã"]);
+    jogos.push(["Criciúma", "Botafogo", 1, 2, "Brasileirão", "2013-09-08", "Heriberto Hulse"]);
+    jogos.push(["Botafogo", "Coritiba", 3, 1, "Brasileirão", "2013-09-05", "Maracanã"]);
+    jogos.push(["Botafogo", "São Paulo", 0, 0, "Brasileirão", "2013-09-01", "Maracanã"]);
+    jogos.push(["Atlético-MG", "Botafogo", 2, 2, "Copa do Brasil", "2013-08-28", "Independência"]);
+    jogos.push(["Atlético-PR", "Botafogo", 2, 0, "Brasileirão", "2013-08-25", "Vila Capanema"]);
+    jogos.push(["Botafogo", "Atlético-MG", 4, 2, "Copa do Brasil", "2013-08-22", "Maracanã"]);
+    jogos.push(["Portuguesa", "Botafogo", 1, 3, "Brasileirão", "2013-08-18", "Canindé"]);
+    jogos.push(["Botafogo", "Internacional", 3, 3, "Brasileirão", "2013-08-15", "Maracanã"]);
+    jogos.push(["Botafogo", "Goiás", 1, 1, "Brasileirão", "2013-08-10", "Mané Garrincha"]);
+    jogos.push(["Atlético-MG", "Botafogo", 2, 2, "Brasileirão", "2013-08-07", "Independência"]);
+    jogos.push(["Vasco", "Botafogo", 2, 3, "Brasileirão", "2013-08-04", "Maracanã"]);
+    jogos.push(["Botafogo", "Vitória", 2, 0, "Brasileirão", "2013-08-01", "Maracanã"]);
+    jogos.push(["Flamengo", "Botafogo", 1, 1, "Brasileirão", "2013-07-28", "Maracanã"]);
+    jogos.push(["Figueirense", "Botafogo", 1, 0, "Copa do Brasil", "2013-07-24", "Orlando Scarpelli"]); // (4-5 Pen.)
+    jogos.push(["Botafogo", "Náutico", 2, 0, "Brasileirão", "2013-07-20", "São Januário"]);
+    jogos.push(["Grêmio", "Botafogo", 2, 1, "Brasileirão", "2013-07-14", "Arena do Grêmio"]);
+    jogos.push(["Botafogo", "Fluminense", 1, 0, "Brasileirão", "2013-07-07", "Arena Pernambuco"]);
+    jogos.push(["Botafogo", "Figueirense", 1, 0, "Copa do Brasil", "2013-07-03", "Raulino de Oliveira"]);
+    jogos.push(["Ponte Preta", "Botafogo", 0, 2, "Brasileirão", "2013-06-08", "Moisés Lucarelli"]);
+    jogos.push(["Bahia", "Botafogo", 2, 1, "Brasileirão", "2013-06-05", "Lourival Baptista"]);
+    jogos.push(["Botafogo", "Cruzeiro", 2, 1, "Brasileirão", "2013-06-01", "Raulino de Oliveira"]);
+    jogos.push(["Botafogo", "Santos", 2, 1, "Brasileirão", "2013-05-29", "Raulino de Oliveira"]);
+    jogos.push(["Corinthians", "Botafogo", 1, 1, "Brasileirão", "2013-05-25", "Pacaembu"]);
+    jogos.push(["Botafogo", "CRB", 3, 0, "Copa do Brasil", "2013-05-22", "Raulino de Oliveira"]);
+    jogos.push(["Botafogo", "Fluminense", 1, 0, "Carioca", "2013-05-05", "Raulino de Oliveira"]);
+    jogos.push(["CRB", "Botafogo", 0, 0, "Copa do Brasil", "2013-05-02", "Rei Pelé"]);
+    jogos.push(["Botafogo", "Resende", 5, 0, "Carioca", "2013-04-27", "Raulino de Oliveira"]);
+    jogos.push(["Botafogo", "Sobradinho", 2, 0, "Copa do Brasil", "2013-04-24", "Raulino de Oliveira"]);
+    jogos.push(["Volta Redonda", "Botafogo", 0, 1, "Carioca", "2013-04-21", "Raulino de Oliveira"]);
+    jogos.push(["Sobradinho", "Botafogo", 0, 0, "Copa do Brasil", "2013-04-17", "Bezerrão"]);
+    jogos.push(["Botafogo", "Nova Iguaçu", 4, 1, "Carioca", "2013-04-14", "Moça Bonita"]);
+    jogos.push(["Botafogo", "Friburguense", 3, 1, "Carioca", "2013-04-10", "Moça Bonita"]);
+    jogos.push(["Botafogo", "Olaria", 3, 0, "Carioca", "2013-04-07", "Raulino de Oliveira"]);
+    jogos.push(["Vasco", "Botafogo", 0, 3, "Carioca", "2013-04-03", "Raulino de Oliveira"]);
+    jogos.push(["Madureira", "Botafogo", 1, 2, "Carioca", "2013-03-24", "Moça Bonita"]);
+    jogos.push(["Botafogo", "Quissamã", 4, 0, "Carioca", "2013-03-16", "Nilton Santos"]);
+    jogos.push(["Vasco", "Botafogo", 0, 1, "Carioca", "2013-03-10", "Nilton Santos"]);
+    jogos.push(["Flamengo", "Botafogo", 0, 2, "Carioca", "2013-03-03", "Nilton Santos"]);
+    jogos.push(["Botafogo", "Boavista", 2, 2, "Carioca", "2013-02-24", "Nilton Santos"]);
+    jogos.push(["Flamengo", "Botafogo", 1, 0, "Carioca", "2013-02-17", "Nilton Santos"]);
+    jogos.push(["Botafogo", "Resende", 4, 2, "Carioca", "2013-02-07", "Nilton Santos"]);
+    jogos.push(["Macaé", "Botafogo", 1, 3, "Carioca", "2013-02-03", "Moacyrzão"]);
+    jogos.push(["Audax Rio", "Botafogo", 0, 4, "Carioca", "2013-01-30", "Moça Bonita"]);
+    jogos.push(["Botafogo", "Fluminense", 1, 1, "Carioca", "2013-01-27", "Nilton Santos"]);
+    jogos.push(["Bangu", "Botafogo", 0, 0, "Carioca", "2013-01-24", "Moça Bonita"]);
+    jogos.push(["Botafogo", "Duque de Caxias", 3, 0, "Carioca", "2013-01-20", "Nilton Santos"]);
+    jogos.push(["Flamengo", "Botafogo", 2, 2, "Brasileirão", "2012-12-01", "Nilton Santos"]);
+    jogos.push(["Botafogo", "Atlético-MG", 2, 3, "Brasileirão", "2012-11-25", "Nilton Santos"]);
+    jogos.push(["Sport", "Botafogo", 2, 0, "Brasileirão", "2012-11-18", "Ilha do Retiro"]);
+    jogos.push(["Botafogo", "Portuguesa", 3, 0, "Brasileirão", "2012-11-10", "Nilton Santos"]);
+    jogos.push(["Palmeiras", "Botafogo", 2, 2, "Brasileirão", "2012-11-04", "Fonte Luminosa"]);
+    jogos.push(["Botafogo", "Atlético-GO", 4, 0, "Brasileirão", "2012-10-27", "Nilton Santos"]);
+    jogos.push(["Figueirense", "Botafogo", 0, 2, "Brasileirão", "2012-10-24", "Orlando Scarpelli"]);
+    jogos.push(["Botafogo", "Vasco", 3, 2, "Brasileirão", "2012-10-18", "Nilton Santos"]);
+    jogos.push(["Grêmio", "Botafogo", 1, 1, "Brasileirão", "2012-10-14", "Olímpico"]);
+    jogos.push(["Botafogo", "Santos", 0, 2, "Brasileirão", "2012-10-10", "Nilton Santos"]);
+    jogos.push(["Fluminense", "Botafogo", 1, 0, "Brasileirão", "2012-10-06", "Nilton Santos"]);
+    jogos.push(["Bahia", "Botafogo", 2, 0, "Brasileirão", "2012-09-30", "Pituaçu"]);
+    jogos.push(["Botafogo", "Corinthians", 2, 2, "Brasileirão", "2012-09-23", "Nilton Santos"]);
+    jogos.push(["Ponte Preta", "Botafogo", 0, 0, "Brasileirão", "2012-09-16", "Moisés Lucarelli"]);
+    jogos.push(["Botafogo", "Internacional", 1, 1, "Brasileirão", "2012-09-13", "Nilton Santos"]);
+    jogos.push(["Botafogo", "Náutico", 3, 1, "Brasileirão", "2012-09-09", "Nilton Santos"]);
+    jogos.push(["Cruzeiro", "Botafogo", 1, 3, "Brasileirão", "2012-09-05", "Independência"]);
+    jogos.push(["Botafogo", "Coritiba", 2, 0, "Brasileirão", "2012-09-02", "Nilton Santos"]);
+    jogos.push(["São Paulo", "Botafogo", 4, 0, "Brasileirão", "2012-08-30", "Morumbi"]);
+    jogos.push(["Botafogo", "Flamengo", 0, 0, "Brasileirão", "2012-08-26", "Nilton Santos"]);
+    jogos.push(["Botafogo", "Palmeiras", 3, 1, "Copa Sul-Americana", "2012-08-22", "Nilton Santos"]);
+    jogos.push(["Atlético-MG", "Botafogo", 3, 2, "Brasileirão", "2012-08-19", "Independência"]);
+    jogos.push(["Botafogo", "Sport", 2, 0, "Brasileirão", "2012-08-15", "Nilton Santos"]);
+    jogos.push(["Portuguesa", "Botafogo", 1, 1, "Brasileirão", "2012-08-12", "Canindé"]);
+    jogos.push(["Botafogo", "Palmeiras", 1, 2, "Brasileirão", "2012-08-08", "Nilton Santos"]);
+    jogos.push(["Atlético-GO", "Botafogo", 1, 2, "Brasileirão", "2012-08-04", "Serra Dourada"]);
+    jogos.push(["Palmeiras", "Botafogo", 2, 0, "Copa Sul-Americana", "2012-08-01", "Arena Barueri"]);
+    jogos.push(["Botafogo", "Figueirense", 1, 0, "Brasileirão", "2012-07-28", "Nilton Santos"]);
+    jogos.push(["Vasco", "Botafogo", 1, 0, "Brasileirão", "2012-07-25", "Nilton Santos"]);
+    jogos.push(["Botafogo", "Grêmio", 0, 1, "Brasileirão", "2012-07-22", "Nilton Santos"]);
+    jogos.push(["Santos", "Botafogo", 0, 0, "Brasileirão", "2012-07-18", "Vila Belmiro"]);
+    jogos.push(["Botafogo", "Fluminense", 1, 1, "Brasileirão", "2012-07-15", "Nilton Santos"]);
+    jogos.push(["Corinthians", "Botafogo", 1, 3, "Brasileirão", "2012-07-11", "Pacaembu"]);
+    jogos.push(["Botafogo", "Bahia", 3, 0, "Brasileirão", "2012-07-07", "Nilton Santos"]);
+    jogos.push(["Botafogo", "Ponte Preta", 1, 2, "Brasileirão", "2012-06-24", "Nilton Santos"]);
+    jogos.push(["Internacional", "Botafogo", 1, 2, "Brasileirão", "2012-06-16", "Beira Rio"]);
+    jogos.push(["Náutico", "Botafogo", 3, 2, "Brasileirão", "2012-06-10", "Aflitos"]);
+    jogos.push(["Botafogo", "Cruzeiro", 2, 3, "Brasileirão", "2012-06-07", "Nilton Santos"]);
+    jogos.push(["Coritiba", "Botafogo", 2, 3, "Brasileirão", "2012-05-27", "Couto Pereira"]);
+    jogos.push(["Botafogo", "São Paulo", 4, 2, "Brasileirão", "2012-05-20", "Nilton Santos"]);
+    jogos.push(["Botafogo", "Fluminense", 0, 1, "Carioca", "2012-05-13", "Nilton Santos"]);
+    jogos.push(["Botafogo", "Vitória", 1, 2, "Copa do Brasil", "2012-05-09", "Nilton Santos"]);
+    jogos.push(["Fluminense", "Botafogo", 4, 1, "Carioca", "2012-05-06", "Nilton Santos"]);
+    jogos.push(["Vitória", "Botafogo", 1, 1, "Copa do Brasil", "2012-05-02", "Barradão"]);
+    jogos.push(["Botafogo", "Vasco", 3, 1, "Carioca", "2012-04-29", "Nilton Santos"]);
+    jogos.push(["Bangu", "Botafogo", 2, 4, "Carioca", "2012-04-21", "Nilton Santos"]);
+    jogos.push(["Botafogo", "Guarani", 0, 0, "Copa do Brasil", "2012-04-18", "Nilton Santos"]);
+    jogos.push(["Boavista", "Botafogo", 1, 1, "Carioca", "2012-04-15", "São Januário"]);
+    jogos.push(["Botafogo", "Friburguense", 3, 1, "Carioca", "2012-04-08", "Nilton Santos"]);
+    jogos.push(["Guarani", "Botafogo", 1, 2, "Copa do Brasil", "2012-04-04", "Brinco de Ouro da Princesa"]);
+    jogos.push(["Fluminense", "Botafogo", 1, 1, "Carioca", "2012-04-01", "Nilton Santos"]);
+    jogos.push(["Botafogo", "Duque de Caxias", 2, 0, "Carioca", "2012-03-24", "Nilton Santos"]);
+    jogos.push(["Botafogo", "Treze", 1, 1, "Copa do Brasil", "2012-03-21", "Nilton Santos"]); // (3-2 Pen.)
+    jogos.push(["Botafogo", "Vasco", 3, 1, "Carioca", "2012-03-18", "Nilton Santos"]);
+    jogos.push(["Treze", "Botafogo", 1, 1, "Copa do Brasil", "2012-03-14", "Almeidão"]);
+    jogos.push(["Bangu", "Botafogo", 1, 1, "Carioca", "2012-03-10", "Moça Bonita"]);
+    jogos.push(["Botafogo", "Volta Redonda", 3, 1, "Carioca", "2012-03-04", "São Januário"]);
+    jogos.push(["Americano", "Botafogo", 2, 4, "Carioca", "2012-03-01", "Godofredo Cruz"]);
+    jogos.push(["Botafogo", "Fluminense", 1, 1, "Carioca", "2012-02-23", "Nilton Santos"]); // (3-4 Pen.)
+    jogos.push(["Macaé", "Botafogo", 0, 3, "Carioca", "2012-02-18", "Moacyrzão"]);
+    jogos.push(["Botafogo", "Bonsucesso", 4, 1, "Carioca", "2012-02-11", "Nilton Santos"]);
+    jogos.push(["Botafogo", "Olaria", 5, 0, "Carioca", "2012-02-08", "Nilton Santos"]);
+    jogos.push(["Botafogo", "Flamengo", 0, 0, "Carioca", "2012-02-05", "Nilton Santos"]);
+    jogos.push(["Madureira", "Botafogo", 2, 2, "Carioca", "2012-02-02", "Conselheiro Galvão"]);
+    jogos.push(["Nova Iguaçu", "Botafogo", 0, 0, "Carioca", "2012-01-29", "Moça Bonita"]);
+    jogos.push(["Botafogo", "Resende", 3, 1, "Carioca", "2012-01-22", "Nilton Santos"]);
 
     jogos.sort(function (a, b) {
         return a[5] < b[5] ? -1 : a[5] > b[5] ? 1 : 0;

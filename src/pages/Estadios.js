@@ -16,6 +16,7 @@ class Estadios extends Component {
 
   async componentDidMount() {
     this._isMounted = true; 
+    window.scrollTo(0, 0);
     this.setState({ isLoading: true })
     await this.getEstadios();
     this.setState({ isLoading: false })
