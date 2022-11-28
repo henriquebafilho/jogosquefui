@@ -8,7 +8,7 @@ function Estatisticas(props) {
     var empates = Common.getEmpates(props.meuTime, props.jogos);
     var derrotas = Common.getDerrotas(props.meuTime, props.jogos);
     return (
-        <div style={{paddingBottom: '100px', width: '60vw'}}>
+        <div style={{paddingBottom: '30px', width: '60vw'}}>
             <p style={{ color: Times(props.meuTime).letterColor}}>{total} jogo{total > 1 ? 's' : ''}</p>
             <div className='resultsBar' style={{ borderColor: Times(props.meuTime).backgroundColor  === 'white' ? 'black' : 'white'}}>
                 <div className="vitoriasBar"

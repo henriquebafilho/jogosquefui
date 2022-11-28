@@ -10,6 +10,7 @@ function Inicio(props) {
         Eu sou {Times(props.meuTime).nomeAtual}
       </p>
       <img src={require('../escudos/' + Times(props.meuTime).escudo + '.png')} className="App-logo" alt={"Escudo do " + props.meuTime} />
+      <br/>
       {props.jogos().length > 0 && <Estatisticas meuTime={props.meuTime} jogos={props.jogos()} />}
       {props.jogos().length > 0 ? props.jogos().reverse().map((index) => {
         return <LinhaJogo meuTime={props.meuTime} jogo={index} />

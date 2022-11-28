@@ -29,7 +29,7 @@ class ViewEstadio extends Component {
     return (
       this.state.clicked ? <Estadios meuTime={meuTime} jogos={this.props.jogos} /> :
         <div className="App-header" style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }}>
-          <div class='a' style={{textAlign: 'left'}}>
+          <div className='a' style={{textAlign: 'left'}}>
             <button style={{ textDecoration: 'underline'}} onClick={() => buttonClickFunction()}>{"< Voltar"}</button>
           </div>
           <h1>{this.props.estadio}</h1>

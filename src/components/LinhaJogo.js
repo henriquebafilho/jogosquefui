@@ -22,10 +22,7 @@ function LinhaJogo(props) {
             case 5: return "Sábado";
             case 6: return "Domingo";
         }
-    }/* 
-    var dia = new Date().toLocaleDateString();
-    var boleana = Date("2002-11-11").toLocaleDateString() < dia;
-    console.log(boleana) */
+    }
 
     return (
         <div className='divJogo' style={{ 

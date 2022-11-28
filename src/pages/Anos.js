@@ -62,15 +62,14 @@ class Anos extends Component {
     const jogos = this.state.jogos;
     const buttonClickFunction = (ano) => this.buttonClick(ano);
     return (
-      this.state.clicked ? <ViewAno meuTime={this.props.meuTime} jogos={jogos} jogosAno={this.state.jogosAno} ano={this.state.anoAtual} /> :
-      (<div className="App-header" style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }}>
-        <h1>Anos</h1>
-        <br />
-        <table>
-          <tbody>
-            {this.state.isLoading && <h1>Carregando...</h1>}
-            {
-              !this.state.isLoading && this.state.anos.map(function (i) {
+      this.state.clicked ? <ViewAno flag="meusJogos" meuTime={this.props.meuTime} jogos={jogos} jogosAno={this.state.jogosAno} ano={this.state.anoAtual} /> :
+        (<div className="App-header" style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }}>
+          <h1>Anos</h1>
+          <br />
+          <table>
+            <tbody>
+              {this.state.isLoading && <h1>Carregando...</h1>}
+              {!this.state.isLoading && this.state.anos.map(function (i) {
                 var totalAno = common.getTotalAno(i, jogos);
                 return <div>
                   <button id='selectAno' onClick={() => buttonClickFunction(i)} style={{ borderColor: Times(meuTime).letterColor, borderStyle: 'solid', backgroundColor: Times(meuTime).backgroundColor, color: Times(meuTime).letterColor, width: '60vw' }}>
@@ -79,10 +78,10 @@ class Anos extends Component {
                   </button>
                 </div>
               })
-            }
-          </tbody>
-        </table>
-      </div >)
+              }
+            </tbody>
+          </table>
+        </div >)
     )
   }
 }

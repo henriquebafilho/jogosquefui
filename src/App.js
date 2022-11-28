@@ -46,7 +46,7 @@ function App() {
           <Route path='/anos' element={<Anos meuTime={meuTime} jogos={Jogos()} />} />
           <Route path='/estadios' element={<Estadios meuTime={meuTime} jogos={Jogos()} />} />
           <Route path='/adversarios' element={<Adversarios meuTime={meuTime} jogos={Jogos()} />} />
-          <Route path='/todosOsJogos' element={<TodosOsJogos meuTime={meuTime} todosOsJogos={todosOsJogos} />} />
+          <Route path='/todosOsJogos' element={<TodosOsJogos meuTime={meuTime} jogos={todosOsJogos} />} />
         </Routes>
       </Router>
     </>
