@@ -6,10 +6,10 @@ function LinhaJogo(props) {
     function converteData(data) {
         var array = data.split("-");
         var novaData = array[2] + "/" + array[1] + "/" + array[0];
-        
+
         return novaData;
     }
-    
+
     function converteDia(data) {
         data = new Date(data);
         var dia = data.getDay();
@@ -25,18 +25,28 @@ function LinhaJogo(props) {
     }
 
     return (
-        <div className='divJogo' style={{ 
-            background: "linear-gradient(90deg, " + Times(props.jogo[0]).backgroundColor + " 49%, " + Times(props.jogo[1]).backgroundColor + " 52%)", 
-            padding: '15px', 
-            marginBottom: '10px', 
-            width: '60vw', 
-            borderColor: Times(props.meuTime).backgroundColor  === 'white' ? 'black' : 'white'}}>
-            <p style={{ textShadow: "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000", color:"white", marginBottom: '5px' }}>{converteDia(props.jogo[5])}, {converteData(props.jogo[5])} | {props.jogo[4]} | {props.jogo[6]}</p>
+        <div className='divJogo' style={{
+            background: "linear-gradient(90deg, " + Times(props.jogo[0]).backgroundColor + " 49%, " + Times(props.jogo[1]).backgroundColor + " 52%)",
+            padding: '15px',
+            marginBottom: '10px',
+            width: '60vw',
+            borderColor: Times(props.meuTime).backgroundColor === 'white' ? 'black' : 'white'
+        }}>
+            <p style={{ textShadow: "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000", color: "white", marginBottom: '5px' }}>{converteDia(props.jogo[5])}, {converteData(props.jogo[5])} | {props.jogo[4]} | {props.jogo[6]}</p>
+            <div style={{ display: 'inline' }}>
+                <input
+                    type="checkbox"
+                    style={{
+                        backgroundColor: "#ff0000",
+                        borderRadius: '5px',
+                        cursor: 'pointer'
+                    }} />
+            </div>
             <div style={{ display: 'inline', fontSize: '25px', color: Times(props.jogo[0]).letterColor, textShadow: Times(props.jogo[0]).letterColor === "white" ? "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000" : "none", paddingRight: '5px' }}>
                 <p style={{ display: 'inline-block', verticalAlign: 'middle', paddingRight: '5px' }}>{props.jogo[0].toUpperCase() + ' '}</p>
                 <img src={require('../escudos/' + Times(props.jogo[0]).escudo + '.png')} style={{ display: 'inline-block', verticalAlign: 'middle', width: "3em", height: "3em" }} alt={props.jogo[0]} />
             </div>
-            <div style={{ display: 'inline', textShadow: "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000", color:"white" }}>
+            <div style={{ display: 'inline', textShadow: "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000", color: "white" }}>
                 <p style={{ display: 'inline-block', verticalAlign: 'middle' }}>{props.jogo[2] + ' x ' + props.jogo[3]}</p>
             </div>
             <div style={{ display: 'inline', fontSize: '25px', color: Times(props.jogo[1]).letterColor, textShadow: Times(props.jogo[1]).letterColor === "white" ? "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000" : "none", paddingLeft: '5px' }}>
