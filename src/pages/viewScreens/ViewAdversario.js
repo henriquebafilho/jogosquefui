@@ -30,7 +30,7 @@ class ViewAdversario extends Component {
     return (
       this.state.clicked ? <Adversarios meuTime={meuTime} jogos={this.props.jogos} /> :
         <div className="App-header" style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }}>
-          <div className='a' style={{ textAlign: 'left' }}>
+          <div className='a'>
             <button style={{ textDecoration: 'underline' }} onClick={() => buttonClickFunction()}>{"< Voltar"}</button>
           </div>
           <div>
@@ -44,7 +44,7 @@ class ViewAdversario extends Component {
           <Estatisticas meuTime={this.state.meuTime} jogos={this.props.jogosAdversario} />
           {this.state.jogos.reverse().map((index) => {
             let mostraAno = false;
-            if(anoAtual !== index[5].split("-")[0]){
+            if (anoAtual !== index[5].split("-")[0]) {
               anoAtual = index[5].split("-")[0];
               mostraAno = true;
             }

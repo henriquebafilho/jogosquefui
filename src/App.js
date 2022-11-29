@@ -6,9 +6,6 @@ import TodosOsJogos from './pages/TodosOsJogos.js';
 import Adversarios from './pages/Adversarios.js';
 import Anos from './pages/Anos.js';
 import Estadios from './pages/Estadios.js';
-/* import ViewAdversario from './pages/viewScreens/ViewAdversario';
-import ViewAno from './pages/viewScreens/ViewAno';
-import ViewEstadio from './pages/viewScreens/ViewEstadio'; */
 import Jogos from './meusJogos';
 import FlamengoJogos from './TodosOsJogos/FlamengoJogos';
 import FluminenseJogos from './TodosOsJogos/FluminenseJogos';

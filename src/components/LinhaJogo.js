@@ -32,7 +32,11 @@ function LinhaJogo(props) {
             width: '60vw',
             borderColor: Times(props.meuTime).backgroundColor === 'white' ? 'black' : 'white'
         }}>
-            <p style={{ textShadow: "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000", color: "white", marginBottom: '5px' }}>{converteDia(props.jogo[5])}, {converteData(props.jogo[5])} | {props.jogo[4]} | {props.jogo[6]}</p>
+            <div>
+                <p style={{ display: 'inline', textShadow: "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000", color: "white", marginBottom: '5px', fontWeight: 'bold' }}>{converteDia(props.jogo[5])}, {converteData(props.jogo[5])}</p>
+                <p style={{ display: 'inline', textShadow: "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000", color: "white", marginBottom: '5px'}}> - {props.jogo[4]} - </p>
+                <p style={{ display: 'inline', textShadow: "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000", color: "white", marginBottom: '5px', fontWeight: 'bold' }}>{props.jogo[6]}</p>
+            </div>
             {/* <div style={{ display: 'inline' }}>
                 <input
                     type="checkbox"

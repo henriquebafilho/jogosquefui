@@ -36,6 +36,7 @@ class ViewAno extends Component {
                         <div className='a' style={{ textAlign: 'left' }}>
                             <button style={{ textDecoration: 'underline' }} onClick={() => buttonClickFunction()}>{"< Voltar"}</button>
                         </div>
+                        <h1>{flag === "meusJogos" ? "Meus jogos em" : "Jogos do " + meuTime + " em"}</h1>
                         <h1>{this.props.ano}</h1>
                         <Estatisticas meuTime={this.state.meuTime} jogos={this.props.jogosAno} />
                         {
