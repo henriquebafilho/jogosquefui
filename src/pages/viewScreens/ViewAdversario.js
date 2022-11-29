@@ -29,10 +29,16 @@ class ViewAdversario extends Component {
     return (
       this.state.clicked ? <Adversarios meuTime={meuTime} jogos={this.props.jogos} /> :
         <div className="App-header" style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }}>
-          <div className='a' style={{textAlign: 'left'}}>
-            <button style={{ textDecoration: 'underline'}} onClick={() => buttonClickFunction()}>{"< Voltar"}</button>
+          <div className='a' style={{ textAlign: 'left' }}>
+            <button style={{ textDecoration: 'underline' }} onClick={() => buttonClickFunction()}>{"< Voltar"}</button>
           </div>
-          <h1>{meuTime} x {this.props.adversario}</h1>
+          <div>
+            <h1 style={{ display: 'inline', verticalAlign: 'middle' }}>{meuTime}</h1>
+            <img src={require('../../escudos/' + Times(meuTime).escudo + '.png')} style={{ display: 'inline', verticalAlign: 'middle', width: "3em", height: "3em", margin: '5px' }} alt={meuTime} />
+            <h1 style={{ display: 'inline', verticalAlign: 'middle' }}> x </h1>
+            <img src={require('../../escudos/' + Times(this.props.adversario).escudo + '.png')} style={{ display: 'inline', verticalAlign: 'middle', width: "3em", height: "3em", margin: '10px' }} alt={this.props.adversario} />
+            <h1 style={{ display: 'inline', verticalAlign: 'middle' }}>{this.props.adversario}</h1>
+          </div>
           <br />
           <Estatisticas meuTime={this.state.meuTime} jogos={this.props.jogosAdversario} />
           {this.state.jogos.reverse().map((index) => {
