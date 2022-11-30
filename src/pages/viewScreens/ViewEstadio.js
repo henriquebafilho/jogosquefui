@@ -29,24 +29,26 @@ class ViewEstadio extends Component {
     let anoAtual = 0;
     return (
       this.state.clicked ? <Estadios meuTime={meuTime} jogos={this.props.jogos} /> :
-        <div className="App-header" style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }}>
-          <div className='a' style={{textAlign: 'left'}}>
-            <button style={{ textDecoration: 'underline'}} onClick={() => buttonClickFunction()}>{"< Voltar"}</button>
+        <div style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }}>
+          <div className='a'>
+            <button style={{ outline: 'none', border: 'none', textDecoration: 'underline', fontSize: '25px', cursor: 'pointer', backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }} onClick={() => buttonClickFunction()}>{"< Voltar"}</button>
           </div>
-          <h1>{this.props.estadio}</h1>
-          <br />
-          <Estatisticas meuTime={this.state.meuTime} jogos={this.props.jogosEstadio} />
-          {this.state.jogos.reverse().map((index) => {
-            let mostraAno = false;
-            if(anoAtual !== index[5].split("-")[0]){
-              anoAtual = index[5].split("-")[0];
-              mostraAno = true;
-            }
-            return <div>
-              {mostraAno ? <h1 style={{ textAlign: 'center', paddingBottom: '10px', color: Times(meuTime).letterColor }}>{anoAtual}</h1> : ""}
-              <LinhaJogo meuTime={meuTime} jogo={index} />
-            </div>
-          })}
+          <div className="App-header" style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }}>
+            <h1>{this.props.estadio}</h1>
+            <br />
+            <Estatisticas meuTime={this.state.meuTime} jogos={this.props.jogosEstadio} />
+            {this.state.jogos.reverse().map((index) => {
+              let mostraAno = false;
+              if (anoAtual !== index[5].split("-")[0]) {
+                anoAtual = index[5].split("-")[0];
+                mostraAno = true;
+              }
+              return <div>
+                {mostraAno ? <h1 style={{ textAlign: 'center', paddingBottom: '10px', color: Times(meuTime).letterColor }}>{anoAtual}</h1> : ""}
+                <LinhaJogo meuTime={meuTime} jogo={index} />
+              </div>
+            })}
+          </div>
         </div>
     )
   }

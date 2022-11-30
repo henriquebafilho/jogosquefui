@@ -32,23 +32,24 @@ class ViewAno extends Component {
         return (
             this.state.clicked && flag === "meusJogos" ? <Anos meuTime={meuTime} jogos={this.props.jogos} /> :
                 this.state.clicked && flag === "todosOsJogos" ? <TodosOsJogos meuTime={meuTime} jogos={this.props.jogos} /> :
-                    (<div className="App-header" style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }}>
-                        <div className='a' style={{ textAlign: 'left' }}>
-                            <button style={{ textDecoration: 'underline' }} onClick={() => buttonClickFunction()}>{"< Voltar"}</button>
+                    <div style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }}>
+                        <div className='a'>
+                            <button style={{ outline: 'none', border: 'none', textDecoration: 'underline', fontSize: '25px', cursor: 'pointer', backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }} onClick={() => buttonClickFunction()}>{"< Voltar"}</button>
                         </div>
-                        <h1>{flag === "meusJogos" ? "Meus jogos em" : "Jogos do " + meuTime + " em"}</h1>
-                        <h1>{this.props.ano}</h1>
-                        <Estatisticas meuTime={this.state.meuTime} jogos={this.props.jogosAno} />
-                        {
-                            flag === "meusJogos" ?
-                                this.state.jogos.reverse().map((index) => {
-                                    return <LinhaJogo meuTime={meuTime} jogo={index} />
-                                }) :
-                                this.state.jogos.map((index) => {
-                                    return <LinhaJogo meuTime={meuTime} jogo={index} />
-                                })
-                        }
-                    </div>)
+                        <div className="App-header" style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }}>
+                            <h1 style={{padding: '50px'}}>{flag === "meusJogos" ? "Meus jogos em " + this.props.ano : "Jogos do " + meuTime + " em " + this.props.ano}</h1>
+                            <Estatisticas meuTime={this.state.meuTime} jogos={this.props.jogosAno} />
+                            {
+                                flag === "meusJogos" ?
+                                    this.state.jogos.reverse().map((index) => {
+                                        return <LinhaJogo meuTime={meuTime} jogo={index} />
+                                    }) :
+                                    this.state.jogos.map((index) => {
+                                        return <LinhaJogo meuTime={meuTime} jogo={index} />
+                                    })
+                            }
+                        </div>
+                    </div>
         )
     }
 }
