@@ -273,6 +273,12 @@ function Times(time, jogo = null) {
                   backgroundColor = "#00913c";
                   letterColor = "white";
                   break;
+            case "Charlton Athletic":
+                  nomeAtual = time;
+                  escudo = "CharltonAthletic";
+                  backgroundColor = "#d30a11";
+                  letterColor = "white";
+                  break;
             case "Chile":
                   nomeAtual = time;
                   escudo = time;
@@ -945,6 +951,12 @@ function Times(time, jogo = null) {
                   escudo = time;
                   backgroundColor = "#d30a11";
                   letterColor = "black";
+                  break;
+            case "Vitória-ES":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#002b7b";
+                  letterColor = "white";
                   break;
             case "Volta Redonda":
                   nomeAtual = time;

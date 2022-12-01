@@ -1,6 +1,8 @@
 function jogos() {
     var jogos = [];
 
+    jogos.push(["Crystal Palace", "Botafogo", 0, 0, "Amistoso", "2022-12-03", "Selhurst Park"]);
+    jogos.push(["Charlton Athletic", "Botafogo", 2, 4, "Amistoso", "2022-12-01", "CT do Crystal Palace"]);
     jogos.push(["Athletico-PR", "Botafogo", 3, 0, "Brasileirão", "2022-11-13", "Arena da Baixada"]);
     jogos.push(["Botafogo", "Santos", 3, 0, "Brasileirão", "2022-11-10", "Nilton Santos"]);
     jogos.push(["Atlético-MG", "Botafogo", 0, 2, "Brasileirão", "2022-11-07", "Mineirão"]);
@@ -168,6 +170,7 @@ function jogos() {
     jogos.push(["Botafogo", "Resende", 2, 1, "Carioca", "2020-01-30", "Nilton Santos"]);
     jogos.push(["Botafogo", "Macaé", 3, 1, "Carioca", "2020-01-26", "Nilton Santos"]);
     jogos.push(["Madureira", "Botafogo", 2, 0, "Carioca", "2020-01-21", "Conselheiro Galvão"]);
+    jogos.push(["Vitória-ES", "Botafogo", 0, 2, "Amistoso", "2020-01-20", "Kleber Andrade"]);
     jogos.push(["Volta Redonda", "Botafogo", 1, 0, "Carioca", "2020-01-18", "Raulino de Oliveira"]);
     jogos.push(["Botafogo", "Ceará", 1, 1, "Brasileirão", "2019-12-08", "Nilton Santos"]);
     jogos.push(["Atlético-MG", "Botafogo", 2, 0, "Brasileirão", "2019-12-04", "Mineirão"]);

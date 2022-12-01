@@ -35,9 +35,9 @@ class ViewAdversario extends Component {
           </div>
           <div className="App-header">
             <div>
-              <div style={{ float: 'left', textAlign: 'center', width: '200px' }}>
+              <div style={{ float: 'left', textAlign: 'center', width: '180px' }}>
                 <img src={require('../../escudos/' + Times(meuTime).escudo + '.png')} style={{ display: 'inline', verticalAlign: 'middle', width: "3em", height: "3em", margin: '10px' }} alt={meuTime} />
-                <p>{meuTime}</p>
+                <p style={{ fontSize: '20px' }}>{meuTime}</p>
               </div>
               <div style={{ float: 'left', margin: '25px' }}>
                 <h1 style={{ display: 'inline', verticalAlign: 'middle' }}> x </h1>
@@ -47,12 +47,12 @@ class ViewAdversario extends Component {
                 textAlign: 'center',
                 border: '5px solid' + Times(this.props.adversario).backgroundColor,
                 borderRadius: '5px',
-                width: '200px',
+                width: '180px',
                 backgroundColor: Times(this.props.adversario).backgroundColor,
                 color: Times(this.props.adversario).letterColor
               }}>
                 <img src={require('../../escudos/' + Times(this.props.adversario).escudo + '.png')} style={{ display: 'inline', verticalAlign: 'middle', width: "3em", height: "3em", margin: '10px' }} alt={this.props.adversario} />
-                <p>{this.props.adversario}</p>
+                <p style={{ fontSize: '20px' }}>{this.props.adversario}</p>
               </div>
             </div>
             <br />
