@@ -369,6 +369,12 @@ function Times(time, jogo = null) {
                   backgroundColor = "#784684";
                   letterColor = "white";
                   break;
+            case "Democrata":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "black";
+                  letterColor = "white";
+                  break;
             case "Deportivo Lara":
                   nomeAtual = time;
                   escudo = "DeportivoLara";
@@ -761,6 +767,12 @@ function Times(time, jogo = null) {
             case "River Plate":
                   nomeAtual = time;
                   escudo = "RiverPlate";
+                  backgroundColor = "white";
+                  letterColor = "#d30a11";
+                  break;
+            case "River Plate-SE":
+                  nomeAtual = time;
+                  escudo = "RiverPlate-SE";
                   backgroundColor = "white";
                   letterColor = "#d30a11";
                   break;
