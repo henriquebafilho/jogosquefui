@@ -12,11 +12,11 @@ function Inicio(props) {
         Eu sou {Times(props.meuTime).nomeAtual}
       </p>
       <img src={require('../escudos/' + Times(props.meuTime).escudo + '.png')} className="App-logo" alt={"Escudo do " + props.meuTime} />
-      <br/>
+      <br />
       {props.jogos().length > 0 && <Estatisticas meuTime={props.meuTime} jogos={props.jogos()} />}
       {props.jogos().length > 0 ? props.jogos().reverse().map((index) => {
         let mostraAno = false;
-        if(anoAtual !== index[5].split("-")[0]){
+        if (anoAtual !== index[5].split("-")[0]) {
           anoAtual = index[5].split("-")[0];
           mostraAno = true;
         }
@@ -25,9 +25,9 @@ function Inicio(props) {
           <LinhaJogo meuTime={meuTime} jogo={index} />
         </div>
       }) : <div>
-        <h1 style={{ textAlign: 'center', paddingBottom: '50px' }}>Você ainda não possui jogos cadastrados</h1>
-        <h4 style={{ textAlign: 'center' }}>Vá em "Todos os Jogos do {props.meuTime}" para selecionar</h4>
-        <h4 style={{ textAlign: 'center' }}>os jogos que você já foi</h4>
+        <h1 style={{ color: Times(props.meuTime).letterColor, textAlign: 'center', paddingBottom: '50px' }}>Você ainda não possui jogos cadastrados</h1>
+        <h4 style={{ color: Times(props.meuTime).letterColor, textAlign: 'center' }}>Vá em "Jogos do {props.meuTime}" para selecionar</h4>
+        <h4 style={{ color: Times(props.meuTime).letterColor, textAlign: 'center' }}>os jogos que você já foi</h4>
       </div>}
     </div>
   )

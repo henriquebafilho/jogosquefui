@@ -75,18 +75,21 @@ class Adversarios extends Component {
           <table>
             <tbody>
               {this.state.isLoading && <h1>Carregando...</h1>}
-              {
+              {this.state.adversarios.length > 0 ?
                 !this.state.isLoading && this.state.adversarios.map(function (i) {
                   var totalAdversario = common.getTotalAdversario(meuTime, i, jogos);
                   return <div >
                     <button id='selectTime' onClick={() => buttonClickFunction(Times(i).nomeAtual)} style={{ backgroundColor: Times(Times(i).nomeAtual).backgroundColor, color: Times(Times(i).nomeAtual).letterColor, borderColor: Times(meuTime).backgroundColor === 'white' ? 'black' : 'white', borderStyle: 'solid', width: '60vw' }}>
                       <img src={require('../escudos/' + Times(Times(i).nomeAtual).escudo + '.png')} style={{ verticalAlign: 'middle' }} alt='escudo' height='75' width='75' />
-                      <div style={{ paddingTop: '5px', fontSize: '20px' }}>{Times(i).nomeAtual}</div>
-                      <div style={{ paddingBottom: '5px', fontSize: '10px' }}>{totalAdversario} {totalAdversario > 1 ? "jogos" : "jogo"}</div>
+                      <div style={{ paddingTop: '5px', fontSize: '30px' }}>{Times(i).nomeAtual}</div>
+                      <div style={{ paddingBottom: '5px', fontSize: '15px' }}>{totalAdversario} {totalAdversario > 1 ? "jogos" : "jogo"}</div>
                     </button>
                   </div>
-                })
-              }
+                }) : <div>
+                  <h1 style={{ color: Times(this.state.meuTime).letterColor, textAlign: 'center', paddingBottom: '50px' }}>Você ainda não possui jogos cadastrados</h1>
+                  <h4 style={{ color: Times(this.state.meuTime).letterColor, textAlign: 'center' }}>Vá em "Jogos do {this.state.meuTime}" para selecionar</h4>
+                  <h4 style={{ color: Times(this.state.meuTime).letterColor, textAlign: 'center' }}>os jogos que você já foi</h4>
+                </div>}
             </tbody>
           </table>
         </div>)

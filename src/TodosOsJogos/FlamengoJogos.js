@@ -1,6 +1,20 @@
 function FlamengoJogos() {
     var jogos = [];
 
+    jogos.push(["Flamengo", "Fluminense", 0, 0, "Carioca", "2023-03-04", "Maracanã"]);
+    jogos.push(["Flamengo", "Vasco", 0, 0, "Carioca", "2023-02-25", "Maracanã"]);
+    jogos.push(["Botafogo", "Flamengo", 0, 0, "Carioca", "2023-02-15", "Nilton Santos"]);
+    jogos.push(["Flamengo", "Independiente Del Valle", 0, 0, "Recopa Sudamericana", "2023-02-14", "Banco de Guayaquil"]);
+    jogos.push(["Volta Redonda", "Flamengo", 0, 0, "Carioca", "2023-02-10", "Raulino de Oliveira"]);
+    jogos.push(["Independiente Del Valle", "Flamengo", 0, 0, "Recopa Sudamericana", "2023-02-07", "Banco de Guayaquil"]);
+    jogos.push(["Resende", "Flamengo", 0, 0, "Carioca", "2023-02-03", "Estádio do Trabalhador"]);
+    jogos.push(["Flamengo", "Boavista", 0, 0, "Carioca", "2023-01-31", "Maracanã"]);
+    jogos.push(["Palmeiras", "Flamengo", 0, 0, "Supercopa do Brasil", "2023-01-28", "Mané Garrincha"]);
+    jogos.push(["Flamengo", "Audax Rio", 0, 0, "Carioca", "2023-01-27", "Maracanã"]);
+    jogos.push(["Bangu", "Flamengo", 0, 0, "Carioca", "2023-01-24", "Moça Bonita"]);
+    jogos.push(["Flamengo", "Nova Iguaçu", 0, 0, "Carioca", "2023-01-20", "Maracanã"]);
+    jogos.push(["Madureira", "Flamengo", 0, 0, "Carioca", "2023-01-17", "Conselheiro Galvão"]);
+    jogos.push(["Flamengo", "Portuguesa-RJ", 0, 0, "Carioca", "2023-01-13", "Maracanã"]);
     jogos.push(["Flamengo", "Avaí", 1, 2, "Brasileirão", "2022-11-13", "Maracanã"]);
     jogos.push(["Juventude", "Flamengo", 2, 2, "Brasileirão", "2022-11-09", "Alfredo Jaconi"]);
     jogos.push(["Coritiba", "Flamengo", 0, 1, "Brasileirão", "2022-11-06", "Couto Pereira"]);

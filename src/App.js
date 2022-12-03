@@ -13,7 +13,7 @@ import VascoJogos from './TodosOsJogos/VascoJogos';
 import BotafogoJogos from './TodosOsJogos/BotafogoJogos';
 
 function App() {
-  var meuTime = "Botafogo";
+  var meuTime = "Vasco";
   var todosOsJogos = [];
 
   switch (meuTime) {
