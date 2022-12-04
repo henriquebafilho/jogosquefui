@@ -29,6 +29,12 @@ export const SidebarData = [
         cName: 'nav-text'
     },
     {
+        title: 'Próximos Jogos',
+        path: '/proximosJogos',
+        icon: <AiIcons.AiFillHome/>,
+        cName: 'nav-text'
+    },
+    {
         title: 'Todos os Jogos',
         path: '/todosOsJogos',
         icon: <AiIcons.AiFillHome/>,

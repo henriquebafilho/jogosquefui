@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Times from '../Times';
 import common from '../common';
-//import Estatisticas from '../components/Estatisticas';
 import ViewAno from './viewScreens/ViewAno';
 
 class TodosOsJogos extends Component {
@@ -9,7 +8,7 @@ class TodosOsJogos extends Component {
     super(props);
     this.state = {
       meuTime: props.meuTime,
-      jogos: props.jogos,
+      jogos: [],
       anos: [],
       isLoading: false,
       clicked: false,
@@ -23,8 +22,19 @@ class TodosOsJogos extends Component {
     this._isMounted = true;
     window.scrollTo(0, 0);
     this.setState({ isLoading: true })
+    await this.getJogos();
     await this.getAnos();
     this.setState({ isLoading: false })
+  }
+
+  getJogos = async () => {
+    var jogosTerminados = [];
+    this.props.jogos.map(function (i) {
+      if (i[2] !== "" && i[3] !== "") {
+        jogosTerminados.push(i);
+      }
+    })
+    this.setState({ jogos: jogosTerminados })
   }
 
   getAnos = async () => {
@@ -69,7 +79,6 @@ class TodosOsJogos extends Component {
           <h1 style={{ padding: '20px' }}>Jogos do {Times(this.props.meuTime).nomeAtual}</h1>
           <img src={require('../escudos/' + Times(this.props.meuTime).escudo + '.png')} className="App-logo" alt={"Escudo do " + this.props.meuTime} style={{ width: '100px', height: '100px' }} />
           <br />
-          {/* {<Estatisticas meuTime={this.props.meuTime} jogos={this.props.jogos} />} */}
           <h4 style={{ padding: '20px' }}>Selecione o ano do jogo</h4>
           <table>
             <tbody>

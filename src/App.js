@@ -2,6 +2,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Inicio from './pages/Inicio.js';
+import ProximosJogos from './pages/ProximosJogos.js';
 import TodosOsJogos from './pages/TodosOsJogos.js';
 import Adversarios from './pages/Adversarios.js';
 import Anos from './pages/Anos.js';
@@ -43,6 +44,7 @@ function App() {
           <Route path='/anos' element={<Anos meuTime={meuTime} jogos={Jogos()} />} />
           <Route path='/estadios' element={<Estadios meuTime={meuTime} jogos={Jogos()} />} />
           <Route path='/adversarios' element={<Adversarios meuTime={meuTime} jogos={Jogos()} />} />
+          <Route path='/proximosJogos' element={<ProximosJogos meuTime={meuTime} jogos={todosOsJogos} />} />
           <Route path='/todosOsJogos' element={<TodosOsJogos meuTime={meuTime} jogos={todosOsJogos} />} />
         </Routes>
       </Router>

@@ -15,7 +15,7 @@
 function jogos() {
     var jogos = [];
 
-    var jogo20021026 = ["Botafogo", "Fluminense", 2, 3, "Série A", "2002-10-26", "Maracanã", "Ivo Wortmann", ["Galeano", "Léo Inácio"], ["César", "Magno Alves", "Romário"], "https://www.youtube.com/embed/PqiI2VnS3oU"];
+    /* var jogo20021026 = ["Botafogo", "Fluminense", 2, 3, "Série A", "2002-10-26", "Maracanã", "Ivo Wortmann", ["Galeano", "Léo Inácio"], ["César", "Magno Alves", "Romário"], "https://www.youtube.com/embed/PqiI2VnS3oU"];
     jogos.push(jogo20021026);
     var jogo20040229 = ["Botafogo", "Fluminense", 0, 0, "Taça Rio", "2004-02-29", "Maracanã", "Levir Culpi", [""], [""], "https://www.youtube.com/embed/F-1lgtLIBFc"];
     jogos.push(jogo20040229);
@@ -498,7 +498,7 @@ function jogos() {
     var jogo20221110 = ["Botafogo", "Santos", 3, 0, "Série A", "2022-11-10", "Nilton Santos", "Luís Castro", ["Lucas Fernandes (2x)", "Tiquinho Soares"], [""], "https://www.youtube.com/embed/IvJ0xO2mO7s"];
     jogos.push(jogo20221110);
     var jogo20221113 = ["Athletico-PR", "Botafogo", 3, 0, "Série A", "2022-11-13", "Arena da Baixada", "Luís Castro", ["Adryelson (GC)", "Vitor Roque", "Erick"], [""], "https://www.youtube.com/embed/FRisKPSITJY&ab_channel=ge"];
-    jogos.push(jogo20221113);
+    jogos.push(jogo20221113); */
 
     jogos.sort(function (a, b) {
         return a[5] < b[5] ? -1 : a[5] > b[5] ? 1 : 0;

@@ -37,7 +37,9 @@ class ViewAno extends Component {
                             <button style={{ outline: 'none', border: 'none', textDecoration: 'underline', fontSize: '25px', cursor: 'pointer', backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }} onClick={() => buttonClickFunction()}>{"< Voltar"}</button>
                         </div>
                         <div className="App-header" style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }}>
-                            <h1 style={{padding: '50px'}}>{flag === "meusJogos" ? "Meus jogos em " + this.props.ano : "Jogos do " + meuTime + " em " + this.props.ano}</h1>
+                            <h1 style={{ padding: '5px' }}>{flag === "meusJogos" ? "Meus jogos em " + this.props.ano : this.props.ano}</h1>
+                            <img src={require('../../escudos/' + Times(this.props.meuTime).escudo + '.png')} className="App-logo" alt={"Escudo do " + this.props.meuTime} style={{ width: '100px', height: '100px' }} />
+                            <br />
                             <Estatisticas meuTime={this.state.meuTime} jogos={this.props.jogosAno} />
                             {
                                 flag === "meusJogos" ?
