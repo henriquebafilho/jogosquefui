@@ -80,8 +80,7 @@ class Anos extends Component {
                   </div>
                 }) : <div>
                   <h1 style={{ color: Times(this.state.meuTime).letterColor, textAlign: 'center', paddingBottom: '50px' }}>Você ainda não possui jogos cadastrados</h1>
-                  <h4 style={{ color: Times(this.state.meuTime).letterColor, textAlign: 'center' }}>Vá em "Jogos do {this.state.meuTime}" para selecionar</h4>
-                  <h4 style={{ color: Times(this.state.meuTime).letterColor, textAlign: 'center' }}>os jogos que você já foi</h4>
+                  <h4 style={{ color: Times(this.state.meuTime).letterColor, textAlign: 'center' }}>Vá em "Jogos do {this.state.meuTime}" para selecionar os jogos que você já foi</h4>
                 </div>}
             </tbody>
           </table>

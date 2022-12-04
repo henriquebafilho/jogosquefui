@@ -64,7 +64,7 @@ class Estadios extends Component {
         <div className="App-header" style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }}>
           <h1>Estádios</h1>
           <br />
-          <h4>{"Você foi a " + this.state.estadios.length + " estádios"}</h4>
+          <h4>{"Você foi a " + this.state.estadios.length + " estádio"}{this.state.estadios.length > 1 ? "s" : ""}</h4>
           <br />
           <table>
             <tbody>
@@ -72,16 +72,22 @@ class Estadios extends Component {
               {this.state.estadios.length > 0 ?
                 !this.state.isLoading && this.state.estadios.map(function (i) {
                   var totalEstadio = common.getTotalEstadio(i, jogos);
+                  var imagemEstadio;
+                  try {
+                    imagemEstadio = require('../estadios/' + i + '.png');
+                  } catch (e){
+                    imagemEstadio = "";
+                  }
                   return <div>
                     <button id='selectEstadio' onClick={() => buttonClickFunction(i)} style={{ borderColor: Times(meuTime).letterColor, borderStyle: 'solid', backgroundColor: Times(meuTime).backgroundColor, color: Times(meuTime).letterColor, width: '60vw' }}>
-                      <div style={{ display: 'inline', padding: '10px', fontSize: '40px' }}>{i}</div>
+                      {imagemEstadio !== "" ? <img src={imagemEstadio} style={{ verticalAlign: 'middle' }} alt='escudo' height='150' width='150' /> : ""}
+                      <div style={{ padding: '10px', fontSize: '40px' }}>{i}</div>
                       <div style={{ paddingBottom: '5px', fontSize: '15px' }}>{totalEstadio} {totalEstadio > 1 ? "jogos" : "jogo"}</div>
                     </button>
                   </div>
                 }) : <div>
                   <h1 style={{ color: Times(this.state.meuTime).letterColor, textAlign: 'center', paddingBottom: '50px' }}>Você ainda não possui jogos cadastrados</h1>
-                  <h4 style={{ color: Times(this.state.meuTime).letterColor, textAlign: 'center' }}>Vá em "Jogos do {this.state.meuTime}" para selecionar</h4>
-                  <h4 style={{ color: Times(this.state.meuTime).letterColor, textAlign: 'center' }}>os jogos que você já foi</h4>
+                  <h4 style={{ color: Times(this.state.meuTime).letterColor, textAlign: 'center' }}>Vá em "Jogos do {this.state.meuTime}" para selecionar os jogos que você já foi</h4>
                 </div>}
             </tbody>
           </table>
