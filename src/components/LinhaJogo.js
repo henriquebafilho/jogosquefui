@@ -47,16 +47,19 @@ function LinhaJogo(props) {
                     }} />
             </div> */}
             <div style={{ display: 'inline', fontSize: '25px', color: Times(props.jogo[0]).letterColor, textShadow: Times(props.jogo[0]).letterColor === "white" ? "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000" : "none", paddingRight: '5px' }}>
-                <p style={{ display: 'inline-block', verticalAlign: 'middle', paddingRight: '5px' }}>{props.jogo[0].toUpperCase() + ' '}</p>
-                <img src={require('../escudos/' + Times(props.jogo[0]).escudo + '.png')} style={{ display: 'inline-block', verticalAlign: 'middle', width: "3em", height: "3em" }} alt={props.jogo[0]} />
+                {/* <p style={{ display: 'inline-block', verticalAlign: 'middle', paddingRight: '5px' }}>{props.jogo[0].toUpperCase() + ' '}</p> */}
+                <img src={require('../escudos/' + Times(props.jogo[0]).escudo + '.png')} title={props.jogo[0]} style={{ display: 'inline-block', verticalAlign: 'middle', width: "3em", height: "3em" }} alt={props.jogo[0]} />
             </div>
             <div style={{ display: 'inline', textShadow: "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000", color: "white" }}>
-                <p style={{ display: 'inline-block', verticalAlign: 'middle' }}>{props.jogo[2] + ' x ' + props.jogo[3]}</p>
+                <p style={{ display: 'inline-block', verticalAlign: 'middle', fontSize: '45px' }}>{props.jogo[2] + ' x ' + props.jogo[3]}</p>
             </div>
-            <div style={{ display: 'inline', fontSize: '25px', color: Times(props.jogo[1]).letterColor, textShadow: Times(props.jogo[1]).letterColor === "white" ? "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000" : "none", paddingLeft: '5px' }}>
-                <img src={require('../escudos/' + Times(props.jogo[1]).escudo + '.png')} style={{ display: 'inline-block', verticalAlign: 'middle', width: "3em", height: "3em" }} alt={props.jogo[1]} />
-                <p style={{ display: 'inline-block', verticalAlign: 'middle', paddingLeft: '5px' }}>{props.jogo[1].toUpperCase() + ' '}</p>
+            <div style={{ position: 'initial', display: 'inline', fontSize: '25px', color: Times(props.jogo[1]).letterColor, textShadow: Times(props.jogo[1]).letterColor === "white" ? "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000" : "none", paddingLeft: '5px' }}>
+                <img src={require('../escudos/' + Times(props.jogo[1]).escudo + '.png')} title={props.jogo[1]} style={{ display: 'inline-block', verticalAlign: 'middle', width: "3em", height: "3em" }} alt={props.jogo[1]} />
+                {/* {<p style={{ display: 'inline-block', verticalAlign: 'middle', paddingLeft: '5px' }}>{props.jogo[1].toUpperCase() + ' '}</p>} */}
             </div>
+            {/* <div style={{ display: 'inline', fontSize: '25px', color: Times(props.jogo[1]).letterColor, textShadow: Times(props.jogo[1]).letterColor === "white" ? "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000" : "none", paddingLeft: '5px' }}>
+                <p style={{ display: 'inline', verticalAlign: 'middle', paddingLeft: '5px' }}>{props.jogo[1].toUpperCase() + ' '}</p>
+            </div> */}
         </div>
     )
 }

@@ -797,7 +797,7 @@ function Times(time, jogo = null) {
             case "San Lorenzo":
                   nomeAtual = time;
                   escudo = "SanLorenzo";
-                  backgroundColor = "#003a94";
+                  backgroundColor = "#c40215";
                   letterColor = "white";
                   break;
             case "Santa Cruz":
