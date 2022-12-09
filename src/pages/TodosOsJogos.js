@@ -79,9 +79,9 @@ class TodosOsJogos extends Component {
           <h1 style={{ padding: '20px' }}>Jogos do {Times(this.props.meuTime).nomeAtual}</h1>
           <img src={require('../escudos/' + Times(this.props.meuTime).escudo + '.png')} className="App-logo" alt={"Escudo do " + this.props.meuTime} style={{ width: '100px', height: '100px' }} />
           <br />
+          {jogos.length > 0 ? <h4 style={{ padding: '20px' }}>Selecione o ano do jogo</h4> : <h4 style={{ padding: '20px' }}>Não há jogos disponíveis</h4>}
           <table>
             <tbody>
-              {jogos > 0 ? <h4 style={{ padding: '20px' }}>Selecione o ano do jogo</h4> : <h4 style={{ padding: '20px' }}>Não há jogos disponíveis</h4>}
               {this.state.isLoading && <h1>Carregando...</h1>}
               {!this.state.isLoading && this.state.anos.map(function (i) {
                 var totalAno = common.getTotalAno(i, jogos);
