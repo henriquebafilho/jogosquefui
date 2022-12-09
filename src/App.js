@@ -12,6 +12,7 @@ import FlamengoJogos from './TodosOsJogos/FlamengoJogos';
 import FluminenseJogos from './TodosOsJogos/FluminenseJogos';
 import VascoJogos from './TodosOsJogos/VascoJogos';
 import BotafogoJogos from './TodosOsJogos/BotafogoJogos';
+import Footer from './components/Footer';
 
 function App() {
   var meuTime = "Botafogo";
@@ -48,6 +49,7 @@ function App() {
           <Route path='/todosOsJogos' element={<TodosOsJogos meuTime={meuTime} jogos={todosOsJogos} />} />
         </Routes>
       </Router>
+      <Footer/>
     </>
   );
 }

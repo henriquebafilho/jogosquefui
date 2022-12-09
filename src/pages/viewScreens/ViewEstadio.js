@@ -29,7 +29,7 @@ class ViewEstadio extends Component {
     let anoAtual = 0;
     var imagemEstadio;
     try {
-      imagemEstadio = require('../estadios/' + this.props.jogosEstadio + '.png');
+      imagemEstadio = require('../../estadios/' + this.props.estadio + '.png');
     } catch (e) {
       imagemEstadio = "";
     }

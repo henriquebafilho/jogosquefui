@@ -393,11 +393,23 @@ function Times(time, jogo = null) {
                   backgroundColor = "#f2d902";
                   letterColor = "black";
                   break;
+            case "Dom Pedro":
+                  nomeAtual = time;
+                  escudo = "DomPedro";
+                  backgroundColor = "#d30a11";
+                  letterColor = "white";
+                  break;
             case "Duque de Caxias":
                   nomeAtual = time;
                   escudo = "DuquedeCaxias";
                   backgroundColor = "#003a94";
                   letterColor = "#f48221";
+                  break;
+            case "Emelec":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#003a94";
+                  letterColor = "white";
                   break;
             case "Estudiantes":
                   nomeAtual = time;
@@ -569,6 +581,12 @@ function Times(time, jogo = null) {
                   escudo = time;
                   backgroundColor = "#fde900";
                   letterColor = "#13007c";
+                  break;
+            case "Mesquita":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "black";
+                  letterColor = "white";
                   break;
             case "Millonarios":
                   nomeAtual = time;
@@ -841,6 +859,12 @@ function Times(time, jogo = null) {
                   nomeAtual = time;
                   escudo = "SãoPaulo";
                   backgroundColor = "#d30a11";
+                  letterColor = "white";
+                  break;
+            case "São Raimundo-PA":
+                  nomeAtual = time;
+                  escudo = "SãoRaimundo-PA";
+                  backgroundColor = "black";
                   letterColor = "white";
                   break;
             case "Shandong Luneng":
