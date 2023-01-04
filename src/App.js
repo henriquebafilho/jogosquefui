@@ -15,7 +15,7 @@ import BotafogoJogos from './TodosOsJogos/BotafogoJogos';
 import Footer from './components/Footer';
 
 function App() {
-  var meuTime = "Botafogo";
+  var meuTime = "Flamengo";
   var todosOsJogos = [];
 
   switch (meuTime) {

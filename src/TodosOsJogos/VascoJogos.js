@@ -1,17 +1,17 @@
 function VascoJogos() {
     var jogos = [];
 
-    jogos.push(["Vasco", "Bangu", "", "", "Carioca", "2023-03-04", "São Januário"]);
-    jogos.push(["Flamengo", "Vasco", "", "", "Carioca", "2023-02-25", "Maracanã"]);
-    jogos.push(["Vasco", "Boavista", "", "", "Carioca", "2023-02-14", "São Januário"]);
-    jogos.push(["Fluminense", "Vasco", "", "", "Carioca", "2023-02-10", "Maracanã"]);
-    jogos.push(["Nova Iguaçu", "Vasco", "", "", "Carioca", "2023-02-03", "Jânio Moraes"]);
-    jogos.push(["Vasco", "Resende", "", "", "Carioca", "2023-01-31", "São Januário"]);
-    jogos.push(["Vasco", "Volta Redonda", "", "", "Carioca", "2023-01-27", "São Januário"]);
-    jogos.push(["Portuguesa-RJ", "Vasco", "", "", "Carioca", "2023-01-24", "Luso Brasileiro"]);
-    jogos.push(["Vasco", "Botafogo", "", "", "Carioca", "2023-01-20", "São Januário"]);
-    jogos.push(["Audax Rio", "Vasco", "", "", "Carioca", "2023-01-17", "Moça Bonita"]);
-    jogos.push(["Vasco", "Madureira", "", "", "Carioca", "2023-01-13", "São Januário"]);
+    jogos.push(["Vasco", "Bangu", "", "", "Carioca", "2023-03-08", "São Januário"]);
+    jogos.push(["Flamengo", "Vasco", "", "", "Carioca", "2023-03-05", "Maracanã"]);
+    jogos.push(["Vasco", "Boavista", "", "", "Carioca", "2023-02-25", "São Januário"]);
+    jogos.push(["Fluminense", "Vasco", "", "", "Carioca", "2023-02-12", "Maracanã"]);
+    jogos.push(["Nova Iguaçu", "Vasco", "", "", "Carioca", "2023-02-07", "Jânio Moraes"]);
+    jogos.push(["Vasco", "Resende", "", "", "Carioca", "2023-02-02", "São Januário"]);
+    jogos.push(["Vasco", "Volta Redonda", "", "", "Carioca", "2023-01-30", "São Januário"]);
+    jogos.push(["Portuguesa-RJ", "Vasco", "", "", "Carioca", "2023-01-26", "Luso Brasileiro"]);
+    jogos.push(["Vasco", "Botafogo", "", "", "Carioca", "2023-01-23", "São Januário"]);
+    jogos.push(["Audax Rio", "Vasco", "", "", "Carioca", "2023-01-19", "Moça Bonita"]);
+    jogos.push(["Vasco", "Madureira", "", "", "Carioca", "2023-01-14", "São Januário"]);
     jogos.push(["Ituano", "Vasco", 0, 1, "Série B", "2022-11-06", "Novelli Júnior"]);
     jogos.push(["Vasco", "Sampaio Corrêa", 2, 3, "Série B", "2022-10-27", "São Januário"]);
     jogos.push(["Vasco", "Criciúma", 2, 1, "Série B", "2022-10-22", "São Januário"]);

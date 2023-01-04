@@ -867,6 +867,12 @@ function Times(time, jogo = null) {
                   backgroundColor = "black";
                   letterColor = "white";
                   break;
+            case "São Raimundo-RR":
+                  nomeAtual = time;
+                  escudo = "SãoRaimundo-RR";
+                  backgroundColor = "#013fae";
+                  letterColor = "white";
+                  break;
             case "Shandong Luneng":
                   nomeAtual = time;
                   escudo = "ShandongLuneng";
