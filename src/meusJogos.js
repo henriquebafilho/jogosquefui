@@ -12,12 +12,13 @@
 10 - vídeo do youtube
 11 - campeão
 */
+
 function jogos() {
     var jogos = [];
 
-    /* var jogo20021026 = ["Botafogo", "Fluminense", 2, 3, "Série A", "2002-10-26", "Maracanã", "Ivo Wortmann", ["Galeano", "Léo Inácio"], ["César", "Magno Alves", "Romário"], "https://www.youtube.com/embed/PqiI2VnS3oU"];
+    var jogo20021026 = ["Botafogo", "Fluminense", 2, 3, "Série A", "2002-10-26", "Maracanã", "Ivo Wortmann", ["Galeano", "Léo Inácio"], ["César", "Magno Alves", "Romário"], "https://www.youtube.com/embed/PqiI2VnS3oU"];
     jogos.push(jogo20021026);
-    var jogo20040229 = ["Botafogo", "Fluminense", 0, 0, "Taça Rio", "2004-02-29", "Maracanã", "Levir Culpi", [""], [""], "https://www.youtube.com/embed/F-1lgtLIBFc"];
+    /* var jogo20040229 = ["Botafogo", "Fluminense", 0, 0, "Taça Rio", "2004-02-29", "Maracanã", "Levir Culpi", [""], [""], "https://www.youtube.com/embed/F-1lgtLIBFc"];
     jogos.push(jogo20040229);
     var jogo20040314 = ["Flamengo", "Botafogo", 0, 1, "Taça Rio", "2004-03-14", "Maracanã", "Levir Culpi", [""], ["Alex Alves"], "https://www.youtube.com/embed/S8laGYT5xkQ"];
     jogos.push(jogo20040314);

@@ -19,6 +19,12 @@ function Times(time, jogo = null) {
                   backgroundColor = "#153160";
                   letterColor = "white";
                   break;
+            case "Alecrim-RN":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#01904e";
+                  letterColor = "white";
+                  break;
             case "Altos-PI":
                   nomeAtual = time;
                   escudo = time;
@@ -624,6 +630,12 @@ function Times(time, jogo = null) {
                   backgroundColor = "#163fb3";
                   letterColor = "white";
                   break;
+            case "Nacional-SP":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#003a94";
+                  letterColor = "white";
+                  break;
             case "Nacional-URU":
                   nomeAtual = time;
                   escudo = time;
@@ -1009,6 +1021,12 @@ function Times(time, jogo = null) {
             case "Votuporanguense":
                   nomeAtual = time;
                   escudo = time;
+                  backgroundColor = "black";
+                  letterColor = "white";
+                  break;
+            case "XV de Piracicaba":
+                  nomeAtual = time;
+                  escudo = "XVdePiracicaba";
                   backgroundColor = "black";
                   letterColor = "white";
                   break;

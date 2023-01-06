@@ -8,7 +8,7 @@ function Inicio(props) {
   let anoAtual = 0;
   return (
     <div className="App-header" style={{ backgroundColor: Times(props.meuTime).backgroundColor }}>
-      <div>
+      <div style={{margin: '20px'}}>
         <img src={require('../escudos/' + Times(props.meuTime).escudo + '.png')} className="App-logo" alt={"Escudo do " + props.meuTime} style={{ verticalAlign: 'middle', width: '100px', height: '100px' }} />
         <p style={{ display: 'inline', color: Times(props.meuTime).letterColor }}>
           Henrique Filho
