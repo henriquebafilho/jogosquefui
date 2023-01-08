@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Times from '../Times';
-import meusJogos from '../meusJogos';
 
 class LinhaJogo extends Component {
     constructor(props) {
@@ -23,22 +22,22 @@ class LinhaJogo extends Component {
     }
 
     getJogosQueFui = async () => {
-        for (var a = 0; a < meusJogos().length; a++) {
-            if (this.state.jogo[5] === meusJogos()[a][5]) {
+        for (var a = 0; a < this.props.meusJogos.getJogos().length; a++) {
+            if (this.state.jogo[5] === this.props.meusJogos.getJogos()[a][5]) {
                 this.setState({ checked: true });
                 break;
             }
         }
     }
 
-    converteData(data){
+    converteData(data) {
         var array = data.split("-");
         var novaData = array[2] + "/" + array[1] + "/" + array[0];
 
         return novaData;
     }
 
-    converteDia(data){
+    converteDia(data) {
         data = new Date(data);
         var dia = data.getDay();
         switch (dia) {
@@ -49,6 +48,7 @@ class LinhaJogo extends Component {
             case 4: return "Sexta";
             case 5: return "Sábado";
             case 6: return "Domingo";
+            default: return "";
         }
     }
 
@@ -56,6 +56,7 @@ class LinhaJogo extends Component {
         const checked = this.state.checked;
         const converteDia = (dia) => this.converteDia(dia);
         const converteData = (data) => this.converteData(data);
+        const meusJogos = this.props.meusJogos;
         return (
             <div className='divJogo' style={{
                 background: "linear-gradient(90deg, " + Times(this.props.jogo[0]).backgroundColor + " 49%, " + Times(this.props.jogo[1]).backgroundColor + " 52%)",
@@ -85,6 +86,11 @@ class LinhaJogo extends Component {
                         type="checkbox"
                         checked={checked}
                         onChange={() => {
+                            if(checked){
+                                meusJogos.removeJogo(this.props.jogo);
+                            } else {
+                                meusJogos.adicionaJogo(this.props.jogo);
+                            }
                             this.setState({ checked: !checked })
                         }
                         }

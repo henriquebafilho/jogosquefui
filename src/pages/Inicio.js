@@ -15,8 +15,8 @@ function Inicio(props) {
         </p>
       </div>
       <br />
-      {props.jogos().length > 0 && <Estatisticas meuTime={props.meuTime} jogos={props.jogos()} />}
-      {props.jogos().length > 0 ? props.jogos().reverse().map((index) => {
+      {props.meusJogos.getJogos().length > 0 && <Estatisticas meuTime={props.meuTime} jogos={props.meusJogos.getJogos()} />}
+      {props.meusJogos.getJogos().length > 0 ? props.meusJogos.getJogos().reverse().map((index) => {
         let mostraAno = false;
         if (anoAtual !== index[5].split("-")[0]) {
           anoAtual = index[5].split("-")[0];
@@ -24,7 +24,7 @@ function Inicio(props) {
         }
         return <div>
           {mostraAno ? <h1 style={{ textAlign: 'center', paddingBottom: '10px', color: Times(meuTime).letterColor }}>{anoAtual}</h1> : ""}
-          <LinhaJogo meuTime={meuTime} jogo={index} />
+          <LinhaJogo meuTime={meuTime} jogo={index} meusJogos={props.meusJogos} />
         </div>
       }) : <div>
         <h1 style={{ color: Times(props.meuTime).letterColor, textAlign: 'center', paddingBottom: '50px' }}>Você ainda não possui jogos cadastrados</h1>

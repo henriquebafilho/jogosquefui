@@ -44,10 +44,10 @@ class ViewAno extends Component {
                             {
                                 flag === "meusJogos" ?
                                     this.state.jogos.reverse().map((index) => {
-                                        return <LinhaJogo meuTime={meuTime} jogo={index} />
+                                        return <LinhaJogo meuTime={meuTime} jogo={index} meusJogos={this.props.meusJogos} />
                                     }) :
                                     this.state.jogos.map((index) => {
-                                        return <LinhaJogo meuTime={meuTime} jogo={index} />
+                                        return <LinhaJogo meuTime={meuTime} jogo={index} meusJogos={this.props.meusJogos} />
                                     })
                             }
                         </div>
