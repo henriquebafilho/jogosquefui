@@ -17,7 +17,9 @@ class LinhaJogo extends Component {
         this._isMounted = true;
         window.scrollTo(0, 0);
         this.setState({ isLoading: true })
-        await this.getJogosQueFui();
+        if(this.state.jogo[2] !== "" && this.state.jogo[3] !== ""){
+            await this.getJogosQueFui();
+        }
         this.setState({ isLoading: false })
     }
 
