@@ -8,7 +8,7 @@ class Anos extends Component {
     super(props);
     this.state = {
       meuTime: props.meuTime,
-      jogos: props.jogos,
+      jogos: props.meusJogos.getJogos(),
       anos: [],
       isLoading: false,
       clicked: false,
@@ -18,7 +18,7 @@ class Anos extends Component {
     this.buttonClick = this.buttonClick.bind(this);
   }
 
-  async componentDidMount() {
+  async componentDidMount() { 
     this._isMounted = true;
     window.scrollTo(0, 0);
     this.setState({ isLoading: true })
@@ -59,10 +59,11 @@ class Anos extends Component {
 
   render() {
     const meuTime = this.state.meuTime;
-    const jogos = this.state.jogos;
+    const meusJogos = this.props.meusJogos;
     const buttonClickFunction = (ano) => this.buttonClick(ano);
+
     return (
-      this.state.clicked ? <ViewAno flag="meusJogos" meuTime={this.props.meuTime} jogos={jogos} jogosAno={this.state.jogosAno} ano={this.state.anoAtual} /> :
+      this.state.clicked ? <ViewAno flag="meusJogos" meuTime={this.props.meuTime} meusJogos={meusJogos} jogosAno={this.state.jogosAno} ano={this.state.anoAtual} /> :
         (<div className="App-header" style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }}>
           <h1>Anos</h1>
           <br />
@@ -71,7 +72,7 @@ class Anos extends Component {
               {this.state.isLoading && <h1>Carregando...</h1>}
               {this.state.anos.length > 0 ?
                 !this.state.isLoading && this.state.anos.map(function (i) {
-                  var totalAno = common.getTotalAno(i, jogos);
+                  var totalAno = common.getTotalAno(i, meusJogos.getJogos());
                   return <div>
                     <button id='selectAno' onClick={() => buttonClickFunction(i)} style={{ borderColor: Times(meuTime).letterColor, borderStyle: 'solid', backgroundColor: Times(meuTime).backgroundColor, color: Times(meuTime).letterColor, width: '60vw' }}>
                       <div style={{ display: 'inline', padding: '10px', fontSize: '40px' }}>{i}</div>

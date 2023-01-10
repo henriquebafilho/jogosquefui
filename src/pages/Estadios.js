@@ -8,7 +8,7 @@ class Estadios extends Component {
     super(props);
     this.state = {
       meuTime: props.meuTime,
-      jogos: props.jogos,
+      jogos: props.meusJogos.getJogos(),
       estadios: [],
       isLoading: false,
       clicked: false,
@@ -57,10 +57,11 @@ class Estadios extends Component {
 
   render() {
     const meuTime = this.state.meuTime;
-    const jogos = this.state.jogos;
+    const meusJogos = this.props.meusJogos;
     const buttonClickFunction = (estadio) => this.buttonClick(estadio);
+
     return (
-      this.state.clicked ? <ViewEstadio meuTime={this.props.meuTime} jogos={jogos} jogosEstadio={this.state.jogosEstadio} estadio={this.state.estadioAtual} /> :
+      this.state.clicked ? <ViewEstadio meuTime={this.props.meuTime} meusJogos={meusJogos} jogosEstadio={this.state.jogosEstadio} estadio={this.state.estadioAtual} /> :
         <div className="App-header" style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }}>
           <h1>Estádios</h1>
           <br />
@@ -71,7 +72,7 @@ class Estadios extends Component {
               {this.state.isLoading && <h1>Carregando...</h1>}
               {this.state.estadios.length > 0 ?
                 !this.state.isLoading && this.state.estadios.map(function (i) {
-                  var totalEstadio = common.getTotalEstadio(i, jogos);
+                  var totalEstadio = common.getTotalEstadio(i, meusJogos.getJogos());
                   var imagemEstadio;
                   try {
                     imagemEstadio = require('../estadios/' + i + '.png');

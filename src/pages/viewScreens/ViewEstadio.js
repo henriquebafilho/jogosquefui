@@ -28,13 +28,16 @@ class ViewEstadio extends Component {
     const buttonClickFunction = () => this.buttonClick();
     let anoAtual = 0;
     var imagemEstadio;
+    this.state.jogos.sort(function (a, b) {
+      return a[5] < b[5] ? -1 : a[5] > b[5] ? 1 : 0;
+    });
     try {
       imagemEstadio = require('../../estadios/' + this.props.estadio + '.png');
     } catch (e) {
       imagemEstadio = "";
     }
     return (
-      this.state.clicked ? <Estadios meuTime={meuTime} jogos={this.props.jogos} /> :
+      this.state.clicked ? <Estadios meuTime={meuTime} meusJogos={this.props.meusJogos}/> :
         <div style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }}>
           <div className='a'>
             <button style={{ outline: 'none', border: 'none', textDecoration: 'underline', fontSize: '25px', cursor: 'pointer', backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }} onClick={() => buttonClickFunction()}>{"< Voltar"}</button>
@@ -52,7 +55,7 @@ class ViewEstadio extends Component {
               }
               return <div>
                 {mostraAno ? <h1 style={{ textAlign: 'center', paddingBottom: '10px', color: Times(meuTime).letterColor }}>{anoAtual}</h1> : ""}
-                <LinhaJogo meuTime={meuTime} jogo={index} />
+                <LinhaJogo meuTime={meuTime} jogo={index} meusJogos={this.props.meusJogos}/>
               </div>
             })}
           </div>

@@ -6,17 +6,22 @@ import Estatisticas from '../components/Estatisticas';
 function Inicio(props) {
   const meuTime = props.meuTime;
   let anoAtual = 0;
+  let meusJogos = props.meusJogos.getJogos();
+  meusJogos.sort(function (a, b) {
+    return a[5] < b[5] ? -1 : a[5] > b[5] ? 1 : 0;
+  });
+  
   return (
     <div className="App-header" style={{ backgroundColor: Times(props.meuTime).backgroundColor }}>
-      <div style={{margin: '20px'}}>
+      <div style={{ margin: '20px' }}>
         <img src={require('../escudos/' + Times(props.meuTime).escudo + '.png')} className="App-logo" alt={"Escudo do " + props.meuTime} style={{ verticalAlign: 'middle', width: '100px', height: '100px' }} />
         <p style={{ display: 'inline', color: Times(props.meuTime).letterColor }}>
           Henrique Filho
         </p>
       </div>
       <br />
-      {props.meusJogos.getJogos().length > 0 && <Estatisticas meuTime={props.meuTime} jogos={props.meusJogos.getJogos()} />}
-      {props.meusJogos.getJogos().length > 0 ? props.meusJogos.getJogos().reverse().map((index) => {
+      {meusJogos.length > 0 && <Estatisticas meuTime={props.meuTime} jogos={meusJogos} />}
+      {meusJogos.length > 0 ? meusJogos.reverse().map((index) => {
         let mostraAno = false;
         if (anoAtual !== index[5].split("-")[0]) {
           anoAtual = index[5].split("-")[0];

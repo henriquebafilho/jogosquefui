@@ -27,8 +27,12 @@ class ViewAdversario extends Component {
     const meuTime = this.state.meuTime;
     const buttonClickFunction = () => this.buttonClick();
     let anoAtual = 0;
+    this.state.jogos.sort(function (a, b) {
+      return a[5] < b[5] ? -1 : a[5] > b[5] ? 1 : 0;
+    });
+
     return (
-      this.state.clicked ? <Adversarios meuTime={meuTime} jogos={this.props.jogos} /> :
+      this.state.clicked ? <Adversarios meuTime={meuTime} meusJogos={this.props.meusJogos} /> :
         <div style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }}>
           <div className='a'>
             <button style={{ outline: 'none', border: 'none', textDecoration: 'underline', fontSize: '25px', cursor: 'pointer', backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }} onClick={() => buttonClickFunction()}>{"< Voltar"}</button>
@@ -65,7 +69,7 @@ class ViewAdversario extends Component {
               }
               return <div>
                 {mostraAno ? <h1 style={{ textAlign: 'center', paddingBottom: '10px', color: Times(meuTime).letterColor }}>{anoAtual}</h1> : ""}
-                <LinhaJogo meuTime={meuTime} jogo={index} />
+                <LinhaJogo meuTime={meuTime} jogo={index} meusJogos={this.props.meusJogos}/>
               </div>
             })}
           </div>

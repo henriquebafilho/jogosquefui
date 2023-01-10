@@ -29,9 +29,13 @@ class ViewAno extends Component {
         const meuTime = this.state.meuTime;
         const flag = this.state.flag;
         const buttonClickFunction = () => this.buttonClick();
+        this.state.jogos.sort(function (a, b) {
+            return a[5] < b[5] ? -1 : a[5] > b[5] ? 1 : 0;
+        });
+
         return (
-            this.state.clicked && flag === "meusJogos" ? <Anos meuTime={meuTime} jogos={this.props.jogos} /> :
-                this.state.clicked && flag === "todosOsJogos" ? <TodosOsJogos meuTime={meuTime} jogos={this.props.jogos} /> :
+            this.state.clicked && flag === "meusJogos" ? <Anos meuTime={meuTime} meusJogos={this.props.meusJogos} /> :
+                this.state.clicked && flag === "todosOsJogos" ? <TodosOsJogos meuTime={meuTime} jogos={this.props.jogos} meusJogos={this.props.meusJogos} /> :
                     <div style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }}>
                         <div className='a'>
                             <button style={{ outline: 'none', border: 'none', textDecoration: 'underline', fontSize: '25px', cursor: 'pointer', backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }} onClick={() => buttonClickFunction()}>{"< Voltar"}</button>
@@ -46,7 +50,7 @@ class ViewAno extends Component {
                                     this.state.jogos.reverse().map((index) => {
                                         return <LinhaJogo meuTime={meuTime} jogo={index} meusJogos={this.props.meusJogos} />
                                     }) :
-                                    this.state.jogos.map((index) => {
+                                    this.state.jogos.reverse().map((index) => {
                                         return <LinhaJogo meuTime={meuTime} jogo={index} meusJogos={this.props.meusJogos} />
                                     })
                             }

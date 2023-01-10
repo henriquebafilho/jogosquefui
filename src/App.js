@@ -19,7 +19,6 @@ function App() {
   var todosOsJogos = [];
   var meusJogos = new Jogos();
   meusJogos.adicionaJogo(["Botafogo", "Fluminense", 2, 3, "Série A", "2002-10-26", "Maracanã", "Ivo Wortmann", ["Galeano", "Léo Inácio"], ["César", "Magno Alves", "Romário"], "https://www.youtube.com/embed/PqiI2VnS3oU"]);
-  meusJogos.removeJogo(["Botafogo", "Fluminense", 2, 3, "Série A", "2002-10-26", "Maracanã", "Ivo Wortmann", ["Galeano", "Léo Inácio"], ["César", "Magno Alves", "Romário"], "https://www.youtube.com/embed/PqiI2VnS3oU"]);
 
   switch (meuTime) {
     case "Botafogo":
@@ -44,11 +43,11 @@ function App() {
       <Router>
         <Navbar meuTime={meuTime} style={{ position: 'fixed' }} />
         <Routes>
-          <Route path='/' element={<Inicio meuTime={meuTime} meusJogos={meusJogos} />} />
-          {/* <Route path='/anos' element={<Anos meuTime={meuTime} jogos={Jogos()} />} />
-          <Route path='/estadios' element={<Estadios meuTime={meuTime} jogos={Jogos()} />} />
-          <Route path='/adversarios' element={<Adversarios meuTime={meuTime} jogos={Jogos()} />} /> */}
-          <Route path='/proximosJogos' element={<ProximosJogos meuTime={meuTime} jogos={todosOsJogos} />} />
+          <Route path='/' element={<Inicio meuTime={meuTime} meusJogos={meusJogos} />} /> {/* colocar como /inicio e a tela principal como / */}
+          <Route path='/anos' element={<Anos meuTime={meuTime} meusJogos={meusJogos} />} />
+          <Route path='/estadios' element={<Estadios meuTime={meuTime} meusJogos={meusJogos} />} />
+          <Route path='/adversarios' element={<Adversarios meuTime={meuTime} meusJogos={meusJogos} />} /> 
+          {/* <Route path='/proximosJogos' element={<ProximosJogos meuTime={meuTime} jogos={todosOsJogos} />} /> */}
           <Route path='/todosOsJogos' element={<TodosOsJogos meuTime={meuTime} jogos={todosOsJogos} meusJogos={meusJogos} />} />
         </Routes>
       </Router>
