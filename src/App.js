@@ -1,7 +1,7 @@
 import './App.css';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Inicio from './pages/Inicio.js';
+import Perfil from './pages/Perfil.js';
 import ProximosJogos from './pages/ProximosJogos.js';
 import TodosOsJogos from './pages/TodosOsJogos.js';
 import Adversarios from './pages/Adversarios.js';
@@ -42,7 +42,7 @@ function App() {
       <Router>
         <Navbar meuTime={meuTime} style={{ position: 'fixed' }} />
         <Routes>
-          <Route path='/' element={<Inicio meuTime={meuTime} meusJogos={meusJogos} />} /> {/* colocar como /inicio e a tela principal como / */}
+          <Route path='/perfil' element={<Perfil meuTime={meuTime} meusJogos={meusJogos} />} /> {/* colocar como /inicio e a tela principal como / */}
           <Route path='/anos' element={<Anos meuTime={meuTime} meusJogos={meusJogos} />} />
           <Route path='/estadios' element={<Estadios meuTime={meuTime} meusJogos={meusJogos} />} />
           <Route path='/adversarios' element={<Adversarios meuTime={meuTime} meusJogos={meusJogos} />} />

@@ -3,7 +3,7 @@ import Times from '../Times';
 import LinhaJogo from '../components/LinhaJogo';
 import Estatisticas from '../components/Estatisticas';
 
-function Inicio(props) {
+function Perfil(props) {
   const meuTime = props.meuTime;
   let anoAtual = 0;
   let meusJogos = props.meusJogos.getJogos();
@@ -39,4 +39,4 @@ function Inicio(props) {
   )
 }
 
-export default Inicio;
+export default Perfil;

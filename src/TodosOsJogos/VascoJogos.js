@@ -11,7 +11,8 @@ function VascoJogos() {
     jogos.push(["Portuguesa-RJ", "Vasco", "", "", "Carioca", "2023-01-26", "Luso Brasileiro"]);
     jogos.push(["Vasco", "Botafogo", "", "", "Carioca", "2023-01-23", "São Januário"]);
     jogos.push(["Audax Rio", "Vasco", "", "", "Carioca", "2023-01-19", "Moça Bonita"]);
-    jogos.push(["Vasco", "Madureira", "", "", "Carioca", "2023-01-14", "São Januário"]);
+    jogos.push(["Vasco", "River Plate", "", "", "Amistoso", "2023-01-17", "Exploria"]);
+    jogos.push(["Vasco", "Madureira", 0, 0, "Carioca", "2023-01-14", "São Januário"]);
     jogos.push(["Ituano", "Vasco", 0, 1, "Série B", "2022-11-06", "Novelli Júnior"]);
     jogos.push(["Vasco", "Sampaio Corrêa", 2, 3, "Série B", "2022-10-27", "São Januário"]);
     jogos.push(["Vasco", "Criciúma", 2, 1, "Série B", "2022-10-22", "São Januário"]);

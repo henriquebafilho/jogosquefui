@@ -1,43 +1,45 @@
 import React from 'react';
 import * as FaIcons from 'react-icons/fa';
 import * as AiIcons from 'react-icons/ai';
-import * as IoIcons from 'react-icons/io';
+import * as FbIcons from "react-icons/tb";
+import * as BsIcons from "react-icons/bs";
+import * as ImIcons from "react-icons/im";
 
 export const SidebarData = [
     {
-        title: 'Início',
-        path: '/',
-        icon: <AiIcons.AiFillHome/>,
+        title: 'Perfil',
+        path: '/perfil',
+        icon: <FaIcons.FaUserAlt/>,
         cName: 'nav-text'
     },
     {
         title: 'Anos',
         path: '/anos',
-        icon: <AiIcons.AiFillHome/>,
+        icon: <BsIcons.BsCalendarDate/>,
         cName: 'nav-text'
     },
     {
         title: 'Estádios',
         path: '/estadios',
-        icon: <AiIcons.AiFillHome/>,
+        icon: <FbIcons.TbSoccerField/>,
         cName: 'nav-text'
     },
     {
         title: 'Adversários',
         path: '/adversarios',
-        icon: <AiIcons.AiFillHome/>,
+        icon: <FaIcons.FaFlagCheckered/>,
         cName: 'nav-text'
     },
     {
         title: 'Próximos Jogos',
         path: '/proximosJogos',
-        icon: <AiIcons.AiFillHome/>,
+        icon: <FaIcons.FaCalendarAlt/>,
         cName: 'nav-text'
     },
     {
         title: 'Todos os Jogos',
         path: '/todosOsJogos',
-        icon: <AiIcons.AiFillHome/>,
+        icon: <ImIcons.ImList2/>,
         cName: 'nav-text'
     },
 ]

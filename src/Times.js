@@ -440,7 +440,7 @@ function Times(time, jogo = null) {
                   // Adicionar condição pois trocou de escudo
                   escudo = time;
                   backgroundColor = "#d30a11";
-                  letterColor = "black";
+                  letterColor = "white";
                   break;
             case "Floresta-CE":
                   nomeAtual = time;

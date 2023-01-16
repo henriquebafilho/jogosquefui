@@ -13,8 +13,8 @@ function FlamengoJogos() {
     jogos.push(["Bangu", "Flamengo", "", "", "Carioca", "2023-01-24", "Moça Bonita"]);
     jogos.push(["Flamengo", "Nova Iguaçu", "", "", "Carioca", "2023-01-21", "Maracanã"]);
     jogos.push(["Madureira", "Flamengo", "", "", "Carioca", "2023-01-18", "Conselheiro Galvão"]);
-    jogos.push(["Flamengo", "Portuguesa-RJ", "", "", "Carioca", "2023-01-15", "Maracanã"]);
-    jogos.push(["Flamengo", "Audax Rio", "", "", "Carioca", "2023-01-12", "Maracanã"]);
+    jogos.push(["Flamengo", "Portuguesa-RJ", 4, 1, "Carioca", "2023-01-15", "Maracanã"]);
+    jogos.push(["Flamengo", "Audax Rio", 1, 0, "Carioca", "2023-01-12", "Maracanã"]);
     jogos.push(["Flamengo", "Avaí", 1, 2, "Brasileirão", "2022-11-13", "Maracanã"]);
     jogos.push(["Juventude", "Flamengo", 2, 2, "Brasileirão", "2022-11-09", "Alfredo Jaconi"]);
     jogos.push(["Coritiba", "Flamengo", 0, 1, "Brasileirão", "2022-11-06", "Couto Pereira"]);

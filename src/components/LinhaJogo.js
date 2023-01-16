@@ -97,9 +97,10 @@ class LinhaJogo extends Component {
                         }
                         }
                         style={{
-                            backgroundColor: "#ff0000",
-                            borderRadius: '5px',
-                            cursor: 'pointer'
+                            cursor: 'pointer',
+                            width: '25px',
+                            height: '25px',
+                            marginTop: '20px'
                         }} />
                 </div>}
             </div >
