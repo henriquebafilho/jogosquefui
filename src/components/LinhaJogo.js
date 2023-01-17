@@ -17,7 +17,7 @@ class LinhaJogo extends Component {
         this._isMounted = true;
         window.scrollTo(0, 0);
         this.setState({ isLoading: true })
-        if(this.state.jogo[2] !== "" && this.state.jogo[3] !== ""){
+        if (this.state.jogo[2] !== "" && this.state.jogo[3] !== "") {
             await this.getJogosQueFui();
         }
         this.setState({ isLoading: false })
@@ -72,23 +72,25 @@ class LinhaJogo extends Component {
                     <p style={{ display: 'inline', textShadow: "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000", color: "white", marginBottom: '5px' }}> - {this.props.jogo[4]} - </p>
                     <p style={{ display: 'inline', textShadow: "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000", color: "white", marginBottom: '5px', fontWeight: 'bold' }}>{this.props.jogo[6]}</p>
                 </div>
-                <div style={{ display: 'inline', fontSize: '25px', color: Times(this.props.jogo[0]).letterColor, textShadow: Times(this.props.jogo[0]).letterColor === "white" ? "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000" : "none", paddingRight: '5px' }}>
-                    <p style={{ display: 'inline-block', verticalAlign: 'middle', paddingRight: '5px' }}>{this.props.jogo[0].toUpperCase() + ' '}</p>
-                    <img src={require('../escudos/' + Times(this.props.jogo[0]).escudo + '.png')} title={this.props.jogo[0]} style={{ display: 'inline-block', verticalAlign: 'middle', width: "4rem", height: "4rem" }} alt={this.props.jogo[0]} />
-                </div>
-                <div style={{ display: 'inline-block', textAlign: 'center', textShadow: "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000", color: "white" }}>
-                    <p style={{ display: 'inline', verticalAlign: 'middle', fontSize: '30px' }}>{this.props.jogo[2] + ' x ' + this.props.jogo[3]}</p>
-                </div>
-                <div style={{ position: 'initial', display: 'inline', fontSize: '25px', color: Times(this.props.jogo[1]).letterColor, textShadow: Times(this.props.jogo[1]).letterColor === "white" ? "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000" : "none", paddingLeft: '5px' }}>
-                    <img src={require('../escudos/' + Times(this.props.jogo[1]).escudo + '.png')} title={this.props.jogo[1]} style={{ display: 'inline-block', verticalAlign: 'middle', width: "4rem", height: "4rem" }} alt={this.props.jogo[1]} />
-                    {<p style={{ display: 'inline-block', verticalAlign: 'middle', paddingLeft: '5px' }}>{this.props.jogo[1].toUpperCase() + ' '}</p>}
+                <div id='placar' style={{ display: 'flex', justifyContent: 'center' }}>
+                    <div style={{ paddingTop: '20px', paddingBottom: '20px', display: 'inline', width: "40%", textAlign: "right", fontSize: '25px', color: Times(this.props.jogo[0]).letterColor, textShadow: Times(this.props.jogo[0]).letterColor === "white" ? "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000" : "none", paddingRight: '5px' }}>
+                        {this.props.jogo[0].toUpperCase()}
+                    </div>
+                    <img src={require('../escudos/' + Times(this.props.jogo[0]).escudo + '.png')} title={this.props.jogo[0]} style={{ display: 'inline-block', verticalAlign: 'middle', width: "5rem", height: "5rem" }} alt={this.props.jogo[0]} />
+                    <div style={{ paddingTop: '10px', display: 'inline', minWidth: "100px", textAlign: "center", fontSize: '40px', textShadow: "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000", color: "white" }}>
+                        { ' ' + this.props.jogo[2] + ' x ' + this.props.jogo[3] + ' '}
+                    </div>
+                    <img src={require('../escudos/' + Times(this.props.jogo[1]).escudo + '.png')} title={this.props.jogo[1]} style={{ display: 'inline-block', verticalAlign: 'middle', width: "5rem", height: "5rem" }} alt={this.props.jogo[1]} />
+                    <div style={{ paddingTop: '20px', paddingBottom: '20px', display: 'inline', width: "40%", textAlign: "left", fontSize: '25px', color: Times(this.props.jogo[1]).letterColor, textShadow: Times(this.props.jogo[1]).letterColor === "white" ? "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000" : "none", paddingLeft: '5px' }}>
+                        {this.props.jogo[1].toUpperCase()}
+                    </div>
                 </div>
                 {(this.props.jogo[2] !== "" && this.props.jogo[3] !== "") && <div>
                     <input
                         type="checkbox"
                         checked={checked}
                         onChange={() => {
-                            if(checked){
+                            if (checked) {
                                 meusJogos.removeJogo(this.props.jogo);
                             } else {
                                 meusJogos.adicionaJogo(this.props.jogo);
