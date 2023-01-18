@@ -33,7 +33,7 @@ function jogos() {
     jogos.push(["Botafogo", "Atlético-GO", 0, 0, "Brasileirão", "2022-08-13", "Nilton Santos"]);
     jogos.push(["Botafogo", "Ceará", 1, 1, "Brasileirão", "2022-08-06", "Nilton Santos"]);
     jogos.push(["Corinthians", "Botafogo", 1, 0, "Brasileirão", "2022-07-30", "Neo Química Arena"]);
-    jogos.push(["Athletico-PR", "Botafogo", 2, 0, "Brasileirão", "2022-07-23", "Nilton Santos"]);
+    jogos.push(["Botafogo", "Athletico-PR", 2, 0, "Brasileirão", "2022-07-23", "Nilton Santos"]);
     jogos.push(["Santos", "Botafogo", 2, 0, "Brasileirão", "2022-07-20", "Vila Belmiro"]);
     jogos.push(["Botafogo", "Atlético-MG", 0, 1, "Brasileirão", "2022-07-17", "Nilton Santos"]);
     jogos.push(["Botafogo", "América-MG", 0, 2, "Copa do Brasil", "2022-07-14", "Nilton Santos"]);

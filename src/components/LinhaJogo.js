@@ -72,20 +72,41 @@ class LinhaJogo extends Component {
                     <p style={{ display: 'inline', textShadow: "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000", color: "white", marginBottom: '5px' }}> - {this.props.jogo[4]} - </p>
                     <p style={{ display: 'inline', textShadow: "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000", color: "white", marginBottom: '5px', fontWeight: 'bold' }}>{this.props.jogo[6]}</p>
                 </div>
-                <div id='placar' style={{ display: 'flex', justifyContent: 'center' }}>
+                <div id='placar' style={{ display: 'flex', justifyContent: 'center', marginTop: '10px' }}>
+                    {(this.props.jogo[2] !== "" && this.props.jogo[3] !== "") && <div style={{ display: 'inline', textAlign: 'left' }}>
+                        <input
+                            type="checkbox"
+                            checked={checked}
+                            onChange={() => {
+                                if (checked) {
+                                    meusJogos.removeJogo(this.props.jogo);
+                                } else {
+                                    meusJogos.adicionaJogo(this.props.jogo);
+                                }
+                                this.setState({ checked: !checked })
+                            }
+                            }
+                            style={{
+                                cursor: 'pointer',
+                                width: '25px',
+                                height: '25px',
+                                margin: '10px',
+                                position: 'absolute'
+                            }} />
+                    </div>}
                     <div style={{ paddingTop: '20px', paddingBottom: '20px', display: 'inline', width: "40%", textAlign: "right", fontSize: '25px', color: Times(this.props.jogo[0]).letterColor, textShadow: Times(this.props.jogo[0]).letterColor === "white" ? "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000" : "none", paddingRight: '5px' }}>
                         {this.props.jogo[0].toUpperCase()}
                     </div>
                     <img src={require('../escudos/' + Times(this.props.jogo[0]).escudo + '.png')} title={this.props.jogo[0]} style={{ display: 'inline-block', verticalAlign: 'middle', width: "5rem", height: "5rem" }} alt={this.props.jogo[0]} />
                     <div style={{ paddingTop: '10px', display: 'inline', minWidth: "100px", textAlign: "center", fontSize: '40px', textShadow: "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000", color: "white" }}>
-                        { ' ' + this.props.jogo[2] + ' x ' + this.props.jogo[3] + ' '}
+                        {' ' + this.props.jogo[2] + ' x ' + this.props.jogo[3] + ' '}
                     </div>
                     <img src={require('../escudos/' + Times(this.props.jogo[1]).escudo + '.png')} title={this.props.jogo[1]} style={{ display: 'inline-block', verticalAlign: 'middle', width: "5rem", height: "5rem" }} alt={this.props.jogo[1]} />
                     <div style={{ paddingTop: '20px', paddingBottom: '20px', display: 'inline', width: "40%", textAlign: "left", fontSize: '25px', color: Times(this.props.jogo[1]).letterColor, textShadow: Times(this.props.jogo[1]).letterColor === "white" ? "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000" : "none", paddingLeft: '5px' }}>
                         {this.props.jogo[1].toUpperCase()}
                     </div>
                 </div>
-                {(this.props.jogo[2] !== "" && this.props.jogo[3] !== "") && <div>
+                {/* {(this.props.jogo[2] !== "" && this.props.jogo[3] !== "") && <div>
                     <input
                         type="checkbox"
                         checked={checked}
@@ -104,7 +125,7 @@ class LinhaJogo extends Component {
                             height: '25px',
                             marginTop: '20px'
                         }} />
-                </div>}
+                </div>} */}
             </div >
         )
     }
