@@ -439,7 +439,7 @@ function Times(time, jogo = null) {
                   nomeAtual = time;
                   // Adicionar condição pois trocou de escudo
                   escudo = time;
-                  backgroundColor = "#d30a11";
+                  backgroundColor = "#A80000";
                   letterColor = "white";
                   break;
             case "Floresta-CE":
@@ -557,6 +557,12 @@ function Times(time, jogo = null) {
                   escudo = time;
                   backgroundColor = "#038b5d";
                   letterColor = "white";
+                  break;
+            case "LDU":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "white";
+                  letterColor = "#003a94";
                   break;
             case "Linense":
                   nomeAtual = time;
@@ -968,6 +974,12 @@ function Times(time, jogo = null) {
                   escudo = "UniónEspañola";
                   backgroundColor = "#d30a11";
                   letterColor = "yellow";
+                  break;
+            case "Unión La Calera":
+                  nomeAtual = time;
+                  escudo = "UniónLaCalera";
+                  backgroundColor = "#d30a11";
+                  letterColor = "white";
                   break;
             case "Universidad Católica":
                   nomeAtual = time;

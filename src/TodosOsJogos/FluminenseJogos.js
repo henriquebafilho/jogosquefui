@@ -10,7 +10,7 @@ function FluminenseJogos() {
     jogos.push(["Fluminense", "Botafogo", "", "", "Carioca", "2023-01-29", "Maracanã"]);
     jogos.push(["Fluminense", "Boavista", "", "", "Carioca", "2023-01-25", "Maracanã"]);
     jogos.push(["Madureira", "Fluminense", "", "", "Carioca", "2023-01-22", "Conselheiro Galvão"]);
-    jogos.push(["Fluminense", "Nova Iguaçu", "", "", "Carioca", "2023-01-17", "Maracanã"]);
+    jogos.push(["Fluminense", "Nova Iguaçu", 1, 0, "Carioca", "2023-01-17", "Maracanã"]);
     jogos.push(["Resende", "Fluminense", 0, 2, "Carioca", "2023-01-14", "Raulino de Oliveira"]);
     jogos.push(["Red Bull Bragantino", "Fluminense", 0, 1, "Brasileirão", "2022-11-13", "Nabi Abi Chedid"]);
     jogos.push(["Fluminense", "Goiás", 3, 0, "Brasileirão", "2022-11-09", "Maracanã"]);
