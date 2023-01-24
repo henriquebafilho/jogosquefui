@@ -237,6 +237,12 @@ function Times(time, jogo = null) {
                   backgroundColor = "#00913c";
                   letterColor = "white";
                   break;
+            case "Caldense":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#096943";
+                  letterColor = "white";
+                  break;
             case "Campinense":
                   nomeAtual = time;
                   escudo = time;
@@ -244,6 +250,12 @@ function Times(time, jogo = null) {
                   letterColor = "black";
                   break;
             case "Capivariano":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#d30a11";
+                  letterColor = "white";
+                  break;
+            case "Caracas":
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#d30a11";
@@ -515,6 +527,12 @@ function Times(time, jogo = null) {
                   escudo = "IndependienteSantaFé";
                   backgroundColor = "#d30a11";
                   letterColor = "white";
+                  break;
+            case "Inter Miami":
+                  nomeAtual = time;
+                  escudo = "InterMiami";
+                  backgroundColor = "#F4B5CD";
+                  letterColor = "black";
                   break;
             case "Internacional":
                   nomeAtual = time;

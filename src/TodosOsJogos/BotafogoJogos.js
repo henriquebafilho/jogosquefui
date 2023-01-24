@@ -4,12 +4,12 @@ function jogos() {
     jogos.push(["Botafogo", "Portuguesa-RJ", "", "", "Carioca", "2023-03-08", "Nilton Santos"]);
     jogos.push(["Resende", "Botafogo", "", "", "Carioca", "2023-03-05", "Estádio do Trabalhador"]);
     jogos.push(["Botafogo", "Flamengo", "", "", "Carioca", "2023-02-25", "Nilton Santos"]);
+    jogos.push(["Vasco", "Botafogo", "", "", "Carioca", "2023-02-16", "São Januário"]);
     jogos.push(["Botafogo", "Bangu", "", "", "Carioca", "2023-02-11", "Nilton Santos"]);
     jogos.push(["Boavista", "Botafogo", "", "", "Carioca", "2023-02-04", "Mané Garrincha"]);
     jogos.push(["Botafogo", "Nova Iguaçu", "", "", "Carioca", "2023-02-01", "Nilton Santos"]);
     jogos.push(["Fluminense", "Botafogo", "", "", "Carioca", "2023-01-29", "Maracanã"]);
-    jogos.push(["Botafogo", "Madureira", "", "", "Carioca", "2023-01-26", "Nilton Santos"]);
-    jogos.push(["Vasco", "Botafogo", "", "", "Carioca", "2023-01-23", "São Januário"]);
+    jogos.push(["Botafogo", "Madureira", "", "", "Carioca", "2023-01-26", "Luso Brasileiro"]);
     jogos.push(["Volta Redonda", "Botafogo", 1, 2, "Carioca", "2023-01-19", "Raulino de Oliveira"]);
     jogos.push(["Botafogo", "Audax Rio", 0, 1, "Carioca", "2023-01-15", "Nilton Santos"]);
     jogos.push(["Crystal Palace", "Botafogo", 0, 0, "Amistoso", "2022-12-03", "Selhurst Park"]);
@@ -90,11 +90,11 @@ function jogos() {
     jogos.push(["Botafogo", "Vila Nova", 3, 2, "Série B", "2021-08-22", "Nilton Santos"]);
     jogos.push(["Guarani", "Botafogo", 1, 1, "Série B", "2021-08-18", "Brinco de Ouro da Princesa"]);
     jogos.push(["Botafogo", "Brasil de Pelotas", 1, 0, "Série B", "2021-08-15", "Nilton Santos"]);
-    jogos.push(["Operário", "Botafogo", 1, 0, "Série B", "2021-08-12", "Germano Kruger"]);
+    jogos.push(["Operário", "Botafogo", 1, 0, "Série B", "2021-08-12", "Germano Krüger"]);
     jogos.push(["Botafogo", "Ponte Preta", 2, 0, "Série B", "2021-08-08", "Nilton Santos"]);
     jogos.push(["Botafogo", "Vasco", 2, 0, "Série B", "2021-07-31", "Nilton Santos"]);
     jogos.push(["Botafogo", "CSA", 2, 0, "Série B", "2021-07-27", "Nilton Santos"]);
-    jogos.push(["Confiança", "Botafogo", 0, 1, "Série B", "2021-07-24", "Arena Batistão"]);
+    jogos.push(["Confiança", "Botafogo", 0, 1, "Série B", "2021-07-24", "Batistão"]);
     jogos.push(["Botafogo", "Goiás", 0, 2, "Série B", "2021-07-20", "Nilton Santos"]);
     jogos.push(["Brusque", "Botafogo", 2, 1, "Série B", "2021-07-17", "Augusto Bauer"]);
     jogos.push(["Botafogo", "Cruzeiro", 3, 3, "Série B", "2021-07-10", "Nilton Santos"]);
