@@ -28,14 +28,16 @@ function Navbar(props) {
                         </li>
                         {SidebarData.map((item, index) => {
                             var meuTime = props.meuTime;
-                            return (
+                            return (<div>
+                                {item.title === "Anos" && <span style={{color: 'white'}}>Meus Jogos</span>}
+                                {item.title === "Próximos Jogos" && <span style={{color: 'white'}}>Meu Time</span>}
                                 <li key={index} className={item.cName}>
                                     <Link to={item.path}>
                                         {item.icon}
                                         <span>{item.title === "Todos os Jogos" ? "Jogos do " + meuTime : item.title}</span>
                                     </Link>
                                 </li>
-                            )
+                            </div>)
                         })}
                     </ul>
                 </nav>

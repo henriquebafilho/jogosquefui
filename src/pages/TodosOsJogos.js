@@ -78,7 +78,6 @@ class TodosOsJogos extends Component {
         (<div className="App-header" style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }}>
           <h1 style={{ padding: '20px' }}>Jogos do {Times(this.props.meuTime).nomeAtual}</h1>
           <img src={require('../escudos/' + Times(this.props.meuTime).escudo + '.png')} className="App-logo" alt={"Escudo do " + this.props.meuTime} style={{ width: '100px', height: '100px' }} />
-          <br />
           {jogos.length > 0 ? <h4 style={{ padding: '20px' }}>Selecione o ano do jogo</h4> : <h4 style={{ padding: '20px' }}>Não há jogos disponíveis</h4>}
           <table>
             <tbody>
