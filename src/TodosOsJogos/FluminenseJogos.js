@@ -7,8 +7,8 @@ function FluminenseJogos() {
     jogos.push(["Fluminense", "Vasco", "", "", "Carioca", "2023-02-12", "Maracanã"]);
     jogos.push(["Fluminense", "Audax Rio", "", "", "Carioca", "2023-02-05", "Maracanã"]);
     jogos.push(["Volta Redonda", "Fluminense", "", "", "Carioca", "2023-02-02", "Raulino de Oliveira"]);
-    jogos.push(["Fluminense", "Botafogo", "", "", "Carioca", "2023-01-29", "Maracanã"]);
-    jogos.push(["Fluminense", "Boavista", "", "", "Carioca", "2023-01-25", "Maracanã"]);
+    jogos.push(["Fluminense", "Botafogo", 0, 1, "Carioca", "2023-01-29", "Maracanã"]);
+    jogos.push(["Fluminense", "Boavista", 1, 1, "Carioca", "2023-01-25", "Maracanã"]);
     jogos.push(["Madureira", "Fluminense", 0, 1, "Carioca", "2023-01-22", "Kleber Andrade"]);
     jogos.push(["Fluminense", "Nova Iguaçu", 1, 0, "Carioca", "2023-01-17", "Maracanã"]);
     jogos.push(["Resende", "Fluminense", 0, 2, "Carioca", "2023-01-14", "Raulino de Oliveira"]);

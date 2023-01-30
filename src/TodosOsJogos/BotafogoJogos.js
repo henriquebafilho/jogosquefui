@@ -8,8 +8,8 @@ function jogos() {
     jogos.push(["Botafogo", "Bangu", "", "", "Carioca", "2023-02-11", "Nilton Santos"]);
     jogos.push(["Boavista", "Botafogo", "", "", "Carioca", "2023-02-04", "Mané Garrincha"]);
     jogos.push(["Botafogo", "Nova Iguaçu", "", "", "Carioca", "2023-02-01", "Nilton Santos"]);
-    jogos.push(["Fluminense", "Botafogo", "", "", "Carioca", "2023-01-29", "Maracanã"]);
-    jogos.push(["Botafogo", "Madureira", "", "", "Carioca", "2023-01-26", "Luso Brasileiro"]);
+    jogos.push(["Fluminense", "Botafogo", 0, 1, "Carioca", "2023-01-29", "Maracanã"]);
+    jogos.push(["Botafogo", "Madureira", 2, 0, "Carioca", "2023-01-26", "Luso Brasileiro"]);
     jogos.push(["Volta Redonda", "Botafogo", 1, 2, "Carioca", "2023-01-19", "Raulino de Oliveira"]);
     jogos.push(["Botafogo", "Audax Rio", 0, 1, "Carioca", "2023-01-15", "Nilton Santos"]);
     jogos.push(["Crystal Palace", "Botafogo", 0, 0, "Amistoso", "2022-12-03", "Selhurst Park"]);
