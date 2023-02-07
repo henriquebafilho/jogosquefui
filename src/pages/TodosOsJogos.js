@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Times from '../Times';
 import common from '../common';
 import ViewAno from './viewScreens/ViewAno';
+import Navbar from '../components/Navbar';
 
 class TodosOsJogos extends Component {
   constructor(props) {
@@ -74,26 +75,29 @@ class TodosOsJogos extends Component {
     const jogos = this.state.jogos;
     const buttonClickFunction = (ano) => this.buttonClick(ano);
     return (
-      this.state.clicked ? <ViewAno flag="todosOsJogos" meuTime={this.props.meuTime} jogos={jogos} jogosAno={this.state.jogosAno} ano={this.state.anoAtual} meusJogos={this.props.meusJogos} /> :
-        (<div className="App-header" style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }}>
-          <h1 style={{ padding: '20px' }}>Jogos do {Times(this.props.meuTime).nomeAtual}</h1>
-          <img src={require('../escudos/' + Times(this.props.meuTime).escudo + '.png')} className="App-logo" alt={"Escudo do " + this.props.meuTime} style={{ width: '100px', height: '100px' }} />
-          {jogos.length > 0 ? <h4 style={{ padding: '20px' }}>Selecione o ano do jogo</h4> : <h4 style={{ padding: '20px' }}>Não há jogos disponíveis</h4>}
-          <table>
-            <tbody>
-              {this.state.isLoading && <h1>Carregando...</h1>}
-              {!this.state.isLoading && this.state.anos.map(function (i) {
-                var totalAno = common.getTotalAno(i, jogos);
-                return <div>
-                  <button id='selectAno' onClick={() => buttonClickFunction(i)} style={{ borderColor: Times(meuTime).letterColor, borderStyle: 'solid', backgroundColor: Times(meuTime).backgroundColor, color: Times(meuTime).letterColor, width: '60vw' }}>
-                    <div style={{ display: 'inline', padding: '10px', fontSize: '40px' }}>{i}</div>
-                    <div style={{ paddingBottom: '5px', fontSize: '15px' }}>{totalAno} {totalAno > 1 ? "jogos" : "jogo"}</div>
-                  </button>
-                </div>
-              })}
-            </tbody>
-          </table>
-        </div>)
+      <>
+        {!this.props.fromView && <Navbar meuTime={meuTime} style={{ position: 'fixed' }} />}
+        {this.state.clicked ? <ViewAno flag="todosOsJogos" meuTime={this.props.meuTime} jogos={jogos} jogosAno={this.state.jogosAno} ano={this.state.anoAtual} meusJogos={this.props.meusJogos} /> :
+          <div className="App-header" style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }}>
+            <h1 style={{ padding: '20px' }}>Jogos do {Times(this.props.meuTime).nomeAtual}</h1>
+            <img src={require('../escudos/' + Times(this.props.meuTime).escudo + '.png')} className="App-logo" alt={"Escudo do " + this.props.meuTime} style={{ width: '100px', height: '100px' }} />
+            {jogos.length > 0 ? <h4 style={{ padding: '20px' }}>Selecione o ano do jogo</h4> : <h4 style={{ padding: '20px' }}>Não há jogos disponíveis</h4>}
+            <table>
+              <tbody>
+                {this.state.isLoading && <h1>Carregando...</h1>}
+                {!this.state.isLoading && this.state.anos.map(function (i) {
+                  var totalAno = common.getTotalAno(i, jogos);
+                  return <div>
+                    <button id='selectAno' onClick={() => buttonClickFunction(i)} style={{ borderColor: Times(meuTime).letterColor, borderStyle: 'solid', backgroundColor: Times(meuTime).backgroundColor, color: Times(meuTime).letterColor, width: '60vw' }}>
+                      <div style={{ display: 'inline', padding: '10px', fontSize: '40px' }}>{i}</div>
+                      <div style={{ paddingBottom: '5px', fontSize: '15px' }}>{totalAno} {totalAno > 1 ? "jogos" : "jogo"}</div>
+                    </button>
+                  </div>
+                })}
+              </tbody>
+            </table>
+          </div>}
+      </>
     )
   }
 }

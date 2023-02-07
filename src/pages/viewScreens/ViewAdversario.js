@@ -32,7 +32,7 @@ class ViewAdversario extends Component {
     });
 
     return (
-      this.state.clicked ? <Adversarios meuTime={meuTime} meusJogos={this.props.meusJogos} /> :
+      this.state.clicked ? <Adversarios meuTime={meuTime} meusJogos={this.props.meusJogos} fromView={true}/> :
         <div style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }}>
           <div className='a'>
             <button style={{ outline: 'none', border: 'none', textDecoration: 'underline', fontSize: '25px', cursor: 'pointer', backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }} onClick={() => buttonClickFunction()}>{"< Voltar"}</button>
@@ -68,7 +68,7 @@ class ViewAdversario extends Component {
                 mostraAno = true;
               }
               return <div>
-                {mostraAno ? <h1 style={{ textAlign: 'center', paddingBottom: '10px', color: Times(meuTime).letterColor }}>{anoAtual}</h1> : ""}
+                {mostraAno ? <h1 style={{ textAlign: 'center', color: Times(meuTime).letterColor, margin: '40px' }}>{anoAtual}</h1> : ""}
                 <LinhaJogo meuTime={meuTime} jogo={index} meusJogos={this.props.meusJogos}/>
               </div>
             })}

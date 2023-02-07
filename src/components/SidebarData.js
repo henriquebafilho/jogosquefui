@@ -1,9 +1,9 @@
 import React from 'react';
 import * as FaIcons from 'react-icons/fa';
-import * as AiIcons from 'react-icons/ai';
 import * as FbIcons from "react-icons/tb";
 import * as BsIcons from "react-icons/bs";
 import * as ImIcons from "react-icons/im";
+import * as BiIcons from "react-icons/bi";
 
 export const SidebarData = [
     {
@@ -40,6 +40,12 @@ export const SidebarData = [
         title: 'Todos os Jogos',
         path: '/todosOsJogos',
         icon: <ImIcons.ImList2/>,
+        cName: 'nav-text'
+    },
+    {
+        title: 'Sair',
+        path: '/',
+        icon: <BiIcons.BiLogOut/>,
         cName: 'nav-text'
     },
 ]

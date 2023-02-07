@@ -1,10 +1,10 @@
-function Times(time, jogo = null) {
+function Times(time, data) {
       var nomeAtual, escudo, backgroundColor, letterColor;
 
-      /* if (jogo != null) {
-              var dataCortada = jogo[5].split("-");
-              var ano = parseInt(dataCortada[0]);
-        } */
+      if (data != null) {
+            var dataCortada = data.split("-");
+            var ano = parseInt(dataCortada[0]);
+      }
 
       switch (time) {
             case "ABC":
@@ -17,6 +17,12 @@ function Times(time, jogo = null) {
                   nomeAtual = time;
                   escudo = "ÁguaSanta";
                   backgroundColor = "#153160";
+                  letterColor = "white";
+                  break;
+            case "Al-Hilal":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#0028F0";
                   letterColor = "white";
                   break;
             case "Alecrim-RN":
@@ -73,8 +79,11 @@ function Times(time, jogo = null) {
                   break;
             case "Atlético-GO":
                   nomeAtual = time;
-                  // Inserir condição de ano pro escudo
-                  escudo = time;
+                  if (ano < 2020) {
+                        escudo = "Atlético-GO2020"
+                  } else {
+                        escudo = time;
+                  }
                   backgroundColor = "#d30a11";
                   letterColor = "black";
                   break;
@@ -86,8 +95,11 @@ function Times(time, jogo = null) {
                   break;
             case "Aparecidense":
                   nomeAtual = time;
-                  // trocou de escudo
-                  escudo = time;
+                  if(ano < 2022){
+                        escudo = "Aparecidense2022";
+                  } else {
+                        escudo = time;
+                  }
                   backgroundColor = "#00005e";
                   letterColor = "#c8ad51";
                   break;
@@ -183,15 +195,21 @@ function Times(time, jogo = null) {
                   break;
             case "Botafogo":
                   nomeAtual = time;
-                  // trocou escudo
-                  escudo = time;
+                  if(ano < 1942){
+                        escudo = "Botafogo1942";
+                  } else {
+                        escudo = time;
+                  }
                   backgroundColor = "black";
                   letterColor = "white";
                   break;
             case "Botafogo-SP":
                   nomeAtual = time;
-                  // Colocar condição pois mudou de escudo
-                  escudo = time;
+                  if(ano < 2021){
+                        escudo = "Botafogo-SP2021";
+                  } else {
+                        escudo = time;
+                  }
                   backgroundColor = "#d30a11";
                   letterColor = "white";
                   break;
@@ -449,8 +467,11 @@ function Times(time, jogo = null) {
                   break;
             case "Flamengo":
                   nomeAtual = time;
-                  // Adicionar condição pois trocou de escudo
-                  escudo = time;
+                  if(ano < 2018){
+                        escudo = "Flamengo2018";
+                  } else {
+                        escudo = time;
+                  }
                   backgroundColor = "#A80000";
                   letterColor = "white";
                   break;
@@ -480,8 +501,13 @@ function Times(time, jogo = null) {
                   break;
             case "Goiás":
                   nomeAtual = time;
-                  // Adicionar condição pois trocou de escudo
-                  escudo = time;
+                  if(ano < 2019){
+                        escudo = "Goiás2019";
+                  } else if(ano >= 2019 && ano <= 2020){
+                        escudo = "Goiás2020";
+                  } else {
+                        escudo = time;
+                  }
                   backgroundColor = "#006437";
                   letterColor = "white";
                   break;
@@ -517,8 +543,11 @@ function Times(time, jogo = null) {
                   break;
             case "Independiente Del Valle":
                   nomeAtual = time;
-                  // trocou de escudo
-                  escudo = "IndependienteDelValle2019";
+                  if(ano < 2019){
+                        escudo = "IndependienteDelValle2019";
+                  } else {
+                        escudo = "IndependienteDelValle";
+                  }
                   backgroundColor = "#fb37b9";
                   letterColor = "white";
                   break;
@@ -536,7 +565,11 @@ function Times(time, jogo = null) {
                   break;
             case "Internacional":
                   nomeAtual = time;
-                  escudo = time;
+                  if(ano < 2009){
+                        escudo = "Internacional2009";
+                  } else {
+                        escudo = time;
+                  }
                   backgroundColor = "#d30a11";
                   letterColor = "white";
                   break;
@@ -668,8 +701,11 @@ function Times(time, jogo = null) {
                   break;
             case "Náutico":
                   nomeAtual = time;
-                  //trocou de escudo
-                  escudo = time;
+                  if(ano < 2008){
+                        escudo = "Náutico2008";
+                  } else {
+                        escudo = time;
+                  }
                   backgroundColor = "#d30a11";
                   letterColor = "white";
                   break;
@@ -807,8 +843,11 @@ function Times(time, jogo = null) {
                   break;
             case "Resende":
                   nomeAtual = time;
-                  // Trocou de escudo
-                  escudo = time;
+                  if(ano < 2020){
+                        escudo = "Resende2020";
+                  } else {
+                        escudo = time;
+                  }
                   backgroundColor = "white";
                   letterColor = "black";
                   break;
@@ -820,7 +859,11 @@ function Times(time, jogo = null) {
                   break;
             case "River Plate":
                   nomeAtual = time;
-                  escudo = "RiverPlate";
+                  if(ano < 2020){
+                        escudo = "RiverPlate2022";
+                  } else {
+                        escudo = "RiverPlate";
+                  }
                   backgroundColor = "white";
                   letterColor = "#d30a11";
                   break;
@@ -874,8 +917,11 @@ function Times(time, jogo = null) {
                   break;
             case "São Bernardo":
                   nomeAtual = time;
-                  // Trocou de escudo
-                  escudo = "SãoBernardo";
+                  if(ano < 2020){
+                        escudo = "SãoBernardo2020";
+                  } else {
+                        escudo = "SãoBernardo";
+                  }
                   backgroundColor = "#ffdd00";
                   letterColor = "black";
                   break;
@@ -1013,8 +1059,11 @@ function Times(time, jogo = null) {
                   break;
             case "Vasco":
                   nomeAtual = time;
-                  // trocou de escudo
-                  escudo = time;
+                  if(ano < 2021){
+                        escudo = "Vasco2021";
+                  } else {
+                        escudo = time;
+                  }
                   backgroundColor = "white";
                   letterColor = "black";
                   break;

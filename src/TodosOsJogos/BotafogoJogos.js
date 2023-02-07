@@ -1,13 +1,13 @@
 function jogos() {
     var jogos = [];
 
-    jogos.push(["Botafogo", "Portuguesa-RJ", "", "", "Carioca", "2023-03-08", "Nilton Santos"]);
-    jogos.push(["Resende", "Botafogo", "", "", "Carioca", "2023-03-05", "Estádio do Trabalhador"]);
-    jogos.push(["Botafogo", "Flamengo", "", "", "Carioca", "2023-02-25", "Nilton Santos"]);
-    jogos.push(["Vasco", "Botafogo", "", "", "Carioca", "2023-02-16", "São Januário"]);
-    jogos.push(["Botafogo", "Bangu", "", "", "Carioca", "2023-02-11", "Nilton Santos"]);
-    jogos.push(["Boavista", "Botafogo", "", "", "Carioca", "2023-02-04", "Mané Garrincha"]);
-    jogos.push(["Botafogo", "Nova Iguaçu", "", "", "Carioca", "2023-02-01", "Nilton Santos"]);
+    jogos.push(["Botafogo", "Portuguesa-RJ", "", "", "Carioca", "2023-03-08", "Luso Brasileiro"]);
+    jogos.push(["Resende", "Botafogo", "", "", "Carioca", "2023-03-05", "Kleber Andrade"]);
+    jogos.push(["Botafogo", "Flamengo", "", "", "Carioca", "2023-02-25", "Mané Garrincha"]);
+    jogos.push(["Vasco", "Botafogo", "", "", "Carioca", "2023-02-16", "Maracanã"]);
+    jogos.push(["Botafogo", "Bangu", "", "", "Carioca", "2023-02-11", "Luso Brasileiro"]);
+    jogos.push(["Boavista", "Botafogo", 0, 4, "Carioca", "2023-02-05", "Mané Garrincha"]);
+    jogos.push(["Botafogo", "Nova Iguaçu", 0, 0, "Carioca", "2023-02-01", "Luso Brasileiro"]);
     jogos.push(["Fluminense", "Botafogo", 0, 1, "Carioca", "2023-01-29", "Maracanã"]);
     jogos.push(["Botafogo", "Madureira", 2, 0, "Carioca", "2023-01-26", "Luso Brasileiro"]);
     jogos.push(["Volta Redonda", "Botafogo", 1, 2, "Carioca", "2023-01-19", "Raulino de Oliveira"]);

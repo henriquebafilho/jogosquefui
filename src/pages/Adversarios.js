@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Times from '../Times';
 import common from '../common';
 import ViewAdversario from './viewScreens/ViewAdversario';
+import Navbar from '../components/Navbar';
 
 class Adversarios extends Component {
   constructor(props) {
@@ -68,8 +69,10 @@ class Adversarios extends Component {
     const meusJogos = this.props.meusJogos;
     const buttonClickFunction = (adversario) => this.buttonClick(adversario);
     return (
-      this.state.clicked ? <ViewAdversario meuTime={this.props.meuTime} meusJogos={meusJogos} jogosAdversario={this.state.jogosAdversario} adversario={this.state.adversarioAtual} /> :
-        (<div className="App-header" style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }}>
+      <>
+      {!this.props.fromView && <Navbar meuTime={meuTime} style={{ position: 'fixed' }} />}
+      {this.state.clicked ? <ViewAdversario meuTime={this.props.meuTime} meusJogos={meusJogos} jogosAdversario={this.state.jogosAdversario} adversario={this.state.adversarioAtual} /> :
+        <div className="App-header" style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }}>
           <h1>Adversários</h1>
           <br />
           <table>
@@ -91,7 +94,8 @@ class Adversarios extends Component {
                 </div>}
             </tbody>
           </table>
-        </div>)
+        </div>}
+        </>
     )
   }
 }

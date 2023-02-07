@@ -1,5 +1,4 @@
 import './App.css';
-import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Perfil from './pages/Perfil.js';
 import ProximosJogos from './pages/ProximosJogos.js';
@@ -13,9 +12,11 @@ import FluminenseJogos from './TodosOsJogos/FluminenseJogos';
 import VascoJogos from './TodosOsJogos/VascoJogos';
 import BotafogoJogos from './TodosOsJogos/BotafogoJogos';
 import Footer from './components/Footer';
+import Login from './pages/Login';
+import Cadastro from './pages/Cadastro';
 
 function App() {
-  var meuTime = "Flamengo";
+  var meuTime = "Botafogo";
   var todosOsJogos = [];
   var meusJogos = new Jogos();
 
@@ -40,9 +41,10 @@ function App() {
   return (
     <>
       <Router>
-        <Navbar meuTime={meuTime} style={{ position: 'fixed' }} />
         <Routes>
-          <Route path='/perfil' element={<Perfil meuTime={meuTime} meusJogos={meusJogos} />} /> {/* colocar como /inicio e a tela principal como / */}
+          <Route path='/' element={<Login />} />
+          <Route path='/cadastro' element={<Cadastro />} />
+          <Route path='/perfil' element={<Perfil meuTime={meuTime} meusJogos={meusJogos} />} />
           <Route path='/anos' element={<Anos meuTime={meuTime} meusJogos={meusJogos} />} />
           <Route path='/estadios' element={<Estadios meuTime={meuTime} meusJogos={meusJogos} />} />
           <Route path='/adversarios' element={<Adversarios meuTime={meuTime} meusJogos={meusJogos} />} />

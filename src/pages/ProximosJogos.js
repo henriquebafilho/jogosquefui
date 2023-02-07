@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Times from '../Times';
 import LinhaJogo from '../components/LinhaJogo';
+import Navbar from '../components/Navbar';
 
 class ProximosJogos extends Component {
     constructor(props) {
@@ -42,18 +43,21 @@ class ProximosJogos extends Component {
         const meuTime = this.state.meuTime;
         const jogos = this.state.proximosJogos;
         return (
-            <div className="App-header" style={{ backgroundColor: Times(meuTime).backgroundColor }}>
-                <h1 style={{ color: Times(meuTime).letterColor, padding: '20px' }}>Próximos Jogos</h1>
-                <img src={require('../escudos/' + Times(meuTime).escudo + '.png')} className="App-logo" alt={"Escudo do " + meuTime} style={{ width: '100px', height: '100px' }} />
-                <br />
-                {jogos.length > 0 ? jogos.reverse().map((index) => {
-                    return <div>
-                        <LinhaJogo meuTime={meuTime} jogo={index} />
-                    </div>
-                }) : <div>
-                    <h4 style={{ color: Times(meuTime).letterColor, textAlign: 'center' }}>Não há jogos futuros</h4>
-                </div>}
-            </div>
+            <>
+                <Navbar meuTime={meuTime} style={{ position: 'fixed' }} />
+                <div className="App-header" style={{ backgroundColor: Times(meuTime).backgroundColor }}>
+                    <h1 style={{ color: Times(meuTime).letterColor, padding: '20px' }}>Próximos Jogos</h1>
+                    <img src={require('../escudos/' + Times(meuTime).escudo + '.png')} className="App-logo" alt={"Escudo do " + meuTime} style={{ width: '100px', height: '100px' }} />
+                    <br />
+                    {jogos.length > 0 ? jogos.reverse().map((index) => {
+                        return <div>
+                            <LinhaJogo meuTime={meuTime} jogo={index} />
+                        </div>
+                    }) : <div>
+                        <h4 style={{ color: Times(meuTime).letterColor, textAlign: 'center' }}>Não há jogos futuros</h4>
+                    </div>}
+                </div>
+            </>
         )
     }
 }
