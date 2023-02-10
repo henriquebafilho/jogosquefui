@@ -8,7 +8,8 @@ function FlamengoJogos() {
     jogos.push(["Volta Redonda", "Flamengo", "", "", "Carioca", "2023-02-15", "Raulino de Oliveira"]);
     jogos.push(["Independiente Del Valle", "Flamengo", "", "", "Recopa Sudamericana", "2023-02-21", "Banco de Guayaquil"]);
     jogos.push(["Resende", "Flamengo", "", "", "Carioca", "2023-02-18", "Estádio do Trabalhador"]);
-    jogos.push(["Flamengo", "Al-Hilal", "", "", "Mundial de Clubes", "2023-02-07", "Grand Stade de Tanger"]);
+    jogos.push(["Flamengo", "Al-Ahly", "", "", "Mundial de Clubes", "2023-02-11", "Grand Stade de Tanger"]);
+    jogos.push(["Flamengo", "Al-Hilal", 2, 3, "Mundial de Clubes", "2023-02-07", "Grand Stade de Tanger"]);
     jogos.push(["Flamengo", "Boavista", 1, 0, "Carioca", "2023-02-01", "Maracanã"]);
     jogos.push(["Palmeiras", "Flamengo", 4, 3, "Supercopa do Brasil", "2023-01-28", "Mané Garrincha"]);
     jogos.push(["Bangu", "Flamengo", 1, 1, "Carioca", "2023-01-24", "Raulino de Oliveira"]);

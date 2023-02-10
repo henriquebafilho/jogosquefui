@@ -20,7 +20,6 @@ class Estadios extends Component {
   }
 
   async componentDidMount() {
-    this._isMounted = true;
     window.scrollTo(0, 0);
     this.setState({ isLoading: true })
     await this.getEstadios();
@@ -28,9 +27,9 @@ class Estadios extends Component {
   }
 
   getEstadios = async () => {
-    var jogos = this.state.jogos;
+    let jogos = this.state.jogos;
 
-    for (var i in jogos) {
+    for (let i in jogos) {
       if (!this.state.estadios.includes(jogos[i][6])) {
         this.state.estadios.push(jogos[i][6]);
       }
@@ -45,9 +44,9 @@ class Estadios extends Component {
   }
 
   getEstadioJogos = async (estadio) => {
-    var estadioAtual = estadio;
+    let estadioAtual = estadio;
 
-    for (var a = 0; a < this.state.jogos.length; a++) {
+    for (let a = 0; a < this.state.jogos.length; a++) {
       if (this.state.jogos[a][6] === estadioAtual) {
         if (!this.state.jogosEstadio.includes(this.state.jogos[a])) {
           this.state.jogosEstadio.push(this.state.jogos[a]);
@@ -75,14 +74,14 @@ class Estadios extends Component {
                 {this.state.isLoading && <h1>Carregando...</h1>}
                 {this.state.estadios.length > 0 ?
                   !this.state.isLoading && this.state.estadios.map(function (i) {
-                    var totalEstadio = common.getTotalEstadio(i, meusJogos.getJogos());
-                    var imagemEstadio;
+                    let totalEstadio = common.getTotalEstadio(i, meusJogos.getJogos());
+                    let imagemEstadio;
                     try {
                       imagemEstadio = require('../estadios/' + i + '.png');
                     } catch (e) {
                       imagemEstadio = "";
                     }
-                    return <div>
+                    return <div key={i}>
                       <button id='selectEstadio' onClick={() => buttonClickFunction(i)} style={{ borderColor: Times(meuTime).letterColor, borderStyle: 'solid', backgroundColor: Times(meuTime).backgroundColor, color: Times(meuTime).letterColor, width: '60vw' }}>
                         {imagemEstadio !== "" ? <img src={imagemEstadio} style={{ verticalAlign: 'middle' }} alt='escudo' height='150' width='150' /> : ""}
                         <div style={{ padding: '10px', fontSize: '40px' }}>{i}</div>

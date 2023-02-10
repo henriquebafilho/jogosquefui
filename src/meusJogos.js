@@ -1,4 +1,4 @@
-class meusJogos {
+class MeusJogos {
     meusJogosArray = [];
 
     getJogos() {
@@ -12,7 +12,7 @@ class meusJogos {
     }
 
     removeJogo(x) {
-        for (var a = 0; a < this.meusJogosArray.length; a++) {
+        for (let a = 0; a < this.meusJogosArray.length; a++) {
             if (this.meusJogosArray[a][0] === x[0] &&
                 this.meusJogosArray[a][1] === x[1] &&
                 this.meusJogosArray[a][2] === x[2] &&
@@ -26,4 +26,4 @@ class meusJogos {
         }
     }
 }
-export default meusJogos;
+export default MeusJogos;

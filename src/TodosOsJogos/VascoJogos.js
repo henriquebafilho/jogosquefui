@@ -6,7 +6,7 @@ function VascoJogos() {
     jogos.push(["Vasco", "Boavista", "", "", "Carioca", "2023-02-25", "São Januário"]);
     jogos.push(["Vasco", "Botafogo", "", "", "Carioca", "2023-02-16", "Maracanã"]);
     jogos.push(["Fluminense", "Vasco", "", "", "Carioca", "2023-02-12", "Maracanã"]);
-    jogos.push(["Nova Iguaçu", "Vasco", "", "", "Carioca", "2023-02-07", "Mané Garrincha"]);
+    jogos.push(["Nova Iguaçu", "Vasco", 0, 2, "Carioca", "2023-02-07", "Mané Garrincha"]);
     jogos.push(["Vasco", "Resende", 5, 0, "Carioca", "2023-02-02", "São Januário"]);
     jogos.push(["Vasco", "Volta Redonda", 1, 2, "Carioca", "2023-01-30", "Kleber Andrade"]);
     jogos.push(["Portuguesa-RJ", "Vasco", 0, 2, "Carioca", "2023-01-26", "Luso Brasileiro"]);

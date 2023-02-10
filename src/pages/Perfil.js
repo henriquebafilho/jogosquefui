@@ -19,7 +19,7 @@ function Perfil(props) {
         <div style={{ margin: '20px' }}>
           <img src={require('../escudos/' + Times(props.meuTime).escudo + '.png')} className="App-logo" alt={"Escudo do " + props.meuTime} style={{ verticalAlign: 'middle', width: '100px', height: '100px' }} />
           <p style={{ display: 'inline', color: Times(props.meuTime).letterColor }}>
-            Henrique Filho
+            {props.nome} {props.sobrenome}
           </p>
         </div>
         <br />
@@ -30,7 +30,7 @@ function Perfil(props) {
             anoAtual = index[5].split("-")[0];
             mostraAno = true;
           }
-          return <div>
+          return <div key={index}>
             {mostraAno ? <h1 style={{ textAlign: 'center', color: Times(meuTime).letterColor, margin: '40px' }}>{anoAtual}</h1> : ""}
             <LinhaJogo meuTime={meuTime} jogo={index} meusJogos={props.meusJogos} />
           </div>

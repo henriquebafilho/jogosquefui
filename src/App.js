@@ -6,7 +6,7 @@ import TodosOsJogos from './pages/TodosOsJogos.js';
 import Adversarios from './pages/Adversarios.js';
 import Anos from './pages/Anos.js';
 import Estadios from './pages/Estadios.js';
-import Jogos from './meusJogos';
+import Jogos from './MeusJogos';
 import FlamengoJogos from './TodosOsJogos/FlamengoJogos';
 import FluminenseJogos from './TodosOsJogos/FluminenseJogos';
 import VascoJogos from './TodosOsJogos/VascoJogos';
@@ -14,13 +14,17 @@ import BotafogoJogos from './TodosOsJogos/BotafogoJogos';
 import Footer from './components/Footer';
 import Login from './pages/Login';
 import Cadastro from './pages/Cadastro';
+import Usuario from './Usuario';
+import ConjuntoUsuarios from './ConjuntoUsuarios';
 
 function App() {
-  var meuTime = "Botafogo";
-  var todosOsJogos = [];
-  var meusJogos = new Jogos();
+  let meusJogos = new Jogos();
+  let usuarioAtual = new Usuario("Leandro", "Silva", "Flamengo", "", "", meusJogos);
+  let conjuntoUsuarios = new ConjuntoUsuarios();
+  // Criar classe usuarios que tenha um array de usuários e um usuário atual
+  let todosOsJogos = [];
 
-  switch (meuTime) {
+  switch (usuarioAtual.getMeuTime()) {
     case "Botafogo":
       todosOsJogos = BotafogoJogos().reverse();
       break;
@@ -34,7 +38,7 @@ function App() {
       todosOsJogos = VascoJogos().reverse();
       break;
     default:
-      todosOsJogos = Jogos().reverse();
+      console.error("Time não disponível.")
       break;
   }
 
@@ -42,14 +46,14 @@ function App() {
     <>
       <Router>
         <Routes>
-          <Route path='/' element={<Login />} />
-          <Route path='/cadastro' element={<Cadastro />} />
-          <Route path='/perfil' element={<Perfil meuTime={meuTime} meusJogos={meusJogos} />} />
-          <Route path='/anos' element={<Anos meuTime={meuTime} meusJogos={meusJogos} />} />
-          <Route path='/estadios' element={<Estadios meuTime={meuTime} meusJogos={meusJogos} />} />
-          <Route path='/adversarios' element={<Adversarios meuTime={meuTime} meusJogos={meusJogos} />} />
-          <Route path='/proximosJogos' element={<ProximosJogos meuTime={meuTime} jogos={todosOsJogos} meusJogos={meusJogos} />} />
-          <Route path='/todosOsJogos' element={<TodosOsJogos meuTime={meuTime} jogos={todosOsJogos} meusJogos={meusJogos} />} />
+          <Route path='/' element={<Login conjuntoUsuarios={conjuntoUsuarios} />} />
+          <Route path='/cadastro' element={<Cadastro conjuntoUsuarios={conjuntoUsuarios} />} />
+          <Route path='/perfil' element={<Perfil conjuntoUsuarios={conjuntoUsuarios} meuTime={usuarioAtual.getMeuTime()} meusJogos={meusJogos} nome={usuarioAtual.getNome()} sobrenome={usuarioAtual.getSobrenome()} />} />
+          <Route path='/anos' element={<Anos conjuntoUsuarios={conjuntoUsuarios} meuTime={usuarioAtual.getMeuTime()} meusJogos={meusJogos} />} />
+          <Route path='/estadios' element={<Estadios conjuntoUsuarios={conjuntoUsuarios} meuTime={usuarioAtual.getMeuTime()} meusJogos={meusJogos} />} />
+          <Route path='/adversarios' element={<Adversarios conjuntoUsuarios={conjuntoUsuarios} meuTime={usuarioAtual.getMeuTime()} meusJogos={meusJogos} />} />
+          <Route path='/proximosJogos' element={<ProximosJogos conjuntoUsuarios={conjuntoUsuarios} meuTime={usuarioAtual.getMeuTime()} meusJogos={meusJogos} jogos={todosOsJogos} />} />
+          <Route path='/todosOsJogos' element={<TodosOsJogos conjuntoUsuarios={conjuntoUsuarios} meuTime={usuarioAtual.getMeuTime()} meusJogos={meusJogos} jogos={todosOsJogos} />} />
         </Routes>
       </Router>
       <Footer />
