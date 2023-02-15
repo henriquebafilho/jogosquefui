@@ -101,7 +101,7 @@ function Times(time, data) {
                   break;
             case "Aparecidense":
                   nomeAtual = time;
-                  if(ano < 2022){
+                  if (ano < 2022) {
                         escudo = "Aparecidense2022";
                   } else {
                         escudo = time;
@@ -201,7 +201,7 @@ function Times(time, data) {
                   break;
             case "Botafogo":
                   nomeAtual = time;
-                  if(ano < 1942){
+                  if (ano < 1942) {
                         escudo = "Botafogo1942";
                   } else {
                         escudo = time;
@@ -211,7 +211,7 @@ function Times(time, data) {
                   break;
             case "Botafogo-SP":
                   nomeAtual = time;
-                  if(ano < 2021){
+                  if (ano < 2021) {
                         escudo = "Botafogo-SP2021";
                   } else {
                         escudo = time;
@@ -473,7 +473,7 @@ function Times(time, data) {
                   break;
             case "Flamengo":
                   nomeAtual = time;
-                  if(ano < 2018){
+                  if (ano < 2018) {
                         escudo = "Flamengo2018";
                   } else {
                         escudo = time;
@@ -507,9 +507,9 @@ function Times(time, data) {
                   break;
             case "Goiás":
                   nomeAtual = time;
-                  if(ano < 2019){
+                  if (ano < 2019) {
                         escudo = "Goiás2019";
-                  } else if(ano >= 2019 && ano <= 2020){
+                  } else if (ano >= 2019 && ano <= 2020) {
                         escudo = "Goiás2020";
                   } else {
                         escudo = time;
@@ -549,7 +549,7 @@ function Times(time, data) {
                   break;
             case "Independiente Del Valle":
                   nomeAtual = time;
-                  if(ano < 2019){
+                  if (ano < 2019) {
                         escudo = "IndependienteDelValle2019";
                   } else {
                         escudo = "IndependienteDelValle";
@@ -571,7 +571,7 @@ function Times(time, data) {
                   break;
             case "Internacional":
                   nomeAtual = time;
-                  if(ano < 2009){
+                  if (ano < 2009) {
                         escudo = "Internacional2009";
                   } else {
                         escudo = time;
@@ -707,7 +707,7 @@ function Times(time, data) {
                   break;
             case "Náutico":
                   nomeAtual = time;
-                  if(ano < 2008){
+                  if (ano < 2008) {
                         escudo = "Náutico2008";
                   } else {
                         escudo = time;
@@ -849,7 +849,7 @@ function Times(time, data) {
                   break;
             case "Resende":
                   nomeAtual = time;
-                  if(ano < 2020){
+                  if (ano < 2020) {
                         escudo = "Resende2020";
                   } else {
                         escudo = time;
@@ -865,7 +865,7 @@ function Times(time, data) {
                   break;
             case "River Plate":
                   nomeAtual = time;
-                  if(ano < 2020){
+                  if (ano < 2020) {
                         escudo = "RiverPlate2022";
                   } else {
                         escudo = "RiverPlate";
@@ -923,7 +923,7 @@ function Times(time, data) {
                   break;
             case "São Bernardo":
                   nomeAtual = time;
-                  if(ano < 2020){
+                  if (ano < 2020) {
                         escudo = "SãoBernardo2020";
                   } else {
                         escudo = "SãoBernardo";
@@ -959,6 +959,12 @@ function Times(time, data) {
                   nomeAtual = time;
                   escudo = "SãoRaimundo-RR";
                   backgroundColor = "#013fae";
+                  letterColor = "white";
+                  break;
+            case "Sergipe":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#d30a11";
                   letterColor = "white";
                   break;
             case "Shandong Luneng":
@@ -1065,7 +1071,7 @@ function Times(time, data) {
                   break;
             case "Vasco":
                   nomeAtual = time;
-                  if(ano < 2021){
+                  if (ano < 2021) {
                         escudo = "Vasco2021";
                   } else {
                         escudo = time;

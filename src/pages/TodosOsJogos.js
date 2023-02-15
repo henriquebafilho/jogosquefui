@@ -20,7 +20,6 @@ class TodosOsJogos extends Component {
   }
 
   async componentDidMount() {
-    this._isMounted = true;
     window.scrollTo(0, 0);
     this.setState({ isLoading: true })
     await this.getJogos();
@@ -29,7 +28,7 @@ class TodosOsJogos extends Component {
   }
 
   getJogos = async () => {
-    var jogosTerminados = [];
+    let jogosTerminados = [];
     this.props.jogos.map(function (i) {
       if (i[2] !== "" && i[3] !== "") {
         jogosTerminados.push(i);
@@ -39,9 +38,9 @@ class TodosOsJogos extends Component {
   }
 
   getAnos = async () => {
-    var jogos = this.state.jogos;
+    let jogos = this.state.jogos;
 
-    for (var i in jogos) {
+    for (let i in jogos) {
       const currentDate = new Date(jogos[i][5]);
       if (!this.state.anos.includes(currentDate.getFullYear())) {
         this.state.anos.push(currentDate.getFullYear());
@@ -86,8 +85,8 @@ class TodosOsJogos extends Component {
               <tbody>
                 {this.state.isLoading && <h1>Carregando...</h1>}
                 {!this.state.isLoading && this.state.anos.map(function (i) {
-                  var totalAno = common.getTotalAno(i, jogos);
-                  return <div>
+                  let totalAno = common.getTotalAno(i, jogos);
+                  return <div key={i}>
                     <button id='selectAno' onClick={() => buttonClickFunction(i)} style={{ borderColor: Times(meuTime).letterColor, borderStyle: 'solid', backgroundColor: Times(meuTime).backgroundColor, color: Times(meuTime).letterColor, width: '60vw' }}>
                       <div style={{ display: 'inline', padding: '10px', fontSize: '40px' }}>{i}</div>
                       <div style={{ paddingBottom: '5px', fontSize: '15px' }}>{totalAno} {totalAno > 1 ? "jogos" : "jogo"}</div>

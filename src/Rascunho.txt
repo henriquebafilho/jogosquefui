@@ -501,3 +501,5 @@ var jogo20230129 = ["Fluminense", "Botafogo", 0, 1, "Carioca", "2023-01-29", "Ma
 meusJogos.adicionaJogo(jogo20230129);
 var jogo20230201 = ["Botafogo", "Nova Iguaçu", 0, 0, "Carioca", "2023-02-01", "Luso Brasileiro", "Luís Castro", [""], [""], "https://www.youtube.com/embed/iD5R6X3GHyw"];
 jogos.push(jogo20230201);
+let jogo20230212 = ["Botafogo", "Bangu", 2, 0, "Carioca", "2023-02-12", "Luso Brasileiro", "Luís Castro", ["Tiquinho Soares", "Lucas, Piazón"], [""], "https://www.youtube.com/embed/KEOJIjORj9I"];
+jogos.push(jogo20230212);

@@ -1,11 +1,22 @@
-class ConjuntoUsuarios{
+import Usuario from "./Usuario";
+
+class ConjuntoUsuarios {
     usuarios = [];
 
-    getUsuarios(){
+    getUsuarios() {
         return this.usuarios;
     }
 
-    adicionaUsuario(usuario){
+    getUsuarioAtual() {
+        return this.usuarioAtual;
+    }
+
+    setUsuarioAtual(usuario) {
+        this.usuarioAtual = usuario;
+        console.log(this.usuarioAtual);
+    }
+
+    adicionaUsuario(usuario) {
         this.usuarios.push(usuario);
     }
 }

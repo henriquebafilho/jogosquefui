@@ -66,6 +66,7 @@ class Cadastro extends Component {
             this.setState({ 
                 nome: '',
                 sobrenome: '',
+                time: '',
                 emailCadastro: '',
                 senha1: '',
                 senha2: '',

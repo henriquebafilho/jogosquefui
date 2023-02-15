@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
+import { useHistory } from 'react-router-dom';
 import Cadastro from './Cadastro';
+import TodosOsJogos from './TodosOsJogos';
 
 class Login extends Component {
     constructor(props) {
@@ -9,7 +11,8 @@ class Login extends Component {
             email: '',
             senha: '',
             erro: '',
-            usuarios: ''
+            usuarios: '',
+            logado: false
         }
         this.onChange = this.onChange.bind(this);
     }
@@ -19,7 +22,6 @@ class Login extends Component {
         this.setState({
             usuarios: this.props.conjuntoUsuarios
         })
-        //console.log(this.props.conjuntoUsuarios);
     }
 
     buttonClick = async () => {
@@ -43,8 +45,8 @@ class Login extends Component {
         if (email === '' || senha === '' || usuario.length === 0) {
             this.setState({ erro: 'E-mail ou senha inválidos' })
         } else {
-            //verificar se os dados estão corretos
-            window.location.assign("/todosOsJogos");
+            this.props.conjuntoUsuarios.setUsuarioAtual(usuario);
+            this.setState({ logado: true });
         }
     }
 
@@ -60,6 +62,8 @@ class Login extends Component {
                     <button onClick={() => { this.loginSubmit(email, senha) }} style={{ width: '250px', padding: '10px', margin: '20px', backgroundColor: '#09ab4c', color: 'white', borderRadius: '7px' }} type="submit">Entrar</button>
                     <button style={{ fontSize: '20px', borderStyle: 'none', backgroundColor: '#030348', color: 'white', margin: '10px', textDecoration: 'underline', cursor: 'pointer' }} onClick={() => this.buttonClick()}>Não tem uma conta? Cadastre-se!</button>
                 </div> : <Cadastro conjuntoUsuarios={this.state.usuarios} />}
+                {this.state.logado && window.location.assign("/todosOsJogos") && 
+                <TodosOsJogos conjuntoUsuarios={this.props.conjuntoUsuarios} meuTime={"Flamengo"} meusJogos={[]} jogos={[]}/>}
             </>
         )
     }
