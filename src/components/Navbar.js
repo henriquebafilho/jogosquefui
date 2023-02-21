@@ -27,8 +27,8 @@ function Navbar(props) {
                             </Link>
                         </li>
                         {SidebarData.map((item, index) => {
-                            var meuTime = props.meuTime;
-                            return (<div>
+                            let meuTime = props.meuTime;
+                            return (<div key={item}>
                                 {item.title === "Anos" && <span style={{color: 'white'}}>Meus Jogos</span>}
                                 {item.title === "Próximos Jogos" && <span style={{color: 'white'}}>Meu Time</span>}
                                 <li key={index} className={item.cName}>

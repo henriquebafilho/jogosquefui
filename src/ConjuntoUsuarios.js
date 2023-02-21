@@ -1,7 +1,6 @@
-import Usuario from "./Usuario";
-
 class ConjuntoUsuarios {
     usuarios = [];
+    usuarioAtual;
 
     getUsuarios() {
         return this.usuarios;

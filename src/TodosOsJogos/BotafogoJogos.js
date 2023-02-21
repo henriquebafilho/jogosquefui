@@ -43,7 +43,7 @@ function jogos() {
     jogos.push(["Resende", "Botafogo", "", "", "Carioca", "2023-03-05", "Kleber Andrade"]);
     jogos.push(["Sergipe", "Botafogo", "", "", "Copa do Brasil", "2023-03-02", "Batistão"]);
     jogos.push(["Botafogo", "Flamengo", "", "", "Carioca", "2023-02-25", "Mané Garrincha"]);
-    jogos.push(["Vasco", "Botafogo", "", "", "Carioca", "2023-02-16", "Maracanã"]);
+    jogos.push(["Vasco", "Botafogo", 2, 0, "Carioca", "2023-02-16", "Maracanã"]);
     jogos.push(["Botafogo", "Bangu", 2, 0, "Carioca", "2023-02-11", "Luso Brasileiro"]);
     jogos.push(["Boavista", "Botafogo", 0, 4, "Carioca", "2023-02-05", "Mané Garrincha"]);
     jogos.push(["Botafogo", "Nova Iguaçu", 0, 0, "Carioca", "2023-02-01", "Luso Brasileiro"]);

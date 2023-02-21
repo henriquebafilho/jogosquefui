@@ -3,6 +3,10 @@ import Times from '../Times';
 import common from '../common';
 import ViewAno from './viewScreens/ViewAno';
 import Navbar from '../components/Navbar';
+import FlamengoJogos from '../TodosOsJogos/FlamengoJogos';
+import FluminenseJogos from '../TodosOsJogos/FluminenseJogos';
+import VascoJogos from '../TodosOsJogos/VascoJogos';
+import BotafogoJogos from '../TodosOsJogos/BotafogoJogos';
 
 class TodosOsJogos extends Component {
   constructor(props) {
@@ -28,8 +32,28 @@ class TodosOsJogos extends Component {
   }
 
   getJogos = async () => {
+    let todosOsJogos;
     let jogosTerminados = [];
-    this.props.jogos.map(function (i) {
+
+    switch (this.state.meuTime) {
+      case "Botafogo":
+        todosOsJogos = BotafogoJogos().reverse();
+        break;
+      case "Flamengo":
+        todosOsJogos = FlamengoJogos().reverse();
+        break;
+      case "Fluminense":
+        todosOsJogos = FluminenseJogos().reverse();
+        break;
+      case "Vasco":
+        todosOsJogos = VascoJogos().reverse();
+        break;
+      default:
+        console.error("Time não disponível.")
+        break;
+    }
+
+    todosOsJogos.map(function (i) {
       if (i[2] !== "" && i[3] !== "") {
         jogosTerminados.push(i);
       }
@@ -57,9 +81,9 @@ class TodosOsJogos extends Component {
   }
 
   getAnoJogos = async (ano) => {
-    var anoAtual = ano;
+    let anoAtual = ano;
 
-    for (var a = 0; a < this.state.jogos.length; a++) {
+    for (let a = 0; a < this.state.jogos.length; a++) {
       const currentDate = new Date(this.state.jogos[a][5]);
       if (anoAtual.toString().includes(currentDate.getFullYear())) {
         if (!this.state.jogosAno.includes(this.state.jogos[a])) {
@@ -76,7 +100,7 @@ class TodosOsJogos extends Component {
     return (
       <>
         {!this.props.fromView && <Navbar meuTime={meuTime} style={{ position: 'fixed' }} />}
-        {this.state.clicked ? <ViewAno flag="todosOsJogos" meuTime={this.props.meuTime} jogos={jogos} jogosAno={this.state.jogosAno} ano={this.state.anoAtual} meusJogos={this.props.meusJogos} /> :
+        {this.state.clicked ? <ViewAno conjuntoUsuarios={this.props.conjuntoUsuarios} flag="todosOsJogos" meuTime={this.props.meuTime} jogosAno={this.state.jogosAno} ano={this.state.anoAtual} meusJogos={this.props.meusJogos} /> :
           <div className="App-header" style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }}>
             <h1 style={{ padding: '20px' }}>Jogos do {Times(this.props.meuTime).nomeAtual}</h1>
             <img src={require('../escudos/' + Times(this.props.meuTime).escudo + '.png')} className="App-logo" alt={"Escudo do " + this.props.meuTime} style={{ width: '100px', height: '100px' }} />

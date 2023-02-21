@@ -7,10 +7,6 @@ import Adversarios from './pages/Adversarios.js';
 import Anos from './pages/Anos.js';
 import Estadios from './pages/Estadios.js';
 import Jogos from './MeusJogos';
-import FlamengoJogos from './TodosOsJogos/FlamengoJogos';
-import FluminenseJogos from './TodosOsJogos/FluminenseJogos';
-import VascoJogos from './TodosOsJogos/VascoJogos';
-import BotafogoJogos from './TodosOsJogos/BotafogoJogos';
 import Footer from './components/Footer';
 import Login from './pages/Login';
 import Cadastro from './pages/Cadastro';
@@ -19,28 +15,10 @@ import ConjuntoUsuarios from './ConjuntoUsuarios';
 
 function App() {
   let meusJogos = new Jogos();
-  let usuarioAtual = new Usuario("Leandro", "Silva", "Vasco", "", "", meusJogos);
+  let usuarioAtual = new Usuario("Leandro", "Silva", "Botafogo", "", "", meusJogos);
   let conjuntoUsuarios = new ConjuntoUsuarios();
   conjuntoUsuarios.setUsuarioAtual(usuarioAtual);
   let todosOsJogos = [];
-
-  switch (conjuntoUsuarios.getUsuarioAtual().getMeuTime()) {
-    case "Botafogo":
-      todosOsJogos = BotafogoJogos().reverse();
-      break;
-    case "Flamengo":
-      todosOsJogos = FlamengoJogos().reverse();
-      break;
-    case "Fluminense":
-      todosOsJogos = FluminenseJogos().reverse();
-      break;
-    case "Vasco":
-      todosOsJogos = VascoJogos().reverse();
-      break;
-    default:
-      console.error("Time não disponível.")
-      break;
-  }
 
   return (
     <>
