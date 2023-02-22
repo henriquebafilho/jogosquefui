@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import Times from '../Times';
 import common from '../common';
 import ViewAno from './viewScreens/ViewAno';
-import Navbar from '../components/Navbar';
 
 class Anos extends Component {
   constructor(props) {
@@ -65,7 +64,6 @@ class Anos extends Component {
 
     return (
       <>
-        {!this.props.fromView && <Navbar meuTime={meuTime} style={{ position: 'fixed' }} />}
         {this.state.clicked ? <ViewAno conjuntoUsuarios={this.props.conjuntoUsuarios} flag="meusJogos" meuTime={this.props.meuTime} meusJogos={meusJogos} jogosAno={this.state.jogosAno} ano={this.state.anoAtual} /> :
           <div className="App-header" style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }}>
             <h1>Anos</h1>

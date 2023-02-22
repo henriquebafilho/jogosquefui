@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import Times from '../Times';
 import common from '../common';
 import ViewEstadio from './viewScreens/ViewEstadio';
-import Navbar from '../components/Navbar';
 
 class Estadios extends Component {
   constructor(props) {
@@ -62,7 +61,6 @@ class Estadios extends Component {
 
     return (
       <>
-        {!this.props.fromView && <Navbar meuTime={meuTime} style={{ position: 'fixed' }} />}
         {this.state.clicked ? <ViewEstadio meuTime={this.props.meuTime} meusJogos={meusJogos} jogosEstadio={this.state.jogosEstadio} estadio={this.state.estadioAtual} /> :
           <div className="App-header" style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }}>
             <h1>Estádios</h1>

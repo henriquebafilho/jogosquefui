@@ -2,7 +2,6 @@ import React from 'react';
 import Times from '../Times';
 import LinhaJogo from '../components/LinhaJogo';
 import Estatisticas from '../components/Estatisticas';
-import Navbar from '../components/Navbar';
 
 function Perfil(props) {
   const meuTime = props.meuTime;
@@ -14,7 +13,6 @@ function Perfil(props) {
 
   return (
     <>
-      <Navbar meuTime={meuTime} style={{ position: 'fixed' }} />
       <div className="App-header" style={{ backgroundColor: Times(props.meuTime).backgroundColor }}>
         <div style={{ margin: '20px' }}>
           <img src={require('../escudos/' + Times(props.meuTime).escudo + '.png')} className="App-logo" alt={"Escudo do " + props.meuTime} style={{ verticalAlign: 'middle', width: '100px', height: '100px' }} />

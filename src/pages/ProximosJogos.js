@@ -44,7 +44,6 @@ class ProximosJogos extends Component {
         const jogos = this.state.proximosJogos;
         return (
             <>
-                <Navbar meuTime={meuTime} style={{ position: 'fixed' }} />
                 <div className="App-header" style={{ backgroundColor: Times(meuTime).backgroundColor }}>
                     <h1 style={{ color: Times(meuTime).letterColor, padding: '20px' }}>Próximos Jogos</h1>
                     <img src={require('../escudos/' + Times(meuTime).escudo + '.png')} className="App-logo" alt={"Escudo do " + meuTime} style={{ width: '100px', height: '100px' }} />

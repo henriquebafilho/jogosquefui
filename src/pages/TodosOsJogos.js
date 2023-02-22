@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import Times from '../Times';
 import common from '../common';
 import ViewAno from './viewScreens/ViewAno';
-import Navbar from '../components/Navbar';
 import FlamengoJogos from '../TodosOsJogos/FlamengoJogos';
 import FluminenseJogos from '../TodosOsJogos/FluminenseJogos';
 import VascoJogos from '../TodosOsJogos/VascoJogos';
@@ -99,7 +98,6 @@ class TodosOsJogos extends Component {
     const buttonClickFunction = (ano) => this.buttonClick(ano);
     return (
       <>
-        {!this.props.fromView && <Navbar meuTime={meuTime} style={{ position: 'fixed' }} />}
         {this.state.clicked ? <ViewAno conjuntoUsuarios={this.props.conjuntoUsuarios} flag="todosOsJogos" meuTime={this.props.meuTime} jogosAno={this.state.jogosAno} ano={this.state.anoAtual} meusJogos={this.props.meusJogos} /> :
           <div className="App-header" style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }}>
             <h1 style={{ padding: '20px' }}>Jogos do {Times(this.props.meuTime).nomeAtual}</h1>

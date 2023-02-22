@@ -1,6 +1,6 @@
 class ConjuntoUsuarios {
     usuarios = [];
-    usuarioAtual;
+    usuarioAtual = "";
 
     getUsuarios() {
         return this.usuarios;
