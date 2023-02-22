@@ -17,7 +17,7 @@ function Perfil(props) {
         <div style={{ margin: '20px' }}>
           <img src={require('../escudos/' + Times(props.meuTime).escudo + '.png')} className="App-logo" alt={"Escudo do " + props.meuTime} style={{ verticalAlign: 'middle', width: '100px', height: '100px' }} />
           <p style={{ display: 'inline', color: Times(props.meuTime).letterColor }}>
-            {props.nome} {props.sobrenome}
+            {props.conjuntoUsuarios.getUsuarioAtual().getNome()} {props.conjuntoUsuarios.getUsuarioAtual().getSobrenome()}
           </p>
         </div>
         <br />

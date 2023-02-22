@@ -1,19 +1,20 @@
 import React, { Component } from 'react';
 import Times from '../Times';
 import LinhaJogo from '../components/LinhaJogo';
-import Navbar from '../components/Navbar';
+import FlamengoJogos from '../TodosOsJogos/FlamengoJogos';
+import FluminenseJogos from '../TodosOsJogos/FluminenseJogos';
+import VascoJogos from '../TodosOsJogos/VascoJogos';
+import BotafogoJogos from '../TodosOsJogos/BotafogoJogos';
 
 class ProximosJogos extends Component {
     constructor(props) {
         super(props);
         this.state = {
             meuTime: props.meuTime,
-            jogos: props.jogos,
             proximosJogos: [],
             isLoading: false,
             clicked: false
         }
-        this.buttonClick = this.buttonClick.bind(this);
     }
 
     async componentDidMount() {
@@ -24,19 +25,34 @@ class ProximosJogos extends Component {
         this.setState({ isLoading: false })
     }
 
-    buttonClick = async (estadio) => {
-        this.setState({ clicked: true, estadioAtual: estadio });
-        await this.getEstadioJogos(estadio);
-    }
-
     getProximosJogos = async () => {
-        var jogos = [];
-        this.state.jogos.map(function (i) {
+        let todosOsJogos;
+        let proximosJogos = [];
+
+        switch (this.state.meuTime) {
+            case "Botafogo":
+                todosOsJogos = BotafogoJogos().reverse();
+                break;
+            case "Flamengo":
+                todosOsJogos = FlamengoJogos().reverse();
+                break;
+            case "Fluminense":
+                todosOsJogos = FluminenseJogos().reverse();
+                break;
+            case "Vasco":
+                todosOsJogos = VascoJogos().reverse();
+                break;
+            default:
+                console.error("Time não disponível.")
+                break;
+        }
+
+        todosOsJogos.map(function (i) {
             if (i[2] === "" && i[3] === "") {
-                jogos.push(i);
+                proximosJogos.push(i);
             }
         })
-        this.setState({ proximosJogos: jogos })
+        this.setState({ proximosJogos: proximosJogos })
     }
 
     render() {

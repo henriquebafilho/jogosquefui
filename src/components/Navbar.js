@@ -18,14 +18,15 @@ class Navbar extends Component {
         super(props);
         this.state = {
             title: false,
-            sidebar: false
+            sidebar: false,
+            meuTime: this.props.meuTime
         }
         this.buttonClick = this.buttonClick.bind(this);
         this.showSideBar = this.showSideBar.bind(this);
     }
 
     showSideBar = async () => {
-        this.setState({ sidebar: !this.state.sidebar });
+        this.setState({ sidebar: !this.state.sidebar, meuTime: this.props.conjuntoUsuarios.getUsuarioAtual().meuTime });
     }
 
     buttonClick = async (title) => {
@@ -52,14 +53,14 @@ class Navbar extends Component {
                                 </Link>
                             </li>
                             {SidebarData.map((item, index) => {
-                                let meuTime = this.props.meuTime;
+                                //let meuTime = this.props.meuTime;
                                 return (<div key={item}>
                                     {item.title === "Anos" && <span style={{ color: 'white' }}>Meus Jogos</span>}
                                     {item.title === "Próximos Jogos" && <span style={{ color: 'white' }}>Meu Time</span>}
                                     <li key={index} className={item.cName}>
                                         <button onClick={() => buttonClickFunction(item.title)}>
                                             {item.icon}
-                                            <span>{item.title === "Todos os Jogos" ? "Jogos do " + meuTime : item.title}</span>
+                                            <span>{item.title === "Todos os Jogos" ? "Jogos do " + this.state.meuTime : item.title}</span>
                                         </button>
                                     </li>
                                 </div>)
@@ -103,7 +104,7 @@ class Navbar extends Component {
                         meuTime={this.props.conjuntoUsuarios.getUsuarioAtual().meuTime}
                         meusJogos={this.props.conjuntoUsuarios.getUsuarioAtual().meusJogos}
                     />}
-                {this.state.title === "Sair" && this.props.conjuntoUsuarios.setUsuarioAtual("") &&
+                {this.state.title === "Sair" &&
                     <Login
                         conjuntoUsuarios={this.props.conjuntoUsuarios}
                         meuTime={this.props.conjuntoUsuarios.getUsuarioAtual().meuTime}
