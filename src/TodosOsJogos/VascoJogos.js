@@ -41,7 +41,7 @@ function VascoJogos() {
     jogos.push(["Atlético-MG", "Vasco", "", "", "Brasileirão", "2023-04-15", "Arena MRV"]);
     jogos.push(["Vasco", "Bangu", "", "", "Carioca", "2023-03-08", "São Januário"]);
     jogos.push(["Flamengo", "Vasco", "", "", "Carioca", "2023-03-05", "Maracanã"]);
-    jogos.push(["Vasco", "Boavista", "", "", "Carioca", "2023-02-25", "São Januário"]);
+    jogos.push(["Vasco", "Boavista", "", "", "Carioca", "2023-02-27", "São Januário"]);
     jogos.push(["Vasco", "Botafogo", 2, 0, "Carioca", "2023-02-16", "Maracanã"]);
     jogos.push(["Fluminense", "Vasco", 2, 0, "Carioca", "2023-02-12", "Maracanã"]);
     jogos.push(["Nova Iguaçu", "Vasco", 0, 2, "Carioca", "2023-02-07", "Mané Garrincha"]);

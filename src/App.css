@@ -22,7 +22,7 @@
   font-size: calc(10px + 2vmin);
 }
 
-#App-header-perfil {
+#App-header-todos {
   min-height: 100vh;
   display: flex;
   flex-direction: column;

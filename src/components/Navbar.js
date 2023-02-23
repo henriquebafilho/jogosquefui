@@ -36,7 +36,7 @@ class Navbar extends Component {
             this.props.conjuntoUsuarios.setUsuarioAtual("");
         }
 
-        const perfil = document.getElementById("App-header-perfil");
+        const perfil = document.getElementById("App-header-todos");
         perfil.style.display = 'none';
         this.setState({ title: title, sidebar: false });
     }
