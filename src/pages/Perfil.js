@@ -13,11 +13,11 @@ function Perfil(props) {
 
   return (
     <>
-      <div className="App-header" style={{ backgroundColor: Times(props.meuTime).backgroundColor }}>
+      <div id="App-header-perfil" style={{ backgroundColor: Times(props.meuTime).backgroundColor, display: 'flex' }}>
         <div style={{ margin: '20px' }}>
           <img src={require('../escudos/' + Times(props.meuTime).escudo + '.png')} className="App-logo" alt={"Escudo do " + props.meuTime} style={{ verticalAlign: 'middle', width: '100px', height: '100px' }} />
           <p style={{ display: 'inline', color: Times(props.meuTime).letterColor }}>
-            {props.conjuntoUsuarios.getUsuarioAtual().getNome()} {props.conjuntoUsuarios.getUsuarioAtual().getSobrenome()}
+            {props.conjuntoUsuarios.getUsuarioAtual().getNome().toUpperCase()} {props.conjuntoUsuarios.getUsuarioAtual().getSobrenome().toUpperCase()}
           </p>
         </div>
         <br />

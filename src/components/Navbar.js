@@ -26,10 +26,18 @@ class Navbar extends Component {
     }
 
     showSideBar = async () => {
-        this.setState({ sidebar: !this.state.sidebar, meuTime: this.props.conjuntoUsuarios.getUsuarioAtual().meuTime });
+        if (this.props.conjuntoUsuarios.getUsuarioAtual() !== "") {
+            this.setState({ sidebar: !this.state.sidebar, meuTime: this.props.conjuntoUsuarios.getUsuarioAtual().meuTime });
+        }
     }
 
     buttonClick = async (title) => {
+        if (title === "Sair") {
+            this.props.conjuntoUsuarios.setUsuarioAtual("");
+        }
+
+        const perfil = document.getElementById("App-header-perfil");
+        perfil.style.display = 'none';
         this.setState({ title: title, sidebar: false });
     }
 
@@ -37,7 +45,7 @@ class Navbar extends Component {
         const buttonClickFunction = (title) => this.buttonClick(title);
         const showSideBar = () => this.showSideBar();
 
-        return (
+        return ( 
             <>
                 <IconContext.Provider value={{ color: "white" }}>
                     <header className='navbar'>
@@ -53,7 +61,6 @@ class Navbar extends Component {
                                 </Link>
                             </li>
                             {SidebarData.map((item, index) => {
-                                //let meuTime = this.props.meuTime;
                                 return (<div key={item}>
                                     {item.title === "Anos" && <span style={{ color: 'white' }}>Meus Jogos</span>}
                                     {item.title === "Próximos Jogos" && <span style={{ color: 'white' }}>Meu Time</span>}

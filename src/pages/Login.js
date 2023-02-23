@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Cadastro from './Cadastro';
+import Perfil from './Perfil';
 import TodosOsJogos from './TodosOsJogos';
 
 class Login extends Component {
@@ -60,12 +61,12 @@ class Login extends Component {
                     <p style={{ fontSize: '20px', color: 'red' }}>{erro}</p>
                     <button onClick={() => { this.loginSubmit(email, senha) }} style={{ width: '250px', padding: '10px', margin: '20px', backgroundColor: '#09ab4c', color: 'white', borderRadius: '7px' }} type="submit">Entrar</button>
                     <button style={{ fontSize: '20px', borderStyle: 'none', backgroundColor: '#030348', color: 'white', margin: '10px', textDecoration: 'underline', cursor: 'pointer' }} onClick={() => this.cadastroClick()}>Não tem uma conta? Cadastre-se!</button>
-                </div> : this.state.telaAtual === 'cadastro' ? <Cadastro conjuntoUsuarios={this.state.usuarios} /> :
-                    <TodosOsJogos
+                </div> : this.state.telaAtual === 'cadastro' ? <Cadastro conjuntoUsuarios={this.state.usuarios} /> : this.state.telaAtual === 'logado' ?
+                    <Perfil
                         conjuntoUsuarios={this.props.conjuntoUsuarios}
                         meuTime={this.props.conjuntoUsuarios.getUsuarioAtual().meuTime}
                         meusJogos={this.props.conjuntoUsuarios.getUsuarioAtual().meusJogos}
-                    />}
+                    /> : ""}
             </>
         )
     }

@@ -12,7 +12,6 @@ class ConjuntoUsuarios {
 
     setUsuarioAtual(usuario) {
         this.usuarioAtual = usuario;
-        console.log(this.usuarioAtual);
     }
 
     adicionaUsuario(usuario) {
