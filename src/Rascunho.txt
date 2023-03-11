@@ -501,7 +501,7 @@ let jogo20230129 = ["Fluminense", "Botafogo", 0, 1, "Carioca", "2023-01-29", "Ma
 meusJogos.adicionaJogo(jogo20230129);
 let jogo20230201 = ["Botafogo", "Nova Iguaçu", 0, 0, "Carioca", "2023-02-01", "Luso Brasileiro", "Luís Castro", [""], [""], "https://www.youtube.com/embed/iD5R6X3GHyw"];
 meusJogos.adicionaJogo(jogo20230201);
-let jogo20230212 = ["Botafogo", "Bangu", 2, 0, "Carioca", "2023-02-11", "Luso Brasileiro", "Luís Castro", ["Tiquinho Soares", "Lucas, Piazón"], [""], "https://www.youtube.com/embed/KEOJIjORj9I"];
-meusJogos.adicionaJogo(jogo20230212);
+let jogo20230211 = ["Botafogo", "Bangu", 2, 0, "Carioca", "2023-02-11", "Luso Brasileiro", "Luís Castro", ["Tiquinho Soares", "Lucas, Piazón"], [""], "https://www.youtube.com/embed/KEOJIjORj9I"];
+meusJogos.adicionaJogo(jogo20230211);
 let jogo20230216 = ["Vasco", "Botafogo", 2, 0, "Carioca", "2023-02-16", "Maracanã", "Luís Castro", ["Alex Teixeira","Pedro Raúl"], [""], "https://www.youtube.com/embed/Wf7xdJvMtxk"];
 meusJogos.adicionaJogo(jogo20230216);

@@ -478,7 +478,7 @@ function Times(time, data) {
                   } else {
                         escudo = time;
                   }
-                  backgroundColor = "#A80000";
+                  backgroundColor = "#d30a11";
                   letterColor = "white";
                   break;
             case "Floresta-CE":
