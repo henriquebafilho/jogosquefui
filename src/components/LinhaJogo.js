@@ -17,7 +17,7 @@ class LinhaJogo extends Component {
         this._isMounted = true;
         window.scrollTo(0, 0);
         this.setState({ isLoading: true })
-        if (this.state.jogo[2] !== "" && this.state.jogo[3] !== "") {
+        if (this.state.jogo.golsMandante !== "" && this.state.jogo.golsVisitante !== "") {
             await this.getJogosQueFui();
         }
         this.setState({ isLoading: false })
@@ -25,7 +25,7 @@ class LinhaJogo extends Component {
 
     getJogosQueFui = async () => {
         for (var a = 0; a < this.props.meusJogos.getJogos().length; a++) {
-            if (this.state.jogo[5] === this.props.meusJogos.getJogos()[a][5]) {
+            if (this.state.jogo.data === this.props.meusJogos.getJogos()[a][5]) {
                 this.setState({ checked: true });
                 break;
             }
@@ -61,19 +61,19 @@ class LinhaJogo extends Component {
         const meusJogos = this.props.meusJogos;
         return (
             <div className='divJogo' style={{
-                background: "linear-gradient(90deg, " + Times(this.props.jogo[0]).backgroundColor + " 49%, " + Times(this.props.jogo[1]).backgroundColor + " 52%)",
+                background: "linear-gradient(90deg, " + Times(this.props.jogo.mandante).backgroundColor + " 49%, " + Times(this.props.jogo.visitante).backgroundColor + " 52%)",
                 padding: '15px',
                 marginBottom: '10px',
                 width: '60vw',
                 borderColor: Times(this.props.meuTime).backgroundColor === 'white' ? 'black' : 'white'
             }}>
                 <div>
-                    <p style={{ display: 'inline', textShadow: "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000", color: "white", marginBottom: '5px', fontWeight: 'bold' }}>{converteDia(this.props.jogo[5])}, {converteData(this.props.jogo[5])}</p>
-                    <p style={{ display: 'inline', textShadow: "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000", color: "white", marginBottom: '5px' }}> - {this.props.jogo[4]} - </p>
-                    <p style={{ display: 'inline', textShadow: "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000", color: "white", marginBottom: '5px', fontWeight: 'bold' }}>{this.props.jogo[6]}</p>
+                    <p style={{ display: 'inline', textShadow: "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000", color: "white", marginBottom: '5px', fontWeight: 'bold' }}>{converteDia(this.props.jogo.data)}, {converteData(this.props.jogo.data)}</p>
+                    <p style={{ display: 'inline', textShadow: "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000", color: "white", marginBottom: '5px' }}> - {this.props.jogo.campeonato} - </p>
+                    <p style={{ display: 'inline', textShadow: "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000", color: "white", marginBottom: '5px', fontWeight: 'bold' }}>{this.props.jogo.estadio}</p>
                 </div>
                 <div id='placar' style={{ display: 'flex', justifyContent: 'center', marginTop: '10px' }}>
-                    {(this.props.jogo[2] !== "" && this.props.jogo[3] !== "") && <div style={{ display: 'inline', textAlign: 'left' }}>
+                    {/* (this.props.jogo[2] !== "" && this.props.jogo[3] !== "") && <div style={{ display: 'inline', textAlign: 'left' }}>
                         <input
                             type="checkbox"
                             checked={checked}
@@ -93,19 +93,25 @@ class LinhaJogo extends Component {
                                 margin: '10px',
                                 position: 'absolute'
                             }} />
-                    </div>}
-                    <div style={{ paddingTop: '20px', paddingBottom: '20px', display: 'inline', width: "40%", textAlign: "right", fontSize: '25px', color: Times(this.props.jogo[0]).letterColor, textShadow: Times(this.props.jogo[0]).letterColor === "white" ? "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000" : "none", paddingRight: '5px' }}>
-                        {this.props.jogo[0].toUpperCase()}
+                    </div> */}
+                    <div style={{ paddingTop: '20px', paddingBottom: '20px', display: 'inline', width: "40%", textAlign: "right", fontSize: '25px', color: Times(this.props.jogo.mandante).letterColor, textShadow: Times(this.props.jogo.mandante).letterColor === "white" ? "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000" : "none", paddingRight: '5px' }}>
+                        {this.props.jogo.mandante.toUpperCase()}
                     </div>
-                    <img src={require('../escudos/' + Times(this.props.jogo[0], this.props.jogo[5]).escudo + '.png')} title={this.props.jogo[0]} style={{ display: 'inline-block', verticalAlign: 'middle', width: "5rem", height: "5rem" }} alt={this.props.jogo[0]} />
+                    <img src={require('../escudos/' + Times(this.props.jogo.mandante, this.props.jogo.data).escudo + '.png')} title={this.props.jogo.mandante} style={{ display: 'inline-block', verticalAlign: 'middle', width: "5rem", height: "5rem" }} alt={this.props.jogo.mandante} />
                     <div style={{ paddingTop: '10px', display: 'inline', minWidth: "100px", textAlign: "center", fontSize: '40px', textShadow: "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000", color: "white" }}>
-                        {' ' + this.props.jogo[2] + ' x ' + this.props.jogo[3] + ' '}
+                        {' ' + this.props.jogo.golsMandante + ' x ' + this.props.jogo.golsVisitante + ' '}
                     </div>
-                    <img src={require('../escudos/' + Times(this.props.jogo[1], this.props.jogo[5]).escudo + '.png')} title={this.props.jogo[1]} style={{ display: 'inline-block', verticalAlign: 'middle', width: "5rem", height: "5rem" }} alt={this.props.jogo[1]} />
-                    <div style={{ paddingTop: '20px', paddingBottom: '20px', display: 'inline', width: "40%", textAlign: "left", fontSize: '25px', color: Times(this.props.jogo[1]).letterColor, textShadow: Times(this.props.jogo[1]).letterColor === "white" ? "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000" : "none", paddingLeft: '5px' }}>
-                        {this.props.jogo[1].toUpperCase()}
+                    <img src={require('../escudos/' + Times(this.props.jogo.visitante, this.props.jogo.data).escudo + '.png')} title={this.props.jogo.visitante} style={{ display: 'inline-block', verticalAlign: 'middle', width: "5rem", height: "5rem" }} alt={this.props.jogo.visitante} />
+                    <div style={{ paddingTop: '20px', paddingBottom: '20px', display: 'inline', width: "40%", textAlign: "left", fontSize: '25px', color: Times(this.props.jogo.visitante).letterColor, textShadow: Times(this.props.jogo.visitante).letterColor === "white" ? "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000" : "none", paddingLeft: '5px' }}>
+                        {this.props.jogo.visitante.toUpperCase()}
                     </div>
                 </div>
+                {this.props.jogo.penaltis &&
+                    <div style={{ textAlign: "center", textShadow: "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000", color: "white" }}>
+                        <div>Pênaltis:</div>
+                        <div>3 x 4</div>
+                        {/* <div>{this.props.jogo.penaltis}</div> */}
+                    </div>}
             </div >
         )
     }
