@@ -30,7 +30,7 @@ const getTotalAno = (ano, jogos) => {
     var total = 0;
 
     for (var a in jogos) {
-        const currentDate = new Date(jogos[a][5]);
+        const currentDate = new Date(jogos[a].data);
         if (ano.toString().includes(currentDate.getFullYear())) {
             total += 1;
         }

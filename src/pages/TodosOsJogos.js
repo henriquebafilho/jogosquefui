@@ -52,19 +52,20 @@ class TodosOsJogos extends Component {
         break;
     }
 
-    todosOsJogos.map(function (i) {
-      if (i[2] !== "" && i[3] !== "") {
-        jogosTerminados.push(i);
+    todosOsJogos.forEach((jogo) => {
+      if (jogo.golsMandante !== "" && jogo.golsVisitante !== "") {
+        jogosTerminados.push(jogo);
       }
     })
-    this.setState({ jogos: jogosTerminados })
+
+    this.setState({ jogos: jogosTerminados });
   }
 
   getAnos = async () => {
     let jogos = this.state.jogos;
 
     for (let i in jogos) {
-      const currentDate = new Date(jogos[i][5]);
+      const currentDate = new Date(jogos[i].data);
       if (!this.state.anos.includes(currentDate.getFullYear())) {
         this.state.anos.push(currentDate.getFullYear());
       }
@@ -83,7 +84,7 @@ class TodosOsJogos extends Component {
     let anoAtual = ano;
 
     for (let a = 0; a < this.state.jogos.length; a++) {
-      const currentDate = new Date(this.state.jogos[a][5]);
+      const currentDate = new Date(this.state.jogos[a].data);
       if (anoAtual.toString().includes(currentDate.getFullYear())) {
         if (!this.state.jogosAno.includes(this.state.jogos[a])) {
           this.state.jogosAno.push(this.state.jogos[a]);

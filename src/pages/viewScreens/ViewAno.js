@@ -29,7 +29,7 @@ class ViewAno extends Component {
         const flag = this.state.flag;
         const buttonClickFunction = () => this.buttonClick();
         this.state.jogos.sort(function (a, b) {
-            return a[5] < b[5] ? -1 : a[5] > b[5] ? 1 : 0;
+            return a.data < b.data ? -1 : a.data > b.data ? 1 : 0;
         });
 
         return (
