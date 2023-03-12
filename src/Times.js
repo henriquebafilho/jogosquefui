@@ -489,7 +489,11 @@ function Times(time, data) {
                   break;
             case "Fluminense":
                   nomeAtual = time;
-                  escudo = time;
+                  if (ano >= 1902 && ano <= 1905) {
+                        escudo = "Fluminense1902";
+                  } else {
+                        escudo = time;
+                  }
                   backgroundColor = "#9f022f";
                   letterColor = "white";
                   break;

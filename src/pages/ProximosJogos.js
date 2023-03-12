@@ -48,7 +48,7 @@ class ProximosJogos extends Component {
         }
 
         todosOsJogos.map(function (i) {
-            if (i[2] === "" && i[3] === "") {
+            if (i.golsMandante === "" && i.golsVisitante === "") {
                 proximosJogos.push(i);
             }
         })
