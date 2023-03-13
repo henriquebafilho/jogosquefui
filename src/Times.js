@@ -772,7 +772,7 @@ function Times(time, data) {
                   backgroundColor = "black";
                   letterColor = "white";
                   break;
-            case "Operário":
+            case "Operário-PR":
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "black";

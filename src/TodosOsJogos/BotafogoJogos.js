@@ -258,9 +258,9 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Grêmio", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Brasileirão 2019", "data": "2019-06-12", "estadio": "Nilton Santos" });
     jogos.push({ "mandante": "CSA", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Brasileirão 2019", "data": "2019-06-09", "estadio": "Rei Pelé" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Vasco", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Brasileirão 2019", "data": "2019-06-02", "estadio": "Nilton Santos" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "Sol de América", "golsMandante": 4, "golsVisitante": 0, "campeonato": "Copa Sul-Americana 2019", "data": "2019-05-29", "estadio": "Nilton Santos" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Sol de America", "golsMandante": 4, "golsVisitante": 0, "campeonato": "Copa Sul-Americana 2019", "data": "2019-05-29", "estadio": "Nilton Santos" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Palmeiras", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Brasileirão 2019", "data": "2019-05-25", "estadio": "Nilton Santos" });
-    jogos.push({ "mandante": "Sol de América", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Copa Sul-Americana 2019", "data": "2019-05-22", "estadio": "Luis Afonso Giagni" });
+    jogos.push({ "mandante": "Sol de America", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Copa Sul-Americana 2019", "data": "2019-05-22", "estadio": "Luis Afonso Giagni" });
     jogos.push({ "mandante": "Goiás", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Brasileirão 2019", "data": "2019-05-19", "estadio": "Serra Dourada" });
     jogos.push({ "mandante": "Fluminense", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Brasileirão 2019", "data": "2019-05-11", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Fortaleza", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Brasileirão 2019", "data": "2019-05-05", "estadio": "Nilton Santos" });
@@ -394,10 +394,10 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Ponte Preta", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Brasileirão 2017", "data": "2017-05-21", "estadio": "Nilton Santos" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Atlético Nacional", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Libertadores 2017", "data": "2017-05-18", "estadio": "Nilton Santos" });
     jogos.push({ "mandante": "Grêmio", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Brasileirão 2017", "data": "2017-05-14", "estadio": "Arena do Grêmio" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "Barcelona SC", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Libertadores 2017", "data": "2017-05-02", "estadio": "Nilton Santos" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Barcelona de Guayaquil", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Libertadores 2017", "data": "2017-05-02", "estadio": "Nilton Santos" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Sport", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Copa do Brasil 2017", "data": "2017-04-26", "estadio": "Nilton Santos" });
     jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Carioca 2017", "data": "2017-04-23", "estadio": "Maracanã" });
-    jogos.push({ "mandante": "Barcelona SC", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Libertadores 2017", "data": "2017-04-20", "estadio": "Monumental Banco Pichincha" });
+    jogos.push({ "mandante": "Barcelona de Guayaquil", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Libertadores 2017", "data": "2017-04-20", "estadio": "Monumental Banco Pichincha" });
     jogos.push({ "mandante": "Vasco", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Carioca 2017", "data": "2017-04-16", "estadio": "Nilton Santos" });
     jogos.push({ "mandante": "Atlético Nacional", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Libertadores 2017", "data": "2017-04-13", "estadio": "Atanasio Girardot" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Fluminense", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Carioca 2017", "data": "2017-04-09", "estadio": "Nilton Santos" });
@@ -590,9 +590,9 @@ function jogos() {
     jogos.push({ "mandante": "San Lorenzo", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 0, "campeonato": "Libertadores 2014", "data": "2014-04-09", "estadio": "Nuevo Gasometro" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Unión Española", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Libertadores 2014", "data": "2014-04-02", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Nova Iguaçu", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Carioca 2014", "data": "2014-03-22", "estadio": "Moça Bonita" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "Independiente del Valle", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Libertadores 2014", "data": "2014-03-18", "estadio": "Maracanã" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Independiente Del Valle", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Libertadores 2014", "data": "2014-03-18", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Boavista", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Carioca 2014", "data": "2014-03-15", "estadio": "Bacaxá" });
-    jogos.push({ "mandante": "Independiente del Valle", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Libertadores 2014", "data": "2014-03-12", "estadio": "General Rumiñahui" });
+    jogos.push({ "mandante": "Independiente Del Valle", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Libertadores 2014", "data": "2014-03-12", "estadio": "General Rumiñahui" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Flamengo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Carioca 2014", "data": "2014-03-09", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Audax Rio", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Carioca 2014", "data": "2014-03-06", "estadio": "Moça Bonita" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Macaé", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Carioca 2014", "data": "2014-03-01", "estadio": "Moça Bonita" });
