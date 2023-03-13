@@ -61,7 +61,7 @@ class LinhaJogo extends Component {
         const meusJogos = this.props.meusJogos;
         return (
             <div className='divJogo' style={{
-                background: "linear-gradient(90deg, " + Times(this.props.jogo.mandante).backgroundColor + " 49%, " + Times(this.props.jogo.visitante).backgroundColor + " 52%)",
+                background: "linear-gradient(90deg, " + Times(this.props.jogo.mandante, this.props.jogo.data).backgroundColor + " 49%, " + Times(this.props.jogo.visitante, this.props.jogo.data).backgroundColor + " 52%)",
                 padding: '15px',
                 marginBottom: '10px',
                 width: '60vw',
@@ -94,7 +94,7 @@ class LinhaJogo extends Component {
                                 position: 'absolute'
                             }} />
                     </div> */}
-                    <div style={{ paddingTop: '20px', paddingBottom: '20px', display: 'inline', width: "40%", textAlign: "right", fontSize: '25px', color: Times(this.props.jogo.mandante).letterColor, textShadow: Times(this.props.jogo.mandante).letterColor === "white" ? "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000" : "none", paddingRight: '5px' }}>
+                    <div style={{ paddingTop: '20px', paddingBottom: '20px', display: 'inline', width: "40%", textAlign: "right", fontSize: '25px', color: Times(this.props.jogo.mandante, this.props.jogo.data).letterColor, textShadow: Times(this.props.jogo.mandante, this.props.jogo.data).letterColor === "white" ? "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000" : "none", paddingRight: '5px' }}>
                         {this.props.jogo.mandante.toUpperCase()}
                     </div>
                     <img src={require('../escudos/' + Times(this.props.jogo.mandante, this.props.jogo.data).escudo + '.png')} title={this.props.jogo.mandante} style={{ display: 'inline-block', verticalAlign: 'middle', width: "5rem", height: "5rem" }} alt={this.props.jogo.mandante} />
@@ -102,15 +102,14 @@ class LinhaJogo extends Component {
                         {' ' + this.props.jogo.golsMandante + ' x ' + this.props.jogo.golsVisitante + ' '}
                     </div>
                     <img src={require('../escudos/' + Times(this.props.jogo.visitante, this.props.jogo.data).escudo + '.png')} title={this.props.jogo.visitante} style={{ display: 'inline-block', verticalAlign: 'middle', width: "5rem", height: "5rem" }} alt={this.props.jogo.visitante} />
-                    <div style={{ paddingTop: '20px', paddingBottom: '20px', display: 'inline', width: "40%", textAlign: "left", fontSize: '25px', color: Times(this.props.jogo.visitante).letterColor, textShadow: Times(this.props.jogo.visitante).letterColor === "white" ? "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000" : "none", paddingLeft: '5px' }}>
+                    <div style={{ paddingTop: '20px', paddingBottom: '20px', display: 'inline', width: "40%", textAlign: "left", fontSize: '25px', color: Times(this.props.jogo.visitante, this.props.jogo.data).letterColor, textShadow: Times(this.props.jogo.visitante, this.props.jogo.data).letterColor === "white" ? "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000" : "none", paddingLeft: '5px' }}>
                         {this.props.jogo.visitante.toUpperCase()}
                     </div>
                 </div>
                 {this.props.jogo.penaltis &&
                     <div style={{ textAlign: "center", textShadow: "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000", color: "white" }}>
                         <div>Pênaltis:</div>
-                        <div>3 x 4</div>
-                        {/* <div>{this.props.jogo.penaltis}</div> */}
+                        <div>{this.props.jogo.penaltis}</div>
                     </div>}
             </div >
         )

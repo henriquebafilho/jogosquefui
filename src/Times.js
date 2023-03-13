@@ -175,9 +175,13 @@ function Times(time, data) {
                   backgroundColor = "#d30a11";
                   letterColor = "white";
                   break;
-            case "Boavista":
+            case "Boavista": case "Barreira":
                   nomeAtual = time;
-                  escudo = time;
+                  if(ano < 2004){
+                        escudo = "Barreira";
+                  } else {
+                        escudo = time;
+                  }
                   backgroundColor = "#00913c";
                   letterColor = "white";
                   break;
@@ -247,6 +251,12 @@ function Times(time, data) {
                   nomeAtual = time;
                   escudo = "BrasildePelotas";
                   backgroundColor = "#d30a11";
+                  letterColor = "black";
+                  break;
+            case "Brasiliense":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#fede00";
                   letterColor = "black";
                   break;
             case "Brusque":
@@ -489,12 +499,19 @@ function Times(time, data) {
                   break;
             case "Fluminense":
                   nomeAtual = time;
-                  if (ano >= 1902 && ano <= 1905) {
+                  if (ano >= 1902 && ano < 1905) {
                         escudo = "Fluminense1902";
+                        backgroundColor = "grey";
+                  } else if(ano >= 1905 && ano < 1950){
+                        escudo = "Fluminense1905";
+                        backgroundColor = "#9f022f";
+                  } else if(ano >= 1950 && ano < 2002){
+                        escudo = "Fluminense1950";
+                        backgroundColor = "#9f022f";
                   } else {
                         escudo = time;
+                        backgroundColor = "#9f022f";
                   }
-                  backgroundColor = "#9f022f";
                   letterColor = "white";
                   break;
             case "Fortaleza":
@@ -861,6 +878,12 @@ function Times(time, data) {
                   backgroundColor = "white";
                   letterColor = "black";
                   break;
+            case "Rio Cricket":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#088a4e";
+                  letterColor = "white";
+                  break;
             case "Rio Preto":
                   nomeAtual = time;
                   escudo = "RioPreto";
@@ -1075,8 +1098,12 @@ function Times(time, data) {
                   break;
             case "Vasco":
                   nomeAtual = time;
-                  if (ano < 2021) {
-                        escudo = "Vasco2021";
+                  if (ano < 1920) {
+                        escudo = "Vasco1903";
+                  } else if (ano >= 1920 && ano < 1980) {
+                        escudo = "Vasco1920";
+                  } else if (ano >= 1980 && ano < 2021) {
+                        escudo = "Vasco1980";
                   } else {
                         escudo = time;
                   }
