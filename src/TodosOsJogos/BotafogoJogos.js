@@ -1853,8 +1853,8 @@ function jogos() {
     jogos.push({ "mandante": "Internacional", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Brasileirão 1993", "data": "1993-09-11", "estadio": "Beira Rio" });
     jogos.push({ "mandante": "Atlético-MG", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Copa Conmebol 93", "data": "1993-09-08", "estadio": "" });
     jogos.push({ "mandante": "Bragantino", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Brasileirão 1993", "data": "1993-09-06", "estadio": "Nabi Abi Chedid" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "Caracas FC", "golsMandante": 3, "golsVisitante": 0, "campeonato": "Copa Conmebol 93", "data": "1993-09-01", "estadio": "Caio Martins" });
-    jogos.push({ "mandante": "Caracas FC", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Copa Conmebol 93", "data": "1993-08-25", "estadio": "" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Caracas", "golsMandante": 3, "golsVisitante": 0, "campeonato": "Copa Conmebol 93", "data": "1993-09-01", "estadio": "Caio Martins" });
+    jogos.push({ "mandante": "Caracas", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Copa Conmebol 93", "data": "1993-08-25", "estadio": "" });
     jogos.push({ "mandante": "Bragantino", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 3, "campeonato": "Copa Conmebol 93", "data": "1993-08-20", "estadio": "Nabi Abi Chedid" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Bragantino", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Copa Conmebol 93", "data": "1993-08-11", "estadio": "Caio Martins" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Portuguesa", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Rio-São Paulo 93", "data": "1993-07-28", "estadio": "Caio Martins" });

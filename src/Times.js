@@ -43,6 +43,12 @@ function Times(time, data) {
                   backgroundColor = "#01904e";
                   letterColor = "white";
                   break;
+            case "América de Cali":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#d30a11";
+                  letterColor = "white";
+                  break;
             case "América-MG":
                   nomeAtual = time;
                   escudo = time;
@@ -177,7 +183,7 @@ function Times(time, data) {
                   break;
             case "Boavista": case "Barreira":
                   nomeAtual = time;
-                  if(ano < 2004){
+                  if (ano < 2004) {
                         escudo = "Barreira";
                   } else {
                         escudo = time;
@@ -290,6 +296,12 @@ function Times(time, data) {
                   letterColor = "white";
                   break;
             case "Caracas":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#d30a11";
+                  letterColor = "white";
+                  break;
+            case "Cardoso Moreira":
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#d30a11";
@@ -502,10 +514,10 @@ function Times(time, data) {
                   if (ano >= 1902 && ano < 1905) {
                         escudo = "Fluminense1902";
                         backgroundColor = "grey";
-                  } else if(ano >= 1905 && ano < 1950){
+                  } else if (ano >= 1905 && ano < 1950) {
                         escudo = "Fluminense1905";
                         backgroundColor = "#9f022f";
-                  } else if(ano >= 1950 && ano < 2002){
+                  } else if (ano >= 1950 && ano < 2002) {
                         escudo = "Fluminense1950";
                         backgroundColor = "#9f022f";
                   } else {
@@ -600,6 +612,12 @@ function Times(time, data) {
                   backgroundColor = "#d30a11";
                   letterColor = "white";
                   break;
+            case "Ipatinga":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#048439";
+                  letterColor = "white";
+                  break;
             case "Ituano":
                   nomeAtual = time;
                   escudo = time;
@@ -671,6 +689,12 @@ function Times(time, data) {
                   escudo = time;
                   backgroundColor = "#fde900";
                   letterColor = "#13007c";
+                  break;
+            case "Mangueira":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#d30a11";
+                  letterColor = "white";
                   break;
             case "Mesquita":
                   nomeAtual = time;
@@ -890,6 +914,12 @@ function Times(time, data) {
                   backgroundColor = "#00923f";
                   letterColor = "white";
                   break;
+            case "River-PI":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#d30a11";
+                  letterColor = "white";
+                  break;
             case "River Plate":
                   nomeAtual = time;
                   if (ano < 2020) {
@@ -1094,6 +1124,12 @@ function Times(time, data) {
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#0d80bf";
+                  letterColor = "white";
+                  break;
+            case "Valencia":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#d77000";
                   letterColor = "white";
                   break;
             case "Vasco":
