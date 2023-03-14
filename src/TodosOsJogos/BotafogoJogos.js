@@ -209,6 +209,8 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Atlético-MG", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Brasileirão 2020", "data": "2020-08-19", "estadio": "Nilton Santos" });
     jogos.push({ "mandante": "Fortaleza", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Brasileirão 2020", "data": "2020-08-16", "estadio": "Castelão-CE" });
     jogos.push({ "mandante": "Red Bull Bragantino", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Brasileirão 2020", "data": "2020-08-12", "estadio": "Nabi Abi Chedid" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Fluminense", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Carioca 2020", "data": "2020-08-01", "estadio": "Nilton Santos" });
+    jogos.push({ "mandante": "Fluminense", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Amistoso", "data": "2020-07-25", "estadio": "Nilton Santos" });
     jogos.push({ "mandante": "Fluminense", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Carioca 2020", "data": "2020-07-05", "estadio": "Nilton Santos" });
     jogos.push({ "mandante": "Portuguesa-RJ", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Carioca 2020", "data": "2020-07-01", "estadio": "Luso Brasileiro" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Cabofriense", "golsMandante": 6, "golsVisitante": 2, "campeonato": "Carioca 2020", "data": "2020-06-28", "estadio": "Nilton Santos" });
