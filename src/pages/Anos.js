@@ -77,7 +77,7 @@ class Anos extends Component {
                     return <div>
                       <button id='selectAno' onClick={() => buttonClickFunction(i)} style={{ borderColor: Times(meuTime).letterColor, borderStyle: 'solid', backgroundColor: Times(meuTime).backgroundColor, color: Times(meuTime).letterColor, width: '60vw' }}>
                         <div style={{ display: 'inline', padding: '10px', fontSize: '40px' }}>{i}</div>
-                        <div style={{ paddingBottom: '5px', fontSize: '15px' }}>{totalAno} {totalAno > 1 ? "jogos" : "jogo"}</div>
+                        <div style={{ paddingBottom: '5px', fontSize: '15px', fontWeight: '100' }}>{totalAno} {totalAno > 1 ? "jogos" : "jogo"}</div>
                       </button>
                     </div>
                   }) : <div>
