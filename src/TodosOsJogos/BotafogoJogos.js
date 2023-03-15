@@ -1525,7 +1525,7 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Palmeiras", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Copa Brasil 1999", "data": "1999-06-11", "estadio": "Maracanã", "penaltis": "4 x 2" });
     jogos.push({ "mandante": "Fluminense", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Carioca 1999", "data": "1999-06-03", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Vasco", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Carioca 1999", "data": "1999-05-30", "estadio": "Maracanã" });
-    jogos.push({ "mandante": "Palmeiras", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Copa Brasil 1999", "data": "1999-05-28", "estadio": "Palestra Itália" });
+    jogos.push({ "mandante": "Palmeiras", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Copa Brasil 1999", "data": "1999-05-28", "estadio": "Parque Antártica" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Madureira", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Carioca 1999", "data": "1999-05-26", "estadio": "Caio Martins" });
     jogos.push({ "mandante": "Bangu", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Carioca 1999", "data": "1999-05-23", "estadio": "Moça Bonita" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Olaria", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Carioca 1999", "data": "1999-05-19", "estadio": "Maracanã" });
