@@ -526,6 +526,12 @@ function Times(time, data) {
                   }
                   letterColor = "white";
                   break;
+            case "Fluminense Nova Friburgo":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#20418e";
+                  letterColor = "white";
+                  break;
             case "Fortaleza":
                   nomeAtual = time;
                   escudo = time;
@@ -619,6 +625,12 @@ function Times(time, data) {
                   letterColor = "white";
                   break;
             case "Ituano":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#d30a11";
+                  letterColor = "black";
+                  break;
+            case "Joinville":
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#d30a11";
@@ -758,6 +770,16 @@ function Times(time, data) {
                         escudo = time;
                   }
                   backgroundColor = "#d30a11";
+                  letterColor = "white";
+                  break;
+            case "Newcastle":
+                  nomeAtual = time;
+                  if (ano < 1988) {
+                        escudo = "Newcastle1988";
+                  } else {
+                        escudo = time;
+                  }
+                  backgroundColor = "black";
                   letterColor = "white";
                   break;
             case "Nova Iguaçu":
