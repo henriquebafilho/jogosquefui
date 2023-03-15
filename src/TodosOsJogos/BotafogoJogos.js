@@ -984,7 +984,7 @@ function jogos() {
     jogos.push({ "mandante": "Náutico", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 0, "campeonato": "Brasileirão 2008", "data": "2008-06-01", "estadio": "Aflitos" });
     jogos.push({ "mandante": "Corinthians", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Copa Brasil 2008", "data": "2008-05-29", "estadio": "Morumbi", "penaltis": "5 x 4" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Vasco", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Brasileirão 2008", "data": "2008-05-25", "estadio": "Nilton Santos" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "Corinthians", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Copa Brasil 2008", "data": "2008-05-20", "estadio": "Maracanã" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Corinthians", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Copa Brasil 2008", "data": "2008-05-20", "estadio": "Nilton Santos" });
     jogos.push({ "mandante": "Cruzeiro", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Brasileirão 2008", "data": "2008-05-17", "estadio": "Mineirão" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Atlético-MG", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Copa Brasil 2008", "data": "2008-05-14", "estadio": "Nilton Santos" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Sport", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Brasileirão 2008", "data": "2008-05-11", "estadio": "Nilton Santos" });
