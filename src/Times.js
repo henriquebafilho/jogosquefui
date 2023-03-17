@@ -1244,6 +1244,12 @@ function Times(time, data) {
                   backgroundColor = "#ff6600";
                   letterColor = "white";
                   break;
+            case "Síria":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#d30a11";
+                  letterColor = "white";
+                  break;
             case "Sobradinho":
                   nomeAtual = time;
                   escudo = time;
@@ -1434,7 +1440,7 @@ function Times(time, data) {
                   break;
             case "Yamaha":
                   nomeAtual = time;
-                  escudo = "escudo";
+                  escudo = time;
                   backgroundColor = "#003a94";
                   letterColor = "white";
                   break;
