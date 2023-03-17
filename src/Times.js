@@ -343,6 +343,12 @@ function Times(time, data) {
                   backgroundColor = "#fffc03";
                   letterColor = "black";
                   break;
+            case "Cerezo Osaka":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#1d237b";
+                  letterColor = "white";
+                  break;
             case "Cerro Porteño":
                   nomeAtual = time;
                   escudo = "CerroPorteño";
@@ -386,6 +392,12 @@ function Times(time, data) {
                   letterColor = "white";
                   break;
             case "Corinthians":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "black";
+                  letterColor = "white";
+                  break;
+            case "Corisabbá":
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "black";
@@ -1093,6 +1105,12 @@ function Times(time, data) {
                   escudo = "SãoCaetano";
                   backgroundColor = "#212568";
                   letterColor = "white";
+                  break;
+            case "São Cristóvão":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "black";
+                  letterColor = "#dd8aaf";
                   break;
             case "São Paulo":
                   nomeAtual = time;
