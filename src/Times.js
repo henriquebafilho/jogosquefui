@@ -67,6 +67,12 @@ function Times(time, data) {
                   backgroundColor = "#d30a11";
                   letterColor = "white";
                   break;
+            case "América de Três Rios":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#d30a11";
+                  letterColor = "white";
+                  break;
             case "América-RN":
                   nomeAtual = time;
                   escudo = time;
@@ -301,6 +307,12 @@ function Times(time, data) {
                   backgroundColor = "#d30a11";
                   letterColor = "black";
                   break;
+            case "Campo Grande-RJ":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "black";
+                  letterColor = "white";
+                  break;    
             case "Capivariano":
                   nomeAtual = time;
                   escudo = time;
@@ -784,6 +796,12 @@ function Times(time, data) {
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#003a94";
+                  letterColor = "white";
+                  break;
+            case "Minervén FC":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#18407D";
                   letterColor = "white";
                   break;
             case "Mirassol":
