@@ -2003,7 +2003,7 @@ function jogos() {
     jogos.push({ "mandante": "Náutico", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Brasileirão 1990", "data": "1990-09-16", "estadio": "Aflitos" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Grêmio", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Brasileirão 1990", "data": "1990-09-08", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Inter de Limeira", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Brasileirão 1990", "data": "1990-09-02", "estadio": "Limeirão" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "São José", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Brasileirão 1990", "data": "1990-08-26", "estadio": "Caio Martins" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "São José-SP", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Brasileirão 1990", "data": "1990-08-26", "estadio": "Caio Martins" });
     jogos.push({ "mandante": "Cruzeiro", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Brasileirão 1990", "data": "1990-08-19", "estadio": "Mineirão" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Vasco", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Carioca 1990", "data": "1990-07-29", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Bahia", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Copa Brasil 1990", "data": "1990-07-15", "estadio": "Caio Martins" });
@@ -2184,7 +2184,7 @@ function jogos() {
     jogos.push({ "mandante": "Portuguesa", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Brasileirão 1986", "data": "1986-10-02", "estadio": "" });
     jogos.push({ "mandante": "Palmeiras", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Brasileirão 1986", "data": "1986-09-30", "estadio": "" });
     jogos.push({ "mandante": "CSA", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Brasileirão 1986", "data": "1986-09-24", "estadio": "" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "Alecrim", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Brasileirão 1986", "data": "1986-09-18", "estadio": "" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Alecrim-RN", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Brasileirão 1986", "data": "1986-09-18", "estadio": "" });
     jogos.push({ "mandante": "Vitória", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Brasileirão 1986", "data": "1986-09-13", "estadio": "" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Nacional-AM", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Brasileirão 1986", "data": "1986-09-10", "estadio": "Caio Martins" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Fortaleza", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Brasileirão 1986", "data": "1986-09-06", "estadio": "" });
@@ -2371,9 +2371,9 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Santos", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Torneio dos Campeões 82", "data": "1982-04-24", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Treze", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Brasileirão 1982", "data": "1982-03-24", "estadio": "Caio Martins" });
     jogos.push({ "mandante": "Londrina", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Brasileirão 1982", "data": "1982-03-17", "estadio": "" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "São José", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Brasileirão 1982", "data": "1982-03-14", "estadio": "" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "São José-SP", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Brasileirão 1982", "data": "1982-03-14", "estadio": "" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Londrina", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Brasileirão 1982", "data": "1982-03-11", "estadio": "" });
-    jogos.push({ "mandante": "São José", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Brasileirão 1982", "data": "1982-03-07", "estadio": "" });
+    jogos.push({ "mandante": "São José-SP", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Brasileirão 1982", "data": "1982-03-07", "estadio": "Martins Pereira" });
     jogos.push({ "mandante": "Treze", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Brasileirão 1982", "data": "1982-02-28", "estadio": "" });
     jogos.push({ "mandante": "Guarani", "visitante": "Botafogo", "golsMandante": 4, "golsVisitante": 1, "campeonato": "Brasileirão 1982", "data": "1982-02-14", "estadio": "" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Ceará", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Brasileirão 1982", "data": "1982-02-10", "estadio": "Caio Martins" });
