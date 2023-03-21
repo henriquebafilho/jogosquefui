@@ -2840,11 +2840,11 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Palmeiras", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Libertadores 73", "data": "1973-03-29", "estadio": "" });
     jogos.push({ "mandante": "Fluminense", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Carioca 1973", "data": "1973-03-25", "estadio": "" });
     jogos.push({ "mandante": "São Cristóvão", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Carioca 1973", "data": "1973-03-22", "estadio": "" });
-    jogos.push({ "mandante": "Nacional", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Libertadores 73", "data": "1973-03-17", "estadio": "" });
+    jogos.push({ "mandante": "Nacional-URU", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Libertadores 73", "data": "1973-03-17", "estadio": "" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Palmeiras", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Libertadores 73", "data": "1973-03-14", "estadio": "" });
     jogos.push({ "mandante": "Peñarol", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Libertadores 73", "data": "1973-03-14", "estadio": "" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Peñarol", "golsMandante": 4, "golsVisitante": 1, "campeonato": "Libertadores 73", "data": "1973-03-10", "estadio": "" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "Nacional", "golsMandante": 3, "golsVisitante": 2, "campeonato": "Libertadores 73", "data": "1973-02-24", "estadio": "" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Nacional-URU", "golsMandante": 3, "golsVisitante": 2, "campeonato": "Libertadores 73", "data": "1973-02-24", "estadio": "" });
     jogos.push({ "mandante": "Palmeiras", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 2, "campeonato": "Libertadores 73", "data": "1973-02-17", "estadio": "" });
     jogos.push({ "mandante": "Palmeiras", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Brasileirão 1972", "data": "1972-12-23", "estadio": "Morumbi" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Corinthians", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Brasileirão 1972", "data": "1972-12-20", "estadio": "Maracanã" });

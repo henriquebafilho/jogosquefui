@@ -49,6 +49,12 @@ function Times(time, data) {
                   backgroundColor = "#003a94";
                   letterColor = "white";
                   break;
+            case "Alianza Lima":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#162545";
+                  letterColor = "white";
+                  break;
             case "Altos-PI":
                   nomeAtual = time;
                   escudo = time;
@@ -331,6 +337,12 @@ function Times(time, data) {
                   backgroundColor = "black";
                   letterColor = "white";
                   break;    
+            case "Canto do Rio":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#101377";
+                  letterColor = "white";
+                  break;    
             case "Capivariano":
                   nomeAtual = time;
                   escudo = time;
@@ -384,6 +396,12 @@ function Times(time, data) {
                   escudo = "CerroPorteño";
                   backgroundColor = "#c40215";
                   letterColor = "white";
+                  break;
+            case "CEUB":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#FFFF54";
+                  letterColor = "#415DA6";
                   break;
             case "Chapecoense":
                   nomeAtual = time;
@@ -589,6 +607,12 @@ function Times(time, data) {
                   backgroundColor = "#d30a11";
                   letterColor = "white";
                   break;
+            case "Ferroviário-PR":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#d30a11";
+                  letterColor = "white";
+                  break;
             case "Figueirense":
                   nomeAtual = time;
                   escudo = time;
@@ -706,6 +730,12 @@ function Times(time, data) {
                   backgroundColor = "#048439";
                   letterColor = "white";
                   break;
+            case "Hibernian":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#327341";
+                  letterColor = "white";
+                  break;
             case "Honduras":
                   nomeAtual = time;
                   escudo = time;
@@ -760,6 +790,12 @@ function Times(time, data) {
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#048439";
+                  letterColor = "white";
+                  break;
+            case "Itabaiana":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#003a94";
                   letterColor = "white";
                   break;
             case "Itabuna":
@@ -817,6 +853,18 @@ function Times(time, data) {
                   letterColor = "white";
                   break;
             case "Juventus":
+                  nomeAtual = time;
+                  if (ano < 2004){
+                        escudo = "Juventus1990";
+                  } else if (ano >= 2004 && ano < 2017) {
+                        escudo = "Juventus2004";
+                  } else {
+                        escudo = time;
+                  }
+                  backgroundColor = "black";
+                  letterColor = "white";
+                  break;
+            case "Juventus-SP":
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#6a023c";
@@ -886,6 +934,12 @@ function Times(time, data) {
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "black";
+                  letterColor = "white";
+                  break;
+            case "Metropol":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#2A6438";
                   letterColor = "white";
                   break;
             case "Millonarios":
@@ -1170,6 +1224,12 @@ function Times(time, data) {
                   backgroundColor = "#088a4e";
                   letterColor = "white";
                   break;
+            case "Rio Negro-AM":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "black";
+                  letterColor = "white";
+                  break;
             case "Rio Preto":
                   nomeAtual = time;
                   escudo = "RioPreto";
@@ -1344,7 +1404,7 @@ function Times(time, data) {
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#d30a11";
-                  letterColor = "black";
+                  letterColor = "#fde900";
                   break;
             case "Sporting Cristal":
                   nomeAtual = time;
@@ -1370,6 +1430,12 @@ function Times(time, data) {
                   backgroundColor = "#fde900";
                   letterColor = "#048439";
                   break;
+            case "Tiradentes-PI":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#415DA6";
+                  letterColor = "#fde900";
+                  break;
             case "Tolima":
                   nomeAtual = time;
                   escudo = time;
@@ -1393,6 +1459,12 @@ function Times(time, data) {
                   escudo = "TheStrongest";
                   backgroundColor = "#ffcc00";
                   letterColor = "black";
+                  break;
+            case "Ujpest":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#4D2E7A";
+                  letterColor = "white";
                   break;
             case "UNAM":
                   nomeAtual = time;
