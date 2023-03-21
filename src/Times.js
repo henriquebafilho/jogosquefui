@@ -13,6 +13,12 @@ function Times(time, data) {
                   backgroundColor = "black";
                   letterColor = "white";
                   break;
+            case "ADN-Niterói":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#d30a11";
+                  letterColor = "white";
+                  break;
             case "Água Santa":
                   nomeAtual = time;
                   escudo = "ÁguaSanta";
@@ -283,6 +289,12 @@ function Times(time, data) {
                   backgroundColor = "#d30a11";
                   letterColor = "black";
                   break;
+            case "Brasília":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#d30a11";
+                  letterColor = "white";
+                  break;
             case "Brasiliense":
                   nomeAtual = time;
                   escudo = time;
@@ -403,10 +415,22 @@ function Times(time, data) {
                   backgroundColor = "#d30a11";
                   letterColor = "black";
                   break;
+            case "Colorado":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#d30a11";
+                  letterColor = "black";
+                  break;
             case "Comercial-MS":
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#d30a11";
+                  letterColor = "white";
+                  break;
+            case "Comercial-SP":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "black";
                   letterColor = "white";
                   break;
             case "Confiança":
@@ -547,6 +571,12 @@ function Times(time, data) {
                   backgroundColor = "#d30a11";
                   letterColor = "white";
                   break;
+            case "Fast Clube":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#000D69";
+                  letterColor = "white";
+                  break;
             case "Ferroviária":
                   nomeAtual = time;
                   escudo = time;
@@ -598,6 +628,12 @@ function Times(time, data) {
                   }
                   letterColor = "white";
                   break;
+            case "Fluminense de Feira":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#048439";
+                  letterColor = "white";
+                  break;
             case "Fluminense Nova Friburgo":
                   nomeAtual = time;
                   escudo = time;
@@ -614,6 +650,12 @@ function Times(time, data) {
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#003a94";
+                  letterColor = "white";
+                  break;
+            case "Galícia":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#0000C5";
                   letterColor = "white";
                   break;
             case "Gama":
@@ -651,6 +693,12 @@ function Times(time, data) {
                   escudo = "GrêmioBarueri";
                   backgroundColor = "#f6e815";
                   letterColor = "#003c6e";
+                  break;
+            case "Grêmio Maringá":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "black";
+                  letterColor = "white";
                   break;
             case "Guarani":
                   nomeAtual = time;
@@ -712,6 +760,12 @@ function Times(time, data) {
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#048439";
+                  letterColor = "white";
+                  break;
+            case "Itabuna":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#0F0490";
                   letterColor = "white";
                   break;
             case "Itaperuna":
@@ -852,6 +906,12 @@ function Times(time, data) {
                   backgroundColor = "#ffec00";
                   letterColor = "#00722c";
                   break;
+            case "Mixto":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "black";
+                  letterColor = "white";
+                  break;
             case "Mogi Mirim":
                   nomeAtual = time;
                   escudo = "MogiMirim";
@@ -912,6 +972,12 @@ function Times(time, data) {
                         escudo = time;
                   }
                   backgroundColor = "black";
+                  letterColor = "white";
+                  break;
+            case "Noroeste":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#d30a11";
                   letterColor = "white";
                   break;
             case "Nova Cidade":
@@ -1014,6 +1080,12 @@ function Times(time, data) {
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#f5182e";
+                  letterColor = "white";
+                  break;
+            case "Pinheiros-PR":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#003a94";
                   letterColor = "white";
                   break;
             case "Ponte Preta":
@@ -1236,6 +1308,12 @@ function Times(time, data) {
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#d30a11";
+                  letterColor = "white";
+                  break;
+            case "Serrano-RJ":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#123293";
                   letterColor = "white";
                   break;
             case "Shandong Luneng":
