@@ -39,7 +39,7 @@ function jogos() {
     jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2023", "data": "2023-04-29", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Bahia", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2023", "data": "2023-04-22", "estadio": "Fonte Nova" });
     jogos.push({ "mandante": "Botafogo", "visitante": "São Paulo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2023", "data": "2023-04-15", "estadio": "Nilton Santos" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "Portuguesa-RJ", "golsMandante": "", "golsVisitante": "", "campeonato": "Carioca 2023", "data": "2023-03-26", "estadio": "Raulino de Oliveira" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Portuguesa-RJ", "golsMandante": "", "golsVisitante": "", "campeonato": "Carioca 2023", "data": "2023-03-27", "estadio": "Raulino de Oliveira" });
     jogos.push({ "mandante": "Portuguesa-RJ", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Carioca 2023", "data": "2023-03-18", "estadio": "Luso Brasileiro" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Brasiliense", "golsMandante": 7, "golsVisitante": 1, "campeonato": "Copa do Brasil 2023", "data": "2023-03-15", "estadio": "Kleber de Andrade" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Portuguesa-RJ", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Carioca 2023", "data": "2023-03-08", "estadio": "Raulino de Oliveira" });
@@ -3275,11 +3275,10 @@ function jogos() {
     jogos.push({ "mandante": "Millonarios", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Libertadores 63", "data": "1963-07-07", "estadio": "El Campín" });
     jogos.push({ "mandante": "Alianza Lima", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Libertadores 63", "data": "1963-06-30", "estadio": "Nacional (Lima)" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Santos", "golsMandante": 0, "golsVisitante": 5, "campeonato": "Taça Brasil 62", "data": "1963-04-02", "estadio": "Maracanã" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "Santos", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Taça Brasil 62", "data": "1963-03-31", "estadio": "Maracanã" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "Santos", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Torneio Rio-São Paulo 1963", "data": "1963-03-31", "estadio": "Maracanã" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Santos", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Taça Brasil 62/Rio-São Paulo 1963", "data": "1963-03-31", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Corinthians", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 2, "campeonato": "Torneio Rio-São Paulo 1963", "data": "1963-03-27", "estadio": "Pacaembu" });
     jogos.push({ "mandante": "Botafogo", "visitante": "São Paulo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Torneio Rio-São Paulo 1963", "data": "1963-03-23", "estadio": "Maracanã" });
-    jogos.push({ "mandante": "Santos", "visitante": "Botafogo", "golsMandante": 4, "golsVisitante": 3, "campeonato": "Taça Brasil 62", "data": "1963-03-19", "estadio": "Pacaembu" });
+    jogos.push({ "mandante": "Santos", "visitante": "Botafogo", "golsMandante": 4, "golsVisitante": 3, "campeonato": "Taça Brasil 62/Rio-São Paulo 1963", "data": "1963-03-19", "estadio": "Pacaembu" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Portuguesa", "golsMandante": 2, "golsVisitante": 3, "campeonato": "Torneio Rio-São Paulo 1963", "data": "1963-03-16", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Vasco", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Torneio Rio-São Paulo 1963", "data": "1963-03-13", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Fluminense", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Torneio Rio-São Paulo 1963", "data": "1963-03-07", "estadio": "Maracanã" });
@@ -3346,7 +3345,7 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Madureira", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Carioca 1961", "data": "1961-08-10", "estadio": "Laranjeiras" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Bangu", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Carioca 1961", "data": "1961-08-06", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Olaria", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Carioca 1961", "data": "1961-08-03", "estadio": "Maracanã" });
-    jogos.push({ "mandante": "Ujpest", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1961-05-23", "estadio": "do Povo" });
+    jogos.push({ "mandante": "Ujpest", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1961-05-23", "estadio": "Estádio do Povo" });
     jogos.push({ "mandante": "Santos", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Rio-São Paulo 61", "data": "1961-04-23", "estadio": "Pacaembu" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Palmeiras", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Rio-São Paulo 61", "data": "1961-04-19", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Corinthians", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Rio-São Paulo 61", "data": "1961-04-13", "estadio": "Pacaembu" });

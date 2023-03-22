@@ -1,4 +1,4 @@
-import MeusJogos from "./MeusJogos";
+import MeusJogos from "./meusJogos";
 
 class Usuario {
     constructor(nome, sobrenome, meuTime, email, senha) {
