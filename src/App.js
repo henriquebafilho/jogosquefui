@@ -8,7 +8,7 @@ import Usuario from './Usuario';
 
 function App() {
   let conjuntoUsuarios = new ConjuntoUsuarios();
-  let usuario = new Usuario("Henrique", "Filho", "Botafogo", "henriquebafilho", "Bfr1904*");
+  let usuario = new Usuario("Henrique", "Filho", "Botafogo", "henriquebafilho@gmail.com", "Bfr1904*");
   conjuntoUsuarios.adicionaUsuario(usuario);
   usuario = conjuntoUsuarios.getUsuarios().filter(user =>
     user.email === usuario.getEmail()

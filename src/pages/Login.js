@@ -53,13 +53,15 @@ class Login extends Component {
         const { email, senha, erro } = this.state
         return (
             <>
-                {this.state.telaAtual === 'login' ? <div className="App-header" style={{ backgroundColor: '#030348' }}>
-                    <h1 style={{ padding: '100px', color: 'white' }}>Jogos Que Fui</h1>
-                    <input name='email' onChange={this.onChange} style={{ width: '400px', padding: '10px', margin: '20px' }} type="email" placeholder="Insira seu e-mail" />
-                    <input name='senha' onChange={this.onChange} style={{ width: '400px', padding: '10px', margin: '20px' }} type="password" placeholder="Insira sua senha" />
-                    <p style={{ fontSize: '20px', color: 'red' }}>{erro}</p>
-                    <button onClick={() => { this.loginSubmit(email, senha) }} style={{ width: '250px', padding: '10px', margin: '20px', backgroundColor: '#09ab4c', color: 'white', borderRadius: '7px' }} type="submit">Entrar</button>
-                    <button style={{ fontSize: '20px', borderStyle: 'none', backgroundColor: '#030348', color: 'white', margin: '10px', textDecoration: 'underline', cursor: 'pointer' }} onClick={() => this.cadastroClick()}>Não tem uma conta? Cadastre-se!</button>
+                {this.state.telaAtual === 'login' ? <div style={{ backgroundColor: '#030348' }}>
+                    <form onSubmit={() => { this.loginSubmit(email, senha)}} className="App-header">
+                        <h1 style={{ padding: '100px', color: 'white' }}>Jogos Que Fui</h1>
+                        <input name='email' onChange={this.onChange} style={{ width: '400px', padding: '10px', margin: '20px' }} type="email" placeholder="Insira seu e-mail" />
+                        <input name='senha' onChange={this.onChange} style={{ width: '400px', padding: '10px', margin: '20px' }} type="password" placeholder="Insira sua senha" />
+                        <p style={{ fontSize: '20px', color: 'red' }}>{erro}</p>
+                        <input type="submit" value="Entrar" style={{ width: '250px', padding: '10px', margin: '20px', backgroundColor: '#09ab4c', color: 'white', borderRadius: '7px' }}/>
+                        <button style={{ fontSize: '20px', borderStyle: 'none', backgroundColor: '#030348', color: 'white', margin: '10px', textDecoration: 'underline', cursor: 'pointer' }} onClick={() => this.cadastroClick()}>Não tem uma conta? Cadastre-se!</button>
+                    </form>
                 </div> : this.state.telaAtual === 'cadastro' ? <Cadastro conjuntoUsuarios={this.state.usuarios} /> : this.state.telaAtual === 'logado' ?
                     <TodosOsJogos
                         conjuntoUsuarios={this.props.conjuntoUsuarios}
