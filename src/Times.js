@@ -755,7 +755,7 @@ function Times(time, data) {
             case "Goytacaz":
                   nomeAtual = time;
                   escudo = time;
-                  backgroundColor = "#2C68A5";
+                  backgroundColor = "#003a94";
                   letterColor = "white";
                   break;
             case "Grêmio":
