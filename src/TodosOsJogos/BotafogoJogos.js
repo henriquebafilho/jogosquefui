@@ -2286,7 +2286,7 @@ function jogos() {
     jogos.push({ "mandante": "Palmeiras", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Torneio Heleno Nunes 84", "data": "1984-04-17", "estadio": "" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Operário-MT", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Brasileirão 1984", "data": "1984-04-01", "estadio": "" });
     jogos.push({ "mandante": "América-RJ", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Brasileirão 1984", "data": "1984-03-24", "estadio": "" });
-    jogos.push({ "mandante": "Coritiba", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Brasileirão 1984", "data": "1984-03-21", "estadio": "" });
+    jogos.push({ "mandante": "Coritiba", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Brasileirão 1984", "data": "1984-03-21", "estadio": "Couto Pereira" });
     jogos.push({ "mandante": "Botafogo", "visitante": "América-RJ", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Brasileirão 1984", "data": "1984-03-18", "estadio": "" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Coritiba", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Brasileirão 1984", "data": "1984-03-15", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Operário-MT", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Brasileirão 1984", "data": "1984-03-11", "estadio": "" });
@@ -2676,7 +2676,7 @@ function jogos() {
     jogos.push({ "mandante": "Goytacaz", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Carioca 1976", "data": "1976-04-04", "estadio": "" });
     jogos.push({ "mandante": "Botafogo", "visitante": "América-RJ", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Carioca 1976", "data": "1976-03-28", "estadio": "" });
     jogos.push({ "mandante": "Portuguesa-RJ", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Carioca 1976", "data": "1976-03-24", "estadio": "" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "Bonsucesso", "golsMandante": 3, "golsVisitante": 0, "campeonato": "Carioca 1976", "data": "1976-03-21", "estadio": "" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Bonsucesso", "golsMandante": 3, "golsVisitante": 0, "campeonato": "Carioca 1976", "data": "1976-03-21", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Bangu", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Carioca 1976", "data": "1976-03-17", "estadio": "" });
     jogos.push({ "mandante": "Volta Redonda", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 2, "campeonato": "Carioca 1976", "data": "1976-03-14", "estadio": "" });
     jogos.push({ "mandante": "Nacional-AM", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Brasileirão 1975", "data": "1975-12-04", "estadio": "Vivaldão" });
@@ -4014,7 +4014,7 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "SC Brasil", "golsMandante": 6, "golsVisitante": 0, "campeonato": "Carioca 1934", "data": "1934-05-13", "estadio": "General Severiano" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Mavilis", "golsMandante": 4, "golsVisitante": 2, "campeonato": "Carioca 1934", "data": "1934-04-22", "estadio": "General Severiano" });
     jogos.push({ "mandante": "River-RJ", "visitante": "Botafogo", "golsMandante": 4, "golsVisitante": 4, "campeonato": "Carioca 1934", "data": "1934-04-15", "estadio": "João Pinheiro" });
-    jogos.push({ "mandante": "Cocotá", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Carioca 1933 (AMEA)", "data": "1933-11-19", "estadio": "Ilha do Governador" });
+    jogos.push({ "mandante": "Cocotá", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Carioca 1933 (AMEA)", "data": "1933-11-19", "estadio": "Campo do Cocotá" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Olaria", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Carioca 1933 (AMEA)", "data": "1933-11-05", "estadio": "General Severiano" });
     jogos.push({ "mandante": "SC Brasil", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Carioca 1933 (AMEA)", "data": "1933-10-22", "estadio": "Praia Vermelha" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Mavilis", "golsMandante": 3, "golsVisitante": 0, "campeonato": "Carioca 1933 (AMEA)", "data": "1933-10-01", "estadio": "General Severiano" });
