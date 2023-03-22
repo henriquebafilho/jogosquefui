@@ -43,9 +43,15 @@ const getVitorias = (meuTime, jogos) => {
     var vitorias = 0;
 
     for (var a in jogos) {
-        if (((jogos[a].mandante === meuTime) && (jogos[a].golsMandante > jogos[a].golsVisitante)) ||
-            ((jogos[a].visitante === meuTime) && (jogos[a].golsMandante < jogos[a].golsVisitante))) {
+        if (jogos[a].golsMandante === "WO" && jogos[a].mandante === meuTime) {
             vitorias += 1;
+        } else if (jogos[a].golsVisitante === "WO" && jogos[a].visitante === meuTime) {
+            vitorias += 1;
+        } else {
+            if (((jogos[a].mandante === meuTime) && (jogos[a].golsMandante > jogos[a].golsVisitante)) ||
+                ((jogos[a].visitante === meuTime) && (jogos[a].golsMandante < jogos[a].golsVisitante))) {
+                vitorias += 1;
+            }
         }
     }
 
@@ -69,9 +75,15 @@ const getDerrotas = (meuTime, jogos) => {
     var derrotas = 0;
 
     for (var a in jogos) {
-        if (((jogos[a].mandante === meuTime) && (jogos[a].golsMandante < jogos[a].golsVisitante)) ||
-            ((jogos[a].visitante === meuTime) && (jogos[a].golsMandante > jogos[a].golsVisitante))) {
+        if (jogos[a].golsMandante === "WO" && jogos[a].visitante === meuTime) {
             derrotas += 1;
+        } else if (jogos[a].golsVisitante === "WO" && jogos[a].mandante === meuTime) {
+            derrotas += 1;
+        } else {
+            if (((jogos[a].mandante === meuTime) && (jogos[a].golsMandante < jogos[a].golsVisitante)) ||
+                ((jogos[a].visitante === meuTime) && (jogos[a].golsMandante > jogos[a].golsVisitante))) {
+                derrotas += 1;
+            }
         }
     }
 

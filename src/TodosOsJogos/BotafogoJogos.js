@@ -4404,7 +4404,7 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Rio Cricket", "golsMandante": "WO", "golsVisitante": 0, "campeonato": "Carioca 1908", "data": "1908-09-13", "estadio": "Voluntários da Pátria" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Fluminense", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Carioca 1908", "data": "1908-09-01", "estadio": "" });
     jogos.push({ "mandante": "América-RJ", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 2, "campeonato": "Carioca 1908", "data": "1908-08-30", "estadio": "Laranjeiras" });
-    jogos.push({ "mandante": "Paysandu-RJ", "visitante": "Botafogo", "golsMandante": "WO", "golsVisitante": 0, "campeonato": "Carioca 1908", "data": "1908-08-09", "estadio": "Laranjeiras" });
+    jogos.push({ "mandante": "Paysandu-RJ", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": "WO", "campeonato": "Carioca 1908", "data": "1908-08-09", "estadio": "Laranjeiras" });
     jogos.push({ "mandante": "Botafogo", "visitante": "América-RJ", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Carioca 1908", "data": "1908-06-28", "estadio": "Voluntários da Pátria" });
     jogos.push({ "mandante": "Fluminense", "visitante": "Botafogo", "golsMandante": 4, "golsVisitante": 4, "campeonato": "Carioca 1908", "data": "1908-06-14", "estadio": "Laranjeiras" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Riachuelo-RJ", "golsMandante": 5, "golsVisitante": 0, "campeonato": "Carioca 1908", "data": "1908-05-31", "estadio": "Voluntários da Pátria" });

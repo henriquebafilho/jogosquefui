@@ -1,4 +1,4 @@
-import MeusJogos from "./meusJogos";
+import MeusJogos from "./MeusJogos.js";
 
 class Usuario {
     constructor(nome, sobrenome, meuTime, email, senha) {
