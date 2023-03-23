@@ -67,10 +67,19 @@ class LinhaJogo extends Component {
                 width: '60vw',
                 borderColor: Times(this.props.meuTime).backgroundColor === 'white' ? 'black' : 'white'
             }}>
+                <div style={{ textAlign: 'left' }}>
+                    <p style={{
+                        display: 'inline',
+                        textShadow: Times(this.props.jogo.mandante, this.props.jogo.data).backgroundColor === "white" ? "" : "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000" ,
+                        color: Times(this.props.jogo.mandante, this.props.jogo.data).backgroundColor === "white" ? Times(this.props.jogo.mandante, this.props.jogo.data).letterColor : "white",
+                        marginBottom: '5px'
+                    }}>
+                        {converteDia(this.props.jogo.data)}, {converteData(this.props.jogo.data)}
+                    </p>
+                </div>
                 <div>
-                    <p style={{ display: 'inline', textShadow: "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000", color: "white", marginBottom: '5px', fontWeight: 'bold' }}>{converteDia(this.props.jogo.data)}, {converteData(this.props.jogo.data)}</p>
-                    <p style={{ display: 'inline', textShadow: "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000", color: "white", marginBottom: '5px' }}> - {this.props.jogo.campeonato} - </p>
-                    <p style={{ display: 'inline', textShadow: "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000", color: "white", marginBottom: '5px', fontWeight: 'bold' }}>{this.props.jogo.estadio}</p>
+                    <p style={{ display: 'inline', textShadow: "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000", color: "white", marginBottom: '5px', fontWeight: 'bold' }}>{this.props.jogo.campeonato}</p>
+                    <p style={{ display: 'inline', textShadow: "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000", color: "white", marginBottom: '5px', fontWeight: 'bold' }}>{this.props.jogo.estadio !== "" ? ' | ' + this.props.jogo.estadio : ""}</p>
                 </div>
                 <div id='placar' style={{ display: 'flex', justifyContent: 'center', marginTop: '10px' }}>
                     {/* (this.props.jogo[2] !== "" && this.props.jogo[3] !== "") && <div style={{ display: 'inline', textAlign: 'left' }}>

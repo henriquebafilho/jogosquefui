@@ -1455,7 +1455,7 @@ function Times(time, data) {
             case "São Raimundo-AM":
                   nomeAtual = time;
                   escudo = time;
-                  backgroundColor = "black";
+                  backgroundColor = "#003a94";
                   letterColor = "white";
                   break;
             case "São Raimundo-PA":
