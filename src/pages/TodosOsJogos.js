@@ -6,7 +6,6 @@ import FlamengoJogos from '../TodosOsJogos/FlamengoJogos';
 import FluminenseJogos from '../TodosOsJogos/FluminenseJogos';
 import VascoJogos from '../TodosOsJogos/VascoJogos';
 import BotafogoJogos from '../TodosOsJogos/BotafogoJogos';
-import Tabs from '../components/Tabs';
 
 class TodosOsJogos extends Component {
   constructor(props) {

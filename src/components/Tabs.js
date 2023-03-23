@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import LinhaJogo from './LinhaJogo';
 
 class Tabs extends Component {
     constructor(props) {
@@ -17,14 +18,14 @@ class Tabs extends Component {
         let toggleState = this.state.toggleState;
         return (
 
-            <div className="container">
+            <div className="container" style={{color: "white", width: '60vw', border: "3px"}}>
                 <div className="bloc-tabs">
                     <button
                         id="tab"
                         className={toggleState === 1 ? "tabs active-tabs" : "tabs"}
                         onClick={() => toggleTab(1)}
                     >
-                        Todos
+                        Todos Os Jogos
                     </button>
                     <button
                         id="tab"
@@ -53,30 +54,25 @@ class Tabs extends Component {
                     <div
                         className={toggleState === 1 ? "content  active-content" : "content"}
                     >
-                        <h2>Todos</h2>
-                        <hr />
-                        <p>
-                            Todos os Jogos
-                        </p>
+                        <h2>2023</h2>
+                        <LinhaJogo meuTime="Botafogo" jogo={{ "mandante": "Botafogo", "visitante": "Brasiliense", "golsMandante": 7, "golsVisitante": 1, "campeonato": "Copa do Brasil 2023", "data": "2023-03-15", "estadio": "Kleber de Andrade" }} meusJogos={[]} />
                     </div>
 
                     <div
                         className={toggleState === 2 ? "content  active-content" : "content"}
                     >
-                        <h2>Anos</h2>
+                        <h2>2023</h2>
                         <hr />
                         <p>
-                            Anos
+                            Jogos
                         </p>
                     </div>
 
                     <div
                         className={toggleState === 3 ? "content  active-content" : "content"}
                     >
-                        <h2>Estádios</h2>
-                        <hr />
                         <p>
-                            Estádios
+                            Você foi a 100 jogos
                         </p>
                     </div>
 

@@ -62,9 +62,10 @@ class LinhaJogo extends Component {
         return (
             <div className='divJogo' style={{
                 background: "linear-gradient(90deg, " + Times(this.props.jogo.mandante, this.props.jogo.data).backgroundColor + " 49%, " + Times(this.props.jogo.visitante, this.props.jogo.data).backgroundColor + " 52%)",
-                padding: '15px',
+                paddingLeft: '10px',
+                paddingBottom: '10px',
                 marginBottom: '10px',
-                width: '60vw',
+                width: '100%',
                 borderColor: Times(this.props.meuTime).backgroundColor === 'white' ? 'black' : 'white'
             }}>
                 <div style={{ textAlign: 'left' }}>
@@ -72,7 +73,7 @@ class LinhaJogo extends Component {
                         display: 'inline',
                         textShadow: Times(this.props.jogo.mandante, this.props.jogo.data).backgroundColor === "white" ? "" : "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000" ,
                         color: Times(this.props.jogo.mandante, this.props.jogo.data).backgroundColor === "white" ? Times(this.props.jogo.mandante, this.props.jogo.data).letterColor : "white",
-                        marginBottom: '5px'
+                        fontSize: '15px'
                     }}>
                         {converteDia(this.props.jogo.data)}, {converteData(this.props.jogo.data)}
                     </p>
