@@ -2,6 +2,7 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Footer from './components/Footer';
 import Login from './pages/Login';
+import TodosOsJogos from './pages/TodosOsJogos';
 import ConjuntoUsuarios from './ConjuntoUsuarios';
 import Navbar from './components/Navbar';
 import Usuario from './Usuario';
@@ -21,7 +22,12 @@ function App() {
       <Router>
         <Navbar conjuntoUsuarios={conjuntoUsuarios} meuTime={conjuntoUsuarios.getUsuarioAtual().meuTime} meusJogos={conjuntoUsuarios.getUsuarioAtual().meusJogos} style={{ position: 'fixed' }} />
         <Routes>
-          <Route path='/' element={<Login conjuntoUsuarios={conjuntoUsuarios} />} />
+          {/* <Route path='/' element={<Login conjuntoUsuarios={conjuntoUsuarios} />} /> */}
+          <Route path='/' element={<TodosOsJogos
+            conjuntoUsuarios={conjuntoUsuarios}
+            meuTime="Botafogo"
+            meusJogos={[]} />}
+          />
         </Routes>
       </Router>
       <Footer />
