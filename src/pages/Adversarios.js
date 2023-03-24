@@ -21,13 +21,13 @@ class Adversarios extends Component {
   async componentDidMount() {
     this._isMounted = true;
     window.scrollTo(0, 0);
-    this.setState({ isLoading: true })
     await this.getAdversarios();
-    this.setState({ isLoading: false })
   }
 
   getAdversarios = async () => {
     var jogos = this.state.jogos;
+
+    this.setState({ isLoading: true });
 
     for (var a in jogos) {
       if (Times(jogos[a].mandante).nomeAtual !== this.props.meuTime) {
@@ -43,6 +43,8 @@ class Adversarios extends Component {
     }
 
     this.state.adversarios.sort();
+
+    this.setState({ isLoading: false });
   }
 
   buttonClick = async (adversario) => {
@@ -69,31 +71,31 @@ class Adversarios extends Component {
     const buttonClickFunction = (adversario) => this.buttonClick(adversario);
     return (
       <>
-      {this.state.clicked ? <ViewAdversario meuTime={this.props.meuTime} meusJogos={meusJogos} jogosAdversario={this.state.jogosAdversario} adversario={this.state.adversarioAtual} /> :
-        <div className="App-header" style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }}>
-          {/* <h1>Adversários</h1>
+        {this.state.clicked ? <ViewAdversario meuTime={this.props.meuTime} meusJogos={meusJogos} jogosAdversario={this.state.jogosAdversario} adversario={this.state.adversarioAtual} /> :
+          <div className="App-header" style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }}>
+            {/* <h1>Adversários</h1>
           <br /> */}
-          <table>
-            <tbody>
-              {this.state.isLoading && <h1>Carregando...</h1>}
-              {this.state.adversarios.length > 0 ?
-                !this.state.isLoading && this.state.adversarios.map(function (i) {
-                  var totalAdversario = common.getTotalAdversario(meuTime, i, meusJogos/* .getJogos() */);
-                  return <div >
-                    <button id='selectTime' onClick={() => buttonClickFunction(Times(i).nomeAtual)} style={{ backgroundColor: Times(Times(i).nomeAtual).backgroundColor, color: Times(Times(i).nomeAtual).letterColor, borderColor: Times(meuTime).backgroundColor === 'white' ? 'black' : 'white', borderStyle: 'solid', width: '60vw' }}>
-                      <img src={require('../escudos/' + Times(Times(i).nomeAtual).escudo + '.png')} style={{ verticalAlign: 'middle' }} alt='escudo' height='75' width='75' />
-                      <div style={{ paddingTop: '5px', fontSize: '30px' }}>{Times(i).nomeAtual}</div>
-                      <div style={{ paddingBottom: '5px', fontSize: '15px', fontWeight: '100' }}>{totalAdversario} {totalAdversario > 1 ? "jogos" : "jogo"}</div>
-                    </button>
-                  </div>
-                }) : <div>
-                  <h1 style={{ color: Times(this.state.meuTime).letterColor, textAlign: 'center', paddingBottom: '50px' }}>Você ainda não possui jogos cadastrados</h1>
-                  <h4 style={{ color: Times(this.state.meuTime).letterColor, textAlign: 'center' }}>Vá em "Jogos do {this.state.meuTime}" para selecionar os jogos que você já foi</h4>
-                </div>}
-            </tbody>
-          </table>
-        </div>}
-        </>
+            <table>
+              <tbody>
+                {this.state.isLoading && <h1>Carregando...</h1>}
+                {this.state.adversarios.length > 0 ?
+                  !this.state.isLoading && this.state.adversarios.map(function (i) {
+                    var totalAdversario = common.getTotalAdversario(meuTime, i, meusJogos/* .getJogos() */);
+                    return <div >
+                      <button id='selectTime' onClick={() => buttonClickFunction(Times(i).nomeAtual)} style={{ backgroundColor: Times(Times(i).nomeAtual).backgroundColor, color: Times(Times(i).nomeAtual).letterColor, borderColor: Times(meuTime).backgroundColor === 'white' ? 'black' : 'white', borderStyle: 'solid', width: '60vw' }}>
+                        <img src={require('../escudos/' + Times(Times(i).nomeAtual).escudo + '.png')} style={{ verticalAlign: 'middle' }} alt='escudo' height='75' width='75' />
+                        <div style={{ paddingTop: '5px', fontSize: '30px' }}>{Times(i).nomeAtual}</div>
+                        <div style={{ paddingBottom: '5px', fontSize: '15px', fontWeight: '100' }}>{totalAdversario} {totalAdversario > 1 ? "jogos" : "jogo"}</div>
+                      </button>
+                    </div>
+                  }) : <div>
+                    <h1 style={{ color: Times(this.state.meuTime).letterColor, textAlign: 'center', paddingBottom: '50px' }}>Você ainda não possui jogos cadastrados</h1>
+                    <h4 style={{ color: Times(this.state.meuTime).letterColor, textAlign: 'center' }}>Vá em "Jogos do {this.state.meuTime}" para selecionar os jogos que você já foi</h4>
+                  </div>}
+              </tbody>
+            </table>
+          </div>}
+      </>
     )
   }
 }
