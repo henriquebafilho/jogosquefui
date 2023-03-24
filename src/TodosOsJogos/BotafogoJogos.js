@@ -53,7 +53,7 @@ function jogos() {
     jogos.push({ "mandante": "Fluminense", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Carioca 2023", "data": "2023-01-29", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Madureira", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Carioca 2023", "data": "2023-01-26", "estadio": "Luso Brasileiro" });
     jogos.push({ "mandante": "Volta Redonda", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Carioca 2023", "data": "2023-01-19", "estadio": "Raulino de Oliveira" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "Audax Rio", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Carioca 2023", "data": "2023-01-15", "estadio": "Nilton Santos" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Audax Rio", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Carioca 2023", "data": "2023-01-15", "estadio": "Nilton Santos" })/* ;
     jogos.push({ "mandante": "Crystal Palace", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Amistoso", "data": "2022-12-03", "estadio": "Selhurst Park" });
     jogos.push({ "mandante": "Charlton Athletic", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 4, "campeonato": "Amistoso", "data": "2022-12-01", "estadio": "Crystal Palace Training Ground" });
     jogos.push({ "mandante": "Athletico-PR", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 0, "campeonato": "Brasileirão 2022", "data": "2022-11-13", "estadio": "Arena da Baixada" });
@@ -4424,7 +4424,7 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Rio Cricket", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Carioca 1906", "data": "1906-06-30", "estadio": "" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Paysandu-RJ", "golsMandante": 1, "golsVisitante": 5, "campeonato": "Carioca 1906", "data": "1906-06-02", "estadio": "" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Bangu", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Carioca 1906", "data": "1906-05-26", "estadio": "" });
-    jogos.push({ "mandante": "Fluminense", "visitante": "Botafogo", "golsMandante": 8, "golsVisitante": 0, "campeonato": "Carioca 1906", "data": "1906-05-13", "estadio": "Laranjeiras" })
+    jogos.push({ "mandante": "Fluminense", "visitante": "Botafogo", "golsMandante": 8, "golsVisitante": 0, "campeonato": "Carioca 1906", "data": "1906-05-13", "estadio": "Laranjeiras" }); */
 
     jogos.sort(function (a, b) {
         return a.data < b.data ? -1 : a.data > b.data ? 1 : 0;

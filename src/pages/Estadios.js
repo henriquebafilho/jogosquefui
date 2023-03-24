@@ -8,7 +8,7 @@ class Estadios extends Component {
     super(props);
     this.state = {
       meuTime: props.meuTime,
-      jogos: props.meusJogos.getJogos(),
+      jogos: props.meusJogos/* .getJogos() */,
       estadios: [],
       isLoading: false,
       clicked: false,
@@ -29,8 +29,8 @@ class Estadios extends Component {
     let jogos = this.state.jogos;
 
     for (let i in jogos) {
-      if (!this.state.estadios.includes(jogos[i][6])) {
-        this.state.estadios.push(jogos[i][6]);
+      if (!this.state.estadios.includes(jogos[i].estadio)) {
+        this.state.estadios.push(jogos[i].estadio);
       }
     }
 
@@ -46,7 +46,7 @@ class Estadios extends Component {
     let estadioAtual = estadio;
 
     for (let a = 0; a < this.state.jogos.length; a++) {
-      if (this.state.jogos[a][6] === estadioAtual) {
+      if (this.state.jogos[a].estadio === estadioAtual) {
         if (!this.state.jogosEstadio.includes(this.state.jogos[a])) {
           this.state.jogosEstadio.push(this.state.jogos[a]);
         }
@@ -61,10 +61,10 @@ class Estadios extends Component {
 
     return (
       <>
-        {this.state.clicked ? <ViewEstadio meuTime={this.props.meuTime} meusJogos={meusJogos} jogosEstadio={this.state.jogosEstadio} estadio={this.state.estadioAtual} /> :
+        {/* {this.state.clicked ? <ViewEstadio meuTime={this.props.meuTime} meusJogos={meusJogos} jogosEstadio={this.state.jogosEstadio} estadio={this.state.estadioAtual} /> : */
           <div className="App-header" style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }}>
-            <h1>Estádios</h1>
-            <br />
+            {/* <h1>Estádios</h1>
+            <br /> */}
             <h4>{"Você foi a " + this.state.estadios.length + " estádio"}{this.state.estadios.length > 1 ? "s" : ""}</h4>
             <br />
             <table>
@@ -72,7 +72,7 @@ class Estadios extends Component {
                 {this.state.isLoading && <h1>Carregando...</h1>}
                 {this.state.estadios.length > 0 ?
                   !this.state.isLoading && this.state.estadios.map(function (i) {
-                    let totalEstadio = common.getTotalEstadio(i, meusJogos.getJogos());
+                    let totalEstadio = common.getTotalEstadio(i, meusJogos/* .getJogos() */);
                     let imagemEstadio;
                     try {
                       imagemEstadio = require('../estadios/' + i + '.png');

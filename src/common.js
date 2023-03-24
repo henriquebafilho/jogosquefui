@@ -5,8 +5,8 @@ const getTotalAdversario = (meuTime, adversario, jogos) => {
     var adversarioAtual = Times(adversario).nomeAtual;
 
     for (var a in jogos) {
-        if (((jogos[a][0] === meuTime) && (Times(jogos[a][1]).nomeAtual === adversarioAtual)) ||
-            ((jogos[a][1] === meuTime) && (Times(jogos[a][0]).nomeAtual === adversarioAtual))) {
+        if (((jogos[a].mandante === meuTime) && (Times(jogos[a].visitante).nomeAtual === adversarioAtual)) ||
+            ((jogos[a].visitante === meuTime) && (Times(jogos[a].mandante).nomeAtual === adversarioAtual))) {
             total += 1;
         }
     }
@@ -18,7 +18,7 @@ const getTotalEstadio = (estadio, jogos) => {
     var total = 0;
 
     for (var a in jogos) {
-        if (jogos[a][6] === estadio) {
+        if (jogos[a].estadio === estadio) {
             total += 1;
         }
     }
