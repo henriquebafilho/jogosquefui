@@ -287,6 +287,9 @@ button#tab {
   .container {
     width: 100%;
   }
+  #selectEstadio, #selectAno{
+    width: 100%;
+  }
   #tab {
     white-space: nowrap;
     font-size: 15px;
@@ -295,6 +298,9 @@ button#tab {
 
 @media screen and (min-width: 801px) {
   .container {
+    width: 80vw;
+  }
+  #selectEstadio, #selectAno{
     width: 80vw;
   }
   #tab {
