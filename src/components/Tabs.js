@@ -28,10 +28,10 @@ class Tabs extends Component {
         let anoAtual = 0;
         return (
 
-            <div className="container" style={{ color: "white", width: '60vw', border: "3px" }}>
+            <div className="container" style={{ color: "white", border: "3px" }}>
                 <div className="bloc-tabs">
                     <button id="tab" className={toggleState === 1 ? "tabs active-tabs" : "tabs"} onClick={() => toggleTab(1)}>
-                        Todos Os Jogos
+                        Todos
                     </button>
                     <button id="tab" className={toggleState === 2 ? "tabs active-tabs" : "tabs"} onClick={() => toggleTab(2)}>
                         Anos

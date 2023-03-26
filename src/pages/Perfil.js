@@ -14,12 +14,12 @@ function Perfil(props) {
     <>
       <div className="App-header" style={{ backgroundColor: Times(props.meuTime).backgroundColor }}>
         <div style={{ margin: '20px' }}>
-          <img src={require('../escudos/' + Times(props.meuTime).escudo + '.png')} className="App-logo" alt={"Escudo do " + props.meuTime} style={{ verticalAlign: 'middle', width: '100px', height: '100px' }} />
           <p style={{ display: 'inline', color: Times(props.meuTime).letterColor }}>
           {/* {props.conjuntoUsuarios.getUsuarioAtual().getNome().toUpperCase()} {props.conjuntoUsuarios.getUsuarioAtual().getSobrenome().toUpperCase()} */}
           HENRIQUE FILHO
           </p>
         </div>
+          <img src={require('../escudos/' + Times(props.meuTime).escudo + '.png')} className="App-logo" alt={"Escudo do " + props.meuTime} style={{ verticalAlign: 'middle', width: '100px', height: '100px' }} />
         <br />
         {/* {meusJogos.length > 0 && <Estatisticas meuTime={props.meuTime} jogos={meusJogos} />} */}
         <Tabs meuTime={meuTime} meusJogos={meusJogos}/>
