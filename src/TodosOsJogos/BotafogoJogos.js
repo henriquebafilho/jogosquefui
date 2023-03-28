@@ -39,7 +39,7 @@ function jogos() {
     jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2023", "data": "2023-04-29", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Bahia", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2023", "data": "2023-04-22", "estadio": "Fonte Nova" });
     jogos.push({ "mandante": "Botafogo", "visitante": "São Paulo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2023", "data": "2023-04-15", "estadio": "Nilton Santos" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "Portuguesa-RJ", "golsMandante": "", "golsVisitante": "", "campeonato": "Carioca 2023", "data": "2023-03-27", "estadio": "Raulino de Oliveira" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Portuguesa-RJ", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Carioca 2023", "data": "2023-03-27", "estadio": "Raulino de Oliveira" });
     jogos.push({ "mandante": "Portuguesa-RJ", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Carioca 2023", "data": "2023-03-18", "estadio": "Luso Brasileiro" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Brasiliense", "golsMandante": 7, "golsVisitante": 1, "campeonato": "Copa do Brasil 2023", "data": "2023-03-15", "estadio": "Kleber Andrade" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Portuguesa-RJ", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Carioca 2023", "data": "2023-03-08", "estadio": "Raulino de Oliveira" });
