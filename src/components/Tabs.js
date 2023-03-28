@@ -46,7 +46,7 @@ class Tabs extends Component {
 
                 <div className="content-tabs">
                     <div className={toggleState === 1 ? "content  active-content" : "content"}>
-                        {/* <Estatisticas meuTime={meuTime} jogos={meusJogos} flag="tabs" />
+                        <Estatisticas meuTime={meuTime} jogos={meusJogos} flag="tabs" />
                         {meusJogos.length > 0 ? meusJogos.reverse().map((index) => {
                             let mostraAno = false;
                             if (anoAtual !== index.data.split("-")[0]) {
@@ -60,19 +60,19 @@ class Tabs extends Component {
                         }) : <div>
                             <h1 style={{ color: Times(meuTime).letterColor, textAlign: 'center', paddingBottom: '50px' }}>Você ainda não possui jogos cadastrados</h1>
                             <h4 style={{ color: Times(meuTime).letterColor, textAlign: 'center' }}>Vá em "Jogos do {meuTime}" para selecionar os jogos que você já foi</h4>
-                        </div>}  */}
+                        </div>}
                     </div>
 
                     <div className={toggleState === 2 ? "content  active-content" : "content"}>
-                        <Anos meuTime={meuTime} meusJogos={meusJogos} />
+                        {/*<Anos meuTime={meuTime} meusJogos={meusJogos} />*/}
                     </div>
 
                     <div className={toggleState === 3 ? "content  active-content" : "content"}>
-                        <Estadios meuTime={meuTime} meusJogos={meusJogos} />
+                        {/*<Estadios meuTime={meuTime} meusJogos={meusJogos} />*/}
                     </div>
 
                     <div className={toggleState === 4 ? "content  active-content" : "content"}>
-                        {/* <Adversarios meuTime={meuTime} meusJogos={meusJogos} /> */}
+                        {/*<Adversarios meuTime={meuTime} meusJogos={meusJogos} />*/}
                     </div>
                 </div>
             </div>

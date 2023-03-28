@@ -80,7 +80,7 @@ details[open] summary~* {
   animation: sweep .5s ease-in-out;
 }
 
-#selectTime,
+#selectAdversario,
 #selectEstadio,
 #selectAno {
   margin-bottom: 10px;
@@ -95,7 +95,7 @@ details[open] summary~* {
   font-weight: bold;
 }
 
-#selectTime:hover,
+#selectAdversario:hover,
 #selectEstadio:hover,
 #selectAno:hover {
   text-decoration: underline;
@@ -287,7 +287,7 @@ button#tab {
   .container {
     width: 100%;
   }
-  #selectEstadio, #selectAno{
+  #selectEstadio, #selectAno, #selectAdversario{
     width: 100%;
   }
   #tab {
@@ -300,7 +300,7 @@ button#tab {
   .container {
     width: 80vw;
   }
-  #selectEstadio, #selectAno{
+  #selectEstadio, #selectAno, #selectAdversario{
     width: 80vw;
   }
   #tab {

@@ -2083,7 +2083,7 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Cruzeiro", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Brasileirão 1988", "data": "1988-12-04", "estadio": "Caio Martins", "penaltis": "1 x 3" });
     jogos.push({ "mandante": "Vasco", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 0, "campeonato": "Brasileirão 1988", "data": "1988-12-01", "estadio": "São Januário" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Grêmio", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Brasileirão 1988", "data": "1988-11-27", "estadio": "Caio Martins" });
-    jogos.push({ "mandante": "Bahia", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Brasileirão 1988", "data": "1988-11-24", "estadio": "Fonte Nova" }); 
+    jogos.push({ "mandante": "Bahia", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Brasileirão 1988", "data": "1988-11-24", "estadio": "Fonte Nova" });
     jogos.push({ "mandante": "Coritiba", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 0, "campeonato": "Brasileirão 1988", "data": "1988-11-19", "estadio": "Couto Pereira" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Santa Cruz", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Brasileirão 1988", "data": "1988-11-16", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Corinthians", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Brasileirão 1988", "data": "1988-11-13", "estadio": "Maracanã" });

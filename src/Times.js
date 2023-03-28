@@ -419,6 +419,12 @@ function Times(time, data) {
                   backgroundColor = "#c40215";
                   letterColor = "white";
                   break;
+            case "César Vallejo":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#d77000";
+                  letterColor = "#0B254A";
+                  break;
             case "CEUB":
                   nomeAtual = time;
                   escudo = time;
@@ -740,6 +746,12 @@ function Times(time, data) {
                   backgroundColor = "#026b4a";
                   letterColor = "white";
                   break;
+            case "Goiânia":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "black";
+                  letterColor = "white";
+                  break;
             case "Goiás":
                   nomeAtual = time;
                   if (ano < 2019) {
@@ -981,6 +993,12 @@ function Times(time, data) {
                   escudo = time;
                   backgroundColor = "#fde900";
                   letterColor = "#13007c";
+                  break;
+            case "Magallanes":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#84C3E8";
+                  letterColor = "black";
                   break;
             case "Mangueira":
                   nomeAtual = time;
