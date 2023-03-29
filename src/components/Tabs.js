@@ -53,7 +53,7 @@ class Tabs extends Component {
                                 anoAtual = index.data.split("-")[0];
                                 mostraAno = true;
                             }
-                            return <div key={index}>
+                            return <div key={JSON.stringify(index)}>
                                 {mostraAno ? <h2>{anoAtual}</h2> : ""}
                                 <LinhaJogo meuTime={meuTime} jogo={index} meusJogos={meusJogos} />
                             </div>

@@ -61,10 +61,10 @@ class Navbar extends Component {
                                 </Link>
                             </li>
                             {SidebarData.map((item, index) => {
-                                return (<div key={item}>
+                                return (<div key={JSON.stringify(item)}>
                                     {item.title === "Anos" && <span style={{ color: 'white' }}>Meus Jogos</span>}
                                     {item.title === "Próximos Jogos" && <span style={{ color: 'white' }}>Meu Time</span>}
-                                    <li key={index} className={item.cName}>
+                                    <li key={item.title} className={item.cName}>
                                         <button onClick={() => buttonClickFunction(item.title)}>
                                             {item.icon}
                                             <span>{item.title === "Todos os Jogos" ? "Jogos do " + this.state.meuTime : item.title}</span>
