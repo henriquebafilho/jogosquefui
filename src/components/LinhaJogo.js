@@ -104,17 +104,35 @@ class LinhaJogo extends Component {
                                 position: 'absolute'
                             }} />
                     </div> */}
-                    <div style={{ paddingTop: '20px', paddingBottom: '20px', display: 'inline', width: "40%", textAlign: "right", fontSize: '25px', color: Times(this.props.jogo.mandante, this.props.jogo.data).letterColor, textShadow: Times(this.props.jogo.mandante, this.props.jogo.data).letterColor === "white" ? "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000" : "none", paddingRight: '5px' }}>
-                        {this.props.jogo.mandante.toUpperCase()}
+                    <div className='nomeTime' style={{ 
+                        paddingTop: '20px', 
+                        paddingBottom: '20px', 
+                        display: 'inline', 
+                        width: "40%", 
+                        textAlign: "right", 
+                        color: Times(this.props.jogo.mandante, this.props.jogo.data).letterColor, 
+                        textShadow: Times(this.props.jogo.mandante, this.props.jogo.data).letterColor === "white" ? "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000" : "none", 
+                        paddingRight: '5px'
+                    }}>
+                       {this.props.jogo.mandante.toUpperCase()}
                     </div>
-                    <img src={require('../escudos/' + Times(this.props.jogo.mandante, this.props.jogo.data).escudo + '.png')} title={this.props.jogo.mandante} style={{ display: 'inline-block', verticalAlign: 'middle', width: "5rem", height: "5rem" }} alt={this.props.jogo.mandante} />
+                    <img className='escudoLinha' src={require('../escudos/' + Times(this.props.jogo.mandante, this.props.jogo.data).escudo + '.png')} title={this.props.jogo.mandante} style={{ display: 'inline-block', verticalAlign: 'middle' }} alt={this.props.jogo.mandante} />
                     <div style={{ paddingTop: '10px', display: 'inline', minWidth: "120px", textAlign: "center", fontSize: '40px', textShadow: "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000", color: "white" }}>
                         {(this.props.jogo.golsMandante === "WO" || this.props.jogo.golsVisitante === "WO") && <div>WO</div>}
                         {this.props.jogo.golsMandante === "WO" ? <div>←</div> : this.props.jogo.golsVisitante === "WO" ? <div>→</div> : ''}
                         {this.props.jogo.golsMandante !== "WO" && this.props.jogo.golsVisitante !== "WO" && ' ' + this.props.jogo.golsMandante + ' x ' + this.props.jogo.golsVisitante + ' '}
                     </div>
-                    <img src={require('../escudos/' + Times(this.props.jogo.visitante, this.props.jogo.data).escudo + '.png')} title={this.props.jogo.visitante} style={{ display: 'inline-block', verticalAlign: 'middle', width: "5rem", height: "5rem" }} alt={this.props.jogo.visitante} />
-                    <div style={{ paddingTop: '20px', paddingBottom: '20px', display: 'inline', width: "40%", textAlign: "left", fontSize: '25px', color: Times(this.props.jogo.visitante, this.props.jogo.data).letterColor, textShadow: Times(this.props.jogo.visitante, this.props.jogo.data).letterColor === "white" ? "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000" : "none", paddingLeft: '5px' }}>
+                    <img className='escudoLinha' src={require('../escudos/' + Times(this.props.jogo.visitante, this.props.jogo.data).escudo + '.png')} title={this.props.jogo.visitante} style={{ display: 'inline-block', verticalAlign: 'middle' }} alt={this.props.jogo.visitante} />
+                    <div className='nomeTime' style={{ 
+                        paddingTop: '20px', 
+                        paddingBottom: '20px', 
+                        display: 'inline', 
+                        width: "40%", 
+                        textAlign: "left", 
+                        color: Times(this.props.jogo.visitante, this.props.jogo.data).letterColor, 
+                        textShadow: Times(this.props.jogo.visitante, this.props.jogo.data).letterColor === "white" ? "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000" : "none", 
+                        paddingLeft: '5px' 
+                    }}>
                         {this.props.jogo.visitante.toUpperCase()}
                     </div>
                 </div>
