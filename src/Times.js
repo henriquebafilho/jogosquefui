@@ -1748,6 +1748,12 @@ function Times(time, data) {
                   backgroundColor = "#003a94";
                   letterColor = "white";
                   break;
+            case "Ypiranga":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#fff100";
+                  letterColor = "#00923e";
+                  break;
             default:
                   nomeAtual = "time";
                   escudo = "escudo";
