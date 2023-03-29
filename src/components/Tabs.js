@@ -64,15 +64,15 @@ class Tabs extends Component {
                     </div>
 
                     <div className={toggleState === 2 ? "content  active-content" : "content"}>
-                        {/*<Anos meuTime={meuTime} meusJogos={meusJogos} />*/}
+                        <Anos meuTime={meuTime} meusJogos={meusJogos} />
                     </div>
 
                     <div className={toggleState === 3 ? "content  active-content" : "content"}>
-                        {/*<Estadios meuTime={meuTime} meusJogos={meusJogos} />*/}
+                        <Estadios meuTime={meuTime} meusJogos={meusJogos} />
                     </div>
 
                     <div className={toggleState === 4 ? "content  active-content" : "content"}>
-                        {/*<Adversarios meuTime={meuTime} meusJogos={meusJogos} />*/}
+                        <Adversarios meuTime={meuTime} meusJogos={meusJogos} />
                     </div>
                 </div>
             </div>
