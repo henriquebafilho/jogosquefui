@@ -60,14 +60,17 @@ class LinhaJogo extends Component {
         const converteData = (data) => this.converteData(data);
         const meusJogos = this.props.meusJogos;
         return (
-            <div className='divJogo' style={{
+            <div className='divJogo' 
+            style={{
                 background: "linear-gradient(90deg, " + Times(this.props.jogo.mandante, this.props.jogo.data).backgroundColor + " 49%, " + Times(this.props.jogo.visitante, this.props.jogo.data).backgroundColor + " 52%)",
                 paddingLeft: '10px',
                 paddingBottom: '10px',
                 marginBottom: '10px',
                 width: '100%',
                 borderColor: Times(this.props.meuTime).backgroundColor === 'white' ? 'black' : 'white'
-            }}>
+            }}
+            key={JSON.stringify(this.props.jogo)}
+            >
                 <div style={{ textAlign: 'left' }}>
                     <p style={{
                         display: 'inline',
