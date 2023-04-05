@@ -41,7 +41,7 @@ function jogos() {
     // jogos.push({ "mandante": "Botafogo", "visitante": "Atlético-MG", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2023", "data": "2023-05-07", "estadio": "Nilton Santos" });
     // jogos.push({ "mandante": "Botafogo", "visitante": "LDU", "golsMandante": "", "golsVisitante": "", "campeonato": "Copa Sul-Americana 2023", "data": "2023-05-04", "estadio": "Nilton Santos" });
     // jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2023", "data": "2023-04-30", "estadio": "Maracanã" });
-    // jogos.push({ "mandante": "Botafogo", "visitante": "Ypiranga", "golsMandante": "", "golsVisitante": "", "campeonato": "Copa do Brasil 2023", "data": "2023-04-26", "estadio": "Nilton Santos" });
+    // jogos.push({ "mandante": "Botafogo", "visitante": "Ypiranga", "golsMandante": "", "golsVisitante": "", "campeonato": "Copa do Brasil 2023", "data": "2023-04-27", "estadio": "Nilton Santos" });
     // jogos.push({ "mandante": "Bahia", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2023", "data": "2023-04-24", "estadio": "Fonte Nova" });
     // jogos.push({ "mandante": "Botafogo", "visitante": "César Vallejo", "golsMandante": "", "golsVisitante": "", "campeonato": "Copa Sul-Americana 2023", "data": "2023-04-20", "estadio": "Nilton Santos" });
     // jogos.push({ "mandante": "Botafogo", "visitante": "São Paulo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2023", "data": "2023-04-15", "estadio": "Nilton Santos" });
@@ -1520,7 +1520,7 @@ function jogos() {
     // jogos.push({ "mandante": "Coritiba", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 2, "campeonato": "Brasileirão 1999", "data": "1999-09-25", "estadio": "Couto Pereira" });
     // jogos.push({ "mandante": "Botafogo", "visitante": "Juventude", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Brasileirão 1999", "data": "1999-09-22", "estadio": "Maracanã" });
     // jogos.push({ "mandante": "Santos", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Brasileirão 1999", "data": "1999-09-18", "estadio": "Vila Belmiro" });
-    // jogos.push({ "mandante": "Botafogo", "visitante": "Atlético-PR", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Brasileirão 1999", "data": "1999-09-12", "estadio": "Maracanã" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Atlético-PR", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Brasileirão 1999", "data": "1999-09-12", "estadio": "Maracanã" });
     // jogos.push({ "mandante": "Botafogo", "visitante": "Internacional", "golsMandante": 2, "golsVisitante": 3, "campeonato": "Brasileirão 1999", "data": "1999-09-04", "estadio": "Caio Martins" });
     // jogos.push({ "mandante": "Vitória", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Brasileirão 1999", "data": "1999-08-25", "estadio": "Barradão" });
     // jogos.push({ "mandante": "Botafogo", "visitante": "Corinthians", "golsMandante": 2, "golsVisitante": 4, "campeonato": "Brasileirão 1999", "data": "1999-08-21", "estadio": "Caio Martins" });
@@ -1984,7 +1984,7 @@ function jogos() {
     // jogos.push({ "mandante": "Internacional", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Brasileirão 1991", "data": "1991-04-03", "estadio": "Beira-Rio" });
     // jogos.push({ "mandante": "Botafogo", "visitante": "Cruzeiro", "golsMandante": 3, "golsVisitante": 2, "campeonato": "Brasileirão 1991", "data": "1991-04-01", "estadio": "Caio Martins" });
     // jogos.push({ "mandante": "Botafogo", "visitante": "Santos", "golsMandante": 0, "golsVisitante": 3, "campeonato": "Brasileirão 1991", "data": "1991-03-23", "estadio": "Maracanã" });
-    // jogos.push({ "mandante": "Atlético-PR", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Brasileirão 1991", "data": "1991-03-20", "estadio": "Pinheirão" });
+    jogos.push({ "mandante": "Atlético-PR", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Brasileirão 1991", "data": "1991-03-20", "estadio": "Pinheirão" });
     // jogos.push({ "mandante": "Botafogo", "visitante": "Santa Cruz", "golsMandante": 3, "golsVisitante": 0, "campeonato": "Copa Brasil 1991", "data": "1991-03-17", "estadio": "Caio Martins" });
     // jogos.push({ "mandante": "Santa Cruz", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Copa Brasil 1991", "data": "1991-03-14", "estadio": "Arruda" });
     // jogos.push({ "mandante": "Bragantino", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 0, "campeonato": "Brasileirão 1991", "data": "1991-03-11", "estadio": "Nabi Abi Chedid" });
@@ -2060,7 +2060,7 @@ function jogos() {
     // jogos.push({ "mandante": "Guarani", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Brasileirão 1989", "data": "1989-10-01", "estadio": "Brinco de Ouro da Princesa" });
     // jogos.push({ "mandante": "Atlético-MG", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Brasileirão 1989", "data": "1989-09-23", "estadio": "Mineirão" });
     // jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Brasileirão 1989", "data": "1989-09-20", "estadio": "Maracanã" });
-    // jogos.push({ "mandante": "Botafogo", "visitante": "Atlético-PR", "golsMandante": 3, "golsVisitante": 0, "campeonato": "Brasileirão 1989", "data": "1989-09-16", "estadio": "Maracanã" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Atlético-PR", "golsMandante": 3, "golsVisitante": 0, "campeonato": "Brasileirão 1989", "data": "1989-09-16", "estadio": "Maracanã" });
     // jogos.push({ "mandante": "Botafogo", "visitante": "Internacional", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Brasileirão 1989", "data": "1989-09-06", "estadio": "Maracanã" });
     // jogos.push({ "mandante": "Botafogo", "visitante": "Flamengo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Carioca 1989", "data": "1989-06-21", "estadio": "Maracanã" });
     // jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Carioca 1989", "data": "1989-06-18", "estadio": "Maracanã" });
@@ -2988,7 +2988,7 @@ function jogos() {
     // jogos.push({ "mandante": "Internacional", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Robertão 70", "data": "1970-11-01", "estadio": "" });
     // jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Robertão 70", "data": "1970-10-25", "estadio": "" });
     // jogos.push({ "mandante": "Corinthians", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Robertão 70", "data": "1970-10-21", "estadio": "" });
-    // jogos.push({ "mandante": "Atlético-PR", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Robertão 70", "data": "1970-10-18", "estadio": "Couto Pereira" });
+    jogos.push({ "mandante": "Atlético-PR", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Robertão 70", "data": "1970-10-18", "estadio": "Couto Pereira" });
     // jogos.push({ "mandante": "Botafogo", "visitante": "Grêmio", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Robertão 70", "data": "1970-10-14", "estadio": "" });
     // jogos.push({ "mandante": "Vasco", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Robertão 70", "data": "1970-09-27", "estadio": "" });
     // jogos.push({ "mandante": "Cruzeiro", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Robertão 70", "data": "1970-09-23", "estadio": "" });
@@ -3078,7 +3078,7 @@ function jogos() {
     // jogos.push({ "mandante": "Vasco", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Robertão 68", "data": "1968-10-05", "estadio": "" });
     // jogos.push({ "mandante": "Corinthians", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 0, "campeonato": "Robertão 68", "data": "1968-09-29", "estadio": "" });
     // jogos.push({ "mandante": "Botafogo", "visitante": "Náutico", "golsMandante": 4, "golsVisitante": 1, "campeonato": "Robertão 68", "data": "1968-09-26", "estadio": "" });
-    // jogos.push({ "mandante": "Atlético-PR", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Robertão 68", "data": "1968-09-22", "estadio": "Vila Capanema" });
+    jogos.push({ "mandante": "Atlético-PR", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Robertão 68", "data": "1968-09-22", "estadio": "Vila Capanema" });
     // jogos.push({ "mandante": "Botafogo", "visitante": "Flamengo", "golsMandante": 4, "golsVisitante": 1, "campeonato": "Taça Guanabara 68", "data": "1968-09-18", "estadio": "Maracanã" });
     // jogos.push({ "mandante": "Fluminense", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Robertão 68", "data": "1968-09-14", "estadio": "" });
     // jogos.push({ "mandante": "Botafogo", "visitante": "Flamengo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Taça Guanabara 68", "data": "1968-09-08", "estadio": "Maracanã" });

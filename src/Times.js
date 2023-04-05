@@ -112,7 +112,15 @@ function Times(time, data) {
             case "Atlético-PR": case "Athletico-PR":
                   nomeAtual = "Athletico-PR";
                   if (time === "Atlético-PR") {
-                        escudo = "Atlético-PR";
+                        if(ano <= 1969){
+                              escudo = "Atlético-PR1969";
+                        } else if (ano >= 1970 && ano <= 1989) {
+                              escudo = "Atlético-PR1989";
+                        } else if (ano > 1989 && ano < 1997){
+                              escudo = "Atlético-PR1996";
+                        } else {
+                              escudo = "Atlético-PR";
+                        }
                   } else if (time === "Athletico-PR") {
                         escudo = "Athletico-PR";
                   }
