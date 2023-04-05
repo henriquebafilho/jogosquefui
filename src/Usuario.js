@@ -1,4 +1,4 @@
-import MeusJogos from "./MeusJogos.js";
+import meusJogos from "./meusJogos";
 
 class Usuario {
     constructor(nome, sobrenome, meuTime, email, senha) {
@@ -7,7 +7,7 @@ class Usuario {
         this.meuTime = meuTime;
         this.email = email;
         this.senha = senha;
-        this.meusJogos = new MeusJogos();
+        this.meusJogos = new meusJogos();
     }
 
     getNome() {

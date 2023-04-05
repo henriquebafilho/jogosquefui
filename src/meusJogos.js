@@ -1,4 +1,4 @@
-class MeusJogos {
+class meusJogos {
     meusJogosArray = [];
 
     getJogos() {
@@ -26,4 +26,4 @@ class MeusJogos {
         }
     }
 }
-export default MeusJogos;
+export default meusJogos;
