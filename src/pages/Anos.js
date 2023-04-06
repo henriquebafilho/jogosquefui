@@ -74,7 +74,7 @@ class Anos extends Component {
                 {this.state.anos.length > 0 ?
                   !this.state.isLoading && this.state.anos.map(function (i) {
                     var totalAno = common.getTotalAno(i, meusJogos/* .getJogos() */);
-                    return <div>
+                    return <div key={i}>
                       <button id='selectAno' /* onClick={() => buttonClickFunction(i)} */ style={{ borderColor: Times(meuTime).letterColor, borderStyle: 'solid', backgroundColor: Times(meuTime).backgroundColor, color: Times(meuTime).letterColor }}>
                         <div style={{ display: 'inline', padding: '10px', fontSize: '40px' }}>{i}</div>
                         <div style={{ paddingBottom: '5px', fontSize: '15px', fontWeight: '100' }}>{totalAno} {totalAno > 1 ? "jogos" : "jogo"}</div>

@@ -71,11 +71,11 @@ class LinhaJogo extends Component {
             }}
             key={JSON.stringify(this.props.jogo)}
             >
-                <div style={{ textAlign: 'left' }}>
+                <div>
                     <p style={{
                         display: 'inline',
-                        textShadow: Times(this.props.jogo.mandante, this.props.jogo.data).backgroundColor === "white" ? "" : "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000" ,
-                        color: Times(this.props.jogo.mandante, this.props.jogo.data).backgroundColor === "white" ? Times(this.props.jogo.mandante, this.props.jogo.data).letterColor : "white",
+                        textShadow: "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000",
+                        color: "white",
                         fontSize: '15px'
                     }}>
                         {converteDia(this.props.jogo.data)}, {converteData(this.props.jogo.data)}
