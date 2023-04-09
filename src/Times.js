@@ -1006,7 +1006,7 @@ function Times(time, data) {
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#84C3E8";
-                  letterColor = "black";
+                  letterColor = "white";
                   break;
             case "Mangueira":
                   nomeAtual = time;

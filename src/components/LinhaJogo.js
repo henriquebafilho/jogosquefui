@@ -75,8 +75,7 @@ class LinhaJogo extends Component {
                     <p style={{
                         display: 'inline',
                         textShadow: "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000",
-                        color: "white",
-                        fontSize: '15px'
+                        color: "white"
                     }}>
                         {converteDia(this.props.jogo.data)}, {converteData(this.props.jogo.data)}
                     </p>
