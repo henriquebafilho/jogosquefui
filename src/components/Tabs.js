@@ -23,7 +23,7 @@ class Tabs extends Component {
     render() {
         const toggleTab = (index) => this.toggleTab(index);
         let toggleState = this.state.toggleState;
-        let meusJogos = this.state.meusJogos;
+        let meusJogos = this.state.meusJogos.reverse();
         let meuTime = this.state.meuTime;
         let anoAtual = 0;
         return (
@@ -47,7 +47,7 @@ class Tabs extends Component {
                 <div className="content-tabs">
                     <div className={toggleState === 1 ? "content  active-content" : "content"}>
                         <Estatisticas meuTime={meuTime} jogos={meusJogos} flag="tabs" />
-                        {meusJogos.length > 0 ? meusJogos.reverse().map((index) => {
+                        {meusJogos.length > 0 ? meusJogos.map((index) => {
                             let mostraAno = false;
                             if (anoAtual !== index.data.split("-")[0]) {
                                 anoAtual = index.data.split("-")[0];
