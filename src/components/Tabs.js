@@ -16,6 +16,12 @@ class Tabs extends Component {
         }
     }
 
+    async componentDidMount(){
+        this.setState({ meusJogos: this.state.meusJogos.sort(function (a, b) {
+            return a.data < b.data ? 1 : a.data > b.data ? -1 : 0;
+        })})
+    }
+
     toggleTab = async (index) => {
         this.setState({ toggleState: index });
     }
@@ -23,7 +29,7 @@ class Tabs extends Component {
     render() {
         const toggleTab = (index) => this.toggleTab(index);
         let toggleState = this.state.toggleState;
-        let meusJogos = this.state.meusJogos.reverse();
+        let meusJogos = this.state.meusJogos;
         let meuTime = this.state.meuTime;
         let anoAtual = 0;
         return (
