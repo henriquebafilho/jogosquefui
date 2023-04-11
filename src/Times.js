@@ -232,7 +232,7 @@ function Times(time, data) {
                   letterColor = "white";
                   break;
             case "Boavista": case "Barreira":
-                  nomeAtual = time;
+                  nomeAtual = "Boavista";
                   if (ano < 2004) {
                         escudo = "Barreira";
                   } else {
