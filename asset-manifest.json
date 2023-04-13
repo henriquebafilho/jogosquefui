@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jogosquefui/static/css/main.e9c5662b.css",
-    "main.js": "/jogosquefui/static/js/main.0540fa7c.js",
+    "main.js": "/jogosquefui/static/js/main.27b14a09.js",
     "static/media/Corisabbá.png": "/jogosquefui/static/media/Corisabbá.4b6783df88df9e49eae8.png",
     "static/media/Maracanã.png": "/jogosquefui/static/media/Maracanã.49e2331c9e113cf34e31.png",
     "static/media/Arena do Grêmio.png": "/jogosquefui/static/media/Arena do Grêmio.52d33e3a6fde83a74885.png",
@@ -243,6 +243,7 @@
     "static/media/BoaEsporte.png": "/jogosquefui/static/media/BoaEsporte.d833df33aff95e46c0e1.png",
     "static/media/Botafogo-SP.png": "/jogosquefui/static/media/Botafogo-SP.d7d344fdf2553f03f454.png",
     "static/media/Juventus.png": "/jogosquefui/static/media/Juventus.06d4eda8c8dce8e14d00.png",
+    "static/media/Ypiranga.png": "/jogosquefui/static/media/Ypiranga.536723dc86092d29cfc2.png",
     "static/media/Vitória.png": "/jogosquefui/static/media/Vitória.7f462989807b80a439aa.png",
     "static/media/DuquedeCaxias.png": "/jogosquefui/static/media/DuquedeCaxias.bb4a97149c5f482e87a1.png",
     "static/media/MogiMirim.png": "/jogosquefui/static/media/MogiMirim.0915dfbaee49d0c269e9.png",
@@ -255,7 +256,6 @@
     "static/media/Portuguesa-RJ.png": "/jogosquefui/static/media/Portuguesa-RJ.394fc2b272ae0e7733b4.png",
     "static/media/AtléticoNacional.png": "/jogosquefui/static/media/AtléticoNacional.0b3e50380b8230bd328b.png",
     "static/media/Olimpia.png": "/jogosquefui/static/media/Olimpia.2d6cf4dc5d613a6e1f14.png",
-    "static/media/Ypiranga.png": "/jogosquefui/static/media/Ypiranga.bc64e426f98798db20cf.png",
     "static/media/Botafogo-SP2021.png": "/jogosquefui/static/media/Botafogo-SP2021.b1060d32687c1221c348.png",
     "static/media/América-RJ.png": "/jogosquefui/static/media/América-RJ.4aaff27d0446b49d66a3.png",
     "static/media/Botafogo-PB.png": "/jogosquefui/static/media/Botafogo-PB.e59df4fa72f2358b3b4c.png",
@@ -333,10 +333,10 @@
     "static/media/Ceará.png": "/jogosquefui/static/media/Ceará.2667c31fce77d94092f4.png",
     "index.html": "/jogosquefui/index.html",
     "main.e9c5662b.css.map": "/jogosquefui/static/css/main.e9c5662b.css.map",
-    "main.0540fa7c.js.map": "/jogosquefui/static/js/main.0540fa7c.js.map"
+    "main.27b14a09.js.map": "/jogosquefui/static/js/main.27b14a09.js.map"
   },
   "entrypoints": [
     "static/css/main.e9c5662b.css",
-    "static/js/main.0540fa7c.js"
+    "static/js/main.27b14a09.js"
   ]
 }
