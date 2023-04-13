@@ -33,7 +33,6 @@ class Tabs extends Component {
         let meuTime = this.state.meuTime;
         let anoAtual = 0;
         return (
-
             <div className="container" style={{ color: "white", border: "3px" }}>
                 <div className="bloc-tabs">
                     <button id="tab" className={toggleState === 1 ? "tabs active-tabs" : "tabs"} onClick={() => toggleTab(1)}>
