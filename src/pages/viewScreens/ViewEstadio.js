@@ -29,7 +29,7 @@ class ViewEstadio extends Component {
     let anoAtual = 0;
     var imagemEstadio;
     this.state.jogos.sort(function (a, b) {
-      return a[5] < b[5] ? -1 : a[5] > b[5] ? 1 : 0;
+      return a.data < b.data ? -1 : a.data > b.data ? 1 : 0;
     });
     try {
       imagemEstadio = require('../../estadios/' + this.props.estadio + '.png');
@@ -49,8 +49,8 @@ class ViewEstadio extends Component {
             <Estatisticas meuTime={this.state.meuTime} jogos={this.props.jogosEstadio} />
             {this.state.jogos.reverse().map((index) => {
               let mostraAno = false;
-              if (anoAtual !== index[5].split("-")[0]) {
-                anoAtual = index[5].split("-")[0];
+              if (anoAtual !== index.data.split("-")[0]) {
+                anoAtual = index.data.split("-")[0];
                 mostraAno = true;
               }
               return <div>

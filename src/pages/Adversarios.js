@@ -67,7 +67,7 @@ class Adversarios extends Component {
 
   render() {
     const meuTime = this.state.meuTime;
-    const meusJogos = this.props.meusJogos;
+    const meusJogos = this.state.jogos;
     const buttonClickFunction = (adversario) => this.buttonClick(adversario);
     return (
       <>

@@ -56,12 +56,12 @@ class Estadios extends Component {
 
   render() {
     const meuTime = this.state.meuTime;
-    const meusJogos = this.props.meusJogos;
+    const meusJogos = this.state.jogos;
     const buttonClickFunction = (estadio) => this.buttonClick(estadio);
 
     return (
       <>
-        {/* {this.state.clicked ? <ViewEstadio meuTime={this.props.meuTime} meusJogos={meusJogos} jogosEstadio={this.state.jogosEstadio} estadio={this.state.estadioAtual} /> : */
+        {this.state.clicked ? <ViewEstadio meuTime={this.props.meuTime} meusJogos={meusJogos} jogosEstadio={this.state.jogosEstadio} estadio={this.state.estadioAtual} /> : 
           <div className="App-header" style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }}>
             {/* <h1>Estádios</h1>
             <br /> */}

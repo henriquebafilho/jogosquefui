@@ -28,7 +28,7 @@ class ViewAdversario extends Component {
     const buttonClickFunction = () => this.buttonClick();
     let anoAtual = 0;
     this.state.jogos.sort(function (a, b) {
-      return a[5] < b[5] ? -1 : a[5] > b[5] ? 1 : 0;
+      return a.data < b.data ? -1 : a.data > b.data ? 1 : 0;
     });
 
     return (
@@ -40,7 +40,7 @@ class ViewAdversario extends Component {
           <div className="App-header">
             <div>
               <div style={{ float: 'left', textAlign: 'center', width: '180px' }}>
-                <img src={require('../../escudos/' + Times(meuTime).escudo + '.png')} style={{ display: 'inline', verticalAlign: 'middle', width: "3em", height: "3em", margin: '10px' }} alt={meuTime} />
+                <img src={require('../../escudos/' + Times(meuTime).escudo + '.png')} style={{ display: 'inline', verticalAlign: 'middle', width: "4em", height: "4em", margin: '10px' }} alt={meuTime} />
                 <p style={{ fontSize: '20px' }}>{meuTime}</p>
               </div>
               <div style={{ float: 'left', margin: '25px' }}>
@@ -55,7 +55,7 @@ class ViewAdversario extends Component {
                 backgroundColor: Times(this.props.adversario).backgroundColor,
                 color: Times(this.props.adversario).letterColor
               }}>
-                <img src={require('../../escudos/' + Times(this.props.adversario).escudo + '.png')} style={{ display: 'inline', verticalAlign: 'middle', width: "3em", height: "3em", margin: '10px' }} alt={this.props.adversario} />
+                <img src={require('../../escudos/' + Times(this.props.adversario).escudo + '.png')} style={{ display: 'inline', verticalAlign: 'middle', width: "4em", height: "4em", margin: '10px' }} alt={this.props.adversario} />
                 <p style={{ fontSize: '20px' }}>{this.props.adversario}</p>
               </div>
             </div>
@@ -63,8 +63,8 @@ class ViewAdversario extends Component {
             <Estatisticas meuTime={this.state.meuTime} jogos={this.props.jogosAdversario} />
             {this.state.jogos.reverse().map((index) => {
               let mostraAno = false;
-              if (anoAtual !== index[5].split("-")[0]) {
-                anoAtual = index[5].split("-")[0];
+              if (anoAtual !== index.data.split("-")[0]) {
+                anoAtual = index.data.split("-")[0];
                 mostraAno = true;
               }
               return <div>

@@ -24,8 +24,8 @@ class LinhaJogo extends Component {
     }
 
     getJogosQueFui = async () => {
-        for (var a = 0; a < this.props.meusJogos.getJogos().length; a++) {
-            if (this.state.jogo.data === this.props.meusJogos.getJogos()[a][5]) {
+        for (var a = 0; a < this.props.meusJogos/*.getJogos()*/.length; a++) {
+            if (this.state.jogo.data === this.props.meusJogos/*.getJogos()*/[a][5]) {
                 this.setState({ checked: true });
                 break;
             }
