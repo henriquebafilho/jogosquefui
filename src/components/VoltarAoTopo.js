@@ -39,7 +39,8 @@ const VoltarAoTopo = () => {
         cursor: "pointer",
         border: "2px solid #FFFFFF",
         fontSize: "30px",
-        paddingBottom: "5px"
+        paddingBottom: "5px",
+        outline: 'none'
       }}
       title='Voltar ao Topo'
     >
