@@ -1423,7 +1423,7 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Americano", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Carioca 2001", "data": "2001-05-05", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Vasco", "visitante": "Botafogo", "golsMandante": 7, "golsVisitante": 0, "campeonato": "Carioca 2001", "data": "2001-04-29", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Fluminense", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Carioca 2001", "data": "2001-04-22", "estadio": "Maracanã" });
-    jogos.push({ "mandante": "Madureira", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 3, "campeonato": "Carioca 2001", "data": "2001-04-15", "estadio": "Giulite Coutinho" });
+    jogos.push({ "mandante": "Madureira", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 3, "campeonato": "Carioca 2001", "data": "2001-04-15", "estadio": "Moça Bonita" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Remo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Copa Brasil 2001", "data": "2001-04-11", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Volta Redonda", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 2, "campeonato": "Carioca 2001", "data": "2001-04-07", "estadio": "Raulino de Oliveira" });
     jogos.push({ "mandante": "Remo", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Copa Brasil 2001", "data": "2001-04-04", "estadio": "Baenão" });

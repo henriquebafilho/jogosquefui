@@ -6,6 +6,7 @@ import Perfil from './pages/Perfil';
 import BotafogoJogos from './TodosOsJogos/BotafogoJogos';
 import ConjuntoUsuarios from './ConjuntoUsuarios';
 import Navbar from './components/Navbar';
+import VoltarAoTopo from './components/VoltarAoTopo';
 import Usuario from './Usuario';
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
           />
         </Routes>
       </Router>
+      <VoltarAoTopo/>
       <Footer />
     </>
   );
