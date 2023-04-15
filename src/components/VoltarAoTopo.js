@@ -28,8 +28,8 @@ const VoltarAoTopo = () => {
       onClick={handleScrollToTop}
       style={{
         position: "fixed",
-        bottom: "20px",
-        right: "20px",
+        bottom: "50px",
+        right: "50px",
         opacity: isVisible ? 1 : 0,
         backgroundColor: "black",
         color: "white",
@@ -38,8 +38,10 @@ const VoltarAoTopo = () => {
         height: "50px",
         cursor: "pointer",
         border: "2px solid #FFFFFF",
-        fontSize: "30px"
+        fontSize: "30px",
+        paddingBottom: "5px"
       }}
+      title='Voltar ao Topo'
     >
         ↑
     </button>
