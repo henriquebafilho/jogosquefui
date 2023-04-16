@@ -44,7 +44,7 @@ function jogos() {
     // jogos.push({ "mandante": "Botafogo", "visitante": "Ypiranga", "golsMandante": "", "golsVisitante": "", "campeonato": "Copa do Brasil 2023", "data": "2023-04-27", "estadio": "Nilton Santos" });
     // jogos.push({ "mandante": "Bahia", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2023", "data": "2023-04-24", "estadio": "Fonte Nova" });
     // jogos.push({ "mandante": "Botafogo", "visitante": "César Vallejo", "golsMandante": "", "golsVisitante": "", "campeonato": "Copa Sul-Americana 2023", "data": "2023-04-20", "estadio": "Nilton Santos" });
-    // jogos.push({ "mandante": "Botafogo", "visitante": "São Paulo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2023", "data": "2023-04-15", "estadio": "Nilton Santos" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "São Paulo", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Brasileirão 2023", "data": "2023-04-15", "estadio": "Nilton Santos" });
     jogos.push({ "mandante": "Ypiranga", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Copa do Brasil 2023", "data": "2023-04-12", "estadio": "Colosso da Lagoa" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Audax Rio", "golsMandante": 5, "golsVisitante": 2, "campeonato": "Carioca 2023", "data": "2023-04-09", "estadio": "Raulino de Oliveira" });
     jogos.push({ "mandante": "Magallanes", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Copa Sul-Americana 2023", "data": "2023-04-06", "estadio": "El Teniente" });
