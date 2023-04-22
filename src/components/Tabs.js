@@ -12,8 +12,13 @@ class Tabs extends Component {
         this.state = {
             toggleState: 1,
             meusJogos: props.meusJogos,
-            meuTime: props.meuTime
-        }
+            meuTime: props.meuTime,
+            currentPage: 1,
+            itemsPerPage: 20
+        };
+
+        this.handleNextPage = this.handleNextPage.bind(this);
+        this.handlePrevPage = this.handlePrevPage.bind(this);
     }
 
     async componentDidMount(){
@@ -21,6 +26,18 @@ class Tabs extends Component {
             return a.data < b.data ? 1 : a.data > b.data ? -1 : 0;
         })})
     }
+
+    handleNextPage() {
+        this.setState({
+          currentPage: this.state.currentPage + 1
+        });
+      }
+    
+      handlePrevPage() {
+        this.setState({
+          currentPage: this.state.currentPage - 1
+        });
+      }
 
     toggleTab = async (index) => {
         this.setState({ toggleState: index });
@@ -32,6 +49,13 @@ class Tabs extends Component {
         let meusJogos = this.state.meusJogos;
         let meuTime = this.state.meuTime;
         let anoAtual = 0;
+        const { currentPage, itemsPerPage } = this.state;
+
+        const indexOfLastItem = currentPage * itemsPerPage;
+        const indexOfFirstItem = indexOfLastItem - itemsPerPage;
+        const currentItems = meusJogos.slice(indexOfFirstItem, indexOfLastItem);
+
+        const totalPages = Math.ceil(meusJogos.length / itemsPerPage);
         return (
             <div className="container" style={{ color: "white", border: "3px" }}>
                 <div className="bloc-tabs">
@@ -52,7 +76,7 @@ class Tabs extends Component {
                 <div className="content-tabs">
                     <div className={toggleState === 1 ? "content  active-content" : "content"}>
                         <Estatisticas meuTime={meuTime} jogos={meusJogos} flag="tabs" />
-                        {meusJogos.length > 0 ? meusJogos.map((index) => {
+                        {meusJogos.length > 0 ? currentItems.map((index) => {
                             let mostraAno = false;
                             if (anoAtual !== index.data.split("-")[0]) {
                                 anoAtual = index.data.split("-")[0];
@@ -66,6 +90,10 @@ class Tabs extends Component {
                             <h1 style={{ color: Times(meuTime).letterColor, textAlign: 'center', paddingBottom: '50px' }}>Você ainda não possui jogos cadastrados</h1>
                             <h4 style={{ color: Times(meuTime).letterColor, textAlign: 'center' }}>Vá em "Jogos do {meuTime}" para selecionar os jogos que você já foi</h4>
                         </div>}
+                        <div style={{ textAlign: 'center' }}>
+                            <button style={{ margin: '10px' }} onClick={this.handlePrevPage} disabled={currentPage === 1}>Anterior</button>
+                            <button style={{ margin: '10px' }} onClick={this.handleNextPage} disabled={currentPage === totalPages}>Próxima</button>
+                        </div>
                     </div>
 
                     <div className={toggleState === 2 ? "content  active-content" : "content"}>
