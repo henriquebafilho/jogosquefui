@@ -75,7 +75,7 @@ class Tabs extends Component {
 
                 <div className="content-tabs">
                     <div className={toggleState === 1 ? "content  active-content" : "content"}>
-                        <Estatisticas meuTime={meuTime} jogos={meusJogos} flag="tabs" />
+                        <Estatisticas meuTime={meuTime} jogos={meusJogos} />
                         {meusJogos.length > 0 ? currentItems.map((index) => {
                             let mostraAno = false;
                             if (anoAtual !== index.data.split("-")[0]) {

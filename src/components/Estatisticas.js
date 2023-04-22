@@ -7,9 +7,8 @@ function Estatisticas(props) {
     var vitorias = Common.getVitorias(props.meuTime, props.jogos);
     var empates = Common.getEmpates(props.meuTime, props.jogos);
     var derrotas = Common.getDerrotas(props.meuTime, props.jogos);
-    var width = props.flag === "tabs" ? '100%' : '60vw';
     return (
-        <div style={{ paddingBottom: '30px', width: width, fontSize: '25px' }}>
+        <div style={{ paddingBottom: '30px', width: '100%', fontSize: '25px' }}>
             <p style={{ color: Times(props.meuTime).letterColor }}>{total} jogo{total > 1 ? 's' : ''}</p>
             <div className='resultsBar' style={{ borderColor: Times(props.meuTime).backgroundColor === 'white' ? 'black' : 'white' }}>
                 <div className="vitoriasBar" title={vitorias + ' Vitórias'}

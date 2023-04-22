@@ -67,7 +67,7 @@ class ViewAdversario extends Component {
                 anoAtual = index.data.split("-")[0];
                 mostraAno = true;
               }
-              return <div>
+              return <div style={{ width: '100%' }}>
                 {mostraAno ? <h1 style={{ textAlign: 'center', color: Times(meuTime).letterColor, margin: '40px' }}>{anoAtual}</h1> : ""}
                 <LinhaJogo meuTime={meuTime} jogo={index} meusJogos={this.props.meusJogos}/>
               </div>
