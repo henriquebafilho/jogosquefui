@@ -18,7 +18,15 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: top;
+}
+
+#App-header-todos {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: top;
   font-size: calc(10px + 2vmin);
 }
 
@@ -26,11 +34,14 @@
   color: #61dafb;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+  font-family: 'Montserrat', sans-serif;
 }
 
 .adversarios,
@@ -68,7 +79,9 @@ details[open] summary~* {
   animation: sweep .5s ease-in-out;
 }
 
-#selectTime, #selectEstadio, #selectAno {
+#selectAdversario,
+#selectEstadio,
+#selectAno {
   margin-bottom: 10px;
   padding-bottom: 5px;
   padding-top: 10px;
@@ -81,12 +94,14 @@ details[open] summary~* {
   font-weight: bold;
 }
 
-#selectTime:hover, #selectEstadio:hover, #selectAno:hover {
+#selectAdversario:hover,
+#selectEstadio:hover,
+#selectAno:hover {
   text-decoration: underline;
   font-weight: bold;
 }
 
-summary::after{
+summary::after {
   margin-left: 1ch;
   vertical-align: middle;
   transition: 0.2s;
@@ -112,8 +127,8 @@ details[open] #summaryDefault::after {
 }
 
 
-#summaryDefault::after{
-  transform: translateY(5%); 
+#summaryDefault::after {
+  transform: translateY(5%);
 }
 
 /* SUMMARY ADVERSÁRIO */
@@ -123,12 +138,12 @@ details[open] #summaryAdversario::after {
 }
 
 
-#summaryAdversario::after{
-  transform: translateY(70%); 
+#summaryAdversario::after {
+  transform: translateY(70%);
 }
 
 /* BARRA DE RESULTADOS */
-.resultsBar{
+.resultsBar {
   width: 100%;
   height: 35px;
   border-radius: 10px;
@@ -138,7 +153,7 @@ details[open] #summaryAdversario::after {
   text-align: center;
 }
 
-.vitoriasBar{
+.vitoriasBar {
   height: 100%;
   background-color: green;
   float: left;
@@ -146,21 +161,165 @@ details[open] #summaryAdversario::after {
   border-bottom-left-radius: 10px;
 }
 
-.empatesBar{
+.empatesBar {
   height: 100%;
   background-color: orange;
   float: left;
 }
 
-.derrotasBar{
+.derrotasBar {
   height: 100%;
   background-color: red;
   float: left;
 }
 
 /* Div Jogo */
-.divJogo{
+.divJogo {
   text-align: center;
   border: 2px solid white;
   border-radius: 10px;
+}
+
+/* TABS */
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #fff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background: #f1f1f1;
+  margin: 10px auto 0;
+  word-break: break-all;
+  border: 1px solid rgba(0, 0, 0, 0.274);
+}
+
+.bloc-tabs {
+  display: flex;
+}
+
+.tabs {
+  padding: 15px;
+  text-align: center;
+  width: 50%;
+  background: #030348;
+  color: white;
+  cursor: pointer;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.274);
+  box-sizing: content-box;
+  position: relative;
+  outline: none;
+}
+
+.tabs:hover{
+  background: #0a0a63;
+}
+
+.tabs:not(:last-child) {
+  border-right: 1px solid rgba(0, 0, 0, 0.274);
+}
+
+.active-tabs {
+  background: #0a0a63; /* azul escuro mais claro */
+  border-bottom: 1px solid transparent;
+  color: white;
+}
+
+.active-tabs::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% + 2px);
+  height: 5px;
+  background: #09ab4c;
+}
+
+button#tab {
+  border: none;
+}
+
+.content-tabs {
+  flex-grow: 1;
+}
+
+.content {
+  background: black;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+.content h2 {
+  padding: 0px 0 5px 0px;
+}
+
+.content hr {
+  width: 100px;
+  height: 2px;
+  background: #222;
+  margin-bottom: 5px;
+}
+
+.content p {
+  width: 100%;
+  height: 100%;
+}
+
+.active-content {
+  display: block;
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    width: 100%;
+  }
+  #selectEstadio, #selectAno, #selectAdversario{
+    width: 100%;
+  }
+  #tab {
+    white-space: nowrap;
+    font-size: 15px;
+  }
+  .escudoLinha{
+    width: 3em;
+    height: 3em;
+  }
+  .nomeTime{
+    font-size: 2.5vw;
+    /* overflow: 'hidden';
+    text-overflow: 'ellipsis';
+    white-space: 'pre-wrap'; */
+  }
+}
+
+@media screen and (min-width: 801px) {
+  .container {
+    width: 80vw;
+  }
+  #selectEstadio, #selectAno, #selectAdversario{
+    width: 80vw;
+  }
+  #tab {
+    font-size: 20px;
+  }
+  .escudoLinha{
+    width: 4rem;
+    height: 4rem;
+  }
+  .nomeTime{
+    font-size: 20px;
+  }
 }

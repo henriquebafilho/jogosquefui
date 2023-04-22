@@ -5,8 +5,8 @@ const getTotalAdversario = (meuTime, adversario, jogos) => {
     var adversarioAtual = Times(adversario).nomeAtual;
 
     for (var a in jogos) {
-        if (((jogos[a][0] === meuTime) && (Times(jogos[a][1]).nomeAtual === adversarioAtual)) ||
-            ((jogos[a][1] === meuTime) && (Times(jogos[a][0]).nomeAtual === adversarioAtual))) {
+        if (((jogos[a].mandante === meuTime) && (Times(jogos[a].visitante).nomeAtual === adversarioAtual)) ||
+            ((jogos[a].visitante === meuTime) && (Times(jogos[a].mandante).nomeAtual === adversarioAtual))) {
             total += 1;
         }
     }
@@ -18,7 +18,7 @@ const getTotalEstadio = (estadio, jogos) => {
     var total = 0;
 
     for (var a in jogos) {
-        if (jogos[a][6] === estadio) {
+        if (jogos[a].estadio === estadio) {
             total += 1;
         }
     }
@@ -30,7 +30,7 @@ const getTotalAno = (ano, jogos) => {
     var total = 0;
 
     for (var a in jogos) {
-        const currentDate = new Date(jogos[a][5]);
+        const currentDate = new Date(jogos[a].data);
         if (ano.toString().includes(currentDate.getFullYear())) {
             total += 1;
         }
@@ -43,9 +43,15 @@ const getVitorias = (meuTime, jogos) => {
     var vitorias = 0;
 
     for (var a in jogos) {
-        if (((jogos[a][0] === meuTime) && (jogos[a][2] > jogos[a][3])) ||
-            ((jogos[a][1] === meuTime) && (jogos[a][2] < jogos[a][3]))) {
+        if (jogos[a].golsMandante === "WO" && jogos[a].mandante === meuTime) {
             vitorias += 1;
+        } else if (jogos[a].golsVisitante === "WO" && jogos[a].visitante === meuTime) {
+            vitorias += 1;
+        } else {
+            if (((jogos[a].mandante === meuTime) && (jogos[a].golsMandante > jogos[a].golsVisitante)) ||
+                ((jogos[a].visitante === meuTime) && (jogos[a].golsMandante < jogos[a].golsVisitante))) {
+                vitorias += 1;
+            }
         }
     }
 
@@ -56,8 +62,8 @@ const getEmpates = (meuTime, jogos) => {
     var empates = 0;
 
     for (var a in jogos) {
-        if (jogos[a][2] === jogos[a][3] &&
-            (meuTime === jogos[a][0] || meuTime === jogos[a][1])) {
+        if (jogos[a].golsMandante === jogos[a].golsVisitante &&
+            (meuTime === jogos[a].mandante || meuTime === jogos[a].visitante)) {
             empates += 1;
         }
     }
@@ -69,9 +75,15 @@ const getDerrotas = (meuTime, jogos) => {
     var derrotas = 0;
 
     for (var a in jogos) {
-        if (((jogos[a][0] === meuTime) && (jogos[a][2] < jogos[a][3])) ||
-            ((jogos[a][1] === meuTime) && (jogos[a][2] > jogos[a][3]))) {
+        if (jogos[a].golsMandante === "WO" && jogos[a].visitante === meuTime) {
             derrotas += 1;
+        } else if (jogos[a].golsVisitante === "WO" && jogos[a].mandante === meuTime) {
+            derrotas += 1;
+        } else {
+            if (((jogos[a].mandante === meuTime) && (jogos[a].golsMandante < jogos[a].golsVisitante)) ||
+                ((jogos[a].visitante === meuTime) && (jogos[a].golsMandante > jogos[a].golsVisitante))) {
+                derrotas += 1;
+            }
         }
     }
 

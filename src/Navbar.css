@@ -39,20 +39,23 @@
     height: 60px;
 }
 
-.nav-text a{
+.nav-text button{
     text-decoration: none;
-    color: white; /* colocar cor secundária do time */
+    color: white;
+    background-color: #030348;
     font-size: 18px;
     width: 95%;
     height: 100%;
     display: flex;
     align-items: center;
     padding: 0 16px;
-    border-radius: 4px;
+    border: none;
 }
 
-.nav-text a:hover{
+.nav-text button:hover{
     background-color: #09ab4c;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 .nav-menu-items{

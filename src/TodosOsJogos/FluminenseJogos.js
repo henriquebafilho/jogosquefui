@@ -1,77 +1,206 @@
 function FluminenseJogos() {
-    var jogos = [];
+    let jogos = [];
 
-    jogos.push(["Red Bull Bragantino", "Fluminense", 0, 0, "Brasileirão", "2022-11-13", "Nabi Abi Chedid"])
-    jogos.push(["Fluminense", "Goiás", 3, 0, "Brasileirão", "2022-11-09", "Maracanã"])
-    jogos.push(["Fluminense", "São Paulo", 3, 1, "Brasileirão", "2022-11-05", "Maracanã"])
-    jogos.push(["Ceará", "Fluminense", 0, 1, "Brasileirão", "2022-10-31", "Castelão-CE", [""], ["Germán Cano"], "https://www.youtube.com/embed/fY-qNT74i_I"])
-    jogos.push(["Corinthians", "Fluminense", 0, 2, "Brasileirão", "2022-10-26", "Neo Química Arena"])
-    jogos.push(["Fluminense", "Botafogo", 2, 2, "Brasileirão", "2022-10-23", "Maracanã"])
-    jogos.push(["Avaí", "Fluminense", 0, 3, "Brasileirão", "2022-10-16", "Ressacada"])
-    jogos.push(["Fluminense", "América-MG", 0, 2, "Brasileirão", "2022-10-09", "Maracanã"])
-    jogos.push(["Atlético-GO", "Fluminense", 3, 2, "Brasileirão", "2022-10-05", "Antonio Accioly"])
-    jogos.push(["Atlético-MG", "Fluminense", 2, 0, "Brasileirão", "2022-10-01", "Mineirão"])
-    jogos.push(["Fluminense", "Juventude", 4, 0, "Brasileirão", "2022-09-28", "Maracanã"])
-    jogos.push(["Flamengo", "Fluminense", 1, 2, "Brasileirão", "2022-09-18", "Maracanã"])
-    jogos.push(["Corinthians", "Fluminense", 3, 0, "Copa do Brasil", "2022-09-15", "Neo Química Arena"])
-    jogos.push(["Fluminense", "Fortaleza", 2, 1, "Brasileirão", "2022-09-10", "Maracanã"])
-    jogos.push(["Athletico-PR", "Fluminense", 1, 0, "Brasileirão", "2022-09-03", "Arena da Baixada"])
-    jogos.push(["Fluminense", "Palmeiras", 1, 1, "Brasileirão", "2022-08-27", "Maracanã"])
-    jogos.push(["Fluminense", "Corinthians", 2, 2, "Copa do Brasil", "2022-08-24", "Maracanã"])
-    jogos.push(["Fluminense", "Coritiba", 5, 2, "Brasileirão", "2022-08-20", "Maracanã"])
-    jogos.push(["Fluminense", "Fortaleza", 2, 2, "Copa do Brasil", "2022-08-17", "Maracanã"])
-    jogos.push(["Internacional", "Fluminense", 3, 0, "Brasileirão", "2022-08-14", "Beira-Rio"])
-    jogos.push(["Fluminense", "Cuiabá", 1, 0, "Brasileirão", "2022-08-07", "Maracanã"])
-    jogos.push(["Santos", "Fluminense", 2, 2, "Brasileirão", "2022-08-01", "Vila Belmiro"])
-    jogos.push(["Fortaleza", "Fluminense", 0, 1, "Copa do Brasil", "2022-07-28", "Castelão-CE"])
-    jogos.push(["Fluminense", "Red Bull Bragantino", 2, 1, "Brasileirão", "2022-07-24", "Maracanã"])
-    jogos.push(["Goiás", "Fluminense", 2, 3, "Brasileirão", "2022-07-20", "Serrinha"])
-    jogos.push(["São Paulo", "Fluminense", 2, 2, "Brasileirão", "2022-07-17", "Morumbi"])
-    jogos.push(["Cruzeiro", "Fluminense", 0, 3, "Copa do Brasil", "2022-07-12", "Mineirão"])
-    jogos.push(["Fluminense", "Ceará", 2, 1, "Brasileirão", "2022-07-09", "Maracanã"])
-    jogos.push(["Fluminense", "Corinthians", 4, 0, "Brasileirão", "2022-07-02", "Maracanã"])
-    jogos.push(["Botafogo", "Fluminense", 0, 1, "Brasileirão", "2022-06-26", "Nilton Santos"])
-    jogos.push(["Fluminense", "Cruzeiro", 2, 1, "Copa do Brasil", "2022-06-23", "Maracanã"])
-    jogos.push(["Fluminense", "Avaí", 2, 0, "Brasileirão", "2022-06-19", "Maracanã"])
-    jogos.push(["América-MG", "Fluminense", 0, 0, "Brasileirão", "2022-06-15", "Independência"])
-    jogos.push(["Fluminense", "Atlético-GO", 0, 2, "Brasileirão", "2022-06-11", "Maracanã"])
-    jogos.push(["Fluminense", "Atlético-MG", 5, 3, "Brasileirão", "2022-06-08", "Maracanã"])
-    jogos.push(["Juventude", "Fluminense", 1, 0, "Brasileirão", "2022-06-05", "Alfredo Jaconi"])
-    jogos.push(["Fluminense", "Flamengo", 1, 2, "Brasileirão", "2022-05-29", "Maracanã"])
-    jogos.push(["Oriente Petrolero", "Fluminense", 1, 10, "Copa Sul-Americana", "2022-05-26", "Ramón Tahuichi Aguilera"])
-    jogos.push(["Fortaleza", "Fluminense", 0, 1, "Brasileirão", "2022-05-22", "Castelão-CE"])
-    jogos.push(["Unión", "Fluminense", 0, 0, "Copa Sul-Americana", "2022-05-19", "15 de Abril"])
-    jogos.push(["Fluminense", "Athletico-PR", 2, 1, "Brasileirão", "2022-05-14", "Maracanã"])
-    jogos.push(["Vila Nova", "Fluminense", 0, 2, "Copa do Brasil", "2022-05-11", "Serra Dourada"])
-    jogos.push(["Palmeiras", "Fluminense", 1, 1, "Brasileirão", "2022-05-08", "Allianz Parque"])
-    jogos.push(["Fluminense", "Junior Barranquilla", 2, 1, "Copa Sul-Americana", "2022-05-04", "Maracanã"])
-    jogos.push(["Coritiba", "Fluminense", 3, 2, "Brasileirão", "2022-05-01", "Couto Pereira"])
-    jogos.push(["Fluminense", "Unión", 0, 0, "Copa Sul-Americana", "2022-04-26", "Maracanã"])
-    jogos.push(["Fluminense", "Internacional", 0, 1, "Brasileirão", "2022-04-23", "Maracanã"])
-    jogos.push(["Fluminense", "Vila Nova", 3, 2, "Copa do Brasil", "2022-04-19", "Maracanã"])
-    jogos.push(["Cuiabá", "Fluminense", 0, 1, "Brasileirão", "2022-04-16", "Arena Pantanal"])
-    jogos.push(["Junior Barranquilla", "Fluminense", 3, 0, "Copa Sul-Americana", "2022-04-13", "Metropolitano Roberto Meléndez"])
-    jogos.push(["Fluminense", "Santos", 0, 0, "Brasileirão", "2022-04-09", "Maracanã"])
-    jogos.push(["Fluminense", "Oriente Petrolero", 3, 0, "Copa Sul-Americana", "2022-04-06", "Maracanã"])
-    jogos.push(["Fluminense", "Flamengo", 1, 1, "Carioca", "2022-04-02", "Maracanã"])
-    jogos.push(["Flamengo", "Fluminense", 0, 2, "Carioca", "2022-03-30", "Maracanã"])
-    jogos.push(["Fluminense", "Botafogo", 1, 2, "Carioca", "2022-03-27", "Maracanã"])
-    jogos.push(["Botafogo", "Fluminense", 0, 1, "Carioca", "2022-03-21", "Nilton Santos"])
-    jogos.push(["Olimpia", "Fluminense", 2, 0, "Libertadores", "2022-03-16", "Defensores Del Chaco"])	//(4-1 Pen.)
-    jogos.push(["Boavista", "Fluminense", 0, 0, "Carioca", "2022-03-12", "Eucyr Resende"])
-    jogos.push(["Fluminense", "Olimpia", 3, 1, "Libertadores", "2022-03-09", "Nilton Santos"])
-    jogos.push(["Resende", "Fluminense", 0, 4, "Carioca", "2022-03-05", "Raulino de Oliveira"])
-    jogos.push(["Fluminense", "Millonarios", 2, 0, "Libertadores", "2022-03-01", "São Januário"])
-    jogos.push(["Fluminense", "Vasco", 2, 0, "Carioca", "2022-02-26", "Nilton Santos"])
-    jogos.push(["Millonarios", "Fluminense", 1, 2, "Libertadores", "2022-02-22", "El Campín"])
-    jogos.push(["Fluminense", "Volta Redonda", 3, 0, "Carioca", "2022-02-19", "Luso Brasileiro"])
-    jogos.push(["Nova Iguaçu", "Fluminense", 0, 1, "Carioca", "2022-02-16", "Luso Brasileiro"])
-    jogos.push(["Fluminense", "Portuguesa-RJ", 1, 0, "Carioca", "2022-02-13", "Nilton Santos"])
-    jogos.push(["Fluminense", "Botafogo", 2, 1, "Carioca", "2022-02-10", "Nilton Santos"])
-    jogos.push(["Flamengo", "Fluminense", 0, 1, "Carioca", "2022-02-06", "Nilton Santos"])
-    jogos.push(["Fluminense", "Audax Rio", 1, 0, "Carioca", "2022-02-03", "Luso Brasileiro"])
-    jogos.push(["Madureira", "Fluminense", 0, 1, "Carioca", "2022-01-30", "Raulino de Oliveira"])
-    jogos.push(["Fluminense", "Bangu", 0, 1, "Carioca", "2022-01-27", "Luso Brasileiro"])
+    jogos.push(["Fluminense", "Grêmio", "", "", "Brasileirão", "2023-12-03", "Maracanã"]);
+    jogos.push(["Palmeiras", "Fluminense", "", "", "Brasileirão", "2023-11-29", "Allianz Parque"]);
+    jogos.push(["Santos", "Fluminense", "", "", "Brasileirão", "2023-11-25", "Vila Belmiro"]);
+    jogos.push(["Fluminense", "Coritiba", "", "", "Brasileirão", "2023-11-22", "Maracanã"]);
+    jogos.push(["Flamengo", "Fluminense", "", "", "Brasileirão", "2023-11-11", "Maracanã"]);
+    jogos.push(["Internacional", "Fluminense", "", "", "Brasileirão", "2023-11-04", "Beira-Rio"]);
+    jogos.push(["Fluminense", "São Paulo", "", "", "Brasileirão", "2023-11-01", "Maracanã"]);
+    jogos.push(["Bahia", "Fluminense", "", "", "Brasileirão", "2023-10-28", "Fonte Nova"]);
+    jogos.push(["Atlético-MG", "Fluminense", "", "", "Brasileirão", "2023-10-25", "Arena MRV"]);
+    jogos.push(["Fluminense", "Goiás", "", "", "Brasileirão", "2023-10-21", "Maracanã"]);
+    jogos.push(["Red Bull Bragantino", "Fluminense", "", "", "Brasileirão", "2023-10-18", "Nabi Abi Chedid"]);
+    jogos.push(["Fluminense", "Corinthians", "", "", "Brasileirão", "2023-10-07", "Maracanã"]);
+    jogos.push(["Fluminense", "Botafogo", "", "", "Brasileirão", "2023-09-30", "Maracanã"]);
+    jogos.push(["Cuiabá", "Fluminense", "", "", "Brasileirão", "2023-09-20", "Arena Pantanal"]);
+    jogos.push(["Fluminense", "Cruzeiro", "", "", "Brasileirão", "2023-09-13", "Maracanã"]);
+    jogos.push(["Vasco", "Fluminense", "", "", "Brasileirão", "2023-09-02", "São Januário"]);
+    jogos.push(["Fluminense", "Fortaleza", "", "", "Brasileirão", "2023-08-26", "Maracanã"]);
+    jogos.push(["Athletico-PR", "Fluminense", "", "", "Brasileirão", "2023-08-19", "Arena da Baixada"]);
+    jogos.push(["Fluminense", "América-MG", "", "", "Brasileirão", "2023-08-12", "Maracanã"]);
+    jogos.push(["Grêmio", "Fluminense", "", "", "Brasileirão", "2023-08-05", "Arena do Grêmio"]);
+    jogos.push(["Fluminense", "Palmeiras", "", "", "Brasileirão", "2023-08-02", "Maracanã"]);
+    jogos.push(["Fluminense", "Santos", "", "", "Brasileirão", "2023-07-29", "Maracanã"]);
+    jogos.push(["Coritiba", "Fluminense", "", "", "Brasileirão", "2023-07-22", "Couto Pereira"]);
+    jogos.push(["Fluminense", "Flamengo", "", "", "Brasileirão", "2023-07-15", "Maracanã"]);
+    jogos.push(["Fluminense", "Internacional", "", "", "Brasileirão", "2023-07-08", "Maracanã"]);
+    jogos.push(["São Paulo", "Fluminense", "", "", "Brasileirão", "2023-07-01", "Morumbi"]);
+    jogos.push(["Fluminense", "Bahia", "", "", "Brasileirão", "2023-06-24", "Maracanã"]);
+    jogos.push(["Fluminense", "Atlético-MG", "", "", "Brasileirão", "2023-06-21", "Maracanã"]);
+    jogos.push(["Goiás", "Fluminense", "", "", "Brasileirão", "2023-06-10", "Serrinha"]);
+    jogos.push(["Fluminense", "Red Bull Bragantino", "", "", "Brasileirão", "2023-06-03", "Maracanã"]);
+    jogos.push(["Corinthians", "Fluminense", "", "", "Brasileirão", "2023-05-27", "Neo Química"]);
+    jogos.push(["Botafogo", "Fluminense", "", "", "Brasileirão", "2023-05-20", "Nilton Santos"]);
+    jogos.push(["Fluminense", "Cuiabá", "", "", "Brasileirão", "2023-05-13", "Maracanã"]);
+    jogos.push(["Cruzeiro", "Fluminense", "", "", "Brasileirão", "2023-05-10", "Independência"]);
+    jogos.push(["Fluminense", "Vasco", "", "", "Brasileirão", "2023-05-06", "Maracanã"]);
+    jogos.push(["Fortaleza", "Fluminense", "", "", "Brasileirão", "2023-04-29", "Castelão"]);
+    jogos.push(["Fluminense", "Athletico-PR", "", "", "Brasileirão", "2023-04-22", "Maracanã"]);
+    jogos.push(["América-MG", "Fluminense", "", "", "Brasileirão", "2023-04-15", "Independência"]);
+    jogos.push(["Flamengo", "Fluminense", "", "", "Carioca", "2023-03-08", "Maracanã"]);
+    jogos.push(["Bangu", "Fluminense", "", "", "Carioca", "2023-03-05", "Moça Bonita"]);
+    jogos.push(["Fluminense", "Portuguesa-RJ", "", "", "Carioca", "2023-02-25", "Maracanã"]);
+    jogos.push(["Fluminense", "Vasco", 2, 0, "Carioca", "2023-02-12", "Maracanã"]);
+    jogos.push(["Fluminense", "Audax Rio", 3, 0, "Carioca", "2023-02-05", "Maracanã"]);
+    jogos.push(["Volta Redonda", "Fluminense", 1, 0, "Carioca", "2023-02-02", "Raulino de Oliveira"]);
+    jogos.push(["Fluminense", "Botafogo", 0, 1, "Carioca", "2023-01-29", "Maracanã"]);
+    jogos.push(["Fluminense", "Boavista", 1, 1, "Carioca", "2023-01-25", "Maracanã"]);
+    jogos.push(["Madureira", "Fluminense", 0, 1, "Carioca", "2023-01-22", "Kleber Andrade"]);
+    jogos.push(["Fluminense", "Nova Iguaçu", 1, 0, "Carioca", "2023-01-17", "Maracanã"]);
+    jogos.push(["Resende", "Fluminense", 0, 2, "Carioca", "2023-01-14", "Raulino de Oliveira"]);
+    jogos.push(["Red Bull Bragantino", "Fluminense", 0, 1, "Brasileirão", "2022-11-13", "Nabi Abi Chedid"]);
+    jogos.push(["Fluminense", "Goiás", 3, 0, "Brasileirão", "2022-11-09", "Maracanã"]);
+    jogos.push(["Fluminense", "São Paulo", 3, 1, "Brasileirão", "2022-11-05", "Maracanã"]);
+    jogos.push(["Ceará", "Fluminense", 0, 1, "Brasileirão", "2022-10-31", "Castelão-CE"]);
+    jogos.push(["Corinthians", "Fluminense", 0, 2, "Brasileirão", "2022-10-26", "Neo Química Arena"]);
+    jogos.push(["Fluminense", "Botafogo", 2, 2, "Brasileirão", "2022-10-23", "Maracanã"]);
+    jogos.push(["Avaí", "Fluminense", 0, 3, "Brasileirão", "2022-10-16", "Ressacada"]);
+    jogos.push(["Fluminense", "América-MG", 0, 2, "Brasileirão", "2022-10-09", "Maracanã"]);
+    jogos.push(["Atlético-GO", "Fluminense", 3, 2, "Brasileirão", "2022-10-05", "Antonio Accioly"]);
+    jogos.push(["Atlético-MG", "Fluminense", 2, 0, "Brasileirão", "2022-10-01", "Mineirão"]);
+    jogos.push(["Fluminense", "Juventude", 4, 0, "Brasileirão", "2022-09-28", "Maracanã"]);
+    jogos.push(["Flamengo", "Fluminense", 1, 2, "Brasileirão", "2022-09-18", "Maracanã"]);
+    jogos.push(["Corinthians", "Fluminense", 3, 0, "Copa do Brasil", "2022-09-15", "Neo Química Arena"]);
+    jogos.push(["Fluminense", "Fortaleza", 2, 1, "Brasileirão", "2022-09-10", "Maracanã"]);
+    jogos.push(["Athletico-PR", "Fluminense", 1, 0, "Brasileirão", "2022-09-03", "Arena da Baixada"]);
+    jogos.push(["Fluminense", "Palmeiras", 1, 1, "Brasileirão", "2022-08-27", "Maracanã"]);
+    jogos.push(["Fluminense", "Corinthians", 2, 2, "Copa do Brasil", "2022-08-24", "Maracanã"]);
+    jogos.push(["Fluminense", "Coritiba", 5, 2, "Brasileirão", "2022-08-20", "Maracanã"]);
+    jogos.push(["Fluminense", "Fortaleza", 2, 2, "Copa do Brasil", "2022-08-17", "Maracanã"]);
+    jogos.push(["Internacional", "Fluminense", 3, 0, "Brasileirão", "2022-08-14", "Beira-Rio"]);
+    jogos.push(["Fluminense", "Cuiabá", 1, 0, "Brasileirão", "2022-08-07", "Maracanã"]);
+    jogos.push(["Santos", "Fluminense", 2, 2, "Brasileirão", "2022-08-01", "Vila Belmiro"]);
+    jogos.push(["Fortaleza", "Fluminense", 0, 1, "Copa do Brasil", "2022-07-28", "Castelão-CE"]);
+    jogos.push(["Fluminense", "Red Bull Bragantino", 2, 1, "Brasileirão", "2022-07-24", "Maracanã"]);
+    jogos.push(["Goiás", "Fluminense", 2, 3, "Brasileirão", "2022-07-20", "Serrinha"]);
+    jogos.push(["São Paulo", "Fluminense", 2, 2, "Brasileirão", "2022-07-17", "Morumbi"]);
+    jogos.push(["Cruzeiro", "Fluminense", 0, 3, "Copa do Brasil", "2022-07-12", "Mineirão"]);
+    jogos.push(["Fluminense", "Ceará", 2, 1, "Brasileirão", "2022-07-09", "Maracanã"]);
+    jogos.push(["Fluminense", "Corinthians", 4, 0, "Brasileirão", "2022-07-02", "Maracanã"]);
+    jogos.push(["Botafogo", "Fluminense", 0, 1, "Brasileirão", "2022-06-26", "Nilton Santos"]);
+    jogos.push(["Fluminense", "Cruzeiro", 2, 1, "Copa do Brasil", "2022-06-23", "Maracanã"]);
+    jogos.push(["Fluminense", "Avaí", 2, 0, "Brasileirão", "2022-06-19", "Maracanã"]);
+    jogos.push(["América-MG", "Fluminense", 0, 0, "Brasileirão", "2022-06-15", "Independência"]);
+    jogos.push(["Fluminense", "Atlético-GO", 0, 2, "Brasileirão", "2022-06-11", "Maracanã"]);
+    jogos.push(["Fluminense", "Atlético-MG", 5, 3, "Brasileirão", "2022-06-08", "Maracanã"]);
+    jogos.push(["Juventude", "Fluminense", 1, 0, "Brasileirão", "2022-06-05", "Alfredo Jaconi"]);
+    jogos.push(["Fluminense", "Flamengo", 1, 2, "Brasileirão", "2022-05-29", "Maracanã"]);
+    jogos.push(["Oriente Petrolero", "Fluminense", 1, 10, "Copa Sul-Americana", "2022-05-26", "Ramón Tahuichi Aguilera"]);
+    jogos.push(["Fortaleza", "Fluminense", 0, 1, "Brasileirão", "2022-05-22", "Castelão-CE"]);
+    jogos.push(["Unión", "Fluminense", 0, 0, "Copa Sul-Americana", "2022-05-19", "15 de Abril"]);
+    jogos.push(["Fluminense", "Athletico-PR", 2, 1, "Brasileirão", "2022-05-14", "Maracanã"]);
+    jogos.push(["Vila Nova", "Fluminense", 0, 2, "Copa do Brasil", "2022-05-11", "Serra Dourada"]);
+    jogos.push(["Palmeiras", "Fluminense", 1, 1, "Brasileirão", "2022-05-08", "Allianz Parque"]);
+    jogos.push(["Fluminense", "Junior Barranquilla", 2, 1, "Copa Sul-Americana", "2022-05-04", "Maracanã"]);
+    jogos.push(["Coritiba", "Fluminense", 3, 2, "Brasileirão", "2022-05-01", "Couto Pereira"]);
+    jogos.push(["Fluminense", "Unión", 0, 0, "Copa Sul-Americana", "2022-04-26", "Maracanã"]);
+    jogos.push(["Fluminense", "Internacional", 0, 1, "Brasileirão", "2022-04-23", "Maracanã"]);
+    jogos.push(["Fluminense", "Vila Nova", 3, 2, "Copa do Brasil", "2022-04-19", "Maracanã"]);
+    jogos.push(["Cuiabá", "Fluminense", 0, 1, "Brasileirão", "2022-04-16", "Arena Pantanal"]);
+    jogos.push(["Junior Barranquilla", "Fluminense", 3, 0, "Copa Sul-Americana", "2022-04-13", "Metropolitano Roberto Meléndez"]);
+    jogos.push(["Fluminense", "Santos", 0, 0, "Brasileirão", "2022-04-09", "Maracanã"]);
+    jogos.push(["Fluminense", "Oriente Petrolero", 3, 0, "Copa Sul-Americana", "2022-04-06", "Maracanã"]);
+    jogos.push(["Fluminense", "Flamengo", 1, 1, "Carioca", "2022-04-02", "Maracanã"]);
+    jogos.push(["Flamengo", "Fluminense", 0, 2, "Carioca", "2022-03-30", "Maracanã"]);
+    jogos.push(["Fluminense", "Botafogo", 1, 2, "Carioca", "2022-03-27", "Maracanã"]);
+    jogos.push(["Botafogo", "Fluminense", 0, 1, "Carioca", "2022-03-21", "Nilton Santos"]);
+    jogos.push(["Olimpia", "Fluminense", 2, 0, "Libertadores", "2022-03-16", "Defensores Del Chaco"]); //(4-1 Pen.)
+    jogos.push(["Boavista", "Fluminense", 0, 0, "Carioca", "2022-03-12", "Bacaxá"]);
+    jogos.push(["Fluminense", "Olimpia", 3, 1, "Libertadores", "2022-03-09", "Nilton Santos"]);
+    jogos.push(["Resende", "Fluminense", 0, 4, "Carioca", "2022-03-05", "Raulino de Oliveira"]);
+    jogos.push(["Fluminense", "Millonarios", 2, 0, "Libertadores", "2022-03-01", "São Januário"]);
+    jogos.push(["Fluminense", "Vasco", 2, 0, "Carioca", "2022-02-26", "Nilton Santos"]);
+    jogos.push(["Millonarios", "Fluminense", 1, 2, "Libertadores", "2022-02-22", "El Campín"]);
+    jogos.push(["Fluminense", "Volta Redonda", 3, 0, "Carioca", "2022-02-19", "Luso Brasileiro"]);
+    jogos.push(["Nova Iguaçu", "Fluminense", 0, 1, "Carioca", "2022-02-16", "Luso Brasileiro"]);
+    jogos.push(["Fluminense", "Portuguesa-RJ", 1, 0, "Carioca", "2022-02-13", "Nilton Santos"]);
+    jogos.push(["Fluminense", "Botafogo", 2, 1, "Carioca", "2022-02-10", "Nilton Santos"]);
+    jogos.push(["Flamengo", "Fluminense", 0, 1, "Carioca", "2022-02-06", "Nilton Santos"]);
+    jogos.push(["Fluminense", "Audax Rio", 1, 0, "Carioca", "2022-02-03", "Luso Brasileiro"]);
+    jogos.push(["Madureira", "Fluminense", 0, 1, "Carioca", "2022-01-30", "Raulino de Oliveira"]);
+    jogos.push(["Fluminense", "Bangu", 0, 1, "Carioca", "2022-01-27", "Luso Brasileiro"]);
+    jogos.push(["Fluminense", "Chapecoense", 3, 0, "Brasileirão", "2021-12-09", "Maracanã"]);
+    jogos.push(["Bahia", "Fluminense", 2, 0, "Brasileirão", "2021-12-05", "Fonte Nova"]);
+    jogos.push(["Atlético-MG", "Fluminense", 2, 1, "Brasileirão", "2021-11-28", "Mineirão"]);
+    jogos.push(["Fluminense", "Internacional", 1, 0, "Brasileirão", "2021-11-24", "Maracanã"]);
+    jogos.push(["Fluminense", "América-MG", 2, 0, "Brasileirão", "2021-11-21", "Maracanã"]);
+    jogos.push(["Juventude", "Fluminense", 1, 0, "Brasileirão", "2021-11-17", "Alfredo Jaconi"]);
+    jogos.push(["Fluminense", "Palmeiras", 2, 1, "Brasileirão", "2021-11-14", "Maracanã"]);
+    jogos.push(["Grêmio", "Fluminense", 1, 0, "Brasileirão", "2021-11-09", "Arena do Grêmio"]);
+    jogos.push(["Fluminense", "Sport", 1, 0, "Brasileirão", "2021-11-06", "Maracanã"]);
+    jogos.push(["Ceará", "Fluminense", 1, 0, "Brasileirão", "2021-10-31", "Castelão-CE"]);
+    jogos.push(["Santos", "Fluminense", 2, 0, "Brasileirão", "2021-10-27", "Vila Belmiro"]);
+    jogos.push(["Fluminense", "Flamengo", 3, 1, "Brasileirão", "2021-10-23", "Maracanã"]);
+    jogos.push(["Athletico-PR", "Fluminense", 0, 1, "Brasileirão", "2021-10-17", "Arena da Baixada"]);
+    jogos.push(["Corinthians", "Fluminense", 1, 0, "Brasileirão", "2021-10-13", "Neo Quimica Arena"]);
+    jogos.push(["Fluminense", "Atlético-GO", 0, 0, "Brasileirão", "2021-10-09", "Maracanã"]);
+    jogos.push(["Fluminense", "Fortaleza", 0, 2, "Brasileirão", "2021-10-06", "Maracanã"]);
+    jogos.push(["Fluminense", "Red Bull Bragantino", 2, 1, "Brasileirão", "2021-09-26", "Maracanã"]);
+    jogos.push(["Cuiabá", "Fluminense", 2, 2, "Brasileirão", "2021-09-20", "Arena Pantanal"]);
+    jogos.push(["Atlético-MG", "Fluminense", 1, 0, "Copa do Brasil", "2021-09-15", "Mineirão"]);
+    jogos.push(["Fluminense", "São Paulo", 2, 1, "Brasileirão", "2021-09-12", "Maracanã"]);
+    jogos.push(["Chapecoense", "Fluminense", 1, 2, "Brasileirão", "2021-09-07", "Arena Condá"]);
+    jogos.push(["Fluminense", "Juventude", 1, 1, "Brasileirão", "2021-09-02", "Maracanã"]);
+    jogos.push(["Fluminense", "Bahia", 2, 0, "Brasileirão", "2021-08-30", "Maracanã"]);
+    jogos.push(["Fluminense", "Atlético-MG", 1, 2, "Copa do Brasil", "2021-08-26", "Nilton Santos"]);
+    jogos.push(["Fluminense", "Atlético-MG", 1, 1, "Brasileirão", "2021-08-23", "São Januário"]);
+    jogos.push(["Barcelona de Guayaquil", "Fluminense", 1, 1, "Libertadores", "2021-08-19", "Monumental Isidro Romero Carbo"]);
+    jogos.push(["Internacional", "Fluminense", 4, 2, "Brasileirão", "2021-08-15", "Beira-Rio"]);
+    jogos.push(["Fluminense", "Barcelona de Guayaquil", 2, 2, "Libertadores", "2021-08-12", "Maracanã"]);
+    jogos.push(["América-MG", "Fluminense", 1, 0, "Brasileirão", "2021-08-08", "Independência"]);
+    jogos.push(["Fluminense", "Cerro Porteño", 1, 0, "Libertadores", "2021-08-03", "Maracanã"]);
+    jogos.push(["Fluminense", "Criciúma", 3, 0, "Copa do Brasil", "2021-07-31", "Maracanã"]);
+    jogos.push(["Criciúma", "Fluminense", 2, 1, "Copa do Brasil", "2021-07-27", "Heriberto Hulse"]);
+    jogos.push(["Palmeiras", "Fluminense", 1, 0, "Brasileirão", "2021-07-24", "Allianz Parque"]);
+    jogos.push(["Fluminense", "Grêmio", 0, 1, "Brasileirão", "2021-07-17", "Maracanã"]);
+    jogos.push(["Cerro Porteño", "Fluminense", 0, 2, "Libertadores", "2021-07-13", "La Olla"]);
+    jogos.push(["Sport", "Fluminense", 1, 2, "Brasileirão", "2021-07-10", "Ilha do Retiro"]);
+    jogos.push(["Fluminense", "Ceará", 0, 0, "Brasileirão", "2021-07-07", "São Januário"]);
+    jogos.push(["Flamengo", "Fluminense", 0, 1, "Brasileirão", "2021-07-04", "Neo Quimica Arena"]);
+    jogos.push(["Fluminense", "Athletico-PR", 1, 4, "Brasileirão", "2021-06-30", "Raulino de Oliveira"]);
+    jogos.push(["Fluminense", "Corinthians", 1, 1, "Brasileirão", "2021-06-27", "São Januário"]);
+    jogos.push(["Atlético-GO", "Fluminense", 1, 0, "Brasileirão", "2021-06-23", "Antonio Accioly"]);
+    jogos.push(["Fortaleza", "Fluminense", 1, 1, "Brasileirão", "2021-06-20", "Castelão-CE"]);
+    jogos.push(["Fluminense", "Santos", 1, 0, "Brasileirão", "2021-06-17", "Maracanã"]);
+    jogos.push(["Red Bull Bragantino", "Fluminense", 2, 2, "Brasileirão", "2021-06-13", "Nabi Abi Chedid"]);
+    jogos.push(["Red Bull Bragantino", "Fluminense", 2, 1, "Copa do Brasil", "2021-06-09", "Nabi Abi Chedid"]);
+    jogos.push(["Fluminense", "Cuiabá", 1, 0, "Brasileirão", "2021-06-06", "São Januário"]);
+    jogos.push(["Fluminense", "Red Bull Bragantino", 2, 0, "Copa do Brasil", "2021-06-02", "Maracanã"]);
+    jogos.push(["São Paulo", "Fluminense", 0, 0, "Brasileirão", "2021-05-29", "Morumbi"]);
+    jogos.push(["River Plate", "Fluminense", 1, 3, "Libertadores", "2021-05-25", "Monumental de Núñez"]);
+    jogos.push(["Flamengo", "Fluminense", 3, 1, "Carioca", "2021-05-22", "Maracanã"]);
+    jogos.push(["Fluminense", "Junior Barranquilla", 1, 2, "Libertadores", "2021-05-18", "Maracanã"]);
+    jogos.push(["Fluminense", "Flamengo", 1, 1, "Carioca", "2021-05-15", "Maracanã"]);
+    jogos.push(["Fluminense", "Independiente Santa Fé", 2, 1, "Libertadores", "2021-05-12", "Maracanã"]);
+    jogos.push(["Fluminense", "Portuguesa-RJ", 3, 1, "Carioca", "2021-05-09", "Maracanã"]);
+    jogos.push(["Junior Barranquilla", "Fluminense", 1, 1, "Libertadores", "2021-05-06", "Monumental Isidro Romero Carbo"]);
+    jogos.push(["Portuguesa-RJ", "Fluminense", 1, 1, "Carioca", "2021-05-02", "Luso Brasileiro"]);
+    jogos.push(["Independiente Santa Fé", "Fluminense", 1, 2, "Libertadores", "2021-04-28", "Centenário (COL)"]);
+    jogos.push(["Fluminense", "Madureira", 4, 1, "Carioca", "2021-04-25", "Maracanã"]);
+    jogos.push(["Fluminense", "River Plate", 1, 1, "Libertadores", "2021-04-22", "Maracanã"]);
+    jogos.push(["Fluminense", "Botafogo", 1, 0, "Carioca", "2021-04-17", "Maracanã"]);
+    jogos.push(["Fluminense", "Nova Iguaçu", 3, 1, "Carioca", "2021-04-11", "Maracanã"]);
+    jogos.push(["Macaé", "Fluminense", 0, 4, "Carioca", "2021-04-06", "Raulino de Oliveira"]);
+    jogos.push(["Fluminense", "Vasco", 1, 1, "Carioca", "2021-03-30", "Raulino de Oliveira"]);
+    jogos.push(["Fluminense", "Volta Redonda", 2, 3, "Carioca", "2021-03-26", "Bacaxá"]);
+    jogos.push(["Boavista", "Fluminense", 0, 2, "Carioca", "2021-03-23", "Bacaxá"]);
+    jogos.push(["Bangu", "Fluminense", 0, 1, "Carioca", "2021-03-20", "São Januário"]);
+    jogos.push(["Flamengo", "Fluminense", 0, 1, "Carioca", "2021-03-14", "Maracanã"]);
+    jogos.push(["Fluminense", "Portuguesa-RJ", 0, 3, "Carioca", "2021-03-07", "Maracanã"]);
+    jogos.push(["Resende", "Fluminense", 2, 1, "Carioca", "2021-03-04", "Maracanã"]);
+    jogos.push(["Fluminense", "Fortaleza", 2, 0, "Brasileirão", "2021-02-25", "Maracanã"]);
+    jogos.push(["Santos", "Fluminense", 1, 1, "Brasileirão", "2021-02-21", "Vila Belmiro"]);
+    jogos.push(["Ceará", "Fluminense", 1, 3, "Brasileirão", "2021-02-15", "Castelão-CE"]);
+    jogos.push(["Fluminense", "Atlético-MG", 0, 0, "Brasileirão", "2021-02-10", "Maracanã"]);
+    jogos.push(["Bahia", "Fluminense", 0, 1, "Brasileirão", "2021-02-03", "Fonte Nova"]);
+    jogos.push(["Fluminense", "Goiás", 3, 0, "Brasileirão", "2021-01-31", "Nilton Santos"]);
+    jogos.push(["Fluminense", "Botafogo", 2, 0, "Brasileirão", "2021-01-24", "São Januário"]);
+    jogos.push(["Coritiba", "Fluminense", 3, 3, "Brasileirão", "2021-01-20", "Couto Pereira"]);
+    jogos.push(["Fluminense", "Sport", 1, 0, "Brasileirão", "2021-01-16", "Nilton Santos"]);
+    jogos.push(["Corinthians", "Fluminense", 5, 0, "Brasileirão", "2021-01-13", "Neo Quimica Arena"]);
+    jogos.push(["Flamengo", "Fluminense", 1, 2, "Brasileirão", "2021-01-06", "Maracanã"]);
 
     jogos.sort(function (a, b) {
         return a[5] < b[5] ? -1 : a[5] > b[5] ? 1 : 0;

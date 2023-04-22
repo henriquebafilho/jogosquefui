@@ -1,76 +1,61 @@
 import React, { Component } from 'react';
 import Times from '../../Times';
 import Estatisticas from '../../components/Estatisticas';
+import Anos from '../Anos';
+import LinhaJogo from '../../components/LinhaJogo';
+import TodosOsJogos from '../TodosOsJogos';
 
-class Anos extends Component {
+class ViewAno extends Component {
     constructor(props) {
         super(props);
         this.state = {
             meuTime: props.meuTime,
-            //jogos: props.jogos(),
-            vitorias: 0,
-            empates: 0,
-            derrotas: 0,
-            anos: [],
-            isLoading: false
+            jogos: props.jogosAno,
+            flag: props.flag,
+            clicked: false
         }
     }
 
     async componentDidMount() {
-        this._isMounted = true;
-        this.setState({ isLoading: true })
-        this.setState({ isLoading: false })
+        window.scrollTo(0, 0);
     }
 
-    /*  getVitoriasAno = async () => {
-         var vitorias = 0;
-         for (var a in jogos()) {
-             var dataCortada = jogos()[a][5].split("-");
-             if ((dataCortada[0].toString() === ano.toString()) && ano !== null) {
-                 if (((jogos()[a][0] === props.meuTime) && (jogos()[a][2] > jogos()[a][3])) ||
-                     ((jogos()[a][1] === props.meuTime) && (jogos()[a][3] > jogos()[a][2]))) {
-                     vitorias += 1;
-                 }
-             }
-         }
-         return vitorias;
-     }
- 
-     getEmpatesAno = async () => {
-         var empates = 0;
-         for (var a in jogos()) {
-             var dataCortada = jogos()[a][5].split("-");
-             if (dataCortada[0].toString() === ano.toString()) {
-                 if ((jogos()[a][0] === props.meuTime || jogos()[a][1] === props.meuTime) && jogos()[a][2] === jogos()[a][3]) {
-                     empates += 1;
-                 }
-             }
-         }
-         return empates;
-     }
- 
-     getDerrotasAno = async () => {
-         var derrotas = 0;
-         for (var a in jogos()) {
-             var dataCortada = jogos()[a][5].split("-");
-             if (dataCortada[0].toString() === ano.toString()) {
-                 if ((jogos()[a][0] === props.meuTime && jogos()[a][2] < jogos()[a][3]) || (jogos()[a][1] === props.meuTime && jogos()[a][3] < jogos()[a][2])) {
-                     derrotas += 1;
-                 }
-             }
-         }
-         return derrotas;
-     }
-  */
+    buttonClick = async () => {
+        this.setState({ clicked: true });
+    }
+
     render() {
-        var ano = this.props.ano;
+        const meuTime = this.state.meuTime;
+        const flag = this.state.flag;
+        const buttonClickFunction = () => this.buttonClick();
+        this.state.jogos.sort(function (a, b) {
+            return a.data < b.data ? -1 : a.data > b.data ? 1 : 0;
+        });
+
         return (
-            <div className="viewAno" style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }}>
-                <h1>ViewAno - 2022</h1> {/* Ano escolhido */}
-                {/* Estatísticas */}
-            </div>
+            this.state.clicked && flag === "meusJogos" ? <Anos conjuntoUsuarios={this.props.conjuntoUsuarios} meuTime={meuTime} meusJogos={this.props.meusJogos} fromView={true}/> :
+                this.state.clicked && flag === "todosOsJogos" ? <TodosOsJogos conjuntoUsuarios={this.props.conjuntoUsuarios} meuTime={meuTime} jogos={this.props.jogos} meusJogos={this.props.meusJogos} fromView={true}/> :
+                    <div style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }}>
+                        <div className='a'>
+                            <button style={{ outline: 'none', border: 'none', textDecoration: 'underline', fontSize: '25px', cursor: 'pointer', backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }} onClick={() => buttonClickFunction()}>{"< Voltar"}</button>
+                        </div>
+                        <div className="App-header" style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }}>
+                            <h1 style={{ padding: '5px' }}>{this.props.ano}</h1>
+                            <br />
+                            <Estatisticas meuTime={this.state.meuTime} jogos={this.props.jogosAno} />
+                            {
+                                flag === "meusJogos" ?
+                                    this.state.jogos.reverse().map((index) => {
+                                        return <LinhaJogo meuTime={meuTime} jogo={index} meusJogos={this.props.meusJogos} />
+                                    }) :
+                                    this.state.jogos.reverse().map((index) => {
+                                        return <LinhaJogo meuTime={meuTime} jogo={index} meusJogos={this.props.meusJogos} />
+                                    })
+                            }
+                        </div>
+                    </div>
         )
     }
 }
 
-export default Anos;
+export default ViewAno;
