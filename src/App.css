@@ -294,11 +294,11 @@ button#tab {
     font-size: 15px;
   }
   .escudoLinha{
-    width: 4rem;
-    height: 4rem;
+    width: 3em;
+    height: 3em;
   }
   .nomeTime{
-    font-size: 3vw;
+    font-size: 2vw;
     /* overflow: 'hidden';
     text-overflow: 'ellipsis';
     white-space: 'pre-wrap'; */
