@@ -17,7 +17,7 @@ function App() {
     user.email === usuario.getEmail()
   );
   usuario = usuario[0];
-  getHenriqueJogos(usuario);
+  //getHenriqueJogos(usuario);
 
   return (
     <>
@@ -39,6 +39,7 @@ function App() {
   );
 }
 
+/*
 function getHenriqueJogos(usuario) {
   let jogo20021026 = ["Botafogo", "Fluminense", 2, 3, "Série A", "2002-10-26", "Maracanã", "Ivo Wortmann", ["Galeano", "Léo Inácio"], ["César", "Magno Alves", "Romário"], "https://www.youtube.com/embed/PqiI2VnS3oU"];
   usuario.meusJogos.adicionaJogo(jogo20021026);
@@ -539,5 +540,5 @@ function getHenriqueJogos(usuario) {
   let jogo20230216 = ["Vasco", "Botafogo", 2, 0, "Carioca", "2023-02-16", "Maracanã", "Luís Castro", ["Alex Teixeira", "Pedro Raúl"], [""], "https://www.youtube.com/embed/Wf7xdJvMtxk"];
   usuario.meusJogos.adicionaJogo(jogo20230216);
 }
-
+*/
 export default App;
