@@ -62,10 +62,10 @@ class Estadios extends Component {
     return (
       <>
         {this.state.clicked ? <ViewEstadio meuTime={this.props.meuTime} meusJogos={meusJogos} jogosEstadio={this.state.jogosEstadio} estadio={this.state.estadioAtual} /> : 
-          <div className="App-header" style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }}>
+          <div className="App-header" style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor, alignItems: 'normal' }}>
             {/* <h1>Estádios</h1>
             <br /> */}
-            <h4>{"Você foi a " + this.state.estadios.length + " estádio"}{this.state.estadios.length > 1 ? "s" : ""}</h4>
+            <h4 style={{textAlign: 'center'}}>{"Você foi a " + this.state.estadios.length + " estádio"}{this.state.estadios.length > 1 ? "s" : ""}</h4>
             <br />
             <table>
               <tbody>
@@ -82,7 +82,7 @@ class Estadios extends Component {
                     return <div key={i}>
                       <button id='selectEstadio' onClick={() => buttonClickFunction(i)} style={{ borderColor: Times(meuTime).letterColor, borderStyle: 'solid', backgroundColor: Times(meuTime).backgroundColor, color: Times(meuTime).letterColor }}>
                         {imagemEstadio !== "" ? <img src={imagemEstadio} style={{ verticalAlign: 'middle' }} alt='escudo' height='150' width='150' /> : ""}
-                        <div style={{ padding: '10px', fontSize: '40px' }}>{i}</div>
+                        <div style={{ padding: '10px', fontSize: '30px' }}>{i}</div>
                         <div style={{ paddingBottom: '5px', fontSize: '15px', fontWeight: '100' }}>{totalEstadio} {totalEstadio > 1 ? "jogos" : "jogo"}</div>
                       </button>
                     </div>

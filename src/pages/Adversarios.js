@@ -72,7 +72,7 @@ class Adversarios extends Component {
     return (
       <>
         {this.state.clicked ? <ViewAdversario meuTime={this.props.meuTime} meusJogos={meusJogos} jogosAdversario={this.state.jogosAdversario} adversario={this.state.adversarioAtual} /> :
-          <div className="App-header" style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }}>
+          <div className="App-header" style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor, alignItems: 'normal' }}>
             {/* <h1>Adversários</h1>
           <br /> */}
             <table>

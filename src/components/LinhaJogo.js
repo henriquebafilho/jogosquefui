@@ -106,7 +106,7 @@ class LinhaJogo extends Component {
                                 position: 'absolute'
                             }} />
                     </div> */}
-                    <div className='nomeTime' style={{ 
+                    <p className='nomeTime' style={{ 
                         paddingTop: '20px', 
                         paddingBottom: '20px', 
                         display: 'inline', 
@@ -117,15 +117,16 @@ class LinhaJogo extends Component {
                         paddingRight: '5px'
                     }}>
                        {this.props.jogo.mandante.toUpperCase()}
-                    </div>
+                    </p>
                     <img className='escudoLinha' src={require('../escudos/' + Times(this.props.jogo.mandante, this.props.jogo.data).escudo + '.png')} title={this.props.jogo.mandante} style={{ display: 'inline-block', verticalAlign: 'middle' }} alt={this.props.jogo.mandante} />
-                    <div style={{ paddingTop: '10px', display: 'inline', minWidth: "120px", textAlign: "center", fontSize: '40px', textShadow: "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000", color: "white" }}>
+                    <div style={{ paddingTop: '10px', display: 'inline', minWidth: "120px", textAlign: "center", fontSize: '2em', textShadow: "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000", color: "white" }}>
                         {(this.props.jogo.golsMandante === "WO" || this.props.jogo.golsVisitante === "WO") && <div>WO</div>}
                         {this.props.jogo.golsMandante === "WO" ? <div>←</div> : this.props.jogo.golsVisitante === "WO" ? <div>→</div> : ''}
                         {this.props.jogo.golsMandante !== "WO" && this.props.jogo.golsVisitante !== "WO" && ' ' + this.props.jogo.golsMandante + ' x ' + this.props.jogo.golsVisitante + ' '}
                     </div>
                     <img className='escudoLinha' src={require('../escudos/' + Times(this.props.jogo.visitante, this.props.jogo.data).escudo + '.png')} title={this.props.jogo.visitante} style={{ display: 'inline-block', verticalAlign: 'middle' }} alt={this.props.jogo.visitante} />
-                    <div className='nomeTime' style={{ 
+                    <p className='nomeTime' 
+                    style={{ 
                         paddingTop: '20px', 
                         paddingBottom: '20px', 
                         display: 'inline', 
@@ -133,10 +134,13 @@ class LinhaJogo extends Component {
                         textAlign: "left", 
                         color: Times(this.props.jogo.visitante, this.props.jogo.data).letterColor, 
                         textShadow: Times(this.props.jogo.visitante, this.props.jogo.data).letterColor === "white" ? "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000" : "none", 
-                        paddingLeft: '5px' 
+                        paddingLeft: '5px',
+                        overflow: 'hidden',
+                        textOverflow: 'ellipsis',
+                        whiteSpace: 'pre-wrap'
                     }}>
                         {this.props.jogo.visitante.toUpperCase()}
-                    </div>
+                    </p>
                 </div>
                 {this.props.jogo.penaltis &&
                     <div style={{ textAlign: "center", textShadow: "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000", color: "white" }}>
