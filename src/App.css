@@ -119,6 +119,7 @@ details[open] summary::after {
 
 p {
   text-align: center;
+  white-space: normal;
 }
 
 /* SUMMARY DEFAULT */
@@ -292,6 +293,9 @@ button#tab {
   #tituloOpcao{
     font-size: 5vw;
   }
+  #tituloAdversario{
+    font-size: 4vw;
+  }
   #tab {
     white-space: nowrap;
     font-size: 15px;
@@ -317,6 +321,9 @@ button#tab {
   }
   #tituloOpcao{
     font-size: 2rem;
+  }
+  #tituloAdversario{
+    font-size: 20px;
   }
   #tab {
     font-size: 20px;

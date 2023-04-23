@@ -117,7 +117,8 @@ class LinhaJogo extends Component {
                         paddingRight: '5px',
                         overflow: 'hidden',
                         textOverflow: 'ellipsis',
-                        whiteSpace: 'nowrap'
+                        whiteSpace: 'nowrap',
+                        fontWeight: Times(this.props.jogo.mandante, this.props.jogo.data).letterColor !== "white" ? "bold" : "normal" 
                     }}>
                        {this.props.jogo.mandante.toUpperCase()}
                     </p>
@@ -140,7 +141,8 @@ class LinhaJogo extends Component {
                         paddingLeft: '5px',
                         overflow: 'hidden',
                         textOverflow: 'ellipsis',
-                        whiteSpace: 'nowrap'
+                        whiteSpace: 'nowrap',
+                        fontWeight: Times(this.props.jogo.visitante, this.props.jogo.data).letterColor !== "white" ? "bold" : "normal" 
                     }}>
                         {this.props.jogo.visitante.toUpperCase()}
                     </p>
