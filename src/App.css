@@ -296,6 +296,9 @@ button#tab {
   #tituloAdversario{
     font-size: 4vw;
   }
+  #escudoAdversario{
+    width: 30vw;
+  }
   #tab {
     white-space: nowrap;
     font-size: 15px;
@@ -324,6 +327,10 @@ button#tab {
   }
   #tituloAdversario{
     font-size: 20px;
+  }
+  #escudoAdversario{
+    width: 30vw;
+    max-width: 200px;
   }
   #tab {
     font-size: 20px;

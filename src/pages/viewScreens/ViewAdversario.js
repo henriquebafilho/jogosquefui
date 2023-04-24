@@ -39,19 +39,19 @@ class ViewAdversario extends Component {
           </div>
           <div className="App-header">
             <div>
-              <div style={{ float: 'left', textAlign: 'center', width: '30vw' }}>
+              <div id="escudoAdversario" style={{ float: 'left', textAlign: 'center' }}>
                 <img src={require('../../escudos/' + Times(meuTime).escudo + '.png')} style={{ display: 'inline', verticalAlign: 'middle', width: "4em", height: "4em", margin: '10px' }} alt={meuTime} />
                 <p id='tituloAdversario'>{meuTime}</p>
               </div>
               <div style={{ float: 'left', margin: '20px' }}>
                 <h1 style={{ display: 'inline', verticalAlign: 'middle' }}> x </h1>
               </div>
-              <div style={{
+              <div id="escudoAdversario" 
+              style={{
                 float: 'left',
                 textAlign: 'center',
                 border: '5px solid' + Times(this.props.adversario).backgroundColor,
                 borderRadius: '5px',
-                width: '30vw',
                 backgroundColor: Times(this.props.adversario).backgroundColor,
                 color: Times(this.props.adversario).letterColor
               }}>

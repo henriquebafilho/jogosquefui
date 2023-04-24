@@ -43,7 +43,7 @@ class ViewEstadio extends Component {
             <button style={{ outline: 'none', border: 'none', textDecoration: 'underline', fontSize: '25px', cursor: 'pointer', backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }} onClick={() => buttonClickFunction()}>{"< Voltar"}</button>
           </div>
           <div className="App-header" style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }}>
-            {imagemEstadio !== "" ? <img src={imagemEstadio} style={{ verticalAlign: 'middle' }} alt='escudo' height='350' width='350' /> : ""}
+            {imagemEstadio !== "" ? <img src={imagemEstadio} style={{ verticalAlign: 'middle' }} alt='estadio' height='250' width='250' /> : ""}
             <h1>{this.props.estadio}</h1>
             <br />
             <Estatisticas meuTime={this.state.meuTime} jogos={this.props.jogosEstadio} />

@@ -29,7 +29,7 @@ class Estadios extends Component {
     let jogos = this.state.jogos;
 
     for (let i in jogos) {
-      if (!this.state.estadios.includes(jogos[i].estadio)) {
+      if (!this.state.estadios.includes(jogos[i].estadio) && jogos[i].estadio !== "") {
         this.state.estadios.push(jogos[i].estadio);
       }
     }

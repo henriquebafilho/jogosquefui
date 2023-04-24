@@ -83,7 +83,7 @@ class Tabs extends Component {
                                 mostraAno = true;
                             }
                             return <div key={JSON.stringify(index)}>
-                                {mostraAno ? <h2>{anoAtual}</h2> : ""}
+                                {mostraAno ? <h1 style={{ textAlign: 'center', color: Times(meuTime).letterColor, margin: '40px' }}>{anoAtual}</h1> : ""}
                                 <LinhaJogo meuTime={meuTime} jogo={index} meusJogos={meusJogos} />
                             </div>
                         }) : <div>
