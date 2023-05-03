@@ -2479,7 +2479,7 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Corinthians", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Brasileirão 1980", "data": "1980-05-17", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Coritiba", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Brasileirão 1980", "data": "1980-05-14", "estadio": "Couto Pereira" });
     jogos.push({ "mandante": "Grêmio", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Brasileirão 1980", "data": "1980-05-11", "estadio": "Olímpico" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "Ceará", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Brasileirão 1980", "data": "1980-05-04", "estadio": "Marechal Hermes" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Ceará", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Brasileirão 1980", "data": "1980-05-03", "estadio": "Marechal Hermes" });
     jogos.push({ "mandante": "Americano", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Brasileirão 1980", "data": "1980-04-27", "estadio": "Godofredo Cruz" });
     jogos.push({ "mandante": "São Paulo", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 0, "campeonato": "Brasileirão 1980", "data": "1980-04-20", "estadio": "Morumbi" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Americano", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Brasileirão 1980", "data": "1980-04-16", "estadio": "Maracanã" });
