@@ -65,6 +65,10 @@ class Adversarios extends Component {
     }
   }
 
+  searchTeam = async (e) => {
+    
+  }
+
   render() {
     const meuTime = this.state.meuTime;
     const meusJogos = this.state.jogos;
@@ -78,6 +82,18 @@ class Adversarios extends Component {
             <table>
               <tbody>
                 {this.state.isLoading && <h1>Carregando...</h1>}
+                <input
+                  type="text"
+                  placeholder="Insira o nome do time"
+                  onChange={this.searchTeam}
+                  style={{
+                    width: '100%',
+                    marginBottom: '20px',
+                    marginTop: '20px',
+                    height: '30px',
+                    padding: '5px'
+                  }}
+                />
                 {this.state.adversarios.length > 0 ?
                   !this.state.isLoading && this.state.adversarios.map(function (i) {
                     var totalAdversario = common.getTotalAdversario(meuTime, i, meusJogos/* .getJogos() */);

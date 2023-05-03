@@ -33,9 +33,11 @@ function jogos() {
     // jogos.push({ "mandante": "Botafogo", "visitante": "Fortaleza", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2023", "data": "2023-06-10", "estadio": "Nilton Santos" });
     // jogos.push({ "mandante": "LDU", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Copa Sul-Americana 2023", "data": "2023-06-06", "estadio": "Casablanca" });
     // jogos.push({ "mandante": "Athletico-PR", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2023", "data": "2023-06-03", "estadio": "Arena da Baixada" });
+    // jogos.push({ "mandante": "Botafogo", "visitante": "Athletico-PR", "golsMandante": "", "golsVisitante": "", "campeonato": "Copa do Brasil 2023", "data": "2023-05-31", "estadio": "Nilton Santos" });
     // jogos.push({ "mandante": "Botafogo", "visitante": "América-MG", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2023", "data": "2023-05-28", "estadio": "Nilton Santos" });
     // jogos.push({ "mandante": "César Vallejo", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Copa Sul-Americana 2023", "data": "2023-05-25", "estadio": "Mansiche" });
     // jogos.push({ "mandante": "Botafogo", "visitante": "Fluminense", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2023", "data": "2023-05-20", "estadio": "Nilton Santos" });
+    // jogos.push({ "mandante": "Athletico-PR", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Copa do Brasil 2023", "data": "2023-05-17", "estadio": "Arena da Baixada" });
     // jogos.push({ "mandante": "Goiás", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2023", "data": "2023-05-14", "estadio": "Serrinha" });
     // jogos.push({ "mandante": "Botafogo", "visitante": "Corinthians", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2023", "data": "2023-05-11", "estadio": "Nilton Santos" });
     // jogos.push({ "mandante": "Botafogo", "visitante": "Atlético-MG", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2023", "data": "2023-05-07", "estadio": "Nilton Santos" });
@@ -1699,7 +1701,7 @@ function jogos() {
     jogos.push({ "mandante": "Fluminense", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Brasileirão 1996", "data": "1996-08-18", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Atlético-PR", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Brasileirão 1996", "data": "1996-08-14", "estadio": "Arena da Baixada" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Juventus", "golsMandante": 4, "golsVisitante": 4, "campeonato": "Tereza Herrera 1996", "data": "1996-08-10", "estadio": "Riazor", "penaltis": "3 x 0" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "Valencia", "golsMandante": 1, "golsVisitante": 1, "campeonato": "President of Alaniya Cup", "data": "1996-08-04", "estadio": "Alaniya" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Valencia", "golsMandante": 1, "golsVisitante": 1, "campeonato": "President of Alania Cup", "data": "1996-08-04", "estadio": "Alania" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Cerezo Osaka", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Nissan Ham CUP", "data": "1996-07-27", "estadio": "Nagai Stadium" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Vasco", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Copa Rio-Brasília 1996", "data": "1996-07-14", "estadio": "Mané Garrincha" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Itaperuna", "golsMandante": 4, "golsVisitante": 0, "campeonato": "Carioca 1996", "data": "1996-06-27", "estadio": "Caio Martins" });
