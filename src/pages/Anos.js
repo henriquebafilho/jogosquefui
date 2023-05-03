@@ -77,7 +77,7 @@ class Anos extends Component {
                 {this.state.isLoading && <h1>Carregando...</h1>}
                 <input
                   type="text"
-                  placeholder="Insira o nome do time"
+                  placeholder="Insira o ano"
                   onChange={this.searchAno}
                   style={{
                     width: '100%',
