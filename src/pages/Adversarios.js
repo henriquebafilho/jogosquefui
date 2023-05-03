@@ -10,6 +10,7 @@ class Adversarios extends Component {
       meuTime: props.meuTime,
       jogos: props.meusJogos/* .getJogos() */,
       adversarios: [],
+      filtered: [],
       isLoading: false,
       clicked: false,
       adversarioAtual: '',
@@ -19,9 +20,8 @@ class Adversarios extends Component {
   }
 
   async componentDidMount() {
-    this._isMounted = true;
-    window.scrollTo(0, 0);
     await this.getAdversarios();
+    this.setState({ filtered: this.state.adversarios })
   }
 
   getAdversarios = async () => {
@@ -66,7 +66,7 @@ class Adversarios extends Component {
   }
 
   searchTeam = async (e) => {
-    
+    this.setState({ filtered: this.state.adversarios.filter(time => time.toUpperCase().includes(e.target.value.toUpperCase()))})
   }
 
   render() {
@@ -90,12 +90,12 @@ class Adversarios extends Component {
                     width: '100%',
                     marginBottom: '20px',
                     marginTop: '20px',
-                    height: '30px',
+                    height: '40px',
                     padding: '5px'
                   }}
                 />
-                {this.state.adversarios.length > 0 ?
-                  !this.state.isLoading && this.state.adversarios.map(function (i) {
+                {this.state.filtered.length > 0 ?
+                  !this.state.isLoading && this.state.filtered.map(function (i) {
                     var totalAdversario = common.getTotalAdversario(meuTime, i, meusJogos/* .getJogos() */);
                     return <div key={i}>
                       <button id='selectAdversario' onClick={() => buttonClickFunction(Times(i).nomeAtual)} style={{ backgroundColor: Times(Times(i).nomeAtual).backgroundColor, color: Times(Times(i).nomeAtual).letterColor, borderColor: Times(meuTime).backgroundColor === 'white' ? 'black' : 'white', borderStyle: 'solid' }}>
@@ -105,8 +105,7 @@ class Adversarios extends Component {
                       </button>
                     </div>
                   }) : <div>
-                    <h1 style={{ color: Times(this.state.meuTime).letterColor, textAlign: 'center', paddingBottom: '50px' }}>Você ainda não possui jogos cadastrados</h1>
-                    <h4 style={{ color: Times(this.state.meuTime).letterColor, textAlign: 'center' }}>Vá em "Jogos do {this.state.meuTime}" para selecionar os jogos que você já foi</h4>
+                    <h1 style={{ color: Times(this.state.meuTime).letterColor, textAlign: 'center', paddingBottom: '50px' }}>Nenhum adversário encontrado</h1>
                   </div>}
               </tbody>
             </table>

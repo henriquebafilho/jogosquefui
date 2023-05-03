@@ -10,6 +10,7 @@ class Estadios extends Component {
       meuTime: props.meuTime,
       jogos: props.meusJogos/* .getJogos() */,
       estadios: [],
+      filtered: [],
       isLoading: false,
       clicked: false,
       estadioAtual: '',
@@ -19,22 +20,21 @@ class Estadios extends Component {
   }
 
   async componentDidMount() {
-    window.scrollTo(0, 0);
-    this.setState({ isLoading: true })
     await this.getEstadios();
-    this.setState({ isLoading: false })
+    this.setState({ filtered: this.state.estadios })
   }
 
   getEstadios = async () => {
     let jogos = this.state.jogos;
 
+    this.setState({ isLoading: true })
     for (let i in jogos) {
       if (!this.state.estadios.includes(jogos[i].estadio) && jogos[i].estadio !== "") {
         this.state.estadios.push(jogos[i].estadio);
       }
     }
-
     this.state.estadios.sort();
+    this.setState({ isLoading: false })
   }
 
   buttonClick = async (estadio) => {
@@ -54,6 +54,10 @@ class Estadios extends Component {
     }
   }
 
+  searchStadium = async (e) => {
+    this.setState({ filtered: this.state.estadios.filter(estadio => estadio.toUpperCase().includes(e.target.value.toUpperCase()))})
+  }
+
   render() {
     const meuTime = this.state.meuTime;
     const meusJogos = this.state.jogos;
@@ -70,8 +74,19 @@ class Estadios extends Component {
             <table>
               <tbody>
                 {this.state.isLoading && <h1>Carregando...</h1>}
-                {this.state.estadios.length > 0 ?
-                  !this.state.isLoading && this.state.estadios.map(function (i) {
+                <input
+                  type="text"
+                  placeholder="Insira o nome do estádio"
+                  onChange={this.searchStadium}
+                  style={{
+                    width: '100%',
+                    marginBottom: '20px',
+                    height: '40px',
+                    padding: '5px'
+                  }}
+                />
+                {this.state.filtered.length > 0 ?
+                  !this.state.isLoading && this.state.filtered.map(function (i) {
                     let totalEstadio = common.getTotalEstadio(i, meusJogos/* .getJogos() */);
                     let imagemEstadio;
                     try {
@@ -87,8 +102,7 @@ class Estadios extends Component {
                       </button>
                     </div>
                   }) : <div>
-                    <h1 style={{ color: Times(this.state.meuTime).letterColor, textAlign: 'center', paddingBottom: '50px' }}>Você ainda não possui jogos cadastrados</h1>
-                    <h4 style={{ color: Times(this.state.meuTime).letterColor, textAlign: 'center' }}>Vá em "Jogos do {this.state.meuTime}" para selecionar os jogos que você já foi</h4>
+                    <h1 style={{ color: Times(this.state.meuTime).letterColor, textAlign: 'center', paddingBottom: '50px' }}>Nenhum estádio encontrado</h1>
                   </div>}
               </tbody>
             </table>

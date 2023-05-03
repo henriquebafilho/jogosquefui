@@ -10,6 +10,7 @@ class Anos extends Component {
       meuTime: props.meuTime,
       jogos: props.meusJogos/* .getJogos() */,
       anos: [],
+      filtered: [],
       isLoading: false,
       clicked: false,
       anoAtual: '',
@@ -19,16 +20,14 @@ class Anos extends Component {
   }
 
   async componentDidMount() {
-    this._isMounted = true;
-    window.scrollTo(0, 0);
-    this.setState({ isLoading: true })
     await this.getAnos();
-    this.setState({ isLoading: false })
+    this.setState({ filtered: this.state.anos });
   }
   
   getAnos = async () => {
     var jogos = this.state.jogos;
 
+    this.setState({ isLoading: true })
     for (var i in jogos) {
       const currentDate = new Date(jogos[i].data);
       if (!this.state.anos.includes(currentDate.getFullYear())) {
@@ -37,6 +36,7 @@ class Anos extends Component {
     }
     this.state.anos.sort();
     this.state.anos.reverse();
+    this.setState({ isLoading: false })
   }
 
   buttonClick = async (ano) => {
@@ -57,6 +57,10 @@ class Anos extends Component {
     }
   }
 
+  searchAno = async (e) => {
+    this.setState({ filtered: this.state.anos.filter(ano => ano.toString().includes(e.target.value))})
+  }
+
   render() {
     const meuTime = this.state.meuTime;
     const meusJogos = this.props.meusJogos;
@@ -71,8 +75,20 @@ class Anos extends Component {
             <table>
               <tbody>
                 {this.state.isLoading && <h1>Carregando...</h1>}
-                {this.state.anos.length > 0 ?
-                  !this.state.isLoading && this.state.anos.map(function (i) {
+                <input
+                  type="text"
+                  placeholder="Insira o nome do time"
+                  onChange={this.searchAno}
+                  style={{
+                    width: '100%',
+                    marginBottom: '20px',
+                    marginTop: '20px',
+                    height: '40px',
+                    padding: '5px'
+                  }}
+                />
+                {this.state.filtered.length > 0 ?
+                  !this.state.isLoading && this.state.filtered.map(function (i) {
                     var totalAno = common.getTotalAno(i, meusJogos/* .getJogos() */);
                     return <div key={i}>
                       <button id='selectAno' onClick={() => buttonClickFunction(i)} style={{ borderColor: Times(meuTime).letterColor, borderStyle: 'solid', backgroundColor: Times(meuTime).backgroundColor, color: Times(meuTime).letterColor }}>
@@ -81,8 +97,7 @@ class Anos extends Component {
                       </button>
                     </div>
                   }) : <div>
-                    <h1 style={{ color: Times(this.state.meuTime).letterColor, textAlign: 'center', paddingBottom: '50px' }}>Você ainda não possui jogos cadastrados</h1>
-                    <h4 style={{ color: Times(this.state.meuTime).letterColor, textAlign: 'center' }}>Vá em "Jogos do {this.state.meuTime}" para selecionar os jogos que você já foi</h4>
+                    <h1 style={{ color: Times(this.state.meuTime).letterColor, textAlign: 'center', paddingBottom: '50px' }}>Nenhum ano encontrado</h1>
                   </div>}
               </tbody>
             </table>
