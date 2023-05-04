@@ -102,7 +102,7 @@ class Estadios extends Component {
                       </button>
                     </div>
                   }) : <div>
-                    <h1 style={{ color: Times(this.state.meuTime).letterColor, textAlign: 'center', paddingBottom: '50px' }}>Nenhum estádio encontrado</h1>
+                    <h4 style={{ color: Times(this.state.meuTime).letterColor, textAlign: 'center', paddingBottom: '50px' }}>Nenhum estádio encontrado</h4>
                   </div>}
               </tbody>
             </table>

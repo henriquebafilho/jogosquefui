@@ -21,7 +21,7 @@ class Anos extends Component {
 
   async componentDidMount() {
     await this.getAnos();
-    this.setState({ filtered: this.state.anos });
+    this.setState({ filtered: this.state.anos, jogos: this.state.jogos.filter(jogo => jogo.golsMandante !== "" && jogo.golsVisitante !== "") });
   }
   
   getAnos = async () => {
@@ -97,7 +97,7 @@ class Anos extends Component {
                       </button>
                     </div>
                   }) : <div>
-                    <h1 style={{ color: Times(this.state.meuTime).letterColor, textAlign: 'center', paddingBottom: '50px' }}>Nenhum ano encontrado</h1>
+                    <h4 style={{ color: Times(this.state.meuTime).letterColor, textAlign: 'center', paddingBottom: '50px' }}>Nenhum ano encontrado</h4>
                   </div>}
               </tbody>
             </table>

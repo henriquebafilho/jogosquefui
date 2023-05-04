@@ -105,7 +105,7 @@ class Adversarios extends Component {
                       </button>
                     </div>
                   }) : <div>
-                    <h1 style={{ color: Times(this.state.meuTime).letterColor, textAlign: 'center', paddingBottom: '50px' }}>Nenhum adversário encontrado</h1>
+                    <h4 style={{ color: Times(this.state.meuTime).letterColor, textAlign: 'center', paddingBottom: '50px' }}>Nenhum adversário encontrado</h4>
                   </div>}
               </tbody>
             </table>
