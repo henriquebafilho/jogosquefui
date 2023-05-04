@@ -1,10 +1,13 @@
 {
   "files": {
     "main.css": "/jogosquefui/static/css/main.1c0e6747.css",
-    "main.js": "/jogosquefui/static/js/main.82959fa3.js",
+    "main.js": "/jogosquefui/static/js/main.914d8724.js",
     "static/media/Corisabbá.png": "/jogosquefui/static/media/Corisabbá.4b6783df88df9e49eae8.png",
     "static/media/Colosso da Lagoa.png": "/jogosquefui/static/media/Colosso da Lagoa.b7008037ac5675a07045.png",
+    "static/media/Arena Pantanal.png": "/jogosquefui/static/media/Arena Pantanal.8d7e42346b20bc6d4724.png",
+    "static/media/Arena de Pernambuco.png": "/jogosquefui/static/media/Arena de Pernambuco.5def1fe95c90dd80e42b.png",
     "static/media/Maracanã.png": "/jogosquefui/static/media/Maracanã.49e2331c9e113cf34e31.png",
+    "static/media/Arena da Amazônia.png": "/jogosquefui/static/media/Arena da Amazônia.61d29d387d21d8cfe65b.png",
     "static/media/Arena do Grêmio.png": "/jogosquefui/static/media/Arena do Grêmio.52d33e3a6fde83a74885.png",
     "static/media/Nilton Santos.png": "/jogosquefui/static/media/Nilton Santos.72242bd628ddecf1f9d8.png",
     "static/media/São Cristóvão.png": "/jogosquefui/static/media/São Cristóvão.0a8cfd327b0fe8ab87ef.png",
@@ -350,10 +353,10 @@
     "static/media/Ceará.png": "/jogosquefui/static/media/Ceará.2667c31fce77d94092f4.png",
     "index.html": "/jogosquefui/index.html",
     "main.1c0e6747.css.map": "/jogosquefui/static/css/main.1c0e6747.css.map",
-    "main.82959fa3.js.map": "/jogosquefui/static/js/main.82959fa3.js.map"
+    "main.914d8724.js.map": "/jogosquefui/static/js/main.914d8724.js.map"
   },
   "entrypoints": [
     "static/css/main.1c0e6747.css",
-    "static/js/main.82959fa3.js"
+    "static/js/main.914d8724.js"
   ]
 }
