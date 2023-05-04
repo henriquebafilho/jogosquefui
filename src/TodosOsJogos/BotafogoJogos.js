@@ -661,7 +661,7 @@ function jogos() {
     jogos.push({ "mandante": "Figueirense", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Copa do Brasil 2013", "data": "2013-07-24", "estadio": "Orlando Scarpelli", "penaltis": "4 x 5" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Náutico", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Brasileirão 2013", "data": "2013-07-20", "estadio": "São Januário" });
     jogos.push({ "mandante": "Grêmio", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Brasileirão 2013", "data": "2013-07-14", "estadio": "Arena do Grêmio" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "Fluminense", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Brasileirão 2013", "data": "2013-07-07", "estadio": "Arena Pernambuco" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Fluminense", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Brasileirão 2013", "data": "2013-07-07", "estadio": "Arena de Pernambuco" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Figueirense", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Copa do Brasil 2013", "data": "2013-07-03", "estadio": "Raulino de Oliveira" });
     jogos.push({ "mandante": "Ponte Preta", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Brasileirão 2013", "data": "2013-06-08", "estadio": "Moisés Lucarelli" });
     jogos.push({ "mandante": "Bahia", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Brasileirão 2013", "data": "2013-06-05", "estadio": "Batistão" });
