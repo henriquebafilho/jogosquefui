@@ -11,7 +11,7 @@ class Tabs extends Component {
         super(props);
         this.state = {
             toggleState: 1,
-            meusJogos: props.meusJogos,
+            meusJogos: props.meusJogos.filter(jogo => jogo.golsMandante !== "" && jogo.golsVisitante !== ""),
             meuTime: props.meuTime,
             currentPage: 1,
             itemsPerPage: 20
@@ -25,9 +25,6 @@ class Tabs extends Component {
         this.setState({ meusJogos: this.state.meusJogos.sort(function (a, b) {
             return a.data < b.data ? 1 : a.data > b.data ? -1 : 0;
         })})
-        this.setState({
-            meusJogos: this.state.meusJogos.filter(jogo => jogo.golsMandante !== "" && jogo.golsVisitante !== "")
-        })
     }
 
     handleNextPage() {

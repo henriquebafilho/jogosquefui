@@ -55,7 +55,7 @@ class Estadios extends Component {
   }
 
   searchStadium = async (e) => {
-    this.setState({ filtered: this.state.estadios.filter(estadio => estadio.toUpperCase().includes(e.target.value.toUpperCase()))})
+    this.setState({ filtered: this.state.estadios.filter(estadio => estadio.toUpperCase().trim().includes(e.target.value.toUpperCase().trim()))})
   }
 
   render() {

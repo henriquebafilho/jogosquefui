@@ -66,7 +66,7 @@ class Adversarios extends Component {
   }
 
   searchTeam = async (e) => {
-    this.setState({ filtered: this.state.adversarios.filter(time => time.toUpperCase().includes(e.target.value.toUpperCase()))})
+    this.setState({ filtered: this.state.adversarios.filter(time => time.toUpperCase().trim().includes(e.target.value.toUpperCase().trim()))})
   }
 
   render() {

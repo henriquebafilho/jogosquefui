@@ -21,7 +21,7 @@ class Anos extends Component {
 
   async componentDidMount() {
     await this.getAnos();
-    this.setState({ filtered: this.state.anos, jogos: this.state.jogos.filter(jogo => jogo.golsMandante !== "" && jogo.golsVisitante !== "") });
+    this.setState({ filtered: this.state.anos });
   }
   
   getAnos = async () => {
@@ -58,7 +58,7 @@ class Anos extends Component {
   }
 
   searchAno = async (e) => {
-    this.setState({ filtered: this.state.anos.filter(ano => ano.toString().includes(e.target.value))})
+    this.setState({ filtered: this.state.anos.filter(ano => ano.toString().trim().includes(e.target.value.trim()))})
   }
 
   render() {
