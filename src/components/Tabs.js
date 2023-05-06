@@ -92,8 +92,7 @@ class Tabs extends Component {
                                 </button>
                             </div>
                         </div>
-                    </div>
-                    {ultimos === 1 ? 
+                        {ultimos === 1 ? 
                         <div className="container" style={{ color: "white", backgroundColor: 'black'}}>
                             <Estatisticas meuTime={meuTime} jogos={meusJogos} />
                             {meusJogos.length > 0 ? currentItems.map((index) => {
@@ -120,6 +119,7 @@ class Tabs extends Component {
                             <ProximosJogos meuTime={meuTime} />
                         </div>
                     }
+                    </div>
 
                     <div className={toggleState === 2 ? "content  active-content" : "content"}>
                         <Anos meuTime={meuTime} meusJogos={meusJogos} />
