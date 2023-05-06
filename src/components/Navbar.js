@@ -26,9 +26,10 @@ class Navbar extends Component {
     }
 
     showSideBar = async () => {
-        if (this.props.conjuntoUsuarios.getUsuarioAtual() !== "") {
-            this.setState({ sidebar: !this.state.sidebar, meuTime: this.props.conjuntoUsuarios.getUsuarioAtual().meuTime });
-        }
+        // if (this.props.conjuntoUsuarios.getUsuarioAtual() !== "") {
+        //     this.setState({ sidebar: !this.state.sidebar, meuTime: this.props.conjuntoUsuarios.getUsuarioAtual().meuTime });
+        // }
+        this.setState({ sidebar: !this.state.sidebar })
     }
 
     buttonClick = async (title) => {

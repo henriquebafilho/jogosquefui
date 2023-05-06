@@ -198,7 +198,8 @@ body {
   display: flex;
   flex-direction: column;
   position: relative;
-  background: #f1f1f1;
+  background: black;
+  color: white;
   margin: 10px auto 0;
   word-break: break-all;
   border: 1px solid rgba(0, 0, 0, 0.274);

@@ -5,6 +5,7 @@ import Estadios from '../pages/Estadios';
 import Times from '../Times';
 import Estatisticas from './Estatisticas';
 import LinhaJogo from './LinhaJogo';
+import ProximosJogos from '../pages/ProximosJogos';
 
 class Tabs extends Component {
     constructor(props) {
@@ -14,9 +15,9 @@ class Tabs extends Component {
             meusJogos: props.meusJogos.filter(jogo => jogo.golsMandante !== "" && jogo.golsVisitante !== ""),
             meuTime: props.meuTime,
             currentPage: 1,
-            itemsPerPage: 20
+            itemsPerPage: 20,
+            ultimos: true
         };
-
         this.handleNextPage = this.handleNextPage.bind(this);
         this.handlePrevPage = this.handlePrevPage.bind(this);
     }
@@ -43,11 +44,16 @@ class Tabs extends Component {
         this.setState({ toggleState: index });
     }
 
+    ultimosTab = async () => {
+        this.setState({ ultimos: !this.state.ultimos})
+    }
+
     render() {
         const toggleTab = (index) => this.toggleTab(index);
         let toggleState = this.state.toggleState;
         let meusJogos = this.state.meusJogos;
         let meuTime = this.state.meuTime;
+        let ultimos = this.state.ultimos;
         let anoAtual = 0;
         const { currentPage, itemsPerPage } = this.state;
 
@@ -75,26 +81,44 @@ class Tabs extends Component {
 
                 <div className="content-tabs">
                     <div className={toggleState === 1 ? "content  active-content" : "content"}>
-                        <Estatisticas meuTime={meuTime} jogos={meusJogos} />
-                        {meusJogos.length > 0 ? currentItems.map((index) => {
-                            let mostraAno = false;
-                            if (anoAtual !== index.data.split("-")[0]) {
-                                anoAtual = index.data.split("-")[0];
-                                mostraAno = true;
-                            }
-                            return <div key={JSON.stringify(index)}>
-                                {mostraAno ? <h1 style={{ textAlign: 'center', color: Times(meuTime).letterColor, margin: '40px' }}>{anoAtual}</h1> : ""}
-                                <LinhaJogo meuTime={meuTime} jogo={index} meusJogos={meusJogos} />
+                        <div className="container" style={{ color: "white", backgroundColor: 'black', border: "3px", maxWidth: '80%', marginBottom: '20px' }}>
+                            <div className="bloc-tabs">
+                                <button id="tab" className={ultimos ? "tabs active-tabs" : "tabs"} onClick={() => this.ultimosTab()}>
+                                    Últimos Jogos
+                                </button>
+                                <button id="tab" className={ultimos ? "tabs" : "tabs active-tabs"} onClick={() => this.ultimosTab()}>
+                                    Próximos Jogos
+                                </button>
                             </div>
-                        }) : <div>
-                            <h1 style={{ color: Times(meuTime).letterColor, textAlign: 'center', paddingBottom: '50px' }}>Você ainda não possui jogos cadastrados</h1>
-                            <h4 style={{ color: Times(meuTime).letterColor, textAlign: 'center' }}>Vá em "Jogos do {meuTime}" para selecionar os jogos que você já foi</h4>
-                        </div>}
-                        <div style={{ textAlign: 'center' }}>
-                            <button style={{ margin: '10px' }} onClick={this.handlePrevPage} disabled={currentPage === 1}>Anterior</button>
-                            <button style={{ margin: '10px' }} onClick={this.handleNextPage} disabled={currentPage === totalPages}>Próxima</button>
                         </div>
                     </div>
+                    {ultimos ? 
+                        <div className="container" style={{ color: "white", backgroundColor: 'black'}}>
+                            <Estatisticas meuTime={meuTime} jogos={meusJogos} />
+                            {meusJogos.length > 0 ? currentItems.map((index) => {
+                                let mostraAno = false;
+                                if (anoAtual !== index.data.split("-")[0]) {
+                                    anoAtual = index.data.split("-")[0];
+                                    mostraAno = true;
+                                }
+                                return <div key={JSON.stringify(index)}>
+                                    {mostraAno ? <h1 style={{ textAlign: 'center', color: Times(meuTime).letterColor, margin: '40px' }}>{anoAtual}</h1> : ""}
+                                    <LinhaJogo meuTime={meuTime} jogo={index} meusJogos={meusJogos} />
+                                </div>
+                            }) : <div>
+                                <h1 style={{ color: Times(meuTime).letterColor, textAlign: 'center', paddingBottom: '50px' }}>Você ainda não possui jogos cadastrados</h1>
+                                <h4 style={{ color: Times(meuTime).letterColor, textAlign: 'center' }}>Vá em "Jogos do {meuTime}" para selecionar os jogos que você já foi</h4>
+                            </div>}
+                            <div style={{ textAlign: 'center' }}>
+                                <button style={{ margin: '10px' }} onClick={this.handlePrevPage} disabled={currentPage === 1}>Anterior</button>
+                                <button style={{ margin: '10px' }} onClick={this.handleNextPage} disabled={currentPage === totalPages}>Próxima</button>
+                            </div>
+                        </div> 
+                        :
+                        <div className={!ultimos ? "content  active-content" : "content"}>
+                            <ProximosJogos meuTime={meuTime} />
+                        </div>
+                    }
 
                     <div className={toggleState === 2 ? "content  active-content" : "content"}>
                         <Anos meuTime={meuTime} meusJogos={meusJogos} />
