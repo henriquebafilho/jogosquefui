@@ -1,13 +1,16 @@
 {
   "files": {
     "main.css": "/jogosquefui/static/css/main.a46d06f1.css",
-    "main.js": "/jogosquefui/static/js/main.fbf8a71f.js",
+    "main.js": "/jogosquefui/static/js/main.5d173700.js",
+    "static/media/Atanasio Girardot.png": "/jogosquefui/static/media/Atanasio Girardot.654b0fba4632fac4057b.png",
     "static/media/Corisabbá.png": "/jogosquefui/static/media/Corisabbá.4b6783df88df9e49eae8.png",
     "static/media/Colosso da Lagoa.png": "/jogosquefui/static/media/Colosso da Lagoa.b7008037ac5675a07045.png",
     "static/media/Arena Pantanal.png": "/jogosquefui/static/media/Arena Pantanal.8d7e42346b20bc6d4724.png",
     "static/media/Arena de Pernambuco.png": "/jogosquefui/static/media/Arena de Pernambuco.5def1fe95c90dd80e42b.png",
     "static/media/Maracanã.png": "/jogosquefui/static/media/Maracanã.49e2331c9e113cf34e31.png",
     "static/media/Arena da Amazônia.png": "/jogosquefui/static/media/Arena da Amazônia.61d29d387d21d8cfe65b.png",
+    "static/media/Baenão.png": "/jogosquefui/static/media/Baenão.e3be5e5312c362d27066.png",
+    "static/media/Aryzão.png": "/jogosquefui/static/media/Aryzão.81c21ea11fe915613380.png",
     "static/media/Arena do Grêmio.png": "/jogosquefui/static/media/Arena do Grêmio.52d33e3a6fde83a74885.png",
     "static/media/Nilton Santos.png": "/jogosquefui/static/media/Nilton Santos.72242bd628ddecf1f9d8.png",
     "static/media/São Cristóvão.png": "/jogosquefui/static/media/São Cristóvão.0a8cfd327b0fe8ab87ef.png",
@@ -16,18 +19,24 @@
     "static/media/El Teniente.png": "/jogosquefui/static/media/El Teniente.dc04e4069b19d8ba9181.png",
     "static/media/Allianz Parque.png": "/jogosquefui/static/media/Allianz Parque.648e817672cdfddd4703.png",
     "static/media/São Januário.png": "/jogosquefui/static/media/São Januário.e235347b04653cdc2ad2.png",
+    "static/media/Barradão.png": "/jogosquefui/static/media/Barradão.f441e4dee61ab45bb6a9.png",
     "static/media/Alfredo Jaconi.png": "/jogosquefui/static/media/Alfredo Jaconi.f42b97094ab2b79ecc6b.png",
+    "static/media/Augusto Bauer.png": "/jogosquefui/static/media/Augusto Bauer.5e6eab3c89473073b55d.png",
     "static/media/Alania.png": "/jogosquefui/static/media/Alania.f91cd8df51dcb3174d68.png",
     "static/media/Adautão.png": "/jogosquefui/static/media/Adautão.ce1811318b57100f02c8.png",
     "static/media/Raulino de Oliveira.png": "/jogosquefui/static/media/Raulino de Oliveira.dee5dd815ae566859624.png",
     "static/media/Jair Toscano.png": "/jogosquefui/static/media/Jair Toscano.baa0bcb6a425d2a273c4.png",
     "static/media/Arena da Baixada.png": "/jogosquefui/static/media/Arena da Baixada.a1fb3669ae8687b850bf.png",
+    "static/media/Bacaxá.png": "/jogosquefui/static/media/Bacaxá.7279b171c36231451f31.png",
     "static/media/Andarahy.png": "/jogosquefui/static/media/Andarahy.fd277126077055f68fb9.png",
+    "static/media/Atilio Marotti.png": "/jogosquefui/static/media/Atilio Marotti.c225e6dc23874f470f0d.png",
     "static/media/Independência.png": "/jogosquefui/static/media/Independência.18b0f502e2bfa7572580.png",
     "static/media/Arena Barueri.png": "/jogosquefui/static/media/Arena Barueri.8b05a810ed9200e3ca3c.png",
+    "static/media/Arruda.png": "/jogosquefui/static/media/Arruda.54f3c351bab1fdb2c413.png",
     "static/media/Almeidão.png": "/jogosquefui/static/media/Almeidão.1c30e3156d25c43d3bb0.png",
     "static/media/Couto Pereira.png": "/jogosquefui/static/media/Couto Pereira.d1059febb93e885247c9.png",
     "static/media/Fonte Nova.png": "/jogosquefui/static/media/Fonte Nova.03cd07f8f62d900eb5b3.png",
+    "static/media/Arena do Jacaré.png": "/jogosquefui/static/media/Arena do Jacaré.f33633f7d74be5ab3389.png",
     "static/media/Neo Química Arena.png": "/jogosquefui/static/media/Neo Química Arena.be50e1b20a863d820239.png",
     "static/media/Antonio Accioly.png": "/jogosquefui/static/media/Antonio Accioly.a39dc56ce7b85c989a8b.png",
     "static/media/River-RJ.png": "/jogosquefui/static/media/River-RJ.faec1201a5ed24f914c5.png",
@@ -353,10 +362,10 @@
     "static/media/Ceará.png": "/jogosquefui/static/media/Ceará.2667c31fce77d94092f4.png",
     "index.html": "/jogosquefui/index.html",
     "main.a46d06f1.css.map": "/jogosquefui/static/css/main.a46d06f1.css.map",
-    "main.fbf8a71f.js.map": "/jogosquefui/static/js/main.fbf8a71f.js.map"
+    "main.5d173700.js.map": "/jogosquefui/static/js/main.5d173700.js.map"
   },
   "entrypoints": [
     "static/css/main.a46d06f1.css",
-    "static/js/main.fbf8a71f.js"
+    "static/js/main.5d173700.js"
   ]
 }
