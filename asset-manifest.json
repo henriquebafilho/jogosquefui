@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/jogosquefui/static/css/main.1c0e6747.css",
-    "main.js": "/jogosquefui/static/js/main.9f0f12af.js",
+    "main.css": "/jogosquefui/static/css/main.a46d06f1.css",
+    "main.js": "/jogosquefui/static/js/main.223d2e12.js",
     "static/media/Corisabbá.png": "/jogosquefui/static/media/Corisabbá.4b6783df88df9e49eae8.png",
     "static/media/Colosso da Lagoa.png": "/jogosquefui/static/media/Colosso da Lagoa.b7008037ac5675a07045.png",
     "static/media/Arena Pantanal.png": "/jogosquefui/static/media/Arena Pantanal.8d7e42346b20bc6d4724.png",
@@ -352,11 +352,11 @@
     "static/media/Viking-NOR.png": "/jogosquefui/static/media/Viking-NOR.601129b45f1e25d9b058.png",
     "static/media/Ceará.png": "/jogosquefui/static/media/Ceará.2667c31fce77d94092f4.png",
     "index.html": "/jogosquefui/index.html",
-    "main.1c0e6747.css.map": "/jogosquefui/static/css/main.1c0e6747.css.map",
-    "main.9f0f12af.js.map": "/jogosquefui/static/js/main.9f0f12af.js.map"
+    "main.a46d06f1.css.map": "/jogosquefui/static/css/main.a46d06f1.css.map",
+    "main.223d2e12.js.map": "/jogosquefui/static/js/main.223d2e12.js.map"
   },
   "entrypoints": [
-    "static/css/main.1c0e6747.css",
-    "static/js/main.9f0f12af.js"
+    "static/css/main.a46d06f1.css",
+    "static/js/main.223d2e12.js"
   ]
 }
