@@ -16,7 +16,7 @@ class Tabs extends Component {
             meuTime: props.meuTime,
             currentPage: 1,
             itemsPerPage: 20,
-            ultimos: true
+            ultimos: 1
         };
         this.handleNextPage = this.handleNextPage.bind(this);
         this.handlePrevPage = this.handlePrevPage.bind(this);
@@ -44,12 +44,13 @@ class Tabs extends Component {
         this.setState({ toggleState: index });
     }
 
-    ultimosTab = async () => {
-        this.setState({ ultimos: !this.state.ultimos})
+    ultimosTab = async (index) => {
+        this.setState({ ultimos: index })
     }
 
     render() {
         const toggleTab = (index) => this.toggleTab(index);
+        const ultimosTab = (index) => this.ultimosTab(index);
         let toggleState = this.state.toggleState;
         let meusJogos = this.state.meusJogos;
         let meuTime = this.state.meuTime;
@@ -83,16 +84,16 @@ class Tabs extends Component {
                     <div className={toggleState === 1 ? "content  active-content" : "content"}>
                         <div className="container" style={{ color: "white", backgroundColor: 'black', border: "3px", maxWidth: '80%', marginBottom: '20px' }}>
                             <div className="bloc-tabs">
-                                <button id="tab" className={ultimos ? "tabs active-tabs" : "tabs"} onClick={() => this.ultimosTab()}>
+                                <button id="tab" className={ultimos === 1 ? "tabs active-tabs" : "tabs"} onClick={() => ultimosTab(1)}>
                                     Últimos Jogos
                                 </button>
-                                <button id="tab" className={ultimos ? "tabs" : "tabs active-tabs"} onClick={() => this.ultimosTab()}>
+                                <button id="tab" className={ultimos === 1 ? "tabs" : "tabs active-tabs"} onClick={() => ultimosTab(2)}>
                                     Próximos Jogos
                                 </button>
                             </div>
                         </div>
                     </div>
-                    {ultimos ? 
+                    {ultimos === 1 ? 
                         <div className="container" style={{ color: "white", backgroundColor: 'black'}}>
                             <Estatisticas meuTime={meuTime} jogos={meusJogos} />
                             {meusJogos.length > 0 ? currentItems.map((index) => {
@@ -115,7 +116,7 @@ class Tabs extends Component {
                             </div>
                         </div> 
                         :
-                        <div className={!ultimos ? "content  active-content" : "content"}>
+                        <div className={ultimos === 2 ? "content  active-content" : "content"}>
                             <ProximosJogos meuTime={meuTime} />
                         </div>
                     }
