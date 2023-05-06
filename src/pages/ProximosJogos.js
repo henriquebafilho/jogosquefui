@@ -31,7 +31,7 @@ class ProximosJogos extends Component {
 
         switch (this.state.meuTime) {
             case "Botafogo":
-                todosOsJogos = BotafogoJogos().reverse();
+                todosOsJogos = BotafogoJogos();
                 break;
             case "Flamengo":
                 todosOsJogos = FlamengoJogos().reverse();
@@ -61,7 +61,7 @@ class ProximosJogos extends Component {
         return (
             <>
                 <div className="container" style={{ backgroundColor: Times(meuTime).backgroundColor }}>
-                    {jogos.length > 0 ? jogos.reverse().map((index) => {
+                    {jogos.length > 0 ? jogos.map((index) => {
                         return <div>
                             <LinhaJogo meuTime={meuTime} jogo={index} />
                         </div>
