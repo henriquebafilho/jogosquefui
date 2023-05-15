@@ -38,7 +38,7 @@ function jogos() {
     jogos.push({ "mandante": "César Vallejo", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Copa Sul-Americana 2023", "data": "2023-05-25", "estadio": "Mansiche" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Fluminense", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2023", "data": "2023-05-20", "estadio": "Nilton Santos" });
     jogos.push({ "mandante": "Athletico-PR", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Copa do Brasil 2023", "data": "2023-05-17", "estadio": "Arena da Baixada" });
-    jogos.push({ "mandante": "Goiás", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2023", "data": "2023-05-14", "estadio": "Serrinha" });
+    jogos.push({ "mandante": "Goiás", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Brasileirão 2023", "data": "2023-05-14", "estadio": "Serrinha" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Corinthians", "golsMandante": 3, "golsVisitante": 0, "campeonato": "Brasileirão 2023", "data": "2023-05-11", "estadio": "Nilton Santos" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Atlético-MG", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Brasileirão 2023", "data": "2023-05-07", "estadio": "Nilton Santos" });
     jogos.push({ "mandante": "Botafogo", "visitante": "LDU", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Copa Sul-Americana 2023", "data": "2023-05-04", "estadio": "Nilton Santos" });
