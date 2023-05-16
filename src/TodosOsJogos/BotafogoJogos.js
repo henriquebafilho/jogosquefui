@@ -1882,7 +1882,7 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "São Cristóvão", "golsMandante": 7, "golsVisitante": 2, "campeonato": "Carioca 1993", "data": "1993-05-27", "estadio": "Caio Martins" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Itaperuna", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Carioca 1993", "data": "1993-05-23", "estadio": "Caio Martins" });
     jogos.push({ "mandante": "Botafogo", "visitante": "América-RJ", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Carioca 1993", "data": "1993-05-19", "estadio": "Caio Martins" });
-    jogos.push({ "mandante": "Fluminense", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 0, "campeonato": "Carioca 1993", "data": "1993-05-16", "estadio": "Maracanã" });
+    jogos.push({ "mandante": "Fluminense", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Carioca 1993", "data": "1993-05-16", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Olaria", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Carioca 1993", "data": "1993-05-12", "estadio": "Rua Bariri" });
     jogos.push({ "mandante": "Vasco", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Carioca 1993", "data": "1993-05-09", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Bangu", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Carioca 1993", "data": "1993-05-05", "estadio": "Moça Bonita" });
