@@ -79,7 +79,7 @@ function jogos() {
     jogos.push({ "mandante": "Avaí", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Brasileirão 2022", "data": "2022-10-06", "estadio": "Ressacada" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Palmeiras", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Brasileirão 2022", "data": "2022-10-03", "estadio": "Nilton Santos" });
     jogos.push({ "mandante": "Goiás", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Brasileirão 2022", "data": "2022-09-28", "estadio": "Serrinha" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "Coritiba", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Brasileirão 2022", "data": "2022-09-16", "estadio": "Nilton Santos" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Coritiba", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Brasileirão 2022", "data": "2022-09-17", "estadio": "Nilton Santos" });
     jogos.push({ "mandante": "Botafogo", "visitante": "América-MG", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Brasileirão 2022", "data": "2022-09-11", "estadio": "Nilton Santos" });
     jogos.push({ "mandante": "Fortaleza", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Brasileirão 2022", "data": "2022-09-04", "estadio": "Castelão-CE" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Flamengo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Brasileirão 2022", "data": "2022-08-28", "estadio": "Nilton Santos" });
