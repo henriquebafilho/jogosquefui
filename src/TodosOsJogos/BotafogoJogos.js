@@ -1813,7 +1813,7 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Minervén FC", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Copa Conmebol 94", "data": "1994-11-11", "estadio": "Caio Martins", "penaltis": "4 x 5" });
     jogos.push({ "mandante": "Fluminense", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Brasileirão 1994", "data": "1994-11-09", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Corinthians", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Brasileirão 1994", "data": "1994-11-06", "estadio": "Pacaembu" });
-    jogos.push({ "mandante": "Minervén FC", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Copa Conmebol 94", "data": "1994-11-01", "estadio": "Cachamax" });
+    jogos.push({ "mandante": "Minervén FC", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Copa Conmebol 94", "data": "1994-11-01", "estadio": "Cachamay" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Sport", "golsMandante": 2, "golsVisitante": 5, "campeonato": "Brasileirão 1994", "data": "1994-10-29", "estadio": "Caio Martins" });
     jogos.push({ "mandante": "Palmeiras", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Brasileirão 1994", "data": "1994-10-26", "estadio": "Parque Antártica" });
     jogos.push({ "mandante": "Santos", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Brasileirão 1994", "data": "1994-10-22", "estadio": "Vila Belmiro" });
