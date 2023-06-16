@@ -10,7 +10,7 @@ export const Home = () => {
     } catch (error) {
         userLogado = user;
     }
-    console.log(userLogado);
+    //console.log(userLogado);
 
     return (
         <div>
