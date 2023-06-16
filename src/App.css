@@ -191,7 +191,8 @@ details[open] #summaryAdversario::after {
 }
 
 body {
-  background: #fff;
+  background: black;
+  color: white;
 }
 
 .container {

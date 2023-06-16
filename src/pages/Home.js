@@ -12,10 +12,14 @@ export const Home = () => {
     }
     //console.log(userLogado);
 
+    const nomeUsuario = userLogado.displayName.split(" ")[0];
+
     return (
-        <div>
-            <img src={userLogado.photoURL}></img>
-            <h1>Olá, {userLogado.displayName}</h1>
+        <div className="App-header">
+            {
+                <img src={userLogado.photoURL} alt="userPhoto"></img>
+            }
+            <h1>Olá, {nomeUsuario}</h1>
             <button onClick={() => signOut()}>Sair</button>
         </div>
     );

@@ -1,16 +1,22 @@
 import { useContext } from "react";
 import { AuthGoogleContext } from "../contexts/authGoogle";
 import { Navigate } from "react-router-dom";
+import '../App.css';
 
 export const Login = () => {
     const { signInGoogle, signed } = useContext(AuthGoogleContext);
 
-    async function loginGoogle(){
+    async function loginGoogle() {
         await signInGoogle();
     }
 
-    if(!signed){
-        return <button onClick={loginGoogle}>Logar com o Google</button>;
+    if (!signed) {
+        return (
+            <div className="App-header">
+                <h1 style={{ color: 'white' }}>Jogos Que Fui</h1>
+                <button onClick={loginGoogle}>Logar com o Google</button>
+            </div>
+        );
     } else {
         return <Navigate to="/home" />;
     }
