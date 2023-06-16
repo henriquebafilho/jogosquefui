@@ -2792,7 +2792,7 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Fortaleza", "golsMandante": 6, "golsVisitante": 1, "campeonato": "Brasileirão 1973", "data": "1974-02-06", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Grêmio", "golsMandante": 3, "golsVisitante": 0, "campeonato": "Brasileirão 1973", "data": "1974-02-03", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Guarani", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Brasileirão 1973", "data": "1974-01-31", "estadio": "Maracanã" });
-    jogos.push({ "mandante": "Goiás", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Brasileirão 1973", "data": "1974-01-26", "estadio": "Olímpico" });
+    jogos.push({ "mandante": "Goiás", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Brasileirão 1973", "data": "1974-01-26", "estadio": "Olímpico (Goiânia)" });
     jogos.push({ "mandante": "Cruzeiro", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Brasileirão 1973", "data": "1974-01-23", "estadio": "Mineirão" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Santos", "golsMandante": 0, "golsVisitante": 3, "campeonato": "Brasileirão 1973", "data": "1974-01-20", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Santa Cruz", "golsMandante": 4, "golsVisitante": 1, "campeonato": "Brasileirão 1973", "data": "1974-01-16", "estadio": "Maracanã" });
