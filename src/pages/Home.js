@@ -14,6 +14,7 @@ export const Home = () => {
 
     return (
         <div>
+            <img src={userLogado.photoURL}></img>
             <h1>Olá, {userLogado.displayName}</h1>
             <button onClick={() => signOut()}>Sair</button>
         </div>
