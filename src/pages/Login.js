@@ -12,7 +12,7 @@ export const Login = () => {
 
     if (!signed) {
         return (
-            <div className="App-header">
+            <div className="App-header" style={{justifyContent: 'center'}}>
                 <h1 style={{ color: 'white' }}>Jogos Que Fui</h1>
                 <button onClick={loginGoogle}>Logar com o Google</button>
             </div>

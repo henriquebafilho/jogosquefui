@@ -63,12 +63,11 @@ class Anos extends Component {
 
   render() {
     const meuTime = this.state.meuTime;
-    const meusJogos = this.props.meusJogos;
     const buttonClickFunction = (ano) => this.buttonClick(ano);
 
     return (
       <>
-        {this.state.clicked ? <ViewAno conjuntoUsuarios={this.props.conjuntoUsuarios} flag="meusJogos" meuTime={this.props.meuTime} meusJogos={meusJogos} jogosAno={this.state.jogosAno} ano={this.state.anoAtual} /> :
+        {this.state.clicked ? <ViewAno flag="meusJogos" meuTime={this.props.meuTime} jogosAno={this.state.jogosAno} ano={this.state.anoAtual} /> :
           <div className="App-header" style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor, alignItems: 'normal' }}>
             {/* <h1>Anos</h1>
             <br /> */}
@@ -89,13 +88,13 @@ class Anos extends Component {
                 />
                 {this.state.filtered.length > 0 ?
                   !this.state.isLoading && this.state.filtered.map(function (i) {
-                    var totalAno = common.getTotalAno(i, meusJogos/* .getJogos() */);
+                    {/*var totalAno = common.getTotalAno(i, meusJogos.getJogos());
                     return <div key={i}>
                       <button id='selectAno' onClick={() => buttonClickFunction(i)} style={{ borderColor: Times(meuTime).letterColor, borderStyle: 'solid', backgroundColor: Times(meuTime).backgroundColor, color: Times(meuTime).letterColor }}>
                         <div style={{ display: 'inline', padding: '10px', fontSize: '30px' }}>{i}</div>
                         <div style={{ paddingBottom: '5px', fontSize: '15px', fontWeight: '100' }}>{totalAno} {totalAno > 1 ? "jogos" : "jogo"}</div>
                       </button>
-                    </div>
+                    </div>*/}
                   }) : <div>
                     <h4 style={{ color: Times(this.state.meuTime).letterColor, textAlign: 'center', paddingBottom: '50px' }}>Nenhum ano encontrado</h4>
                   </div>}
