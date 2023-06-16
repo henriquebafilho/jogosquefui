@@ -13,7 +13,7 @@ class Tabs extends Component {
         this.state = {
             toggleState: 1,
             meusJogos: props.meusJogos.filter(jogo => jogo.golsMandante !== "" && jogo.golsVisitante !== ""),
-            meuTime: props.meuTime,
+            meuTime: "Botafogo",
             currentPage: 1,
             itemsPerPage: 20,
             ultimos: 1

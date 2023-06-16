@@ -15,11 +15,11 @@ class LinhaJogo extends Component {
 
     async componentDidMount() {
         this._isMounted = true;
-        window.scrollTo(0, 0);
         this.setState({ isLoading: true })
-        if (this.state.jogo.golsMandante !== "" && this.state.jogo.golsVisitante !== "") {
-            await this.getJogosQueFui();
-        }
+        // implementar quando tiver lista de jogos
+        //if (this.state.jogo.golsMandante !== "" && this.state.jogo.golsVisitante !== "") {
+        //    await this.getJogosQueFui();
+        //}
         this.setState({ isLoading: false })
     }
 

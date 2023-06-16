@@ -1,16 +1,13 @@
 import React, { Component } from 'react';
 import Times from '../Times';
 import LinhaJogo from '../components/LinhaJogo';
-import FlamengoJogos from '../TodosOsJogos/FlamengoJogos';
-import FluminenseJogos from '../TodosOsJogos/FluminenseJogos';
-import VascoJogos from '../TodosOsJogos/VascoJogos';
 import BotafogoJogos from '../TodosOsJogos/BotafogoJogos';
 
 class ProximosJogos extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            meuTime: props.meuTime,
+            meuTime: "Botafogo",
             proximosJogos: [],
             isLoading: false,
             clicked: false
@@ -19,7 +16,6 @@ class ProximosJogos extends Component {
 
     async componentDidMount() {
         this._isMounted = true;
-        window.scrollTo(0, 0);
         this.setState({ isLoading: true })
         await this.getProximosJogos();
         this.setState({ isLoading: false })
@@ -32,15 +28,6 @@ class ProximosJogos extends Component {
         switch (this.state.meuTime) {
             case "Botafogo":
                 todosOsJogos = BotafogoJogos();
-                break;
-            case "Flamengo":
-                todosOsJogos = FlamengoJogos().reverse();
-                break;
-            case "Fluminense":
-                todosOsJogos = FluminenseJogos().reverse();
-                break;
-            case "Vasco":
-                todosOsJogos = VascoJogos().reverse();
                 break;
             default:
                 console.error("Time não disponível.")

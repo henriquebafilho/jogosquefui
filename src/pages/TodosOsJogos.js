@@ -21,7 +21,6 @@ class TodosOsJogos extends Component {
   }
 
   async componentDidMount() {
-    window.scrollTo(0, 0);
     this.setState({ isLoading: true })
     await this.getJogos();
     await this.getAnos();

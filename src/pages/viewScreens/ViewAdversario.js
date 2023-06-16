@@ -16,7 +16,6 @@ class ViewAdversario extends Component {
 
   async componentDidMount() {
     this._isMounted = true;
-    window.scrollTo(0, 0);
   }
 
   buttonClick = async () => {

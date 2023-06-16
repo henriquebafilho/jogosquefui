@@ -2,7 +2,9 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import { Login } from '../pages/Login';
 import { Home } from '../pages/Home';
+import Perfil from '../pages/Perfil';
 import { PrivateRoutes } from ".";
+import BotafogoJogos from '../TodosOsJogos/BotafogoJogos';
 
 export const AppRoutes = () => {
     return (
@@ -10,7 +12,7 @@ export const AppRoutes = () => {
             <Routes>
                 <Route path="/" element={<Login />} />
                 <Route path="/home" element={<PrivateRoutes />}>
-                    <Route path="/home" element={<Home />} />
+                    <Route path="/home" element={<Perfil meusJogos={BotafogoJogos()} />} />
                 </Route>
             </Routes>
         </BrowserRouter>
