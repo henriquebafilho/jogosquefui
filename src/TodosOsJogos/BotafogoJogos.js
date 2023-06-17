@@ -24,12 +24,12 @@ function jogos() {
     jogos.push({ "mandante": "Cruzeiro", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2023", "data": "2023-08-02", "estadio": "Independência" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Coritiba", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2023", "data": "2023-07-29", "estadio": "Nilton Santos" });
     jogos.push({ "mandante": "Santos", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2023", "data": "2023-07-22", "estadio": "Vila Belmiro" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "Red Bull Bragantino", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2023", "data": "2023-07-15", "estadio": "Nilton Santos" });
-    jogos.push({ "mandante": "Grêmio", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2023", "data": "2023-07-09", "estadio": "Arena do Grêmio" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "Vasco", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2023", "data": "2023-07-02", "estadio": "Nilton Santos" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "Magallanes", "golsMandante": "", "golsVisitante": "", "campeonato": "Copa Sul-Americana 2023", "data": "2023-06-29", "estadio": "Nilton Santos" });
-    jogos.push({ "mandante": "Palmeiras", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2023", "data": "2023-06-25", "estadio": "Allianz Parque" });
-    jogos.push({ "mandante": "Cuiabá", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2023", "data": "2023-06-22", "estadio": "Arena Pantanal" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Red Bull Bragantino", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2023", "data": "2023-07-15", "estadio": "Nilton Santos", "horario": "16:00" });
+    jogos.push({ "mandante": "Grêmio", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2023", "data": "2023-07-09", "estadio": "Arena do Grêmio", "horario": "18:30" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Vasco", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2023", "data": "2023-07-02", "estadio": "Nilton Santos", "horario": "16:00" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Magallanes", "golsMandante": "", "golsVisitante": "", "campeonato": "Copa Sul-Americana 2023", "data": "2023-06-29", "estadio": "Nilton Santos", "horario": "21:00" });
+    jogos.push({ "mandante": "Palmeiras", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2023", "data": "2023-06-25", "estadio": "Allianz Parque", "horario": "16:00" });
+    jogos.push({ "mandante": "Cuiabá", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2023", "data": "2023-06-22", "estadio": "Arena Pantanal", "horario": "20:00" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Fortaleza", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Brasileirão 2023", "data": "2023-06-10", "estadio": "Nilton Santos" });
     jogos.push({ "mandante": "LDU", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Copa Sul-Americana 2023", "data": "2023-06-06", "estadio": "Casablanca" });
     jogos.push({ "mandante": "Athletico-PR", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Brasileirão 2023", "data": "2023-06-03", "estadio": "Arena da Baixada" });
@@ -2963,7 +2963,7 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "América-RJ", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Carioca 1971", "data": "1971-04-03", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Portuguesa-RJ", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Carioca 1971", "data": "1971-03-25", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Bonsucesso", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Carioca 1971", "data": "1971-03-20", "estadio": "Maracanã" });
-    jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Carioca 1971", "data": "1971-03-14", "estadio": "Maracanã" }); 
+    jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Carioca 1971", "data": "1971-03-14", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Campo Grande-RJ", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Carioca 1971", "data": "1971-03-11", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Bahia", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 4, "campeonato": "Robertão 70", "data": "1970-12-06", "estadio": "Rei Pelé" });
     jogos.push({ "mandante": "Santa Cruz", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Robertão 70", "data": "1970-12-02", "estadio": "Ilha do Retiro" });
