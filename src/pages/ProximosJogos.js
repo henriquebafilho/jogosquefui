@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
 import Times from '../Times';
 import LinhaJogo from '../components/LinhaJogo';
-import BotafogoJogos from '../TodosOsJogos/BotafogoJogos';
 
 class ProximosJogos extends Component {
     constructor(props) {
         super(props);
         this.state = {
             meuTime: "Botafogo",
-            proximosJogos: [],
+            proximosJogos: this.props.proximosJogos,
             isLoading: false,
             clicked: false
         }
@@ -17,29 +16,12 @@ class ProximosJogos extends Component {
     async componentDidMount() {
         this._isMounted = true;
         this.setState({ isLoading: true })
-        await this.getProximosJogos();
+        this.setState({
+            proximosJogos: this.state.proximosJogos.sort(function (a, b) {
+                return a.data > b.data ? 1 : a.data < b.data ? -1 : 0;
+            })
+        });
         this.setState({ isLoading: false })
-    }
-
-    getProximosJogos = async () => {
-        let todosOsJogos;
-        let proximosJogos = [];
-
-        switch (this.state.meuTime) {
-            case "Botafogo":
-                todosOsJogos = BotafogoJogos();
-                break;
-            default:
-                console.error("Time não disponível.")
-                break;
-        }
-
-        todosOsJogos.map(function (i) {
-            if (i.golsMandante === "" && i.golsVisitante === "") {
-                proximosJogos.push(i);
-            }
-        })
-        this.setState({ proximosJogos: proximosJogos })
     }
 
     render() {

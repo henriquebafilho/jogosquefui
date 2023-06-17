@@ -14,7 +14,6 @@ function Perfil(props) {
   } catch (error) {
     userLogado = user;
   }
-  //console.log(userLogado);
 
   try {
     nomeUsuario = userLogado.displayName.split(" ")[0] + " " + userLogado.displayName.split(" ")[1];
@@ -36,7 +35,6 @@ function Perfil(props) {
           </p>
           <img src={userLogado.photoURL} style={{ borderRadius: '50%' }} alt="Foto do Usuário"></img>
         </div>
-        {/*<img src={require('../escudos/' + Times(meuTime).escudo + '.png')} className="App-logo" alt="Escudo do Botafogo" style={{ verticalAlign: 'middle', width: '100px', height: '100px' }} />*/}
         <button onClick={() => signOut()}>Sair</button>
         <Tabs meuTime={meuTime} meusJogos={meusJogos} />
       </div>
