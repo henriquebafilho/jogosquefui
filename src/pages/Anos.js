@@ -23,7 +23,7 @@ class Anos extends Component {
     await this.getAnos();
     this.setState({ filtered: this.state.anos });
   }
-  
+
   getAnos = async () => {
     var jogos = this.state.jogos;
 
@@ -58,7 +58,7 @@ class Anos extends Component {
   }
 
   searchAno = async (e) => {
-    this.setState({ filtered: this.state.anos.filter(ano => ano.toString().trim().includes(e.target.value.trim()))})
+    this.setState({ filtered: this.state.anos.filter(ano => ano.toString().trim().includes(e.target.value.trim())) })
   }
 
   render() {
