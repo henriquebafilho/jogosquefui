@@ -4238,7 +4238,7 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Andarahy", "golsMandante": 2, "golsVisitante": 3, "campeonato": "Carioca 1922", "data": "1922-07-09", "estadio": "General Severiano" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Bangu", "golsMandante": 4, "golsVisitante": 0, "campeonato": "Carioca 1922", "data": "1922-07-03", "estadio": "General Severiano" });
     jogos.push({ "mandante": "São Cristóvão", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Carioca 1922", "data": "1922-07-02", "estadio": "Figueira de Melo" });
-    jogos.push({ "mandante": "Bangu", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Carioca 1922", "data": "1922-06-18", "estadio": "" });
+    jogos.push({ "mandante": "Bangu", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Carioca 1922", "data": "1922-06-18", "estadio": "General Severiano" });
     jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Carioca 1922", "data": "1922-06-11", "estadio": "Rua Paysandu" });
     jogos.push({ "mandante": "América-RJ", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Carioca 1922", "data": "1922-05-28", "estadio": "Campos Sales" });
     jogos.push({ "mandante": "Fluminense", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Carioca 1922", "data": "1922-05-21", "estadio": "General Severiano" });
