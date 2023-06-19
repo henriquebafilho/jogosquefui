@@ -2,16 +2,13 @@ import React, { Component } from 'react';
 import Times from '../Times';
 import common from '../common';
 import ViewAno from './viewScreens/ViewAno';
-import FlamengoJogos from '../TodosOsJogos/FlamengoJogos';
-import FluminenseJogos from '../TodosOsJogos/FluminenseJogos';
-import VascoJogos from '../TodosOsJogos/VascoJogos';
 import BotafogoJogos from '../TodosOsJogos/BotafogoJogos';
 
 class TodosOsJogos extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      meuTime: props.meuTime,
+      meuTime: "Botafogo",
       jogos: [],
       anos: [],
       isLoading: false,
@@ -24,7 +21,6 @@ class TodosOsJogos extends Component {
   }
 
   async componentDidMount() {
-    window.scrollTo(0, 0);
     this.setState({ isLoading: true })
     await this.getJogos();
     await this.getAnos();
@@ -38,18 +34,6 @@ class TodosOsJogos extends Component {
     switch (this.state.meuTime) {
       case "Botafogo":
         todosOsJogos = BotafogoJogos().reverse();
-        break;
-      case "Flamengo":
-        todosOsJogos = FlamengoJogos().reverse();
-        break;
-      case "Fluminense":
-        todosOsJogos = FluminenseJogos().reverse();
-        break;
-      case "Vasco":
-        todosOsJogos = VascoJogos().reverse();
-        break;
-      default:
-        console.error("Time não disponível.")
         break;
     }
 
@@ -100,10 +84,10 @@ class TodosOsJogos extends Component {
     const buttonClickFunction = (ano) => this.buttonClick(ano);
     return (
       <>
-        {this.state.clicked ? <ViewAno conjuntoUsuarios={this.props.conjuntoUsuarios} flag="todosOsJogos" meuTime={this.props.meuTime} jogosAno={this.state.jogosAno} ano={this.state.anoAtual} meusJogos={this.props.meusJogos} /> :
-          <div id="App-header-todos" style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor, display: 'flex' }}>
-            <h1 style={{ padding: '20px' }}>Jogos do {Times(this.props.meuTime).nomeAtual}</h1>
-            <img src={require('../escudos/' + Times(this.props.meuTime).escudo + '.png')} className="App-logo" alt={"Escudo do " + this.props.meuTime} style={{ width: '100px', height: '100px' }} />
+        {this.state.clicked ? <ViewAno flag="todosOsJogos" meuTime={this.state.meuTime} jogosAno={this.state.jogosAno} ano={this.state.anoAtual} /> :
+          <div id="App-header-todos" style={{ backgroundColor: Times(this.state.meuTime).backgroundColor, color: Times(this.state.meuTime).letterColor, display: 'flex' }}>
+            <h1 style={{ padding: '20px' }}>Jogos do {Times(this.state.meuTime).nomeAtual}</h1>
+            <img src={require('../escudos/' + Times(this.state.meuTime).escudo + '.png')} className="App-logo" alt={"Escudo do " + this.state.meuTime} style={{ width: '100px', height: '100px' }} />
             {jogos.length > 0 ? <h4 style={{ padding: '20px' }}>Selecione o ano do jogo</h4> : <h4 style={{ padding: '20px' }}>Não há jogos disponíveis</h4>}
             <table>
               <tbody>
