@@ -6,7 +6,7 @@ import Times from '../Times';
 import Estatisticas from './Estatisticas';
 import LinhaJogo from './LinhaJogo';
 import ProximosJogos from '../pages/ProximosJogos';
-import { todosOsJogos } from '../services/firebaseConfig';
+//import { todosOsJogos } from '../services/firebaseConfig';
 
 class Tabs extends Component {
     constructor(props) {
