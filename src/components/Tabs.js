@@ -13,8 +13,10 @@ class Tabs extends Component {
         super(props);
         this.state = {
             toggleState: 1,
-            meusJogos: todosOsJogos.filter(jogo => jogo.golsMandante !== "" && jogo.golsVisitante !== ""),
-            proximosJogos: todosOsJogos.filter(jogo => jogo.golsMandante === "" && jogo.golsVisitante === ""),
+            //meusJogos: todosOsJogos.filter(jogo => jogo.golsMandante !== "" && jogo.golsVisitante !== ""),
+            //proximosJogos: todosOsJogos.filter(jogo => jogo.golsMandante === "" && jogo.golsVisitante === ""),
+            meusJogos: props.meusJogos.filter(jogo => jogo.golsMandante !== "" && jogo.golsVisitante !== ""),
+            proximosJogos: props.meusJogos.filter(jogo => jogo.golsMandante === "" && jogo.golsVisitante === ""),
             meuTime: "Botafogo",
             currentPage: 1,
             itemsPerPage: 20,

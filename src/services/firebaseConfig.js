@@ -13,7 +13,7 @@ const firebaseConfig = {
 
 export const app = initializeApp(firebaseConfig);
 
-export const AppFirestore = () => {
+export const JogosFirestore = () => {
   let [jogos, setJogos] = useState([]);
 
   const db = getFirestore(app);
