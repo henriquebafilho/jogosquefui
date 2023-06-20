@@ -1,26 +1,76 @@
-import { useContext } from "react";
-import { AuthGoogleContext } from "../contexts/authGoogle";
-import { Navigate } from "react-router-dom";
-import '../App.css';
+import React, { Component } from 'react';
+import Cadastro from './Cadastro';
+import TodosOsJogos from './TodosOsJogos';
 
-export const Login = () => {
-    const { signInGoogle, signed } = useContext(AuthGoogleContext);
-
-    async function loginGoogle() {
-        await signInGoogle();
+class Login extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            telaAtual: 'login',
+            email: '',
+            senha: '',
+            erro: '',
+            usuarios: '',
+            logado: false
+        }
+        this.onChange = this.onChange.bind(this);
     }
 
-    if (!signed) {
-        return (
-            <div className="App-header" style={{justifyContent: 'center'}}>
-                <h1 style={{ color: 'white' }}>Jogos Que Fui</h1>
-                <button onClick={loginGoogle}>Logar com o Google</button>
-            </div>
+    async componentDidMount() {
+        window.scrollTo(0, 0);
+        this.setState({
+            usuarios: this.props.conjuntoUsuarios
+        })
+    }
+
+    cadastroClick = async () => {
+        this.setState({ telaAtual: 'cadastro' });
+    }
+
+    onChange(e) {
+        this.setState({ erro: '' })
+        if (e.target.name === "email") {
+            this.setState({ email: e.target.value })
+        }
+        if (e.target.name === "senha") {
+            this.setState({ senha: e.target.value })
+        }
+    }
+
+    loginSubmit(email, senha) {
+        let usuario = this.props.conjuntoUsuarios.getUsuarios().filter(user =>
+            user.email === email && user.senha === senha
         );
-    } else {
-        return <Navigate to="/home" />;
+        if (email === '' || senha === '' || usuario.length === 0) {
+            this.setState({ erro: 'E-mail ou senha inválidos' })
+        } else {
+            this.props.conjuntoUsuarios.setUsuarioAtual(usuario[0]);
+            this.setState({ telaAtual: 'logado' });
+        }
     }
 
+    render() {
+        const { email, senha, erro } = this.state
+        return (
+            <>
+                {this.state.telaAtual === 'login' ? <div style={{ backgroundColor: '#030348' }}>
+                    <form onSubmit={() => { this.loginSubmit(email, senha)}} className="App-header">
+                        <h1 style={{ padding: '100px', color: 'white' }}>Jogos Que Fui</h1>
+                        <input name='email' onChange={this.onChange} style={{ width: '400px', padding: '10px', margin: '20px' }} type="email" placeholder="Insira seu e-mail" />
+                        <input name='senha' onChange={this.onChange} style={{ width: '400px', padding: '10px', margin: '20px' }} type="password" placeholder="Insira sua senha" />
+                        <p style={{ fontSize: '20px', color: 'red' }}>{erro}</p>
+                        <input type="submit" value="Entrar" style={{ width: '250px', padding: '10px', margin: '20px', backgroundColor: '#09ab4c', color: 'white', borderRadius: '7px' }}/>
+                        <button style={{ fontSize: '20px', borderStyle: 'none', backgroundColor: '#030348', color: 'white', margin: '10px', textDecoration: 'underline', cursor: 'pointer' }} onClick={() => this.cadastroClick()}>Não tem uma conta? Cadastre-se!</button>
+                    </form>
+                </div> : this.state.telaAtual === 'cadastro' ? <Cadastro conjuntoUsuarios={this.state.usuarios} /> : this.state.telaAtual === 'logado' ?
+                    <TodosOsJogos
+                        conjuntoUsuarios={this.props.conjuntoUsuarios}
+                        meuTime={this.props.conjuntoUsuarios.getUsuarioAtual().meuTime}
+                        meusJogos={this.props.conjuntoUsuarios.getUsuarioAtual().meusJogos}
+                    /> : ""}
+            </>
+        )
+    }
 }
 
 export default Login;

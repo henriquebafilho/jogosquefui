@@ -7,8 +7,8 @@ class Anos extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      meuTime: "Botafogo",
-      jogos: props.meusJogos,
+      meuTime: props.meuTime,
+      jogos: props.meusJogos/* .getJogos() */,
       anos: [],
       filtered: [],
       isLoading: false,
@@ -23,7 +23,7 @@ class Anos extends Component {
     await this.getAnos();
     this.setState({ filtered: this.state.anos });
   }
-
+  
   getAnos = async () => {
     var jogos = this.state.jogos;
 
@@ -58,18 +58,20 @@ class Anos extends Component {
   }
 
   searchAno = async (e) => {
-    this.setState({ filtered: this.state.anos.filter(ano => ano.toString().trim().includes(e.target.value.trim())) })
+    this.setState({ filtered: this.state.anos.filter(ano => ano.toString().trim().includes(e.target.value.trim()))})
   }
 
   render() {
     const meuTime = this.state.meuTime;
-    const jogos = this.state.jogos;
+    const meusJogos = this.props.meusJogos;
     const buttonClickFunction = (ano) => this.buttonClick(ano);
 
     return (
       <>
-        {this.state.clicked ? <ViewAno flag="meusJogos" meuTime={meuTime} meusJogos={jogos} jogosAno={this.state.jogosAno} ano={this.state.anoAtual} /> :
-          <div className="App-header" style={{ backgroundColor: Times(meuTime).backgroundColor, color: Times(meuTime).letterColor, alignItems: 'normal' }}>
+        {this.state.clicked ? <ViewAno conjuntoUsuarios={this.props.conjuntoUsuarios} flag="meusJogos" meuTime={this.props.meuTime} meusJogos={meusJogos} jogosAno={this.state.jogosAno} ano={this.state.anoAtual} /> :
+          <div className="App-header" style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor, alignItems: 'normal' }}>
+            {/* <h1>Anos</h1>
+            <br /> */}
             <table>
               <tbody>
                 {this.state.isLoading && <h1>Carregando...</h1>}
@@ -88,7 +90,7 @@ class Anos extends Component {
                 />
                 {this.state.filtered.length > 0 ?
                   !this.state.isLoading && this.state.filtered.map(function (i) {
-                    var totalAno = common.getTotalAno(i, jogos);
+                    var totalAno = common.getTotalAno(i, meusJogos/* .getJogos() */);
                     return <div key={i}>
                       <button id='selectAno' onClick={() => buttonClickFunction(i)} style={{ borderColor: Times(meuTime).letterColor, borderStyle: 'solid', backgroundColor: Times(meuTime).backgroundColor, color: Times(meuTime).letterColor }}>
                         <div style={{ display: 'inline', padding: '10px', fontSize: '30px' }}>{i}</div>

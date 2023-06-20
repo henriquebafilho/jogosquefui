@@ -1,13 +1,17 @@
 import React, { Component } from 'react';
 import Times from '../Times';
 import LinhaJogo from '../components/LinhaJogo';
+import FlamengoJogos from '../TodosOsJogos/FlamengoJogos';
+import FluminenseJogos from '../TodosOsJogos/FluminenseJogos';
+import VascoJogos from '../TodosOsJogos/VascoJogos';
+import BotafogoJogos from '../TodosOsJogos/BotafogoJogos';
 
 class ProximosJogos extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            meuTime: "Botafogo",
-            proximosJogos: this.props.proximosJogos,
+            meuTime: props.meuTime,
+            proximosJogos: [],
             isLoading: false,
             clicked: false
         }
@@ -15,13 +19,40 @@ class ProximosJogos extends Component {
 
     async componentDidMount() {
         this._isMounted = true;
+        window.scrollTo(0, 0);
         this.setState({ isLoading: true })
-        this.setState({
-            proximosJogos: this.state.proximosJogos.sort(function (a, b) {
-                return a.data > b.data ? 1 : a.data < b.data ? -1 : 0;
-            })
-        });
+        await this.getProximosJogos();
         this.setState({ isLoading: false })
+    }
+
+    getProximosJogos = async () => {
+        let todosOsJogos;
+        let proximosJogos = [];
+
+        switch (this.state.meuTime) {
+            case "Botafogo":
+                todosOsJogos = BotafogoJogos();
+                break;
+            case "Flamengo":
+                todosOsJogos = FlamengoJogos().reverse();
+                break;
+            case "Fluminense":
+                todosOsJogos = FluminenseJogos().reverse();
+                break;
+            case "Vasco":
+                todosOsJogos = VascoJogos().reverse();
+                break;
+            default:
+                console.error("Time não disponível.")
+                break;
+        }
+
+        todosOsJogos.map(function (i) {
+            if (i.golsMandante === "" && i.golsVisitante === "") {
+                proximosJogos.push(i);
+            }
+        })
+        this.setState({ proximosJogos: proximosJogos })
     }
 
     render() {

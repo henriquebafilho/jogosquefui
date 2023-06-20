@@ -191,8 +191,7 @@ details[open] #summaryAdversario::after {
 }
 
 body {
-  background: black;
-  color: white;
+  background: #fff;
 }
 
 .container {
@@ -309,12 +308,6 @@ button#tab {
     width: 3em;
     height: 3em;
   }
-
-  .horario{
-    font-size: 2.5vw;
-    white-space: nowrap;
-  }
-
   .nomeTime{
     font-size: 2.5vw;
     /* overflow: 'hidden';
@@ -347,12 +340,6 @@ button#tab {
     width: 4rem;
     height: 4rem;
   }
-
-  .horario{
-    font-size: 20px;
-    white-space: nowrap;
-  }
-
   .nomeTime{
     font-size: 20px;
   }
