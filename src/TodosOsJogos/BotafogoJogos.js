@@ -273,7 +273,7 @@ function jogos() {
     jogos.push({ "mandante": "CSA", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Brasileirão 2019", "data": "2019-06-09", "estadio": "Rei Pelé" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Vasco", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Brasileirão 2019", "data": "2019-06-02", "estadio": "Nilton Santos" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Sol de America", "golsMandante": 4, "golsVisitante": 0, "campeonato": "Copa Sul-Americana 2019", "data": "2019-05-29", "estadio": "Nilton Santos" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "Palmeiras", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Brasileirão 2019", "data": "2019-05-25", "estadio": "Nilton Santos" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Palmeiras", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Brasileirão 2019", "data": "2019-05-25", "estadio": "Mané Garrincha" });
     jogos.push({ "mandante": "Sol de America", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Copa Sul-Americana 2019", "data": "2019-05-22", "estadio": "Luis Afonso Giagni" });
     jogos.push({ "mandante": "Goiás", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Brasileirão 2019", "data": "2019-05-19", "estadio": "Serra Dourada" });
     jogos.push({ "mandante": "Fluminense", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Brasileirão 2019", "data": "2019-05-11", "estadio": "Maracanã" });
