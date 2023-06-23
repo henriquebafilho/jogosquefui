@@ -2130,7 +2130,7 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Flamengo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Carioca 1988", "data": "1988-03-06", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Americano", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Carioca 1988", "data": "1988-03-02", "estadio": "Godofredo Cruz" });
     jogos.push({ "mandante": "Bangu", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Carioca 1988", "data": "1988-02-28", "estadio": "Maracanã" });
-    jogos.push({ "mandante": "Cabofriense", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Carioca 1988", "data": "1988-02-24", "estadio": "Nhozinho Santos" });
+    jogos.push({ "mandante": "Cabofriense", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Carioca 1988", "data": "1988-02-24", "estadio": "Correão" });
     jogos.push({ "mandante": "Santos", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1988-02-11", "estadio": "Pacaembu" });
     jogos.push({ "mandante": "Porto Alegre-RJ", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Carioca 1988", "data": "1988-02-07", "estadio": "Jair Bittencourt" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Volta Redonda", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Carioca 1988", "data": "1988-01-30", "estadio": "São Januário" });
