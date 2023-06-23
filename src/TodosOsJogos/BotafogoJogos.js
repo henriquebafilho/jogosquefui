@@ -29,7 +29,7 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Vasco", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2023", "data": "2023-07-02", "estadio": "Nilton Santos", "horario": "16:00" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Magallanes", "golsMandante": "", "golsVisitante": "", "campeonato": "Copa Sul-Americana 2023", "data": "2023-06-29", "estadio": "Nilton Santos", "horario": "21:00" });
     jogos.push({ "mandante": "Palmeiras", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2023", "data": "2023-06-25", "estadio": "Allianz Parque", "horario": "16:00" });
-    jogos.push({ "mandante": "Cuiabá", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2023", "data": "2023-06-22", "estadio": "Arena Pantanal", "horario": "20:00" });
+    jogos.push({ "mandante": "Cuiabá", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Brasileirão 2023", "data": "2023-06-22", "estadio": "Arena Pantanal", "horario": "20:00" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Fortaleza", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Brasileirão 2023", "data": "2023-06-10", "estadio": "Nilton Santos" });
     jogos.push({ "mandante": "LDU", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Copa Sul-Americana 2023", "data": "2023-06-06", "estadio": "Casablanca" });
     jogos.push({ "mandante": "Athletico-PR", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Brasileirão 2023", "data": "2023-06-03", "estadio": "Arena da Baixada" });
