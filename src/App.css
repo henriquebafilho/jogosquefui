@@ -311,6 +311,7 @@ button#tab {
   }
 
   .horario{
+    padding: 2px;
     white-space: nowrap;
   }
   

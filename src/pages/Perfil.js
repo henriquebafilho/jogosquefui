@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import Times from '../Times';
 import Tabs from '../components/Tabs';
 import { AuthGoogleContext } from '../contexts/authGoogle';
+import Estatisticas from '../components/Estatisticas';
 
 function Perfil(props) {
   const { user, signOut } = useContext(AuthGoogleContext);
@@ -34,6 +35,9 @@ function Perfil(props) {
             {nomeUsuario}
           </p>
           <img src={userLogado.photoURL} style={{ borderRadius: '50%' }} alt="Foto do Usuário"></img>
+        </div>
+        <div className='container'>
+          {meusJogos.length > 0 && <Estatisticas meuTime={meuTime} jogos={meusJogos} />}
         </div>
         <button onClick={() => signOut()}>Sair</button>
         <Tabs meuTime={meuTime} meusJogos={meusJogos} />

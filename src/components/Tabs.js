@@ -3,7 +3,6 @@ import Adversarios from '../pages/Adversarios';
 import Anos from '../pages/Anos';
 import Estadios from '../pages/Estadios';
 import Times from '../Times';
-import Estatisticas from './Estatisticas';
 import LinhaJogo from './LinhaJogo';
 import ProximosJogos from '../pages/ProximosJogos';
 //import { todosOsJogos } from '../services/firebaseConfig';
@@ -101,7 +100,6 @@ class Tabs extends Component {
                         </div>
                         {ultimos === 1 ?
                             <div className="container" style={{ color: "white", backgroundColor: 'black' }}>
-                                {meusJogos.length > 0 && <Estatisticas meuTime={meuTime} jogos={meusJogos} />}
                                 {meusJogos.length > 0 ? currentItems.map((index) => {
                                     let mostraAno = false;
                                     if (anoAtual !== index.data.split("-")[0]) {
@@ -109,7 +107,7 @@ class Tabs extends Component {
                                         mostraAno = true;
                                     }
                                     return <div key={JSON.stringify(index)}>
-                                        {mostraAno ? <h1 style={{ textAlign: 'center', color: Times(meuTime).letterColor, margin: '40px' }}>{anoAtual}</h1> : ""}
+                                        {mostraAno ? <h1 style={{ textAlign: 'center', color: Times(meuTime).letterColor, margin: '25px' }}>{anoAtual}</h1> : ""}
                                         <LinhaJogo meuTime={meuTime} jogo={index} meusJogos={meusJogos} />
                                     </div>
                                 }) : <div>
