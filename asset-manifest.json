@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jogosquefui/static/css/main.f34b4932.css",
-    "main.js": "/jogosquefui/static/js/main.1ba15014.js",
+    "main.js": "/jogosquefui/static/js/main.b2001135.js",
     "static/media/Atanasio Girardot.png": "/jogosquefui/static/media/Atanasio Girardot.654b0fba4632fac4057b.png",
     "static/media/Corisabbá.png": "/jogosquefui/static/media/Corisabbá.4b6783df88df9e49eae8.png",
     "static/media/Colosso da Lagoa.png": "/jogosquefui/static/media/Colosso da Lagoa.b7008037ac5675a07045.png",
@@ -346,6 +346,7 @@
     "static/media/LDU.png": "/jogosquefui/static/media/LDU.6ee22c75499554358158.png",
     "static/media/Peñarol.png": "/jogosquefui/static/media/Peñarol.b88a12d879171385cb20.png",
     "static/media/Campo Grande-RJ.png": "/jogosquefui/static/media/Campo Grande-RJ.7cd0c0923a6f10b1fe05.png",
+    "static/media/Patronato.png": "/jogosquefui/static/media/Patronato.7d7478db66b6fec22ea3.png",
     "static/media/Estudiantes.png": "/jogosquefui/static/media/Estudiantes.4fcd3a84e04dc0898688.png",
     "static/media/Fast Clube.png": "/jogosquefui/static/media/Fast Clube.04ba728ebe21e36b752b.png",
     "static/media/MotoClub.png": "/jogosquefui/static/media/MotoClub.4cf9a6ac348f998df314.png",
@@ -387,10 +388,10 @@
     "static/media/Ceará.png": "/jogosquefui/static/media/Ceará.2667c31fce77d94092f4.png",
     "index.html": "/jogosquefui/index.html",
     "main.f34b4932.css.map": "/jogosquefui/static/css/main.f34b4932.css.map",
-    "main.1ba15014.js.map": "/jogosquefui/static/js/main.1ba15014.js.map"
+    "main.b2001135.js.map": "/jogosquefui/static/js/main.b2001135.js.map"
   },
   "entrypoints": [
     "static/css/main.f34b4932.css",
-    "static/js/main.1ba15014.js"
+    "static/js/main.b2001135.js"
   ]
 }
