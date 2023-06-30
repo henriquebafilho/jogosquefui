@@ -24,7 +24,9 @@ function jogos() {
     jogos.push({ "mandante": "Cruzeiro", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2023", "data": "2023-08-02", "estadio": "Independência" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Coritiba", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2023", "data": "2023-07-29", "estadio": "Nilton Santos" });
     jogos.push({ "mandante": "Santos", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2023", "data": "2023-07-22", "estadio": "Vila Belmiro" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Patronato", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2023", "data": "2023-07-19", "estadio": "Nilton Santos", "horario": "16:00" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Red Bull Bragantino", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2023", "data": "2023-07-15", "estadio": "Nilton Santos", "horario": "16:00" });
+    jogos.push({ "mandante": "Patronato", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2023", "data": "2023-07-12", "estadio": "Presbítero Bartolomé Grella", "horario": "16:00" });
     jogos.push({ "mandante": "Grêmio", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2023", "data": "2023-07-09", "estadio": "Arena do Grêmio", "horario": "18:30" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Vasco", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2023", "data": "2023-07-02", "estadio": "Nilton Santos", "horario": "16:00" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Magallanes", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Copa Sul-Americana 2023", "data": "2023-06-29", "estadio": "Nilton Santos", "horario": "21:00" });
@@ -4238,7 +4240,7 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Andarahy", "golsMandante": 2, "golsVisitante": 3, "campeonato": "Carioca 1922", "data": "1922-07-09", "estadio": "General Severiano" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Bangu", "golsMandante": 4, "golsVisitante": 0, "campeonato": "Carioca 1922", "data": "1922-07-03", "estadio": "General Severiano" });
     jogos.push({ "mandante": "São Cristóvão", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Carioca 1922", "data": "1922-07-02", "estadio": "Figueira de Melo" });
-    jogos.push({ "mandante": "Bangu", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Carioca 1922", "data": "1922-06-18", "estadio": "" });
+    jogos.push({ "mandante": "Bangu", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Carioca 1922", "data": "1922-06-18", "estadio": "General Severiano" });
     jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Carioca 1922", "data": "1922-06-11", "estadio": "Rua Paysandu" });
     jogos.push({ "mandante": "América-RJ", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Carioca 1922", "data": "1922-05-28", "estadio": "Campos Sales" });
     jogos.push({ "mandante": "Fluminense", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Carioca 1922", "data": "1922-05-21", "estadio": "General Severiano" });
