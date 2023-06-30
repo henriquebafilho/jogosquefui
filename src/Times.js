@@ -681,7 +681,7 @@ function Times(time, data) {
                         escudo = time;
                   }
                   backgroundColor = "#d30a11";
-                  letterColor = "white";
+                  letterColor = "black";
                   break;
             case "Floresta-CE":
                   nomeAtual = time;
@@ -1219,6 +1219,12 @@ function Times(time, data) {
                   escudo = time;
                   backgroundColor = "#003a94";
                   letterColor = "white";
+                  break;
+            case "Patronato":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#d30a11";
+                  letterColor = "black";
                   break;
             case "Paulista":
                   nomeAtual = time;
