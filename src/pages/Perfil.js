@@ -14,8 +14,6 @@ function Perfil(props) {
   let userFound;
   let meusJogos = [];
   let isLoading = true;
-  const db = getFirestore(app);
-  const usersCollectionRef = collection(db, "users");
   let [users, setUsers] = useState([]);
 
   try {
@@ -26,6 +24,8 @@ function Perfil(props) {
 
   useEffect(() => {
     const getUsers = async () => {
+      const db = getFirestore(app);
+      const usersCollectionRef = collection(db, "users");
       let data = await getDocs(usersCollectionRef);
       setUsers(data.docs.map((doc) => ({ ...doc.data(), id: doc.id })));
     }
@@ -41,10 +41,12 @@ function Perfil(props) {
         meusJogos.push(JSON.parse(userFound.jogos[a]))
       }
       isLoading = false;
-    } catch (error) {}
+    } catch (error) {
+      isLoading = false;
+    }
   }
   getJogos();
-  
+
   try {
     nomeUsuario = userLogado.displayName.split(" ")[0] + " " + userLogado.displayName.split(" ")[1];
   } catch (error) {
@@ -65,8 +67,13 @@ function Perfil(props) {
         </div>
         <button onClick={() => signOut()}>Sair</button>
         {meusJogos.length > 0 && <Tabs meuTime={meuTime} meusJogos={meusJogos} />}
-        {isLoading && <p>Carregando jogos...</p>}
-        {!isLoading && meusJogos.length === 0 && <p>Nenhum jogo cadastrado</p>}
+        {isLoading && <p style={{ margin: '20px' }}>Carregando jogos...</p>}
+        {!isLoading && meusJogos.length === 0 &&
+          <>
+            <p style={{ margin: '20px' }}>Nenhum jogo cadastrado</p>
+            <p>Vá em "Jogos do Botafogo" para cadastrar seus jogos</p>
+          </>
+        }
       </div>
     </>
   )

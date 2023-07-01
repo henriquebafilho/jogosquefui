@@ -42,7 +42,10 @@ export const AuthGoogleProvider = ({ children }) => {
                 const email = error.customData.email;
                 // The AuthCredential type that was used.
                 const credential = GoogleAuthProvider.credentialFromError(error);
-                // ...
+                console.error(errorCode)
+                console.error(errorMessage)
+                console.error(email)
+                console.error(credential)
             });
     }
 

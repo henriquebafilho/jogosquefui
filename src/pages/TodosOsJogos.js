@@ -28,14 +28,8 @@ class TodosOsJogos extends Component {
   }
 
   getJogos = async () => {
-    let todosOsJogos;
+    let todosOsJogos = BotafogoJogos().reverse();
     let jogosTerminados = [];
-
-    switch (this.state.meuTime) {
-      case "Botafogo":
-        todosOsJogos = BotafogoJogos().reverse();
-        break;
-    }
 
     todosOsJogos.forEach((jogo) => {
       if (jogo.golsMandante !== "" && jogo.golsVisitante !== "") {
