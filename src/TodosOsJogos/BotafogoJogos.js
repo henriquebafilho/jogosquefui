@@ -24,9 +24,9 @@ function jogos() {
     jogos.push({ "mandante": "Cruzeiro", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2023", "data": "2023-08-02", "estadio": "Independência" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Coritiba", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2023", "data": "2023-07-29", "estadio": "Nilton Santos" });
     jogos.push({ "mandante": "Santos", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2023", "data": "2023-07-22", "estadio": "Vila Belmiro" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "Patronato", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2023", "data": "2023-07-19", "estadio": "Nilton Santos", "horario": "16:00" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Patronato", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2023", "data": "2023-07-19", "estadio": "Nilton Santos", "horario": "19:00" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Red Bull Bragantino", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2023", "data": "2023-07-15", "estadio": "Nilton Santos", "horario": "16:00" });
-    jogos.push({ "mandante": "Patronato", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2023", "data": "2023-07-12", "estadio": "Presbítero Bartolomé Grella", "horario": "16:00" });
+    jogos.push({ "mandante": "Patronato", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2023", "data": "2023-07-12", "estadio": "Presbítero Bartolomé Grella", "horario": "19:00" });
     jogos.push({ "mandante": "Grêmio", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2023", "data": "2023-07-09", "estadio": "Arena do Grêmio", "horario": "18:30" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Vasco", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2023", "data": "2023-07-02", "estadio": "Nilton Santos", "horario": "16:00" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Magallanes", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Copa Sul-Americana 2023", "data": "2023-06-29", "estadio": "Nilton Santos", "horario": "21:00" });
