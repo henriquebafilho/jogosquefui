@@ -1,17 +1,12 @@
-import React, { Component } from 'react';
+import React, { Component, useContext } from 'react';
 import * as FaIcons from 'react-icons/fa';
 import * as AiIcons from 'react-icons/ai';
-import { Link } from 'react-router-dom';
-import { SidebarData } from './SidebarData';
+import * as BiIcons from "react-icons/bi";
+import * as ImIcons from "react-icons/im";
+import { Link, Navigate } from 'react-router-dom';
 import '../Navbar.css';
 import { IconContext } from 'react-icons';
-import Perfil from '../pages/Perfil';
-import Estadios from '../pages/Estadios';
-import Anos from '../pages/Anos';
-import Adversarios from '../pages/Adversarios';
-import ProximosJogos from '../pages/ProximosJogos';
-import TodosOsJogos from '../pages/TodosOsJogos';
-import Login from '../pages/Login';
+//import { AuthGoogleContext } from '../contexts/authGoogle';
 
 class Navbar extends Component {
     constructor(props) {
@@ -26,30 +21,22 @@ class Navbar extends Component {
     }
 
     showSideBar = async () => {
-        // if (this.props.conjuntoUsuarios.getUsuarioAtual() !== "") {
-        //     this.setState({ sidebar: !this.state.sidebar, meuTime: this.props.conjuntoUsuarios.getUsuarioAtual().meuTime });
-        // }
         this.setState({ sidebar: !this.state.sidebar })
     }
 
     buttonClick = async (title) => {
-        if (title === "Sair") {
-            this.props.conjuntoUsuarios.setUsuarioAtual("");
-        }
-
-        const perfil = document.getElementById("App-header-todos");
-        perfil.style.display = 'none';
         this.setState({ title: title, sidebar: false });
     }
 
     render() {
         const buttonClickFunction = (title) => this.buttonClick(title);
         const showSideBar = () => this.showSideBar();
+        //const { signOut } = useContext(AuthGoogleContext);
 
-        return ( 
+        return (
             <>
                 <IconContext.Provider value={{ color: "white" }}>
-                    <header className='navbar'>
+                    <header className='navbar' style={{ zIndex: 999 }}>
                         <Link to='#' className='menu-bars' style={{ position: 'fixed' }}>
                             <FaIcons.FaBars onClick={showSideBar} />
                         </Link>
@@ -61,63 +48,29 @@ class Navbar extends Component {
                                     <AiIcons.AiOutlineClose />
                                 </Link>
                             </li>
-                            {SidebarData.map((item, index) => {
-                                return (<div key={JSON.stringify(item)}>
-                                    {item.title === "Anos" && <span style={{ color: 'white' }}>Meus Jogos</span>}
-                                    {item.title === "Próximos Jogos" && <span style={{ color: 'white' }}>Meu Time</span>}
-                                    <li key={item.title} className={item.cName}>
-                                        <button onClick={() => buttonClickFunction(item.title)}>
-                                            {item.icon}
-                                            <span>{item.title === "Todos os Jogos" ? "Jogos do " + this.state.meuTime : item.title}</span>
-                                        </button>
-                                    </li>
-                                </div>)
-                            })}
+                            <div key="sidebar-options">
+                                <li key="Perfil" className="nav-text">
+                                    <button onClick={() => buttonClickFunction("Perfil") && <Navigate to="/home" />}>
+                                        <FaIcons.FaUserAlt />
+                                        <span>Perfil</span>
+                                    </button>
+                                </li>
+                                <li key="Todos" className="nav-text">
+                                    <button onClick={() => buttonClickFunction("Todos")}>
+                                        <ImIcons.ImList2 />
+                                        <span>Todos os Jogos</span>
+                                    </button>
+                                </li>
+                                <li key="Sair" className="nav-text">
+                                    <button onClick={() => buttonClickFunction("Sair")}>
+                                        <BiIcons.BiLogOut />
+                                        <span>Sair</span>
+                                    </button>
+                                </li>
+                            </div>
                         </ul>
                     </nav>
                 </IconContext.Provider>
-                {this.state.title === "Perfil" &&
-                    <Perfil
-                        conjuntoUsuarios={this.props.conjuntoUsuarios}
-                        meuTime={this.props.conjuntoUsuarios.getUsuarioAtual().meuTime}
-                        meusJogos={this.props.conjuntoUsuarios.getUsuarioAtual().meusJogos}
-                    />}
-                {this.state.title === "Anos" &&
-                    <Anos
-                        conjuntoUsuarios={this.props.conjuntoUsuarios}
-                        meuTime={this.props.conjuntoUsuarios.getUsuarioAtual().meuTime}
-                        meusJogos={this.props.conjuntoUsuarios.getUsuarioAtual().meusJogos}
-                    />}
-                {this.state.title === "Estádios" &&
-                    <Estadios
-                        conjuntoUsuarios={this.props.conjuntoUsuarios}
-                        meuTime={this.props.conjuntoUsuarios.getUsuarioAtual().meuTime}
-                        meusJogos={this.props.conjuntoUsuarios.getUsuarioAtual().meusJogos}
-                    />}
-                {this.state.title === "Adversários" &&
-                    <Adversarios
-                        conjuntoUsuarios={this.props.conjuntoUsuarios}
-                        meuTime={this.props.conjuntoUsuarios.getUsuarioAtual().meuTime}
-                        meusJogos={this.props.conjuntoUsuarios.getUsuarioAtual().meusJogos}
-                    />}
-                {this.state.title === "Próximos Jogos" &&
-                    <ProximosJogos
-                        conjuntoUsuarios={this.props.conjuntoUsuarios}
-                        meuTime={this.props.conjuntoUsuarios.getUsuarioAtual().meuTime}
-                        meusJogos={this.props.conjuntoUsuarios.getUsuarioAtual().meusJogos}
-                    />}
-                {this.state.title === "Todos os Jogos" &&
-                    <TodosOsJogos
-                        conjuntoUsuarios={this.props.conjuntoUsuarios}
-                        meuTime={this.props.conjuntoUsuarios.getUsuarioAtual().meuTime}
-                        meusJogos={this.props.conjuntoUsuarios.getUsuarioAtual().meusJogos}
-                    />}
-                {this.state.title === "Sair" &&
-                    <Login
-                        conjuntoUsuarios={this.props.conjuntoUsuarios}
-                        meuTime={this.props.conjuntoUsuarios.getUsuarioAtual().meuTime}
-                        meusJogos={this.props.conjuntoUsuarios.getUsuarioAtual().meusJogos}
-                    />}
             </>
         );
     }

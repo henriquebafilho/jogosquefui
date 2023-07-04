@@ -5,6 +5,7 @@ import { AuthGoogleContext } from '../contexts/authGoogle';
 import Estatisticas from '../components/Estatisticas';
 import { app } from '../services/firebaseConfig';
 import { collection, getFirestore, getDocs } from "firebase/firestore";
+import Navbar from '../components/Navbar';
 
 function Perfil(props) {
   const { user, signOut } = useContext(AuthGoogleContext);
@@ -55,6 +56,7 @@ function Perfil(props) {
 
   return (
     <>
+    <Navbar style={{ position: 'fixed' }} meuTime="Botafogo" />
       <div className="App-header" style={{ backgroundColor: Times(meuTime).backgroundColor }}>
         <div style={{ margin: '20px', alignItems: 'center', flexDirection: 'column', display: 'flex' }}>
           <p style={{ color: Times(meuTime).letterColor, margin: '10px' }}>
@@ -67,13 +69,11 @@ function Perfil(props) {
         </div>
         <button onClick={() => signOut()}>Sair</button>
         {meusJogos.length > 0 && <Tabs meuTime={meuTime} meusJogos={meusJogos} />}
-        {isLoading && <p style={{ margin: '20px' }}>Carregando jogos...</p>}
-        {!isLoading && meusJogos.length === 0 &&
+        {isLoading ? <p style={{ margin: '20px' }}>Carregando jogos...</p> : meusJogos.length === 0 &&
           <>
             <p style={{ margin: '20px' }}>Nenhum jogo cadastrado</p>
             <p>Vá em "Jogos do Botafogo" para cadastrar seus jogos</p>
-          </>
-        }
+          </>}
       </div>
     </>
   )
