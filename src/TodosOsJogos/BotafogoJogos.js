@@ -1928,7 +1928,7 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Flamengo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Brasileirão 1992", "data": "1992-07-19", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 0, "campeonato": "Brasileirão 1992", "data": "1992-07-12", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Corinthians", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Brasileirão 1992", "data": "1992-07-09", "estadio": "Maracanã" });
-    jogos.push({ "mandante": "Cruzeiro", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Brasileirão 1992", "data": "1992-07-04", "estadio": "Mario Helênio" });
+    jogos.push({ "mandante": "Cruzeiro", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Brasileirão 1992", "data": "1992-07-04", "estadio": "Mário Helênio" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Bragantino", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Brasileirão 1992", "data": "1992-06-27", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Bragantino", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Brasileirão 1992", "data": "1992-06-21", "estadio": "Pacaembu" });
     jogos.push({ "mandante": "Corinthians", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Brasileirão 1992", "data": "1992-06-13", "estadio": "Pacaembu" });

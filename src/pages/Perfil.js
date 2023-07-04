@@ -7,7 +7,7 @@ import { app } from '../services/firebaseConfig';
 import { collection, getFirestore, getDocs } from "firebase/firestore";
 import Navbar from '../components/Navbar';
 
-function Perfil(props) {
+function Perfil() {
   const { user, signOut } = useContext(AuthGoogleContext);
   const meuTime = "Botafogo";
   let userLogado;
