@@ -6,9 +6,10 @@ import Estatisticas from '../components/Estatisticas';
 import { app } from '../services/firebaseConfig';
 import { collection, getFirestore, getDocs } from "firebase/firestore";
 import Navbar from '../components/Navbar';
+import BotafogoJogos from '../TodosOsJogos/BotafogoJogos';
 
 function Perfil() {
-  const { user, signOut } = useContext(AuthGoogleContext);
+  const { user } = useContext(AuthGoogleContext);
   const meuTime = "Botafogo";
   let userLogado;
   let nomeUsuario;
@@ -35,11 +36,13 @@ function Perfil() {
 
   const getJogos = async () => {
     try {
+      const todosOsJogos = BotafogoJogos();
       userFound = users.find(userJogo =>
         userJogo.UID === userLogado.uid
       );
       for (let a = 0; a < userFound.jogos.length; a++) {
-        meusJogos.push(JSON.parse(userFound.jogos[a]))
+        const jogo = todosOsJogos.filter(jogo => jogo.id === userFound.jogos[a]);
+        meusJogos.push(jogo[0]);
       }
       isLoading = false;
     } catch (error) {
@@ -67,7 +70,6 @@ function Perfil() {
         <div className='container'>
           {meusJogos.length > 0 && <Estatisticas meuTime={meuTime} jogos={meusJogos} />}
         </div>
-        <button onClick={() => signOut()}>Sair</button>
         {meusJogos.length > 0 && <Tabs meuTime={meuTime} meusJogos={meusJogos} />}
         {isLoading ? <p style={{ margin: '20px' }}>Carregando jogos...</p> : meusJogos.length === 0 &&
           <>
