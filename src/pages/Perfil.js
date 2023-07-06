@@ -8,15 +8,15 @@ import { collection, getFirestore, getDocs } from "firebase/firestore";
 import Navbar from '../components/Navbar';
 import BotafogoJogos from '../TodosOsJogos/BotafogoJogos';
 
-function Perfil() {
+function Perfil(props) {
   const { user } = useContext(AuthGoogleContext);
   const meuTime = "Botafogo";
   let userLogado;
   let nomeUsuario;
-  let userFound;
+  let option = props.option;
+  let [users, setUsers] = useState([]);
   let meusJogos = [];
   let isLoading = true;
-  let [users, setUsers] = useState([]);
 
   try {
     userLogado = JSON.parse(user);
@@ -30,6 +30,7 @@ function Perfil() {
       const usersCollectionRef = collection(db, "users");
       let data = await getDocs(usersCollectionRef);
       setUsers(data.docs.map((doc) => ({ ...doc.data(), id: doc.id })));
+      isLoading = false;
     }
     getUsers();
   }, []);
@@ -37,13 +38,15 @@ function Perfil() {
   const getJogos = async () => {
     try {
       const todosOsJogos = BotafogoJogos();
-      userFound = users.find(userJogo =>
+      let userFound = users.find(userJogo =>
         userJogo.UID === userLogado.uid
       );
+      let meusJogosIndex = [];
       for (let a = 0; a < userFound.jogos.length; a++) {
         const jogo = todosOsJogos.filter(jogo => jogo.id === userFound.jogos[a]);
-        meusJogos.push(jogo[0]);
+        meusJogosIndex.push(jogo[0]);
       }
+      meusJogos = meusJogosIndex;
       isLoading = false;
     } catch (error) {
       isLoading = false;
@@ -59,18 +62,27 @@ function Perfil() {
 
   return (
     <>
-    <Navbar style={{ position: 'fixed' }} meuTime="Botafogo" />
+      { }
+      <Navbar style={{ position: 'fixed' }} meuTime="Botafogo" />
       <div className="App-header" style={{ backgroundColor: Times(meuTime).backgroundColor }}>
         <div style={{ margin: '20px', alignItems: 'center', flexDirection: 'column', display: 'flex' }}>
-          <p style={{ color: Times(meuTime).letterColor, margin: '10px' }}>
-            {nomeUsuario}
-          </p>
-          <img src={userLogado.photoURL} style={{ borderRadius: '50%' }} alt="Foto do Usuário"></img>
+          {option === "Perfil" && <>
+            <p style={{ color: Times(meuTime).letterColor, margin: '10px' }}>
+              {nomeUsuario}
+            </p>
+            <img src={userLogado.photoURL} style={{ borderRadius: '50%' }} alt="Foto do Usuário"></img>
+          </>}
+          {option === "Todos" && <>
+            <p style={{ color: Times(meuTime).letterColor, margin: '10px' }}>Jogos do Botafogo</p>
+            <img src={require('../escudos/Botafogo.png')} width="20%" height="20%" alt="Escudo do Botafogo"></img>
+          </>}
         </div>
         <div className='container'>
-          {meusJogos.length > 0 && <Estatisticas meuTime={meuTime} jogos={meusJogos} />}
+          {option === "Perfil" && meusJogos.length > 0 && <Estatisticas meuTime={meuTime} jogos={meusJogos} />}
+          {option === "Todos" && meusJogos.length > 0 && <Estatisticas meuTime={meuTime} jogos={BotafogoJogos()} />}
         </div>
-        {meusJogos.length > 0 && <Tabs meuTime={meuTime} meusJogos={meusJogos} />}
+        {option === "Perfil" && meusJogos.length > 0 && <Tabs meuTime={meuTime} meusJogos={meusJogos} option={option} />}
+        {option === "Todos" && meusJogos.length > 0 && <Tabs meuTime={meuTime} meusJogos={BotafogoJogos()} option={option} />}
         {isLoading ? <p style={{ margin: '20px' }}>Carregando jogos...</p> : meusJogos.length === 0 &&
           <>
             <p style={{ margin: '20px' }}>Nenhum jogo cadastrado</p>

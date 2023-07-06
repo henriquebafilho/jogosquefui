@@ -18,7 +18,7 @@ export const Login = () => {
             </div>
         );
     } else {
-        return <Navigate to="/home" />;
+        return <Navigate to="/perfil" />;
     }
 
 }

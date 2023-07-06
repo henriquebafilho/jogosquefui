@@ -5,15 +5,12 @@ import Estadios from '../pages/Estadios';
 import Times from '../Times';
 import LinhaJogo from './LinhaJogo';
 import ProximosJogos from '../pages/ProximosJogos';
-//import { todosOsJogos } from '../services/firebaseConfig';
 
 class Tabs extends Component {
     constructor(props) {
         super(props);
         this.state = {
             toggleState: 1,
-            //meusJogos: todosOsJogos.filter(jogo => jogo.golsMandante !== "" && jogo.golsVisitante !== ""),
-            //proximosJogos: todosOsJogos.filter(jogo => jogo.golsMandante === "" && jogo.golsVisitante === ""),
             meusJogos: props.meusJogos.filter(jogo => jogo.golsMandante !== "" && jogo.golsVisitante !== ""),
             proximosJogos: props.meusJogos.filter(jogo => jogo.golsMandante === "" && jogo.golsVisitante === ""),
             meuTime: "Botafogo",
@@ -61,6 +58,7 @@ class Tabs extends Component {
         let proximosJogos = this.state.proximosJogos;
         let meuTime = this.state.meuTime;
         let ultimos = this.state.ultimos;
+        let option = this.props.option;
         let anoAtual = 0;
         const { currentPage, itemsPerPage } = this.state;
 
@@ -90,12 +88,14 @@ class Tabs extends Component {
                     <div className={toggleState === 1 ? "content  active-content" : "content"}>
                         <div className="container" style={{ color: "white", backgroundColor: 'black', border: "3px", maxWidth: '80%', marginBottom: '20px' }}>
                             <div className="bloc-tabs">
-                                <button id="tab" className={ultimos === 1 ? "tabs active-tabs" : "tabs"} onClick={() => ultimosTab(1)}>
-                                    Últimos Jogos
-                                </button>
-                                <button id="tab" className={ultimos === 1 ? "tabs" : "tabs active-tabs"} onClick={() => ultimosTab(2)}>
-                                    Próximos Jogos
-                                </button>
+                                {option === "Todos" && <>
+                                    <button id="tab" className={ultimos === 1 ? "tabs active-tabs" : "tabs"} onClick={() => ultimosTab(1)}>
+                                        Últimos Jogos
+                                    </button>
+                                    <button id="tab" className={ultimos === 1 ? "tabs" : "tabs active-tabs"} onClick={() => ultimosTab(2)}>
+                                        Próximos Jogos
+                                    </button>
+                                </>}
                             </div>
                         </div>
                         {ultimos === 1 ?

@@ -9,8 +9,8 @@ import { IconContext } from 'react-icons';
 import { AuthGoogleContext } from '../contexts/authGoogle';
 
 function Navbar() {
-    let title = "";
     let [sidebar, setSidebar] = useState(false);
+    let [option, setOption] = useState("");
     const { signOut } = useContext(AuthGoogleContext);
 
     const showSideBar = async () => {
@@ -18,8 +18,8 @@ function Navbar() {
     }
 
     const buttonClick = async (optionTitle) => {
-        title = optionTitle;
         setSidebar(false);
+        setOption(optionTitle);
     }
     return (
         <>
@@ -38,7 +38,7 @@ function Navbar() {
                         </li>
                         <div key="sidebar-options">
                             <li key="Perfil" className="nav-text">
-                                <button onClick={() => buttonClick("Perfil") && <Navigate to="/home" />}>
+                                <button onClick={() => buttonClick("Perfil")}>
                                     <FaIcons.FaUserAlt />
                                     <span>Perfil</span>
                                 </button>
@@ -59,6 +59,8 @@ function Navbar() {
                     </ul>
                 </nav>
             </IconContext.Provider>
+            {option === "Perfil" && <Navigate to="/perfil" />}
+            {option === "Todos" && <Navigate to="/todos" />}
         </>
     );
 }
