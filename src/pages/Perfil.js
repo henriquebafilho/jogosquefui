@@ -79,7 +79,6 @@ function Perfil(props) {
         </div>
         <div className='container'>
           {option === "Perfil" && meusJogos.length > 0 && <Estatisticas meuTime={meuTime} jogos={meusJogos} />}
-          {option === "Todos" && meusJogos.length > 0 && <Estatisticas meuTime={meuTime} jogos={BotafogoJogos().filter(jogo => jogo.golsMandante !== "" && jogo.golsVisitante !== "")} />}
         </div>
         {option === "Perfil" && meusJogos.length > 0 && <Tabs meuTime={meuTime} meusJogos={meusJogos} option={option} />}
         {option === "Todos" && meusJogos.length > 0 && <Tabs meuTime={meuTime} meusJogos={BotafogoJogos()} option={option} />}
