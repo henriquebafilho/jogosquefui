@@ -81,7 +81,7 @@ function Perfil(props) {
           {option === "Perfil" && meusJogos.length > 0 && <Estatisticas meuTime={meuTime} jogos={meusJogos} />}
         </div>
         {option === "Perfil" && meusJogos.length > 0 && <Tabs meuTime={meuTime} meusJogos={meusJogos} option={option} />}
-        {option === "Todos" && meusJogos.length > 0 && <Tabs meuTime={meuTime} meusJogos={BotafogoJogos()} option={option} />}
+        {option === "Todos" && <Tabs meuTime={meuTime} meusJogos={BotafogoJogos()} option={option} />}
         {isLoading ? <p style={{ margin: '20px' }}>Carregando jogos...</p> : meusJogos.length === 0 &&
           <>
             <p style={{ margin: '20px' }}>Nenhum jogo cadastrado</p>
