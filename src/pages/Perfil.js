@@ -15,8 +15,8 @@ function Perfil(props) {
   let nomeUsuario;
   let option = props.option;
   let [users, setUsers] = useState([]);
-  let meusJogos = [];
-  let isLoading = true;
+  let [meusJogos, setMeusJogos] = useState([]);
+  let [isLoading, setIsLoading] = useState(true);
 
   try {
     userLogado = JSON.parse(user);
@@ -30,29 +30,35 @@ function Perfil(props) {
       const usersCollectionRef = collection(db, "users");
       let data = await getDocs(usersCollectionRef);
       setUsers(data.docs.map((doc) => ({ ...doc.data(), id: doc.id })));
-      isLoading = false;
+      setIsLoading(true);
     }
-    getUsers();
-  }, []);
 
-  const getJogos = async () => {
-    try {
-      const todosOsJogos = BotafogoJogos();
-      let userFound = users.find(userJogo =>
-        userJogo.UID === userLogado.uid
-      );
-      let meusJogosIndex = [];
-      for (let a = 0; a < userFound.jogos.length; a++) {
-        const jogo = todosOsJogos.filter(jogo => jogo.id === userFound.jogos[a]);
-        meusJogosIndex.push(jogo[0]);
+    const getJogos = async () => {
+      try {
+        const todosOsJogos = BotafogoJogos();
+        let userFound = users.find(userJogo => userJogo.UID === userLogado?.uid);
+        let meusJogosIndex = [];
+        if (userFound && userFound.jogos) {
+          for (let a = 0; a < userFound.jogos.length; a++) {
+            const jogo = todosOsJogos.filter(jogo => jogo.id === userFound.jogos[a]);
+            meusJogosIndex.push(jogo[0]);
+          }
+        }
+        setMeusJogos(meusJogosIndex);
+      } catch (error) {
+        console.error(error);
       }
-      meusJogos = meusJogosIndex;
-      isLoading = false;
-    } catch (error) {
-      isLoading = false;
-    }
-  }
-  getJogos();
+    };
+
+    Promise.all([getUsers(), getJogos()])
+      .then(() => setIsLoading(false))
+      .catch(error => {
+        console.error(error);
+        setIsLoading(false);
+      });
+  }, [userLogado?.uid, users]);
+
+
 
   try {
     nomeUsuario = userLogado.displayName.split(" ")[0] + " " + userLogado.displayName.split(" ")[1];
@@ -81,7 +87,7 @@ function Perfil(props) {
           {option === "Perfil" && meusJogos.length > 0 && <Estatisticas meuTime={meuTime} jogos={meusJogos} />}
         </div>
         {option === "Perfil" && meusJogos.length > 0 && <Tabs meuTime={meuTime} meusJogos={meusJogos} option={option} logged={true} />}
-        {option === "Todos" ? <Tabs meuTime={meuTime} meusJogos={BotafogoJogos()} option={option} logged={true} /> : meusJogos.length === 0 &&
+        {option === "Todos" ? <Tabs meuTime={meuTime} meusJogos={BotafogoJogos()} option={option} logged={true} /> : meusJogos.length === 0 && !isLoading &&
           <>
             <p style={{ margin: '20px' }}>Nenhum jogo cadastrado</p>
             <p>Vá em "Jogos do Botafogo" para cadastrar seus jogos</p>

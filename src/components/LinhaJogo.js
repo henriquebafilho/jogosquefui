@@ -138,15 +138,7 @@ class LinhaJogo extends Component {
                     <input
                         type="checkbox"
                         checked={true}
-                        onChange={() => {
-                            if (checked) {
-                                meusJogos.removeJogo(this.props.jogo);
-                            } else {
-                                meusJogos.adicionaJogo(this.props.jogo);
-                            }
-                            this.setState({ checked: !checked })
-                        }
-                        }
+                        onChange={() => { }}
                         style={{
                             cursor: 'pointer',
                             width: '25px',
