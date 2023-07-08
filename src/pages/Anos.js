@@ -77,6 +77,7 @@ class Anos extends Component {
                 {this.state.isLoading && <h1>Carregando...</h1>}
                 <input
                   type="number"
+                  inputMode='numeric'
                   placeholder="Insira o ano"
                   onChange={this.searchAno}
                   style={{
