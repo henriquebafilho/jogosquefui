@@ -76,7 +76,7 @@ class Anos extends Component {
               <tbody>
                 {this.state.isLoading && <h1>Carregando...</h1>}
                 <input
-                  type="text"
+                  type="number"
                   placeholder="Insira o ano"
                   onChange={this.searchAno}
                   style={{
