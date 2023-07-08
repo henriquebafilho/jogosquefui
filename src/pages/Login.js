@@ -20,7 +20,7 @@ export const Login = () => {
                     <button onClick={loginGoogle}>Logar com o Google</button>
                 </div>
                 <div className='container'>
-                <Tabs meuTime="Botafogo" meusJogos={BotafogoJogos()} option="Todos" />
+                <Tabs meuTime="Botafogo" meusJogos={BotafogoJogos()} option="Todos" logged={false}/>
                 </div>
             </div>
         );

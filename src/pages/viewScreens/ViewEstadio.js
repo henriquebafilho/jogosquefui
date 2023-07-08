@@ -10,7 +10,8 @@ class ViewEstadio extends Component {
     this.state = {
       meuTime: props.meuTime,
       jogos: props.jogosEstadio,
-      clicked: false
+      clicked: false,
+      logged: this.props.logged
     }
   }
 
@@ -27,6 +28,7 @@ class ViewEstadio extends Component {
     const buttonClickFunction = () => this.buttonClick();
     let anoAtual = 0;
     var imagemEstadio;
+    let logged = this.state.logged;
     this.state.jogos.sort(function (a, b) {
       return a.data < b.data ? -1 : a.data > b.data ? 1 : 0;
     });
@@ -36,7 +38,7 @@ class ViewEstadio extends Component {
       imagemEstadio = "";
     }
     return (
-      this.state.clicked ? <Estadios meuTime={meuTime} meusJogos={this.props.meusJogos} fromView={true}/> :
+      this.state.clicked ? <Estadios meuTime={meuTime} meusJogos={this.props.meusJogos} fromView={true} logged={logged} /> :
         <div style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }}>
           <div className='a'>
             <button style={{ outline: 'none', border: 'none', textDecoration: 'underline', fontSize: '25px', cursor: 'pointer', backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }} onClick={() => buttonClickFunction()}>{"< Voltar"}</button>
@@ -54,7 +56,7 @@ class ViewEstadio extends Component {
               }
               return <div style={{ width: '100%' }}>
                 {mostraAno ? <h1 style={{ textAlign: 'center', color: Times(meuTime).letterColor, margin: '25px' }}>{anoAtual}</h1> : ""}
-                <LinhaJogo meuTime={meuTime} jogo={index} meusJogos={this.props.meusJogos}/>
+                <LinhaJogo meuTime={meuTime} jogo={index} meusJogos={this.props.meusJogos} logged={logged} />
               </div>
             })}
           </div>

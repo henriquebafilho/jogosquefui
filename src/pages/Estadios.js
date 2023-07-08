@@ -14,7 +14,8 @@ class Estadios extends Component {
       isLoading: false,
       clicked: false,
       estadioAtual: '',
-      jogosEstadio: []
+      jogosEstadio: [],
+      logged: this.props.logged
     }
     this.buttonClick = this.buttonClick.bind(this);
   }
@@ -62,10 +63,11 @@ class Estadios extends Component {
     const meuTime = this.state.meuTime;
     const meusJogos = this.state.jogos;
     const buttonClickFunction = (estadio) => this.buttonClick(estadio);
+    let logged = this.state.logged;
 
     return (
       <>
-        {this.state.clicked ? <ViewEstadio meuTime={this.props.meuTime} meusJogos={meusJogos} jogosEstadio={this.state.jogosEstadio} estadio={this.state.estadioAtual} /> : 
+        {this.state.clicked ? <ViewEstadio meuTime={this.props.meuTime} meusJogos={meusJogos} jogosEstadio={this.state.jogosEstadio} estadio={this.state.estadioAtual} logged={logged}/> : 
           <div className="App-header" style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor, alignItems: 'normal' }}>
             <h4 style={{textAlign: 'center'}}>{"Você foi a " + this.state.estadios.length + " estádio"}{this.state.estadios.length > 1 ? "s" : ""}</h4>
             <br />
@@ -85,7 +87,7 @@ class Estadios extends Component {
                 />
                 {this.state.filtered.length > 0 ?
                   !this.state.isLoading && this.state.filtered.map(function (i) {
-                    let totalEstadio = common.getTotalEstadio(i, meusJogos/* .getJogos() */);
+                    let totalEstadio = common.getTotalEstadio(i, meusJogos);
                     let imagemEstadio;
                     try {
                       imagemEstadio = require('../estadios/' + i + '.png');

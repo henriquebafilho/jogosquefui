@@ -8,13 +8,14 @@ class Adversarios extends Component {
     super(props);
     this.state = {
       meuTime: props.meuTime,
-      jogos: props.meusJogos/* .getJogos() */,
+      jogos: props.meusJogos,
       adversarios: [],
       filtered: [],
       isLoading: false,
       clicked: false,
       adversarioAtual: '',
-      jogosAdversario: []
+      jogosAdversario: [],
+      logged: this.props.logged
     }
     this.buttonClick = this.buttonClick.bind(this);
   }
@@ -66,19 +67,18 @@ class Adversarios extends Component {
   }
 
   searchTeam = async (e) => {
-    this.setState({ filtered: this.state.adversarios.filter(time => time.toUpperCase().trim().includes(e.target.value.toUpperCase().trim()))})
+    this.setState({ filtered: this.state.adversarios.filter(time => time.toUpperCase().trim().includes(e.target.value.toUpperCase().trim())) })
   }
 
   render() {
     const meuTime = this.state.meuTime;
     const meusJogos = this.state.jogos;
+    let logged = this.state.logged;
     const buttonClickFunction = (adversario) => this.buttonClick(adversario);
     return (
       <>
-        {this.state.clicked ? <ViewAdversario meuTime={this.props.meuTime} meusJogos={meusJogos} jogosAdversario={this.state.jogosAdversario} adversario={this.state.adversarioAtual} /> :
+        {this.state.clicked ? <ViewAdversario meuTime={this.props.meuTime} meusJogos={meusJogos} jogosAdversario={this.state.jogosAdversario} adversario={this.state.adversarioAtual} logged={logged} /> :
           <div className="App-header" style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor, alignItems: 'normal' }}>
-            {/* <h1>Adversários</h1>
-          <br /> */}
             <table>
               <tbody>
                 {this.state.isLoading && <h1>Carregando...</h1>}

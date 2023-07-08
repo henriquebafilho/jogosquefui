@@ -14,7 +14,8 @@ class Anos extends Component {
       isLoading: false,
       clicked: false,
       anoAtual: '',
-      jogosAno: []
+      jogosAno: [],
+      logged: this.props.logged
     }
     this.buttonClick = this.buttonClick.bind(this);
   }
@@ -65,10 +66,11 @@ class Anos extends Component {
     const meuTime = this.state.meuTime;
     const jogos = this.state.jogos;
     const buttonClickFunction = (ano) => this.buttonClick(ano);
+    let logged = this.state.logged;
 
     return (
       <>
-        {this.state.clicked ? <ViewAno flag="meusJogos" meuTime={meuTime} meusJogos={jogos} jogosAno={this.state.jogosAno} ano={this.state.anoAtual} /> :
+        {this.state.clicked ? <ViewAno flag="meusJogos" meuTime={meuTime} meusJogos={jogos} jogosAno={this.state.jogosAno} ano={this.state.anoAtual} logged={logged} /> :
           <div className="App-header" style={{ backgroundColor: Times(meuTime).backgroundColor, color: Times(meuTime).letterColor, alignItems: 'normal' }}>
             <table>
               <tbody>

@@ -16,7 +16,8 @@ class Tabs extends Component {
             meuTime: "Botafogo",
             currentPage: 1,
             itemsPerPage: 20,
-            ultimos: 1
+            ultimos: 1,
+            logged: this.props.logged
         };
         this.handleNextPage = this.handleNextPage.bind(this);
         this.handlePrevPage = this.handlePrevPage.bind(this);
@@ -59,6 +60,7 @@ class Tabs extends Component {
         let meuTime = this.state.meuTime;
         let ultimos = this.state.ultimos;
         let option = this.props.option;
+        let logged = this.state.logged;
         let anoAtual = 0;
         const { currentPage, itemsPerPage } = this.state;
 
@@ -108,7 +110,7 @@ class Tabs extends Component {
                                     }
                                     return <div key={JSON.stringify(index)}>
                                         {mostraAno ? <h1 style={{ textAlign: 'center', color: Times(meuTime).letterColor, margin: '25px' }}>{anoAtual}</h1> : ""}
-                                        <LinhaJogo meuTime={meuTime} jogo={index} meusJogos={meusJogos} />
+                                        <LinhaJogo meuTime={meuTime} jogo={index} meusJogos={meusJogos} logged={logged} />
                                     </div>
                                 }) : <div>
                                     <h1 style={{ color: Times(meuTime).letterColor, textAlign: 'center', paddingBottom: '50px' }}>Você ainda não possui jogos cadastrados</h1>
@@ -123,21 +125,21 @@ class Tabs extends Component {
                             </div>
                             :
                             <div className={ultimos === 2 ? "content  active-content" : "content"}>
-                                <ProximosJogos meuTime={meuTime} proximosJogos={proximosJogos} />
+                                <ProximosJogos meuTime={meuTime} proximosJogos={proximosJogos} logged={logged} />
                             </div>
                         }
                     </div>
 
                     <div className={toggleState === 2 ? "content  active-content" : "content"}>
-                        <Anos meuTime={meuTime} meusJogos={meusJogos} />
+                        <Anos meuTime={meuTime} meusJogos={meusJogos} logged={logged} />
                     </div>
 
                     <div className={toggleState === 3 ? "content  active-content" : "content"}>
-                        <Estadios meuTime={meuTime} meusJogos={meusJogos} />
+                        <Estadios meuTime={meuTime} meusJogos={meusJogos} logged={logged} />
                     </div>
 
                     <div className={toggleState === 4 ? "content  active-content" : "content"}>
-                        <Adversarios meuTime={meuTime} meusJogos={meusJogos} />
+                        <Adversarios meuTime={meuTime} meusJogos={meusJogos} logged={logged} />
                     </div>
                 </div>
             </div>
