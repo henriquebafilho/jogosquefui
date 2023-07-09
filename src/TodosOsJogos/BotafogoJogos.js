@@ -18,7 +18,7 @@ function jogos() {
     jogos.push({ "id": "4428", "mandante": "Corinthians", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2023", "data": "2023-09-13", "estadio": "Neo Química Arena" });
     jogos.push({ "id": "4427", "mandante": "Atlético-MG", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2023", "data": "2023-09-02", "estadio": "Arena MRV" });
     jogos.push({ "id": "4426", "mandante": "Botafogo", "visitante": "Flamengo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2023", "data": "2023-08-26", "estadio": "Nilton Santos" });
-    jogos.push({ "id": "4425", "mandante": "Botafogo", "visitante": "Bahia", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2023", "data": "2023-08-19", "estadio": "Nilton Santos" });
+    jogos.push({ "id": "4425", "mandante": "Botafogo", "visitante": "Bahia", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2023", "data": "2023-08-23", "estadio": "Nilton Santos" });
     jogos.push({ "id": "4424", "mandante": "São Paulo", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2023", "data": "2023-08-19", "estadio": "Morumbi", "horario": "16:00" });
     jogos.push({ "id": "4423", "mandante": "Botafogo", "visitante": "Internacional", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2023", "data": "2023-08-12", "estadio": "Nilton Santos", "horario": "21:00" });
     jogos.push({ "id": "4422", "mandante": "Cruzeiro", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2023", "data": "2023-08-06", "estadio": "Mineirão", "horario": "18:30" });
