@@ -2021,7 +2021,7 @@ function jogos() {
     jogos.push({ "id": "2424", "mandante": "Cruzeiro", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Brasileirão 1990", "data": "1990-08-19", "estadio": "Mineirão" });
     jogos.push({ "id": "2423", "mandante": "Botafogo", "visitante": "Vasco", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Carioca 1990", "data": "1990-07-29", "estadio": "Maracanã" });
     jogos.push({ "id": "2422", "mandante": "Botafogo", "visitante": "Bahia", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Copa do Brasil 1990", "data": "1990-07-15", "estadio": "Caio Martins" });
-    jogos.push({ "id": "2421", "mandante": "Bahia", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Copa do Brasil 1990", "data": "1990-07-12", "estadio": "Fonte Nova" });
+    jogos.push({ "id": "2421", "mandante": "Bahia", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Copa do Brasil 1990", "data": "1990-07-13", "estadio": "Fonte Nova" });
     jogos.push({ "id": "2420", "mandante": "Botafogo", "visitante": "Desportiva Ferroviária", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Copa do Brasil 1990", "data": "1990-06-27", "estadio": "Caio Martins" });
     jogos.push({ "id": "2419", "mandante": "Desportiva Ferroviária", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Copa do Brasil 1990", "data": "1990-06-22", "estadio": "Engenheiro Araripe" });
     jogos.push({ "id": "2418", "mandante": "UNAM", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Torneio da Amizade", "data": "1990-06-02", "estadio": "Luiz Pirata Fuente" });
