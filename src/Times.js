@@ -802,6 +802,12 @@ function Times(time, data) {
                   backgroundColor = "#048439";
                   letterColor = "white";
                   break;
+            case "Guaraní-PAR":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#f8e502";
+                  letterColor = "black";
+                  break;
             case "Haddock Lobo":
                   nomeAtual = time;
                   escudo = time;
