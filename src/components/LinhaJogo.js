@@ -9,7 +9,7 @@ class LinhaJogo extends Component {
             jogo: props.jogo,
             isLoading: false,
             clicked: false,
-            checked: false,
+            checked: true,
             logged: this.props.logged
         }
     }
@@ -137,8 +137,8 @@ class LinhaJogo extends Component {
                 {logged && <div>
                     <input
                         type="checkbox"
-                        checked={true}
-                        onChange={() => { }}
+                        checked={checked}
+                        onChange={() => this.setState({checked: !checked})}
                         style={{
                             cursor: 'pointer',
                             width: '25px',
