@@ -2097,7 +2097,7 @@ function jogos() {
     jogos.push({ "id": "2350", "mandante": "Criciúma", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Brasileirão 1988", "data": "1988-12-10", "estadio": "Heriberto Hulse" });
     jogos.push({ "id": "2349", "mandante": "Botafogo", "visitante": "América-RJ", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Brasileirão 1988", "data": "1988-12-07", "estadio": "Caio Martins", "penaltis": "5 x 6" });
     jogos.push({ "id": "2348", "mandante": "Botafogo", "visitante": "Cruzeiro", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Brasileirão 1988", "data": "1988-12-04", "estadio": "Caio Martins", "penaltis": "1 x 3" });
-    jogos.push({ "id": "2347", "mandante": "Vasco", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 0, "campeonato": "Brasileirão 1988", "data": "1988-12-01", "estadio": "São Januário" });
+    jogos.push({ "id": "2347", "mandante": "Vasco", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 0, "campeonato": "Brasileirão 1988", "data": "1988-12-01", "estadio": "Maracanã" });
     jogos.push({ "id": "2346", "mandante": "Botafogo", "visitante": "Grêmio", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Brasileirão 1988", "data": "1988-11-27", "estadio": "Caio Martins" });
     jogos.push({ "id": "2345", "mandante": "Bahia", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Brasileirão 1988", "data": "1988-11-24", "estadio": "Fonte Nova" });
     jogos.push({ "id": "2344", "mandante": "Coritiba", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 0, "campeonato": "Brasileirão 1988", "data": "1988-11-19", "estadio": "Couto Pereira" });
@@ -4306,7 +4306,7 @@ function jogos() {
     jogos.push({ "id": "141", "mandante": "Botafogo", "visitante": "Villa Isabel", "golsMandante": 3, "golsVisitante": 2, "campeonato": "Carioca 1918", "data": "1918-09-20", "estadio": "" });
     jogos.push({ "id": "140", "mandante": "Botafogo", "visitante": "América-RJ", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Carioca 1918", "data": "1918-09-07", "estadio": "" });
     jogos.push({ "id": "139", "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 3, "campeonato": "Carioca 1918", "data": "1918-08-18", "estadio": "" });
-    jogos.push({ "id": "138", "mandante": "Botafogo", "visitante": "Mangueira", "golsMandante": 9, "golsVisitante": 0, "campeonato": "Carioca 1918", "data": "1918-07-28", "estadio": "" });
+    jogos.push({ "id": "138", "mandante": "Botafogo", "visitante": "Mangueira", "golsMandante": 9, "golsVisitante": 0, "campeonato": "Carioca 1918", "data": "1918-07-28", "estadio": "General Severiano" });
     jogos.push({ "id": "137", "mandante": "Carioca FC", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Carioca 1918", "data": "1918-07-21", "estadio": "Dona Castorina" });
     jogos.push({ "id": "136", "mandante": "Botafogo", "visitante": "Fluminense", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Carioca 1918", "data": "1918-07-14", "estadio": "General Severiano" });
     jogos.push({ "id": "135", "mandante": "Mangueira", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Carioca 1918", "data": "1918-06-30", "estadio": "" });
