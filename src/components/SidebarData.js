@@ -7,45 +7,15 @@ import * as BiIcons from "react-icons/bi";
 
 export const SidebarData = [
     {
-        title: 'Perfil',
-        path: '/perfil',
+        title: 'Meus Jogos',
+        path: '/meusJogos',
         icon: <FaIcons.FaUserAlt/>,
         cName: 'nav-text'
     },
     {
-        title: 'Anos',
-        path: '/anos',
-        icon: <BsIcons.BsCalendarDate/>,
-        cName: 'nav-text'
-    },
-    {
-        title: 'Estádios',
-        path: '/estadios',
-        icon: <FbIcons.TbSoccerField/>,
-        cName: 'nav-text'
-    },
-    {
-        title: 'Adversários',
-        path: '/adversarios',
-        icon: <FaIcons.FaFlagCheckered/>,
-        cName: 'nav-text'
-    },
-    {
-        title: 'Próximos Jogos',
-        path: '/proximosJogos',
-        icon: <FaIcons.FaCalendarAlt/>,
-        cName: 'nav-text'
-    },
-    {
-        title: 'Todos os Jogos',
-        path: '/todosOsJogos',
+        title: 'Jogos do Botafogo',
+        path: '/jogosDoBotafogo',
         icon: <ImIcons.ImList2/>,
         cName: 'nav-text'
-    },
-    {
-        title: 'Sair',
-        path: '/',
-        icon: <BiIcons.BiLogOut/>,
-        cName: 'nav-text'
-    },
+    }
 ]

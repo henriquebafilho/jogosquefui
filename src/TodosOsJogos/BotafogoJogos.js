@@ -1,17 +1,17 @@
 function jogos() {
     let jogos = [];
 
-    jogos.push({ "id": "4442", "mandante": "Internacional", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2023", "data": "2023-12-03", "estadio": "Beira-Rio" });
-    jogos.push({ "id": "4441", "mandante": "Botafogo", "visitante": "Cruzeiro", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2023", "data": "2023-11-29", "estadio": "Nilton Santos" });
-    jogos.push({ "id": "4440", "mandante": "Coritiba", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2023", "data": "2023-11-25", "estadio": "Couto Pereira" });
-    jogos.push({ "id": "4439", "mandante": "Botafogo", "visitante": "Santos", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2023", "data": "2023-11-22", "estadio": "Nilton Santos" });
-    jogos.push({ "id": "4438", "mandante": "Red Bull Bragantino", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2023", "data": "2023-11-11", "estadio": "Nabi Abi Chedid" });
-    jogos.push({ "id": "4437", "mandante": "Botafogo", "visitante": "Grêmio", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2023", "data": "2023-11-08", "estadio": "Nilton Santos" });
-    jogos.push({ "id": "4436", "mandante": "Vasco", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2023", "data": "2023-11-04", "estadio": "São Januário" });
-    jogos.push({ "id": "4435", "mandante": "Botafogo", "visitante": "Palmeiras", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2023", "data": "2023-11-01", "estadio": "Nilton Santos" });
-    jogos.push({ "id": "4434", "mandante": "Botafogo", "visitante": "Cuiabá", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2023", "data": "2023-10-28", "estadio": "Nilton Santos" });
-    jogos.push({ "id": "4433", "mandante": "Fortaleza", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2023", "data": "2023-10-24", "estadio": "Castelão-CE", "horario": "21:30" });
-    jogos.push({ "id": "4432", "mandante": "Botafogo", "visitante": "Athletico-PR", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2023", "data": "2023-10-21", "estadio": "Nilton Santos", "horario": "21:00" });
+    jogos.push({ "id": "4442", "mandante": "Internacional", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Brasileirão 2023", "data": "2023-12-06", "estadio": "Beira-Rio" });
+    jogos.push({ "id": "4441", "mandante": "Botafogo", "visitante": "Cruzeiro", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Brasileirão 2023", "data": "2023-12-03", "estadio": "Nilton Santos" });
+    jogos.push({ "id": "4440", "mandante": "Coritiba", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Brasileirão 2023", "data": "2023-11-29", "estadio": "Couto Pereira" });
+    jogos.push({ "id": "4439", "mandante": "Botafogo", "visitante": "Santos", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Brasileirão 2023", "data": "2023-11-26", "estadio": "Nilton Santos" });
+    jogos.push({ "id": "4433", "mandante": "Fortaleza", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Brasileirão 2023", "data": "2023-11-23", "estadio": "Castelão-CE", "horario": "21:30" });
+    jogos.push({ "id": "4438", "mandante": "Red Bull Bragantino", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Brasileirão 2023", "data": "2023-11-12", "estadio": "Nabi Abi Chedid" });
+    jogos.push({ "id": "4437", "mandante": "Botafogo", "visitante": "Grêmio", "golsMandante": 3, "golsVisitante": 4, "campeonato": "Brasileirão 2023", "data": "2023-11-09", "estadio": "São Januário" });
+    jogos.push({ "id": "4436", "mandante": "Vasco", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Brasileirão 2023", "data": "2023-11-06", "estadio": "São Januário" });
+    jogos.push({ "id": "4435", "mandante": "Botafogo", "visitante": "Palmeiras", "golsMandante": 3, "golsVisitante": 4, "campeonato": "Brasileirão 2023", "data": "2023-11-01", "estadio": "Nilton Santos" });
+    jogos.push({ "id": "4434", "mandante": "Botafogo", "visitante": "Cuiabá", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Brasileirão 2023", "data": "2023-10-29", "estadio": "Nilton Santos" });
+    jogos.push({ "id": "4432", "mandante": "Botafogo", "visitante": "Athletico-PR", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Brasileirão 2023", "data": "2023-10-22", "estadio": "Nilton Santos", "horario": "21:00" });
     jogos.push({ "id": "4431", "mandante": "América-MG", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Brasileirão 2023", "data": "2023-10-18", "estadio": "Independência", "horario": "20:00" });
     jogos.push({ "id": "4430", "mandante": "Fluminense", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Brasileirão 2023", "data": "2023-10-08", "estadio": "Maracanã", "horario": "16:00" });
     jogos.push({ "id": "4429", "mandante": "Botafogo", "visitante": "Goiás", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Brasileirão 2023", "data": "2023-10-02", "estadio": "Nilton Santos", "horario": "20:00" });

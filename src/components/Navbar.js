@@ -61,14 +61,12 @@ class Navbar extends Component {
                                     <AiIcons.AiOutlineClose />
                                 </Link>
                             </li>
-                            {SidebarData.map((item, index) => {
+                            {SidebarData.map((item) => {
                                 return (<div key={JSON.stringify(item)}>
-                                    {item.title === "Anos" && <span style={{ color: 'white' }}>Meus Jogos</span>}
-                                    {item.title === "Próximos Jogos" && <span style={{ color: 'white' }}>Meu Time</span>}
                                     <li key={item.title} className={item.cName}>
                                         <button onClick={() => buttonClickFunction(item.title)}>
                                             {item.icon}
-                                            <span>{item.title === "Todos os Jogos" ? "Jogos do " + this.state.meuTime : item.title}</span>
+                                            <span>{item.title}</span>
                                         </button>
                                     </li>
                                 </div>)
@@ -76,44 +74,14 @@ class Navbar extends Component {
                         </ul>
                     </nav>
                 </IconContext.Provider>
-                {this.state.title === "Perfil" &&
+                {this.state.title === "Meus Jogos" &&
                     <Perfil
                         conjuntoUsuarios={this.props.conjuntoUsuarios}
                         meuTime={this.props.conjuntoUsuarios.getUsuarioAtual().meuTime}
                         meusJogos={this.props.conjuntoUsuarios.getUsuarioAtual().meusJogos}
                     />}
-                {this.state.title === "Anos" &&
-                    <Anos
-                        conjuntoUsuarios={this.props.conjuntoUsuarios}
-                        meuTime={this.props.conjuntoUsuarios.getUsuarioAtual().meuTime}
-                        meusJogos={this.props.conjuntoUsuarios.getUsuarioAtual().meusJogos}
-                    />}
-                {this.state.title === "Estádios" &&
-                    <Estadios
-                        conjuntoUsuarios={this.props.conjuntoUsuarios}
-                        meuTime={this.props.conjuntoUsuarios.getUsuarioAtual().meuTime}
-                        meusJogos={this.props.conjuntoUsuarios.getUsuarioAtual().meusJogos}
-                    />}
-                {this.state.title === "Adversários" &&
-                    <Adversarios
-                        conjuntoUsuarios={this.props.conjuntoUsuarios}
-                        meuTime={this.props.conjuntoUsuarios.getUsuarioAtual().meuTime}
-                        meusJogos={this.props.conjuntoUsuarios.getUsuarioAtual().meusJogos}
-                    />}
-                {this.state.title === "Próximos Jogos" &&
-                    <ProximosJogos
-                        conjuntoUsuarios={this.props.conjuntoUsuarios}
-                        meuTime={this.props.conjuntoUsuarios.getUsuarioAtual().meuTime}
-                        meusJogos={this.props.conjuntoUsuarios.getUsuarioAtual().meusJogos}
-                    />}
-                {this.state.title === "Todos os Jogos" &&
+                {this.state.title === "Jogos do Botafogo" &&
                     <TodosOsJogos
-                        conjuntoUsuarios={this.props.conjuntoUsuarios}
-                        meuTime={this.props.conjuntoUsuarios.getUsuarioAtual().meuTime}
-                        meusJogos={this.props.conjuntoUsuarios.getUsuarioAtual().meusJogos}
-                    />}
-                {this.state.title === "Sair" &&
-                    <Login
                         conjuntoUsuarios={this.props.conjuntoUsuarios}
                         meuTime={this.props.conjuntoUsuarios.getUsuarioAtual().meuTime}
                         meusJogos={this.props.conjuntoUsuarios.getUsuarioAtual().meusJogos}

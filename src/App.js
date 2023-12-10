@@ -22,7 +22,7 @@ function App() {
   return (
     <>
       <Router>
-        <Navbar conjuntoUsuarios={conjuntoUsuarios} meuTime={conjuntoUsuarios.getUsuarioAtual().meuTime} meusJogos={conjuntoUsuarios.getUsuarioAtual().meusJogos} style={{ position: 'fixed' }} />
+        <Navbar conjuntoUsuarios={conjuntoUsuarios} meuTime={"Botafogo"} meusJogos={conjuntoUsuarios.getUsuarioAtual().meusJogos} style={{ position: 'fixed' }} />
         <Routes>
           {/* <Route path='/' element={<Login conjuntoUsuarios={conjuntoUsuarios} />} /> */}
           <Route exact path='/jogosquefui' element={<Perfil
