@@ -24,7 +24,6 @@ function App() {
       <Router>
         <Navbar conjuntoUsuarios={conjuntoUsuarios} meuTime={"Botafogo"} meusJogos={conjuntoUsuarios.getUsuarioAtual().meusJogos} style={{ position: 'fixed' }} />
         <Routes>
-          {/* <Route path='/' element={<Login conjuntoUsuarios={conjuntoUsuarios} />} /> */}
           <Route exact path='/jogosquefui' element={<Perfil
                         conjuntoUsuarios={conjuntoUsuarios}
                         meuTime="Botafogo"
