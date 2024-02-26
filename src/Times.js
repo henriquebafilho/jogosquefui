@@ -177,6 +177,12 @@ function Times(time, data) {
                   backgroundColor = "green";
                   letterColor = "white";
                   break;
+            case "Aurora":
+                  nomeAtual = time;
+                  escudo = "Aurora";
+                  backgroundColor = "#4ebde5";
+                  letterColor = "white";
+                  break;
             case "Auto Esporte-PI":
                   nomeAtual = time;
                   escudo = time;
@@ -1419,6 +1425,12 @@ function Times(time, data) {
                   escudo = "SampaioCorrêa";
                   backgroundColor = "#fde900";
                   letterColor = "#048439";
+                  break;
+            case "Sampaio Corrêa-RJ":
+                  nomeAtual = time;
+                  escudo = "SampaioCorrêa-RJ";
+                  backgroundColor = "#00479c";
+                  letterColor = "#ffc413";
                   break;
             case "San Lorenzo":
                   nomeAtual = time;
