@@ -60,9 +60,6 @@ class ProximosJogos extends Component {
         const jogos = this.state.proximosJogos;
         return (
             <>
-                <br />
-                <p>*Os jogos sem horário definido são em datas estimatidas e podem sofrer alteração.</p>
-                <br />
                 <div className="container" style={{ backgroundColor: Times(meuTime).backgroundColor }}>
                     {jogos.length > 0 ? jogos.map((index) => {
                         return <div>
