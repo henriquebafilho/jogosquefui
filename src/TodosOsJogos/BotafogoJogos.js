@@ -2,7 +2,7 @@ function jogos() {
     let jogos = [];
 
     jogos.push({ "id": "4453", "mandante": "Fluminense", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Carioca 2024", "data": "2024-03-03", "estadio": "Maracanã" });
-    jogos.push({ "id": "4452", "mandante": "Botafogo", "visitante": "Aurora", "golsMandante": "", "golsVisitante": "", "campeonato": "Libertadores 2024", "data": "2024-02-28", "estadio": "Nilton Santos" });
+    jogos.push({ "id": "4452", "mandante": "Botafogo", "visitante": "Aurora", "golsMandante": 6, "golsVisitante": 0, "campeonato": "Libertadores 2024", "data": "2024-02-28", "estadio": "Nilton Santos" });
     jogos.push({ "id": "4452", "mandante": "Audax Rio", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Carioca 2024", "data": "2024-02-24", "estadio": "Nilton Santos" });
     jogos.push({ "id": "4451", "mandante": "Aurora", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Libertadores 2024", "data": "2024-02-21", "estadio": "Félix Capriles" });
     jogos.push({ "id": "4451", "mandante": "Botafogo", "visitante": "Vasco", "golsMandante": 2, "golsVisitante": 4, "campeonato": "Carioca 2024", "data": "2024-02-18", "estadio": "Nilton Santos" });
