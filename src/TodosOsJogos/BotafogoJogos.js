@@ -39,6 +39,8 @@ function jogos() {
     jogos.push({ "id": "20042024", "mandante": "Botafogo", "visitante": "Juventude", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2024", "data": "2024-04-20", "estadio": "Nilton Santos" });
     jogos.push({ "id": "17042024", "mandante": "Botafogo", "visitante": "Atlético-GO", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2024", "data": "2024-04-17", "estadio": "Nilton Santos" });
     jogos.push({ "id": "13042024", "mandante": "Cruzeiro", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2024", "data": "2024-04-13", "estadio": "Mineirão" });
+    jogos.push({ "id": "13032024", "mandante": "Red Bull Bragantino", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Libertadores 2024", "data": "2024-03-13", "estadio": "Nabi Abi Chedid", "horario": "21:30" });
+    jogos.push({ "id": "06032024", "mandante": "Botafogo", "visitante": "Red Bull Bragantino", "golsMandante": "", "golsVisitante": "", "campeonato": "Libertadores 2024", "data": "2024-03-06", "estadio": "Nilton Santos", "horario": "21:30" });
     jogos.push({ "id": "4453", "mandante": "Fluminense", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Carioca 2024", "data": "2024-03-03", "estadio": "Maracanã", "horario": "16:00" });
     jogos.push({ "id": "4452", "mandante": "Botafogo", "visitante": "Aurora", "golsMandante": 6, "golsVisitante": 0, "campeonato": "Libertadores 2024", "data": "2024-02-28", "estadio": "Nilton Santos" });
     jogos.push({ "id": "4452", "mandante": "Audax Rio", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Carioca 2024", "data": "2024-02-24", "estadio": "Nilton Santos" });
