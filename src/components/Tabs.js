@@ -116,7 +116,6 @@ class Tabs extends Component {
                         </div> 
                         :
                         <div className={ultimos === 2 ? "content  active-content" : "content"}>
-                            <br />
                             <p>*Os jogos sem horário definido são em datas estimatidas e podem sofrer alteração.</p>
                             <br />
                             <ProximosJogos meuTime={meuTime} />
