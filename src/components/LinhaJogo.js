@@ -127,6 +127,7 @@ class LinhaJogo extends Component {
                         {(this.props.jogo.golsMandante === "WO" || this.props.jogo.golsVisitante === "WO") && <div>WO</div>}
                         {this.props.jogo.golsMandante === "WO" ? <div>←</div> : this.props.jogo.golsVisitante === "WO" ? <div>→</div> : ''}
                         {this.props.jogo.golsMandante !== "WO" && this.props.jogo.golsVisitante !== "WO" && ' ' + this.props.jogo.golsMandante + ' x ' + this.props.jogo.golsVisitante + ' '}
+                        {this.props.jogo.golsMandante === "" && this.props.jogo.golsVisitante === "" && <p className="horario" style={{ fontSize: "16px", paddingTop: "8px" }}>{this.props.jogo.horario ? this.props.jogo.horario : " X "}</p>}
                     </div>
                     <img className='escudoLinha' src={require('../escudos/' + Times(this.props.jogo.visitante, this.props.jogo.data).escudo + '.png')} title={this.props.jogo.visitante} style={{ display: 'inline-block', verticalAlign: 'middle' }} alt={this.props.jogo.visitante} />
                     <p className='nomeTime' 
