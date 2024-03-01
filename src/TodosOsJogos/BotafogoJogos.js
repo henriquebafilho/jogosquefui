@@ -34,7 +34,7 @@ function jogos() {
     jogos.push({ "id": "25052024", "mandante": "Botafogo", "visitante": "Fluminense", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2024", "data": "2024-05-25", "estadio": "Nilton Santos" });
     jogos.push({ "id": "18052024", "mandante": "Corinthians", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2024", "data": "2024-05-18", "estadio": "Neo Química Arena" });
     jogos.push({ "id": "11052024", "mandante": "Fortaleza", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2024", "data": "2024-05-11", "estadio": "Castelão" });
-    jogos.push({ "id": "04052024", "mandante": "Botafogo", "visitante": "Juventude", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2024", "data": "2024-05-04", "estadio": "Nilton Santos" });
+    jogos.push({ "id": "04052024", "mandante": "Botafogo", "visitante": "Bahia", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2024", "data": "2024-05-04", "estadio": "Nilton Santos" });
     jogos.push({ "id": "27042024", "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2024", "data": "2024-04-27", "estadio": "Maracanã" });
     jogos.push({ "id": "20042024", "mandante": "Botafogo", "visitante": "Juventude", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2024", "data": "2024-04-20", "estadio": "Nilton Santos" });
     jogos.push({ "id": "17042024", "mandante": "Botafogo", "visitante": "Atlético-GO", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2024", "data": "2024-04-17", "estadio": "Nilton Santos" });
