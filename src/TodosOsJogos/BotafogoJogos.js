@@ -41,7 +41,7 @@ function jogos() {
     jogos.push({ "id": "13042024", "mandante": "Cruzeiro", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2024", "data": "2024-04-13", "estadio": "Mineirão" });
     jogos.push({ "id": "4453", "mandante": "Botafogo", "visitante": "Sampaio Corrêa-RJ", "golsMandante": "", "golsVisitante": "", "campeonato": "Carioca 2024", "data": "2024-03-16", "estadio": "Nilton Santos" });
     jogos.push({ "id": "13032024", "mandante": "Red Bull Bragantino", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Libertadores 2024", "data": "2024-03-13", "estadio": "Nabi Abi Chedid", "horario": "21:30" });
-    jogos.push({ "id": "4453", "mandante": "Sampaio Corrêa-RJ", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Carioca 2024", "data": "2024-03-10", "estadio": "Elcyr Resende", "horario": "16:00" });
+    jogos.push({ "id": "4453", "mandante": "Sampaio Corrêa-RJ", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Carioca 2024", "data": "2024-03-10", "estadio": "Elcyr Resende", "horario": "16:00" });
     jogos.push({ "id": "06032024", "mandante": "Botafogo", "visitante": "Red Bull Bragantino", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Libertadores 2024", "data": "2024-03-06", "estadio": "Nilton Santos", "horario": "21:30" });
     jogos.push({ "id": "4453", "mandante": "Fluminense", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 4, "campeonato": "Carioca 2024", "data": "2024-03-03", "estadio": "Maracanã", "horario": "16:00" });
     jogos.push({ "id": "4452", "mandante": "Botafogo", "visitante": "Aurora", "golsMandante": 6, "golsVisitante": 0, "campeonato": "Libertadores 2024", "data": "2024-02-28", "estadio": "Nilton Santos" });
@@ -1852,8 +1852,8 @@ function jogos() {
     jogos.push({ "id": "2652", "mandante": "Vasco", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Carioca 1995", "data": "1995-03-20", "estadio": "Maracanã" });
     jogos.push({ "id": "2651", "mandante": "Botafogo", "visitante": "América-RJ", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Carioca 1995", "data": "1995-03-19", "estadio": "Caio Martins" });
     jogos.push({ "id": "2650", "mandante": "Itaperuna", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Carioca 1995", "data": "1995-03-12", "estadio": "Jair Bittencourt" });
-    jogos.push({ "id": "2649", "mandante": "Botafogo", "visitante": "São Cristóvão", "golsMandante": 7, "golsVisitante": 0, "campeonato": "Carioca 1995", "data": "1995-03-09", "estadio": "Caio Martins" });
-    jogos.push({ "id": "2648", "mandante": "Entrerriense", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 5, "campeonato": "Carioca 1995", "data": "1995-03-08", "estadio": "Odair Gama" });
+    jogos.push({ "id": "2649", "mandante": "Botafogo", "visitante": "São Cristóvão", "golsMandante": 7, "golsVisitante": 0, "campeonato": "Carioca 1995", "data": "1995-03-08", "estadio": "Caio Martins" });
+    jogos.push({ "id": "2648", "mandante": "Entrerriense", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 5, "campeonato": "Carioca 1995", "data": "1995-03-05", "estadio": "Odair Gama" });
     jogos.push({ "id": "2647", "mandante": "Botafogo", "visitante": "Olaria", "golsMandante": 3, "golsVisitante": 0, "campeonato": "Carioca 1995", "data": "1995-03-02", "estadio": "Caio Martins" });
     jogos.push({ "id": "2646", "mandante": "Barreira", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 4, "campeonato": "Carioca 1995", "data": "1995-02-25", "estadio": "Bacaxá" });
     jogos.push({ "id": "2645", "mandante": "Botafogo", "visitante": "Vasco", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Carioca 1995", "data": "1995-02-22", "estadio": "Maracanã" });
