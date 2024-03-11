@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jogosquefui/static/css/main.a46d06f1.css",
-    "main.js": "/jogosquefui/static/js/main.3527bc74.js",
+    "main.js": "/jogosquefui/static/js/main.0d2b56c2.js",
     "static/media/Atanasio Girardot.png": "/jogosquefui/static/media/Atanasio Girardot.654b0fba4632fac4057b.png",
     "static/media/Corisabbá.png": "/jogosquefui/static/media/Corisabbá.4b6783df88df9e49eae8.png",
     "static/media/Colosso da Lagoa.png": "/jogosquefui/static/media/Colosso da Lagoa.b7008037ac5675a07045.png",
@@ -41,7 +41,7 @@
     "static/media/Arena da Baixada.png": "/jogosquefui/static/media/Arena da Baixada.a1fb3669ae8687b850bf.png",
     "static/media/Defensores Del Chaco.png": "/jogosquefui/static/media/Defensores Del Chaco.f2b0e8fa88cbc50a0425.png",
     "static/media/Mané Garrincha.png": "/jogosquefui/static/media/Mané Garrincha.6b6e879f934417e71dc7.png",
-    "static/media/Bacaxá.png": "/jogosquefui/static/media/Bacaxá.7279b171c36231451f31.png",
+    "static/media/Elcyr Resende.png": "/jogosquefui/static/media/Elcyr Resende.7279b171c36231451f31.png",
     "static/media/Andarahy.png": "/jogosquefui/static/media/Andarahy.fd277126077055f68fb9.png",
     "static/media/Atilio Marotti.png": "/jogosquefui/static/media/Atilio Marotti.c225e6dc23874f470f0d.png",
     "static/media/Casablanca.png": "/jogosquefui/static/media/Casablanca.c3eb9462adc0bb8d7992.png",
@@ -390,10 +390,10 @@
     "static/media/Ceará.png": "/jogosquefui/static/media/Ceará.2667c31fce77d94092f4.png",
     "index.html": "/jogosquefui/index.html",
     "main.a46d06f1.css.map": "/jogosquefui/static/css/main.a46d06f1.css.map",
-    "main.3527bc74.js.map": "/jogosquefui/static/js/main.3527bc74.js.map"
+    "main.0d2b56c2.js.map": "/jogosquefui/static/js/main.0d2b56c2.js.map"
   },
   "entrypoints": [
     "static/css/main.a46d06f1.css",
-    "static/js/main.3527bc74.js"
+    "static/js/main.0d2b56c2.js"
   ]
 }
