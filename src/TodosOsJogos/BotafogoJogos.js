@@ -232,7 +232,7 @@ function jogos() {
     jogos.push({ "id": "4273", "mandante": "Volta Redonda", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Carioca 2021", "data": "2021-04-10", "estadio": "Raulino de Oliveira" });
     jogos.push({ "id": "4272", "mandante": "Botafogo", "visitante": "Portuguesa-RJ", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Carioca 2021", "data": "2021-04-04", "estadio": "Giulite Coutinho" });
     jogos.push({ "id": "4271", "mandante": "Botafogo", "visitante": "Madureira", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Carioca 2021", "data": "2021-03-31", "estadio": "Giulite Coutinho" });
-    jogos.push({ "id": "4270", "mandante": "Nova Iguaçu", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Carioca 2021", "data": "2021-03-28", "estadio": "Bacaxá" });
+    jogos.push({ "id": "4270", "mandante": "Nova Iguaçu", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Carioca 2021", "data": "2021-03-28", "estadio": "Elcyr Resende" });
     jogos.push({ "id": "4269", "mandante": "Botafogo", "visitante": "Flamengo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Carioca 2021", "data": "2021-03-24", "estadio": "Nilton Santos" });
     jogos.push({ "id": "4268", "mandante": "Vasco", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Carioca 2021", "data": "2021-03-21", "estadio": "São Januário" });
     jogos.push({ "id": "4267", "mandante": "Bangu", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Carioca 2021", "data": "2021-03-13", "estadio": "Nilton Santos" });
@@ -343,7 +343,7 @@ function jogos() {
     jogos.push({ "id": "4162", "mandante": "São Paulo", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Brasileirão 2019", "data": "2019-04-27", "estadio": "Morumbi" });
     jogos.push({ "id": "4161", "mandante": "Juventude", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Copa do Brasil 2019", "data": "2019-04-11", "estadio": "Alfredo Jaconi" });
     jogos.push({ "id": "4160", "mandante": "Botafogo", "visitante": "Juventude", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Copa do Brasil 2019", "data": "2019-04-04", "estadio": "Nilton Santos" });
-    jogos.push({ "id": "4159", "mandante": "Americano", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Carioca 2019", "data": "2019-03-24", "estadio": "Bacaxá" });
+    jogos.push({ "id": "4159", "mandante": "Americano", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Carioca 2019", "data": "2019-03-24", "estadio": "Elcyr Resende" });
     jogos.push({ "id": "4158", "mandante": "Botafogo", "visitante": "Portuguesa-RJ", "golsMandante": 4, "golsVisitante": 1, "campeonato": "Carioca 2019", "data": "2019-03-21", "estadio": "Nilton Santos" });
     jogos.push({ "id": "4157", "mandante": "Fluminense", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Carioca 2019", "data": "2019-03-17", "estadio": "Maracanã" });
     jogos.push({ "id": "4156", "mandante": "Botafogo", "visitante": "Madureira", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Carioca 2019", "data": "2019-03-11", "estadio": "Nilton Santos" });
@@ -353,7 +353,7 @@ function jogos() {
     jogos.push({ "id": "4152", "mandante": "Defensa y Justicia", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 3, "campeonato": "Copa Sul-Americana 2019", "data": "2019-02-20", "estadio": "Norberto Tito Tomaghello" });
     jogos.push({ "id": "4151", "mandante": "Campinense", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Copa do Brasil 2019", "data": "2019-02-13", "estadio": "Amigão" });
     jogos.push({ "id": "4150", "mandante": "Botafogo", "visitante": "Defensa y Justicia", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Copa Sul-Americana 2019", "data": "2019-02-06", "estadio": "Nilton Santos" });
-    jogos.push({ "id": "4149", "mandante": "Boavista", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 3, "campeonato": "Carioca 2019", "data": "2019-02-03", "estadio": "Bacaxá" });
+    jogos.push({ "id": "4149", "mandante": "Boavista", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 3, "campeonato": "Carioca 2019", "data": "2019-02-03", "estadio": "Elcyr Resende" });
     jogos.push({ "id": "4148", "mandante": "Botafogo", "visitante": "Resende", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Carioca 2019", "data": "2019-01-31", "estadio": "Nilton Santos" });
     jogos.push({ "id": "4147", "mandante": "Botafogo", "visitante": "Flamengo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Carioca 2019", "data": "2019-01-26", "estadio": "Nilton Santos" });
     jogos.push({ "id": "4146", "mandante": "Botafogo", "visitante": "Bangu", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Carioca 2019", "data": "2019-01-23", "estadio": "Nilton Santos" });
@@ -484,7 +484,7 @@ function jogos() {
     jogos.push({ "id": "4020", "mandante": "Botafogo", "visitante": "Estudiantes", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Libertadores 2017", "data": "2017-03-14", "estadio": "Nilton Santos" });
     jogos.push({ "id": "4019", "mandante": "Botafogo", "visitante": "Volta Redonda", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Carioca 2017", "data": "2017-03-09", "estadio": "Nilton Santos" });
     jogos.push({ "id": "4018", "mandante": "Olimpia", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Libertadores 2017", "data": "2017-02-22", "estadio": "Defensores Del Chaco", "penaltis": "1 x 3" });
-    jogos.push({ "id": "4017", "mandante": "Boavista", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 3, "campeonato": "Carioca 2017", "data": "2017-02-19", "estadio": "Bacaxá" });
+    jogos.push({ "id": "4017", "mandante": "Boavista", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 3, "campeonato": "Carioca 2017", "data": "2017-02-19", "estadio": "Elcyr Resende" });
     jogos.push({ "id": "4016", "mandante": "Botafogo", "visitante": "Olimpia", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Libertadores 2017", "data": "2017-02-15", "estadio": "Nilton Santos" });
     jogos.push({ "id": "4015", "mandante": "Botafogo", "visitante": "Flamengo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Carioca 2017", "data": "2017-02-12", "estadio": "Nilton Santos" });
     jogos.push({ "id": "4014", "mandante": "Colo-Colo", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Libertadores 2017", "data": "2017-02-08", "estadio": "Monumental David Arellano" });
@@ -540,7 +540,7 @@ function jogos() {
     jogos.push({ "id": "3964", "mandante": "Botafogo", "visitante": "Vasco", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Carioca 2016", "data": "2016-05-01", "estadio": "Maracanã" });
     jogos.push({ "id": "3963", "mandante": "Botafogo", "visitante": "Coruripe", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Copa do Brasil 2016", "data": "2016-04-28", "estadio": "Los Larios" });
     jogos.push({ "id": "3962", "mandante": "Fluminense", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Carioca 2016", "data": "2016-04-24", "estadio": "Raulino de Oliveira" });
-    jogos.push({ "id": "3961", "mandante": "Boavista", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Carioca 2016", "data": "2016-04-17", "estadio": "Bacaxá" });
+    jogos.push({ "id": "3961", "mandante": "Boavista", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Carioca 2016", "data": "2016-04-17", "estadio": "Elcyr Resende" });
     jogos.push({ "id": "3960", "mandante": "Botafogo", "visitante": "Bangu", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Carioca 2016", "data": "2016-04-10", "estadio": "São Januário" });
     jogos.push({ "id": "3959", "mandante": "Coruripe", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Copa do Brasil 2016", "data": "2016-04-05", "estadio": "Gerson Amaral" });
     jogos.push({ "id": "3958", "mandante": "Botafogo", "visitante": "Flamengo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Carioca 2016", "data": "2016-04-02", "estadio": "Mário Helênio" });
@@ -666,7 +666,7 @@ function jogos() {
     jogos.push({ "id": "3838", "mandante": "Botafogo", "visitante": "Unión Española", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Libertadores 2014", "data": "2014-04-02", "estadio": "Maracanã" });
     jogos.push({ "id": "3837", "mandante": "Botafogo", "visitante": "Nova Iguaçu", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Carioca 2014", "data": "2014-03-22", "estadio": "Moça Bonita" });
     jogos.push({ "id": "3836", "mandante": "Botafogo", "visitante": "Independiente Del Valle", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Libertadores 2014", "data": "2014-03-18", "estadio": "Maracanã" });
-    jogos.push({ "id": "3835", "mandante": "Boavista", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Carioca 2014", "data": "2014-03-15", "estadio": "Bacaxá" });
+    jogos.push({ "id": "3835", "mandante": "Boavista", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Carioca 2014", "data": "2014-03-15", "estadio": "Elcyr Resende" });
     jogos.push({ "id": "3834", "mandante": "Independiente Del Valle", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Libertadores 2014", "data": "2014-03-12", "estadio": "General Rumiñahui" });
     jogos.push({ "id": "3833", "mandante": "Botafogo", "visitante": "Flamengo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Carioca 2014", "data": "2014-03-09", "estadio": "Maracanã" });
     jogos.push({ "id": "3832", "mandante": "Audax Rio", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Carioca 2014", "data": "2014-03-06", "estadio": "Moça Bonita" });
@@ -1013,7 +1013,7 @@ function jogos() {
     jogos.push({ "id": "3491", "mandante": "Botafogo", "visitante": "Volta Redonda", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Carioca 2009", "data": "2009-02-05", "estadio": "Nilton Santos" });
     jogos.push({ "id": "3490", "mandante": "Mesquita", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Carioca 2009", "data": "2009-02-01", "estadio": "Los Larios" });
     jogos.push({ "id": "3489", "mandante": "Botafogo", "visitante": "Macaé", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Carioca 2009", "data": "2009-01-29", "estadio": "Nilton Santos" });
-    jogos.push({ "id": "3488", "mandante": "Boavista", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Carioca 2009", "data": "2009-01-24", "estadio": "Bacaxá" });
+    jogos.push({ "id": "3488", "mandante": "Boavista", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Carioca 2009", "data": "2009-01-24", "estadio": "Elcyr Resende" });
     jogos.push({ "id": "3487", "mandante": "Palmeiras", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Brasileirão 2008", "data": "2008-12-07", "estadio": "Parque Antártica" });
     jogos.push({ "id": "3486", "mandante": "Botafogo", "visitante": "Figueirense", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Brasileirão 2008", "data": "2008-11-30", "estadio": "Nilton Santos" });
     jogos.push({ "id": "3485", "mandante": "Botafogo", "visitante": "Atlético-PR", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Brasileirão 2008", "data": "2008-11-22", "estadio": "Nilton Santos" });
@@ -1151,7 +1151,7 @@ function jogos() {
     jogos.push({ "id": "3353", "mandante": "Ceará", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Copa do Brasil 2007", "data": "2007-03-14", "estadio": "Castelão-CE" });
     jogos.push({ "id": "3352", "mandante": "Botafogo", "visitante": "Friburguense", "golsMandante": 7, "golsVisitante": 0, "campeonato": "Carioca 2007", "data": "2007-03-11", "estadio": "Maracanã" });
     jogos.push({ "id": "3351", "mandante": "Botafogo", "visitante": "CSA", "golsMandante": 5, "golsVisitante": 2, "campeonato": "Copa do Brasil 2007", "data": "2007-03-01", "estadio": "Maracanã" });
-    jogos.push({ "id": "3350", "mandante": "Boavista", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 2, "campeonato": "Carioca 2007", "data": "2007-02-17", "estadio": "Bacaxá" });
+    jogos.push({ "id": "3350", "mandante": "Boavista", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 2, "campeonato": "Carioca 2007", "data": "2007-02-17", "estadio": "Elcyr Resende" });
     jogos.push({ "id": "3349", "mandante": "CSA", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Copa do Brasil 2007", "data": "2007-02-14", "estadio": "Rei Pelé" });
     jogos.push({ "id": "3348", "mandante": "Botafogo", "visitante": "Flamengo", "golsMandante": 3, "golsVisitante": 3, "campeonato": "Carioca 2007", "data": "2007-02-11", "estadio": "Maracanã" });
     jogos.push({ "id": "3347", "mandante": "Botafogo", "visitante": "Americano", "golsMandante": 3, "golsVisitante": 0, "campeonato": "Carioca 2007", "data": "2007-02-03", "estadio": "Maracanã" });
@@ -1772,7 +1772,7 @@ function jogos() {
     jogos.push({ "id": "2732", "mandante": "Botafogo", "visitante": "Volta Redonda", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Carioca 1996", "data": "1996-06-09", "estadio": "Caio Martins" });
     jogos.push({ "id": "2731", "mandante": "Americano", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Carioca 1996", "data": "1996-06-06", "estadio": "Godofredo Cruz" });
     jogos.push({ "id": "2730", "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Carioca 1996", "data": "1996-06-02", "estadio": "Maracanã" });
-    jogos.push({ "id": "2729", "mandante": "Barreira", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Carioca 1996", "data": "1996-05-29", "estadio": "Bacaxá" });
+    jogos.push({ "id": "2729", "mandante": "Barreira", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Carioca 1996", "data": "1996-05-29", "estadio": "Elcyr Resende" });
     jogos.push({ "id": "2728", "mandante": "Botafogo", "visitante": "Vasco", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Carioca 1996", "data": "1996-05-26", "estadio": "Maracanã" });
     jogos.push({ "id": "2727", "mandante": "Botafogo", "visitante": "Bangu", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Carioca 1996", "data": "1996-05-18", "estadio": "Caio Martins" });
     jogos.push({ "id": "2726", "mandante": "Botafogo", "visitante": "América-RJ", "golsMandante": 7, "golsVisitante": 0, "campeonato": "Carioca 1996", "data": "1996-05-11", "estadio": "Rua Bariri" });
@@ -1855,7 +1855,7 @@ function jogos() {
     jogos.push({ "id": "2649", "mandante": "Botafogo", "visitante": "São Cristóvão", "golsMandante": 7, "golsVisitante": 0, "campeonato": "Carioca 1995", "data": "1995-03-08", "estadio": "Caio Martins" });
     jogos.push({ "id": "2648", "mandante": "Entrerriense", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 5, "campeonato": "Carioca 1995", "data": "1995-03-05", "estadio": "Odair Gama" });
     jogos.push({ "id": "2647", "mandante": "Botafogo", "visitante": "Olaria", "golsMandante": 3, "golsVisitante": 0, "campeonato": "Carioca 1995", "data": "1995-03-02", "estadio": "Caio Martins" });
-    jogos.push({ "id": "2646", "mandante": "Barreira", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 4, "campeonato": "Carioca 1995", "data": "1995-02-25", "estadio": "Bacaxá" });
+    jogos.push({ "id": "2646", "mandante": "Barreira", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 4, "campeonato": "Carioca 1995", "data": "1995-02-25", "estadio": "Elcyr Resende" });
     jogos.push({ "id": "2645", "mandante": "Botafogo", "visitante": "Vasco", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Carioca 1995", "data": "1995-02-22", "estadio": "Maracanã" });
     jogos.push({ "id": "2644", "mandante": "América-RJ", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Carioca 1995", "data": "1995-02-19", "estadio": "Moça Bonita" });
     jogos.push({ "id": "2643", "mandante": "Botafogo", "visitante": "Itaperuna", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Carioca 1995", "data": "1995-02-15", "estadio": "Conselheiro Galvão" });
