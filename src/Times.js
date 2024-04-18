@@ -808,7 +808,7 @@ function Times(time, data) {
                   backgroundColor = "#048439";
                   letterColor = "white";
                   break;
-            case "Guaraní-PAR":
+            case "Guarani-PAR":
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#fde900";
