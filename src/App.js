@@ -18,17 +18,19 @@ function App() {
   );
   usuario = usuario[0];
   //getHenriqueJogos(usuario);
+  document.body.style = 'background: black;';
 
   return (
     <>
       <Router>
-        <Navbar conjuntoUsuarios={conjuntoUsuarios} meuTime={"Botafogo"} meusJogos={conjuntoUsuarios.getUsuarioAtual().meusJogos} style={{ position: 'fixed' }} />
+        {/*<Navbar conjuntoUsuarios={conjuntoUsuarios} meuTime={"Botafogo"} meusJogos={conjuntoUsuarios.getUsuarioAtual().meusJogos} style={{ position: 'fixed' }} />*/}
         <Routes>
           <Route exact path='/jogosquefui' element={<Perfil
                         conjuntoUsuarios={conjuntoUsuarios}
                         meuTime="Botafogo"
                         meusJogos={BotafogoJogos()}
                     />}
+                    style={{backgroundColor: "black"}}
           />
         </Routes>
       </Router>

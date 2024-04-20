@@ -16,7 +16,7 @@ function Perfil(props) {
         <div style={{ margin: '20px' }}>
           <p style={{ display: 'inline', color: Times(props.meuTime).letterColor }}>
           {/* {props.conjuntoUsuarios.getUsuarioAtual().getNome().toUpperCase()} {props.conjuntoUsuarios.getUsuarioAtual().getSobrenome().toUpperCase()} */}
-          HENRIQUE FILHO
+          Botafogo de Futebol e Regatas
           </p>
         </div>
           <img src={require('../escudos/' + Times(props.meuTime).escudo + '.png')} className="App-logo" alt={"Escudo do " + props.meuTime} style={{ verticalAlign: 'middle', width: '100px', height: '100px' }} />

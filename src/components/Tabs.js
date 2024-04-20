@@ -94,7 +94,7 @@ class Tabs extends Component {
                         </div>
                         {ultimos === 1 ? 
                         <div className="container" style={{ color: "white", backgroundColor: 'black'}}>
-                            <Estatisticas meuTime={meuTime} jogos={meusJogos} />
+                            {/*<Estatisticas meuTime={meuTime} jogos={meusJogos} />*/}
                             {meusJogos.length > 0 ? currentItems.map((index) => {
                                 let mostraAno = false;
                                 if (anoAtual !== index.data.split("-")[0]) {
