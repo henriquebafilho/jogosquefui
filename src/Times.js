@@ -198,7 +198,7 @@ function Times(time, data) {
             case "Bahia":
                   nomeAtual = time;
                   escudo = time;
-                  backgroundColor = "#003a94";
+                  backgroundColor = "#0188d6";
                   letterColor = "white";
                   break;
             case "Banfield":
