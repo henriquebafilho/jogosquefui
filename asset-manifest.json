@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jogosquefui/static/css/main.a46d06f1.css",
-    "main.js": "/jogosquefui/static/js/main.a1958cc8.js",
+    "main.js": "/jogosquefui/static/js/main.7576c257.js",
     "static/media/Atanasio Girardot.png": "/jogosquefui/static/media/Atanasio Girardot.654b0fba4632fac4057b.png",
     "static/media/Corisabbá.png": "/jogosquefui/static/media/Corisabbá.4b6783df88df9e49eae8.png",
     "static/media/Colosso da Lagoa.png": "/jogosquefui/static/media/Colosso da Lagoa.b7008037ac5675a07045.png",
@@ -155,7 +155,7 @@
     "static/media/Yamaha.png": "/jogosquefui/static/media/Yamaha.69d7924642cc47dd5e05.png",
     "static/media/XVdePiracicaba.png": "/jogosquefui/static/media/XVdePiracicaba.f499332ee90d774e6857.png",
     "static/media/Nacional-PAR.png": "/jogosquefui/static/media/Nacional-PAR.72e2bee66a1f530e7f09.png",
-    "static/media/Resende.png": "/jogosquefui/static/media/Resende.5991c0da2a054826bbf9.png",
+    "static/media/Resende2020.png": "/jogosquefui/static/media/Resende2020.5991c0da2a054826bbf9.png",
     "static/media/Fluminense.png": "/jogosquefui/static/media/Fluminense.4dec2be60ac0def40fc7.png",
     "static/media/Internacional2009.png": "/jogosquefui/static/media/Internacional2009.c1ab14922f6973aecc35.png",
     "static/media/Internacional.png": "/jogosquefui/static/media/Internacional.764f40173bac3d549958.png",
@@ -345,7 +345,7 @@
     "static/media/Banfield.png": "/jogosquefui/static/media/Banfield.d6cc331a582d815b100d.png",
     "static/media/Rio Branco-ES.png": "/jogosquefui/static/media/Rio Branco-ES.f15a219b087a6b1b54d6.png",
     "static/media/Comercial-MS.png": "/jogosquefui/static/media/Comercial-MS.6b62902a22a9b36b615b.png",
-    "static/media/Resende2020.png": "/jogosquefui/static/media/Resende2020.c8ce260f10343f90b06c.png",
+    "static/media/Resende.png": "/jogosquefui/static/media/Resende.c8ce260f10343f90b06c.png",
     "static/media/LDU.png": "/jogosquefui/static/media/LDU.6ee22c75499554358158.png",
     "static/media/Peñarol.png": "/jogosquefui/static/media/Peñarol.b88a12d879171385cb20.png",
     "static/media/Campo Grande-RJ.png": "/jogosquefui/static/media/Campo Grande-RJ.7cd0c0923a6f10b1fe05.png",
@@ -392,10 +392,10 @@
     "static/media/Ceará.png": "/jogosquefui/static/media/Ceará.2667c31fce77d94092f4.png",
     "index.html": "/jogosquefui/index.html",
     "main.a46d06f1.css.map": "/jogosquefui/static/css/main.a46d06f1.css.map",
-    "main.a1958cc8.js.map": "/jogosquefui/static/js/main.a1958cc8.js.map"
+    "main.7576c257.js.map": "/jogosquefui/static/js/main.7576c257.js.map"
   },
   "entrypoints": [
     "static/css/main.a46d06f1.css",
-    "static/js/main.a1958cc8.js"
+    "static/js/main.7576c257.js"
   ]
 }
