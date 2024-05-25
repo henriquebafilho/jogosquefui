@@ -1342,7 +1342,7 @@ function Times(time, data) {
                   break;
             case "Resende":
                   nomeAtual = time;
-                  if (ano < 2020) {
+                  if (ano >= 2020 || ano < 2024) {
                         escudo = "Resende2020";
                   } else {
                         escudo = time;
