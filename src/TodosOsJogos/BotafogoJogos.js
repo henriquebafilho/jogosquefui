@@ -292,7 +292,7 @@ function jogos() {
     jogos.push({ "id": "4223", "mandante": "Botafogo", "visitante": "Atlético-MG", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Brasileirão 2020", "data": "2020-08-19", "estadio": "Nilton Santos" });
     jogos.push({ "id": "4222", "mandante": "Fortaleza", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Brasileirão 2020", "data": "2020-08-16", "estadio": "Castelão-CE" });
     jogos.push({ "id": "4221", "mandante": "Red Bull Bragantino", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Brasileirão 2020", "data": "2020-08-12", "estadio": "Nabi Abi Chedid" });
-    jogos.push({ "id": "4220", "mandante": "Botafogo", "visitante": "Fluminense", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Carioca 2020", "data": "2020-08-01", "estadio": "Nilton Santos" });
+    jogos.push({ "id": "4220", "mandante": "Botafogo", "visitante": "Fluminense", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Amistoso", "data": "2020-08-01", "estadio": "Nilton Santos" });
     jogos.push({ "id": "4219", "mandante": "Fluminense", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Amistoso", "data": "2020-07-25", "estadio": "Nilton Santos" });
     jogos.push({ "id": "4218", "mandante": "Fluminense", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Carioca 2020", "data": "2020-07-05", "estadio": "Nilton Santos" });
     jogos.push({ "id": "4217", "mandante": "Portuguesa-RJ", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Carioca 2020", "data": "2020-07-01", "estadio": "Luso Brasileiro" });
@@ -307,7 +307,7 @@ function jogos() {
     jogos.push({ "id": "4208", "mandante": "Botafogo", "visitante": "Vasco", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Carioca 2020", "data": "2020-02-02", "estadio": "Nilton Santos" });
     jogos.push({ "id": "4207", "mandante": "Botafogo", "visitante": "Resende", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Carioca 2020", "data": "2020-01-30", "estadio": "Nilton Santos" });
     jogos.push({ "id": "4206", "mandante": "Botafogo", "visitante": "Macaé", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Carioca 2020", "data": "2020-01-26", "estadio": "Nilton Santos" });
-    jogos.push({ "id": "4205", "mandante": "Madureira", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Carioca 2020", "data": "2020-01-21", "estadio": "Conselheiro Galvão" });
+    jogos.push({ "id": "4205", "mandante": "Madureira", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Carioca 2020", "data": "2020-01-20", "estadio": "Conselheiro Galvão" });
     jogos.push({ "id": "4204", "mandante": "Volta Redonda", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Carioca 2020", "data": "2020-01-18", "estadio": "Raulino de Oliveira" });
     jogos.push({ "id": "4203", "mandante": "Botafogo", "visitante": "Ceará", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Brasileirão 2019", "data": "2019-12-08", "estadio": "Nilton Santos" });
     jogos.push({ "id": "4202", "mandante": "Atlético-MG", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Brasileirão 2019", "data": "2019-12-04", "estadio": "Mineirão" });
