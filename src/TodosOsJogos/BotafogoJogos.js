@@ -3,12 +3,13 @@ function jogos() {
 
     jogos.push({ "id": "08122024", "mandante": "Botafogo", "visitante": "São Paulo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2024", "data": "2024-12-08", "estadio": "Nilton Santos" });
     jogos.push({ "id": "04122024", "mandante": "Internacional", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2024", "data": "2024-12-04", "estadio": "Beira-Rio" });
-    jogos.push({ "id": "30112024", "mandante": "Palmeiras", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2024", "data": "2024-11-30", "estadio": "Allianz Parque" });
+    jogos.push({ "id": "20112024", "mandante": "Atlético-MG", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Libertadores 2024", "data": "2024-11-30", "estadio": "Monumental de Nuñez" });
+    jogos.push({ "id": "30112024", "mandante": "Palmeiras", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2024", "data": "2024-11-26", "estadio": "Allianz Parque" });
     jogos.push({ "id": "23112024", "mandante": "Botafogo", "visitante": "Vitória", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2024", "data": "2024-11-23", "estadio": "Nilton Santos" });
     jogos.push({ "id": "20112024", "mandante": "Atlético-MG", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2024", "data": "2024-11-20", "estadio": "Arena MRV" });
     jogos.push({ "id": "13112024", "mandante": "Botafogo", "visitante": "Cuiabá", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2024", "data": "2024-11-09", "estadio": "Nilton Santos", "horario": "16:30" });
     jogos.push({ "id": "07112024", "mandante": "Botafogo", "visitante": "Vasco", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2024", "data": "2024-11-05", "estadio": "Nilton Santos", "horario": "21:30" });
-    jogos.push({ "id": "20102024", "mandante": "Peñarol", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Libertadores 2024", "data": "2024-10-30", "estadio": "Campeón del Siglo", "horario": "21:30" });
+    jogos.push({ "id": "20102024", "mandante": "Peñarol", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Libertadores 2024", "data": "2024-10-30", "estadio": "Centenario-URU", "horario": "21:30" });
     jogos.push({ "id": "26102024", "mandante": "Red Bull Bragantino", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Brasileirão 2024", "data": "2024-10-26", "estadio": "Nabi Abi Chedid", "horario": "19:00" });
     jogos.push({ "id": "23102024", "mandante": "Botafogo", "visitante": "Peñarol", "golsMandante": 5, "golsVisitante": 0, "campeonato": "Libertadores 2024", "data": "2024-10-23", "estadio": "Nilton Santos", "horario": "21:30" });
     jogos.push({ "id": "19102024", "mandante": "Botafogo", "visitante": "Criciúma", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Brasileirão 2024", "data": "2024-10-18", "estadio": "Maracanã", "horario": "20:00" });
