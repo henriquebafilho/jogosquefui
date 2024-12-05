@@ -1,7 +1,7 @@
 function jogos() {
     let jogos = [];
 
-    jogos.push({ "id": "08122024", "mandante": "Botafogo", "visitante": "São Paulo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2024", "data": "2024-12-08", "estadio": "Nilton Santos" });
+    jogos.push({ "id": "08122024", "mandante": "Botafogo", "visitante": "São Paulo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2024", "data": "2024-12-08", "estadio": "Nilton Santos", "horario": "16:00" });
     jogos.push({ "id": "04122024", "mandante": "Internacional", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Brasileirão 2024", "data": "2024-12-04", "estadio": "Beira-Rio" });
     jogos.push({ "id": "20112024", "mandante": "Atlético-MG", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Libertadores 2024", "data": "2024-11-30", "estadio": "Monumental de Nuñez", "horario": "17:00" });
     jogos.push({ "id": "30112024", "mandante": "Palmeiras", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Brasileirão 2024", "data": "2024-11-26", "estadio": "Allianz Parque", "horario": "21:30" });
