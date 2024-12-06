@@ -1,6 +1,18 @@
 function jogos() {
     let jogos = [];
 
+    jogos.push({ "id": "22022025", "mandante": "Vasco", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Carioca 2025", "data": "2025-02-22", "estadio": "Maracanã" });
+    jogos.push({ "id": "15022025", "mandante": "Boavista", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Carioca 2025", "data": "2025-02-15", "estadio": "Elcyr Resende" });
+    jogos.push({ "id": "12022025", "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Carioca 2025", "data": "2025-02-12", "estadio": "Maracanã" });
+    jogos.push({ "id": "08022025", "mandante": "Botafogo", "visitante": "Madureira", "golsMandante": "", "golsVisitante": "", "campeonato": "Carioca 2025", "data": "2025-02-08", "estadio": "Nilton Santos" });
+    jogos.push({ "id": "05022025", "mandante": "Nova Iguaçu", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Carioca 2025", "data": "2025-02-05", "estadio": "Nilton Santos" });
+    jogos.push({ "id": "29012025", "mandante": "Botafogo", "visitante": "Fluminense", "golsMandante": "", "golsVisitante": "", "campeonato": "Carioca 2025", "data": "2025-01-29", "estadio": "Nilton Santos" });
+    jogos.push({ "id": "25012025", "mandante": "Botafogo", "visitante": "Bangu", "golsMandante": "", "golsVisitante": "", "campeonato": "Carioca 2025", "data": "2025-01-25", "estadio": "Nilton Santos" });
+    jogos.push({ "id": "22012025", "mandante": "Botafogo", "visitante": "Volta Redonda", "golsMandante": "", "golsVisitante": "", "campeonato": "Carioca 2025", "data": "2025-01-22", "estadio": "Nilton Santos" });
+    jogos.push({ "id": "18012025", "mandante": "Sampaio Corrêa-RJ", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Carioca 2025", "data": "2025-01-18", "estadio": "Elcyr Resende" });
+    jogos.push({ "id": "15012025", "mandante": "Botafogo", "visitante": "Portuguesa-RJ", "golsMandante": "", "golsVisitante": "", "campeonato": "Carioca 2025", "data": "2025-01-15", "estadio": "Nilton Santos" });
+    jogos.push({ "id": "11012025", "mandante": "Botafogo", "visitante": "Maricá", "golsMandante": "", "golsVisitante": "", "campeonato": "Carioca 2025", "data": "2025-01-11", "estadio": "Nilton Santos" });
+    jogos.push({ "id": "11122024", "mandante": "Botafogo", "visitante": "Pachuca", "golsMandante": "", "golsVisitante": "", "campeonato": "Mundial de Clubes 2024", "data": "2024-12-08", "estadio": "Stadium 974", "horario": "14:00" });
     jogos.push({ "id": "08122024", "mandante": "Botafogo", "visitante": "São Paulo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2024", "data": "2024-12-08", "estadio": "Nilton Santos", "horario": "16:00" });
     jogos.push({ "id": "04122024", "mandante": "Internacional", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Brasileirão 2024", "data": "2024-12-04", "estadio": "Beira-Rio" });
     jogos.push({ "id": "20112024", "mandante": "Atlético-MG", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Libertadores 2024", "data": "2024-11-30", "estadio": "Monumental de Nuñez", "horario": "17:00" });
@@ -1312,7 +1324,7 @@ function jogos() {
     jogos.push({ "id": "3211", "mandante": "Botafogo", "visitante": "Grêmio", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Brasileirão 2004", "data": "2004-09-09", "estadio": "Caio Martins" });
     jogos.push({ "id": "3210", "mandante": "Paysandu", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Brasileirão 2004", "data": "2004-09-02", "estadio": "Mangueirão" });
     jogos.push({ "id": "3209", "mandante": "Botafogo", "visitante": "Criciúma", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Brasileirão 2004", "data": "2004-08-28", "estadio": "Caio Martins" });
-    jogos.push({ "id": "3208", "mandante": "Atlético-MG", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Brasileirão 2004", "data": "2004-08-22", "estadio": "Mineirão" });
+    jogos.push({ "id": "3208", "mandante": "Atlético-MG", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Brasileirão 2004", "data": "2004-08-22", "estadio": "Independência" });
     jogos.push({ "id": "3207", "mandante": "Botafogo", "visitante": "Santos", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Brasileirão 2004", "data": "2004-08-18", "estadio": "Caio Martins" });
     jogos.push({ "id": "3206", "mandante": "Goiás", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Brasileirão 2004", "data": "2004-08-15", "estadio": "Serra Dourada" });
     jogos.push({ "id": "3205", "mandante": "Botafogo", "visitante": "Atlético-PR", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Brasileirão 2004", "data": "2004-08-12", "estadio": "Caio Martins" });

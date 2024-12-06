@@ -112,11 +112,11 @@ function Times(time, data) {
             case "Atlético-PR": case "Athletico-PR":
                   nomeAtual = "Athletico-PR";
                   if (time === "Atlético-PR") {
-                        if(ano <= 1969){
+                        if (ano <= 1969) {
                               escudo = "Atlético-PR1969";
                         } else if (ano >= 1970 && ano <= 1989) {
                               escudo = "Atlético-PR1989";
-                        } else if (ano > 1989 && ano < 1997){
+                        } else if (ano > 1989 && ano < 1997) {
                               escudo = "Atlético-PR1996";
                         } else {
                               escudo = "Atlético-PR";
@@ -239,7 +239,9 @@ function Times(time, data) {
                   break;
             case "Boavista": case "Barreira":
                   nomeAtual = "Boavista";
-                  if (ano < 2004) {
+                  if (ano >= 2004 && ano <= 2024) {
+                        escudo = "Boavista2004";
+                  } else if (ano < 2004) {
                         escudo = "Barreira";
                   } else {
                         escudo = time;
@@ -356,13 +358,13 @@ function Times(time, data) {
                   escudo = time;
                   backgroundColor = "black";
                   letterColor = "white";
-                  break;    
+                  break;
             case "Canto do Rio":
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#101377";
                   letterColor = "white";
-                  break;    
+                  break;
             case "Capivariano":
                   nomeAtual = time;
                   escudo = time;
@@ -383,7 +385,7 @@ function Times(time, data) {
                   break;
             case "Carioca FC":
                   nomeAtual = time;
-                  if(ano < 1933){
+                  if (ano < 1933) {
                         escudo = "Carioca FC1933";
                   } else {
                         escudo = time;
@@ -956,7 +958,7 @@ function Times(time, data) {
                   break;
             case "Juventus":
                   nomeAtual = time;
-                  if (ano < 2004){
+                  if (ano < 2004) {
                         escudo = "Juventus1990";
                   } else if (ano >= 2004 && ano < 2017) {
                         escudo = "Juventus2004";
@@ -1030,6 +1032,12 @@ function Times(time, data) {
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#11519b";
+                  letterColor = "white";
+                  break;
+            case "Maricá":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#023866";
                   letterColor = "white";
                   break;
             case "Marília":
@@ -1212,6 +1220,12 @@ function Times(time, data) {
                   nomeAtual = time;
                   escudo = "OrientePetrolero";
                   backgroundColor = "#007c3a";
+                  letterColor = "white";
+                  break;
+            case "Pachuca":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#023866";
                   letterColor = "white";
                   break;
             case "Palmeiras":
