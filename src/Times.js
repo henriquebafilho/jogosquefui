@@ -1336,6 +1336,12 @@ function Times(time, data) {
                   backgroundColor = "#003a94";
                   letterColor = "white";
                   break;
+            case "Racing":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#029cdc";
+                  letterColor = "white";
+                  break;
             case "Real Garcilaso":
                   nomeAtual = time;
                   escudo = "RealGarcilaso";
