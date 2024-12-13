@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jogosquefui/static/css/main.37976d44.css",
-    "main.js": "/jogosquefui/static/js/main.031e0578.js",
+    "main.js": "/jogosquefui/static/js/main.0a25cfef.js",
     "static/media/Atanasio Girardot.png": "/jogosquefui/static/media/Atanasio Girardot.654b0fba4632fac4057b.png",
     "static/media/Corisabbá.png": "/jogosquefui/static/media/Corisabbá.4b6783df88df9e49eae8.png",
     "static/media/Colosso da Lagoa.png": "/jogosquefui/static/media/Colosso da Lagoa.b7008037ac5675a07045.png",
@@ -359,6 +359,7 @@
     "static/media/River-PI.png": "/jogosquefui/static/media/River-PI.9e53b2b0dd09d1499952.png",
     "static/media/Galícia.png": "/jogosquefui/static/media/Galícia.6b0ebb229e2306877018.png",
     "static/media/Fluminense de Feira.png": "/jogosquefui/static/media/Fluminense de Feira.f7ab1f0e8ce18c73e1b0.png",
+    "static/media/Racing.png": "/jogosquefui/static/media/Racing.302ac3f87f97ec32c19e.png",
     "static/media/Flamengo.png": "/jogosquefui/static/media/Flamengo.eb6c08a45e8b1a7b78f4.png",
     "static/media/Botafogo.png": "/jogosquefui/static/media/Botafogo.e8ac361ebb345748095c.png",
     "static/media/Democrata.png": "/jogosquefui/static/media/Democrata.993fcfb1751351557a88.png",
@@ -395,10 +396,10 @@
     "static/media/Ceará.png": "/jogosquefui/static/media/Ceará.2667c31fce77d94092f4.png",
     "index.html": "/jogosquefui/index.html",
     "main.37976d44.css.map": "/jogosquefui/static/css/main.37976d44.css.map",
-    "main.031e0578.js.map": "/jogosquefui/static/js/main.031e0578.js.map"
+    "main.0a25cfef.js.map": "/jogosquefui/static/js/main.0a25cfef.js.map"
   },
   "entrypoints": [
     "static/css/main.37976d44.css",
-    "static/js/main.031e0578.js"
+    "static/js/main.0a25cfef.js"
   ]
 }
