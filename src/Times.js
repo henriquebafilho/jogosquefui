@@ -19,6 +19,12 @@ function Times(time, data) {
                   backgroundColor = "#d30a11";
                   letterColor = "white";
                   break;
+            case "África do Sul":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#fde900";
+                  letterColor = "#048439";
+                  break;
             case "Água Santa":
                   nomeAtual = time;
                   escudo = "ÁguaSanta";
@@ -131,6 +137,18 @@ function Times(time, data) {
                   nomeAtual = time;
                   escudo = "AtléticoNacional";
                   backgroundColor = "#048439";
+                  letterColor = "white";
+                  break;
+            case "Atlético de Madrid":
+                  nomeAtual = time;
+                  if (ano < 1970) {
+                        escudo = "Atlético de Madrid1950";
+                  } else if (ano >= 1970 && ano < 2016) {
+                        escudo = "Atlético de Madrid1970";
+                  } else {
+                        escudo = time;
+                  }
+                  backgroundColor = "#d30a11";
                   letterColor = "white";
                   break;
             case "Atlético-GO":
@@ -840,6 +858,12 @@ function Times(time, data) {
                   backgroundColor = "#075798";
                   letterColor = "white";
                   break;
+            case "Huelva":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#0702a6";
+                  letterColor = "white";
+                  break;
             case "Independiente":
                   nomeAtual = time;
                   escudo = time;
@@ -1246,6 +1270,16 @@ function Times(time, data) {
                   backgroundColor = "#003a94";
                   letterColor = "white";
                   break;
+            case "Paris Saint-Germain":
+                  nomeAtual = time;
+                  if (ano < 1990) {
+                        escudo = "Paris Saint-Germain1990";
+                  } else {
+                        escudo = time;
+                  }
+                  backgroundColor = "#004170";
+                  letterColor = "white";
+                  break;
             case "Patronato":
                   nomeAtual = time;
                   escudo = time;
@@ -1572,7 +1606,7 @@ function Times(time, data) {
                   break;
             case "Shandong Luneng":
                   nomeAtual = time;
-                  escudo = "ShandongLuneng";
+                  escudo = time;
                   backgroundColor = "#ff6600";
                   letterColor = "white";
                   break;
@@ -1774,6 +1808,12 @@ function Times(time, data) {
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#d30a11";
+                  letterColor = "white";
+                  break;
+            case "Vitória de Guimarães":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "black";
                   letterColor = "white";
                   break;
             case "Vitória-ES":

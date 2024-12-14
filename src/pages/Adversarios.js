@@ -8,7 +8,7 @@ class Adversarios extends Component {
     super(props);
     this.state = {
       meuTime: props.meuTime,
-      jogos: props.meusJogos/* .getJogos() */,
+      jogos: props.meusJogos,
       adversarios: [],
       filtered: [],
       isLoading: false,
@@ -77,8 +77,6 @@ class Adversarios extends Component {
       <>
         {this.state.clicked ? <ViewAdversario meuTime={this.props.meuTime} meusJogos={meusJogos} jogosAdversario={this.state.jogosAdversario} adversario={this.state.adversarioAtual} /> :
           <div className="App-header" style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor, alignItems: 'normal' }}>
-            {/* <h1>Adversários</h1>
-          <br /> */}
             <table>
               <tbody>
                 {this.state.isLoading && <h1>Carregando...</h1>}
@@ -96,7 +94,7 @@ class Adversarios extends Component {
                 />
                 {this.state.filtered.length > 0 ?
                   !this.state.isLoading && this.state.filtered.map(function (i) {
-                    var totalAdversario = common.getTotalAdversario(meuTime, i, meusJogos/* .getJogos() */);
+                    var totalAdversario = common.getTotalAdversario(meuTime, i, meusJogos);
                     return <div key={i}>
                       <button id='selectAdversario' onClick={() => buttonClickFunction(Times(i).nomeAtual)} style={{ backgroundColor: Times(Times(i).nomeAtual).backgroundColor, color: Times(Times(i).nomeAtual).letterColor, borderColor: Times(meuTime).backgroundColor === 'white' ? 'black' : 'white', borderStyle: 'solid' }}>
                         <img src={require('../escudos/' + Times(Times(i).nomeAtual).escudo + '.png')} style={{ verticalAlign: 'middle' }} alt='escudo' height='75' width='75' />
