@@ -1687,7 +1687,7 @@ function jogos() {
     jogos.push({ "mandante": "Guarani", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 3, "campeonato": "Brasileirão 1998", "data": "1998-08-05", "estadio": "Brinco de Ouro da Princesa" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Vitória", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Brasileirão 1998", "data": "1998-08-02", "estadio": "Caio Martins" });
     jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Brasileirão 1998", "data": "1998-07-26", "estadio": "Maracanã" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "Seleção do Vietnã", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1998-05-24", "estadio": "Hanói Stadium" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Vietnã", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1998-05-24", "estadio": "Hanói Stadium" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Americano", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Carioca 1998", "data": "1998-05-16", "estadio": "Caio Martins" });
     jogos.push({ "mandante": "Friburguense", "visitante": "Botafogo", "golsMandante": 4, "golsVisitante": 2, "campeonato": "Carioca 1998", "data": "1998-05-13", "estadio": "Eduardo Guinle" });
     jogos.push({ "mandante": "Vasco", "visitante": "Botafogo", "golsMandante": "WO", "golsVisitante": 0, "campeonato": "Carioca 1998", "data": "1998-05-10", "estadio": "Maracanã" });
@@ -1794,9 +1794,10 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "São Paulo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Brasileirão 1996", "data": "1996-08-20", "estadio": "Caio Martins" });
     jogos.push({ "mandante": "Fluminense", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Brasileirão 1996", "data": "1996-08-18", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Atlético-PR", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Brasileirão 1996", "data": "1996-08-14", "estadio": "Arena da Baixada" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "Juventus", "golsMandante": 4, "golsVisitante": 4, "campeonato": "Tereza Herrera 1996", "data": "1996-08-10", "estadio": "Riazor", "penaltis": "3 x 0" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "Valencia", "golsMandante": 1, "golsVisitante": 1, "campeonato": "President of Alania Cup", "data": "1996-08-04", "estadio": "Alania" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "Cerezo Osaka", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Nissan Ham CUP", "data": "1996-07-27", "estadio": "Nagai Stadium" });
+    jogos.push({ "mandante": "Juventus", "visitante": "Botafogo", "golsMandante": 4, "golsVisitante": 4, "campeonato": "Tereza Herrera 1996", "data": "1996-08-10", "estadio": "Riazor", "penaltis": "0 x 3" });
+    jogos.push({ "mandante": "Valencia", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "President of Alania Cup", "data": "1996-08-04", "estadio": "Alania", "penaltis": "4 x 5" });
+    jogos.push({ "mandante": "Auxerre", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 3, "campeonato": "President of Alania Cup", "data": "1996-08-03", "estadio": "Alania" });
+    jogos.push({ "mandante": "Cerezo Osaka", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Nissan Ham CUP", "data": "1996-07-27", "estadio": "Nagai Stadium" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Vasco", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Copa Rio-Brasília 1996", "data": "1996-07-14", "estadio": "Mané Garrincha" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Itaperuna", "golsMandante": 4, "golsVisitante": 0, "campeonato": "Carioca 1996", "data": "1996-06-27", "estadio": "Caio Martins" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Fluminense", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Carioca 1996", "data": "1996-06-22", "estadio": "Rua Bariri" });
@@ -4540,6 +4541,18 @@ function jogos() {
     jogos.push({ "mandante": "Atlético de Madrid", "visitante": "Botafogo", "golsMandante": 4, "golsVisitante": 2, "campeonato": "Troféu Colombino", "data": "1985-08-17", "estadio": "Colombino" });
     jogos.push({ "mandante": "Huelva", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Troféu Colombino", "data": "1985-08-18", "estadio": "Colombino", "penaltis": "2 x 4" });
     jogos.push({ "mandante": "Botafogo", "visitante": "África do Sul", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Amistoso", "data": "2010-03-20", "estadio": "Nilton Santos" });
+    jogos.push({ "mandante": "Internacional", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 5, "campeonato": "Amistoso", "data": "1970-09-06", "estadio": "Colosso da Lagoa" });
+    jogos.push({ "mandante": "Internacional", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1931-06-21", "estadio": "Estádio dos Eucaliptos" });
+    jogos.push({ "mandante": "Santiago Wanderers", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Amistoso", "data": "2005-01-18", "estadio": "Playa Ancha" });
+    jogos.push({ "mandante": "Everton de Viña del Mar", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Amistoso", "data": "2005-01-14", "estadio": "Sausalito" });
+    jogos.push({ "mandante": "Colo-Colo", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Copa Montevidéu", "data": "1953-02-11", "estadio": "Centenario-URU" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Orgryte IS", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Amistoso", "data": "2004-03-08", "estadio": "Caio Martins" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Toluca", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Amistoso", "data": "2002-07-21", "estadio": "Jair Toscano" });
+    jogos.push({ "mandante": "Seleção de Ulsan", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Amistoso", "data": "2001-04-28", "estadio": "Munsu Stadium" });
+    jogos.push({ "mandante": "Roma", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Torneio Centenário do Rapid Viena", "data": "1999-07-24", "estadio": "Ernst Happel" });
+    jogos.push({ "mandante": "Werder Bremen", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Torneio Centenário do Rapid Viena", "data": "1999-07-24", "estadio": "Ernst Happel", "penaltis": "3 x 4" });
+    jogos.push({ "mandante": "Jamaica", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1998-11-18", "estadio": "Independence Park" });
+    jogos.push({ "mandante": "Deportivo La Coruña", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Tereza Herrera 1996", "data": "1996-08-08", "estadio": "Riazor" });
 
     jogos.sort(function (a, b) {
         return a.data < b.data ? -1 : a.data > b.data ? 1 : 0;
