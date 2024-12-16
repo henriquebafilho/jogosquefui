@@ -513,6 +513,12 @@ function Times(time, data) {
                   backgroundColor = "#d30a11";
                   letterColor = "white";
                   break;
+            case "Combinado 2ª Divisão-MG":
+                  nomeAtual = time;
+                  escudo = "escudo";
+                  backgroundColor = "grey";
+                  letterColor = "white";
+                  break;
             case "Comercial-MS":
                   nomeAtual = time;
                   escudo = time;
@@ -565,6 +571,12 @@ function Times(time, data) {
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#006437";
+                  letterColor = "white";
+                  break;
+            case "Corumbaense":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "black";
                   letterColor = "white";
                   break;
             case "Coruripe":
@@ -1332,6 +1344,12 @@ function Times(time, data) {
                   backgroundColor = "#004170";
                   letterColor = "white";
                   break;
+            case "Partizan":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "black";
+                  letterColor = "white";
+                  break;
             case "Patronato":
                   nomeAtual = time;
                   escudo = time;
@@ -1728,6 +1746,12 @@ function Times(time, data) {
                   backgroundColor = "#0d80bf";
                   letterColor = "white";
                   break;
+            case "Stabaek":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#002c5a";
+                  letterColor = "white";
+                  break;
             case "Syrio e Libanez":
                   nomeAtual = time;
                   escudo = time;
@@ -1791,6 +1815,12 @@ function Times(time, data) {
                   escudo = "TheStrongest";
                   backgroundColor = "#ffcc00";
                   letterColor = "black";
+                  break;
+            case "Tupi":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "black";
+                  letterColor = "white";
                   break;
             case "Ujpest":
                   nomeAtual = time;
@@ -1884,7 +1914,7 @@ function Times(time, data) {
                   backgroundColor = "#d30a11";
                   letterColor = "white";
                   break;
-            case "Viking-NOR":
+            case "Viking":
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#28016c";
@@ -1949,6 +1979,12 @@ function Times(time, data) {
                   escudo = time;
                   backgroundColor = "#003a94";
                   letterColor = "white";
+                  break;
+            case "Young Boys":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#ffd100";
+                  letterColor = "black";
                   break;
             case "Ypiranga":
                   nomeAtual = time;
