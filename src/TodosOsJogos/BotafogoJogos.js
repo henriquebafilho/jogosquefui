@@ -4365,7 +4365,7 @@ function jogos() {
     jogos.push({ "mandante": "Mangueira", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 6, "campeonato": "Carioca 1920", "data": "1920-08-08", "estadio": "" });
     jogos.push({ "mandante": "Palmeiras-RJ", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 6, "campeonato": "Carioca 1920", "data": "1920-08-01", "estadio": "" });
     jogos.push({ "mandante": "Fluminense", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Carioca 1920", "data": "1920-07-18", "estadio": "" });
-    jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Carioca 1920", "data": "1920-07-11", "estadio": "Rua do Paysandu" });
+    jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Carioca 1920", "data": "1920-07-11", "estadio": "Rua Paysandu" });
     jogos.push({ "mandante": "São Cristóvão", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 4, "campeonato": "Carioca 1920", "data": "1920-07-04", "estadio": "" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Mangueira", "golsMandante": 8, "golsVisitante": 1, "campeonato": "Carioca 1920", "data": "1920-06-27", "estadio": "" });
     jogos.push({ "mandante": "Andarahy", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Carioca 1920", "data": "1920-05-23", "estadio": "" });

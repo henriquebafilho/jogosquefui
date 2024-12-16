@@ -293,7 +293,7 @@ function Times(time, data) {
                   break;
             case "Botafogo":
                   nomeAtual = time;
-                  if (ano < 1942) {
+                  if (ano < 1943) {
                         escudo = "Botafogo1942";
                   } else {
                         escudo = time;
