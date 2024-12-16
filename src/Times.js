@@ -537,6 +537,18 @@ function Times(time, data) {
                   backgroundColor = "#048439";
                   letterColor = "white";
                   break;
+            case "Coreia do Sul":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#d30a11";
+                  letterColor = "white";
+                  break;
+            case "Coreia do Sul Sub-23":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#d30a11";
+                  letterColor = "white";
+                  break;
             case "Corinthians":
                   nomeAtual = time;
                   escudo = time;
@@ -978,6 +990,12 @@ function Times(time, data) {
                   backgroundColor = "#091E53";
                   letterColor = "white";
                   break;
+            case "JEF United Ichihara":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#ffe400";
+                  letterColor = "#006d2c";
+                  break;
             case "Ji-Paraná":
                   nomeAtual = time;
                   escudo = time;
@@ -1362,6 +1380,12 @@ function Times(time, data) {
                   backgroundColor = "#003a94";
                   letterColor = "white";
                   break;
+            case "Posco Atoms": case "Pohang Steelers":
+                  nomeAtual = "Pohang Steelers";
+                  escudo = time;
+                  backgroundColor = "#d30a11";
+                  letterColor = "white";
+                  break;
             case "Ponte Preta":
                   nomeAtual = time;
                   escudo = "PontePreta";
@@ -1638,8 +1662,14 @@ function Times(time, data) {
                   backgroundColor = "#d30a11";
                   letterColor = "#fde900";
                   break;
+            case "Seleção de Kobe":
+                  nomeAtual = time;
+                  escudo = "escudo";
+                  backgroundColor = "grey";
+                  letterColor = "white";
+                  break;
             case "Seleção de Ulsan":
-                  nomeAtual = "time";
+                  nomeAtual = time;
                   escudo = "escudo";
                   backgroundColor = "grey";
                   letterColor = "white";
@@ -1661,6 +1691,12 @@ function Times(time, data) {
                   escudo = time;
                   backgroundColor = "#ff6600";
                   letterColor = "white";
+                  break;
+            case "Shonan Bellmare": case "Hiratsuka Bellmare":
+                  nomeAtual = "Shonan Bellmare";
+                  escudo = time;
+                  backgroundColor = "#65b721";
+                  letterColor = "#0b408d";
                   break;
             case "Síria":
                   nomeAtual = time;
@@ -1727,6 +1763,16 @@ function Times(time, data) {
                   escudo = time;
                   backgroundColor = "#871518";
                   letterColor = "#e6bc15";
+                  break;
+            case "Toluca":
+                  nomeAtual = time;
+                  if (ano < 2003) {
+                        escudo = "Toluca2002";
+                  } else {
+                        escudo = time;
+                  }
+                  backgroundColor = "#d30a11";
+                  letterColor = "white";
                   break;
             case "Tombense":
                   nomeAtual = time;

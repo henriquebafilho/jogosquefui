@@ -330,7 +330,7 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Vasco", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Carioca 2020", "data": "2020-02-02", "estadio": "Nilton Santos" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Resende", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Carioca 2020", "data": "2020-01-30", "estadio": "Nilton Santos" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Macaé", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Carioca 2020", "data": "2020-01-26", "estadio": "Nilton Santos" });
-    jogos.push({ "mandante": "Madureira", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Carioca 2020", "data": "2020-01-20", "estadio": "Conselheiro Galvão" });
+    jogos.push({ "mandante": "Madureira", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Carioca 2020", "data": "2020-01-21", "estadio": "Conselheiro Galvão" });
     jogos.push({ "mandante": "Volta Redonda", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Carioca 2020", "data": "2020-01-18", "estadio": "Raulino de Oliveira" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Ceará", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Brasileirão 2019", "data": "2019-12-08", "estadio": "Nilton Santos" });
     jogos.push({ "mandante": "Atlético-MG", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Brasileirão 2019", "data": "2019-12-04", "estadio": "Mineirão" });
@@ -1588,6 +1588,7 @@ function jogos() {
     jogos.push({ "mandante": "Americano", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 4, "campeonato": "Carioca 2000", "data": "2000-04-12", "estadio": "Godofredo Cruz" });
     jogos.push({ "mandante": "Vasco", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Carioca 2000", "data": "2000-04-09", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Rio Branco-ES", "golsMandante": 5, "golsVisitante": 0, "campeonato": "Copa do Brasil 2000", "data": "2000-04-05", "estadio": "Caio Martins" });
+    jogos.push({ "mandante": "Rio Branco-ES", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 4, "campeonato": "Amistoso", "data": "2017-01-22", "estadio": "Kleber Andrade" });
     jogos.push({ "mandante": "Madureira", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Carioca 2000", "data": "2000-04-02", "estadio": "Conselheiro Galvão" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Friburguense", "golsMandante": 5, "golsVisitante": 1, "campeonato": "Carioca 2000", "data": "2000-03-29", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Flamengo", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Carioca 2000", "data": "2000-03-26", "estadio": "Maracanã" });
@@ -4553,6 +4554,16 @@ function jogos() {
     jogos.push({ "mandante": "Werder Bremen", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Torneio Centenário do Rapid Viena", "data": "1999-07-24", "estadio": "Ernst Happel", "penaltis": "3 x 4" });
     jogos.push({ "mandante": "Jamaica", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1998-11-18", "estadio": "Independence Park" });
     jogos.push({ "mandante": "Deportivo La Coruña", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Tereza Herrera 1996", "data": "1996-08-08", "estadio": "Riazor" });
+    jogos.push({ "mandante": "Coreia do Sul", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1995-05-05", "estadio": "" });
+    jogos.push({ "mandante": "Coreia do Sul Sub-23", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1995-05-07", "estadio": "" });
+    jogos.push({ "mandante": "Seleção de Kobe", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1995-04-30", "estadio": "" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Posco Atoms", "golsMandante": 5, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1995-01-25", "estadio": "Caio Martins" });
+    jogos.push({ "mandante": "Vitória-ES", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Amistoso", "data": "2020-01-20", "estadio": "Kleber Andrade" });
+    jogos.push({ "mandante": "Desportiva Ferroviária", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Amistoso", "data": "2016-01-23", "estadio": "Kleber Andrade" });
+    jogos.push({ "mandante": "América-MG", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Amistoso", "data": "2011-05-14", "estadio": "Mário Helênio" });
+    jogos.push({ "mandante": "Friburguense", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Amistoso", "data": "2011-05-07", "estadio": "Eduardo Guinle" });
+    jogos.push({ "mandante": "JEF United Ichihara", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1994-10-02", "estadio": "" });
+    jogos.push({ "mandante": "Hiratsuka Bellmare", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1994-10-08", "estadio": "" });
 
     jogos.sort(function (a, b) {
         return a.data < b.data ? -1 : a.data > b.data ? 1 : 0;
