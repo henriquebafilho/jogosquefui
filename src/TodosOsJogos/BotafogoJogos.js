@@ -4522,19 +4522,19 @@ function jogos() {
     jogos.push({ "mandante": "Rio Cricket", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Carioca 1908", "data": "1908-05-10", "estadio": "Campo da Rua Constituição" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Football and Athletic", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Carioca 1907", "data": "1907-09-29", "estadio": "" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Fluminense", "golsMandante": 4, "golsVisitante": 2, "campeonato": "Carioca 1907", "data": "1907-09-22", "estadio": "Laranjeiras" });
-    jogos.push({ "mandante": "Paysandu-RJ", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Carioca 1907", "data": "1907-09-15", "estadio": "" });
-    jogos.push({ "mandante": "Football and Athletic", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Carioca 1907", "data": "1907-07-14", "estadio": "" });
+    jogos.push({ "mandante": "Paysandu-RJ", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Carioca 1907", "data": "1907-09-15", "estadio": "Laranjeiras" });
+    jogos.push({ "mandante": "Football and Athletic", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Carioca 1907", "data": "1907-07-14", "estadio": "Laranjeiras" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Paysandu-RJ", "golsMandante": 5, "golsVisitante": 3, "campeonato": "Carioca 1907", "data": "1907-06-16", "estadio": "Laranjeiras" });
-    jogos.push({ "mandante": "Fluminense", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 0, "campeonato": "Carioca 1907", "data": "1907-06-02", "estadio": "" });
-    jogos.push({ "mandante": "Rio Cricket", "visitante": "Botafogo", "golsMandante": 6, "golsVisitante": 0, "campeonato": "Carioca 1906", "data": "1906-10-06", "estadio": "" });
+    jogos.push({ "mandante": "Fluminense", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 0, "campeonato": "Carioca 1907", "data": "1907-06-02", "estadio": "Laranjeiras" });
+    jogos.push({ "mandante": "Rio Cricket", "visitante": "Botafogo", "golsMandante": 6, "golsVisitante": 0, "campeonato": "Carioca 1906", "data": "1906-10-06", "estadio": "Rua da Constituição" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Fluminense", "golsMandante": 0, "golsVisitante": 6, "campeonato": "Carioca 1906", "data": "1906-09-30", "estadio": "Laranjeiras" });
-    jogos.push({ "mandante": "Football and Athletic", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 5, "campeonato": "Carioca 1906", "data": "1906-09-22", "estadio": "" });
-    jogos.push({ "mandante": "Paysandu-RJ", "visitante": "Botafogo", "golsMandante": 4, "golsVisitante": 1, "campeonato": "Carioca 1906", "data": "1906-08-18", "estadio": "" });
+    jogos.push({ "mandante": "Football and Athletic", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 5, "campeonato": "Carioca 1906", "data": "1906-09-22", "estadio": "Laranjeiras" });
+    jogos.push({ "mandante": "Paysandu-RJ", "visitante": "Botafogo", "golsMandante": 4, "golsVisitante": 1, "campeonato": "Carioca 1906", "data": "1906-08-18", "estadio": "Laranjeiras" });
     jogos.push({ "mandante": "Bangu", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 2, "campeonato": "Carioca 1906", "data": "1906-07-15", "estadio": "Rua Ferrer" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "Football and Athletic", "golsMandante": 5, "golsVisitante": 0, "campeonato": "Carioca 1906", "data": "1906-07-07", "estadio": "" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "Rio Cricket", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Carioca 1906", "data": "1906-06-30", "estadio": "" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "Paysandu-RJ", "golsMandante": 1, "golsVisitante": 5, "campeonato": "Carioca 1906", "data": "1906-06-02", "estadio": "" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "Bangu", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Carioca 1906", "data": "1906-05-26", "estadio": "" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Football and Athletic", "golsMandante": 5, "golsVisitante": 0, "campeonato": "Carioca 1906", "data": "1906-07-07", "estadio": "Laranjeiras" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Rio Cricket", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Carioca 1906", "data": "1906-06-30", "estadio": "Laranjeiras" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Paysandu-RJ", "golsMandante": 1, "golsVisitante": 5, "campeonato": "Carioca 1906", "data": "1906-06-02", "estadio": "Laranjeiras" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Bangu", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Carioca 1906", "data": "1906-05-26", "estadio": "Laranjeiras" });
     jogos.push({ "mandante": "Fluminense", "visitante": "Botafogo", "golsMandante": 8, "golsVisitante": 0, "campeonato": "Carioca 1906", "data": "1906-05-13", "estadio": "Laranjeiras" });
     jogos.push({ "mandante": "Paris Saint-Germain", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Torneio de Genebra", "data": "1984-08-06", "estadio": "Charmilles" });
     jogos.push({ "mandante": "Atlético de Madrid", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1955-05-19", "estadio": "Metropolitano" });
@@ -4601,7 +4601,23 @@ function jogos() {
     jogos.push({ "mandante": "Tupi", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1997-05-29", "estadio": "Mário Helênio" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Tupi", "golsMandante": 5, "golsVisitante": 0, "campeonato": "Amistoso", "data": "2000-09-23", "estadio": "Caio Martins" });
     jogos.push({ "mandante": "Tupi", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 4, "campeonato": "Amistoso", "data": "2006-06-17", "estadio": "Mário Helênio" });
-
+    jogos.push({ "mandante": "Botafogo", "visitante": "Football and Athletic", "golsMandante": 0, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1904-10-02", "estadio": "Campos Sales" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Internacional-RJ", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1904-11-01", "estadio": "Voluntários da Pátria" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Sportivo de Petrópolis", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1905-05-13", "estadio": "Rua Paysandu" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Petropolitano", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1905-05-21", "estadio": "Voluntários da Pátria" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Colégio Militar", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1905-05-28", "estadio": "Voluntários da Pátria" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Football and Athletic", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1905-06-04", "estadio": "Voluntários da Pátria" });
+    jogos.push({ "mandante": "Bangu", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1905-06-25", "estadio": "" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Petropolitano", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1905-07-30", "estadio": "Laranjeiras" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "South American", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1905-09-17", "estadio": "Voluntários da Pátria" });
+    jogos.push({ "mandante": "Fluminense", "visitante": "Botafogo", "golsMandante": 6, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1905-10-22", "estadio": "Laranjeiras" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Boca Juniors", "golsMandante": 0, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1935-01-20", "estadio": "São Januário" });
+    jogos.push({ "mandante": "Boca Juniors", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Taça Juan Peron", "data": "1953-03-22", "estadio": "Viejo Gasometro" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Boca Juniors", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Torneio Jubileu de Ouro", "data": "1964-03-15", "estadio": "Hernando Siles" });
+    jogos.push({ "mandante": "Boca Juniors", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Torneio Ibero-Americano", "data": "1964-07-09", "estadio": "Monumental de Núñez" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Boca Juniors", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Taça Cidade Palma de Mallorca", "data": "1988-08-12", "estadio": "Luís Sitjar" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Boca Juniors", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Torneio Cidade de Vigo", "data": "1988-08-19", "estadio": "Balaídos", "penaltis": "3 x 0" });
+    
     jogos.sort(function (a, b) {
         return a.data < b.data ? -1 : a.data > b.data ? 1 : 0;
     });

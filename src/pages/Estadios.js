@@ -69,7 +69,7 @@ class Estadios extends Component {
           <div className="App-header" style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor, alignItems: 'normal' }}>
             {/* <h1>Estádios</h1>
             <br /> */}
-            <h4 style={{textAlign: 'center'}}>{"Você foi a " + this.state.estadios.length + " estádio"}{this.state.estadios.length > 1 ? "s" : ""}</h4>
+            <h4 style={{textAlign: 'center'}}>{this.state.estadios.length + " estádio"}{this.state.estadios.length > 1 ? "s" : ""}{" cadastrados"}</h4>
             <br />
             <table>
               <tbody>
