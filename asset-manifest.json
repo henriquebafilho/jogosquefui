@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jogosquefui/static/css/main.37976d44.css",
-    "main.js": "/jogosquefui/static/js/main.30662e7d.js",
+    "main.js": "/jogosquefui/static/js/main.c9d54cb0.js",
     "static/media/Atanasio Girardot.png": "/jogosquefui/static/media/Atanasio Girardot.654b0fba4632fac4057b.png",
     "static/media/Corisabbá.png": "/jogosquefui/static/media/Corisabbá.4b6783df88df9e49eae8.png",
     "static/media/Colosso da Lagoa.png": "/jogosquefui/static/media/Colosso da Lagoa.b7008037ac5675a07045.png",
@@ -224,6 +224,7 @@
     "static/media/FlamengodeGuarulhos.png": "/jogosquefui/static/media/FlamengodeGuarulhos.f5b110be2e96347342a8.png",
     "static/media/Pohang Steelers.png": "/jogosquefui/static/media/Pohang Steelers.0003797f0172727a239d.png",
     "static/media/Colón.png": "/jogosquefui/static/media/Colón.fd4af2d6b801a1c78a03.png",
+    "static/media/União da Madeira.png": "/jogosquefui/static/media/União da Madeira.a252f7c638a80dda93a4.png",
     "static/media/Santiago Wanderers.png": "/jogosquefui/static/media/Santiago Wanderers.6297c04f26667c71a60b.png",
     "static/media/Bonsucesso.png": "/jogosquefui/static/media/Bonsucesso.d5c7d86fb659cabdc914.png",
     "static/media/Germânia-RJ.png": "/jogosquefui/static/media/Germânia-RJ.94f3be31439d453b4ee2.png",
@@ -367,6 +368,7 @@
     "static/media/Atlético-PR1969.png": "/jogosquefui/static/media/Atlético-PR1969.88055a08dd38acfa72f2.png",
     "static/media/Atlético-MG.png": "/jogosquefui/static/media/Atlético-MG.3728c2b58f12adf904f1.png",
     "static/media/SãoCaetano.png": "/jogosquefui/static/media/SãoCaetano.5a65e3efbec982503196.png",
+    "static/media/Guiana Francesa.png": "/jogosquefui/static/media/Guiana Francesa.ac2ba7330013d8df918f.png",
     "static/media/Shandong Luneng.png": "/jogosquefui/static/media/Shandong Luneng.8a940a23be789c354d6d.png",
     "static/media/Maranhão.png": "/jogosquefui/static/media/Maranhão.1e665ee420f3faa0adfc.png",
     "static/media/Atlético-GO2020.png": "/jogosquefui/static/media/Atlético-GO2020.0e6a5c295c9634b05552.png",
@@ -427,10 +429,10 @@
     "static/media/Ceará.png": "/jogosquefui/static/media/Ceará.2667c31fce77d94092f4.png",
     "index.html": "/jogosquefui/index.html",
     "main.37976d44.css.map": "/jogosquefui/static/css/main.37976d44.css.map",
-    "main.30662e7d.js.map": "/jogosquefui/static/js/main.30662e7d.js.map"
+    "main.c9d54cb0.js.map": "/jogosquefui/static/js/main.c9d54cb0.js.map"
   },
   "entrypoints": [
     "static/css/main.37976d44.css",
-    "static/js/main.30662e7d.js"
+    "static/js/main.c9d54cb0.js"
   ]
 }
