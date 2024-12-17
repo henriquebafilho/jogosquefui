@@ -8,6 +8,7 @@ function jogos() {
     jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Carioca 2025", "data": "2025-02-12", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Madureira", "golsMandante": "", "golsVisitante": "", "campeonato": "Carioca 2025", "data": "2025-02-08", "estadio": "Nilton Santos" });
     jogos.push({ "mandante": "Nova Iguaçu", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Carioca 2025", "data": "2025-02-05", "estadio": "Nilton Santos" });
+    jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Supercopa do Brasil 2025", "data": "2025-02-02", "estadio": "Mangueirão" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Fluminense", "golsMandante": "", "golsVisitante": "", "campeonato": "Carioca 2025", "data": "2025-01-29", "estadio": "Nilton Santos" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Bangu", "golsMandante": "", "golsVisitante": "", "campeonato": "Carioca 2025", "data": "2025-01-25", "estadio": "Nilton Santos" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Volta Redonda", "golsMandante": "", "golsVisitante": "", "campeonato": "Carioca 2025", "data": "2025-01-22", "estadio": "Nilton Santos" });
@@ -4617,6 +4618,9 @@ function jogos() {
     jogos.push({ "mandante": "Boca Juniors", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Torneio Ibero-Americano", "data": "1964-07-09", "estadio": "Monumental de Núñez" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Boca Juniors", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Taça Cidade Palma de Mallorca", "data": "1988-08-12", "estadio": "Luís Sitjar" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Boca Juniors", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Torneio Cidade de Vigo", "data": "1988-08-19", "estadio": "Balaídos", "penaltis": "3 x 0" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "River Plate", "golsMandante": 2, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1935-02-03", "estadio": "São Januário" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "União da Madeira", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Triangular Eduardo Paes", "data": "1994-08-02", "estadio": "Campo do Barra Futebol Clube" });
+    jogos.push({ "mandante": "Guiana Francesa", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1993-06-19", "estadio": "" });
     
     jogos.sort(function (a, b) {
         return a.data < b.data ? -1 : a.data > b.data ? 1 : 0;

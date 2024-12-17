@@ -880,6 +880,12 @@ function Times(time, data) {
                   backgroundColor = "#fde900";
                   letterColor = "black";
                   break;
+            case "Guiana Francesa":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#fcdd08";
+                  letterColor = "#057a2c";
+                  break;
             case "Haddock Lobo":
                   nomeAtual = time;
                   escudo = time;
@@ -1833,6 +1839,12 @@ function Times(time, data) {
                   escudo = time;
                   backgroundColor = "#172344";
                   letterColor = "#C6AC64";
+                  break;
+            case "União da Madeira":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#ffef02";
+                  letterColor = "#3535a9";
                   break;
             case "União São João":
                   nomeAtual = time;
