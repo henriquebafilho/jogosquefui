@@ -73,6 +73,12 @@ function Times(time, data) {
                   backgroundColor = "#d30a11";
                   letterColor = "white";
                   break;
+            case "América-MEX":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#fff200";
+                  letterColor = "#343795";
+                  break;
             case "América-MG":
                   nomeAtual = time;
                   escudo = time;
@@ -1074,6 +1080,16 @@ function Times(time, data) {
                   backgroundColor = "white";
                   letterColor = "#003a94";
                   break;
+            case "Leeds United":
+                  nomeAtual = time;
+                  if (ano <= 1991) {
+                        escudo = "LeedsUnited1991";
+                  } else {
+                        escudo = time;
+                  }
+                  backgroundColor = "white";
+                  letterColor = "#003a94";
+                  break;
             case "Linense":
                   nomeAtual = time;
                   escudo = time;
@@ -1132,6 +1148,12 @@ function Times(time, data) {
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#54a9d8";
+                  letterColor = "white";
+                  break;
+            case "Martinica":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#00a650";
                   letterColor = "white";
                   break;
             case "Mavilis":
@@ -1217,6 +1239,16 @@ function Times(time, data) {
                   escudo = time;
                   backgroundColor = "#172b8c";
                   letterColor = "white";
+                  break;
+            case "Nantes":
+                  nomeAtual = time;
+                  if (ano <= 1993) {
+                        escudo = "Nantes1993";
+                  } else {
+                        escudo = time;
+                  }
+                  backgroundColor = "#ffdc00";
+                  letterColor = "#00a558";
                   break;
             case "Náutico":
                   nomeAtual = time;
@@ -1458,6 +1490,12 @@ function Times(time, data) {
                   backgroundColor = "#029cdc";
                   letterColor = "white";
                   break;
+            case "Racing Club-CAR":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#30358d";
+                  letterColor = "white";
+                  break;
             case "Real Garcilaso":
                   nomeAtual = time;
                   escudo = "RealGarcilaso";
@@ -1685,6 +1723,12 @@ function Times(time, data) {
                   escudo = time;
                   backgroundColor = "#d30a11";
                   letterColor = "#fde900";
+                  break;
+            case "Seattle Sounders":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#2dc84d";
+                  letterColor = "#0033a0";
                   break;
             case "Seleção de Kobe":
                   nomeAtual = time;
@@ -1978,6 +2022,16 @@ function Times(time, data) {
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#009655";
+                  letterColor = "white";
+                  break;
+            case "West Ham":
+                  nomeAtual = time;
+                  if (ano <= 1991) {
+                        escudo = "WestHam1991";
+                  } else {
+                        escudo = time;
+                  }
+                  backgroundColor = "#7c2c3b";
                   letterColor = "white";
                   break;
             case "XV de Piracicaba":

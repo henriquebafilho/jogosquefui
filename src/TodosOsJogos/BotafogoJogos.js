@@ -1,6 +1,9 @@
 function jogos() {
     let jogos = [];
 
+    jogos.push({ "mandante": "Atlético de Madrid", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Super Mundial de Clubes 2025", "data": "2025-06-23", "estadio": "Rose Bowl", "horario": "16:00" });
+    jogos.push({ "mandante": "Paris Saint-Germain", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Super Mundial de Clubes 2025", "data": "2025-06-19", "estadio": "Rose Bowl", "horario": "22:00" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Seattle Sounders", "golsMandante": "", "golsVisitante": "", "campeonato": "Super Mundial de Clubes 2025", "data": "2025-06-15", "estadio": "Lumen Field", "horario": "23:00" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Racing", "golsMandante": "", "golsVisitante": "", "campeonato": "Recopa 2024", "data": "2025-02-27", "estadio": "Nilton Santos", "horario": "21:30" });
     jogos.push({ "mandante": "Vasco", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Carioca 2025", "data": "2025-02-22", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Racing", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Recopa 2024", "data": "2025-02-20", "estadio": "El Cilindro", "horario": "21:30" });
@@ -4621,6 +4624,14 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "River Plate", "golsMandante": 2, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1935-02-03", "estadio": "São Januário" });
     jogos.push({ "mandante": "Botafogo", "visitante": "União da Madeira", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Triangular Eduardo Paes", "data": "1994-08-02", "estadio": "Campo do Barra Futebol Clube" });
     jogos.push({ "mandante": "Guiana Francesa", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1993-06-19", "estadio": "" });
+    jogos.push({ "mandante": "Racing Club-CAR", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1993-06-17", "estadio": "" });
+    jogos.push({ "mandante": "Martinica", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1993-06-15", "estadio": "" });
+    jogos.push({ "mandante": "Nantes", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1993-04-23", "estadio": "La Beaujoire" });
+    jogos.push({ "mandante": "América-MEX", "visitante": "Botafogo", "golsMandante": 4, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1991-11-26", "estadio": "Asteca" });
+    jogos.push({ "mandante": "Alianza Lima", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1991-11-26", "estadio": "Alejandro Villanueva" });
+    jogos.push({ "mandante": "West Ham", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1991-08-11", "estadio": "Boleyn Ground" });
+    jogos.push({ "mandante": "Leeds United", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1991-08-09", "estadio": "Elland Road" });
+    jogos.push({ "mandante": "Leeds United", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1991-08-05", "estadio": "Tóquio Dome Stadium" });
     
     jogos.sort(function (a, b) {
         return a.data < b.data ? -1 : a.data > b.data ? 1 : 0;
