@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jogosquefui/static/css/main.37976d44.css",
-    "main.js": "/jogosquefui/static/js/main.c9d54cb0.js",
+    "main.js": "/jogosquefui/static/js/main.567d6bd0.js",
     "static/media/Atanasio Girardot.png": "/jogosquefui/static/media/Atanasio Girardot.654b0fba4632fac4057b.png",
     "static/media/Corisabbá.png": "/jogosquefui/static/media/Corisabbá.4b6783df88df9e49eae8.png",
     "static/media/Colosso da Lagoa.png": "/jogosquefui/static/media/Colosso da Lagoa.b7008037ac5675a07045.png",
@@ -92,6 +92,7 @@
     "static/media/Godofredo Cruz.png": "/jogosquefui/static/media/Godofredo Cruz.dabc0c1b12729776a6e9.png",
     "static/media/Mário Helênio.png": "/jogosquefui/static/media/Mário Helênio.7c4b33216aabe62c667c.png",
     "static/media/Rio Cricket.png": "/jogosquefui/static/media/Rio Cricket.d14b3a3943f0d49fd6e9.png",
+    "static/media/LeedsUnited1991.png": "/jogosquefui/static/media/LeedsUnited1991.948521d91289b4b53110.png",
     "static/media/Cruzeiro.png": "/jogosquefui/static/media/Cruzeiro.bef861a8c295c8d4b44c.png",
     "static/media/Sobradinho.png": "/jogosquefui/static/media/Sobradinho.0aa27a8b4db1b9bbdc41.png",
     "static/media/Kenitra.png": "/jogosquefui/static/media/Kenitra.5951b5f6261e2cb54181.png",
@@ -103,6 +104,7 @@
     "static/media/Caio Martins.png": "/jogosquefui/static/media/Caio Martins.7ddeb0065604f540b543.png",
     "static/media/GrêmioBarueri.png": "/jogosquefui/static/media/GrêmioBarueri.750be0487001489cd3e9.png",
     "static/media/Petrolina.png": "/jogosquefui/static/media/Petrolina.c36fb592b89354b1a56e.png",
+    "static/media/Racing Club-CAR.png": "/jogosquefui/static/media/Racing Club-CAR.3e58cc6d1078aad60768.png",
     "static/media/Campos Sales.png": "/jogosquefui/static/media/Campos Sales.099c70d5859aa05af8db.png",
     "static/media/Atlético de Madrid.png": "/jogosquefui/static/media/Atlético de Madrid.3b94903e6633fff8a941.png",
     "static/media/Morumbi.png": "/jogosquefui/static/media/Morumbi.58fb17782f68eaeaf811.png",
@@ -119,6 +121,7 @@
     "static/media/DeportivoTachira.png": "/jogosquefui/static/media/DeportivoTachira.eaf143ba740390c707db.png",
     "static/media/RedBullBragantino.png": "/jogosquefui/static/media/RedBullBragantino.60e0a2466e8c73d367ad.png",
     "static/media/Uruguai.png": "/jogosquefui/static/media/Uruguai.bbde614474df513b2e3f.png",
+    "static/media/América-MEX.png": "/jogosquefui/static/media/América-MEX.2f95f709a091ae4c38c0.png",
     "static/media/São Raimundo-AM.png": "/jogosquefui/static/media/São Raimundo-AM.c0f08fd097cbf7cc5563.png",
     "static/media/BarcelonadeGuayaquil.png": "/jogosquefui/static/media/BarcelonadeGuayaquil.be900055d58a20a3e374.png",
     "static/media/IndependienteDelValle2019.png": "/jogosquefui/static/media/IndependienteDelValle2019.ae0f528e5a57cd221b9a.png",
@@ -178,6 +181,7 @@
     "static/media/Posco Atoms.png": "/jogosquefui/static/media/Posco Atoms.22ae880ccece8a4e2d4f.png",
     "static/media/Riachuelo-RJ.png": "/jogosquefui/static/media/Riachuelo-RJ.1e1b9ec87d3c77ab5ecc.png",
     "static/media/Athletico-PR.png": "/jogosquefui/static/media/Athletico-PR.8a90e93ce5bb7e5d086b.png",
+    "static/media/WestHam1991.png": "/jogosquefui/static/media/WestHam1991.95390c997d4cc853b2cd.png",
     "static/media/RedBullBrasil.png": "/jogosquefui/static/media/RedBullBrasil.e5757a894eb24679b39a.png",
     "static/media/SantoAndré.png": "/jogosquefui/static/media/SantoAndré.be6c062b1669bf0332b6.png",
     "static/media/Novorizontino.png": "/jogosquefui/static/media/Novorizontino.d7bfed9a2529ab051631.png",
@@ -216,6 +220,7 @@
     "static/media/Itabaiana.png": "/jogosquefui/static/media/Itabaiana.c3e6718a05c5584b0a5f.png",
     "static/media/Atlético de Madrid1970.png": "/jogosquefui/static/media/Atlético de Madrid1970.58d788e1c6fba9bbccd4.png",
     "static/media/Rio Negro-AM.png": "/jogosquefui/static/media/Rio Negro-AM.bd18f70c7b7f1465cf6f.png",
+    "static/media/Seattle Sounders.png": "/jogosquefui/static/media/Seattle Sounders.ff7c217d686560fa0447.png",
     "static/media/Operário-MT.png": "/jogosquefui/static/media/Operário-MT.a8ac706ede2f4c15ac64.png",
     "static/media/Coritiba.png": "/jogosquefui/static/media/Coritiba.6b3297cc655b36f295d8.png",
     "static/media/RiverPlate-URU.png": "/jogosquefui/static/media/RiverPlate-URU.e35084115d53bf1c7204.png",
@@ -231,6 +236,8 @@
     "static/media/Mesquita.png": "/jogosquefui/static/media/Mesquita.24bea9a27b2313a3df4d.png",
     "static/media/SC Brasil.png": "/jogosquefui/static/media/SC Brasil.78229efda51326e08dac.png",
     "static/media/Brasiliense.png": "/jogosquefui/static/media/Brasiliense.eedbdb1240fc49d56ed1.png",
+    "static/media/Leeds United.png": "/jogosquefui/static/media/Leeds United.c1eb173c64fa8838fb01.png",
+    "static/media/West Ham.png": "/jogosquefui/static/media/West Ham.5fa0653f5d77ea9df9e7.png",
     "static/media/Tupi.png": "/jogosquefui/static/media/Tupi.69689051d999fc4d3182.png",
     "static/media/Corinthians.png": "/jogosquefui/static/media/Corinthians.410c9a158510e47646c4.png",
     "static/media/Aurora.png": "/jogosquefui/static/media/Aurora.47bca5ad0db3106560a2.png",
@@ -319,6 +326,7 @@
     "static/media/Independiente.png": "/jogosquefui/static/media/Independiente.bfae252b124a9507a70d.png",
     "static/media/Millonarios.png": "/jogosquefui/static/media/Millonarios.96457314778e49aaa1fd.png",
     "static/media/Minervén FC.png": "/jogosquefui/static/media/Minervén FC.df70f282528f72e3e752.png",
+    "static/media/Nantes.png": "/jogosquefui/static/media/Nantes.fb1f547a97b51c0c00d6.png",
     "static/media/BostonRiver.png": "/jogosquefui/static/media/BostonRiver.48e3770593660e6215a3.png",
     "static/media/Defensor.png": "/jogosquefui/static/media/Defensor.cefab02092f64a5e44d7.png",
     "static/media/Fluminense Nova Friburgo.png": "/jogosquefui/static/media/Fluminense Nova Friburgo.59258e7cea0e380e7bc7.png",
@@ -359,6 +367,7 @@
     "static/media/Brasília.png": "/jogosquefui/static/media/Brasília.a30aebe235ce6b412024.png",
     "static/media/Portuguesa.png": "/jogosquefui/static/media/Portuguesa.96e0ea1d943027c07371.png",
     "static/media/Criciúma.png": "/jogosquefui/static/media/Criciúma.02cd9cde84efbb7a6d7b.png",
+    "static/media/Nantes1993.png": "/jogosquefui/static/media/Nantes1993.383661d02e9a5dc4a738.png",
     "static/media/UniónLaCalera.png": "/jogosquefui/static/media/UniónLaCalera.7287caf712c207f99ded.png",
     "static/media/Vasco1920.png": "/jogosquefui/static/media/Vasco1920.cc05640fcdf49ba7edb6.png",
     "static/media/Goytacaz.png": "/jogosquefui/static/media/Goytacaz.6f2f49da33f0783b2749.png",
@@ -421,6 +430,7 @@
     "static/media/SanLorenzo.png": "/jogosquefui/static/media/SanLorenzo.e39f6a16fe7e47e7a8a9.png",
     "static/media/Universidad de Chile.png": "/jogosquefui/static/media/Universidad de Chile.7b51db06fb928b8dbaff.png",
     "static/media/Haddock Lobo.png": "/jogosquefui/static/media/Haddock Lobo.07590a125eae5d801542.png",
+    "static/media/Martinica.png": "/jogosquefui/static/media/Martinica.d66db1a6698fe3ef9fd8.png",
     "static/media/UniónEspañola.png": "/jogosquefui/static/media/UniónEspañola.a88f6dca2eb36f2bacdf.png",
     "static/media/SportingCristal.png": "/jogosquefui/static/media/SportingCristal.f5410b755e07947a4cab.png",
     "static/media/Alianza Lima.png": "/jogosquefui/static/media/Alianza Lima.e7472126603d655c2594.png",
@@ -429,10 +439,10 @@
     "static/media/Ceará.png": "/jogosquefui/static/media/Ceará.2667c31fce77d94092f4.png",
     "index.html": "/jogosquefui/index.html",
     "main.37976d44.css.map": "/jogosquefui/static/css/main.37976d44.css.map",
-    "main.c9d54cb0.js.map": "/jogosquefui/static/js/main.c9d54cb0.js.map"
+    "main.567d6bd0.js.map": "/jogosquefui/static/js/main.567d6bd0.js.map"
   },
   "entrypoints": [
     "static/css/main.37976d44.css",
-    "static/js/main.c9d54cb0.js"
+    "static/js/main.567d6bd0.js"
   ]
 }
