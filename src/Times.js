@@ -1736,6 +1736,12 @@ function Times(time, data) {
                   backgroundColor = "grey";
                   letterColor = "white";
                   break;
+            case "Seleção de Mérida":
+                  nomeAtual = time;
+                  escudo = "escudo";
+                  backgroundColor = "grey";
+                  letterColor = "white";
+                  break;
             case "Seleção de Ulsan":
                   nomeAtual = time;
                   escudo = "escudo";
@@ -1878,7 +1884,7 @@ function Times(time, data) {
                   backgroundColor = "#4D2E7A";
                   letterColor = "white";
                   break;
-            case "UNAM":
+            case "UNAM Pumas":
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#172344";

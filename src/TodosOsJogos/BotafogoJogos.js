@@ -2122,8 +2122,6 @@ function jogos() {
     jogos.push({ "mandante": "Bahia", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Copa do Brasil 1990", "data": "1990-07-13", "estadio": "Fonte Nova" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Desportiva Ferroviária", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Copa do Brasil 1990", "data": "1990-06-27", "estadio": "Caio Martins" });
     jogos.push({ "mandante": "Desportiva Ferroviária", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Copa do Brasil 1990", "data": "1990-06-22", "estadio": "Engenheiro Araripe" });
-    jogos.push({ "mandante": "UNAM", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Torneio da Amizade", "data": "1990-06-02", "estadio": "Luiz Pirata Fuente" });
-    jogos.push({ "mandante": "Veracruz", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Torneio da Amizade", "data": "1990-05-27", "estadio": "Luiz Pirata Fuente" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Flamengo", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Carioca 1990", "data": "1990-04-28", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Itaperuna", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Carioca 1990", "data": "1990-04-21", "estadio": "Caio Martins" });
     jogos.push({ "mandante": "Campo Grande-RJ", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Carioca 1990", "data": "1990-04-18", "estadio": "Ítalo del Cima" });
@@ -4632,7 +4630,10 @@ function jogos() {
     jogos.push({ "mandante": "West Ham", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1991-08-11", "estadio": "Boleyn Ground" });
     jogos.push({ "mandante": "Leeds United", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1991-08-09", "estadio": "Elland Road" });
     jogos.push({ "mandante": "Leeds United", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1991-08-05", "estadio": "Tóquio Dome Stadium" });
-    
+    jogos.push({ "mandante": "Seleção de Mérida", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 7, "campeonato": "Amistoso", "data": "1990-06-06", "estadio": "" });
+    jogos.push({ "mandante": "UNAM Pumas", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Torneio Amistad de Veracruz", "data": "1990-06-02", "estadio": "Luis Pirata Fuente" });
+    jogos.push({ "mandante": "Veracruz", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Torneio Amistad de Veracruz", "data": "1990-05-27", "estadio": "Luis Pirata Fuente" });
+
     jogos.sort(function (a, b) {
         return a.data < b.data ? -1 : a.data > b.data ? 1 : 0;
     });
