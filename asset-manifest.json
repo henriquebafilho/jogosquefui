@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jogosquefui/static/css/main.37976d44.css",
-    "main.js": "/jogosquefui/static/js/main.567d6bd0.js",
+    "main.js": "/jogosquefui/static/js/main.1ae4736b.js",
     "static/media/Atanasio Girardot.png": "/jogosquefui/static/media/Atanasio Girardot.654b0fba4632fac4057b.png",
     "static/media/Corisabbá.png": "/jogosquefui/static/media/Corisabbá.4b6783df88df9e49eae8.png",
     "static/media/Colosso da Lagoa.png": "/jogosquefui/static/media/Colosso da Lagoa.b7008037ac5675a07045.png",
@@ -191,7 +191,7 @@
     "static/media/Villa Isabel.png": "/jogosquefui/static/media/Villa Isabel.f90f32049b309b044137.png",
     "static/media/SoldeAmerica.png": "/jogosquefui/static/media/SoldeAmerica.e440eb4041446e62307d.png",
     "static/media/Portsmouth.png": "/jogosquefui/static/media/Portsmouth.eae9bab61ad82acae68b.png",
-    "static/media/UNAM.png": "/jogosquefui/static/media/UNAM.c7f383b8e11445b6bb18.png",
+    "static/media/UNAM Pumas.png": "/jogosquefui/static/media/UNAM Pumas.c7f383b8e11445b6bb18.png",
     "static/media/Paris Saint-Germain.png": "/jogosquefui/static/media/Paris Saint-Germain.d2c1a5c18baecd3edf9c.png",
     "static/media/Japão.png": "/jogosquefui/static/media/Japão.c2f093f166321f24ba78.png",
     "static/media/SampaioCorrêa-RJ.png": "/jogosquefui/static/media/SampaioCorrêa-RJ.b0d502f7ef1dd97cf67c.png",
@@ -439,10 +439,10 @@
     "static/media/Ceará.png": "/jogosquefui/static/media/Ceará.2667c31fce77d94092f4.png",
     "index.html": "/jogosquefui/index.html",
     "main.37976d44.css.map": "/jogosquefui/static/css/main.37976d44.css.map",
-    "main.567d6bd0.js.map": "/jogosquefui/static/js/main.567d6bd0.js.map"
+    "main.1ae4736b.js.map": "/jogosquefui/static/js/main.1ae4736b.js.map"
   },
   "entrypoints": [
     "static/css/main.37976d44.css",
-    "static/js/main.567d6bd0.js"
+    "static/js/main.1ae4736b.js"
   ]
 }
