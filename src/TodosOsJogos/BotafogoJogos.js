@@ -15,9 +15,9 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Fluminense", "golsMandante": "", "golsVisitante": "", "campeonato": "Carioca 2025", "data": "2025-01-29", "estadio": "Nilton Santos", "horario": "21:30" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Bangu", "golsMandante": "", "golsVisitante": "", "campeonato": "Carioca 2025", "data": "2025-01-26", "estadio": "Nilton Santos", "horario": "18:00" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Volta Redonda", "golsMandante": "", "golsVisitante": "", "campeonato": "Carioca 2025", "data": "2025-01-22", "estadio": "Nilton Santos", "horario": "21:30" });
-    jogos.push({ "mandante": "Sampaio Corrêa-RJ", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Carioca 2025", "data": "2025-01-18", "estadio": "A definir", "horario": "16:30" });
+    jogos.push({ "mandante": "Sampaio Corrêa-RJ", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Carioca 2025", "data": "2025-01-18", "estadio": "Lourival Gomes", "horario": "16:30" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Portuguesa-RJ", "golsMandante": "", "golsVisitante": "", "campeonato": "Carioca 2025", "data": "2025-01-14", "estadio": "Nilton Santos", "horario": "19:30" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "Maricá", "golsMandante": "", "golsVisitante": "", "campeonato": "Carioca 2025", "data": "2025-01-11", "estadio": "Nilton Santos", "horario": "16:00" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Maricá", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Carioca 2025", "data": "2025-01-11", "estadio": "Nilton Santos", "horario": "16:00" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Pachuca", "golsMandante": 0, "golsVisitante": 3, "campeonato": "Mundial de Clubes 2024", "data": "2024-12-11", "estadio": "Stadium 974", "horario": "14:00" });
     jogos.push({ "mandante": "Botafogo", "visitante": "São Paulo", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Brasileirão 2024", "data": "2024-12-08", "estadio": "Nilton Santos", "horario": "16:00" });
     jogos.push({ "mandante": "Internacional", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Brasileirão 2024", "data": "2024-12-04", "estadio": "Beira-Rio" });
