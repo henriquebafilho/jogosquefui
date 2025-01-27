@@ -922,7 +922,7 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Duque de Caxias", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Carioca 2011", "data": "2011-01-20", "estadio": "Nilton Santos" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Democrata", "golsMandante": 5, "golsVisitante": 1, "campeonato": "Amistoso", "data": "2011-01-16", "estadio": "Nilton Santos" });
     jogos.push({ "mandante": "Grêmio", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 0, "campeonato": "Brasileirão 2010", "data": "2010-12-05", "estadio": "Olímpico" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "Grêmio Barueri", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Brasileirão 2010", "data": "2010-11-28", "estadio": "Nilton Santos" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Grêmio Prudente", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Brasileirão 2010", "data": "2010-11-28", "estadio": "Nilton Santos" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Internacional", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Brasileirão 2010", "data": "2010-11-21", "estadio": "Nilton Santos" });
     jogos.push({ "mandante": "Ceará", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Brasileirão 2010", "data": "2010-11-10", "estadio": "Presidente Vargas" });
     jogos.push({ "mandante": "Avaí", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Brasileirão 2010", "data": "2010-11-07", "estadio": "Ressacada" });
@@ -941,7 +941,7 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "São Paulo", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Brasileirão 2010", "data": "2010-09-12", "estadio": "Nilton Santos" });
     jogos.push({ "mandante": "Santos", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Brasileirão 2010", "data": "2010-09-09", "estadio": "Pacaembu" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Grêmio", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Brasileirão 2010", "data": "2010-09-04", "estadio": "Nilton Santos" });
-    jogos.push({ "mandante": "Grêmio Barueri", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Brasileirão 2010", "data": "2010-09-01", "estadio": "Prudentão" });
+    jogos.push({ "mandante": "Grêmio Prudente", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Brasileirão 2010", "data": "2010-09-01", "estadio": "Prudentão" });
     jogos.push({ "mandante": "Internacional", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Brasileirão 2010", "data": "2010-08-28", "estadio": "Beira-Rio" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Ceará", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Brasileirão 2010", "data": "2010-08-25", "estadio": "Nilton Santos" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Avaí", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Brasileirão 2010", "data": "2010-08-21", "estadio": "Nilton Santos" });
