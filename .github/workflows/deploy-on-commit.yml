@@ -3,32 +3,31 @@ name: Deploy on Commit
 on:
   push:
     branches:
-      - master  # Substitua por outra branch, se necessário.
+      - master
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
 
     steps:
-      # Passo 1: Baixar o código do repositório
       - name: Checkout repository
         uses: actions/checkout@v3
 
       - name: Set up Git identity
         run: |
-          git config --global user.email "hbaf71@gmail.com"
-          git config --global user.name "Henrique Filho"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "GitHub Actions"
 
-      # Passo 2: Configurar Node.js
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 18  # Substitua pela versão que você usa.
+          node-version: 18
 
-      # Passo 3: Instalar dependências
       - name: Install dependencies
         run: npm install
 
-      # Passo 4: Executar o comando de deploy
+      - name: Authenticate with GitHub
+        run: git remote set-url origin https://github-actions:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+
       - name: Run Deploy
         run: npm run deploy
