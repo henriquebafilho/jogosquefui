@@ -20,6 +20,10 @@ jobs:
         with:
           node-version: 18  # Substitua pela versão que você usa.
 
-      # Passo 3: Executar o comando de deploy
+      # Passo 3: Instalar dependências
+      - name: Install dependencies
+        run: npm install
+
+      # Passo 4: Executar o comando de deploy
       - name: Run Deploy
         run: npm run deploy
