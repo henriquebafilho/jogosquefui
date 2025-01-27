@@ -6,12 +6,12 @@ import { SidebarData } from './SidebarData';
 import '../Navbar.css';
 import { IconContext } from 'react-icons';
 import Perfil from '../pages/Perfil';
-import Estadios from '../pages/Estadios';
+/* import Estadios from '../pages/Estadios';
 import Anos from '../pages/Anos';
 import Adversarios from '../pages/Adversarios';
 import ProximosJogos from '../pages/ProximosJogos';
+import Login from '../pages/Login'; */
 import TodosOsJogos from '../pages/TodosOsJogos';
-import Login from '../pages/Login';
 
 class Navbar extends Component {
     constructor(props) {

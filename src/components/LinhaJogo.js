@@ -55,10 +55,10 @@ class LinhaJogo extends Component {
     }
 
     render() {
-        const checked = this.state.checked;
+        //const checked = this.state.checked;
         const converteDia = (dia) => this.converteDia(dia);
         const converteData = (data) => this.converteData(data);
-        const meusJogos = this.props.meusJogos;
+        //const meusJogos = this.props.meusJogos;
         return (
             <div className='divJogo' 
             style={{

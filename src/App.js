@@ -1,11 +1,11 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Footer from './components/Footer';
-import Login from './pages/Login';
+/* import Login from './pages/Login'; */
 import Perfil from './pages/Perfil';
 import BotafogoJogos from './TodosOsJogos/BotafogoJogos';
 import ConjuntoUsuarios from './ConjuntoUsuarios';
-import Navbar from './components/Navbar';
+/* import Navbar from './components/Navbar'; */
 import VoltarAoTopo from './components/VoltarAoTopo';
 import Usuario from './Usuario';
 

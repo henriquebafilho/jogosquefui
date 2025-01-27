@@ -4,7 +4,7 @@ import Tabs from '../components/Tabs';
 
 function Perfil(props) {
   const meuTime = props.meuTime;
-  let anoAtual = 0;
+  //let anoAtual = 0;
   let meusJogos = props.meusJogos;
   meusJogos.sort(function (a, b) {
     return a.data < b.data ? -1 : a.data > b.data ? 1 : 0;

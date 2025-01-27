@@ -27,7 +27,6 @@ class ProximosJogos extends Component {
 
     getProximosJogos = async () => {
         let todosOsJogos;
-        let proximosJogos = [];
 
         switch (this.state.meuTime) {
             case "Botafogo":
@@ -47,12 +46,10 @@ class ProximosJogos extends Component {
                 break;
         }
 
-        todosOsJogos.map(function (i) {
-            if (i.golsMandante === "" && i.golsVisitante === "") {
-                proximosJogos.push(i);
-            }
-        })
-        this.setState({ proximosJogos: proximosJogos })
+        let proximosJogos = todosOsJogos.filter(function (i) {
+            return i.golsMandante === "" && i.golsVisitante === "";
+        });
+        this.setState({ proximosJogos });
     }
 
     render() {

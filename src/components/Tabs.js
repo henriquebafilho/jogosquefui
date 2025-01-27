@@ -3,7 +3,7 @@ import Adversarios from '../pages/Adversarios';
 import Anos from '../pages/Anos';
 import Estadios from '../pages/Estadios';
 import Times from '../Times';
-import Estatisticas from './Estatisticas';
+//import Estatisticas from './Estatisticas';
 import LinhaJogo from './LinhaJogo';
 import ProximosJogos from '../pages/ProximosJogos';
 
