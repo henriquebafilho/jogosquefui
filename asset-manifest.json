@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/jogosquefui/static/css/main.9cf04c37.css",
-    "main.js": "/jogosquefui/static/js/main.97ce81ab.js",
+    "main.css": "/jogosquefui/static/css/main.7f3a7af6.css",
+    "main.js": "/jogosquefui/static/js/main.b7b875ad.js",
     "static/media/Atanasio Girardot.png": "/jogosquefui/static/media/Atanasio Girardot.654b0fba4632fac4057b.png",
     "static/media/Corisabbá.png": "/jogosquefui/static/media/Corisabbá.4b6783df88df9e49eae8.png",
     "static/media/Colosso da Lagoa.png": "/jogosquefui/static/media/Colosso da Lagoa.b7008037ac5675a07045.png",
@@ -244,7 +244,6 @@
     "static/media/Aurora.png": "/jogosquefui/static/media/Aurora.47bca5ad0db3106560a2.png",
     "static/media/BarraMansa.png": "/jogosquefui/static/media/BarraMansa.786dfe8fdb834342dab7.png",
     "static/media/Altos-PI.png": "/jogosquefui/static/media/Altos-PI.03756bf13a179f532af8.png",
-    "static/media/Bangu.png": "/jogosquefui/static/media/Bangu.a0694b15b85ae50a69d2.png",
     "static/media/Noroeste.png": "/jogosquefui/static/media/Noroeste.028537a7f91053d7dd22.png",
     "static/media/Bahia.png": "/jogosquefui/static/media/Bahia.a974d2eda52d5ba59585.png",
     "static/media/Botafogo1942.png": "/jogosquefui/static/media/Botafogo1942.8bb77b043034163c09f3.png",
@@ -254,6 +253,7 @@
     "static/media/Goiás2019.png": "/jogosquefui/static/media/Goiás2019.23e9565fbee66fc548fa.png",
     "static/media/Atlético de Madrid1950.png": "/jogosquefui/static/media/Atlético de Madrid1950.896ce3c0f959c0ad5156.png",
     "static/media/Serrano-RJ.png": "/jogosquefui/static/media/Serrano-RJ.65fc19552c020bc91723.png",
+    "static/media/Bangu.png": "/jogosquefui/static/media/Bangu.047f77b107a983e5a473.png",
     "static/media/América de Cali.png": "/jogosquefui/static/media/América de Cali.6e44e35b9ad496a9f9b5.png",
     "static/media/Paysandu.png": "/jogosquefui/static/media/Paysandu.39511d9b536bbf93f7d2.png",
     "static/media/Desportiva Ferroviária.png": "/jogosquefui/static/media/Desportiva Ferroviária.6456c188192fb9de1aa8.png",
@@ -280,6 +280,7 @@
     "static/media/Vietnã.png": "/jogosquefui/static/media/Vietnã.14e8fdf13fbcd94e4d60.png",
     "static/media/Corumbaense.png": "/jogosquefui/static/media/Corumbaense.7ff92a6fbc1688acf629.png",
     "static/media/SãoBento.png": "/jogosquefui/static/media/SãoBento.0f8282d86b86336b79fc.png",
+    "static/media/Portuguesa-RJ.png": "/jogosquefui/static/media/Portuguesa-RJ.eff66f0d5699eaa0f3da.png",
     "static/media/TheStrongest.png": "/jogosquefui/static/media/TheStrongest.e25b2b859866c7139198.png",
     "static/media/Metropol.png": "/jogosquefui/static/media/Metropol.10fdfd77dc4949086bf4.png",
     "static/media/Sport.png": "/jogosquefui/static/media/Sport.6f2d860fa82a935f46ea.png",
@@ -352,7 +353,6 @@
     "static/media/Flamengo2018.png": "/jogosquefui/static/media/Flamengo2018.ed8500df9ffc773eedbe.png",
     "static/media/OrientePetrolero.png": "/jogosquefui/static/media/OrientePetrolero.186c8f847abdb008167a.png",
     "static/media/Paraná.png": "/jogosquefui/static/media/Paraná.4095b19b8b05ce2c5bb7.png",
-    "static/media/Portuguesa-RJ.png": "/jogosquefui/static/media/Portuguesa-RJ.394fc2b272ae0e7733b4.png",
     "static/media/AtléticoNacional.png": "/jogosquefui/static/media/AtléticoNacional.0b3e50380b8230bd328b.png",
     "static/media/Olimpia.png": "/jogosquefui/static/media/Olimpia.2d6cf4dc5d613a6e1f14.png",
     "static/media/Botafogo-SP2021.png": "/jogosquefui/static/media/Botafogo-SP2021.b1060d32687c1221c348.png",
@@ -438,11 +438,11 @@
     "static/media/Viking.png": "/jogosquefui/static/media/Viking.601129b45f1e25d9b058.png",
     "static/media/Ceará.png": "/jogosquefui/static/media/Ceará.2667c31fce77d94092f4.png",
     "index.html": "/jogosquefui/index.html",
-    "main.9cf04c37.css.map": "/jogosquefui/static/css/main.9cf04c37.css.map",
-    "main.97ce81ab.js.map": "/jogosquefui/static/js/main.97ce81ab.js.map"
+    "main.7f3a7af6.css.map": "/jogosquefui/static/css/main.7f3a7af6.css.map",
+    "main.b7b875ad.js.map": "/jogosquefui/static/js/main.b7b875ad.js.map"
   },
   "entrypoints": [
-    "static/css/main.9cf04c37.css",
-    "static/js/main.97ce81ab.js"
+    "static/css/main.7f3a7af6.css",
+    "static/js/main.b7b875ad.js"
   ]
 }
