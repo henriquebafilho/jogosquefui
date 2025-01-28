@@ -112,12 +112,11 @@ class LinhaJogo extends Component {
                         display: 'inline', 
                         width: "40%", 
                         textAlign: "right", 
-                        color: Times(this.props.jogo.mandante, this.props.jogo.data).letterColor,
                         paddingRight: '5px',
                         overflow: 'hidden',
                         textOverflow: 'ellipsis',
                         whiteSpace: 'nowrap',
-                        fontWeight: Times(this.props.jogo.mandante, this.props.jogo.data).letterColor !== "white" ? "bold" : "normal" 
+                        color: Times(this.props.jogo.mandante, this.props.jogo.data).letterColor
                     }}>
                        {this.props.jogo.mandante.toUpperCase()}
                     </p>
@@ -140,8 +139,7 @@ class LinhaJogo extends Component {
                         paddingLeft: '5px',
                         overflow: 'hidden',
                         textOverflow: 'ellipsis',
-                        whiteSpace: 'nowrap',
-                        fontWeight: Times(this.props.jogo.visitante, this.props.jogo.data).letterColor !== "white" ? "bold" : "normal" 
+                        whiteSpace: 'nowrap'
                     }}>
                         {this.props.jogo.visitante.toUpperCase()}
                     </p>
