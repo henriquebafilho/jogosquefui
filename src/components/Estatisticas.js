@@ -17,7 +17,8 @@ function Estatisticas(props) {
                         borderTopLeftRadius: vitorias > 0 ? '10px' : '',
                         borderBottomLeftRadius: vitorias > 0 ? '10px' : '',
                         borderTopRightRadius: (vitorias > 0 && empates === 0 && derrotas === 0) ? '10px' : '',
-                        borderBottomRightRadius: (vitorias > 0 && empates === 0 && derrotas === 0) ? '10px' : ''
+                        borderBottomRightRadius: (vitorias > 0 && empates === 0 && derrotas === 0) ? '10px' : '',
+                        textShadow: "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000"
                     }}>
                     {vitorias > 0 ? vitorias : ""}
                 </div>
@@ -27,7 +28,8 @@ function Estatisticas(props) {
                         borderTopLeftRadius: (vitorias === 0 && empates > 0) ? '10px' : '',
                         borderBottomLeftRadius: (vitorias === 0 && empates > 0) ? '10px' : '',
                         borderTopRightRadius: (empates > 0 && derrotas === 0) ? '10px' : '',
-                        borderBottomRightRadius: (empates > 0 && derrotas === 0) ? '10px' : ''
+                        borderBottomRightRadius: (empates > 0 && derrotas === 0) ? '10px' : '',
+                        textShadow: "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000"
                     }}>
                     {empates > 0 ? empates : ""}
                 </div>
@@ -37,7 +39,8 @@ function Estatisticas(props) {
                         borderTopLeftRadius: (vitorias === 0 && empates === 0 && derrotas > 0) ? '10px' : '',
                         borderBottomLeftRadius: (vitorias === 0 && empates === 0 && derrotas > 0) ? '10px' : '',
                         borderTopRightRadius: derrotas > 0 ? '10px' : '',
-                        borderBottomRightRadius: derrotas > 0 ? '10px' : ''
+                        borderBottomRightRadius: derrotas > 0 ? '10px' : '',
+                        textShadow: "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000"
                     }}>
                     {derrotas > 0 ? derrotas : ""}
                 </div>
