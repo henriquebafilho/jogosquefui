@@ -1274,7 +1274,7 @@ function Times(time, data) {
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#d30a11";
-                  letterColor = "black";
+                  letterColor = "white";
                   break;
             case "Nova Cidade":
                   nomeAtual = time;
@@ -1398,7 +1398,7 @@ function Times(time, data) {
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#d30a11";
-                  letterColor = "black";
+                  letterColor = "white";
                   break;
             case "Paulistano-RJ":
                   nomeAtual = time;
@@ -1564,7 +1564,7 @@ function Times(time, data) {
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#d30a11";
-                  letterColor = "black";
+                  letterColor = "white";
                   break;
             case "River-RJ":
                   nomeAtual = time;
@@ -1794,7 +1794,7 @@ function Times(time, data) {
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#d30a11";
-                  letterColor = "#black";
+                  letterColor = "black";
                   break;
             case "Sporting Cristal":
                   nomeAtual = time;
