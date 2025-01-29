@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jogosquefui/static/css/main.7f3a7af6.css",
-    "main.js": "/jogosquefui/static/js/main.2328d9b1.js",
+    "main.js": "/jogosquefui/static/js/main.dfe6d3c9.js",
     "static/media/Atanasio Girardot.png": "/jogosquefui/static/media/Atanasio Girardot.654b0fba4632fac4057b.png",
     "static/media/Corisabbá.png": "/jogosquefui/static/media/Corisabbá.4b6783df88df9e49eae8.png",
     "static/media/Colosso da Lagoa.png": "/jogosquefui/static/media/Colosso da Lagoa.b7008037ac5675a07045.png",
@@ -332,14 +332,14 @@
     "static/media/BostonRiver.png": "/jogosquefui/static/media/BostonRiver.48e3770593660e6215a3.png",
     "static/media/Defensor.png": "/jogosquefui/static/media/Defensor.cefab02092f64a5e44d7.png",
     "static/media/Fluminense Nova Friburgo.png": "/jogosquefui/static/media/Fluminense Nova Friburgo.59258e7cea0e380e7bc7.png",
-    "static/media/CRB.png": "/jogosquefui/static/media/CRB.a05cc01f9adfb3bf8354.png",
     "static/media/Pinheiros-PR.png": "/jogosquefui/static/media/Pinheiros-PR.c5181897f320d3ddc57f.png",
     "static/media/Emelec.png": "/jogosquefui/static/media/Emelec.96bfb445786ad110945f.png",
     "static/media/JuniorBarranquilla.png": "/jogosquefui/static/media/JuniorBarranquilla.a0b5ba797d354b741b56.png",
-    "static/media/VilaNova.png": "/jogosquefui/static/media/VilaNova.9aa39c98f7fca7b0fe3c.png",
     "static/media/SãoPaulo.png": "/jogosquefui/static/media/SãoPaulo.3c474f83e22555fddad6.png",
+    "static/media/CRB.png": "/jogosquefui/static/media/CRB.76c53835e06c191f9c31.png",
     "static/media/bola.png": "/jogosquefui/static/media/bola.51747e6630ed7499517c.png",
     "static/media/Unión.png": "/jogosquefui/static/media/Unión.a5c451ecfe4b944a3721.png",
+    "static/media/VilaNova.png": "/jogosquefui/static/media/VilaNova.0927ff75f00b06b0ad5e.png",
     "static/media/Guarani-PAR.png": "/jogosquefui/static/media/Guarani-PAR.61d93b4ba265c218428e.png",
     "static/media/BoaEsporte.png": "/jogosquefui/static/media/BoaEsporte.d833df33aff95e46c0e1.png",
     "static/media/Botafogo-SP.png": "/jogosquefui/static/media/Botafogo-SP.d7d344fdf2553f03f454.png",
@@ -439,10 +439,10 @@
     "static/media/Ceará.png": "/jogosquefui/static/media/Ceará.2667c31fce77d94092f4.png",
     "index.html": "/jogosquefui/index.html",
     "main.7f3a7af6.css.map": "/jogosquefui/static/css/main.7f3a7af6.css.map",
-    "main.2328d9b1.js.map": "/jogosquefui/static/js/main.2328d9b1.js.map"
+    "main.dfe6d3c9.js.map": "/jogosquefui/static/js/main.dfe6d3c9.js.map"
   },
   "entrypoints": [
     "static/css/main.7f3a7af6.css",
-    "static/js/main.2328d9b1.js"
+    "static/js/main.dfe6d3c9.js"
   ]
 }
