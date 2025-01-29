@@ -53,7 +53,7 @@ function Times(time, data) {
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#003a94";
-                  letterColor = "white";
+                  letterColor = "#fde900";
                   break;
             case "Alianza Lima":
                   nomeAtual = time;
