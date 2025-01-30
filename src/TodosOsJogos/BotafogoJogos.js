@@ -12,7 +12,7 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Madureira", "golsMandante": "", "golsVisitante": "", "campeonato": "Carioca 2025", "data": "2025-02-09", "estadio": "Kleber Andrade", "horario": "16:00" });
     jogos.push({ "mandante": "Nova Iguaçu", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Carioca 2025", "data": "2025-02-06", "estadio": "Moça Bonita", "horario": "21:30" });
     jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Supercopa do Brasil 2025", "data": "2025-02-02", "estadio": "Mangueirão", "horario": "16:00" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "Fluminense", "golsMandante": "", "golsVisitante": "", "campeonato": "Carioca 2025", "data": "2025-01-29", "estadio": "Nilton Santos", "horario": "21:30" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Fluminense", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Carioca 2025", "data": "2025-01-29", "estadio": "Nilton Santos", "horario": "21:30" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Bangu", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Carioca 2025", "data": "2025-01-26", "estadio": "Nilton Santos", "horario": "18:00" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Volta Redonda", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Carioca 2025", "data": "2025-01-22", "estadio": "Nilton Santos", "horario": "21:30" });
     jogos.push({ "mandante": "Sampaio Corrêa-RJ", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Carioca 2025", "data": "2025-01-18", "estadio": "Lourivaldão", "horario": "16:30" });
