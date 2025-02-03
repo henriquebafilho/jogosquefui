@@ -1123,7 +1123,7 @@ function Times(time, data) {
             case "Magallanes":
                   nomeAtual = time;
                   escudo = time;
-                  backgroundColor = "#84C3E8";
+                  backgroundColor = "#43a1d5";
                   letterColor = "white";
                   break;
             case "Mangueira":
