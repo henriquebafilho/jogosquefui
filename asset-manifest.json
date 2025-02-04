@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jogosquefui/static/css/main.7f3a7af6.css",
-    "main.js": "/jogosquefui/static/js/main.75ec4605.js",
+    "main.js": "/jogosquefui/static/js/main.5464f8ac.js",
     "static/media/Atanasio Girardot.png": "/jogosquefui/static/media/Atanasio Girardot.654b0fba4632fac4057b.png",
     "static/media/Corisabbá.png": "/jogosquefui/static/media/Corisabbá.4b6783df88df9e49eae8.png",
     "static/media/Colosso da Lagoa.png": "/jogosquefui/static/media/Colosso da Lagoa.b7008037ac5675a07045.png",
@@ -118,6 +118,7 @@
     "static/media/Carioca FC1933.png": "/jogosquefui/static/media/Carioca FC1933.979faabcc93f7d2d56c2.png",
     "static/media/Atlético-PR.png": "/jogosquefui/static/media/Atlético-PR.5b3131d7cf8ffea2f35a.png",
     "static/media/Joaquim de Morais Filho.png": "/jogosquefui/static/media/Joaquim de Morais Filho.e106fb889f5e471a179e.png",
+    "static/media/Chivas Guadalajara.png": "/jogosquefui/static/media/Chivas Guadalajara.efb71799df8659977f4c.png",
     "static/media/Toluca2002.png": "/jogosquefui/static/media/Toluca2002.2f8a5b579fed91879d4a.png",
     "static/media/DeportivoTachira.png": "/jogosquefui/static/media/DeportivoTachira.eaf143ba740390c707db.png",
     "static/media/RedBullBragantino.png": "/jogosquefui/static/media/RedBullBragantino.60e0a2466e8c73d367ad.png",
@@ -251,6 +252,7 @@
     "static/media/Macaé.png": "/jogosquefui/static/media/Macaé.cc57e7e3750d45f9821a.png",
     "static/media/Madureira.png": "/jogosquefui/static/media/Madureira.39d1994bf319e3b86f72.png",
     "static/media/Goiás2019.png": "/jogosquefui/static/media/Goiás2019.23e9565fbee66fc548fa.png",
+    "static/media/Universidad Autónoma de Guadalajara.png": "/jogosquefui/static/media/Universidad Autónoma de Guadalajara.5486045dbdf7d78ad521.png",
     "static/media/Atlético de Madrid1950.png": "/jogosquefui/static/media/Atlético de Madrid1950.896ce3c0f959c0ad5156.png",
     "static/media/Serrano-RJ.png": "/jogosquefui/static/media/Serrano-RJ.65fc19552c020bc91723.png",
     "static/media/Bangu.png": "/jogosquefui/static/media/Bangu.047f77b107a983e5a473.png",
@@ -355,6 +357,7 @@
     "static/media/Paraná.png": "/jogosquefui/static/media/Paraná.4095b19b8b05ce2c5bb7.png",
     "static/media/AtléticoNacional.png": "/jogosquefui/static/media/AtléticoNacional.0b3e50380b8230bd328b.png",
     "static/media/Olimpia.png": "/jogosquefui/static/media/Olimpia.2d6cf4dc5d613a6e1f14.png",
+    "static/media/Atlas.png": "/jogosquefui/static/media/Atlas.e8e0bec3599ed1d56cec.png",
     "static/media/Botafogo-SP2021.png": "/jogosquefui/static/media/Botafogo-SP2021.b1060d32687c1221c348.png",
     "static/media/América-RJ.png": "/jogosquefui/static/media/América-RJ.4aaff27d0446b49d66a3.png",
     "static/media/Botafogo-PB.png": "/jogosquefui/static/media/Botafogo-PB.e59df4fa72f2358b3b4c.png",
@@ -439,10 +442,10 @@
     "static/media/Ceará.png": "/jogosquefui/static/media/Ceará.2667c31fce77d94092f4.png",
     "index.html": "/jogosquefui/index.html",
     "main.7f3a7af6.css.map": "/jogosquefui/static/css/main.7f3a7af6.css.map",
-    "main.75ec4605.js.map": "/jogosquefui/static/js/main.75ec4605.js.map"
+    "main.5464f8ac.js.map": "/jogosquefui/static/js/main.5464f8ac.js.map"
   },
   "entrypoints": [
     "static/css/main.7f3a7af6.css",
-    "static/js/main.75ec4605.js"
+    "static/js/main.5464f8ac.js"
   ]
 }
