@@ -121,6 +121,12 @@ function Times(time, data) {
                   backgroundColor = "#048439";
                   letterColor = "white";
                   break;
+            case "Atlas":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#d30a11";
+                  letterColor = "black";
+                  break;
             case "Atlético-PR": case "Athletico-PR":
                   nomeAtual = "Athletico-PR";
                   if (time === "Atlético-PR") {
@@ -490,6 +496,12 @@ function Times(time, data) {
                   letterColor = "black";
                   break;
             case "Chile":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#d30a11";
+                  letterColor = "white";
+                  break;
+            case "Chivas Guadalajara":
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#d30a11";
@@ -1919,6 +1931,12 @@ function Times(time, data) {
                   escudo = "UniónLaCalera";
                   backgroundColor = "#d30a11";
                   letterColor = "white";
+                  break;
+            case "Universidad Autónoma de Guadalajara":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#d30a11";
+                  letterColor = "#ffe700";
                   break;
             case "Universidad Católica":
                   nomeAtual = time;

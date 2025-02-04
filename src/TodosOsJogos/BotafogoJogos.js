@@ -4633,6 +4633,9 @@ function jogos() {
     jogos.push({ "mandante": "Seleção de Mérida", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 7, "campeonato": "Amistoso", "data": "1990-06-06", "estadio": "" });
     jogos.push({ "mandante": "UNAM Pumas", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Torneio Amistad de Veracruz", "data": "1990-06-02", "estadio": "Luis Pirata Fuente" });
     jogos.push({ "mandante": "Veracruz", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Torneio Amistad de Veracruz", "data": "1990-05-27", "estadio": "Luis Pirata Fuente" });
+    jogos.push({ "mandante": "Atlas", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Copa Cidade de Guadalajara", "data": "1989-08-24", "estadio": "Jalisco" });
+    jogos.push({ "mandante": "Chivas Guadalajara", "visitante": "Botafogo", "golsMandante": 4, "golsVisitante": 3, "campeonato": "Copa Cidade de Guadalajara", "data": "1989-08-22", "estadio": "Jalisco" });
+    jogos.push({ "mandante": "Universidad Autónoma de Guadalajara", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Copa Cidade de Guadalajara", "data": "1989-08-20", "estadio": "Jalisco" });
 
     jogos.sort(function (a, b) {
         return a.data < b.data ? -1 : a.data > b.data ? 1 : 0;
