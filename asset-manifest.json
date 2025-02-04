@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jogosquefui/static/css/main.7f3a7af6.css",
-    "main.js": "/jogosquefui/static/js/main.221fe549.js",
+    "main.js": "/jogosquefui/static/js/main.0efa42ee.js",
     "static/media/Atanasio Girardot.png": "/jogosquefui/static/media/Atanasio Girardot.654b0fba4632fac4057b.png",
     "static/media/Corisabbá.png": "/jogosquefui/static/media/Corisabbá.4b6783df88df9e49eae8.png",
     "static/media/Colosso da Lagoa.png": "/jogosquefui/static/media/Colosso da Lagoa.b7008037ac5675a07045.png",
@@ -187,6 +187,7 @@
     "static/media/WestHam1991.png": "/jogosquefui/static/media/WestHam1991.95390c997d4cc853b2cd.png",
     "static/media/RedBullBrasil.png": "/jogosquefui/static/media/RedBullBrasil.e5757a894eb24679b39a.png",
     "static/media/SantoAndré.png": "/jogosquefui/static/media/SantoAndré.be6c062b1669bf0332b6.png",
+    "static/media/Chur.png": "/jogosquefui/static/media/Chur.1eeea443c13053a104cb.png",
     "static/media/Peterborough United.png": "/jogosquefui/static/media/Peterborough United.4781519bb76bd2f32e94.png",
     "static/media/Novorizontino.png": "/jogosquefui/static/media/Novorizontino.d7bfed9a2529ab051631.png",
     "static/media/Linense.png": "/jogosquefui/static/media/Linense.cbfac489f84124aa01e5.png",
@@ -215,6 +216,7 @@
     "static/media/Náutico.png": "/jogosquefui/static/media/Náutico.a8bfc75bda7cf6d1df0f.png",
     "static/media/Hibernian.png": "/jogosquefui/static/media/Hibernian.879a546a081470aed5fd.png",
     "static/media/DeportivoLara.png": "/jogosquefui/static/media/DeportivoLara.1ae3c2beb80b6c9d1ba4.png",
+    "static/media/Hajduk Split.png": "/jogosquefui/static/media/Hajduk Split.7d9d437244fccaad88c7.png",
     "static/media/Londrina.png": "/jogosquefui/static/media/Londrina.22675c67c69141f86fca.png",
     "static/media/Cabofriense.png": "/jogosquefui/static/media/Cabofriense.930f45d92b80571b54aa.png",
     "static/media/Juventus2004.png": "/jogosquefui/static/media/Juventus2004.f9613536527da4d1c242.png",
@@ -247,6 +249,7 @@
     "static/media/Corinthians.png": "/jogosquefui/static/media/Corinthians.410c9a158510e47646c4.png",
     "static/media/Aurora.png": "/jogosquefui/static/media/Aurora.47bca5ad0db3106560a2.png",
     "static/media/BarraMansa.png": "/jogosquefui/static/media/BarraMansa.786dfe8fdb834342dab7.png",
+    "static/media/Koln.png": "/jogosquefui/static/media/Koln.f2f52b66975f11312086.png",
     "static/media/Altos-PI.png": "/jogosquefui/static/media/Altos-PI.03756bf13a179f532af8.png",
     "static/media/Noroeste.png": "/jogosquefui/static/media/Noroeste.028537a7f91053d7dd22.png",
     "static/media/Bahia.png": "/jogosquefui/static/media/Bahia.a974d2eda52d5ba59585.png",
@@ -255,7 +258,7 @@
     "static/media/Macaé.png": "/jogosquefui/static/media/Macaé.cc57e7e3750d45f9821a.png",
     "static/media/Madureira.png": "/jogosquefui/static/media/Madureira.39d1994bf319e3b86f72.png",
     "static/media/Goiás2019.png": "/jogosquefui/static/media/Goiás2019.23e9565fbee66fc548fa.png",
-    "static/media/Universidad Autónoma de Guadalajara.png": "/jogosquefui/static/media/Universidad Autónoma de Guadalajara.5486045dbdf7d78ad521.png",
+    "static/media/Universidad Autónoma de Guadalajara.png": "/jogosquefui/static/media/Universidad Autónoma de Guadalajara.81f3c61007c7490b0a71.png",
     "static/media/Atlético de Madrid1950.png": "/jogosquefui/static/media/Atlético de Madrid1950.896ce3c0f959c0ad5156.png",
     "static/media/Serrano-RJ.png": "/jogosquefui/static/media/Serrano-RJ.65fc19552c020bc91723.png",
     "static/media/Bangu.png": "/jogosquefui/static/media/Bangu.047f77b107a983e5a473.png",
@@ -445,10 +448,10 @@
     "static/media/Ceará.png": "/jogosquefui/static/media/Ceará.2667c31fce77d94092f4.png",
     "index.html": "/jogosquefui/index.html",
     "main.7f3a7af6.css.map": "/jogosquefui/static/css/main.7f3a7af6.css.map",
-    "main.221fe549.js.map": "/jogosquefui/static/js/main.221fe549.js.map"
+    "main.0efa42ee.js.map": "/jogosquefui/static/js/main.0efa42ee.js.map"
   },
   "entrypoints": [
     "static/css/main.7f3a7af6.css",
-    "static/js/main.221fe549.js"
+    "static/js/main.0efa42ee.js"
   ]
 }
