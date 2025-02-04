@@ -513,6 +513,12 @@ function Times(time, data) {
                   backgroundColor = "#d30a11";
                   letterColor = "white";
                   break;
+            case "Chur":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#d30a11";
+                  letterColor = "white";
+                  break;
             case "Cocotá":
                   nomeAtual = time;
                   escudo = time;
@@ -916,6 +922,12 @@ function Times(time, data) {
                   backgroundColor = "#795228";
                   letterColor = "white";
                   break;
+            case "Hajduk Split":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#003a94";
+                  letterColor = "white";
+                  break;
             case "Hellênico":
                   nomeAtual = time;
                   escudo = time;
@@ -1090,6 +1102,12 @@ function Times(time, data) {
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#038b5d";
+                  letterColor = "white";
+                  break;
+            case "Koln":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#d30a11";
                   letterColor = "white";
                   break;
             case "LDU":

@@ -4640,6 +4640,10 @@ function jogos() {
     jogos.push({ "mandante": "Cardiff City", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1989-08-12", "estadio": "Ninian Park" });
     jogos.push({ "mandante": "Peterborough United", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1989-08-10", "estadio": "London Road" });
     jogos.push({ "mandante": "Portsmouth", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1989-08-08", "estadio": "Fratton Park" });
+    jogos.push({ "mandante": "Chur", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 5, "campeonato": "Amistoso", "data": "1989-07-16", "estadio": "" });
+    jogos.push({ "mandante": "Koln", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Torneio de Berna", "data": "1989-07-14", "estadio": "Wankdorf Stadium" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Fluminense", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Torneio de Berna", "data": "1989-07-12", "estadio": "Wankdorf Stadium" });
+    jogos.push({ "mandante": "Hajduk Split", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1989-07-08", "estadio": "" });
 
     jogos.sort(function (a, b) {
         return a.data < b.data ? -1 : a.data > b.data ? 1 : 0;
