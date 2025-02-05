@@ -4644,7 +4644,8 @@ function jogos() {
     jogos.push({ "mandante": "Koln", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Torneio de Berna", "data": "1989-07-14", "estadio": "Wankdorf Stadium" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Fluminense", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Torneio de Berna", "data": "1989-07-12", "estadio": "Wankdorf Stadium" });
     jogos.push({ "mandante": "Hajduk Split", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1989-07-08", "estadio": "" });
-
+    jogos.push({ "mandante": "Independiente Santa Fé", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1988-05-01", "estadio": "El Campín" });
+    
     jogos.sort(function (a, b) {
         return a.data < b.data ? -1 : a.data > b.data ? 1 : 0;
     });
