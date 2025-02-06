@@ -4568,9 +4568,9 @@ function jogos() {
     jogos.push({ "mandante": "Hiratsuka Bellmare", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1994-10-08", "estadio": "" });
     jogos.push({ "mandante": "Corumbaense", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Amistoso", "data": "2010-07-04", "estadio": "Arthur Marinho" });
     jogos.push({ "mandante": "Coritiba", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Amistoso", "data": "2010-05-01", "estadio": "Couto Pereira" });
-    jogos.push({ "mandante": "Vitória de Guimarães", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "OBI Cup", "data": "2008-07-15", "estadio": "Stade de Suisse" });
+    jogos.push({ "mandante": "Vitória de Guimarães", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "OBI Cup", "data": "2008-07-15", "estadio": "Wankdorf Stadium" });
     jogos.push({ "mandante": "Partizan", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Amistoso", "data": "2008-07-14", "estadio": "" });
-    jogos.push({ "mandante": "Young Boys", "visitante": "Botafogo", "golsMandante": 6, "golsVisitante": 0, "campeonato": "OBI Cup", "data": "2008-07-12", "estadio": "Stade de Suisse" });
+    jogos.push({ "mandante": "Young Boys", "visitante": "Botafogo", "golsMandante": 6, "golsVisitante": 0, "campeonato": "OBI Cup", "data": "2008-07-12", "estadio": "Wankdorf Stadium" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Stabaek", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Copa Peregrino", "data": "2008-01-12", "estadio": "Giulite Coutinho" });
     jogos.push({ "mandante": "Desportiva Ferroviária", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Amistoso", "data": "2007-01-14", "estadio": "Engenheiro Araripe" });
     jogos.push({ "mandante": "Desportiva Ferroviária", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Amistoso", "data": "2006-06-29", "estadio": "Engenheiro Araripe" });
@@ -4645,6 +4645,8 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Fluminense", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Torneio de Berna", "data": "1989-07-12", "estadio": "Wankdorf Stadium" });
     jogos.push({ "mandante": "Hajduk Split", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1989-07-08", "estadio": "" });
     jogos.push({ "mandante": "Independiente Santa Fé", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1988-05-01", "estadio": "El Campín" });
+    jogos.push({ "mandante": "Young Boys", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Torneio de Berna", "data": "1985-07-31", "estadio": "Wankdorf Stadium" });
+    jogos.push({ "mandante": "Borussia Monchengladbach", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 5, "campeonato": "Torneio de Berna", "data": "1985-08-02", "estadio": "Wankdorf Stadium" });
     
     jogos.sort(function (a, b) {
         return a.data < b.data ? -1 : a.data > b.data ? 1 : 0;

@@ -297,6 +297,12 @@ function Times(time, data) {
                   backgroundColor = "#1c4196";
                   letterColor = "white";
                   break;
+            case "Borussia Monchengladbach":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#048439";
+                  letterColor = "white";
+                  break;
             case "Boston River":
                   nomeAtual = time;
                   escudo = "BostonRiver";
@@ -814,12 +820,6 @@ function Times(time, data) {
                   backgroundColor = "#048439";
                   letterColor = "white";
                   break;
-            case "Fluminense Nova Friburgo":
-                  nomeAtual = time;
-                  escudo = time;
-                  backgroundColor = "#20418e";
-                  letterColor = "white";
-                  break;
             case "Football and Athletic":
                   nomeAtual = time;
                   escudo = time;
@@ -832,16 +832,21 @@ function Times(time, data) {
                   backgroundColor = "#11519b";
                   letterColor = "white";
                   break;
-            case "Friburguense":
-                  nomeAtual = time;
-                  escudo = time;
-                  backgroundColor = "#003a94";
+            case "Friburguense": case "Fluminense Nova Friburgo":
+                  nomeAtual = "Friburguense";
+                  if (ano < 1980) {
+                        escudo = "Fluminense Nova Friburgo";
+                        backgroundColor = "#20418e";
+                  } else {
+                        escudo = time;
+                        backgroundColor = "#003a94";
+                  }
                   letterColor = "white";
                   break;
             case "Galícia":
                   nomeAtual = time;
                   escudo = time;
-                  backgroundColor = "#0000C5";
+                  backgroundColor = "#003a94";
                   letterColor = "white";
                   break;
             case "Germânia-RJ":
