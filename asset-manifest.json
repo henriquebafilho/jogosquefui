@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jogosquefui/static/css/main.7f3a7af6.css",
-    "main.js": "/jogosquefui/static/js/main.fa803a8f.js",
+    "main.js": "/jogosquefui/static/js/main.01a5064e.js",
     "static/media/Atanasio Girardot.png": "/jogosquefui/static/media/Atanasio Girardot.654b0fba4632fac4057b.png",
     "static/media/Corisabbá.png": "/jogosquefui/static/media/Corisabbá.4b6783df88df9e49eae8.png",
     "static/media/Colosso da Lagoa.png": "/jogosquefui/static/media/Colosso da Lagoa.b7008037ac5675a07045.png",
@@ -182,6 +182,7 @@
     "static/media/Alegrense.png": "/jogosquefui/static/media/Alegrense.362cabbb1b73f05d3708.png",
     "static/media/Juventus1990.png": "/jogosquefui/static/media/Juventus1990.12bf024f939d37d72304.png",
     "static/media/União São João.png": "/jogosquefui/static/media/União São João.973940f908f85f12903b.png",
+    "static/media/2025.png": "/jogosquefui/static/media/2025.0a925972b5a4b96e870e.png",
     "static/media/Mirassol.png": "/jogosquefui/static/media/Mirassol.c63d19bb250673570633.png",
     "static/media/Plymouth Argyle.png": "/jogosquefui/static/media/Plymouth Argyle.8fdd0a39537fe38d30bb.png",
     "static/media/Partizan.png": "/jogosquefui/static/media/Partizan.ac0e0e05dcdb87d47fd0.png",
@@ -297,6 +298,7 @@
     "static/media/Altos-PI.png": "/jogosquefui/static/media/Altos-PI.03756bf13a179f532af8.png",
     "static/media/Noroeste.png": "/jogosquefui/static/media/Noroeste.028537a7f91053d7dd22.png",
     "static/media/Bahia.png": "/jogosquefui/static/media/Bahia.a974d2eda52d5ba59585.png",
+    "static/media/Lille.png": "/jogosquefui/static/media/Lille.b53c45a88d1d35a37078.png",
     "static/media/Botafogo1942.png": "/jogosquefui/static/media/Botafogo1942.8bb77b043034163c09f3.png",
     "static/media/TigresdoBrasil.png": "/jogosquefui/static/media/TigresdoBrasil.f802e5efb81aecf4720a.png",
     "static/media/Macaé.png": "/jogosquefui/static/media/Macaé.cc57e7e3750d45f9821a.png",
@@ -324,10 +326,12 @@
     "static/media/Brasil.png": "/jogosquefui/static/media/Brasil.e544afd772c61a82544f.png",
     "static/media/Toluca.png": "/jogosquefui/static/media/Toluca.6bcc9ad1696928219074.png",
     "static/media/Vasco.png": "/jogosquefui/static/media/Vasco.0747a45277698b3e2cff.png",
+    "static/media/Sporting de Gijón.png": "/jogosquefui/static/media/Sporting de Gijón.02aefe6effcf6fb325f9.png",
     "static/media/Aparecidense2022.png": "/jogosquefui/static/media/Aparecidense2022.39ed6a40db551b033c07.png",
     "static/media/CSA.png": "/jogosquefui/static/media/CSA.22b3f5285fda6193016d.png",
     "static/media/Werder Bremen.png": "/jogosquefui/static/media/Werder Bremen.b580a073e73b4a5724d7.png",
     "static/media/Olaria.png": "/jogosquefui/static/media/Olaria.6076390cf120541f319c.png",
+    "static/media/Barcelona.png": "/jogosquefui/static/media/Barcelona.0c211899e89b2edfcf16.png",
     "static/media/SampaioCorrêa.png": "/jogosquefui/static/media/SampaioCorrêa.92d7292b26deb5d9a9ed.png",
     "static/media/América de Cali.png": "/jogosquefui/static/media/América de Cali.e5237fee1a9d54ab9b4c.png",
     "static/media/Vietnã.png": "/jogosquefui/static/media/Vietnã.14e8fdf13fbcd94e4d60.png",
@@ -433,6 +437,7 @@
     "static/media/SãoCaetano.png": "/jogosquefui/static/media/SãoCaetano.5a65e3efbec982503196.png",
     "static/media/Guiana Francesa.png": "/jogosquefui/static/media/Guiana Francesa.ac2ba7330013d8df918f.png",
     "static/media/Shandong Luneng.png": "/jogosquefui/static/media/Shandong Luneng.8a940a23be789c354d6d.png",
+    "static/media/Celta de Vigo.png": "/jogosquefui/static/media/Celta de Vigo.03b9b573ec567635b016.png",
     "static/media/Maranhão.png": "/jogosquefui/static/media/Maranhão.1e665ee420f3faa0adfc.png",
     "static/media/Atlético-GO2020.png": "/jogosquefui/static/media/Atlético-GO2020.0e6a5c295c9634b05552.png",
     "static/media/Itaperuna.png": "/jogosquefui/static/media/Itaperuna.b10cd298769d4ce25030.png",
@@ -493,10 +498,10 @@
     "static/media/Ceará.png": "/jogosquefui/static/media/Ceará.2667c31fce77d94092f4.png",
     "index.html": "/jogosquefui/index.html",
     "main.7f3a7af6.css.map": "/jogosquefui/static/css/main.7f3a7af6.css.map",
-    "main.fa803a8f.js.map": "/jogosquefui/static/js/main.fa803a8f.js.map"
+    "main.01a5064e.js.map": "/jogosquefui/static/js/main.01a5064e.js.map"
   },
   "entrypoints": [
     "static/css/main.7f3a7af6.css",
-    "static/js/main.fa803a8f.js"
+    "static/js/main.01a5064e.js"
   ]
 }
