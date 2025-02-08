@@ -23,7 +23,7 @@ class Anos extends Component {
     await this.getAnos();
     this.setState({ filtered: this.state.anos });
   }
-  
+
   getAnos = async () => {
     var jogos = this.state.jogos;
 
@@ -58,7 +58,7 @@ class Anos extends Component {
   }
 
   searchAno = async (e) => {
-    this.setState({ filtered: this.state.anos.filter(ano => ano.toString().trim().includes(e.target.value.trim()))})
+    this.setState({ filtered: this.state.anos.filter(ano => ano.toString().trim().includes(e.target.value.trim())) })
   }
 
   render() {
@@ -90,10 +90,17 @@ class Anos extends Component {
                 />
                 {this.state.filtered.length > 0 ?
                   !this.state.isLoading && this.state.filtered.map(function (i) {
-                    var totalAno = common.getTotalAno(i, meusJogos/* .getJogos() */);
+                    var totalAno = common.getTotalAno(i, meusJogos);
+                    let imagemAno;
+                    try {
+                      imagemAno = require('../anos/' + i + '.png');
+                    } catch (e) {
+                      imagemAno = "";
+                    }
                     return <div key={i}>
                       <button id='selectAno' onClick={() => buttonClickFunction(i)} style={{ borderColor: Times(meuTime).letterColor, borderStyle: 'solid', backgroundColor: Times(meuTime).backgroundColor, color: Times(meuTime).letterColor }}>
-                        <div style={{ display: 'inline', padding: '10px', fontSize: '30px' }}>{i}</div>
+                        <div>{imagemAno !== "" ? <img src={imagemAno} style={{ verticalAlign: 'middle' }} alt='ano' height='150' width='150' /> : ""}</div>
+                        <div id='tituloOpcao' style={{ display: 'inline', padding: '10px', fontSize: '30px' }}>{i}</div>
                         <div style={{ paddingBottom: '5px', fontSize: '15px', fontWeight: '100' }}>{totalAno} {totalAno > 1 ? "jogos" : "jogo"}</div>
                       </button>
                     </div>

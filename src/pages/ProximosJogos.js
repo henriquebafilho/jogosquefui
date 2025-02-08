@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 import Times from '../Times';
 import LinhaJogo from '../components/LinhaJogo';
-import FlamengoJogos from '../TodosOsJogos/FlamengoJogos';
-import FluminenseJogos from '../TodosOsJogos/FluminenseJogos';
-import VascoJogos from '../TodosOsJogos/VascoJogos';
 import BotafogoJogos from '../TodosOsJogos/BotafogoJogos';
 
 class ProximosJogos extends Component {
@@ -26,25 +23,7 @@ class ProximosJogos extends Component {
     }
 
     getProximosJogos = async () => {
-        let todosOsJogos;
-
-        switch (this.state.meuTime) {
-            case "Botafogo":
-                todosOsJogos = BotafogoJogos();
-                break;
-            case "Flamengo":
-                todosOsJogos = FlamengoJogos().reverse();
-                break;
-            case "Fluminense":
-                todosOsJogos = FluminenseJogos().reverse();
-                break;
-            case "Vasco":
-                todosOsJogos = VascoJogos().reverse();
-                break;
-            default:
-                console.error("Time não disponível.")
-                break;
-        }
+        let todosOsJogos = BotafogoJogos();
 
         let proximosJogos = todosOsJogos.filter(function (i) {
             return i.golsMandante === "" && i.golsVisitante === "";

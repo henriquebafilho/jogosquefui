@@ -2,9 +2,6 @@ import React, { Component } from 'react';
 import Times from '../Times';
 import common from '../common';
 import ViewAno from './viewScreens/ViewAno';
-import FlamengoJogos from '../TodosOsJogos/FlamengoJogos';
-import FluminenseJogos from '../TodosOsJogos/FluminenseJogos';
-import VascoJogos from '../TodosOsJogos/VascoJogos';
 import BotafogoJogos from '../TodosOsJogos/BotafogoJogos';
 
 class TodosOsJogos extends Component {
@@ -32,26 +29,8 @@ class TodosOsJogos extends Component {
   }
 
   getJogos = async () => {
-    let todosOsJogos;
+    let todosOsJogos = BotafogoJogos().reverse();
     let jogosTerminados = [];
-
-    switch (this.state.meuTime) {
-      case "Botafogo":
-        todosOsJogos = BotafogoJogos().reverse();
-        break;
-      case "Flamengo":
-        todosOsJogos = FlamengoJogos().reverse();
-        break;
-      case "Fluminense":
-        todosOsJogos = FluminenseJogos().reverse();
-        break;
-      case "Vasco":
-        todosOsJogos = VascoJogos().reverse();
-        break;
-      default:
-        console.error("Time não disponível.")
-        break;
-    }
 
     todosOsJogos.forEach((jogo) => {
       if (jogo.golsMandante !== "" && jogo.golsVisitante !== "") {

@@ -1328,6 +1328,7 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Vasco", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Brasileirão 2004", "data": "2004-09-19", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Figueirense", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Brasileirão 2004", "data": "2004-09-12", "estadio": "Orlando Scarpelli" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Grêmio", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Brasileirão 2004", "data": "2004-09-09", "estadio": "Caio Martins" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Grêmio", "golsMandante": 4, "golsVisitante": 1, "campeonato": "Amistoso", "data": "2004-09-04", "estadio": "Caio Martins" });
     jogos.push({ "mandante": "Paysandu", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Brasileirão 2004", "data": "2004-09-02", "estadio": "Mangueirão" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Criciúma", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Brasileirão 2004", "data": "2004-08-28", "estadio": "Caio Martins" });
     jogos.push({ "mandante": "Atlético-MG", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Brasileirão 2004", "data": "2004-08-22", "estadio": "Independência" });
