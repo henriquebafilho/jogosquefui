@@ -4648,6 +4648,11 @@ function jogos() {
     jogos.push({ "mandante": "Independiente Santa Fé", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1988-05-01", "estadio": "El Campín" });
     jogos.push({ "mandante": "Young Boys", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Torneio de Berna", "data": "1985-07-31", "estadio": "Wankdorf Stadium" });
     jogos.push({ "mandante": "Borussia Monchengladbach", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 5, "campeonato": "Torneio de Berna", "data": "1985-08-02", "estadio": "Wankdorf Stadium" });
+    jogos.push({ "mandante": "Hajduk Split", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Torneio de Paris", "data": "1984-08-02", "estadio": "Parc Des Princes", "penaltis": "3 x 1" });
+    jogos.push({ "mandante": "Lille", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Torneio de Paris", "data": "1989-07-06", "estadio": "Stadium Nord" });
+    jogos.push({ "mandante": "Celta de Vigo", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Torneio Cidade de Vigo", "data": "1988-08-20", "estadio": "Balaídos" });
+    jogos.push({ "mandante": "Sporting de Gijón", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1988-08-15", "estadio": "El Molinón" });
+    jogos.push({ "mandante": "Barcelona", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Taça Cidade Palma de Mallorca", "data": "1988-08-13", "estadio": "Luís Sitjar" });
     
     jogos.sort(function (a, b) {
         return a.data < b.data ? -1 : a.data > b.data ? 1 : 0;
