@@ -4678,6 +4678,7 @@ function jogos() {
     jogos.push({ "mandante": "Cuba", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Torneio Pentagonal da Costa Rica", "data": "1986-04-27", "estadio": "" });
     jogos.push({ "mandante": "Atlante", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Torneio Pentagonal da Costa Rica", "data": "1986-04-25", "estadio": "" });
     jogos.push({ "mandante": "Puntarenas", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Torneio Pentagonal da Costa Rica", "data": "1986-04-20", "estadio": "" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Vitória", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Torneio Independência do Brasil", "data": "1974-09-08", "estadio": "Mané Garrincha" });
     
     jogos.sort(function (a, b) {
         return a.data < b.data ? -1 : a.data > b.data ? 1 : 0;
