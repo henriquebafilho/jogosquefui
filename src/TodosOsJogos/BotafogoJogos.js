@@ -4664,6 +4664,20 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Petro Atlético", "golsMandante": 3, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1988-01-21", "estadio": "Campo do Hotel Atlântico Sul" });
     jogos.push({ "mandante": "Ascoli", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1987-12-08", "estadio": "" });
     jogos.push({ "mandante": "Salernitana", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1987-12-02", "estadio": "" });
+    jogos.push({ "mandante": "Kuwait", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1987-11-27", "estadio": "" });
+    jogos.push({ "mandante": "Iraque", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1987-11-25", "estadio": "" });
+    jogos.push({ "mandante": "Sporting", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Troféu Ramón de Carranza", "data": "1986-08-24", "estadio": "" });
+    jogos.push({ "mandante": "Cádiz", "visitante": "Botafogo", "golsMandante": 4, "golsVisitante": 0, "campeonato": "Troféu Ramón de Carranza", "data": "1986-08-23", "estadio": "" });
+    jogos.push({ "mandante": "Napoli", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1986-08-20", "estadio": "San Paolo" });
+    jogos.push({ "mandante": "Reggina", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1986-08-17", "estadio": "" });
+    jogos.push({ "mandante": "KV Mechelen", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Torneio de Charleroi", "data": "1986-08-14", "estadio": "", "penaltis": "5 x 3" });
+    jogos.push({ "mandante": "Charleroi", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Torneio de Charleroi", "data": "1986-08-12", "estadio": "", "penaltis": "2 x 4" });
+    jogos.push({ "mandante": "Dynamo de Kiev", "visitante": "Botafogo", "golsMandante": 6, "golsVisitante": 0, "campeonato": "Torneio de Amsterdã", "data": "1986-08-10", "estadio": "" });
+    jogos.push({ "mandante": "Ajax", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Torneio de Amsterdã", "data": "1986-08-08", "estadio": "", "penaltis": "4 x 5" });
+    jogos.push({ "mandante": "Saprissa", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Torneio Pentagonal da Costa Rica", "data": "1986-04-29", "estadio": "" });
+    jogos.push({ "mandante": "Cuba", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Torneio Pentagonal da Costa Rica", "data": "1986-04-27", "estadio": "" });
+    jogos.push({ "mandante": "Atlante", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Torneio Pentagonal da Costa Rica", "data": "1986-04-25", "estadio": "" });
+    jogos.push({ "mandante": "Puntarenas", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Torneio Pentagonal da Costa Rica", "data": "1986-04-20", "estadio": "" });
     
     jogos.sort(function (a, b) {
         return a.data < b.data ? -1 : a.data > b.data ? 1 : 0;
