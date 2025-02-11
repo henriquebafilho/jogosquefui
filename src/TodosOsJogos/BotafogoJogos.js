@@ -4653,6 +4653,17 @@ function jogos() {
     jogos.push({ "mandante": "Celta de Vigo", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Torneio Cidade de Vigo", "data": "1988-08-20", "estadio": "Balaídos" });
     jogos.push({ "mandante": "Sporting de Gijón", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1988-08-15", "estadio": "El Molinón" });
     jogos.push({ "mandante": "Barcelona", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Taça Cidade Palma de Mallorca", "data": "1988-08-13", "estadio": "Luís Sitjar" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Emirados Árabes Unidos", "golsMandante": 3, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1988-08-05", "estadio": "Louzadão" });
+    jogos.push({ "mandante": "Honduras", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1988-07-12", "estadio": "" });
+    jogos.push({ "mandante": "Honduras", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1988-07-15", "estadio": "" });
+    jogos.push({ "mandante": "Panamá", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1988-07-06", "estadio": "" });
+    jogos.push({ "mandante": "Costa Rica", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1988-06-29", "estadio": "Estádio Nacional da Costa Rica" });
+    jogos.push({ "mandante": "Costa Rica Sub-20", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 5, "campeonato": "Amistoso", "data": "1988-07-03", "estadio": "Estádio Nacional da Costa Rica" });
+    jogos.push({ "mandante": "Equador", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1988-04-27", "estadio": "Olímpico Atahualpa" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Petro Atlético", "golsMandante": 2, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1988-01-19", "estadio": "Campo do Hotel Atlântico Sul" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Petro Atlético", "golsMandante": 3, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1988-01-21", "estadio": "Campo do Hotel Atlântico Sul" });
+    jogos.push({ "mandante": "Ascoli", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1987-12-08", "estadio": "" });
+    jogos.push({ "mandante": "Salernitana", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1987-12-02", "estadio": "" });
     
     jogos.sort(function (a, b) {
         return a.data < b.data ? -1 : a.data > b.data ? 1 : 0;
