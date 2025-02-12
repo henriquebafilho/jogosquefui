@@ -131,6 +131,12 @@ function Times(time, data) {
                   backgroundColor = "#048439";
                   letterColor = "white";
                   break;
+            case "Aruba":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#fde900";
+                  letterColor = "#003a94";
+                  break;
             case "Ascoli":
                   nomeAtual = time;
                   escudo = time;
@@ -977,8 +983,8 @@ function Times(time, data) {
                   backgroundColor = "#0d80bf";
                   letterColor = "black";
                   break;
-            case "Grêmio Barueri": case "Grêmio Prudente":
-                  nomeAtual = "Grêmio Prudente";
+            case "Grêmio Barueri": case "Grêmio Prudente": case "Grêmio Prudente (Barueri)":
+                  nomeAtual = "Grêmio Prudente (Barueri)";
                   escudo = time;
                   backgroundColor = "#f6e815";
                   letterColor = "#003c6e";
@@ -1144,7 +1150,7 @@ function Times(time, data) {
             case "Japão":
                   nomeAtual = time;
                   escudo = time;
-                  backgroundColor = "#091E53";
+                  backgroundColor = "#003a94";
                   letterColor = "white";
                   break;
             case "JEF United Ichihara":
@@ -1401,6 +1407,12 @@ function Times(time, data) {
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#172b8c";
+                  letterColor = "white";
+                  break;
+            case "Nancy":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#d30a11";
                   letterColor = "white";
                   break;
             case "Nantes":
@@ -1683,6 +1695,12 @@ function Times(time, data) {
                   backgroundColor = "#d30a11";
                   letterColor = "#fdd120";
                   break;
+            case "Puebla":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#012851";
+                  letterColor = "white";
+                  break;
             case "Puntarenas":
                   nomeAtual = time;
                   escudo = time;
@@ -1705,6 +1723,12 @@ function Times(time, data) {
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#30358d";
+                  letterColor = "white";
+                  break;
+            case "Rangers":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#0032a0";
                   letterColor = "white";
                   break;
             case "Real Garcilaso":
@@ -2309,8 +2333,8 @@ function Times(time, data) {
                   backgroundColor = "black";
                   letterColor = "white";
                   break;
-            case "Júbilo Iwata": case "Yamaha":
-                  nomeAtual = "Júbilo Iwata";
+            case "Júbilo Iwata": case "Yamaha": case "Júbilo Iwata (Yamaha)":
+                  nomeAtual = "Júbilo Iwata (Yamaha)";
                   escudo = time;
                   backgroundColor = "#659ad2";
                   letterColor = "white";

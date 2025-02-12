@@ -4696,6 +4696,20 @@ function jogos() {
     jogos.push({ "mandante": "Maccabi Netanya", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 4, "campeonato": "Torneio de Paris", "data": "1983-07-12", "estadio": "Parc Des Princes" });
     jogos.push({ "mandante": "Romênia", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Torneio de Paris", "data": "1983-07-11", "estadio": "" });
     jogos.push({ "mandante": "Universidad Autónoma", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1983-06-10", "estadio": "Los Angeles Memorial Coliseum" });
+    jogos.push({ "mandante": "Sporting de Gijón", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Torneio Internacional", "data": "1982-06-03", "estadio": "Nacional de Chile" });
+    jogos.push({ "mandante": "Chile", "visitante": "Botafogo", "golsMandante": 4, "golsVisitante": 1, "campeonato": "Torneio Internacional", "data": "1982-06-02", "estadio": "Nacional de Chile" });
+    jogos.push({ "mandante": "Chile", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1982-04-13", "estadio": "Nacional de Chile" });
+    jogos.push({ "mandante": "Uruguai", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1981-08-15", "estadio": "Centenario-URU" });
+    jogos.push({ "mandante": "Chile", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1981-05-15", "estadio": "Nacional de Chile" });
+    jogos.push({ "mandante": "Combinado de Curaçao", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1980-06-28", "estadio": "" });
+    jogos.push({ "mandante": "Aruba", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1980-06-24", "estadio": "" });
+    jogos.push({ "mandante": "Rangers", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Red Leaf Cup", "data": "1980-06-18", "estadio": "" });
+    jogos.push({ "mandante": "Nancy", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Red Leaf Cup", "data": "1980-06-15", "estadio": "" });
+    jogos.push({ "mandante": "Ascoli", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Red Leaf Cup", "data": "1980-06-13", "estadio": "" });
+    jogos.push({ "mandante": "Puebla", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1980-06-08", "estadio": "" });
+    jogos.push({ "mandante": "Universidad Autónoma", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1980-06-05", "estadio": "" });
+    jogos.push({ "mandante": "Athletic Bilbao", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Troféu Cidade de Vigo", "data": "1979-08-21", "estadio": "", "penaltis": "5 x 4" });
+    jogos.push({ "mandante": "Athletic Bilbao", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 3, "campeonato": "Torneio Quadrangular de Bilbao", "data": "1979-08-10", "estadio": "" });
 
     jogos.sort(function (a, b) {
         return a.data < b.data ? -1 : a.data > b.data ? 1 : 0;
