@@ -4636,7 +4636,7 @@ function jogos() {
     jogos.push({ "mandante": "Veracruz", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Torneio Amistad de Veracruz", "data": "1990-05-27", "estadio": "Luis Pirata Fuente" });
     jogos.push({ "mandante": "Atlas", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Copa Cidade de Guadalajara", "data": "1989-08-24", "estadio": "Jalisco" });
     jogos.push({ "mandante": "Chivas Guadalajara", "visitante": "Botafogo", "golsMandante": 4, "golsVisitante": 3, "campeonato": "Copa Cidade de Guadalajara", "data": "1989-08-22", "estadio": "Jalisco" });
-    jogos.push({ "mandante": "Universidad Autónoma de Guadalajara", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Copa Cidade de Guadalajara", "data": "1989-08-20", "estadio": "Jalisco" });
+    jogos.push({ "mandante": "Universidad Autónoma", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Copa Cidade de Guadalajara", "data": "1989-08-20", "estadio": "Jalisco" });
     jogos.push({ "mandante": "Plymouth Argyle", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1989-08-14", "estadio": "Home Park" });
     jogos.push({ "mandante": "Cardiff City", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1989-08-12", "estadio": "Ninian Park" });
     jogos.push({ "mandante": "Peterborough United", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1989-08-10", "estadio": "London Road" });
@@ -4679,7 +4679,24 @@ function jogos() {
     jogos.push({ "mandante": "Atlante", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Torneio Pentagonal da Costa Rica", "data": "1986-04-25", "estadio": "" });
     jogos.push({ "mandante": "Puntarenas", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Torneio Pentagonal da Costa Rica", "data": "1986-04-20", "estadio": "" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Vitória", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Torneio Independência do Brasil", "data": "1974-09-08", "estadio": "Mané Garrincha" });
-    
+    jogos.push({ "mandante": "Costa do Marfim", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1985-08-25", "estadio": "Houphouet Boigny" });
+    jogos.push({ "mandante": "Porto", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1985-08-20", "estadio": "Estádio das Antas" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Porto", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1996-01-21", "estadio": "Maracanã" });
+    jogos.push({ "mandante": "Athletic Bilbao", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1985-08-14", "estadio": "" });
+    jogos.push({ "mandante": "Groningen", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Torneio de Groningen", "data": "1985-08-11", "estadio": "", "penaltis": "7 x 6" });
+    jogos.push({ "mandante": "Olympiacos", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Torneio de Groningen", "data": "1985-08-09", "estadio": "", "penaltis": "2 x 4" });
+    jogos.push({ "mandante": "Finlândia", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1985-08-06", "estadio": "" });
+    jogos.push({ "mandante": "Stafa", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 10, "campeonato": "Amistoso", "data": "1985-08-04", "estadio": "" });
+    jogos.push({ "mandante": "Seleção de Caiena", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 6, "campeonato": "Amistoso", "data": "1985-05-15", "estadio": "" });
+    jogos.push({ "mandante": "Transvaal", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1985-05-12", "estadio": "" });
+    jogos.push({ "mandante": "Robinhood", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1985-05-10", "estadio": "" });
+    jogos.push({ "mandante": "Everton", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Torneio de Genebra", "data": "1984-08-07", "estadio": "Charmilles" });
+    jogos.push({ "mandante": "Servette", "visitante": "Botafogo", "golsMandante": 5, "golsVisitante": 2, "campeonato": "Torneio de Paris", "data": "1984-08-03", "estadio": "" });
+    jogos.push({ "mandante": "Servette", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 7, "campeonato": "Amistoso", "data": "1961-06-14", "estadio": "Charmilles" });
+    jogos.push({ "mandante": "Maccabi Netanya", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 4, "campeonato": "Torneio de Paris", "data": "1983-07-12", "estadio": "Parc Des Princes" });
+    jogos.push({ "mandante": "Romênia", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Torneio de Paris", "data": "1983-07-11", "estadio": "" });
+    jogos.push({ "mandante": "Universidad Autónoma", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1983-06-10", "estadio": "Los Angeles Memorial Coliseum" });
+
     jogos.sort(function (a, b) {
         return a.data < b.data ? -1 : a.data > b.data ? 1 : 0;
     });
