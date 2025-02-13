@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jogosquefui/static/css/main.7f3a7af6.css",
-    "main.js": "/jogosquefui/static/js/main.4b896560.js",
+    "main.js": "/jogosquefui/static/js/main.3c867f03.js",
     "static/media/Atanasio Girardot.png": "/jogosquefui/static/media/Atanasio Girardot.654b0fba4632fac4057b.png",
     "static/media/Corisabbá.png": "/jogosquefui/static/media/Corisabbá.4b6783df88df9e49eae8.png",
     "static/media/Colosso da Lagoa.png": "/jogosquefui/static/media/Colosso da Lagoa.b7008037ac5675a07045.png",
@@ -185,6 +185,8 @@
     "static/media/RedBullBragantino.png": "/jogosquefui/static/media/RedBullBragantino.60e0a2466e8c73d367ad.png",
     "static/media/Uruguai.png": "/jogosquefui/static/media/Uruguai.bbde614474df513b2e3f.png",
     "static/media/América-MEX.png": "/jogosquefui/static/media/América-MEX.2f95f709a091ae4c38c0.png",
+    "static/media/Al-Ahli.png": "/jogosquefui/static/media/Al-Ahli.2c973602d37fa325266f.png",
+    "static/media/Sevilla.png": "/jogosquefui/static/media/Sevilla.be391f5d134ada967aca.png",
     "static/media/São Raimundo-AM.png": "/jogosquefui/static/media/São Raimundo-AM.c0f08fd097cbf7cc5563.png",
     "static/media/Guiana Francesa.png": "/jogosquefui/static/media/Guiana Francesa.3987e315cc72e8447f64.png",
     "static/media/BarcelonadeGuayaquil.png": "/jogosquefui/static/media/BarcelonadeGuayaquil.be900055d58a20a3e374.png",
@@ -211,6 +213,7 @@
     "static/media/Náutico2008.png": "/jogosquefui/static/media/Náutico2008.492930bad6e37d4ed71d.png",
     "static/media/Roma.png": "/jogosquefui/static/media/Roma.f006d35bd9f7889e67c0.png",
     "static/media/Football and Athletic.png": "/jogosquefui/static/media/Football and Athletic.671e467f7078d986d895.png",
+    "static/media/Bayern de Munique.png": "/jogosquefui/static/media/Bayern de Munique.d7d66e9dade856dfdbd3.png",
     "static/media/Huelva.png": "/jogosquefui/static/media/Huelva.e0aa27e9ea0642b3b2e8.png",
     "static/media/Kuwait.png": "/jogosquefui/static/media/Kuwait.dea1a0bf441e9c6e22f8.png",
     "static/media/Ferroviária.png": "/jogosquefui/static/media/Ferroviária.85e4eacee98f8449d7a4.png",
@@ -263,6 +266,7 @@
     "static/media/WestHam1991.png": "/jogosquefui/static/media/WestHam1991.95390c997d4cc853b2cd.png",
     "static/media/RedBullBrasil.png": "/jogosquefui/static/media/RedBullBrasil.e5757a894eb24679b39a.png",
     "static/media/SantoAndré.png": "/jogosquefui/static/media/SantoAndré.be6c062b1669bf0332b6.png",
+    "static/media/Málaga.png": "/jogosquefui/static/media/Málaga.9107177cf8e1b61e5e99.png",
     "static/media/Reggina.png": "/jogosquefui/static/media/Reggina.90be9a59d65369be1c19.png",
     "static/media/Júbilo Iwata (Yamaha).png": "/jogosquefui/static/media/Júbilo Iwata (Yamaha).5e2e17523cdba44093d1.png",
     "static/media/Júbilo Iwata.png": "/jogosquefui/static/media/Júbilo Iwata.5e2e17523cdba44093d1.png",
@@ -365,6 +369,7 @@
     "static/media/Juventude.png": "/jogosquefui/static/media/Juventude.9111a78aab36b168f3c7.png",
     "static/media/Auxerre.png": "/jogosquefui/static/media/Auxerre.39a426c233de8d4145df.png",
     "static/media/Entrerriense.png": "/jogosquefui/static/media/Entrerriense.16bcfbc1d6fc71ad9319.png",
+    "static/media/Nottingham Forest.png": "/jogosquefui/static/media/Nottingham Forest.bf17a325a89fc2554b7e.png",
     "static/media/Juazeirense.png": "/jogosquefui/static/media/Juazeirense.29b88d2f51e326e22608.png",
     "static/media/Groningen.png": "/jogosquefui/static/media/Groningen.9572827b58016e92e60a.png",
     "static/media/Caldense.png": "/jogosquefui/static/media/Caldense.dd2b28525b640fd9e43a.png",
@@ -556,10 +561,10 @@
     "static/media/Ceará.png": "/jogosquefui/static/media/Ceará.2667c31fce77d94092f4.png",
     "index.html": "/jogosquefui/index.html",
     "main.7f3a7af6.css.map": "/jogosquefui/static/css/main.7f3a7af6.css.map",
-    "main.4b896560.js.map": "/jogosquefui/static/js/main.4b896560.js.map"
+    "main.3c867f03.js.map": "/jogosquefui/static/js/main.3c867f03.js.map"
   },
   "entrypoints": [
     "static/css/main.7f3a7af6.css",
-    "static/js/main.4b896560.js"
+    "static/js/main.3c867f03.js"
   ]
 }
