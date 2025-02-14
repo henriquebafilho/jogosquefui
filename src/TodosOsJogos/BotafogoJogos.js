@@ -3136,7 +3136,7 @@ function jogos() {
     jogos.push({ "mandante": "São Cristóvão", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Carioca 1970", "data": "1970-07-13", "estadio": "Figueira de Melo" });
     jogos.push({ "mandante": "Portuguesa-RJ", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 5, "campeonato": "Carioca 1970", "data": "1970-07-09", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Fluminense", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Carioca 1970", "data": "1970-07-05", "estadio": "Maracanã" });
-    jogos.push({ "mandante": "Fluminense", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Carioca 1970", "data": "1970-04-11", "estadio": "Maracanã" });
+    jogos.push({ "mandante": "Fluminense", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Carioca 1970", "data": "1970-04-17", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Vasco", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Taça Guanabara 1970", "data": "1970-05-31", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Bangu", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Taça Guanabara 1970", "data": "1970-05-28", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Taça Guanabara 1970", "data": "1970-05-24", "estadio": "Maracanã" });
@@ -4806,6 +4806,23 @@ function jogos() {
     jogos.push({ "mandante": "Universitario", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1970-10-08", "estadio": "" });
     jogos.push({ "mandante": "Alianza Lima", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Troféu Dr. José M. Rodríguez Arnaiz", "data": "1970-10-06", "estadio": "Nacional (Lima)" });
     jogos.push({ "mandante": "Deportivo Cali", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1970-02-08", "estadio": "" });
+    jogos.push({ "mandante": "Milan", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1959-06-17", "estadio": "San Siro" });
+    jogos.push({ "mandante": "Milan", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1961-06-07", "estadio": "San Siro" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Independiente", "golsMandante": 1, "golsVisitante": 8, "campeonato": "Amistoso", "data": "1940-03-04", "estadio": "" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Independiente", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1958-02-02", "estadio": "" });
+    jogos.push({ "mandante": "Independiente", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Copa Carranza de Buenos Aires", "data": "1966-02-14", "estadio": "Libertadores de América" });
+    jogos.push({ "mandante": "Racing", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Copa Carranza de Buenos Aires", "data": "1966-02-16", "estadio": "Libertadores de América" });
+    jogos.push({ "mandante": "Racing", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1966-10-12", "estadio": "" });
+    jogos.push({ "mandante": "Argentina", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Troféu Triangular de Caracas", "data": "1968-08-24", "estadio": "Universitário de Caracas" });
+    jogos.push({ "mandante": "Argentina", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1966-03-29", "estadio": "Monumental de Núñez" });
+    jogos.push({ "mandante": "Peñarol", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Troféu Triangular de Caracas", "data": "1967-01-28", "estadio": "Universitário de Caracas" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Barcelona", "golsMandante": 2, "golsVisitante": 3, "campeonato": "Troféu Triangular de Caracas", "data": "1967-01-31", "estadio": "Universitário de Caracas" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "River Plate", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Torneio Pentagonal do México", "data": "1958-02-20", "estadio": "" });
+    jogos.push({ "mandante": "River Plate", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1958-09-10", "estadio": "Monumental de Núñez" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "River Plate", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1963-01-31", "estadio": "" });
+    jogos.push({ "mandante": "River Plate", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 4, "campeonato": "Taça Íbero-Americana", "data": "1964-07-14", "estadio": "Monumental de Núñez" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Barcelona", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Taça Íbero-Americana", "data": "1964-07-16", "estadio": "Monumental de Núñez" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "River Plate", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1967-02-12", "estadio": "" });
 
     jogos.sort(function (a, b) {
         return a.data < b.data ? -1 : a.data > b.data ? 1 : 0;
