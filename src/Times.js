@@ -2361,7 +2361,7 @@ function Times(time, data) {
                   backgroundColor = "black";
                   letterColor = "white";
                   break;
-            case "Ujpest":
+            case "Újpest":
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#4D2E7A";
