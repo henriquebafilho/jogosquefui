@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jogosquefui/static/css/main.7f3a7af6.css",
-    "main.js": "/jogosquefui/static/js/main.38092086.js",
+    "main.js": "/jogosquefui/static/js/main.0f455cd1.js",
     "static/media/Atanasio Girardot.png": "/jogosquefui/static/media/Atanasio Girardot.654b0fba4632fac4057b.png",
     "static/media/Corisabbá.png": "/jogosquefui/static/media/Corisabbá.4b6783df88df9e49eae8.png",
     "static/media/Colosso da Lagoa.png": "/jogosquefui/static/media/Colosso da Lagoa.b7008037ac5675a07045.png",
@@ -137,7 +137,7 @@
     "static/media/Grêmio Prudente (Barueri).png": "/jogosquefui/static/media/Grêmio Prudente (Barueri).4203ed06a1cc51a1f8aa.png",
     "static/media/Grêmio Prudente.png": "/jogosquefui/static/media/Grêmio Prudente.4203ed06a1cc51a1f8aa.png",
     "static/media/Nacional-AM.png": "/jogosquefui/static/media/Nacional-AM.f3590472779d44789d8d.png",
-    "static/media/Ujpest.png": "/jogosquefui/static/media/Ujpest.1ee4a1ebef89087740fd.png",
+    "static/media/Újpest.png": "/jogosquefui/static/media/Újpest.1ee4a1ebef89087740fd.png",
     "static/media/Annibal Batista de Toledo.png": "/jogosquefui/static/media/Annibal Batista de Toledo.cebc14f31175f864e8ef.png",
     "static/media/União Soviética.png": "/jogosquefui/static/media/União Soviética.1f4e78d53cfd51066d4d.png",
     "static/media/1972.png": "/jogosquefui/static/media/1972.2f4f3a63f57b9ad0b8d8.png",
@@ -590,10 +590,10 @@
     "static/media/Ceará.png": "/jogosquefui/static/media/Ceará.2667c31fce77d94092f4.png",
     "index.html": "/jogosquefui/index.html",
     "main.7f3a7af6.css.map": "/jogosquefui/static/css/main.7f3a7af6.css.map",
-    "main.38092086.js.map": "/jogosquefui/static/js/main.38092086.js.map"
+    "main.0f455cd1.js.map": "/jogosquefui/static/js/main.0f455cd1.js.map"
   },
   "entrypoints": [
     "static/css/main.7f3a7af6.css",
-    "static/js/main.38092086.js"
+    "static/js/main.0f455cd1.js"
   ]
 }
