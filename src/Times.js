@@ -793,6 +793,12 @@ function Times(time, data) {
                   backgroundColor = "#003a94";
                   letterColor = "white";
                   break;
+            case "Dínamo Zagreb":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#003a94";
+                  letterColor = "white";
+                  break;
             case "Universidad Central":
                   nomeAtual = time;
                   escudo = time;
@@ -1057,11 +1063,41 @@ function Times(time, data) {
                   backgroundColor = "#d30a11";
                   letterColor = "black";
                   break;
+            case "Independiente Rivadavia":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#2a1972";
+                  letterColor = "white";
+                  break;
             case "Melgar":
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#d30a11";
                   letterColor = "black";
+                  break;
+            case "Feyenoord":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#d30a11";
+                  letterColor = "black";
+                  break;
+            case "Comunicaciones":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#5598cf";
+                  letterColor = "#243b81";
+                  break;
+            case "Sport Boys":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#ffadcc";
+                  letterColor = "black";
+                  break;
+            case "Toulouse":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#38284f";
+                  letterColor = "white";
                   break;
             case "Budapest Honvéd":
                   nomeAtual = time;
@@ -1111,6 +1147,12 @@ function Times(time, data) {
                   letterColor = "white";
                   break;
             case "Football and Athletic":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#d30a11";
+                  letterColor = "white";
+                  break;
+            case "Áustria":
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#d30a11";
