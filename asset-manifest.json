@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jogosquefui/static/css/main.7f3a7af6.css",
-    "main.js": "/jogosquefui/static/js/main.bd20c8a1.js",
+    "main.js": "/jogosquefui/static/js/main.77a6f5fa.js",
     "static/media/Atanasio Girardot.png": "/jogosquefui/static/media/Atanasio Girardot.654b0fba4632fac4057b.png",
     "static/media/Corisabbá.png": "/jogosquefui/static/media/Corisabbá.4b6783df88df9e49eae8.png",
     "static/media/Colosso da Lagoa.png": "/jogosquefui/static/media/Colosso da Lagoa.b7008037ac5675a07045.png",
@@ -176,6 +176,7 @@
     "static/media/Morumbi.png": "/jogosquefui/static/media/Morumbi.58fb17782f68eaeaf811.png",
     "static/media/1974.png": "/jogosquefui/static/media/1974.a6c3f2a16b740d9715e0.png",
     "static/media/Aparecidense.png": "/jogosquefui/static/media/Aparecidense.887a2c2d95528ee11f1a.png",
+    "static/media/Cruzeiro1996.png": "/jogosquefui/static/media/Cruzeiro1996.9a47cd1d2bb52670e842.png",
     "static/media/México2022.png": "/jogosquefui/static/media/México2022.2d6c5fee8d9cd5a73cf7.png",
     "static/media/Olympiacos.png": "/jogosquefui/static/media/Olympiacos.93d01595c42014d00176.png",
     "static/media/Paris Saint-Germain1990.png": "/jogosquefui/static/media/Paris Saint-Germain1990.432b3c68d253088d84e9.png",
@@ -207,6 +208,9 @@
     "static/media/Romênia.png": "/jogosquefui/static/media/Romênia.95a3fcf1e7c27cfe1976.png",
     "static/media/VoltaRedonda.png": "/jogosquefui/static/media/VoltaRedonda.52e904729fe40bc9118e.png",
     "static/media/Barão de São Francisco Filho.png": "/jogosquefui/static/media/Barão de São Francisco Filho.252cab11b2ec6d9b627f.png",
+    "static/media/Palmeiras1960.png": "/jogosquefui/static/media/Palmeiras1960.fd7c823690ea9b4a708e.png",
+    "static/media/Santos1925.png": "/jogosquefui/static/media/Santos1925.75edb27fed4f90ad03d5.png",
+    "static/media/Santos1991.png": "/jogosquefui/static/media/Santos1991.11dfe8e0f61ee696f226.png",
     "static/media/Brentford.png": "/jogosquefui/static/media/Brentford.939423279a84d29dfeb1.png",
     "static/media/Goréenne.png": "/jogosquefui/static/media/Goréenne.b701b0bdd86b14835b94.png",
     "static/media/Atlético-PR1989.png": "/jogosquefui/static/media/Atlético-PR1989.8511cd07f983d889d0d9.png",
@@ -447,6 +451,7 @@
     "static/media/Corumbaense.png": "/jogosquefui/static/media/Corumbaense.7ff92a6fbc1688acf629.png",
     "static/media/Dublin.png": "/jogosquefui/static/media/Dublin.fa95b9e443f493efbd8f.png",
     "static/media/Besiktas.png": "/jogosquefui/static/media/Besiktas.941390ee0ff01ea2164c.png",
+    "static/media/SãoPaulo1982.png": "/jogosquefui/static/media/SãoPaulo1982.f5e1d6ede96e444d279c.png",
     "static/media/SãoBento.png": "/jogosquefui/static/media/SãoBento.0f8282d86b86336b79fc.png",
     "static/media/Portuguesa-RJ.png": "/jogosquefui/static/media/Portuguesa-RJ.eff66f0d5699eaa0f3da.png",
     "static/media/TheStrongest.png": "/jogosquefui/static/media/TheStrongest.e25b2b859866c7139198.png",
@@ -640,10 +645,10 @@
     "static/media/Ceará.png": "/jogosquefui/static/media/Ceará.2667c31fce77d94092f4.png",
     "index.html": "/jogosquefui/index.html",
     "main.7f3a7af6.css.map": "/jogosquefui/static/css/main.7f3a7af6.css.map",
-    "main.bd20c8a1.js.map": "/jogosquefui/static/js/main.bd20c8a1.js.map"
+    "main.77a6f5fa.js.map": "/jogosquefui/static/js/main.77a6f5fa.js.map"
   },
   "entrypoints": [
     "static/css/main.7f3a7af6.css",
-    "static/js/main.bd20c8a1.js"
+    "static/js/main.77a6f5fa.js"
   ]
 }
