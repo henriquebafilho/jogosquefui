@@ -4872,17 +4872,17 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Asturias", "golsMandante": 2, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1936-03-01", "estadio": "" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Atlante", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1936-03-08", "estadio": "" });
     jogos.push({ "mandante": "Botafogo", "visitante": "América-MEX", "golsMandante": 7, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1936-03-15", "estadio": "" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "España", "golsMandante": 4, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1936-03-22", "estadio": "" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Real Club España", "golsMandante": 4, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1936-03-22", "estadio": "" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Obreros", "golsMandante": 5, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1936-03-25", "estadio": "" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Necaxa", "golsMandante": 2, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1936-03-29", "estadio": "" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "España", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1936-04-05", "estadio": "" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Real Club España", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1936-04-05", "estadio": "" });
     jogos.push({ "mandante": "Botafogo", "visitante": "St. Louis Shamrocks", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1936-04-14", "estadio": "" });
     jogos.push({ "mandante": "Botafogo", "visitante": "St. Louis Shamrocks", "golsMandante": 3, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1936-04-16", "estadio": "" });
     jogos.push({ "mandante": "Botafogo", "visitante": "San Lorenzo", "golsMandante": 1, "golsVisitante": 5, "campeonato": "Amistoso", "data": "1939-12-21", "estadio": "São Januário" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Independiente", "golsMandante": 1, "golsVisitante": 8, "campeonato": "Amistoso", "data": "1940-03-04", "estadio": "" });
     jogos.push({ "mandante": "Botafogo", "visitante": "San Lorenzo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Torneio Relâmpago", "data": "1940-03-14", "estadio": "" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Estudiantes", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1941-02-08", "estadio": "Parque Asturias" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "España", "golsMandante": 7, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1941-02-16", "estadio": "" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Real Club España", "golsMandante": 7, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1941-02-16", "estadio": "" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Seleção de Jalisco", "golsMandante": 3, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1941-02-22", "estadio": "" });
     jogos.push({ "mandante": "Botafogo", "visitante": "México", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1941-03-02", "estadio": "" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Atlante", "golsMandante": 3, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1941-03-09", "estadio": "" });
@@ -4897,7 +4897,7 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "The Strongest", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1948-04-18", "estadio": "" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Southampton", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1948-05-20", "estadio": "" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Arsenal", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1949-06-01", "estadio": "" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "Malmö", "golsMandante": 7, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1949-12-21", "estadio": "" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Malmo", "golsMandante": 7, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1949-12-21", "estadio": "" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Universidad Central", "golsMandante": 6, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1950-04-16", "estadio": "" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Combinado Loyola/La Salle", "golsMandante": 7, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1950-04-19", "estadio": "" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Deportivo Italia", "golsMandante": 7, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1950-04-23", "estadio": "" });
@@ -4916,6 +4916,7 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Curaçau", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1950-06-24", "estadio": "" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Colo-Colo", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Torneio Internacional de Santiago", "data": "1951-02-18", "estadio": "" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Nacional-URU", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Torneio Internacional de Santiago", "data": "1951-02-21", "estadio": "" });
+    jogos.push({ "mandante": "Santiago Morning", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 3, "campeonato": "Torneio Internacional de Santiago", "data": "1951-02-25", "estadio": "" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Everton", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1951-02-28", "estadio": "" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Arsenal", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1951-05-24", "estadio": "" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Portsmouth", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1951-06-10", "estadio": "" });
@@ -4964,7 +4965,7 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Grasshopper", "golsMandante": 6, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1955-06-22", "estadio": "" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Combinado Juventus/Torino", "golsMandante": 4, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1955-06-29", "estadio": "" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Roma", "golsMandante": 3, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1955-07-06", "estadio": "" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "Dínamo de Praga", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1955-07-09", "estadio": "" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Slavia Praga", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1955-07-09", "estadio": "" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Slovan Bratislava", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1955-07-12", "estadio": "" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Spartak Praga", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1955-07-14", "estadio": "" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Baník Ostrava", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1955-07-16", "estadio": "" });
