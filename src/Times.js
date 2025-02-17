@@ -831,7 +831,11 @@ function Times(time, data) {
                   break;
             case "Cruzeiro":
                   nomeAtual = time;
-                  escudo = time;
+                  if (ano < 1996) {
+                        escudo = "Cruzeiro1996";
+                  } else {
+                        escudo = time;
+                  }
                   backgroundColor = "#003a94";
                   letterColor = "white";
                   break;
@@ -1707,7 +1711,7 @@ function Times(time, data) {
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#d30a11";
-                  letterColor = "white";
+                  letterColor = "black";
                   break;
             case "Maranhão":
                   nomeAtual = time;
@@ -1991,8 +1995,12 @@ function Times(time, data) {
                   break;
             case "Palmeiras":
                   nomeAtual = time;
-                  escudo = time;
-                  backgroundColor = "#048439";
+                  if (ano < 1960) {
+                        escudo = "Palmeiras1960";
+                  } else {
+                        escudo = time;
+                  }
+                  backgroundColor = "#086a30";
                   letterColor = "white";
                   break;
             case "Fortuna '54":
@@ -2385,7 +2393,13 @@ function Times(time, data) {
                   break;
             case "Santos":
                   nomeAtual = time;
-                  escudo = time;
+                  if (ano < 1925) {
+                        escudo = "Santos1925";
+                  } else if (ano < 1991 && ano > 1924) {
+                        escudo = "Santos1991";
+                  } else {
+                        escudo = time;
+                  }
                   backgroundColor = "white";
                   letterColor = "black";
                   break;
@@ -2431,7 +2445,11 @@ function Times(time, data) {
                   break;
             case "São Paulo":
                   nomeAtual = time;
-                  escudo = "SãoPaulo";
+                  if (ano < 1982) {
+                        escudo = "SãoPaulo1982";
+                  } else {
+                        escudo = "SãoPaulo";
+                  }
                   backgroundColor = "#d30a11";
                   letterColor = "white";
                   break;
