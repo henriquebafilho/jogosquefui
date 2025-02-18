@@ -5111,7 +5111,7 @@ function jogos() {
     jogos.push({ "mandante": "Puebla", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 5, "campeonato": "Amistoso", "data": "1965-02-09", "estadio": "" });
     jogos.push({ "mandante": "El Salvador", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1965-02-12", "estadio": "" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Tchecoslováquia", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1965-02-14", "estadio": "Flor Branca" });
-
+// 26/04/1961 Friburgo FC 2 x 4 Botafogo Estádio Raul Sertã
     jogos.sort(function (a, b) {
         return a.data < b.data ? -1 : a.data > b.data ? 1 : 0;
     });
