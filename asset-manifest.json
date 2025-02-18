@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jogosquefui/static/css/main.7f3a7af6.css",
-    "main.js": "/jogosquefui/static/js/main.0aee1ed5.js",
+    "main.js": "/jogosquefui/static/js/main.20297db4.js",
     "static/media/Atanasio Girardot.png": "/jogosquefui/static/media/Atanasio Girardot.654b0fba4632fac4057b.png",
     "static/media/Corisabbá.png": "/jogosquefui/static/media/Corisabbá.4b6783df88df9e49eae8.png",
     "static/media/Colosso da Lagoa.png": "/jogosquefui/static/media/Colosso da Lagoa.b7008037ac5675a07045.png",
@@ -254,6 +254,7 @@
     "static/media/DefensayJusticia.png": "/jogosquefui/static/media/DefensayJusticia.eb206eec5482ac5c98a2.png",
     "static/media/Chapecoense.png": "/jogosquefui/static/media/Chapecoense.7bf1a3ba8ce28efd76eb.png",
     "static/media/DomPedro.png": "/jogosquefui/static/media/DomPedro.cafa9f2406bb0070e001.png",
+    "static/media/Friburgo.png": "/jogosquefui/static/media/Friburgo.2544255ae7045ff19355.png",
     "static/media/Deportivo La Coruña.png": "/jogosquefui/static/media/Deportivo La Coruña.ef55f05363b8e8ab69fa.png",
     "static/media/Marília.png": "/jogosquefui/static/media/Marília.e02f5cc57f35b3ffff46.png",
     "static/media/Anderlecht.png": "/jogosquefui/static/media/Anderlecht.79a8d62183d8c77621f0.png",
@@ -665,10 +666,10 @@
     "static/media/Ceará.png": "/jogosquefui/static/media/Ceará.2667c31fce77d94092f4.png",
     "index.html": "/jogosquefui/index.html",
     "main.7f3a7af6.css.map": "/jogosquefui/static/css/main.7f3a7af6.css.map",
-    "main.0aee1ed5.js.map": "/jogosquefui/static/js/main.0aee1ed5.js.map"
+    "main.20297db4.js.map": "/jogosquefui/static/js/main.20297db4.js.map"
   },
   "entrypoints": [
     "static/css/main.7f3a7af6.css",
-    "static/js/main.0aee1ed5.js"
+    "static/js/main.20297db4.js"
   ]
 }
