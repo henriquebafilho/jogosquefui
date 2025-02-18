@@ -5052,11 +5052,11 @@ function jogos() {
     jogos.push({ "mandante": "Herediano", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 4, "campeonato": "Torneio Triangular da Costa Rica", "data": "1961-02-07", "estadio": "Estádio Nacional da Costa Rica" });
     jogos.push({ "mandante": "Independiente Santa Fé", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 5, "campeonato": "Amistoso", "data": "1961-02-12", "estadio": "El Campín" });
     jogos.push({ "mandante": "Independiente Medellín", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1961-02-15", "estadio": "Atanasio Girardot" });
-    jogos.push({ "mandante": "Seleção de Pichincha", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 5, "campeonato": "Amistoso", "data": "1961-02-19", "estadio": "Olímpico Atahualpa" });
+    jogos.push({ "mandante": "Seleção de Quito", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 5, "campeonato": "Amistoso", "data": "1961-02-19", "estadio": "Olímpico Atahualpa" });
     jogos.push({ "mandante": "Colo-Colo", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1961-02-25", "estadio": "" });
     jogos.push({ "mandante": "Áustria", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1961-05-17", "estadio": "Ernst Happel Stadion" });
     jogos.push({ "mandante": "Estrela Vermelha", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1961-05-20", "estadio": "" });
-    jogos.push({ "mandante": "Seleção da Baviera", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1961-05-26", "estadio": "" });
+    jogos.push({ "mandante": "Combinado Bayern-1860", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1961-05-26", "estadio": "" });
     jogos.push({ "mandante": "Seleção da Antuérpia", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 7, "campeonato": "Amistoso", "data": "1961-05-28", "estadio": "" });
     jogos.push({ "mandante": "Anderlecht", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1961-05-30", "estadio": "Parc Astrid" });
     jogos.push({ "mandante": "Standard de Liège", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1961-06-01", "estadio": "" });
@@ -5111,7 +5111,16 @@ function jogos() {
     jogos.push({ "mandante": "Puebla", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 5, "campeonato": "Amistoso", "data": "1965-02-09", "estadio": "" });
     jogos.push({ "mandante": "El Salvador", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1965-02-12", "estadio": "" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Tchecoslováquia", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1965-02-14", "estadio": "Flor Branca" });
-// 26/04/1961 Friburgo FC 2 x 4 Botafogo Estádio Raul Sertã
+    jogos.push({ "mandante": "Friburgo", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1961-04-26", "estadio": "Raul Sertã" });
+    jogos.push({ "mandante": "Uberaba", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1961-04-07", "estadio": "" });
+    jogos.push({ "mandante": "Uberlândia", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1961-04-09", "estadio": "Juca Ribeiro" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Flamengo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1961-05-01", "estadio": "Maracanã" });
+    jogos.push({ "mandante": "Atlético Operário", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1961-07-23", "estadio": "" });
+    jogos.push({ "mandante": "Londrina", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 8, "campeonato": "Amistoso", "data": "1961-08-30", "estadio": "" });
+    jogos.push({ "mandante": "Estrela do Norte", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 6, "campeonato": "Taça Capitão Válter Paiva", "data": "1961-09-07", "estadio": "Sumaré" });
+    jogos.push({ "mandante": "Guará", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 6, "campeonato": "Amistoso", "data": "1961-09-17", "estadio": "" });
+    jogos.push({ "mandante": "América-MG", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1961-09-20", "estadio": "" });
+
     jogos.sort(function (a, b) {
         return a.data < b.data ? -1 : a.data > b.data ? 1 : 0;
     });
