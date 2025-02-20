@@ -2099,15 +2099,15 @@ function Times(time, data) {
                   backgroundColor = "#023866";
                   letterColor = "white";
                   break;
+            case "Associação das Palmeiras":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "black";
+                  letterColor = "white";
+                  break;
             case "Palmeiras": case "Palestra Itália-SP":
                   nomeAtual = "Palmeiras";
-                  if (ano < 1942) {
-                        escudo = time
-                  } else if (ano >= 1942 && ano < 1960) {
-                        escudo = "Palmeiras1960";
-                  } else {
-                        escudo = time;
-                  }
+                  escudo = time;
                   backgroundColor = "#086a30";
                   letterColor = "white";
                   break;
