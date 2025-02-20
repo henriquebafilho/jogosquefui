@@ -753,7 +753,13 @@ function Times(time, data) {
                   break;
             case "Corinthians":
                   nomeAtual = time;
-                  escudo = time;
+                  if(ano < 1939){
+                        escudo = "Corinthians1919";
+                  } else if (ano >= 1939 && ano < 1979){
+                        escudo = "Corinthians1979";
+                  } else {
+                        escudo = time;
+                  }
                   backgroundColor = "black";
                   letterColor = "white";
                   break;
@@ -871,10 +877,16 @@ function Times(time, data) {
                   backgroundColor = "#fdd116";
                   letterColor = "black";
                   break;
-            case "Cruzeiro":
-                  nomeAtual = time;
-                  if (ano < 1996) {
-                        escudo = "Cruzeiro1996";
+            case "Cruzeiro": case "Palestra Itália-MG":
+                  nomeAtual = "Cruzeiro";
+                  if (time === "Cruzeiro") {
+                        if (ano >= 1950 && ano < 1996) {
+                              escudo = "Cruzeiro1996";
+                        } else if (ano < 1950) {
+                              escudo = "Cruzeiro1942";
+                        } else {
+                              escudo = time;
+                        }
                   } else {
                         escudo = time;
                   }
