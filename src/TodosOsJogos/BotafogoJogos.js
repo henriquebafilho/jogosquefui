@@ -3198,7 +3198,7 @@ function jogos() {
     jogos.push({ "mandante": "Portuguesa-RJ", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 4, "campeonato": "Carioca 1969", "data": "1969-04-26", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Carioca 1969", "data": "1969-04-20", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Madureira", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 4, "campeonato": "Carioca 1969", "data": "1969-04-13", "estadio": "Conselheiro Galvão" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "Metropol", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Taça Brasil 68", "data": "1969-04-02", "estadio": "General Severiano" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Metropol", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Taça Brasil 68", "data": "1969-04-02", "estadio": "General Severiano" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Bangu", "golsMandante": 3, "golsVisitante": 0, "campeonato": "Carioca 1969", "data": "1969-03-30", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Fluminense", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Carioca 1969", "data": "1969-03-23", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Campo Grande-RJ", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Carioca 1969", "data": "1969-03-19", "estadio": "Maracanã" });
