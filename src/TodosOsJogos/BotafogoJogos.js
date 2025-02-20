@@ -5240,6 +5240,13 @@ function jogos() {
     jogos.push({ "mandante": "Corinthians", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1964-05-27", "estadio": "Palmas Travassos" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Corinthians", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Torneio Independência", "data": "1974-09-06", "estadio": "Mané Garrincha" });
     jogos.push({ "mandante": "Corinthians", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 3, "campeonato": "Festival Brasileiro de Futebol", "data": "1997-11-22", "estadio": "Morenão" });
+    jogos.push({ "mandante": "Sport", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 6, "campeonato": "Amistoso", "data": "1919-01-26", "estadio": "Campo da Avenida Malaquias" });
+    jogos.push({ "mandante": "Sport", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1919-02-06", "estadio": "Campo da Avenida Malaquias" });
+    jogos.push({ "mandante": "Sport", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 5, "campeonato": "Amistoso", "data": "1928-01-01", "estadio": "Campo da Avenida Malaquias" });
+    jogos.push({ "mandante": "Sport", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1949-01-01", "estadio": "Aflitos" });
+    jogos.push({ "mandante": "Sport", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1955-10-18", "estadio": "Ilha do Retiro" });
+    jogos.push({ "mandante": "Sport", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 6, "campeonato": "Amistoso", "data": "1959-08-04", "estadio": "Ilha do Retiro" });
+    jogos.push({ "mandante": "Sport", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1973-06-28", "estadio": "Ilha do Retiro" });
 
     jogos.sort(function (a, b) {
         return a.data < b.data ? -1 : a.data > b.data ? 1 : 0;

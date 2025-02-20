@@ -753,9 +753,9 @@ function Times(time, data) {
                   break;
             case "Corinthians":
                   nomeAtual = time;
-                  if(ano < 1939){
+                  if (ano < 1939) {
                         escudo = "Corinthians1919";
-                  } else if (ano >= 1939 && ano < 1979){
+                  } else if (ano >= 1939 && ano < 1979) {
                         escudo = "Corinthians1979";
                   } else {
                         escudo = time;
@@ -2677,7 +2677,15 @@ function Times(time, data) {
                   break;
             case "Sport":
                   nomeAtual = time;
-                  escudo = time;
+                  if (ano < 1920) {
+                        escudo = "Sport1919";
+                  } else if ((ano >= 1920 && ano < 1955) || (ano >= 1963 && ano < 1999)) {
+                        escudo = "Sport1920";
+                  } else if (ano >= 1955 && ano < 1963) {
+                        escudo = "Sport1955";
+                  } else {
+                        escudo = time;
+                  }
                   backgroundColor = "#d30a11";
                   letterColor = "black";
                   break;
