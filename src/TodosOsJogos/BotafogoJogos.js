@@ -43,7 +43,7 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Juventude", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2025", "data": "2025-04-05", "estadio": "Nilton Santos" });
     jogos.push({ "mandante": "Palmeiras", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2025", "data": "2025-03-29", "estadio": "Allianz Parque" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Racing", "golsMandante": "", "golsVisitante": "", "campeonato": "Recopa 2024", "data": "2025-02-27", "estadio": "Nilton Santos", "horario": "21:30" });
-    jogos.push({ "mandante": "Vasco", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Carioca 2025", "data": "2025-02-23", "estadio": "São Januário", "horario": "18:00" });
+    jogos.push({ "mandante": "Vasco", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Carioca 2025", "data": "2025-02-23", "estadio": "São Januário", "horario": "18:30" });
     jogos.push({ "mandante": "Racing", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Recopa 2024", "data": "2025-02-20", "estadio": "El Cilindro", "horario": "21:30" });
     jogos.push({ "mandante": "Boavista", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Carioca 2025", "data": "2025-02-15", "estadio": "Elcyr Resende", "horario": "19:00" });
     jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Carioca 2025", "data": "2025-02-12", "estadio": "Maracanã", "horario": "21:30" });
@@ -4986,7 +4986,7 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Nacional-PAR", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1952-05-27", "estadio": "" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Olimpia", "golsMandante": 2, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1952-05-28", "estadio": "" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Millonarios", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1952-07-13", "estadio": "" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "UNAL", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1952-07-16", "estadio": "" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Universidad Nacional-CO", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1952-07-16", "estadio": "" });
     jogos.push({ "mandante": "Botafogo", "visitante": "La Salle", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Pequena Taça do Mundo", "data": "1952-07-18", "estadio": "" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Real Madrid", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Pequena Taça do Mundo", "data": "1952-07-20", "estadio": "" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Millonarios", "golsMandante": 3, "golsVisitante": 0, "campeonato": "Pequena Taça do Mundo", "data": "1952-07-22", "estadio": "Universitário de Caracas" });

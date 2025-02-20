@@ -1683,14 +1683,8 @@ function Times(time, data) {
                   backgroundColor = "#d30a11";
                   letterColor = "white";
                   break;
-            case "Kuwait":
-                  nomeAtual = time;
-                  escudo = time;
-                  backgroundColor = "#003a94";
-                  letterColor = "white";
-                  break;
-            case "Kuwait Sub-20":
-                  nomeAtual = time;
+            case "Kuwait": case "Kuwait Sub-20":
+                  nomeAtual = "Kuwait";
                   escudo = "Kuwait";
                   backgroundColor = "#003a94";
                   letterColor = "white";
@@ -2863,14 +2857,8 @@ function Times(time, data) {
                   backgroundColor = "#8c1619";
                   letterColor = "#fefcf3";
                   break;
-            case "Uruguai":
-                  nomeAtual = time;
-                  escudo = time;
-                  backgroundColor = "#0d80bf";
-                  letterColor = "black";
-                  break;
-            case "Uruguai Sub-20":
-                  nomeAtual = time;
+            case "Uruguai": case "Uruguai Sub-20":
+                  nomeAtual = "Uruguai";
                   escudo = "Uruguai";
                   backgroundColor = "#0d80bf";
                   letterColor = "black";
@@ -3001,8 +2989,8 @@ function Times(time, data) {
                   backgroundColor = "#ec6e00";
                   letterColor = "#007155";
                   break;
-            case "Costa Rica":
-                  nomeAtual = time;
+            case "Costa Rica": case "Costa Rica Sub-20":
+                  nomeAtual = "Costa Rica";
                   escudo = time;
                   backgroundColor = "#d30a11";
                   letterColor = "white";
@@ -3013,12 +3001,6 @@ function Times(time, data) {
                   backgroundColor = "#343380";
                   letterColor = "#fff200";
                   break;
-            case "Costa Rica Sub-20":
-                  nomeAtual = time;
-                  escudo = time;
-                  backgroundColor = "#d30a11";
-                  letterColor = "white";
-                  break;
             default:
                   nomeAtual = time;
                   escudo = "escudo";
@@ -3027,10 +3009,10 @@ function Times(time, data) {
                   break;
       }
       return {
-            nomeAtual: nomeAtual,
-            escudo: escudo,
-            backgroundColor: backgroundColor,
-            letterColor: letterColor
+            nomeAtual,
+            escudo,
+            backgroundColor,
+            letterColor
       }
 }
 
