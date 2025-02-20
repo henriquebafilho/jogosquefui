@@ -1333,7 +1333,7 @@ function Times(time, data) {
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#e42518";
-                  letterColor = "#fde900";
+                  letterColor = "#d3c084";
                   break;
             case "Venezuela":
                   nomeAtual = time;
