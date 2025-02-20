@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jogosquefui/static/css/main.7f3a7af6.css",
-    "main.js": "/jogosquefui/static/js/main.24803ded.js",
+    "main.js": "/jogosquefui/static/js/main.8129edb2.js",
     "static/media/Atanasio Girardot.png": "/jogosquefui/static/media/Atanasio Girardot.654b0fba4632fac4057b.png",
     "static/media/Corisabbá.png": "/jogosquefui/static/media/Corisabbá.4b6783df88df9e49eae8.png",
     "static/media/Colosso da Lagoa.png": "/jogosquefui/static/media/Colosso da Lagoa.b7008037ac5675a07045.png",
@@ -368,6 +368,7 @@
     "static/media/Londrina.png": "/jogosquefui/static/media/Londrina.22675c67c69141f86fca.png",
     "static/media/Deportivo Cali.png": "/jogosquefui/static/media/Deportivo Cali.74af4f1315b2abdaae2e.png",
     "static/media/Grasshopper.png": "/jogosquefui/static/media/Grasshopper.f9e91a0f41927ca8e7ca.png",
+    "static/media/Palestra Itália-SP.png": "/jogosquefui/static/media/Palestra Itália-SP.470ebb8b39060b50f3e7.png",
     "static/media/Cabofriense.png": "/jogosquefui/static/media/Cabofriense.930f45d92b80571b54aa.png",
     "static/media/Juventus2004.png": "/jogosquefui/static/media/Juventus2004.f9613536527da4d1c242.png",
     "static/media/Saint-Étienne2022.png": "/jogosquefui/static/media/Saint-Étienne2022.4e3faa9639e800df344f.png",
@@ -666,10 +667,10 @@
     "static/media/Ceará.png": "/jogosquefui/static/media/Ceará.2667c31fce77d94092f4.png",
     "index.html": "/jogosquefui/index.html",
     "main.7f3a7af6.css.map": "/jogosquefui/static/css/main.7f3a7af6.css.map",
-    "main.24803ded.js.map": "/jogosquefui/static/js/main.24803ded.js.map"
+    "main.8129edb2.js.map": "/jogosquefui/static/js/main.8129edb2.js.map"
   },
   "entrypoints": [
     "static/css/main.7f3a7af6.css",
-    "static/js/main.24803ded.js"
+    "static/js/main.8129edb2.js"
   ]
 }
