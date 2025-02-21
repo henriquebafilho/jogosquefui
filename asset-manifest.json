@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jogosquefui/static/css/main.7f3a7af6.css",
-    "main.js": "/jogosquefui/static/js/main.b932c3b7.js",
+    "main.js": "/jogosquefui/static/js/main.4cab61fe.js",
     "static/media/Atanasio Girardot.png": "/jogosquefui/static/media/Atanasio Girardot.654b0fba4632fac4057b.png",
     "static/media/Corisabbá.png": "/jogosquefui/static/media/Corisabbá.4b6783df88df9e49eae8.png",
     "static/media/Colosso da Lagoa.png": "/jogosquefui/static/media/Colosso da Lagoa.b7008037ac5675a07045.png",
@@ -190,6 +190,7 @@
     "static/media/Confiança-RJ.png": "/jogosquefui/static/media/Confiança-RJ.595521faeed7521251d4.png",
     "static/media/Comunicaciones.png": "/jogosquefui/static/media/Comunicaciones.b070571ce5a9b6ec1ca1.png",
     "static/media/Puebla.png": "/jogosquefui/static/media/Puebla.dbd134c92292a5d121a1.png",
+    "static/media/Guará.png": "/jogosquefui/static/media/Guará.6a8b1a13b8252f867c2d.png",
     "static/media/SãoBernardo.png": "/jogosquefui/static/media/SãoBernardo.65626674651b3d1b95fb.png",
     "static/media/Canto do Rio.png": "/jogosquefui/static/media/Canto do Rio.726acd5cbb2e6da36c2c.png",
     "static/media/Benfica.png": "/jogosquefui/static/media/Benfica.13e854e5c07cc81e9b02.png",
@@ -269,6 +270,7 @@
     "static/media/Africa Sports.png": "/jogosquefui/static/media/Africa Sports.0a87590db24ea85977a7.png",
     "static/media/Curaçau.png": "/jogosquefui/static/media/Curaçau.4d4b474cd93fc28c37f9.png",
     "static/media/Nancy.png": "/jogosquefui/static/media/Nancy.7b1812497f80935fc183.png",
+    "static/media/Estrela do Norte.png": "/jogosquefui/static/media/Estrela do Norte.0397672615a68e7da6c3.png",
     "static/media/SãoBernardo2020.png": "/jogosquefui/static/media/SãoBernardo2020.92fa2f4a847b60b0b545.png",
     "static/media/Confiança.png": "/jogosquefui/static/media/Confiança.b74526a42945e264da04.png",
     "static/media/Toulouse.png": "/jogosquefui/static/media/Toulouse.c509c6eabf93dd1b59e7.png",
@@ -332,6 +334,7 @@
     "static/media/Ajax.png": "/jogosquefui/static/media/Ajax.fdcc6d5542c71bf93680.png",
     "static/media/Romênia2017.png": "/jogosquefui/static/media/Romênia2017.e2845d51032c3ba1ffea.png",
     "static/media/Baník Ostrava.png": "/jogosquefui/static/media/Baník Ostrava.6f6e05946e1f2a65fbda.png",
+    "static/media/Britânia.png": "/jogosquefui/static/media/Britânia.f05b2a002eb7aac1f8da.png",
     "static/media/Saprissa.png": "/jogosquefui/static/media/Saprissa.364c8f9e8ea6099b9a90.png",
     "static/media/Oro.png": "/jogosquefui/static/media/Oro.1a70c7f669a43147ddcf.png",
     "static/media/Novorizontino.png": "/jogosquefui/static/media/Novorizontino.d7bfed9a2529ab051631.png",
@@ -566,6 +569,7 @@
     "static/media/bola.png": "/jogosquefui/static/media/bola.51747e6630ed7499517c.png",
     "static/media/Unión.png": "/jogosquefui/static/media/Unión.a5c451ecfe4b944a3721.png",
     "static/media/VilaNova.png": "/jogosquefui/static/media/VilaNova.0927ff75f00b06b0ad5e.png",
+    "static/media/Mackenzie.png": "/jogosquefui/static/media/Mackenzie.059c7b7a83f520d52231.png",
     "static/media/Guarani-PAR.png": "/jogosquefui/static/media/Guarani-PAR.61d93b4ba265c218428e.png",
     "static/media/BoaEsporte.png": "/jogosquefui/static/media/BoaEsporte.d833df33aff95e46c0e1.png",
     "static/media/Botafogo-SP.png": "/jogosquefui/static/media/Botafogo-SP.d7d344fdf2553f03f454.png",
@@ -674,10 +678,10 @@
     "static/media/Ceará.png": "/jogosquefui/static/media/Ceará.2667c31fce77d94092f4.png",
     "index.html": "/jogosquefui/index.html",
     "main.7f3a7af6.css.map": "/jogosquefui/static/css/main.7f3a7af6.css.map",
-    "main.b932c3b7.js.map": "/jogosquefui/static/js/main.b932c3b7.js.map"
+    "main.4cab61fe.js.map": "/jogosquefui/static/js/main.4cab61fe.js.map"
   },
   "entrypoints": [
     "static/css/main.7f3a7af6.css",
-    "static/js/main.b932c3b7.js"
+    "static/js/main.4cab61fe.js"
   ]
 }
