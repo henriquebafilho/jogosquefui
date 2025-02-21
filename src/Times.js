@@ -3015,6 +3015,30 @@ function Times(time, data) {
                   backgroundColor = "#d30a11";
                   letterColor = "white";
                   break;
+            case "Britânia": 
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#d30a11";
+                  letterColor = "white";
+                  break;
+            case "Mackenzie": 
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#d30a11";
+                  letterColor = "white";
+                  break;
+            case "Estrela do Norte": 
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "black";
+                  letterColor = "white";
+                  break;
+            case "Guará": 
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#fbdc0a";
+                  letterColor = "black";
+                  break;
             case "AIK":
                   nomeAtual = time;
                   escudo = time;
