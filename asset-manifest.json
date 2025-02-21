@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jogosquefui/static/css/main.7f3a7af6.css",
-    "main.js": "/jogosquefui/static/js/main.04c03dae.js",
+    "main.js": "/jogosquefui/static/js/main.b932c3b7.js",
     "static/media/Atanasio Girardot.png": "/jogosquefui/static/media/Atanasio Girardot.654b0fba4632fac4057b.png",
     "static/media/Corisabbá.png": "/jogosquefui/static/media/Corisabbá.4b6783df88df9e49eae8.png",
     "static/media/Colosso da Lagoa.png": "/jogosquefui/static/media/Colosso da Lagoa.b7008037ac5675a07045.png",
@@ -136,6 +136,7 @@
     "static/media/2016.png": "/jogosquefui/static/media/2016.3a9ef3841baa893c70aa.png",
     "static/media/Congo.png": "/jogosquefui/static/media/Congo.f7c5c551887d209e4c60.png",
     "static/media/Amigão.png": "/jogosquefui/static/media/Amigão.4acbec39db46000e4b7d.png",
+    "static/media/Sport1919.png": "/jogosquefui/static/media/Sport1919.29d6be3999b8fb7c1de9.png",
     "static/media/Grêmio Prudente (Barueri).png": "/jogosquefui/static/media/Grêmio Prudente (Barueri).4203ed06a1cc51a1f8aa.png",
     "static/media/Grêmio Prudente.png": "/jogosquefui/static/media/Grêmio Prudente.4203ed06a1cc51a1f8aa.png",
     "static/media/Nacional-AM.png": "/jogosquefui/static/media/Nacional-AM.f3590472779d44789d8d.png",
@@ -277,6 +278,7 @@
     "static/media/Vitória-ES.png": "/jogosquefui/static/media/Vitória-ES.97c90124bc24b36e8ba1.png",
     "static/media/Atlético-PR1996.png": "/jogosquefui/static/media/Atlético-PR1996.7c0956708062b57a90a6.png",
     "static/media/CEUB.png": "/jogosquefui/static/media/CEUB.0dbc043c5476a79ccab2.png",
+    "static/media/Sport1920.png": "/jogosquefui/static/media/Sport1920.b3f26791070b220b1b26.png",
     "static/media/Fenerbahçe.png": "/jogosquefui/static/media/Fenerbahçe.f34f14795e5b76f04a33.png",
     "static/media/Coreia do Sul Sub-23.png": "/jogosquefui/static/media/Coreia do Sul Sub-23.71cd9c780c1844fda5ab.png",
     "static/media/Coreia do Sul.png": "/jogosquefui/static/media/Coreia do Sul.71cd9c780c1844fda5ab.png",
@@ -286,6 +288,7 @@
     "static/media/Cádiz.png": "/jogosquefui/static/media/Cádiz.69ae255c8c468d0bbe90.png",
     "static/media/São José-SP.png": "/jogosquefui/static/media/São José-SP.78174858f0ad2ce0816e.png",
     "static/media/Taubaté.png": "/jogosquefui/static/media/Taubaté.cb0929c5fe6e3b79b6d6.png",
+    "static/media/Sport1955.png": "/jogosquefui/static/media/Sport1955.a6d835baec189b0dae77.png",
     "static/media/Slavia Praga.png": "/jogosquefui/static/media/Slavia Praga.8d6b31c78d52073664fc.png",
     "static/media/Defensor Lima.png": "/jogosquefui/static/media/Defensor Lima.6658d6d14a041bdfe31c.png",
     "static/media/Figueirense.png": "/jogosquefui/static/media/Figueirense.d44b28ecccd3d6d06a5c.png",
@@ -671,10 +674,10 @@
     "static/media/Ceará.png": "/jogosquefui/static/media/Ceará.2667c31fce77d94092f4.png",
     "index.html": "/jogosquefui/index.html",
     "main.7f3a7af6.css.map": "/jogosquefui/static/css/main.7f3a7af6.css.map",
-    "main.04c03dae.js.map": "/jogosquefui/static/js/main.04c03dae.js.map"
+    "main.b932c3b7.js.map": "/jogosquefui/static/js/main.b932c3b7.js.map"
   },
   "entrypoints": [
     "static/css/main.7f3a7af6.css",
-    "static/js/main.04c03dae.js"
+    "static/js/main.b932c3b7.js"
   ]
 }
