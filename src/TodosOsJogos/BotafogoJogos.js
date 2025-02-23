@@ -43,7 +43,7 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Juventude", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2025", "data": "2025-04-05", "estadio": "Nilton Santos" });
     jogos.push({ "mandante": "Palmeiras", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2025", "data": "2025-03-29", "estadio": "Allianz Parque" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Racing", "golsMandante": "", "golsVisitante": "", "campeonato": "Recopa 2024", "data": "2025-02-27", "estadio": "Nilton Santos", "horario": "21:30" });
-    jogos.push({ "mandante": "Vasco", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Carioca 2025", "data": "2025-02-23", "estadio": "São Januário", "horario": "18:30" });
+    jogos.push({ "mandante": "Vasco", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Carioca 2025", "data": "2025-02-23", "estadio": "São Januário", "horario": "18:30" });
     jogos.push({ "mandante": "Racing", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Recopa 2024", "data": "2025-02-20", "estadio": "El Cilindro", "horario": "21:30" });
     jogos.push({ "mandante": "Boavista", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Carioca 2025", "data": "2025-02-15", "estadio": "Elcyr Resende", "horario": "19:00" });
     jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Carioca 2025", "data": "2025-02-12", "estadio": "Maracanã", "horario": "21:30" });
