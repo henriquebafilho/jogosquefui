@@ -41,7 +41,7 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "São Paulo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2025", "data": "2025-04-16", "estadio": "Nilton Santos" });
     jogos.push({ "mandante": "Red Bull Bragantino", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2025", "data": "2025-04-13", "estadio": "Nabi Abi Chedid" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Juventude", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2025", "data": "2025-04-05", "estadio": "Nilton Santos" });
-    jogos.push({ "mandante": "Palmeiras", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2025", "data": "2025-03-29", "estadio": "Allianz Parque" });
+    jogos.push({ "mandante": "Palmeiras", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2025", "data": "2025-03-29", "estadio": "Allianz Parque", "horario": "16:30" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Racing", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Recopa 2024", "data": "2025-02-27", "estadio": "Nilton Santos", "horario": "21:30" });
     jogos.push({ "mandante": "Vasco", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Carioca 2025", "data": "2025-02-23", "estadio": "São Januário", "horario": "18:30" });
     jogos.push({ "mandante": "Racing", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Recopa 2024", "data": "2025-02-20", "estadio": "El Cilindro", "horario": "21:30" });
@@ -5244,6 +5244,8 @@ function jogos() {
     jogos.push({ "mandante": "Vitória", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 7, "campeonato": "Amistoso", "data": "1935-10-24", "estadio": "Campo da Graça" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Bangu", "golsMandante": 6, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1947-04-13", "estadio": "São Januário" });
     jogos.push({ "mandante": "Fortaleza", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Pentagonal de Fortaleza", "data": "1966-05-25", "estadio": "Presidente Vargas" });
+    jogos.push({ "mandante": "Campinense", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1975-03-08", "estadio": "Amigão" });
+    jogos.push({ "mandante": "Botafogo-PB", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1975-03-09", "estadio": "Almeidão" });
 
     jogos.sort(function (a, b) {
         return a.data < b.data ? -1 : a.data > b.data ? 1 : 0;
