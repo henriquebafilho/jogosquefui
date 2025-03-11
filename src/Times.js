@@ -361,6 +361,30 @@ function Times(time, data) {
                   backgroundColor = "#d30a11";
                   letterColor = "white";
                   break;
+            case "Rot-Weiss Essen":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#d30a11";
+                  letterColor = "white";
+                  break;
+            case "Reims":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#d30a11";
+                  letterColor = "white";
+                  break;
+            case "Troyes":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#006eb2";
+                  letterColor = "white";
+                  break;
+            case "Nuremberg":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#aa1124";
+                  letterColor = "white";
+                  break;
             case "Barra Mansa":
                   nomeAtual = time;
                   escudo = "BarraMansa";
@@ -2301,6 +2325,12 @@ function Times(time, data) {
                   backgroundColor = "#029cdc";
                   letterColor = "white";
                   break;
+            case "Sedan":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#00974b";
+                  letterColor = "white";
+                  break;
             case "Racing Club-CAR":
                   nomeAtual = time;
                   escudo = time;
@@ -2548,8 +2578,8 @@ function Times(time, data) {
             case "São Cristóvão":
                   nomeAtual = time;
                   escudo = time;
-                  backgroundColor = "black";
-                  letterColor = "#dd8aaf";
+                  backgroundColor = "white";
+                  letterColor = "black";
                   break;
             case "São José-SP":
                   nomeAtual = time;
