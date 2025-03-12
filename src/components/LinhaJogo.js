@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Times from '../Times';
-import { FaTrophy } from "react-icons/fa";
+import { FaTrophy, FaCalendarAlt } from "react-icons/fa";
 import { MdStadium } from "react-icons/md";
 
 class LinhaJogo extends Component {
@@ -74,17 +74,18 @@ class LinhaJogo extends Component {
                 key={JSON.stringify(this.props.jogo)}
             >
                 <div>
+                    <FaCalendarAlt style={{ color: Times(this.props.jogo.mandante).backgroundColor === "white" ? "black" : "white", paddingRight: "5px" }} />
                     <p style={{
                         textShadow: "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000",
                         color: "white",
-                        textAlign: "left"
+                        display: "inline",
                     }}>
                         {converteDia(this.props.jogo.data)}, {converteData(this.props.jogo.data)}
                     </p>
                 </div>
                 <div>
-                    <p style={{ textShadow: "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000", color: "white", marginBottom: '5px', fontSize: '1em' }}><FaTrophy style={{ color: Times(this.props.jogo.mandante).backgroundColor === "white" ? "black" : "white" }} /> {this.props.jogo.campeonato}</p>
-                    <p style={{ textShadow: "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000", color: "white", marginBottom: '5px', fontSize: '1em' }}><MdStadium style={{ color: Times(this.props.jogo.mandante).backgroundColor === "white" ? "black" : "white", }} /> {this.props.jogo.estadio !== "" ? this.props.jogo.estadio : " - "}</p>
+                    <p style={{ textShadow: "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000", color: "white", fontSize: '1em' }}><FaTrophy style={{ color: Times(this.props.jogo.mandante).backgroundColor === "white" ? "black" : "white" }} /> {this.props.jogo.campeonato}</p>
+                    <p style={{ textShadow: "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000", color: "white", marginBottom: '5px', fontSize: '1em' }}><MdStadium style={{ color: Times(this.props.jogo.mandante).backgroundColor === "white" ? "black" : "white" }} /> {this.props.jogo.estadio !== "" ? this.props.jogo.estadio : " - "}</p>
                 </div>
                 <div id='placar' style={{ display: 'flex', justifyContent: 'center', marginTop: '10px' }}>
                     {/* (this.props.jogo[2] !== "" && this.props.jogo[3] !== "") && <div style={{ display: 'inline', textAlign: 'left' }}>

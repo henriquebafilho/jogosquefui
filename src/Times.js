@@ -1221,7 +1221,15 @@ function Times(time, data) {
                   break;
             case "Figueirense":
                   nomeAtual = time;
-                  escudo = time;
+                  if (ano < 1974) {
+                        escudo = "Figueirense1974";
+                  }else if (ano >= 1974 && ano < 1980){
+                        escudo = "Figueirense1980";
+                  }else if (ano >= 1980 && ano < 1999){
+                        escudo = "Figueirense1999";
+                  } else {
+                        escudo = time;
+                  }
                   backgroundColor = "black";
                   letterColor = "white";
                   break;
@@ -2575,6 +2583,36 @@ function Times(time, data) {
                   backgroundColor = "#212568";
                   letterColor = "white";
                   break;
+            case "Aymorés":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#213b86";
+                  letterColor = "white";
+                  break;
+            case "Holanda":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#f36b22";
+                  letterColor = "white";
+                  break;
+            case "Sparta Praga":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#c71a1a";
+                  letterColor = "white";
+                  break;
+            case "Valdez":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#007952";
+                  letterColor = "white";
+                  break;
+            case "Slovan Bratislava":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#2cb2e7";
+                  letterColor = "white";
+                  break;
             case "São Cristóvão":
                   nomeAtual = time;
                   escudo = time;
@@ -3045,25 +3083,25 @@ function Times(time, data) {
                   backgroundColor = "#d30a11";
                   letterColor = "white";
                   break;
-            case "Britânia": 
+            case "Britânia":
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#d30a11";
                   letterColor = "white";
                   break;
-            case "Mackenzie": 
+            case "Mackenzie":
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#d30a11";
                   letterColor = "white";
                   break;
-            case "Estrela do Norte": 
+            case "Estrela do Norte":
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "black";
                   letterColor = "white";
                   break;
-            case "Guará": 
+            case "Guará":
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#fbdc0a";
