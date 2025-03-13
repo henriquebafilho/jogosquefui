@@ -29,9 +29,9 @@ class Anos extends Component {
 
     this.setState({ isLoading: true })
     for (var i in jogos) {
-      const currentDate = new Date(jogos[i].data);
-      if (!this.state.anos.includes(currentDate.getFullYear())) {
-        this.state.anos.push(currentDate.getFullYear());
+      const ano = jogos[i].data.split("-")[0];
+      if (!this.state.anos.includes(ano)) {
+        this.state.anos.push(ano);
       }
     }
     this.state.anos.sort();
@@ -48,8 +48,8 @@ class Anos extends Component {
     var anoAtual = ano;
 
     for (var a = 0; a < this.state.jogos.length; a++) {
-      const currentDate = new Date(this.state.jogos[a].data);
-      if (anoAtual.toString().includes(currentDate.getFullYear())) {
+      const ano = this.state.jogos[a].data.split("-")[0];
+      if (anoAtual.toString().includes(ano)) {
         if (!this.state.jogosAno.includes(this.state.jogos[a])) {
           this.state.jogosAno.push(this.state.jogos[a]);
         }
