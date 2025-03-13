@@ -4397,7 +4397,7 @@ function jogos() {
     jogos.push({ "mandante": "América-RJ", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Carioca 1925", "data": "1925-04-26", "estadio": "" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Vasco", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1925-01-18", "estadio": "General Severiano" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Palestra Itália-SP", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1925-01-04", "estadio": "General Severiano" });
-    jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 0, "campeonato": "Carioca 1924 (AMEA)", "data": "1924-10-12", "estadio": "" });
+    jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 0, "campeonato": "Carioca 1924 (AMEA)", "data": "1924-10-12", "estadio": "Rua Paissandu" });
     jogos.push({ "mandante": "Botafogo", "visitante": "SC Brasil", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Carioca 1924 (AMEA)", "data": "1924-09-28", "estadio": "General Severiano" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Bangu", "golsMandante": 4, "golsVisitante": 2, "campeonato": "Carioca 1924 (AMEA)", "data": "1924-09-20", "estadio": "General Severiano" });
     jogos.push({ "mandante": "Hellênico", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Carioca 1924 (AMEA)", "data": "1924-09-14", "estadio": "" });
