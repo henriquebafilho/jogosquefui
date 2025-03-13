@@ -2534,8 +2534,8 @@ function Times(time, data) {
             case "Santa Cruz":
                   nomeAtual = time;
                   escudo = "SantaCruz";
-                  backgroundColor = "#d30a11";
-                  letterColor = "white";
+                  backgroundColor = "white";
+                  letterColor = "#d30a11";
                   break;
             case "Santiago Wanderers":
                   nomeAtual = time;
