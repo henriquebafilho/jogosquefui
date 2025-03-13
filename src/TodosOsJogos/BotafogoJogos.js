@@ -4389,7 +4389,7 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Hellênico", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Carioca 1925", "data": "1925-06-28", "estadio": "General Severiano" });
     jogos.push({ "mandante": "Botafogo", "visitante": "São Cristóvão", "golsMandante": 3, "golsVisitante": 2, "campeonato": "Carioca 1925", "data": "1925-06-21", "estadio": "General Severiano" });
     jogos.push({ "mandante": "Bangu", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Carioca 1925", "data": "1925-06-07", "estadio": "" });
-    jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 0, "campeonato": "Carioca 1925", "data": "1925-05-31", "estadio": "" });
+    jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 0, "campeonato": "Carioca 1925", "data": "1925-05-31", "estadio": "Rua Paissandu" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Syrio e Libanez", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Carioca 1925", "data": "1925-05-24", "estadio": "General Severiano" });
     jogos.push({ "mandante": "Botafogo", "visitante": "SC Brasil", "golsMandante": 8, "golsVisitante": 4, "campeonato": "Carioca 1925", "data": "1925-05-13", "estadio": "General Severiano" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Vasco", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Carioca 1925", "data": "1925-05-10", "estadio": "General Severiano" });
