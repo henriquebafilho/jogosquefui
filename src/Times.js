@@ -763,14 +763,8 @@ function Times(time, data) {
                   backgroundColor = "#059bd9";
                   letterColor = "white";
                   break;
-            case "Coreia do Sul":
-                  nomeAtual = time;
-                  escudo = time;
-                  backgroundColor = "#d30a11";
-                  letterColor = "white";
-                  break;
-            case "Coreia do Sul Sub-23":
-                  nomeAtual = time;
+            case "Coreia do Sul": case "Coreia do Sul Sub-23":
+                  nomeAtual = "Coreia do Sul";
                   escudo = time;
                   backgroundColor = "#d30a11";
                   letterColor = "white";
@@ -1223,9 +1217,9 @@ function Times(time, data) {
                   nomeAtual = time;
                   if (ano < 1974) {
                         escudo = "Figueirense1974";
-                  }else if (ano >= 1974 && ano < 1980){
+                  } else if (ano >= 1974 && ano < 1980) {
                         escudo = "Figueirense1980";
-                  }else if (ano >= 1980 && ano < 1999){
+                  } else if (ano >= 1980 && ano < 1999) {
                         escudo = "Figueirense1999";
                   } else {
                         escudo = time;
@@ -1336,6 +1330,48 @@ function Times(time, data) {
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#048439";
+                  letterColor = "white";
+                  break;
+            case "Royal":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#7a0017";
+                  letterColor = "white";
+                  break;
+            case "Saarbrucken":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#004f9e";
+                  letterColor = "black";
+                  break;
+            case "Tchecoslováquia":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#db2222";
+                  letterColor = "white";
+                  break;
+            case "Uberaba":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#da251e";
+                  letterColor = "white";
+                  break;
+            case "Uberlândia":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#008c45";
+                  letterColor = "white";
+                  break;
+            case "Vojvodina":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#ed1c25";
+                  letterColor = "white";
+                  break;
+            case "Willem II":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#242c51";
                   letterColor = "white";
                   break;
             case "Football and Athletic": case "Associação Internacional-RJ":
@@ -2249,6 +2285,42 @@ function Times(time, data) {
                   backgroundColor = "#f5182e";
                   letterColor = "white";
                   break;
+            case "Petropolitano":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "black";
+                  letterColor = "white";
+                  break;
+            case "Paulistano-SP":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#d7171e";
+                  letterColor = "white";
+                  break;
+            case "Germânia-SP":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#0061cc";
+                  letterColor = "black";
+                  break;
+            case "Internacional-SP":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#da251c";
+                  letterColor = "black";
+                  break;
+            case "Americano-SP":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#0f8f3d";
+                  letterColor = "white";
+                  break;
+            case "América-PE":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#257524";
+                  letterColor = "white";
+                  break;
             case "Pinheiros-PR":
                   nomeAtual = time;
                   escudo = time;
@@ -2533,7 +2605,23 @@ function Times(time, data) {
                   break;
             case "Santa Cruz":
                   nomeAtual = time;
-                  escudo = "SantaCruz";
+                  if (ano < 1950) {
+                        escudo = "SantaCruz1950";
+                  } else if (ano >= 1950 && ano < 1959) {
+                        escudo = "SantaCruz1958";
+                  } else if (ano === 1959) {
+                        escudo = "SantaCruz1959";
+                  } else if (ano > 1959 && ano < 1965) {
+                        escudo = "SantaCruz1960";
+                  } else if (ano >= 1965 && ano < 1970) {
+                        escudo = "SantaCruz1965";
+                  } else if (ano >= 1970 && ano < 1979) {
+                        escudo = "SantaCruz1970";
+                  } else if (ano >= 1980 && ano < 1989) {
+                        escudo = "SantaCruz1980";
+                  } else {
+                        escudo = "SantaCruz";
+                  }
                   backgroundColor = "white";
                   letterColor = "#d30a11";
                   break;
@@ -2541,6 +2629,36 @@ function Times(time, data) {
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#137049";
+                  letterColor = "white";
+                  break;
+            case "Ypiranga de Niterói":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#de2921";
+                  letterColor = "black";
+                  break;
+            case "Everest":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#fbdf30";
+                  letterColor = "#013f92";
+                  break;
+            case "Argentino":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#0089e2";
+                  letterColor = "white";
+                  break;
+            case "Asas de Lagoa Santa":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#de2921";
+                  letterColor = "#02285a";
+                  break;
+            case "Atlético Operário":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#257524";
                   letterColor = "white";
                   break;
             case "Santos":
@@ -2633,6 +2751,12 @@ function Times(time, data) {
                         escudo = "SãoPaulo";
                   }
                   backgroundColor = "#d30a11";
+                  letterColor = "white";
+                  break;
+            case "São Paulo Athletic":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#003a94";
                   letterColor = "white";
                   break;
             case "São Raimundo-AM":
@@ -2761,6 +2885,12 @@ function Times(time, data) {
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#186e45";
+                  letterColor = "white";
+                  break;
+            case "Sport Club Juiz de Fora":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#00a750";
                   letterColor = "white";
                   break;
             case "Saint-Étienne":
