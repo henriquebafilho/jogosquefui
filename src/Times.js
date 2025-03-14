@@ -1339,7 +1339,7 @@ function Times(time, data) {
                   letterColor = "white";
                   break;
             case "Football and Athletic": case "Associação Internacional-RJ":
-                  nomeAtual = "Associação Internacional-RJ";
+                  nomeAtual = "Football and Athletic";
                   escudo = time;
                   backgroundColor = "#d30a11";
                   letterColor = "white";
