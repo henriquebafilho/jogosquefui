@@ -4703,7 +4703,7 @@ function jogos() {
     jogos.push({ "mandante": "Tupi", "visitante": "Botafogo", "golsMandante": 4, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1971-05-26", "estadio": "Salles Oliveira" });
     jogos.push({ "mandante": "Tupi", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1980-02-10", "estadio": "Salles Oliveira" });
     jogos.push({ "mandante": "Tupi", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1981-05-09", "estadio": "Salles Oliveira" });
-    jogos.push({ "mandante": "Tupi", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1983-12-08", "estadio": "José Procópio Teixeira" });
+    jogos.push({ "mandante": "Tupi", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1983-12-08", "estadio": "Doutor José Procópio Teixeira" });
     jogos.push({ "mandante": "Tupi", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1985-06-16", "estadio": "Salles Oliveira" });
     jogos.push({ "mandante": "Tupi", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1987-08-30", "estadio": "Salles Oliveira" });
     jogos.push({ "mandante": "Tupi", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1989-09-03", "estadio": "Mário Helênio" });
@@ -5403,6 +5403,10 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "América-RJ", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Torneio Início 1977", "data": "1977-03-13", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Flamengo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Torneio Início 1977", "data": "1977-03-13", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Vasco", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Torneio Início 1977", "data": "1977-03-13", "estadio": "Maracanã" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Náutico", "golsMandante": 2, "golsVisitante": 4, "campeonato": "Torneio Quadrangular (Taça JK)", "data": "1955-04-03", "estadio": "Independência" });
+    jogos.push({ "mandante": "Náutico", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1955-10-14", "estadio": "Ilha do Retiro" });
+    jogos.push({ "mandante": "Náutico", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1957-06-20", "estadio": "Aflitos" });
+    jogos.push({ "mandante": "Náutico", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1985-07-21", "estadio": "Nildo Pereira de Menezes" });
 
     jogos.sort(function (a, b) {
         return a.data < b.data ? -1 : a.data > b.data ? 1 : 0;
