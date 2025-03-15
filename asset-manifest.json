@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jogosquefui/static/css/main.7f3a7af6.css",
-    "main.js": "/jogosquefui/static/js/main.a9395d20.js",
+    "main.js": "/jogosquefui/static/js/main.b8da4f93.js",
     "static/media/Atanasio Girardot.png": "/jogosquefui/static/media/Atanasio Girardot.654b0fba4632fac4057b.png",
     "static/media/Corisabbá.png": "/jogosquefui/static/media/Corisabbá.4b6783df88df9e49eae8.png",
     "static/media/Colosso da Lagoa.png": "/jogosquefui/static/media/Colosso da Lagoa.b7008037ac5675a07045.png",
@@ -152,6 +152,7 @@
     "static/media/2007.png": "/jogosquefui/static/media/2007.001a8665b603bf3ac797.png",
     "static/media/Mali.png": "/jogosquefui/static/media/Mali.6099dbc72d8ec5483d4e.png",
     "static/media/2006.png": "/jogosquefui/static/media/2006.3bb2a1716f2896c647c2.png",
+    "static/media/Água Verde.png": "/jogosquefui/static/media/Água Verde.708c84174610dee6f027.png",
     "static/media/Mário Helênio.png": "/jogosquefui/static/media/Mário Helênio.7c4b33216aabe62c667c.png",
     "static/media/Rio Cricket.png": "/jogosquefui/static/media/Rio Cricket.d14b3a3943f0d49fd6e9.png",
     "static/media/SantaCruz1970.png": "/jogosquefui/static/media/SantaCruz1970.d1782e574bc5c6bade2b.png",
@@ -721,10 +722,10 @@
     "static/media/Ceará.png": "/jogosquefui/static/media/Ceará.2667c31fce77d94092f4.png",
     "index.html": "/jogosquefui/index.html",
     "main.7f3a7af6.css.map": "/jogosquefui/static/css/main.7f3a7af6.css.map",
-    "main.a9395d20.js.map": "/jogosquefui/static/js/main.a9395d20.js.map"
+    "main.b8da4f93.js.map": "/jogosquefui/static/js/main.b8da4f93.js.map"
   },
   "entrypoints": [
     "static/css/main.7f3a7af6.css",
-    "static/js/main.a9395d20.js"
+    "static/js/main.b8da4f93.js"
   ]
 }
