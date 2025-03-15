@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jogosquefui/static/css/main.7f3a7af6.css",
-    "main.js": "/jogosquefui/static/js/main.c7c139db.js",
+    "main.js": "/jogosquefui/static/js/main.801d9bfe.js",
     "static/media/Atanasio Girardot.png": "/jogosquefui/static/media/Atanasio Girardot.654b0fba4632fac4057b.png",
     "static/media/Corisabbá.png": "/jogosquefui/static/media/Corisabbá.4b6783df88df9e49eae8.png",
     "static/media/Colosso da Lagoa.png": "/jogosquefui/static/media/Colosso da Lagoa.b7008037ac5675a07045.png",
@@ -325,6 +325,7 @@
     "static/media/Resende2020.png": "/jogosquefui/static/media/Resende2020.5991c0da2a054826bbf9.png",
     "static/media/Transvaal.png": "/jogosquefui/static/media/Transvaal.ea11b6f17a2665a7d052.png",
     "static/media/Fluminense.png": "/jogosquefui/static/media/Fluminense.4dec2be60ac0def40fc7.png",
+    "static/media/Syrio-SP.png": "/jogosquefui/static/media/Syrio-SP.9a2d2d15daccdb29d8df.png",
     "static/media/Deportes Quindío.png": "/jogosquefui/static/media/Deportes Quindío.611a74a98ca9b8311471.png",
     "static/media/Internacional2009.png": "/jogosquefui/static/media/Internacional2009.c1ab14922f6973aecc35.png",
     "static/media/Internacional.png": "/jogosquefui/static/media/Internacional.764f40173bac3d549958.png",
@@ -720,10 +721,10 @@
     "static/media/Ceará.png": "/jogosquefui/static/media/Ceará.2667c31fce77d94092f4.png",
     "index.html": "/jogosquefui/index.html",
     "main.7f3a7af6.css.map": "/jogosquefui/static/css/main.7f3a7af6.css.map",
-    "main.c7c139db.js.map": "/jogosquefui/static/js/main.c7c139db.js.map"
+    "main.801d9bfe.js.map": "/jogosquefui/static/js/main.801d9bfe.js.map"
   },
   "entrypoints": [
     "static/css/main.7f3a7af6.css",
-    "static/js/main.c7c139db.js"
+    "static/js/main.801d9bfe.js"
   ]
 }
