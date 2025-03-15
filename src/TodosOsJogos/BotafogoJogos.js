@@ -4291,14 +4291,14 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Bangu", "golsMandante": 3, "golsVisitante": 4, "campeonato": "Carioca 1930", "data": "1930-04-20", "estadio": "General Severiano" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Syrio e Libanez", "golsMandante": 4, "golsVisitante": 0, "campeonato": "Carioca 1930", "data": "1930-04-06", "estadio": "General Severiano" });
     jogos.push({ "mandante": "América-RJ", "visitante": "Botafogo", "golsMandante": 11, "golsVisitante": 2, "campeonato": "Carioca 1929", "data": "1929-11-03", "estadio": "" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "Fluminense", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Carioca 1929", "data": "1929-10-26", "estadio": "" });
+    jogos.push({ "mandante": "Fluminense", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Carioca 1929", "data": "1929-10-26", "estadio": "Laranjeiras" });
     jogos.push({ "mandante": "Vasco", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Carioca 1929", "data": "1929-10-20", "estadio": "São Januário" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Bonsucesso", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Carioca 1929", "data": "1929-10-06", "estadio": "General Severiano" });
     jogos.push({ "mandante": "Andarahy", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 6, "campeonato": "Carioca 1929", "data": "1929-09-29", "estadio": "" });
     jogos.push({ "mandante": "São Cristóvão", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Carioca 1929", "data": "1929-09-22", "estadio": "" });
     jogos.push({ "mandante": "SC Brasil", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 4, "campeonato": "Carioca 1929", "data": "1929-09-20", "estadio": "" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "SC Brasil", "golsMandante": 5, "golsVisitante": 0, "campeonato": "Carioca 1929", "data": "1929-09-01", "estadio": "" });
-    jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 5, "campeonato": "Carioca 1929", "data": "1929-08-18", "estadio": "" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "SC Brasil", "golsMandante": 5, "golsVisitante": 0, "campeonato": "Carioca 1929", "data": "1929-09-01", "estadio": "Laranjeiras" });
+    jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 5, "campeonato": "Carioca 1929", "data": "1929-08-18", "estadio": "Rua Paissandu" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Bangu", "golsMandante": 3, "golsVisitante": 5, "campeonato": "Carioca 1929", "data": "1929-08-04", "estadio": "Laranjeiras" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Syrio e Libanez", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Carioca 1929", "data": "1929-07-21", "estadio": "Laranjeiras" });
     jogos.push({ "mandante": "Fluminense", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Carioca 1929", "data": "1929-07-14", "estadio": "Laranjeiras" });
@@ -4325,11 +4325,10 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Bangu", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Carioca 1928", "data": "1928-07-08", "estadio": "General Severiano" });
     jogos.push({ "mandante": "Villa Isabel", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 5, "campeonato": "Carioca 1928", "data": "1928-07-01", "estadio": "Rua Paissandu" });
     jogos.push({ "mandante": "Vasco", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Carioca 1928", "data": "1928-06-17", "estadio": "São Januário" });
-    jogos.push({ "mandante": "Syrio e Libanez", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Carioca 1928", "data": "1928-06-10", "estadio": "" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "Andarahy", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Carioca 1928", "data": "1928-05-13", "estadio": "General Severiano" });
     jogos.push({ "mandante": "Botafogo", "visitante": "América-RJ", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Carioca 1928", "data": "1928-06-03", "estadio": "General Severiano" });
     jogos.push({ "mandante": "São Cristóvão", "visitante": "Botafogo", "golsMandante": 4, "golsVisitante": 4, "campeonato": "Carioca 1928", "data": "1928-05-27", "estadio": "Figueira de Melo" });
     jogos.push({ "mandante": "Botafogo", "visitante": "SC Brasil", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Carioca 1928", "data": "1928-05-20", "estadio": "General Severiano" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Andarahy", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Carioca 1928", "data": "1928-05-13", "estadio": "General Severiano" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Flamengo", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Carioca 1928", "data": "1928-05-06", "estadio": "General Severiano" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Fluminense", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Carioca 1928", "data": "1928-04-22", "estadio": "General Severiano" });
     jogos.push({ "mandante": "Bangu", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Carioca 1928", "data": "1928-04-15", "estadio": "Rua Ferrer" });
@@ -4356,7 +4355,8 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Vasco", "golsMandante": 4, "golsVisitante": 5, "campeonato": "Amistoso", "data": "1927-03-27", "estadio": "General Severiano" });
     jogos.push({ "mandante": "Botafogo", "visitante": "São Cristóvão", "golsMandante": 3, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1927-03-13", "estadio": "General Severiano" });
     jogos.push({ "mandante": "Botafogo", "visitante": "São Cristóvão", "golsMandante": 5, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1927-03-06", "estadio": "General Severiano" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "Ypiranga de Niterói", "golsMandante": "WO", "golsVisitante": 0, "campeonato": "Amistoso", "data": "1926-12-26", "estadio": "General Severiano" });
+    jogos.push({ "mandante": "Internacional de Petrópolis", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 6, "campeonato": "Taça Marechal Cantuária", "data": "1926-07-22", "estadio": "Raiz da Serra" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Ypiranga de Niterói", "golsMandante": "WO", "golsVisitante": 0, "campeonato": "Taça Deputado Federal Antônio Máximo Nogueira Penido", "data": "1926-12-26", "estadio": "General Severiano" });
     jogos.push({ "mandante": "Villa Isabel", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 3, "campeonato": "Carioca 1926", "data": "1926-11-14", "estadio": "Campos Sales" });
     jogos.push({ "mandante": "Botafogo", "visitante": "SC Brasil", "golsMandante": 4, "golsVisitante": 2, "campeonato": "Carioca 1926", "data": "1926-09-19", "estadio": "General Severiano" });
     jogos.push({ "mandante": "América-RJ", "visitante": "Botafogo", "golsMandante": 6, "golsVisitante": 3, "campeonato": "Carioca 1926", "data": "1926-08-29", "estadio": "Campos Sales" });
@@ -4393,7 +4393,7 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Syrio e Libanez", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Carioca 1925", "data": "1925-05-24", "estadio": "General Severiano" });
     jogos.push({ "mandante": "Botafogo", "visitante": "SC Brasil", "golsMandante": 8, "golsVisitante": 4, "campeonato": "Carioca 1925", "data": "1925-05-13", "estadio": "General Severiano" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Vasco", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Carioca 1925", "data": "1925-05-10", "estadio": "General Severiano" });
-    jogos.push({ "mandante": "Fluminense", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Carioca 1925", "data": "1925-05-03", "estadio": "" });
+    jogos.push({ "mandante": "Fluminense", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Carioca 1925", "data": "1925-05-03", "estadio": "Laranjeiras" });
     jogos.push({ "mandante": "América-RJ", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Carioca 1925", "data": "1925-04-26", "estadio": "" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Vasco", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1925-01-18", "estadio": "General Severiano" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Palestra Itália-SP", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1925-01-04", "estadio": "General Severiano" });
@@ -4585,6 +4585,7 @@ function jogos() {
     jogos.push({ "mandante": "Bangu", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 3, "campeonato": "Carioca 1913", "data": "1913-06-22", "estadio": "Rua Ferrer" });
     jogos.push({ "mandante": "Botafogo", "visitante": "São Cristóvão", "golsMandante": 4, "golsVisitante": 1, "campeonato": "Carioca 1913", "data": "1913-06-01", "estadio": "General Severiano" });
     jogos.push({ "mandante": "Botafogo", "visitante": "SC Americano-RJ", "golsMandante": 9, "golsVisitante": 1, "campeonato": "Carioca 1913", "data": "1913-05-25", "estadio": "General Severiano" });
+    jogos.push({ "mandante": "Americano", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 3, "campeonato": "Troféu Futebolistas", "data": "1926-11-21", "estadio": "Rua São Bento" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Rio Cricket", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Carioca 1913", "data": "1913-05-18", "estadio": "General Severiano" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Flamengo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Carioca 1913", "data": "1913-05-13", "estadio": "General Severiano" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Internacional-RJ", "golsMandante": "WO", "golsVisitante": 0, "campeonato": "Carioca 1912", "data": "1912-10-20", "estadio": "Rua São Clemente" });
@@ -4661,7 +4662,7 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Toluca", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Amistoso", "data": "2002-07-21", "estadio": "Jair Toscano" });
     jogos.push({ "mandante": "Seleção de Ulsan", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Amistoso", "data": "2001-04-28", "estadio": "Munsu Stadium" });
     jogos.push({ "mandante": "Roma", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Torneio Centenário do Rapid Viena", "data": "1999-07-24", "estadio": "Ernst Happel Stadion" });
-    jogos.push({ "mandante": "Werder Bremen", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Torneio Centenário do Rapid Viena", "data": "1999-07-24", "estadio": "Ernst Happel", "penaltis": "3 x 4" });
+    jogos.push({ "mandante": "Werder Bremen", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Torneio Centenário do Rapid Viena", "data": "1999-07-24", "estadio": "Ernst Happel Stadion", "penaltis": "3 x 4" });
     jogos.push({ "mandante": "Jamaica", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1998-11-18", "estadio": "Independence Park" });
     jogos.push({ "mandante": "Deportivo La Coruña", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Tereza Herrera 1996", "data": "1996-08-08", "estadio": "Riazor" });
     jogos.push({ "mandante": "Coreia do Sul", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1995-05-05", "estadio": "" });
@@ -5073,7 +5074,7 @@ function jogos() {
     jogos.push({ "mandante": "Combinado de Gotemburgo", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1959-05-26", "estadio": "Ullevi" });
     jogos.push({ "mandante": "Combinado de Malmö/Norrköping", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1959-05-28", "estadio": "Malmo Stadion" });
     jogos.push({ "mandante": "Standard de Liège", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1959-05-30", "estadio": "" });
-    jogos.push({ "mandante": "Áustria", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1959-06-03", "estadio": "Ernst Happel" });
+    jogos.push({ "mandante": "Áustria", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1959-06-03", "estadio": "Ernst Happel Stadion" });
     jogos.push({ "mandante": "Anderlecht", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 5, "campeonato": "Amistoso", "data": "1959-06-06", "estadio": "" });
     jogos.push({ "mandante": "Fortuna '54", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1959-06-10", "estadio": "Mauritsstadion" });
     jogos.push({ "mandante": "Willem II", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1959-06-12", "estadio": "" });
@@ -5259,6 +5260,7 @@ function jogos() {
     jogos.push({ "mandante": "Bangu", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1909-03-21", "estadio": "Rua Ferrer" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Paulistano-SP", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1909-07-18", "estadio": "Voluntários da Pátria" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Internacional-SP", "golsMandante": 3, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1909-09-07", "estadio": "Voluntários da Pátria" });
+    jogos.push({ "mandante": "Internacional-SP", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Troféus Companhia Castellões & Zanotta e Cia. Lorenzi", "data": "1926-07-11", "estadio": "Campo da Floresta" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Associação das Palmeiras", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1909-10-02", "estadio": "Voluntários da Pátria" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Guanabara", "golsMandante": 6, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1909-11-28", "estadio": "Voluntários da Pátria" });
     jogos.push({ "mandante": "Botafogo", "visitante": "São Paulo Athletic", "golsMandante": 4, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1910-07-17", "estadio": "Voluntários da Pátria" });
@@ -5407,6 +5409,21 @@ function jogos() {
     jogos.push({ "mandante": "Náutico", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1955-10-14", "estadio": "Ilha do Retiro" });
     jogos.push({ "mandante": "Náutico", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1957-06-20", "estadio": "Aflitos" });
     jogos.push({ "mandante": "Náutico", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1985-07-21", "estadio": "Nildo Pereira de Menezes" });
+    jogos.push({ "mandante": "Fluminense", "visitante": "Botafogo", "golsMandante": 8, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1914-04-21", "estadio": "Laranjeiras" });
+    jogos.push({ "mandante": "Fluminense", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Torneio Início 1927", "data": "1927-04-24", "estadio": "Laranjeiras" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Fluminense", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1937-09-12", "estadio": "São Januário" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Fluminense", "golsMandante": 3, "golsVisitante": 5, "campeonato": "Torneio Municipal 1938", "data": "1937-09-12", "estadio": "São Januário" });
+    jogos.push({ "mandante": "Fluminense", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Torneio Municipal 1938", "data": "1937-06-26", "estadio": "São Januário" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Fluminense", "golsMandante": 3, "golsVisitante": 0, "campeonato": "Torneio Relâmpago 1943", "data": "1943-03-16", "estadio": "Campos Sales" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Fluminense", "golsMandante": 2, "golsVisitante": 3, "campeonato": "Torneio Municipal 1943", "data": "1943-05-02", "estadio": "São Januário" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Fluminense", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Torneio Relâmpago 1944", "data": "1944-03-18", "estadio": "São Januário" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Fluminense", "golsMandante": 2, "golsVisitante": 4, "campeonato": "Torneio Municipal 1944", "data": "1944-04-29", "estadio": "São Januário" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Fluminense", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Torneio Relâmpago 1945", "data": "1945-04-15", "estadio": "São Januário" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Fluminense", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Torneio Municipal 1945", "data": "1945-05-20", "estadio": "São Januário" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Fluminense", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Torneio Relâmpago 1946", "data": "1946-03-20", "estadio": "São Januário" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Fluminense", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Torneio Municipal 1946", "data": "1946-05-12", "estadio": "São Januário" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Fluminense", "golsMandante": 4, "golsVisitante": 6, "campeonato": "Torneio Municipal 1947", "data": "1947-06-15", "estadio": "Gávea" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Fluminense", "golsMandante": 5, "golsVisitante": 5, "campeonato": "Amistoso", "data": "1947-06-29", "estadio": "Teixeira de Castro" });
 
     jogos.sort(function (a, b) {
         return a.data < b.data ? -1 : a.data > b.data ? 1 : 0;

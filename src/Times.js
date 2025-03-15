@@ -1374,6 +1374,12 @@ function Times(time, data) {
                   backgroundColor = "#242c51";
                   letterColor = "white";
                   break;
+            case "Internacional de Petrópolis":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "black";
+                  letterColor = "white";
+                  break;
             case "Football and Athletic": case "Associação Internacional-RJ":
                   nomeAtual = "Football and Athletic";
                   escudo = time;
