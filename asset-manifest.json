@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jogosquefui/static/css/main.7f3a7af6.css",
-    "main.js": "/jogosquefui/static/js/main.d767e0fd.js",
+    "main.js": "/jogosquefui/static/js/main.c7c139db.js",
     "static/media/Atanasio Girardot.png": "/jogosquefui/static/media/Atanasio Girardot.654b0fba4632fac4057b.png",
     "static/media/Corisabbá.png": "/jogosquefui/static/media/Corisabbá.4b6783df88df9e49eae8.png",
     "static/media/Colosso da Lagoa.png": "/jogosquefui/static/media/Colosso da Lagoa.b7008037ac5675a07045.png",
@@ -393,6 +393,7 @@
     "static/media/Sparta Praga.png": "/jogosquefui/static/media/Sparta Praga.221c0ddd581ba77eb58a.png",
     "static/media/Argentina.png": "/jogosquefui/static/media/Argentina.47675580fb34759de003.png",
     "static/media/Caracas.png": "/jogosquefui/static/media/Caracas.4e91009984eb335b568e.png",
+    "static/media/Internacional de Petrópolis.png": "/jogosquefui/static/media/Internacional de Petrópolis.ee7cc80ce60fa26fca63.png",
     "static/media/Ypiranga de Niterói.png": "/jogosquefui/static/media/Ypiranga de Niterói.ecafac9d08d589227f1b.png",
     "static/media/RioPreto.png": "/jogosquefui/static/media/RioPreto.0e646ec74d4e7ce7d532.png",
     "static/media/Stabaek.png": "/jogosquefui/static/media/Stabaek.ff67b372437048e3dfba.png",
@@ -719,10 +720,10 @@
     "static/media/Ceará.png": "/jogosquefui/static/media/Ceará.2667c31fce77d94092f4.png",
     "index.html": "/jogosquefui/index.html",
     "main.7f3a7af6.css.map": "/jogosquefui/static/css/main.7f3a7af6.css.map",
-    "main.d767e0fd.js.map": "/jogosquefui/static/js/main.d767e0fd.js.map"
+    "main.c7c139db.js.map": "/jogosquefui/static/js/main.c7c139db.js.map"
   },
   "entrypoints": [
     "static/css/main.7f3a7af6.css",
-    "static/js/main.d767e0fd.js"
+    "static/js/main.c7c139db.js"
   ]
 }
