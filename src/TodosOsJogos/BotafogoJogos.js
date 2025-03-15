@@ -5050,7 +5050,7 @@ function jogos() {
     jogos.push({ "mandante": "Saint-Étienne", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1956-06-13", "estadio": "" });
     jogos.push({ "mandante": "Lens", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1956-06-16", "estadio": "" });
     jogos.push({ "mandante": "Sedan", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1956-06-20", "estadio": "" });
-    jogos.push({ "mandante": "Barcelona", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1956-06-23", "estadio": "" });
+    jogos.push({ "mandante": "Barcelona", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1956-06-23", "estadio": "Les Corts" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Budapest Honvéd", "golsMandante": 2, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1957-01-23", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Botafogo", "visitante": "AIK", "golsMandante": 5, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1957-01-27", "estadio": "General Severiano" });
     jogos.push({ "mandante": "Alajuelense", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Torneio Quadrangular da Costa Rica", "data": "1957-12-29", "estadio": "Estádio Nacional da Costa Rica" });
