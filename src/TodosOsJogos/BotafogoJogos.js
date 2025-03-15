@@ -2117,7 +2117,7 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Grêmio", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Brasileirão 1991", "data": "1991-05-19", "estadio": "Caio Martins" });
     jogos.push({ "mandante": "Atlético-MG", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 3, "campeonato": "Brasileirão 1991", "data": "1991-05-12", "estadio": "Mineirão" });
     jogos.push({ "mandante": "São Paulo", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Brasileirão 1991", "data": "1991-05-05", "estadio": "Pacaembu" });
-    jogos.push({ "mandante": "Fluminense", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Brasileirão 1991", "data": "1991-05-01", "estadio": "Laranjeiras" });
+    jogos.push({ "mandante": "Fluminense", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Brasileirão 1991", "data": "1991-05-01", "estadio": "Laranjeiras" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Flamengo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Brasileirão 1991", "data": "1991-04-28", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Coritiba", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Copa do Brasil 1991", "data": "1991-04-25", "estadio": "Caio Martins" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Palmeiras", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Brasileirão 1991", "data": "1991-04-22", "estadio": "Caio Martins" });
@@ -5410,8 +5410,8 @@ function jogos() {
     jogos.push({ "mandante": "Fluminense", "visitante": "Botafogo", "golsMandante": 8, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1914-04-21", "estadio": "Laranjeiras" });
     jogos.push({ "mandante": "Fluminense", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Torneio Início 1927", "data": "1927-04-24", "estadio": "Laranjeiras" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Fluminense", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1937-09-12", "estadio": "São Januário" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "Fluminense", "golsMandante": 3, "golsVisitante": 5, "campeonato": "Torneio Municipal 1938", "data": "1937-09-12", "estadio": "São Januário" });
-    jogos.push({ "mandante": "Fluminense", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Torneio Municipal 1938", "data": "1937-06-26", "estadio": "São Januário" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Fluminense", "golsMandante": 3, "golsVisitante": 5, "campeonato": "Torneio Municipal 1938", "data": "1938-04-24", "estadio": "São Januário" });
+    jogos.push({ "mandante": "Fluminense", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Torneio Municipal 1938", "data": "1938-06-26", "estadio": "Laranjeiras" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Fluminense", "golsMandante": 3, "golsVisitante": 0, "campeonato": "Torneio Relâmpago 1943", "data": "1943-03-16", "estadio": "Campos Sales" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Fluminense", "golsMandante": 2, "golsVisitante": 3, "campeonato": "Torneio Municipal 1943", "data": "1943-05-02", "estadio": "São Januário" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Fluminense", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Torneio Relâmpago 1944", "data": "1944-03-18", "estadio": "São Januário" });
@@ -5437,7 +5437,8 @@ function jogos() {
     jogos.push({ "mandante": "Fluminense", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Campeonato da Capital 1991", "data": "1991-06-29", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Fluminense", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Campeonato da Cidade 1992", "data": "1992-07-14", "estadio": "Luso Brasileiro" });
     jogos.push({ "mandante": "Fluminense", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Taça Rio de Janeiro 1994", "data": "1994-11-30", "estadio": "Laranjeiras" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "Fluminense", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Taça Rio de Janeiro 1994", "data": "1994-12-02", "estadio": "Caio Martins" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Fluminense", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Taça Rio de Janeiro 1994", "data": "1994-12-02", "estadio": "Caio Martins" });
+    jogos.push({ "mandante": "Fluminense", "visitante": "Botafogo", "golsMandante": 4, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1929-07-25", "estadio": "Laranjeiras" });
 
     jogos.sort(function (a, b) {
         return a.data < b.data ? -1 : a.data > b.data ? 1 : 0;
