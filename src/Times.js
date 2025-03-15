@@ -1380,6 +1380,12 @@ function Times(time, data) {
                   backgroundColor = "black";
                   letterColor = "white";
                   break;
+            case "Syrio-SP":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#d30a11";
+                  letterColor = "white";
+                  break;
             case "Football and Athletic": case "Associação Internacional-RJ":
                   nomeAtual = "Football and Athletic";
                   escudo = time;
