@@ -43,7 +43,7 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Juventude", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2025", "data": "2025-04-05", "estadio": "Nilton Santos" });
     jogos.push({ "mandante": "Palmeiras", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2025", "data": "2025-03-29", "estadio": "Allianz Parque", "horario": "16:30" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Coritiba", "golsMandante": "", "golsVisitante": "", "campeonato": "Amistoso", "data": "2025-03-22", "estadio": "Nilton Santos", "horario": "16:15" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "Cruzeiro", "golsMandante": "", "golsVisitante": "", "campeonato": "Amistoso", "data": "2025-03-15", "estadio": "Nilton Santos", "horario": "17:00" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Cruzeiro", "golsMandante": 3, "golsVisitante": 3, "campeonato": "Amistoso", "data": "2025-03-15", "estadio": "Nilton Santos", "horario": "17:00" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Racing", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Recopa 2025", "data": "2025-02-27", "estadio": "Nilton Santos", "horario": "21:30" });
     jogos.push({ "mandante": "Vasco", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Carioca 2025", "data": "2025-02-23", "estadio": "São Januário", "horario": "18:30" });
     jogos.push({ "mandante": "Racing", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Recopa 2025", "data": "2025-02-20", "estadio": "El Cilindro", "horario": "21:30" });
@@ -1285,7 +1285,7 @@ function jogos() {
     jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 2, "campeonato": "Carioca 2006", "data": "2006-02-25", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Operário-MS", "golsMandante": 5, "golsVisitante": 1, "campeonato": "Copa do Brasil 2006", "data": "2006-02-22", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Nova Iguaçu", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Carioca 2006", "data": "2006-02-19", "estadio": "Maracanã" });
-    jogos.push({ "mandante": "Operário-MS", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Copa do Brasil 2006", "data": "2006-02-16", "estadio": "Pedro Pedrossian" });
+    jogos.push({ "mandante": "Operário-MS", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Copa do Brasil 2006", "data": "2006-02-16", "estadio": "Morenão" });
     jogos.push({ "mandante": "Botafogo", "visitante": "América-RJ", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Carioca 2006", "data": "2006-02-12", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Americano", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Carioca 2006", "data": "2006-02-05", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Botafogo", "visitante": "América-RJ", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Carioca 2006", "data": "2006-02-01", "estadio": "Maracanã" });
@@ -5236,7 +5236,7 @@ function jogos() {
     jogos.push({ "mandante": "Corinthians", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1964-02-07", "estadio": "Pacaembu" });
     jogos.push({ "mandante": "Corinthians", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1964-05-27", "estadio": "Palma Travassos" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Corinthians", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Torneio Independência", "data": "1974-09-06", "estadio": "Mané Garrincha" });
-    jogos.push({ "mandante": "Corinthians", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 3, "campeonato": "Festival Brasileiro de Futebol", "data": "1997-11-22", "estadio": "Morenão" });
+    jogos.push({ "mandante": "Corinthians", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 3, "campeonato": "Torneio Festival Brasileiro de Futebol", "data": "1997-11-22", "estadio": "Morenão" });
     jogos.push({ "mandante": "Sport", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 6, "campeonato": "Taça Inauguração", "data": "1919-01-26", "estadio": "Campo da Avenida Malaquias" });
     jogos.push({ "mandante": "Sport", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Bronze SC Recife", "data": "1919-02-06", "estadio": "Campo da Avenida Malaquias" });
     jogos.push({ "mandante": "Sport", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 5, "campeonato": "Amistoso", "data": "1928-01-01", "estadio": "Campo da Avenida Malaquias" });
@@ -5499,6 +5499,16 @@ function jogos() {
     jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Copa da Capital 1992", "data": "1992-06-17", "estadio": "Luso Brasileiro" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Flamengo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Taça Cidade de Juiz de Fora 1997", "data": "1997-06-15", "estadio": "Mário Helênio" });
     jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Copa Record 2005", "data": "2005-11-18", "estadio": "Rua Bariri" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Paraná", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Torneio Festival Brasileiro de Futebol", "data": "1997-12-04", "estadio": "Morenão" });
+    jogos.push({ "mandante": "Água Verde", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1968-01-14", "estadio": "Couto Pereira" });
+    jogos.push({ "mandante": "Coritiba", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 3, "campeonato": "Torneio Festival Brasileiro de Futebol", "data": "1997-12-06", "estadio": "Couto Pereira", "penaltis": "7 x 6" });
+    jogos.push({ "mandante": "Operário-MS", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 3, "campeonato": "Torneio Festival Brasileiro de Futebol", "data": "1997-11-29", "estadio": "Morenão" });
+    jogos.push({ "mandante": "Coritiba", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1942-11-12", "estadio": "Couto Pereira" });
+    jogos.push({ "mandante": "Coritiba", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1947-02-12", "estadio": "Couto Pereira" });
+    jogos.push({ "mandante": "Coritiba", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1947-03-23", "estadio": "Vila Capanema" });
+    jogos.push({ "mandante": "Coritiba", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1947-03-30", "estadio": "Vila Capanema" });
+    jogos.push({ "mandante": "Coritiba", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1968-01-21", "estadio": "Couto Pereira" });
+    jogos.push({ "mandante": "Atlético-PR", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1936-09-20", "estadio": "Arena da Baixada" });
 
     jogos.sort(function (a, b) {
         return a.data < b.data ? -1 : a.data > b.data ? 1 : 0;

@@ -2333,10 +2333,10 @@ function Times(time, data) {
                   backgroundColor = "#257524";
                   letterColor = "white";
                   break;
-            case "Pinheiros-PR":
-                  nomeAtual = time;
+            case "Pinheiros-PR": case "Água Verde":
+                  nomeAtual = "Pinheiros-PR";
                   escudo = time;
-                  backgroundColor = "#003a94";
+                  backgroundColor = time === "Água Verde" ? "#007c3e" : "#003a94";
                   letterColor = "white";
                   break;
             case "Plymouth Argyle":
