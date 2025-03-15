@@ -62,7 +62,7 @@ class Tabs extends Component {
         const indexOfFirstItem = indexOfLastItem - itemsPerPage;
         const currentItems = meusJogos.slice(indexOfFirstItem, indexOfLastItem);
 
-        const totalPages = Math.ceil(meusJogos.length / itemsPerPage);
+        //const totalPages = Math.ceil(meusJogos.length / itemsPerPage);
         return (
             <div className="container" style={{ color: "white", border: "3px" }}>
                 <div className="bloc-tabs">
@@ -109,10 +109,10 @@ class Tabs extends Component {
                                 <h1 style={{ color: Times(meuTime).letterColor, textAlign: 'center', paddingBottom: '50px' }}>Você ainda não possui jogos cadastrados</h1>
                                 <h4 style={{ color: Times(meuTime).letterColor, textAlign: 'center' }}>Vá em "Jogos do {meuTime}" para selecionar os jogos que você já foi</h4>
                             </div>}
-                            <div style={{ textAlign: 'center' }}>
+                            {/* <div style={{ textAlign: 'center' }}>
                                 <button style={{ margin: '10px' }} onClick={this.handlePrevPage} disabled={currentPage === 1}>Anterior</button>
                                 <button style={{ margin: '10px' }} onClick={this.handleNextPage} disabled={currentPage === totalPages}>Próxima</button>
-                            </div>
+                            </div> */}
                         </div> 
                         :
                         <div className={ultimos === 2 ? "content  active-content" : "content"}>

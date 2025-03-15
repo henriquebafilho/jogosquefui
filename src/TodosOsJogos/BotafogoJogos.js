@@ -3667,7 +3667,7 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Canto do Rio", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Carioca 1956", "data": "1956-10-21", "estadio": "General Severiano" });
     jogos.push({ "mandante": "Olaria", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Carioca 1956", "data": "1956-10-13", "estadio": "Rua Bariri" });
     jogos.push({ "mandante": "América-RJ", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Carioca 1956", "data": "1956-10-06", "estadio": "Maracanã" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "Flamengo", "golsMandante": 4, "golsVisitante": 1, "campeonato": "Carioca 1956", "data": "1956-09-29", "estadio": "Maracanã" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Flamengo", "golsMandante": 5, "golsVisitante": 0, "campeonato": "Carioca 1956", "data": "1956-09-29", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Canto do Rio", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 4, "campeonato": "Carioca 1956", "data": "1956-09-23", "estadio": "Caio Martins" });
     jogos.push({ "mandante": "Bangu", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Carioca 1956", "data": "1956-09-15", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Madureira", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Carioca 1956", "data": "1956-09-09", "estadio": "Conselheiro Galvão" });
@@ -3797,7 +3797,7 @@ function jogos() {
     jogos.push({ "mandante": "São Cristóvão", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Carioca 1952", "data": "1952-11-15", "estadio": "Figueira de Melo" });
     jogos.push({ "mandante": "Canto do Rio", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 3, "campeonato": "Carioca 1952", "data": "1952-11-09", "estadio": "Caio Martins" });
     jogos.push({ "mandante": "Fluminense", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Carioca 1952", "data": "1952-10-26", "estadio": "Maracanã" });
-    jogos.push({ "mandante": "Bonsucesso", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 3, "campeonato": "Carioca 1952", "data": "1952-10-19", "estadio": "" });
+    jogos.push({ "mandante": "Bonsucesso", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 3, "campeonato": "Carioca 1952", "data": "1952-10-19", "estadio": "General Severiano" });
     jogos.push({ "mandante": "Vasco", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Carioca 1952", "data": "1952-10-11", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Botafogo", "visitante": "América-RJ", "golsMandante": 4, "golsVisitante": 1, "campeonato": "Carioca 1952", "data": "1952-10-04", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Madureira", "golsMandante": 3, "golsVisitante": 2, "campeonato": "Carioca 1952", "data": "1952-09-28", "estadio": "General Severiano" });
@@ -4199,7 +4199,7 @@ function jogos() {
     jogos.push({ "mandante": "Engenho de Dentro", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 0, "campeonato": "Carioca 1934", "data": "1934-05-20", "estadio": "Engenho de Dentro" });
     jogos.push({ "mandante": "Botafogo", "visitante": "SC Brasil", "golsMandante": 6, "golsVisitante": 0, "campeonato": "Carioca 1934", "data": "1934-05-13", "estadio": "General Severiano" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Mavilis", "golsMandante": 4, "golsVisitante": 2, "campeonato": "Carioca 1934", "data": "1934-04-22", "estadio": "General Severiano" });
-    jogos.push({ "mandante": "River-RJ", "visitante": "Botafogo", "golsMandante": 4, "golsVisitante": 4, "campeonato": "Carioca 1934", "data": "1934-04-15", "estadio": "João Pinheiro" });
+    jogos.push({ "mandante": "River-RJ", "visitante": "Botafogo", "golsMandante": 4, "golsVisitante": 4, "campeonato": "Carioca 1934", "data": "1934-04-15", "estadio": "Rua João Pinheiro" });
     jogos.push({ "mandante": "Cocotá", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Carioca 1933 (AMEA)", "data": "1933-11-19", "estadio": "Campo do Cocotá" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Seleção de São Paulo", "golsMandante": 5, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1933-11-15", "estadio": "General Severiano" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Olaria", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Carioca 1933 (AMEA)", "data": "1933-11-05", "estadio": "General Severiano" });
@@ -5467,6 +5467,38 @@ function jogos() {
     jogos.push({ "mandante": "Atlético-MG", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1986-06-19", "estadio": "Independência" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Atlético-MG", "golsMandante": 0, "golsVisitante": 3, "campeonato": "Copa Denner", "data": "1994-06-10", "estadio": "Caio Martins" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Atlético-MG", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Copa Rede Bandeirantes", "data": "1997-06-08", "estadio": "Mané Garrincha" });
+    jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 5, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1918-03-17", "estadio": "Estrada Dona Castorina" });
+    jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1928-07-05", "estadio": "Laranjeiras" });
+    jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1931-08-22", "estadio": "Rua João Pinheiro" });
+    jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1937-08-08", "estadio": "Laranjeiras" });
+    jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 2, "campeonato": "Taça da Paz 1937", "data": "1937-08-28", "estadio": "Laranjeiras" });
+    jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Torneio Municipal 1938", "data": "1938-05-01", "estadio": "São Januário" });
+    jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Torneio Municipal 1938", "data": "1938-07-03", "estadio": "Laranjeiras" });
+    jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 4, "campeonato": "Torneio Extra 1938", "data": "1938-09-08", "estadio": "Laranjeiras" });
+    jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Torneio Extra 1938", "data": "1938-10-27", "estadio": "Campos Sales" });
+    jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 4, "golsVisitante": 1, "campeonato": "Torneio Relâmpago 1943", "data": "1943-03-19", "estadio": "Laranjeiras" });
+    jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Torneio Municipal 1943", "data": "1943-04-18", "estadio": "Laranjeiras" });
+    jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 6, "campeonato": "Torneio Relâmpago 1944", "data": "1944-03-08", "estadio": "São Januário" });
+    jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 4, "campeonato": "Torneio Municipal 1944", "data": "1944-04-09", "estadio": "São Januário" });
+    jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Torneio Relâmpago 1945", "data": "1945-03-28", "estadio": "Laranjeiras" });
+    jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Torneio Municipal 1945", "data": "1945-06-23", "estadio": "Laranjeiras" });
+    jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Torneio Relâmpago 1946", "data": "1946-03-30", "estadio": "Laranjeiras" });
+    jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 4, "golsVisitante": 6, "campeonato": "Torneio Municipal 1946", "data": "1946-06-02", "estadio": "Laranjeiras" });
+    jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Torneio Municipal 1947", "data": "1947-05-18", "estadio": "São Januário" });
+    jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Torneio Municipal 1948", "data": "1948-04-25", "estadio": "Laranjeiras" });
+    jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1949-05-01", "estadio": "São Januário" });
+    jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Torneio Municipal 1951", "data": "1951-04-26", "estadio": "Laranjeiras" });
+    jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1951-05-01", "estadio": "São Januário" });
+    jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Torneio Rio-São Paulo 1952", "data": "1952-03-05", "estadio": "Maracanã" });
+    jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Torneio Extra 1952", "data": "1952-06-21", "estadio": "Laranjeiras" });
+    jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 3, "campeonato": "Torneio Rio-São Paulo 1953", "data": "1953-04-04", "estadio": "Maracanã" });
+    jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 4, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1954-03-23", "estadio": "Maracanã" });
+    jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1972-01-08", "estadio": "Maracanã" });
+    jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Taça Erasmo Martins Pedro 1973", "data": "1973-02-03", "estadio": "São Januário" });
+    jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Copa da Capital 1991", "data": "1991-06-26", "estadio": "Maracanã" });
+    jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Copa da Capital 1992", "data": "1992-06-17", "estadio": "Luso Brasileiro" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Flamengo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Taça Cidade de Juiz de Fora 1997", "data": "1997-06-15", "estadio": "Mário Helênio" });
+    jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Copa Record 2005", "data": "2005-11-18", "estadio": "Rua Bariri" });
 
     jogos.sort(function (a, b) {
         return a.data < b.data ? -1 : a.data > b.data ? 1 : 0;
