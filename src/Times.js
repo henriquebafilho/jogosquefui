@@ -379,7 +379,7 @@ function Times(time, data) {
                   backgroundColor = "#006eb2";
                   letterColor = "white";
                   break;
-            case "Nuremberg":
+            case "Nurnberg":
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#aa1124";
@@ -1342,7 +1342,7 @@ function Times(time, data) {
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#004f9e";
-                  letterColor = "black";
+                  letterColor = "#ffdc00";
                   break;
             case "Tchecoslováquia":
                   nomeAtual = time;
@@ -1537,7 +1537,15 @@ function Times(time, data) {
                   break;
             case "Guarani":
                   nomeAtual = time;
-                  escudo = time;
+                  if (ano < 1981) {
+                        escudo = "Guarani1949";
+                  } else if (ano >= 1981 && ano < 2000) {
+                        escudo = "Guarani1981";
+                  } else if (ano >= 2000 && ano < 2007) {
+                        escudo = "Guarani2000";
+                  } else {
+                        escudo = time;
+                  }
                   backgroundColor = "#048439";
                   letterColor = "white";
                   break;
