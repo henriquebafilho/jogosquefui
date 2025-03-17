@@ -145,8 +145,19 @@ function Times(time, data) {
                   break;
             case "América-MG":
                   nomeAtual = time;
-                  escudo = time;
-                  backgroundColor = "#048439";
+                  if (ano < 1933) {
+                        escudo = "América-MG1933";
+                        backgroundColor = "#048439";
+                  } else if (ano >= 1933 && ano < 1942) {
+                        escudo = "América-MG1942";
+                        backgroundColor = "#d30a11";
+                  } else if (ano >= 1942 && ano < 1971) {
+                        escudo = "América-MG1971";
+                        backgroundColor = "#048439";
+                  } else {
+                        escudo = time;
+                        backgroundColor = "#048439";
+                  }
                   letterColor = "white";
                   break;
             case "América-RJ":

@@ -1094,7 +1094,7 @@ function jogos() {
     jogos.push({ "mandante": "Palmeiras", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Brasileirão 2008", "data": "2008-12-07", "estadio": "Palestra Itália" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Figueirense", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Brasileirão 2008", "data": "2008-11-30", "estadio": "Nilton Santos" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Atlético-PR", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Brasileirão 2008", "data": "2008-11-22", "estadio": "Nilton Santos" });
-    jogos.push({ "mandante": "Goiás", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Brasileirão 2008", "data": "2008-11-16", "estadio": "Juscelino Kubitschek" });
+    jogos.push({ "mandante": "Goiás", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Brasileirão 2008", "data": "2008-11-16", "estadio": "Juscelino Kubitschek-GO" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Flamengo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Brasileirão 2008", "data": "2008-11-09", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Estudiantes", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Copa Sudamericana 08", "data": "2008-11-05", "estadio": "Nilton Santos" });
     jogos.push({ "mandante": "Atlético-MG", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Brasileirão 2008", "data": "2008-11-02", "estadio": "Mineirão" });
@@ -5448,8 +5448,8 @@ function jogos() {
     jogos.push({ "mandante": "Atlético-MG", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1943-02-07", "estadio": "Lourdes" });
     jogos.push({ "mandante": "Atlético-MG", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1947-01-29", "estadio": "Lourdes" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Atlético-MG", "golsMandante": 3, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1947-07-23", "estadio": "Laranjeiras" });
-    jogos.push({ "mandante": "Atlético-MG", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1947-09-10", "estadio": "Juscelino Kubitschek" });
-    jogos.push({ "mandante": "Atlético-MG", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1947-11-30", "estadio": "Juscelino Kubitschek" });
+    jogos.push({ "mandante": "Atlético-MG", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1947-09-10", "estadio": "Juscelino Kubitschek-MG" });
+    jogos.push({ "mandante": "Atlético-MG", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1947-11-30", "estadio": "Juscelino Kubitschek-MG" });
     jogos.push({ "mandante": "Atlético-MG", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1949-02-13", "estadio": "Otacílio Negrão de Lima" });
     jogos.push({ "mandante": "Atlético-MG", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1954-03-16", "estadio": "Lourdes" });
     jogos.push({ "mandante": "Atlético-MG", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 2, "campeonato": "Torneio Quadrangular JK", "data": "1955-03-27", "estadio": "Independência" });
@@ -5517,7 +5517,7 @@ function jogos() {
     jogos.push({ "mandante": "América-MG", "visitante": "Botafogo", "golsMandante": 4, "golsVisitante": 8, "campeonato": "Amistoso", "data": "1941-12-07", "estadio": "Otacílio Negrão de Lima" });
     jogos.push({ "mandante": "América-MG", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 5, "campeonato": "Amistoso", "data": "1943-01-31", "estadio": "Otacílio Negrão de Lima" });
     jogos.push({ "mandante": "América-MG", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1947-07-06", "estadio": "Lourdes" });
-    jogos.push({ "mandante": "América-MG", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1948-03-14", "estadio": "Juscelino Kubitschek" });
+    jogos.push({ "mandante": "América-MG", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1948-03-14", "estadio": "Juscelino Kubitschek-MG" });
     jogos.push({ "mandante": "América-MG", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1953-03-03", "estadio": "Otacílio Negrão de Lima" });
     jogos.push({ "mandante": "América-MG", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1954-11-30", "estadio": "Otacílio Negrão de Lima" });
     jogos.push({ "mandante": "América-MG", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1956-03-14", "estadio": "Otacílio Negrão de Lima" });
