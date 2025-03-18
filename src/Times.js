@@ -143,6 +143,12 @@ function Times(time, data) {
                   backgroundColor = "#fff200";
                   letterColor = "#343795";
                   break;
+            case "Carabobo":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#52100f";
+                  letterColor = "#fdc300";
+                  break;
             case "América-MG":
                   nomeAtual = time;
                   if (ano < 1933) {
