@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jogosquefui/static/css/main.7f3a7af6.css",
-    "main.js": "/jogosquefui/static/js/main.ccc99f7c.js",
+    "main.js": "/jogosquefui/static/js/main.735b730f.js",
     "static/media/Atanasio Girardot.png": "/jogosquefui/static/media/Atanasio Girardot.654b0fba4632fac4057b.png",
     "static/media/Corisabbá.png": "/jogosquefui/static/media/Corisabbá.4b6783df88df9e49eae8.png",
     "static/media/Colosso da Lagoa.png": "/jogosquefui/static/media/Colosso da Lagoa.b7008037ac5675a07045.png",
@@ -419,6 +419,7 @@
     "static/media/Juventus2004.png": "/jogosquefui/static/media/Juventus2004.f9613536527da4d1c242.png",
     "static/media/Saint-Étienne2022.png": "/jogosquefui/static/media/Saint-Étienne2022.4e3faa9639e800df344f.png",
     "static/media/Chile.png": "/jogosquefui/static/media/Chile.f8afda31781a16cac91a.png",
+    "static/media/Carabobo.png": "/jogosquefui/static/media/Carabobo.f584ef9b66c077cc41c9.png",
     "static/media/Lens.png": "/jogosquefui/static/media/Lens.9eab4caea7f2cfad44c7.png",
     "static/media/Luverdense.png": "/jogosquefui/static/media/Luverdense.50006236f49a0a948328.png",
     "static/media/Gávea.png": "/jogosquefui/static/media/Gávea.3a5fb32023b22207e4bd.png",
@@ -728,10 +729,10 @@
     "static/media/Ceará.png": "/jogosquefui/static/media/Ceará.2667c31fce77d94092f4.png",
     "index.html": "/jogosquefui/index.html",
     "main.7f3a7af6.css.map": "/jogosquefui/static/css/main.7f3a7af6.css.map",
-    "main.ccc99f7c.js.map": "/jogosquefui/static/js/main.ccc99f7c.js.map"
+    "main.735b730f.js.map": "/jogosquefui/static/js/main.735b730f.js.map"
   },
   "entrypoints": [
     "static/css/main.7f3a7af6.css",
-    "static/js/main.ccc99f7c.js"
+    "static/js/main.735b730f.js"
   ]
 }
