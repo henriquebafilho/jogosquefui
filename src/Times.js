@@ -2141,7 +2141,7 @@ function Times(time, data) {
             case "Novorizontino":
                   nomeAtual = time;
                   escudo = time;
-                  backgroundColor = "#fff500";
+                  backgroundColor = "#f9ed1f";
                   letterColor = "black";
                   break;
             case "Oeste":
