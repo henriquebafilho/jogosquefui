@@ -4628,7 +4628,7 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Paysandu-RJ", "golsMandante": 6, "golsVisitante": 0, "campeonato": "Carioca 1908", "data": "1908-09-20", "estadio": "Voluntários da Pátria" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Rio Cricket", "golsMandante": "WO", "golsVisitante": 0, "campeonato": "Carioca 1908", "data": "1908-09-13", "estadio": "Voluntários da Pátria" });
     jogos.push({ "mandante": "América-RJ", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 2, "campeonato": "Carioca 1908", "data": "1908-08-30", "estadio": "Laranjeiras" });
-    jogos.push({ "mandante": "Paysandu-RJ", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": "WO", "campeonato": "Carioca 1908", "data": "1908-08-09", "estadio": "Laranjeiras" });
+    jogos.push({ "mandante": "Paysandu-RJ", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": "WO", "campeonato": "Carioca 1908", "data": "1908-07-19", "estadio": "Laranjeiras" });
     jogos.push({ "mandante": "Botafogo", "visitante": "América-RJ", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Carioca 1908", "data": "1908-06-28", "estadio": "Voluntários da Pátria" });
     jogos.push({ "mandante": "Fluminense", "visitante": "Botafogo", "golsMandante": 4, "golsVisitante": 4, "campeonato": "Carioca 1908", "data": "1908-06-14", "estadio": "Laranjeiras" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Riachuelo-RJ", "golsMandante": 5, "golsVisitante": 0, "campeonato": "Carioca 1908", "data": "1908-05-31", "estadio": "Voluntários da Pátria" });
@@ -5273,7 +5273,7 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Fluminense", "golsMandante": 4, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1910-11-06", "estadio": "Voluntários da Pátria" });
     jogos.push({ "mandante": "São Cristóvão", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 5, "campeonato": "Taça Prefeitura Rio de Janeiro", "data": "1910-11-13", "estadio": "Campo Público São Cristóvão" });
     jogos.push({ "mandante": "São Paulo Athletic", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1911-05-07", "estadio": "Velódromo" });
-    jogos.push({ "mandante": "Paysandu-RJ", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1911-06-04", "estadio": "Laranjeiras" });
+    jogos.push({ "mandante": "Paysandu-RJ", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 4, "campeonato": "Carioca 1911", "data": "1911-06-04", "estadio": "Laranjeiras" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Associação das Palmeiras", "golsMandante": 2, "golsVisitante": 4, "campeonato": "Taça Salutaris", "data": "1911-06-11", "estadio": "Voluntários da Pátria" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Americano-SP", "golsMandante": 2, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1911-07-23", "estadio": "Voluntários da Pátria" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Germânia-SP", "golsMandante": 3, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1911-08-06", "estadio": "Voluntários da Pátria" });
@@ -5570,6 +5570,14 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Vasco", "golsMandante": 3, "golsVisitante": 2, "campeonato": "Copa Dener", "data": "1994-05-23", "estadio": "Ítalo del Cima" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Vasco", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Copa Rio de Janeiro", "data": "1995-11-06", "estadio": "Caio Martins" });
     jogos.push({ "mandante": "Vasco", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Copa Rio de Janeiro", "data": "1995-11-21", "estadio": "São Januário" });
+    jogos.push({ "mandante": "América", "visitante": "Botafogo", "golsMandante": 4, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1920-03-14", "estadio": "Campos Sales" });
+    jogos.push({ "mandante": "Byron", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 5, "campeonato": "Amistoso", "data": "1920-04-25", "estadio": "Rua Doutor March" });
+    jogos.push({ "mandante": "Americano", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 5, "campeonato": "Amistoso", "data": "1920-09-05", "estadio": "Campo do Americano" });
+    jogos.push({ "mandante": "Sport Club Juiz de Fora", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1921-05-01", "estadio": "Doutor José Procópio Teixeira" });
+    jogos.push({ "mandante": "Goytacaz", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1921-10-09", "estadio": "" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Americano", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1923-03-25", "estadio": "Barão de São Francisco Filho" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "América-RJ", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Taça D. Cinira de Oliveira", "data": "1924-09-07", "estadio": "Laranjeiras" });
+    jogos.push({ "mandante": "Portuguesa Santista", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1925-12-08", "estadio": "Ulrico Mursa" });
     
     jogos.sort(function (a, b) {
         return a.data < b.data ? -1 : a.data > b.data ? 1 : 0;

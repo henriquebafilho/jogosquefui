@@ -184,9 +184,23 @@ function Times(time, data) {
                   backgroundColor = "#d30a11";
                   letterColor = "white";
                   break;
-            case "Americano":
+            case "Byron":
                   nomeAtual = time;
                   escudo = time;
+                  backgroundColor = "#fe0000";
+                  letterColor = "white";
+                  break;
+            case "Americano":
+                  nomeAtual = time;
+                  if (ano < 1954) {
+                        escudo = "Americano1914";
+                  } else if (ano >= 1954 && ano < 1980) {
+                        escudo = "Americano1954";
+                  } else if (ano >= 1980 && ano < 1990) {
+                        escudo = "Americano1980";
+                  } else {
+                        escudo = time;
+                  }
                   backgroundColor = "white";
                   letterColor = "black";
                   break;
@@ -1768,6 +1782,12 @@ function Times(time, data) {
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#048439";
+                  letterColor = "white";
+                  break;
+            case "Portuguesa Santista":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#d30a11";
                   letterColor = "white";
                   break;
             case "Juventus":
