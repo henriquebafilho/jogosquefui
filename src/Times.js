@@ -1,5 +1,5 @@
 function Times(time, data) {
-      var nomeAtual, escudo, backgroundColor, letterColor;
+      var nomeAtual, escudo, backgroundColor, letterColor, nomesAnteriores = [];
 
       if (data != null) {
             var dataCortada = data.split("-");
@@ -275,6 +275,7 @@ function Times(time, data) {
                   }
                   backgroundColor = "#d30a11";
                   letterColor = "black";
+                  nomesAnteriores = ["Atlético-PR"];
                   break;
             case "Atlético Nacional":
                   nomeAtual = time;
@@ -475,6 +476,7 @@ function Times(time, data) {
                   }
                   backgroundColor = "#00913c";
                   letterColor = "white";
+                  nomesAnteriores = ["Barreira"];
                   break;
             case "Boca Juniors":
                   nomeAtual = time;
@@ -537,6 +539,7 @@ function Times(time, data) {
                         backgroundColor = "#d30a11";
                         letterColor = "white";
                   }
+                  nomesAnteriores = ["Bragantino"];
                   break;
             case "Brasil":
                   nomeAtual = time;
@@ -941,6 +944,7 @@ function Times(time, data) {
                   }
                   backgroundColor = "#003a94";
                   letterColor = "white";
+                  nomesAnteriores = ["Palestra Itália-MG"];
                   break;
             case "Le Havre":
                   nomeAtual = time;
@@ -1422,6 +1426,7 @@ function Times(time, data) {
                   escudo = time;
                   backgroundColor = "#d30a11";
                   letterColor = "white";
+                  nomesAnteriores = ["Associação Internacional-RJ"];
                   break;
             case "Áustria":
                   nomeAtual = time;
@@ -1445,6 +1450,7 @@ function Times(time, data) {
                         backgroundColor = "#003a94";
                   }
                   letterColor = "white";
+                  nomesAnteriores = ["Fluminense Nova Friburgo"];
                   break;
             case "Galícia":
                   nomeAtual = time;
@@ -1548,11 +1554,12 @@ function Times(time, data) {
                   backgroundColor = "#0d80bf";
                   letterColor = "black";
                   break;
-            case "Grêmio Barueri": case "Grêmio Prudente": case "Grêmio Prudente (Barueri)":
-                  nomeAtual = "Grêmio Prudente (Barueri)";
+            case "Grêmio Barueri": case "Grêmio Prudente":
+                  nomeAtual = "Grêmio Prudente";
                   escudo = time;
                   backgroundColor = "#f6e815";
                   letterColor = "#003c6e";
+                  nomesAnteriores = ["Grêmio Barueri"];
                   break;
             case "Grêmio Maringá":
                   nomeAtual = time;
@@ -2241,6 +2248,7 @@ function Times(time, data) {
                   escudo = time;
                   backgroundColor = "#086a30";
                   letterColor = "white";
+                  nomesAnteriores = ["Palestra Itália-SP"];
                   break;
             case "Fortuna '54":
                   nomeAtual = time;
@@ -2383,6 +2391,7 @@ function Times(time, data) {
                   escudo = time;
                   backgroundColor = time === "Água Verde" ? "#007c3e" : "#003a94";
                   letterColor = "white";
+                  nomesAnteriores = ["Água Verde"];
                   break;
             case "Plymouth Argyle":
                   nomeAtual = time;
@@ -2395,6 +2404,7 @@ function Times(time, data) {
                   escudo = time;
                   backgroundColor = "#d30a11";
                   letterColor = "black";
+                  nomesAnteriores = ["Posco Atoms"];
                   break;
             case "Ponte Preta":
                   nomeAtual = time;
@@ -2899,6 +2909,7 @@ function Times(time, data) {
                   escudo = time;
                   backgroundColor = "#65b721";
                   letterColor = "#0b408d";
+                  nomesAnteriores = ["Hiratsuka Bellmare"];
                   break;
             case "Síria":
                   nomeAtual = time;
@@ -3240,11 +3251,12 @@ function Times(time, data) {
                   backgroundColor = "black";
                   letterColor = "white";
                   break;
-            case "Júbilo Iwata": case "Yamaha": case "Júbilo Iwata (Yamaha)":
-                  nomeAtual = "Júbilo Iwata (Yamaha)";
+            case "Júbilo Iwata": case "Yamaha":
+                  nomeAtual = "Júbilo Iwata";
                   escudo = time;
                   backgroundColor = "#659ad2";
                   letterColor = "white";
+                  nomesAnteriores = ["Yamaha"];
                   break;
             case "Young Boys":
                   nomeAtual = time;
@@ -3311,7 +3323,8 @@ function Times(time, data) {
             nomeAtual,
             escudo,
             backgroundColor,
-            letterColor
+            letterColor,
+            nomesAnteriores
       }
 }
 
