@@ -55,7 +55,14 @@ class Estadios extends Component {
   }
 
   searchStadium = async (e) => {
-    this.setState({ filtered: this.state.estadios.filter(estadio => estadio.toUpperCase().trim().includes(e.target.value.toUpperCase().trim()))})
+    this.setState({
+      filtered: this.state.estadios.filter(estadio => {
+        const normalizeString = (str) => str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+        const searchTerm = normalizeString(e.target.value.toUpperCase().trim());
+        const normalizedEstadio = normalizeString(estadio.toUpperCase().trim());
+        return normalizedEstadio.includes(searchTerm);
+      })
+    })
   }
 
   render() {
@@ -65,11 +72,11 @@ class Estadios extends Component {
 
     return (
       <>
-        {this.state.clicked ? <ViewEstadio meuTime={this.props.meuTime} meusJogos={meusJogos} jogosEstadio={this.state.jogosEstadio} estadio={this.state.estadioAtual} /> : 
+        {this.state.clicked ? <ViewEstadio meuTime={this.props.meuTime} meusJogos={meusJogos} jogosEstadio={this.state.jogosEstadio} estadio={this.state.estadioAtual} /> :
           <div className="App-header" style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor, alignItems: 'normal' }}>
             {/* <h1>Estádios</h1>
             <br /> */}
-            <h4 style={{textAlign: 'center'}}>{this.state.estadios.length + " estádio"}{this.state.estadios.length > 1 ? "s" : ""}{" cadastrados"}</h4>
+            <h4 style={{ textAlign: 'center' }}>{this.state.estadios.length + " estádio"}{this.state.estadios.length > 1 ? "s" : ""}{" cadastrados"}</h4>
             <br />
             <table>
               <tbody>

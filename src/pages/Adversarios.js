@@ -66,7 +66,14 @@ class Adversarios extends Component {
   }
 
   searchTeam = async (e) => {
-    this.setState({ filtered: this.state.adversarios.filter(time => time.toUpperCase().trim().includes(e.target.value.toUpperCase().trim()))})
+    this.setState({
+      filtered: this.state.adversarios.filter(time => {
+        const normalizeString = (str) => str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+        const searchTerm = normalizeString(e.target.value.toUpperCase().trim());
+        const normalizedTime = normalizeString(time.toUpperCase().trim());
+        return normalizedTime.includes(searchTerm);
+      })
+    });
   }
 
   render() {

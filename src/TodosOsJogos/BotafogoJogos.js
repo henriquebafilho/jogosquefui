@@ -5570,7 +5570,7 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Vasco", "golsMandante": 3, "golsVisitante": 2, "campeonato": "Copa Dener", "data": "1994-05-23", "estadio": "Ítalo del Cima" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Vasco", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Copa Rio de Janeiro", "data": "1995-11-06", "estadio": "Caio Martins" });
     jogos.push({ "mandante": "Vasco", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Copa Rio de Janeiro", "data": "1995-11-21", "estadio": "São Januário" });
-    jogos.push({ "mandante": "América", "visitante": "Botafogo", "golsMandante": 4, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1920-03-14", "estadio": "Campos Sales" });
+    jogos.push({ "mandante": "América-RJ", "visitante": "Botafogo", "golsMandante": 4, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1920-03-14", "estadio": "Campos Sales" });
     jogos.push({ "mandante": "Byron", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 5, "campeonato": "Amistoso", "data": "1920-04-25", "estadio": "Rua Doutor March" });
     jogos.push({ "mandante": "Americano", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 5, "campeonato": "Amistoso", "data": "1920-09-05", "estadio": "Campo do Americano" });
     jogos.push({ "mandante": "Sport Club Juiz de Fora", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1921-05-01", "estadio": "Doutor José Procópio Teixeira" });
