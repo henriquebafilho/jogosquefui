@@ -30,8 +30,8 @@ const getTotalAno = (ano, jogos) => {
     var total = 0;
 
     for (var a in jogos) {
-        const currentDate = new Date(jogos[a].data);
-        if (ano.toString().includes(currentDate.getFullYear())) {
+        const currentDateAno = jogos[a].data.split("-")[0];
+        if (ano.toString().includes(currentDateAno)) {
             total += 1;
         }
     }

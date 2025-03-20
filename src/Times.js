@@ -1617,6 +1617,12 @@ function Times(time, data) {
                   backgroundColor = "#d30a11";
                   letterColor = "white";
                   break;
+            case "Floriano":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#d30a11";
+                  letterColor = "black";
+                  break;
             case "Hibernian":
                   nomeAtual = time;
                   escudo = time;
@@ -2701,8 +2707,30 @@ function Times(time, data) {
             case "Ypiranga de Niterói":
                   nomeAtual = time;
                   escudo = time;
-                  backgroundColor = "#de2921";
+                  backgroundColor = "#d30a11";
                   letterColor = "black";
+                  break;
+            case "Torre":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#d30a11";
+                  letterColor = "white";
+                  break;
+            case "Tupynambás":
+                  nomeAtual = time;
+                  if (ano < 2023) {
+                        escudo = "Tupynambás2023";
+                  } else {
+                        escudo = time;
+                  }
+                  backgroundColor = "#d30a11";
+                  letterColor = "white";
+                  break;
+            case "União Esportiva":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "black";
+                  letterColor = "white";
                   break;
             case "Everest":
                   nomeAtual = time;
