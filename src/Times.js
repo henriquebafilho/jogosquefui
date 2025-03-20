@@ -1623,6 +1623,12 @@ function Times(time, data) {
                   backgroundColor = "#d30a11";
                   letterColor = "black";
                   break;
+            case "Rio Branco-PR":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#d30a11";
+                  letterColor = "white";
+                  break;
             case "Hibernian":
                   nomeAtual = time;
                   escudo = time;
@@ -1646,6 +1652,12 @@ function Times(time, data) {
                   escudo = time;
                   backgroundColor = "#d30a11";
                   letterColor = "white";
+                  break;
+            case "Rio Branco-RJ":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#fb37b9";
+                  letterColor = "black";
                   break;
             case "Independiente Del Valle":
                   nomeAtual = time;
@@ -2908,7 +2920,7 @@ function Times(time, data) {
                   backgroundColor = "#d30a11";
                   letterColor = "white";
                   break;
-            case "Serrano-RJ":
+            case "Serrano":
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#123293";
@@ -3322,11 +3334,29 @@ function Times(time, data) {
                   backgroundColor = "#d30a11";
                   letterColor = "white";
                   break;
+            case "Bancário":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#d30a11";
+                  letterColor = "white";
+                  break;
+            case "Rio Grande":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#00933d";
+                  letterColor = "white";
+                  break;
             case "Estrela do Norte":
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "black";
                   letterColor = "white";
+                  break;
+            case "Pelotas":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#0050a0";
+                  letterColor = "#ffdd00";
                   break;
             case "Guará":
                   nomeAtual = time;

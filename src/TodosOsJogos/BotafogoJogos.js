@@ -2548,14 +2548,14 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Bangu", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Carioca 1981", "data": "1981-10-31", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Americano", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Carioca 1981", "data": "1981-10-25", "estadio": "Godofredo Cruz" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Volta Redonda", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Carioca 1981", "data": "1981-10-22", "estadio": "Marechal Hermes" });
-    jogos.push({ "mandante": "Serrano-RJ", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Carioca 1981", "data": "1981-10-18", "estadio": "Atilio Marotti" });
+    jogos.push({ "mandante": "Serrano", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Carioca 1981", "data": "1981-10-18", "estadio": "Atilio Marotti" });
     jogos.push({ "mandante": "Vasco", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Carioca 1981", "data": "1981-10-11", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Madureira", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Carioca 1981", "data": "1981-10-04", "estadio": "Caio Martins" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Flamengo", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Carioca 1981", "data": "1981-09-26", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Madureira", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Carioca 1981", "data": "1981-09-20", "estadio": "Caio Martins" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Vasco", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Carioca 1981", "data": "1981-09-13", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Volta Redonda", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Carioca 1981", "data": "1981-09-06", "estadio": "Raulino de Oliveira" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "Serrano-RJ", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Carioca 1981", "data": "1981-09-02", "estadio": "Marechal Hermes" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Serrano", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Carioca 1981", "data": "1981-09-02", "estadio": "Marechal Hermes" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Fluminense", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Carioca 1981", "data": "1981-08-30", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Bangu", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Carioca 1981", "data": "1981-08-23", "estadio": "Moça Bonita" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Olaria", "golsMandante": 3, "golsVisitante": 0, "campeonato": "Carioca 1981", "data": "1981-08-19", "estadio": "Marechal Hermes" });
@@ -2570,7 +2570,7 @@ function jogos() {
     jogos.push({ "mandante": "Olaria", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Carioca 1981", "data": "1981-06-18", "estadio": "Rua Bariri" });
     jogos.push({ "mandante": "Fluminense", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Carioca 1981", "data": "1981-06-14", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Volta Redonda", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Carioca 1981", "data": "1981-06-11", "estadio": "Marechal Hermes" });
-    jogos.push({ "mandante": "Serrano-RJ", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Carioca 1981", "data": "1981-06-07", "estadio": "Atilio Marotti" });
+    jogos.push({ "mandante": "Serrano", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Carioca 1981", "data": "1981-06-07", "estadio": "Atilio Marotti" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Madureira", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Carioca 1981", "data": "1981-05-31", "estadio": "Marechal Hermes" });
     jogos.push({ "mandante": "Campo Grande-RJ", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Carioca 1981", "data": "1981-05-24", "estadio": "Ítalo del Cima" });
     jogos.push({ "mandante": "São Paulo", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 2, "campeonato": "Brasileirão 1981", "data": "1981-04-26", "estadio": "Morumbi" });
@@ -2602,7 +2602,7 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Volta Redonda", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Carioca 1980", "data": "1980-11-05", "estadio": "Marechal Hermes" });
     jogos.push({ "mandante": "Americano", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Carioca 1980", "data": "1980-11-02", "estadio": "Godofredo Cruz" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Campo Grande-RJ", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Carioca 1980", "data": "1980-10-29", "estadio": "Marechal Hermes" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "Serrano-RJ", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Carioca 1980", "data": "1980-10-26", "estadio": "Atilio Marotti" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Serrano", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Carioca 1980", "data": "1980-10-26", "estadio": "Atilio Marotti" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Bangu", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Carioca 1980", "data": "1980-10-19", "estadio": "Marechal Hermes" });
     jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Carioca 1980", "data": "1980-10-12", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Botafogo", "visitante": "ADN-Niterói", "golsMandante": 3, "golsVisitante": 0, "campeonato": "Carioca 1980", "data": "1980-10-08", "estadio": "Marechal Hermes" });
@@ -2615,7 +2615,7 @@ function jogos() {
     jogos.push({ "mandante": "Campo Grande-RJ", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Carioca 1980", "data": "1980-09-07", "estadio": "Ítalo del Cima" });
     jogos.push({ "mandante": "Fluminense", "visitante": "Botafogo", "golsMandante": 4, "golsVisitante": 0, "campeonato": "Carioca 1980", "data": "1980-08-31", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Bonsucesso", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Carioca 1980", "data": "1980-08-24", "estadio": "Marechal Hermes" });
-    jogos.push({ "mandante": "Serrano-RJ", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 4, "campeonato": "Carioca 1980", "data": "1980-08-17", "estadio": "Marechal Hermes" });
+    jogos.push({ "mandante": "Serrano", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 4, "campeonato": "Carioca 1980", "data": "1980-08-17", "estadio": "Marechal Hermes" });
     jogos.push({ "mandante": "Fluminense", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Guanabara 1980", "data": "1980-08-02", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Guanabara 1980", "data": "1980-07-26", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Botafogo", "visitante": "América-RJ", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Guanabara 1980", "data": "1980-07-20", "estadio": "Maracanã" });
@@ -2659,13 +2659,13 @@ function jogos() {
     jogos.push({ "mandante": "Bonsucesso", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Carioca 1979", "data": "1979-09-11", "estadio": "Ítalo del Cima" });
     jogos.push({ "mandante": "Botafogo", "visitante": "América-RJ", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Carioca 1979", "data": "1979-09-07", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Americano", "golsMandante": 3, "golsVisitante": 2, "campeonato": "Carioca 1979", "data": "1979-09-02", "estadio": "Godofredo Cruz" });
-    jogos.push({ "mandante": "Serrano-RJ", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Carioca 1979", "data": "1979-08-29", "estadio": "Marechal Hermes" });
+    jogos.push({ "mandante": "Serrano", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Carioca 1979", "data": "1979-08-29", "estadio": "Marechal Hermes" });
     jogos.push({ "mandante": "Campo Grande-RJ", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Carioca 1979", "data": "1979-08-01", "estadio": "Marechal Hermes" });
     jogos.push({ "mandante": "Goytacaz", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Carioca 1979", "data": "1979-07-29", "estadio": "Marechal Hermes" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Americano", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Carioca 1979", "data": "1979-07-22", "estadio": "Marechal Hermes" });
     jogos.push({ "mandante": "Fluminense", "visitante": "Botafogo", "golsMandante": 4, "golsVisitante": 1, "campeonato": "Carioca 1979", "data": "1979-07-15", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Bangu", "golsMandante": 6, "golsVisitante": 0, "campeonato": "Carioca 1979", "data": "1979-07-11", "estadio": "Marechal Hermes" });
-    jogos.push({ "mandante": "Serrano-RJ", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Carioca 1979", "data": "1979-07-08", "estadio": "Atilio Marotti" });
+    jogos.push({ "mandante": "Serrano", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Carioca 1979", "data": "1979-07-08", "estadio": "Atilio Marotti" });
     jogos.push({ "mandante": "Vasco", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Carioca 1979", "data": "1979-07-01", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Bonsucesso", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Carioca 1979", "data": "1979-06-27", "estadio": "Marechal Hermes" });
     jogos.push({ "mandante": "Goytacaz", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Carioca 1979", "data": "1979-06-24", "estadio": "Aryzão" });
@@ -5598,6 +5598,23 @@ function jogos() {
     jogos.push({ "mandante": "Seleção Rio de Janeiro-AMEA B", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1929-09-14", "estadio": "Laranjeiras" });
     jogos.push({ "mandante": "Floriano", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1929-10-12", "estadio": "Campo do Jucutuquara" });
     jogos.push({ "mandante": "Seleção do Espírito Santo", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1929-10-13", "estadio": "" });
+    jogos.push({ "mandante": "Sport Club Juiz de Fora", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1930-03-30", "estadio": "Doutor José Procópio Teixeira" });
+    jogos.push({ "mandante": "Seleção do Paraná", "visitante": "Botafogo", "golsMandante": 5, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1930-04-11", "estadio": "Parque da Graciosa" });
+    jogos.push({ "mandante": "Britânia", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1930-04-13", "estadio": "Baixada da Água Verde" });
+    jogos.push({ "mandante": "Rio Branco-PR", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 8, "campeonato": "Amistoso", "data": "1930-04-15", "estadio": "Estradinha" });
+    jogos.push({ "mandante": "Seleção de Petrópolis", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 7, "campeonato": "Amistoso", "data": "1930-08-03", "estadio": "" });
+    jogos.push({ "mandante": "Seleção de Petrópolis", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1930-08-05", "estadio": "" });
+    jogos.push({ "mandante": "Serrano", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1931-03-01", "estadio": "" });
+    jogos.push({ "mandante": "América-RJ", "visitante": "Botafogo", "golsMandante": 5, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1931-04-05", "estadio": "Campos Sales" });
+    jogos.push({ "mandante": "Comercial-SP", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Taça Novo Mundo", "data": "1931-05-17", "estadio": "Rua Tibiriçá" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Seleção de Niterói-AFSA", "golsMandante": 3, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1931-05-28", "estadio": "Laranjeiras" });
+    jogos.push({ "mandante": "Seleção do Rio Grande do Sul", "visitante": "Botafogo", "golsMandante": 4, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1931-06-28", "estadio": "Estádio dos Eucaliptos" });
+    jogos.push({ "mandante": "Bancário", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1931-07-03", "estadio": "Augusto Simões Lopes" });
+    jogos.push({ "mandante": "Rio Grande", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1931-07-05", "estadio": "Estádio das Oliveiras" });
+    jogos.push({ "mandante": "Pelotas", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1931-07-08", "estadio": "Boca do Lobo" });
+    jogos.push({ "mandante": "Rio Branco-RJ", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 7, "campeonato": "Amistoso", "data": "1931-11-07", "estadio": "" });
+    jogos.push({ "mandante": "Americano", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 4, "campeonato": "Taça da Cidade de Campos", "data": "1931-11-08", "estadio": "Campo do Americano" });
+    jogos.push({ "mandante": "Serrano", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1931-12-27", "estadio": "" });
     
     jogos.sort(function (a, b) {
         return a.data < b.data ? -1 : a.data > b.data ? 1 : 0;

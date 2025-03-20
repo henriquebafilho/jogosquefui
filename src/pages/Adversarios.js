@@ -107,6 +107,7 @@ class Adversarios extends Component {
                       <button id='selectAdversario' onClick={() => buttonClickFunction(Times(i).nomeAtual)} style={{ backgroundColor: Times(Times(i).nomeAtual).backgroundColor, color: Times(Times(i).nomeAtual).letterColor, borderColor: Times(meuTime).backgroundColor === 'white' ? 'black' : 'white', borderStyle: 'solid' }}>
                         <img src={require('../escudos/' + Times(Times(i).nomeAtual).escudo + '.png')} style={{ verticalAlign: 'middle' }} alt='escudo' height='75' width='75' />
                         <div id='tituloOpcao' style={{ paddingTop: '5px' }}>{Times(i).nomeAtual}</div>
+                        <div style={{ paddingBottom: '5px', fontSize: '15px', fontWeight: '100' }}>{totalAdversario} {totalAdversario > 1 ? "jogos" : "jogo"}</div>
                         {nomesAnteriores.length > 0 &&
                           <div>
                             <div>Nomes anteriores:</div>
@@ -115,7 +116,6 @@ class Adversarios extends Component {
                             })}
                           </div>
                         }
-                        <div style={{ paddingBottom: '5px', fontSize: '15px', fontWeight: '100' }}>{totalAdversario} {totalAdversario > 1 ? "jogos" : "jogo"}</div>
                       </button>
                     </div>
                   }) : <div>
