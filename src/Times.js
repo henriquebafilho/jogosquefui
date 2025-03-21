@@ -3298,7 +3298,19 @@ function Times(time, data) {
                   break;
             case "Vitória":
                   nomeAtual = time;
-                  escudo = time;
+                  if (ano < 1959) {
+                        escudo = "Vitória1934";
+                  } else if (ano >= 1959 && ano < 1980) {
+                        escudo = "Vitória1959";
+                  } else if (ano >= 1980 && ano < 1985) {
+                        escudo = "Vitória1980";
+                  } else if (ano >= 1985 && ano < 2000) {
+                        escudo = "Vitória2000";
+                  } else if (ano >= 2000 && ano < 2010) {
+                        escudo = "Vitória2010";
+                  } else {
+                        escudo = time;
+                  }
                   backgroundColor = "#d30a11";
                   letterColor = "black";
                   break;
