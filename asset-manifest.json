@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jogosquefui/static/css/main.34bb39b7.css",
-    "main.js": "/jogosquefui/static/js/main.51f979d3.js",
+    "main.js": "/jogosquefui/static/js/main.1d8a1ca4.js",
     "static/media/Atanasio Girardot.png": "/jogosquefui/static/media/Atanasio Girardot.654b0fba4632fac4057b.png",
     "static/media/Corisabbá.png": "/jogosquefui/static/media/Corisabbá.4b6783df88df9e49eae8.png",
     "static/media/Colosso da Lagoa.png": "/jogosquefui/static/media/Colosso da Lagoa.b7008037ac5675a07045.png",
@@ -362,6 +362,7 @@
     "static/media/Deportivo Italia.png": "/jogosquefui/static/media/Deportivo Italia.b6f0bcb9a62f6f33dfae.png",
     "static/media/Robinhood.png": "/jogosquefui/static/media/Robinhood.8781b1a1e8643c943b4f.png",
     "static/media/WestHam1991.png": "/jogosquefui/static/media/WestHam1991.95390c997d4cc853b2cd.png",
+    "static/media/Universidad Nacional-CO.png": "/jogosquefui/static/media/Universidad Nacional-CO.9102224cd0cc08109175.png",
     "static/media/RedBullBrasil.png": "/jogosquefui/static/media/RedBullBrasil.e5757a894eb24679b39a.png",
     "static/media/Palestra Itália-MG.png": "/jogosquefui/static/media/Palestra Itália-MG.22023bb77c3c8401c144.png",
     "static/media/SantoAndré.png": "/jogosquefui/static/media/SantoAndré.be6c062b1669bf0332b6.png",
@@ -766,10 +767,10 @@
     "static/media/Ceará.png": "/jogosquefui/static/media/Ceará.2667c31fce77d94092f4.png",
     "index.html": "/jogosquefui/index.html",
     "main.34bb39b7.css.map": "/jogosquefui/static/css/main.34bb39b7.css.map",
-    "main.51f979d3.js.map": "/jogosquefui/static/js/main.51f979d3.js.map"
+    "main.1d8a1ca4.js.map": "/jogosquefui/static/js/main.1d8a1ca4.js.map"
   },
   "entrypoints": [
     "static/css/main.34bb39b7.css",
-    "static/js/main.51f979d3.js"
+    "static/js/main.1d8a1ca4.js"
   ]
 }
