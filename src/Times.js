@@ -661,7 +661,13 @@ function Times(time, data) {
                   break;
             case "Ceará":
                   nomeAtual = time;
-                  escudo = time;
+                  if (ano < 1970) {
+                        escudo = "Ceará1954";
+                  } else if (ano >= 1970 && ano < 2003) {
+                        escudo = "Ceará1970";
+                  } else {
+                        escudo = time;
+                  }
                   backgroundColor = "black";
                   letterColor = "white";
                   break;
@@ -1449,7 +1455,13 @@ function Times(time, data) {
                   break;
             case "Fortaleza":
                   nomeAtual = time;
-                  escudo = time;
+                  if (ano < 1982) {
+                        escudo = "Fortaleza1963";
+                  } else if (ano >= 1982 && ano < 2000) {
+                        escudo = "Fortaleza1982";
+                  } else {
+                        escudo = time;
+                  }
                   backgroundColor = "#11519b";
                   letterColor = "white";
                   break;
@@ -1563,7 +1575,15 @@ function Times(time, data) {
                   break;
             case "Grêmio":
                   nomeAtual = time;
-                  escudo = time;
+                  if (ano < 1963) {
+                        escudo = "Grêmio1963";
+                  } else if (ano >= 1963 && ano < 1980) {
+                        escudo = "Grêmio1980";
+                  } else if (ano >= 1980 && ano < 2000) {
+                        escudo = "Grêmio2000";
+                  } else {
+                        escudo = time;
+                  }
                   backgroundColor = "#0d80bf";
                   letterColor = "black";
                   break;
@@ -2347,7 +2367,13 @@ function Times(time, data) {
                   break;
             case "Paysandu":
                   nomeAtual = time;
-                  escudo = time;
+                  if (ano < 1970) {
+                        escudo = "Paysandu1970";
+                  } else if (ano >= 1970 && ano < 2002) {
+                        escudo = "Paysandu1991";
+                  } else {
+                        escudo = time;
+                  }
                   backgroundColor = "#0091cf";
                   letterColor = "white";
                   break;
