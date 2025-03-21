@@ -1426,13 +1426,26 @@ function Times(time, data) {
                   escudo = time;
                   backgroundColor = "#d30a11";
                   letterColor = "white";
-                  nomesAnteriores = ["Associação Internacional-RJ"];
+                  nomesAnteriores = ["Associação Internacional-RJ", "Athletic-RJ"];
                   break;
             case "Áustria":
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#d30a11";
                   letterColor = "white";
+                  break;
+            case "Villa Nova":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#d20001";
+                  letterColor = "white";
+                  break;
+            case "Obreros": case "Cruz Azul Hidalgo":
+                  nomeAtual = "Cruz Azul Hidalgo";
+                  escudo = time;
+                  backgroundColor = "#002664";
+                  letterColor = "white";
+                  nomesAnteriores = ["Obreros"];
                   break;
             case "Fortaleza":
                   nomeAtual = time;
@@ -2520,6 +2533,12 @@ function Times(time, data) {
                   backgroundColor = "#d30a11";
                   letterColor = "white";
                   break;
+            case "Botafogo-BA":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#d30a11";
+                  letterColor = "white";
+                  break;
             case "Reggina":
                   nomeAtual = time;
                   escudo = time;
@@ -2529,7 +2548,19 @@ function Times(time, data) {
             case "Remo":
                   nomeAtual = time;
                   escudo = time;
-                  backgroundColor = "#161923";
+                  backgroundColor = "#09153b";
+                  letterColor = "white";
+                  break;
+            case "Cruzeiro-RS":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#000b7f";
+                  letterColor = "white";
+                  break;
+            case "Força e Luz":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#da2c2c";
                   letterColor = "white";
                   break;
             case "Resende":
