@@ -5656,6 +5656,7 @@ function jogos() {
     jogos.push({ "mandante": "São Cristóvão", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 2, "campeonato": "Torneio Extra 1938", "data": "1938-10-20", "estadio": "Figueira de Melo" });
     jogos.push({ "mandante": "Portuguesa Santista", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1938-11-20", "estadio": "" });
     jogos.push({ "mandante": "Botafogo", "visitante": "São Cristóvão", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Torneio Extra 1938", "data": "1938-11-24", "estadio": "Laranjeiras" });
+    jogos.push({ "mandante": "Fábrica de Armas", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 6, "campeonato": "Amistoso", "data": "1939-07-16", "estadio": "Esperança" });
     
     jogos.sort(function (a, b) {
         return a.data < b.data ? -1 : a.data > b.data ? 1 : 0;

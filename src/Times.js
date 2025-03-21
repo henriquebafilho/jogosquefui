@@ -3296,6 +3296,13 @@ function Times(time, data) {
                   backgroundColor = "black";
                   letterColor = "white";
                   break;
+            case "Fábrica de Armas": case "Fabril Atlético":
+                  nomeAtual = "Fabril Atlético";
+                  escudo = time;
+                  backgroundColor = "#223b82";
+                  letterColor = "white";
+                  nomesAnteriores = ["Fábrica de Armas"];
+                  break;
             case "Vitória":
                   nomeAtual = time;
                   if (ano < 1959) {
