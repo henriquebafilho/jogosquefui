@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jogosquefui/static/css/main.34bb39b7.css",
-    "main.js": "/jogosquefui/static/js/main.fc7c558e.js",
+    "main.js": "/jogosquefui/static/js/main.0026e560.js",
     "static/media/Atanasio Girardot.png": "/jogosquefui/static/media/Atanasio Girardot.654b0fba4632fac4057b.png",
     "static/media/Corisabbá.png": "/jogosquefui/static/media/Corisabbá.4b6783df88df9e49eae8.png",
     "static/media/Colosso da Lagoa.png": "/jogosquefui/static/media/Colosso da Lagoa.b7008037ac5675a07045.png",
@@ -177,6 +177,7 @@
     "static/media/SantaCruz1965.png": "/jogosquefui/static/media/SantaCruz1965.beeb98b80c26ec6505d8.png",
     "static/media/Água Verde.png": "/jogosquefui/static/media/Água Verde.f6dfdeb81052db39567f.png",
     "static/media/Asas de Lagoa Santa.png": "/jogosquefui/static/media/Asas de Lagoa Santa.88120e84fed9ec892321.png",
+    "static/media/Vitória1959.png": "/jogosquefui/static/media/Vitória1959.a32fec4c1fd2ef840ef8.png",
     "static/media/Al-Ahly.png": "/jogosquefui/static/media/Al-Ahly.7621eb20569f81147c1a.png",
     "static/media/La Salle.png": "/jogosquefui/static/media/La Salle.fe539cdcbb77859bb46e.png",
     "static/media/César Vallejo.png": "/jogosquefui/static/media/César Vallejo.0588a32df55c75c2d6cf.png",
@@ -209,6 +210,7 @@
     "static/media/SantaCruz1960.png": "/jogosquefui/static/media/SantaCruz1960.0d4b8734c143a3cbdc51.png",
     "static/media/São Paulo Athletic.png": "/jogosquefui/static/media/São Paulo Athletic.ffa2956e398a88a6ab94.png",
     "static/media/Canto do Rio.png": "/jogosquefui/static/media/Canto do Rio.726acd5cbb2e6da36c2c.png",
+    "static/media/Vitória2000.png": "/jogosquefui/static/media/Vitória2000.0cc458798f65f4c4499b.png",
     "static/media/Benfica.png": "/jogosquefui/static/media/Benfica.13e854e5c07cc81e9b02.png",
     "static/media/Carioca FC1933.png": "/jogosquefui/static/media/Carioca FC1933.979faabcc93f7d2d56c2.png",
     "static/media/Rio Grande.png": "/jogosquefui/static/media/Rio Grande.c21cdab9d4598f46dd52.png",
@@ -237,8 +239,10 @@
     "static/media/Grêmio1980.png": "/jogosquefui/static/media/Grêmio1980.0e5b2f434cb45c2d0fc0.png",
     "static/media/Paysandu1970.png": "/jogosquefui/static/media/Paysandu1970.e9556b79b2161efdd99d.png",
     "static/media/Torre.png": "/jogosquefui/static/media/Torre.3b1081ed15e9516d19ae.png",
+    "static/media/Vitória1980.png": "/jogosquefui/static/media/Vitória1980.80ed3696d9225f284d51.png",
     "static/media/IndependienteDelValle2019.png": "/jogosquefui/static/media/IndependienteDelValle2019.ae0f528e5a57cd221b9a.png",
     "static/media/Valdez.png": "/jogosquefui/static/media/Valdez.fe91de27f344347ccdce.png",
+    "static/media/Vitória1934.png": "/jogosquefui/static/media/Vitória1934.d92dab0e2ceb3bde1ec8.png",
     "static/media/RealGarcilaso.png": "/jogosquefui/static/media/RealGarcilaso.3931f6434324d3cec1a0.png",
     "static/media/Corinthians1979.png": "/jogosquefui/static/media/Corinthians1979.27a60207b7a57676503e.png",
     "static/media/Rangers.png": "/jogosquefui/static/media/Rangers.bf9a76138aad212f1a80.png",
@@ -508,6 +512,7 @@
     "static/media/Paysandu.png": "/jogosquefui/static/media/Paysandu.39511d9b536bbf93f7d2.png",
     "static/media/Melgar.png": "/jogosquefui/static/media/Melgar.bc9bf490c19a5dcafa78.png",
     "static/media/SantaCruz1980.png": "/jogosquefui/static/media/SantaCruz1980.86365348d51bcd53b6cd.png",
+    "static/media/Vitória2010.png": "/jogosquefui/static/media/Vitória2010.55a6f7f8f801155908c3.png",
     "static/media/Desportiva Ferroviária.png": "/jogosquefui/static/media/Desportiva Ferroviária.6456c188192fb9de1aa8.png",
     "static/media/Grêmio1963.png": "/jogosquefui/static/media/Grêmio1963.73911ff7d14edfa24f02.png",
     "static/media/Paulistano-RJ.png": "/jogosquefui/static/media/Paulistano-RJ.b774285c5aeb423d0e4b.png",
@@ -759,10 +764,10 @@
     "static/media/Ceará.png": "/jogosquefui/static/media/Ceará.2667c31fce77d94092f4.png",
     "index.html": "/jogosquefui/index.html",
     "main.34bb39b7.css.map": "/jogosquefui/static/css/main.34bb39b7.css.map",
-    "main.fc7c558e.js.map": "/jogosquefui/static/js/main.fc7c558e.js.map"
+    "main.0026e560.js.map": "/jogosquefui/static/js/main.0026e560.js.map"
   },
   "entrypoints": [
     "static/css/main.34bb39b7.css",
-    "static/js/main.fc7c558e.js"
+    "static/js/main.0026e560.js"
   ]
 }
