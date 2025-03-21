@@ -3296,6 +3296,12 @@ function Times(time, data) {
                   backgroundColor = "black";
                   letterColor = "white";
                   break;
+            case "Universidad Nacional-CO":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#a61b30";
+                  letterColor = "white";
+                  break;
             case "Fábrica de Armas": case "Fabril Atlético":
                   nomeAtual = "Fabril Atlético";
                   escudo = time;
