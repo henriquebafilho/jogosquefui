@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jogosquefui/static/css/main.34bb39b7.css",
-    "main.js": "/jogosquefui/static/js/main.0026e560.js",
+    "main.js": "/jogosquefui/static/js/main.51f979d3.js",
     "static/media/Atanasio Girardot.png": "/jogosquefui/static/media/Atanasio Girardot.654b0fba4632fac4057b.png",
     "static/media/Corisabbá.png": "/jogosquefui/static/media/Corisabbá.4b6783df88df9e49eae8.png",
     "static/media/Colosso da Lagoa.png": "/jogosquefui/static/media/Colosso da Lagoa.b7008037ac5675a07045.png",
@@ -179,6 +179,8 @@
     "static/media/Asas de Lagoa Santa.png": "/jogosquefui/static/media/Asas de Lagoa Santa.88120e84fed9ec892321.png",
     "static/media/Vitória1959.png": "/jogosquefui/static/media/Vitória1959.a32fec4c1fd2ef840ef8.png",
     "static/media/Al-Ahly.png": "/jogosquefui/static/media/Al-Ahly.7621eb20569f81147c1a.png",
+    "static/media/Fabril Atlético.png": "/jogosquefui/static/media/Fabril Atlético.3c2c97f57ca6e8f6f5cc.png",
+    "static/media/Fábrica de Armas.png": "/jogosquefui/static/media/Fábrica de Armas.3c2c97f57ca6e8f6f5cc.png",
     "static/media/La Salle.png": "/jogosquefui/static/media/La Salle.fe539cdcbb77859bb46e.png",
     "static/media/César Vallejo.png": "/jogosquefui/static/media/César Vallejo.0588a32df55c75c2d6cf.png",
     "static/media/Atlético Marte.png": "/jogosquefui/static/media/Atlético Marte.228ac9a6c2ccb7637dc0.png",
@@ -764,10 +766,10 @@
     "static/media/Ceará.png": "/jogosquefui/static/media/Ceará.2667c31fce77d94092f4.png",
     "index.html": "/jogosquefui/index.html",
     "main.34bb39b7.css.map": "/jogosquefui/static/css/main.34bb39b7.css.map",
-    "main.0026e560.js.map": "/jogosquefui/static/js/main.0026e560.js.map"
+    "main.51f979d3.js.map": "/jogosquefui/static/js/main.51f979d3.js.map"
   },
   "entrypoints": [
     "static/css/main.34bb39b7.css",
-    "static/js/main.0026e560.js"
+    "static/js/main.51f979d3.js"
   ]
 }
