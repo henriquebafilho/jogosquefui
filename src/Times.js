@@ -935,6 +935,18 @@ function Times(time, data) {
                   backgroundColor = "#fdd116";
                   letterColor = "black";
                   break;
+            case "Bahia de Feira":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#003a94";
+                  letterColor = "white";
+                  break;
+            case "Ypiranga-BA":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#f3b600";
+                  letterColor = "black";
+                  break;
             case "Cruzeiro": case "Palestra Itália-MG":
                   nomeAtual = "Cruzeiro";
                   if (time === "Cruzeiro") {
