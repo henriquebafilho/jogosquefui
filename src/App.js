@@ -4,6 +4,7 @@ import Footer from './components/Footer';
 /* import Login from './pages/Login'; */
 import Perfil from './pages/Perfil';
 import BotafogoJogos from './TodosOsJogos/BotafogoJogos';
+import BotafogoJogos2 from './TodosOsJogos/BotafogoJogos2';
 import ConjuntoUsuarios from './ConjuntoUsuarios';
 /* import Navbar from './components/Navbar'; */
 import VoltarAoTopo from './components/VoltarAoTopo';
@@ -29,6 +30,10 @@ function App() {
   }, []);
   console.log(receitas); */
 
+  let jogos1 = BotafogoJogos();
+  let jogos2 = BotafogoJogos2();
+  jogos1.concat(jogos2);
+
   return (
     <>
       <Router>
@@ -37,7 +42,7 @@ function App() {
           <Route exact path='/jogosquefui' element={<Perfil
             conjuntoUsuarios={conjuntoUsuarios}
             meuTime="Botafogo"
-            meusJogos={BotafogoJogos()}
+            meusJogos={jogos1}
           />}
             style={{ backgroundColor: "black" }}
           />
