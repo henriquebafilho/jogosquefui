@@ -3708,7 +3708,7 @@ function jogos() {
     jogos.push({ "mandante": "Vasco", "visitante": "Botafogo", "golsMandante": 5, "golsVisitante": 3, "campeonato": "Rio-São Paulo 54", "data": "1954-05-19", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Fluminense", "visitante": "Botafogo", "golsMandante": 4, "golsVisitante": 0, "campeonato": "Rio-São Paulo 54", "data": "1954-05-15", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Fluminense", "golsMandante": 5, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1954-04-04", "estadio": "General Severiano" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "Sport Club Juiz de Fora", "golsMandante": 4, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1954-03-31", "estadio": "General Severiano" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Sport-MG", "golsMandante": 4, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1954-03-31", "estadio": "General Severiano" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Atlético-MG", "golsMandante": 3, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1954-03-19", "estadio": "General Severiano" });
     jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Carioca 1953", "data": "1954-01-20", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Botafogo", "visitante": "América-RJ", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Carioca 1953", "data": "1954-01-09", "estadio": "Maracanã" });
@@ -5248,7 +5248,7 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "São Cristóvão", "golsMandante": 2, "golsVisitante": 5, "campeonato": "Amistoso", "data": "1917-05-24", "estadio": "Campos Sales" });
     jogos.push({ "mandante": "Botafogo", "visitante": "América-RJ", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Troféu Federação Brasileira de Remo", "data": "1917-07-29", "estadio": "Rua Paysandu" });
     jogos.push({ "mandante": "Associação das Palmeiras", "visitante": "Botafogo", "golsMandante": 4, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1918-04-16", "estadio": "Campo da Floresta" });
-    jogos.push({ "mandante": "Sport Club Juiz de Fora", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 8, "campeonato": "Amistoso", "data": "1918-05-26", "estadio": "Doutor José Procópio Teixeira" });
+    jogos.push({ "mandante": "Sport-MG", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 8, "campeonato": "Amistoso", "data": "1918-05-26", "estadio": "Doutor José Procópio Teixeira" });
     jogos.push({ "mandante": "Seleção de Juiz de Fora", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1918-05-27", "estadio": "Doutor José Procópio Teixeira" });
     jogos.push({ "mandante": "América-PE", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Taças Prefeitura Recife e Cervejaria Pernambucana", "data": "1919-02-02", "estadio": "Campo da Avenida Malaquias" });
     jogos.push({ "mandante": "Santa Cruz", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1919-01-30", "estadio": "Campo da Avenida Malaquias" });
@@ -5409,7 +5409,7 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Atlético-MG", "golsMandante": 3, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1947-07-23", "estadio": "Laranjeiras" });
     jogos.push({ "mandante": "Atlético-MG", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1947-09-10", "estadio": "Juscelino Kubitschek-MG" });
     jogos.push({ "mandante": "Atlético-MG", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1947-11-30", "estadio": "Juscelino Kubitschek-MG" });
-    jogos.push({ "mandante": "Atlético-MG", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1949-02-13", "estadio": "Otacílio Negrão de Lima" });
+    jogos.push({ "mandante": "Atlético-MG", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1949-02-13", "estadio": "Juscelino Kubitschek-MG" });
     jogos.push({ "mandante": "Atlético-MG", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1954-03-16", "estadio": "Lourdes" });
     jogos.push({ "mandante": "Atlético-MG", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 2, "campeonato": "Torneio Quadrangular JK", "data": "1955-03-27", "estadio": "Independência" });
     jogos.push({ "mandante": "Atlético-MG", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1956-03-20", "estadio": "Independência" });
@@ -5527,7 +5527,7 @@ function jogos() {
     jogos.push({ "mandante": "América-RJ", "visitante": "Botafogo", "golsMandante": 4, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1920-03-14", "estadio": "Campos Sales" });
     jogos.push({ "mandante": "Byron", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 5, "campeonato": "Amistoso", "data": "1920-04-25", "estadio": "Rua Doutor March" });
     jogos.push({ "mandante": "Americano", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 5, "campeonato": "Amistoso", "data": "1920-09-05", "estadio": "Campo do Americano" });
-    jogos.push({ "mandante": "Sport Club Juiz de Fora", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1921-05-01", "estadio": "Doutor José Procópio Teixeira" });
+    jogos.push({ "mandante": "Sport-MG", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1921-05-01", "estadio": "Doutor José Procópio Teixeira" });
     jogos.push({ "mandante": "Goytacaz", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1921-10-09", "estadio": "" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Americano", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1923-03-25", "estadio": "Barão de São Francisco Filho" });
     jogos.push({ "mandante": "Botafogo", "visitante": "América-RJ", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Taça D. Cinira de Oliveira", "data": "1924-09-07", "estadio": "Laranjeiras" });
@@ -5553,7 +5553,7 @@ function jogos() {
     jogos.push({ "mandante": "Seleção Rio de Janeiro-AMEA B", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1929-09-14", "estadio": "Laranjeiras" });
     jogos.push({ "mandante": "Floriano", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1929-10-12", "estadio": "Campo do Jucutuquara" });
     jogos.push({ "mandante": "Seleção do Espírito Santo", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1929-10-13", "estadio": "" });
-    jogos.push({ "mandante": "Sport Club Juiz de Fora", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1930-03-30", "estadio": "Doutor José Procópio Teixeira" });
+    jogos.push({ "mandante": "Sport-MG", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1930-03-30", "estadio": "Doutor José Procópio Teixeira" });
     jogos.push({ "mandante": "Seleção do Paraná", "visitante": "Botafogo", "golsMandante": 5, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1930-04-11", "estadio": "Parque da Graciosa" });
     jogos.push({ "mandante": "Britânia", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1930-04-13", "estadio": "Baixada da Água Verde" });
     jogos.push({ "mandante": "Rio Branco-PR", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 8, "campeonato": "Amistoso", "data": "1930-04-15", "estadio": "Estradinha" });
@@ -5662,7 +5662,7 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "São Cristóvão", "golsMandante": 3, "golsVisitante": 3, "campeonato": "Torneio Municipal 1944", "data": "1944-06-18", "estadio": "Laranjeiras" });
     jogos.push({ "mandante": "América-RJ", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 0, "campeonato": "Torneio Municipal 1944", "data": "1944-06-25", "estadio": "São Januário" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Canto do Rio", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Torneio Municipal 1944", "data": "1944-06-28", "estadio": "Laranjeiras" });
-    jogos.push({ "mandante": "Sport Club Juiz de Fora", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1944-05-03", "estadio": "Doutor José Procópio Teixeira" });
+    jogos.push({ "mandante": "Sport-MG", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1944-05-03", "estadio": "Doutor José Procópio Teixeira" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Campo Grande-RJ", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Copa Record Rio", "data": "2005-11-05", "estadio": "Caio Martins" });
     jogos.push({ "mandante": "Portuguesa-RJ", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Copa Record Rio", "data": "2005-11-11", "estadio": "Luso Brasileiro" });
     jogos.push({ "mandante": "São Cristóvão", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Copa Record Rio", "data": "2005-11-22", "estadio": "" });
@@ -5680,6 +5680,22 @@ function jogos() {
     jogos.push({ "mandante": "América-RJ", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Torneio Municipal 1945", "data": "1945-06-17", "estadio": "São Januário" });
     jogos.push({ "mandante": "Botafogo", "visitante": "América-RJ", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Torneio Relâmpago 1945", "data": "1945-04-07", "estadio": "" });
     jogos.push({ "mandante": "Botafogo", "visitante": "São Cristóvão", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Torneio Relâmpago 1945", "data": "1945-04-11", "estadio": "" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Bonsucesso", "golsMandante": 5, "golsVisitante": 0, "campeonato": "Torneio Municipal 1946", "data": "1946-04-28", "estadio": "Gávea" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Madureira", "golsMandante": 5, "golsVisitante": 0, "campeonato": "Torneio Municipal 1946", "data": "1946-05-05", "estadio": "Laranjeiras" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Bangu", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Torneio Municipal 1946", "data": "1946-05-26", "estadio": "Caio Martins" });
+    jogos.push({ "mandante": "São Cristóvão", "visitante": "Botafogo", "golsMandante": 4, "golsVisitante": 0, "campeonato": "Torneio Municipal 1946", "data": "1946-06-08", "estadio": "São Januário" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "América-RJ", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Torneio Municipal 1946", "data": "1946-06-16", "estadio": "São Januário" });
+    jogos.push({ "mandante": "Tamoio", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1946-02-24", "estadio": "Campo da Estação" });
+    jogos.push({ "mandante": "Seleto", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 6, "campeonato": "Amistoso", "data": "1947-03-18", "estadio": "Orlando Mattos" });
+    jogos.push({ "mandante": "Guarani", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1949-03-31", "estadio": "Estádio da Mogiana" });
+    jogos.push({ "mandante": "Goytacaz", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1946-02-24", "estadio": "" });
+    jogos.push({ "mandante": "Metalúrgico", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 6, "campeonato": "Amistoso", "data": "1946-03-10", "estadio": "" });
+    jogos.push({ "mandante": "América-RJ", "visitante": "Botafogo", "golsMandante": 7, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1908-03-22", "estadio": "Rua São Francisco Xavier" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "São Cristóvão", "golsMandante": 0, "golsVisitante": 3, "campeonato": "Torneio Relâmpago 1946", "data": "1946-03-17", "estadio": "" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "América-RJ", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Torneio Relâmpago 1946", "data": "1946-03-24", "estadio": "" });
+    jogos.push({ "mandante": "Bahia", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1946-04-13", "estadio": "" });
+    jogos.push({ "mandante": "Mogiana", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1946-06-22", "estadio": "" });
+    jogos.push({ "mandante": "Sport-MG", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 6, "campeonato": "Amistoso", "data": "1946-09-18", "estadio": "" });
 
     jogos = jogos.concat(ProximosJogos());
 

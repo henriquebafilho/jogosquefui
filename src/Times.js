@@ -1475,6 +1475,18 @@ function Times(time, data) {
                   backgroundColor = "#01984b";
                   letterColor = "white";
                   break;
+            case "Tamoio":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "black";
+                  letterColor = "white";
+                  break;
+            case "Metalúrgico":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#d41527";
+                  letterColor = "white";
+                  break;
             case "Football and Athletic": case "Associação Internacional-RJ":
                   nomeAtual = "Football and Athletic";
                   escudo = time;
@@ -3100,7 +3112,7 @@ function Times(time, data) {
                   backgroundColor = "#186e45";
                   letterColor = "white";
                   break;
-            case "Sport Club Juiz de Fora":
+            case "Sport-MG":
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#00a750";
