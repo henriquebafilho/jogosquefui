@@ -1379,6 +1379,12 @@ function Times(time, data) {
                   }
                   letterColor = "white";
                   break;
+            case "Fluminense de Araguari":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#9f022f";
+                  letterColor = "white";
+                  break;
             case "Fluminense de Feira":
                   nomeAtual = time;
                   escudo = time;
@@ -1437,6 +1443,36 @@ function Times(time, data) {
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#d30a11";
+                  letterColor = "white";
+                  break;
+            case "Guarani-MG":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#d30a11";
+                  letterColor = "white";
+                  break;
+            case "Luziânia":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#8dc6e4";
+                  letterColor = "#012b5b";
+                  break;
+            case "Olympic":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#134294";
+                  letterColor = "white";
+                  break;
+            case "Tijuco":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#d30a11";
+                  letterColor = "black";
+                  break;
+            case "Usipa":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#01984b";
                   letterColor = "white";
                   break;
             case "Football and Athletic": case "Associação Internacional-RJ":

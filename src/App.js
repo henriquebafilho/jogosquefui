@@ -8,6 +8,7 @@ import ConjuntoUsuarios from './ConjuntoUsuarios';
 /* import Navbar from './components/Navbar'; */
 import VoltarAoTopo from './components/VoltarAoTopo';
 import Usuario from './Usuario';
+//import ViewAno from './pages/viewScreens/ViewAno';
 //import React, { useState, useEffect } from 'react';
 
 function App() {
@@ -41,6 +42,7 @@ function App() {
           />}
             style={{ backgroundColor: "black" }}
           />
+          {/* <Route exact path='/jogosquefui/anos/:ano' element={<ViewAno />} /> */}
         </Routes>
       </Router>
       <VoltarAoTopo />

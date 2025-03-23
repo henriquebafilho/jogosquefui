@@ -65,3 +65,18 @@ class ViewAno extends Component {
 }
 
 export default ViewAno;
+
+/* import React from 'react';
+import { useParams } from 'react-router-dom';
+
+function ViewAno() {
+  const { ano } = useParams();
+
+  return (
+    <div>
+      <h1>Jogos do ano: {ano}</h1>
+    </div>
+  );
+}
+
+export default ViewAno; */
