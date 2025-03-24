@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jogosquefui/static/css/main.6fbd8afb.css",
-    "main.js": "/jogosquefui/static/js/main.62378b23.js",
+    "main.js": "/jogosquefui/static/js/main.a88372b4.js",
     "static/media/Atanasio Girardot.png": "/jogosquefui/static/media/Atanasio Girardot.654b0fba4632fac4057b.png",
     "static/media/Corisabbá.png": "/jogosquefui/static/media/Corisabbá.4b6783df88df9e49eae8.png",
     "static/media/Colosso da Lagoa.png": "/jogosquefui/static/media/Colosso da Lagoa.b7008037ac5675a07045.png",
@@ -183,6 +183,7 @@
     "static/media/Fabril Atlético.png": "/jogosquefui/static/media/Fabril Atlético.3c2c97f57ca6e8f6f5cc.png",
     "static/media/Fábrica de Armas.png": "/jogosquefui/static/media/Fábrica de Armas.3c2c97f57ca6e8f6f5cc.png",
     "static/media/La Salle.png": "/jogosquefui/static/media/La Salle.fe539cdcbb77859bb46e.png",
+    "static/media/Seleto.png": "/jogosquefui/static/media/Seleto.80f83d05d6cd98d4318f.png",
     "static/media/César Vallejo.png": "/jogosquefui/static/media/César Vallejo.0588a32df55c75c2d6cf.png",
     "static/media/Atlético Marte.png": "/jogosquefui/static/media/Atlético Marte.228ac9a6c2ccb7637dc0.png",
     "static/media/Caio Martins.png": "/jogosquefui/static/media/Caio Martins.7ddeb0065604f540b543.png",
@@ -640,6 +641,7 @@
     "static/media/Ituano.png": "/jogosquefui/static/media/Ituano.c018da95ad123a3f4953.png",
     "static/media/Newcastle.png": "/jogosquefui/static/media/Newcastle.0f902c9758a751cf1074.png",
     "static/media/Fortaleza.png": "/jogosquefui/static/media/Fortaleza.e94df6eec8bf793c2ae9.png",
+    "static/media/Palmeiras-SC.png": "/jogosquefui/static/media/Palmeiras-SC.5c61524f894f8023bc40.png",
     "static/media/Avaí.png": "/jogosquefui/static/media/Avaí.8ecffb281fe047fd1fde.png",
     "static/media/Boavista2004.png": "/jogosquefui/static/media/Boavista2004.6fa2d4aedfc38c8d85c3.png",
     "static/media/Independiente.png": "/jogosquefui/static/media/Independiente.bfae252b124a9507a70d.png",
@@ -679,6 +681,7 @@
     "static/media/Bragantino.png": "/jogosquefui/static/media/Bragantino.f1ffabd4b7118b522474.png",
     "static/media/Flamengo2018.png": "/jogosquefui/static/media/Flamengo2018.ed8500df9ffc773eedbe.png",
     "static/media/Fortaleza1963.png": "/jogosquefui/static/media/Fortaleza1963.eb8dca12f529a071fb22.png",
+    "static/media/América-SC.png": "/jogosquefui/static/media/América-SC.723623c37b7c79446c0c.png",
     "static/media/OrientePetrolero.png": "/jogosquefui/static/media/OrientePetrolero.186c8f847abdb008167a.png",
     "static/media/1980.png": "/jogosquefui/static/media/1980.ed8e7d3e3002ba771f05.png",
     "static/media/Fortaleza1982.png": "/jogosquefui/static/media/Fortaleza1982.23c830b32e3539ec2fe8.png",
@@ -777,10 +780,10 @@
     "static/media/Ceará.png": "/jogosquefui/static/media/Ceará.2667c31fce77d94092f4.png",
     "index.html": "/jogosquefui/index.html",
     "main.6fbd8afb.css.map": "/jogosquefui/static/css/main.6fbd8afb.css.map",
-    "main.62378b23.js.map": "/jogosquefui/static/js/main.62378b23.js.map"
+    "main.a88372b4.js.map": "/jogosquefui/static/js/main.a88372b4.js.map"
   },
   "entrypoints": [
     "static/css/main.6fbd8afb.css",
-    "static/js/main.62378b23.js"
+    "static/js/main.a88372b4.js"
   ]
 }
