@@ -36,7 +36,7 @@ class ProximosJogos extends Component {
         const jogos = this.state.proximosJogos;
         return (
             <>
-                <div className="container" style={{ backgroundColor: Times(meuTime).backgroundColor }}>
+                <div className="container" style={{ color: Times(this.props.meuTime).letterColor, backgroundColor: Times(this.props.meuTime).backgroundColor }}>
                     {jogos.length > 0 ? jogos.map((index) => {
                         return <div>
                             <LinhaJogo meuTime={meuTime} jogo={index} />

@@ -1,26 +1,18 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Footer from './components/Footer';
-/* import Login from './pages/Login'; */
 import Perfil from './pages/Perfil';
 import BotafogoJogos from './TodosOsJogos/BotafogoJogos';
-import ConjuntoUsuarios from './ConjuntoUsuarios';
-/* import Navbar from './components/Navbar'; */
 import VoltarAoTopo from './components/VoltarAoTopo';
-import Usuario from './Usuario';
-//import ViewAno from './pages/viewScreens/ViewAno';
+import ViewAno from './pages/viewScreens/ViewAno';
+import Anos from './pages/Anos';
+import Times from './Times';
 //import React, { useState, useEffect } from 'react';
 
 function App() {
-  let conjuntoUsuarios = new ConjuntoUsuarios();
-  let usuario = new Usuario("Henrique", "Filho", "Botafogo", "henriquebafilho@gmail.com", "Bfr1904*");
-  conjuntoUsuarios.adicionaUsuario(usuario);
-  usuario = conjuntoUsuarios.getUsuarios().filter(user =>
-    user.email === usuario.getEmail()
-  );
-  usuario = usuario[0];
-  //getHenriqueJogos(usuario);
-  document.body.style = 'background: black;';
+  const meuTime = "Botafogo";
+  document.body.style = `background: ${Times(meuTime).backgroundColor}; color: ${Times(meuTime).letterColor}`;
+
   /* const [receitas, setReceitas] = useState([]);
 
   useEffect(() => {
@@ -33,16 +25,10 @@ function App() {
   return (
     <>
       <Router>
-        {/*<Navbar conjuntoUsuarios={conjuntoUsuarios} meuTime={"Botafogo"} meusJogos={conjuntoUsuarios.getUsuarioAtual().meusJogos} style={{ position: 'fixed' }} />*/}
         <Routes>
-          <Route exact path='/jogosquefui' element={<Perfil
-            conjuntoUsuarios={conjuntoUsuarios}
-            meuTime="Botafogo"
-            meusJogos={BotafogoJogos()}
-          />}
-            style={{ backgroundColor: "black" }}
-          />
-          {/* <Route exact path='/jogosquefui/anos/:ano' element={<ViewAno />} /> */}
+          <Route exact path='/jogosquefui' element={<Perfil meuTime={meuTime} meusJogos={BotafogoJogos()} />} />
+          <Route exact path='/jogosquefui/anos/' element={<Anos meuTime={meuTime} meusJogos={BotafogoJogos()} />} />
+          <Route exact path='/jogosquefui/anos/:ano' element={<ViewAno />} />
         </Routes>
       </Router>
       <VoltarAoTopo />

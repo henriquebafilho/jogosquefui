@@ -90,13 +90,16 @@ const getDerrotas = (meuTime, jogos) => {
     return derrotas;
 }
 
+const textShadow = "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000";
+
 const commonFunctions = {
     getTotalAdversario,
     getTotalEstadio,
     getTotalAno,
     getVitorias,
     getEmpates,
-    getDerrotas
+    getDerrotas,
+    textShadow
 }
 
 export default commonFunctions;

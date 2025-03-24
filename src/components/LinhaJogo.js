@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Times from '../Times';
 import { FaTrophy, FaCalendarAlt } from "react-icons/fa";
 import { MdStadium } from "react-icons/md";
+import Common from "../common";
 
 class LinhaJogo extends Component {
     constructor(props) {
@@ -26,8 +27,8 @@ class LinhaJogo extends Component {
     }
 
     getJogosQueFui = async () => {
-        for (var a = 0; a < this.props.meusJogos/*.getJogos()*/.length; a++) {
-            if (this.state.jogo.data === this.props.meusJogos/*.getJogos()*/[a][5]) {
+        for (var a = 0; a < this.props.meusJogos.length; a++) {
+            if (this.state.jogo.data === this.props.meusJogos[a][5]) {
                 this.setState({ checked: true });
                 break;
             }
@@ -57,10 +58,8 @@ class LinhaJogo extends Component {
     }
 
     render() {
-        //const checked = this.state.checked;
         const converteDia = (dia) => this.converteDia(dia);
         const converteData = (data) => this.converteData(data);
-        //const meusJogos = this.props.meusJogos;
         return (
             <div className='divJogo'
                 style={{
@@ -76,7 +75,7 @@ class LinhaJogo extends Component {
                 <div>
                     <FaCalendarAlt style={{ color: Times(this.props.jogo.mandante).letterColor, paddingRight: "5px" }} />
                     <p style={{
-                        textShadow: "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000",
+                        textShadow: Common.textShadow,
                         color: "white",
                         display: "inline",
                     }}>
@@ -84,31 +83,10 @@ class LinhaJogo extends Component {
                     </p>
                 </div>
                 <div>
-                    <p style={{ textShadow: "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000", color: "white", fontSize: '1em' }}><FaTrophy style={{ color: Times(this.props.jogo.mandante).letterColor }} /> {this.props.jogo.campeonato}</p>
-                    <p style={{ textShadow: "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000", color: "white", marginBottom: '5px', fontSize: '1em' }}><MdStadium style={{ color: Times(this.props.jogo.mandante).letterColor }} /> {this.props.jogo.estadio !== "" ? this.props.jogo.estadio : " - "}</p>
+                    <p style={{ textShadow: Common.textShadow, color: "white", fontSize: '1em' }}><FaTrophy style={{ color: Times(this.props.jogo.mandante).letterColor }} /> {this.props.jogo.campeonato}</p>
+                    <p style={{ textShadow: Common.textShadow, color: "white", marginBottom: '5px', fontSize: '1em' }}><MdStadium style={{ color: Times(this.props.jogo.mandante).letterColor }} /> {this.props.jogo.estadio !== "" ? this.props.jogo.estadio : " - "}</p>
                 </div>
                 <div id='placar' style={{ display: 'flex', justifyContent: 'center', marginTop: '10px' }}>
-                    {/* (this.props.jogo[2] !== "" && this.props.jogo[3] !== "") && <div style={{ display: 'inline', textAlign: 'left' }}>
-                        <input
-                            type="checkbox"
-                            checked={checked}
-                            onChange={() => {
-                                if (checked) {
-                                    meusJogos.removeJogo(this.props.jogo);
-                                } else {
-                                    meusJogos.adicionaJogo(this.props.jogo);
-                                }
-                                this.setState({ checked: !checked })
-                            }
-                            }
-                            style={{
-                                cursor: 'pointer',
-                                width: '25px',
-                                height: '25px',
-                                margin: '10px',
-                                position: 'absolute'
-                            }} />
-                    </div> */}
                     <p className='nomeTime' style={{
                         paddingTop: '20px',
                         paddingBottom: '20px',
@@ -124,7 +102,7 @@ class LinhaJogo extends Component {
                         {this.props.jogo.mandante.toUpperCase()}
                     </p>
                     <img className='escudoLinha' src={require('../escudos/' + Times(this.props.jogo.mandante, this.props.jogo.data).escudo + '.png')} title={this.props.jogo.mandante} style={{ display: 'inline-block', verticalAlign: 'middle' }} alt={this.props.jogo.mandante} />
-                    <div style={{ paddingTop: '1%', display: 'inline', minWidth: this.props.jogo.golsMandante === "" && this.props.jogo.golsVisitante === "" ? "40px" : "90px", textAlign: "center", fontSize: '2em', textShadow: "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000", color: "white" }}>
+                    <div style={{ paddingTop: '1%', display: 'inline', minWidth: this.props.jogo.golsMandante === "" && this.props.jogo.golsVisitante === "" ? "40px" : "90px", textAlign: "center", fontSize: '2em', textShadow: Common.textShadow, color: "white" }}>
                         {(this.props.jogo.golsMandante === "WO" || this.props.jogo.golsVisitante === "WO") && <div>WO</div>}
                         {this.props.jogo.golsMandante === "WO" ? <div>←</div> : this.props.jogo.golsVisitante === "WO" ? <div>→</div> : ''}
                         {this.props.jogo.golsMandante !== "WO" && this.props.jogo.golsVisitante !== "WO" && this.props.jogo.golsMandante === "" && this.props.jogo.golsVisitante === "" && <p className="horario" style={{ fontSize: "13px", paddingTop: "20%", minWidth: "41px" }}>{this.props.jogo.horario ? this.props.jogo.horario : " X "}</p>}
@@ -148,7 +126,7 @@ class LinhaJogo extends Component {
                     </p>
                 </div>
                 {this.props.jogo.penaltis &&
-                    <div style={{ textAlign: "center", textShadow: "0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000", color: "white" }}>
+                    <div style={{ textAlign: "center", textShadow: Common.textShadow, color: "white" }}>
                         <div>Pênaltis:</div>
                         <div>{this.props.jogo.penaltis}</div>
                     </div>}

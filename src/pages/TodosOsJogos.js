@@ -79,7 +79,7 @@ class TodosOsJogos extends Component {
     const buttonClickFunction = (ano) => this.buttonClick(ano);
     return (
       <>
-        {this.state.clicked ? <ViewAno conjuntoUsuarios={this.props.conjuntoUsuarios} flag="todosOsJogos" meuTime={this.props.meuTime} jogosAno={this.state.jogosAno} ano={this.state.anoAtual} meusJogos={this.props.meusJogos} /> :
+        {this.state.clicked ? <ViewAno flag="todosOsJogos" meuTime={this.props.meuTime} jogosAno={this.state.jogosAno} ano={this.state.anoAtual} meusJogos={this.props.meusJogos} /> :
           <div id="App-header-todos" style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor, display: 'flex' }}>
             <h1 style={{ padding: '20px' }}>Jogos do {Times(this.props.meuTime).nomeAtual}</h1>
             <img src={require('../escudos/' + Times(this.props.meuTime).escudo + '.png')} className="App-logo" alt={"Escudo do " + this.props.meuTime} style={{ width: '100px', height: '100px' }} />

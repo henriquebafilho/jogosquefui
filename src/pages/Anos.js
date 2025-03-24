@@ -8,7 +8,7 @@ class Anos extends Component {
     super(props);
     this.state = {
       meuTime: props.meuTime,
-      jogos: props.meusJogos/* .getJogos() */,
+      jogos: props.meusJogos,
       anos: [],
       filtered: [],
       isLoading: false,
@@ -68,10 +68,8 @@ class Anos extends Component {
 
     return (
       <>
-        {this.state.clicked ? <ViewAno conjuntoUsuarios={this.props.conjuntoUsuarios} flag="meusJogos" meuTime={this.props.meuTime} meusJogos={meusJogos} jogosAno={this.state.jogosAno} ano={this.state.anoAtual} /> :
+        {this.state.clicked ? <ViewAno flag="meusJogos" meuTime={this.props.meuTime} meusJogos={meusJogos} jogosAno={this.state.jogosAno} ano={this.state.anoAtual} /> :
           <div className="App-header" style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor, alignItems: 'normal' }}>
-            {/* <h1>Anos</h1>
-            <br /> */}
             <table>
               <tbody>
                 {this.state.isLoading && <h1>Carregando...</h1>}
