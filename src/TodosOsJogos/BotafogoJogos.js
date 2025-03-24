@@ -5124,7 +5124,7 @@ function jogos() {
     jogos.push({ "mandante": "El Salvador", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1965-02-12", "estadio": "" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Tchecoslováquia", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1965-02-14", "estadio": "Flor Branca" });
     jogos.push({ "mandante": "Friburgo", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1961-04-26", "estadio": "Raul Sertã" });
-    jogos.push({ "mandante": "Uberaba", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1961-04-07", "estadio": "" });
+    jogos.push({ "mandante": "Uberaba", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1961-04-07", "estadio": "Boulanger Pucci" });
     jogos.push({ "mandante": "Uberlândia", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1961-04-09", "estadio": "Juca Ribeiro" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Flamengo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1961-05-01", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Atlético Operário", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1961-07-23", "estadio": "Waldermar de Brito" });
@@ -5199,7 +5199,7 @@ function jogos() {
     jogos.push({ "mandante": "Sport", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 6, "campeonato": "Taça Inauguração", "data": "1919-01-26", "estadio": "Campo da Avenida Malaquias" });
     jogos.push({ "mandante": "Sport", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Bronze SC Recife", "data": "1919-02-06", "estadio": "Campo da Avenida Malaquias" });
     jogos.push({ "mandante": "Sport", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 5, "campeonato": "Amistoso", "data": "1928-01-01", "estadio": "Campo da Avenida Malaquias" });
-    jogos.push({ "mandante": "Sport", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1949-01-01", "estadio": "Aflitos" });
+    jogos.push({ "mandante": "Sport", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1949-09-30", "estadio": "Aflitos" });
     jogos.push({ "mandante": "Sport", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1955-10-18", "estadio": "Ilha do Retiro" });
     jogos.push({ "mandante": "Sport", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 6, "campeonato": "Amistoso", "data": "1959-08-04", "estadio": "Ilha do Retiro" });
     jogos.push({ "mandante": "Sport", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1973-06-28", "estadio": "Ilha do Retiro" });
@@ -5714,6 +5714,19 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Bonsucesso", "golsMandante": 4, "golsVisitante": 0, "campeonato": "Torneio Municipal 1951", "data": "1951-05-12", "estadio": "São Januário" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Bangu", "golsMandante": 4, "golsVisitante": 2, "campeonato": "Torneio Municipal 1951", "data": "1951-05-26", "estadio": "Laranjeiras" });
     jogos.push({ "mandante": "Botafogo", "visitante": "América-RJ", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Torneio Municipal 1951", "data": "1951-06-07", "estadio": "Laranjeiras" });
+    jogos.push({ "mandante": "Atlético-PR", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1947-02-08", "estadio": "Arena da Baixada" });
+    jogos.push({ "mandante": "Atlético-PR", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1947-03-20", "estadio": "Vila Capanema" });
+    jogos.push({ "mandante": "Atlético-PR", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1972-06-24", "estadio": "Arena da Baixada" });
+    jogos.push({ "mandante": "Ferroviário-PR", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1947-03-16", "estadio": "" });
+    jogos.push({ "mandante": "América-SC", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1947-03-25", "estadio": "" });
+    jogos.push({ "mandante": "Palmeiras-SC", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1947-03-27", "estadio": "" });
+    jogos.push({ "mandante": "São Paulo", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1947-07-10", "estadio": "Pacaembu" });
+    jogos.push({ "mandante": "Uberaba", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1947-07-13", "estadio": "Boulanger Pucci" });
+    jogos.push({ "mandante": "Seleção de Campo Grande-MS", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 5, "campeonato": "Amistoso", "data": "1948-04-20", "estadio": "" });
+    jogos.push({ "mandante": "São Paulo", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1949-01-30", "estadio": "Pacaembu" });
+    jogos.push({ "mandante": "Seleção de Juiz de Fora", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 8, "campeonato": "Amistoso", "data": "1949-05-28", "estadio": "Salles Oliveira" });
+    jogos.push({ "mandante": "Entrerriense", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 8, "campeonato": "Amistoso", "data": "1988-01-23", "estadio": "Odair Gama" });
+    jogos.push({ "mandante": "Barra Mansa", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 8, "campeonato": "Amistoso", "data": "1957-01-13", "estadio": "Esperidião Geraidine" });
 
     jogos = jogos.concat(ProximosJogos());
 

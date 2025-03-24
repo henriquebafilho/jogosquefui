@@ -31,6 +31,24 @@ function Times(time, data) {
                   backgroundColor = "#d30a11";
                   letterColor = "white";
                   break;
+            case "América-SC":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#d30a11";
+                  letterColor = "white";
+                  break;
+            case "Seleto":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#d30a11";
+                  letterColor = "black";
+                  break;
+            case "Palmeiras-SC":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#007700";
+                  letterColor = "white";
+                  break;
             case "Africa Sports":
                   nomeAtual = time;
                   escudo = time;
