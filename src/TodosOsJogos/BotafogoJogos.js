@@ -5449,7 +5449,7 @@ function jogos() {
     jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Torneio Municipal 1951", "data": "1951-04-26", "estadio": "Laranjeiras" });
     jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1951-05-01", "estadio": "São Januário" });
     jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Torneio Rio-São Paulo 1952", "data": "1952-03-05", "estadio": "Maracanã" });
-    jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Torneio Extra 1952", "data": "1952-06-21", "estadio": "Laranjeiras" });
+    jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Torneio Extra Carlos Martins da Rocha", "data": "1952-06-21", "estadio": "Laranjeiras" });
     jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 3, "campeonato": "Torneio Rio-São Paulo 1953", "data": "1953-04-04", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 4, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1954-03-23", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1972-01-08", "estadio": "Maracanã" });
@@ -5746,6 +5746,18 @@ function jogos() {
     jogos.push({ "mandante": "Internacional", "visitante": "Botafogo", "golsMandante": 4, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1959-04-21", "estadio": "Estádio dos Eucaliptos" });
     jogos.push({ "mandante": "Internacional", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1965-04-07", "estadio": "Estádio dos Eucaliptos" });
     jogos.push({ "mandante": "Internacional", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Amistoso", "data": "2001-07-28", "estadio": "Beira-Rio" });
+    jogos.push({ "mandante": "São Paulo", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Rio-São Paulo 1952", "data": "1952-02-17", "estadio": "Pacaembu" });
+    jogos.push({ "mandante": "Portuguesa", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Rio-São Paulo 1952", "data": "1952-03-22", "estadio": "Pacaembu" });
+    jogos.push({ "mandante": "Combinado Cruzeiro/América-MG", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1952-05-01", "estadio": "Otacílio Negrão de Lima" });
+    jogos.push({ "mandante": "Combinado Cruzeiro/América-MG", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1952-05-04", "estadio": "Otacílio Negrão de Lima" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Olaria", "golsMandante": 6, "golsVisitante": 1, "campeonato": "Torneio Extra Carlos Martins da Rocha", "data": "1952-05-07", "estadio": "São Januário" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Bonsucesso", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Torneio Extra Carlos Martins da Rocha", "data": "1952-05-18", "estadio": "Laranjeiras" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Canto do Rio", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Torneio Extra Carlos Martins da Rocha", "data": "1952-05-24", "estadio": "Laranjeiras" });
+    jogos.push({ "mandante": "Sport-MG", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Torneio de Juiz de Fora 1952", "data": "1952-06-08", "estadio": "Doutor José Procópio Teixeira" });
+    jogos.push({ "mandante": "Tupynambás", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 4, "campeonato": "Torneio de Juiz de Fora 1952", "data": "1952-06-12", "estadio": "José Paiz Soares" });
+    jogos.push({ "mandante": "América-RJ", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Torneio Extra Carlos Martins da Rocha", "data": "1952-06-25", "estadio": "Laranjeiras" });
+    jogos.push({ "mandante": "Goytacaz", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 5, "campeonato": "Amistoso", "data": "1952-06-29", "estadio": "" });
+    jogos.push({ "mandante": "Aymorés", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 5, "campeonato": "Amistoso", "data": "1952-12-07", "estadio": "" });
 
     jogos = jogos.concat(ProximosJogos());
 
