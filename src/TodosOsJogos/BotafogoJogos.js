@@ -1598,7 +1598,7 @@ function jogos() {
     jogos.push({ "mandante": "Madureira", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Carioca 2000", "data": "2000-04-02", "estadio": "Conselheiro Galvão" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Friburguense", "golsMandante": 5, "golsVisitante": 1, "campeonato": "Carioca 2000", "data": "2000-03-29", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Flamengo", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Carioca 2000", "data": "2000-03-26", "estadio": "Maracanã" });
-    jogos.push({ "mandante": "Palmeiras", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Rio-São Paulo 00", "data": "2000-03-23", "estadio": "Palestra Itália" });
+    jogos.push({ "mandante": "Palmeiras", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Rio-São Paulo 00", "data": "2000-02-23", "estadio": "Palestra Itália" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Olaria", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Carioca 2000", "data": "2000-03-23", "estadio": "Caio Martins" });
     jogos.push({ "mandante": "Fluminense", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Carioca 2000", "data": "2000-03-19", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Rio Branco-ES", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Copa do Brasil 2000", "data": "2000-03-15", "estadio": "Kleber Andrade" });
@@ -1694,7 +1694,7 @@ function jogos() {
     jogos.push({ "mandante": "Guarani", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 3, "campeonato": "Brasileirão 1998", "data": "1998-08-05", "estadio": "Brinco de Ouro da Princesa" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Vitória", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Brasileirão 1998", "data": "1998-08-02", "estadio": "Caio Martins" });
     jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Brasileirão 1998", "data": "1998-07-26", "estadio": "Maracanã" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "Vietnã", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1998-05-24", "estadio": "Hanói Stadium" });
+    jogos.push({ "mandante": "Vietnã", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1998-05-24", "estadio": "Hanói Stadium" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Americano", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Carioca 1998", "data": "1998-05-16", "estadio": "Caio Martins" });
     jogos.push({ "mandante": "Friburguense", "visitante": "Botafogo", "golsMandante": 4, "golsVisitante": 2, "campeonato": "Carioca 1998", "data": "1998-05-13", "estadio": "Eduardo Guinle" });
     jogos.push({ "mandante": "Vasco", "visitante": "Botafogo", "golsMandante": "WO", "golsVisitante": 0, "campeonato": "Carioca 1998", "data": "1998-05-10", "estadio": "Maracanã" });
@@ -1800,7 +1800,7 @@ function jogos() {
     jogos.push({ "mandante": "Bahia", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Brasileirão 1996", "data": "1996-08-25", "estadio": "Fonte Nova" });
     jogos.push({ "mandante": "Botafogo", "visitante": "São Paulo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Brasileirão 1996", "data": "1996-08-20", "estadio": "Caio Martins" });
     jogos.push({ "mandante": "Fluminense", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Brasileirão 1996", "data": "1996-08-18", "estadio": "Maracanã" });
-    jogos.push({ "mandante": "Atlético-PR", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Brasileirão 1996", "data": "1996-08-14", "estadio": "Arena da Baixada" });
+    jogos.push({ "mandante": "Atlético-PR", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Brasileirão 1996", "data": "1996-10-02", "estadio": "Arena da Baixada" });
     jogos.push({ "mandante": "Juventus", "visitante": "Botafogo", "golsMandante": 4, "golsVisitante": 4, "campeonato": "Tereza Herrera 1996", "data": "1996-08-10", "estadio": "Riazor", "penaltis": "0 x 3" });
     jogos.push({ "mandante": "Valencia", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "President of Alania Cup", "data": "1996-08-04", "estadio": "Alania", "penaltis": "4 x 5" });
     jogos.push({ "mandante": "Auxerre", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 3, "campeonato": "President of Alania Cup", "data": "1996-08-03", "estadio": "Alania" });
@@ -4825,7 +4825,7 @@ function jogos() {
     jogos.push({ "mandante": "América-MEX", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1971-02-09", "estadio": "" });
     jogos.push({ "mandante": "Veracruz", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1971-02-07", "estadio": "" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Partizan", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1971-02-02", "estadio": "El Campín" });
-    jogos.push({ "mandante": "Atlético Nacional", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1971-01-31", "estadio": "" });
+    jogos.push({ "mandante": "Atlético Nacional", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1971-01-31", "estadio": "Atanasio Girardot" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Partizan", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Torneio Pentagonal da Colômbia", "data": "1971-01-29", "estadio": "El Campín" });
     jogos.push({ "mandante": "Millonarios", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Torneio Pentagonal da Colômbia", "data": "1971-01-24", "estadio": "El Campín" });
     jogos.push({ "mandante": "Deportivo Cali", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Torneio Pentagonal da Colômbia", "data": "1971-01-20", "estadio": "Pascual Guerrero" });
@@ -4968,7 +4968,7 @@ function jogos() {
     jogos.push({ "mandante": "Independiente Medellín", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 4, "campeonato": "Troféu Internacional Brasil-Colômbia", "data": "1954-07-18", "estadio": "Atanasio Girardot" });
     jogos.push({ "mandante": "Millonarios", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Troféu Internacional Brasil-Colômbia", "data": "1954-07-25", "estadio": "El Campín" });
     jogos.push({ "mandante": "Atlético Nacional", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Troféu Internacional Brasil-Colômbia", "data": "1954-08-01", "estadio": "Atanasio Girardot" });
-    jogos.push({ "mandante": "Atlético Nacional", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1954-08-07", "estadio": "" });
+    jogos.push({ "mandante": "Atlético Nacional", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1954-08-07", "estadio": "Atanasio Girardot" });
     jogos.push({ "mandante": "Independiente Santa Fé", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1954-08-08", "estadio": "El Campín" });
     jogos.push({ "mandante": "Deportes Quindío", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Taça Alcaide Rafael Leon", "data": "1954-08-10", "estadio": "" });
     jogos.push({ "mandante": "Valdez", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1954-08-12", "estadio": "" });
@@ -5015,7 +5015,7 @@ function jogos() {
     jogos.push({ "mandante": "Alajuelense", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Torneio Quadrangular da Costa Rica", "data": "1957-12-29", "estadio": "Estádio Nacional da Costa Rica" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Huracán", "golsMandante": 0, "golsVisitante": 3, "campeonato": "Torneio Quadrangular da Costa Rica", "data": "1958-01-01", "estadio": "Estádio Nacional da Costa Rica" });
     jogos.push({ "mandante": "Saprissa", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Torneio Quadrangular da Costa Rica", "data": "1958-01-05", "estadio": "Estádio Nacional da Costa Rica" });
-    jogos.push({ "mandante": "Atlético Nacional", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1958-01-12", "estadio": "" });
+    jogos.push({ "mandante": "Atlético Nacional", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1958-01-12", "estadio": "Atanasio Girardot" });
     jogos.push({ "mandante": "Independiente Medellín", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1958-01-17", "estadio": "" });
     jogos.push({ "mandante": "Curaçau", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1958-01-19", "estadio": "" });
     jogos.push({ "mandante": "Curaçau", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1958-01-21", "estadio": "" });
@@ -5758,6 +5758,16 @@ function jogos() {
     jogos.push({ "mandante": "América-RJ", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Torneio Extra Carlos Martins da Rocha", "data": "1952-06-25", "estadio": "Laranjeiras" });
     jogos.push({ "mandante": "Goytacaz", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 5, "campeonato": "Amistoso", "data": "1952-06-29", "estadio": "" });
     jogos.push({ "mandante": "Aymorés", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 5, "campeonato": "Amistoso", "data": "1952-12-07", "estadio": "" });
+    jogos.push({ "mandante": "Cantagalo", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 5, "campeonato": "Amistoso", "data": "1953-06-28", "estadio": "Acúrcio Torres" });
+    jogos.push({ "mandante": "Seleção da Bahia", "visitante": "Botafogo", "golsMandante": 4, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1953-12-08", "estadio": "" });
+    jogos.push({ "mandante": "Figueirense", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 2, "campeonato": "Amistoso", "data": "2001-07-19", "estadio": "Orlando Scarpelli" });
+    jogos.push({ "mandante": "Goiás", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Amistoso", "data": "2001-07-22", "estadio": "Serra Dourada" });
+    jogos.push({ "mandante": "Gama", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1999-01-17", "estadio": "Mané Garrincha" });
+    jogos.push({ "mandante": "Goiás", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1998-07-11", "estadio": "Serra Dourada" });
+    jogos.push({ "mandante": "Sobradinho", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Copa Rio-Brasília 1996", "data": "1996-07-12", "estadio": "Augustinho Lima" });
+    jogos.push({ "mandante": "Goiás", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1996-01-18", "estadio": "Serra Dourada" });
+    jogos.push({ "mandante": "Atlético-PR", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1996-01-31", "estadio": "Arena da Baixada" });
+    jogos.push({ "mandante": "Nacional-AM", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1996-02-14", "estadio": "Vivaldão" });
 
     jogos = jogos.concat(ProximosJogos());
 
