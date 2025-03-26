@@ -196,6 +196,12 @@ function Times(time, data) {
                   backgroundColor = "#d30a11";
                   letterColor = "white";
                   break;
+            case "Mogiana":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#d30a11";
+                  letterColor = "#f4d41c";
+                  break;
             case "Guarany de Bagé":
                   nomeAtual = time;
                   escudo = time;
@@ -983,6 +989,18 @@ function Times(time, data) {
                   backgroundColor = "#f3b600";
                   letterColor = "black";
                   break;
+            case "Duquecaxiense":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#f4e654";
+                  letterColor = "#003a94";
+                  break;
+            case "CFZ":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#003a94";
+                  letterColor = "white";
+                  break;
             case "Cruzeiro": case "Palestra Itália-MG":
                   nomeAtual = "Cruzeiro";
                   if (time === "Cruzeiro") {
@@ -1150,11 +1168,23 @@ function Times(time, data) {
                   backgroundColor = "#8b0015";
                   letterColor = "white";
                   break;
-            case "Democrata":
+            case "Democrata de Governador Valadares":
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "black";
                   letterColor = "white";
+                  break;
+            case "Democrata de Sete Lagoas":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#d30a11";
+                  letterColor = "white";
+                  break;
+            case "Ribeiro Junqueira":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#d30a11";
+                  letterColor = "black";
                   break;
             case "Desportiva Ferroviária":
                   nomeAtual = time;
@@ -2388,6 +2418,24 @@ function Times(time, data) {
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "black";
+                  letterColor = "white";
+                  break;
+            case "Fonseca":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "black";
+                  letterColor = "white";
+                  break;
+            case "Calouros do Ar":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#d30a11";
+                  letterColor = "white";
+                  break;
+            case "Passense":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#086a30";
                   letterColor = "white";
                   break;
             case "Palmeiras": case "Palestra Itália-SP":
