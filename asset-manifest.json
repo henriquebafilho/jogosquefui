@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jogosquefui/static/css/main.6fbd8afb.css",
-    "main.js": "/jogosquefui/static/js/main.37bf8ef3.js",
+    "main.js": "/jogosquefui/static/js/main.822e2c82.js",
     "static/media/Atanasio Girardot.png": "/jogosquefui/static/media/Atanasio Girardot.654b0fba4632fac4057b.png",
     "static/media/Corisabbá.png": "/jogosquefui/static/media/Corisabbá.4b6783df88df9e49eae8.png",
     "static/media/Colosso da Lagoa.png": "/jogosquefui/static/media/Colosso da Lagoa.b7008037ac5675a07045.png",
@@ -470,6 +470,7 @@
     "static/media/Operário-MT.png": "/jogosquefui/static/media/Operário-MT.a8ac706ede2f4c15ac64.png",
     "static/media/Coritiba.png": "/jogosquefui/static/media/Coritiba.6b3297cc655b36f295d8.png",
     "static/media/RiverPlate-URU.png": "/jogosquefui/static/media/RiverPlate-URU.e35084115d53bf1c7204.png",
+    "static/media/Cantagalo.png": "/jogosquefui/static/media/Cantagalo.0c4dc9fee77cd4dda09c.png",
     "static/media/CerroPorteño.png": "/jogosquefui/static/media/CerroPorteño.2d0a3b005bdab4e5033a.png",
     "static/media/Everton de Viña del Mar.png": "/jogosquefui/static/media/Everton de Viña del Mar.890ac9b3778b1b902800.png",
     "static/media/Cardiff City.png": "/jogosquefui/static/media/Cardiff City.3e0ba0554436446497c4.png",
@@ -782,10 +783,10 @@
     "static/media/Ceará.png": "/jogosquefui/static/media/Ceará.2667c31fce77d94092f4.png",
     "index.html": "/jogosquefui/index.html",
     "main.6fbd8afb.css.map": "/jogosquefui/static/css/main.6fbd8afb.css.map",
-    "main.37bf8ef3.js.map": "/jogosquefui/static/js/main.37bf8ef3.js.map"
+    "main.822e2c82.js.map": "/jogosquefui/static/js/main.822e2c82.js.map"
   },
   "entrypoints": [
     "static/css/main.6fbd8afb.css",
-    "static/js/main.37bf8ef3.js"
+    "static/js/main.822e2c82.js"
   ]
 }
