@@ -1187,13 +1187,13 @@ function Times(time, data) {
                   backgroundColor = "#8b0015";
                   letterColor = "white";
                   break;
-            case "Democrata de Governador Valadares":
+            case "Democrata GV":
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "black";
                   letterColor = "white";
                   break;
-            case "Democrata de Sete Lagoas":
+            case "Democrata SL":
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#d30a11";
@@ -2364,7 +2364,7 @@ function Times(time, data) {
             case "Novorizontino":
                   nomeAtual = time;
                   escudo = time;
-                  backgroundColor = "#f9ed1f";
+                  backgroundColor = "#fdd116";
                   letterColor = "black";
                   break;
             case "Oeste":

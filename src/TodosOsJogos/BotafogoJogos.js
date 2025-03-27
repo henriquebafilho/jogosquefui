@@ -921,7 +921,7 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Madureira", "golsMandante": 4, "golsVisitante": 1, "campeonato": "Carioca 2011", "data": "2011-01-26", "estadio": "Nilton Santos" });
     jogos.push({ "mandante": "Cabofriense", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 5, "campeonato": "Carioca 2011", "data": "2011-01-23", "estadio": "Moacyrzão" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Duque de Caxias", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Carioca 2011", "data": "2011-01-20", "estadio": "Nilton Santos" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "Democrata de Governador Valadares", "golsMandante": 5, "golsVisitante": 1, "campeonato": "Amistoso", "data": "2011-01-16", "estadio": "Nilton Santos" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Democrata GV", "golsMandante": 5, "golsVisitante": 1, "campeonato": "Amistoso", "data": "2011-01-16", "estadio": "Nilton Santos" });
     jogos.push({ "mandante": "Grêmio", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 0, "campeonato": "Brasileirão 2010", "data": "2010-12-05", "estadio": "Olímpico-RS" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Grêmio Prudente", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Brasileirão 2010", "data": "2010-11-28", "estadio": "Nilton Santos" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Internacional", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Brasileirão 2010", "data": "2010-11-21", "estadio": "Nilton Santos" });
@@ -5772,7 +5772,7 @@ function jogos() {
     jogos.push({ "mandante": "Uberaba", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1954-01-14", "estadio": "Boulanger Pucci" });
     jogos.push({ "mandante": "Vitória", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1954-01-24", "estadio": "" });
     jogos.push({ "mandante": "Combinado América-MG/Villa Nova", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1954-02-01", "estadio": "" });
-    jogos.push({ "mandante": "Democrata de Sete Lagoas", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1954-02-03", "estadio": "" });
+    jogos.push({ "mandante": "Democrata SL", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1954-02-03", "estadio": "" });
     jogos.push({ "mandante": "Remo", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1954-02-14", "estadio": "Francisco Vasques" });
     jogos.push({ "mandante": "Remo", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1954-02-17", "estadio": "Francisco Vasques" });
     jogos.push({ "mandante": "Ribeiro Junqueira", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 7, "campeonato": "Amistoso", "data": "1954-04-27", "estadio": "" });
@@ -5835,6 +5835,7 @@ function jogos() {
     jogos.push({ "mandante": "Barra da Tijuca", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Triangular Eduardo Paes", "data": "1994-07-31", "estadio": "Campo do Barra Futebol Clube" });
     jogos.push({ "mandante": "Olaria", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Copa Rio", "data": "1994-11-05", "estadio": "" });
     jogos.push({ "mandante": "Madureira", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Copa Rio", "data": "1993-09-29", "estadio": "" });
+    jogos.push({ "mandante": "Madureira", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Copa Rio", "data": "1992-07-16", "estadio": "" });
     
     jogos = jogos.concat(ProximosJogos());
 
