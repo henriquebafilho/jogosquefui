@@ -43,11 +43,30 @@ function Times(time, data) {
                   backgroundColor = "#d30a11";
                   letterColor = "black";
                   break;
-            case "Palmeiras-SC":
+            case "Icasa":
                   nomeAtual = time;
                   escudo = time;
-                  backgroundColor = "#007700";
+                  backgroundColor = "#006c34";
+                  letterColor = "black";
+                  break;
+            case "Barra da Tijuca":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#821229";
                   letterColor = "white";
+                  break;
+            case "Manchester-MG":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#0f2b46";
+                  letterColor = "white";
+                  break;
+            case "Palmeiras-SC": case "Blumenau":
+                  nomeAtual = "Blumenau";
+                  escudo = time;
+                  backgroundColor = time === "Palmeiras-SC" ? "#007700" : "#6e0621";
+                  letterColor = "white";
+                  nomesAnteriores = ["Palmeiras-SC"];
                   break;
             case "Africa Sports":
                   nomeAtual = time;
