@@ -47,7 +47,7 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Carabobo", "golsMandante": "", "golsVisitante": "", "campeonato": "Libertadores 2025", "data": "2025-04-08", "estadio": "Nilton Santos", "horario": "19:00" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Juventude", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2025", "data": "2025-04-05", "estadio": "Nilton Santos", "horario": "21:00" });
     jogos.push({ "mandante": "Universidad de Chile", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Libertadores 2025", "data": "2025-04-02", "estadio": "Nacional de Chile", "horario": "21:30" });
-    jogos.push({ "mandante": "Palmeiras", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2025", "data": "2025-03-30", "estadio": "Allianz Parque", "horario": "16:00" });
+    jogos.push({ "mandante": "Palmeiras", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Brasileirão 2025", "data": "2025-03-30", "estadio": "Allianz Parque", "horario": "16:00" });
 
     jogos.sort(function (a, b) {
         return a.data < b.data ? -1 : a.data > b.data ? 1 : 0;
