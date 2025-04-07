@@ -3,6 +3,9 @@ import ProximosJogos from "./ProximosJogos";
 function jogos() {
     let jogos = [];
 
+    jogos.push({ "mandante": "Botafogo", "visitante": "Juventude", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Brasileirão 2025", "data": "2025-04-05", "estadio": "Nilton Santos", "horario": "21:00" });
+    jogos.push({ "mandante": "Universidad de Chile", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Libertadores 2025", "data": "2025-04-02", "estadio": "Nacional de Chile", "horario": "21:30" });
+    jogos.push({ "mandante": "Palmeiras", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Brasileirão 2025", "data": "2025-03-30", "estadio": "Allianz Parque", "horario": "16:00" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Novorizontino", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Amistoso", "data": "2025-03-22", "estadio": "Nilton Santos", "horario": "16:15" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Cruzeiro", "golsMandante": 3, "golsVisitante": 3, "campeonato": "Amistoso", "data": "2025-03-15", "estadio": "Nilton Santos", "horario": "17:00" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Racing", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Recopa 2025", "data": "2025-02-27", "estadio": "Nilton Santos", "horario": "21:30" });
