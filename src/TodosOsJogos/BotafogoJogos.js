@@ -5395,8 +5395,8 @@ function jogos() {
     jogos.push({ "mandante": "Fluminense", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Torneio Quadrangular 1954", "data": "1954-04-25", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Fluminense", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Torneio Cidade Ribeirão Preto 1965", "data": "1965-06-06", "estadio": "Palma Travassos" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Fluminense", "golsMandante": 0, "golsVisitante": 3, "campeonato": "Torneio Pará-Guanabara 1966", "data": "1966-05-08", "estadio": "Baenão" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "Fluminense", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Torneio Adolpho Bloch", "data": "1990-11-24", "estadio": "Caio Martins" });
-    jogos.push({ "mandante": "Fluminense", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Torneio Adolpho Bloch", "data": "1990-12-08", "estadio": "Laranjeiras" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Fluminense", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Taça Adolpho Bloch", "data": "1990-11-24", "estadio": "Caio Martins" });
+    jogos.push({ "mandante": "Fluminense", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Taça Adolpho Bloch", "data": "1990-12-08", "estadio": "Laranjeiras" });
     jogos.push({ "mandante": "Fluminense", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Campeonato da Capital 1991", "data": "1991-06-29", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Fluminense", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Campeonato da Cidade 1992", "data": "1992-07-14", "estadio": "Luso Brasileiro" });
     jogos.push({ "mandante": "Fluminense", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Copa Rio 1994", "data": "1994-11-30", "estadio": "Laranjeiras" });
@@ -5457,8 +5457,8 @@ function jogos() {
     jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 4, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1954-03-23", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1972-01-08", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Taça Erasmo Martins Pedro 1973", "data": "1973-02-03", "estadio": "São Januário" });
-    jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Copa da Capital 1991", "data": "1991-06-26", "estadio": "Maracanã" });
-    jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Copa da Capital 1992", "data": "1992-06-17", "estadio": "Luso Brasileiro" });
+    jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Copa Rio 1991", "data": "1991-06-26", "estadio": "Maracanã" });
+    jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Copa Rio 1992", "data": "1992-06-17", "estadio": "Luso Brasileiro" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Flamengo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Taça Cidade de Juiz de Fora 1997", "data": "1997-06-15", "estadio": "Mário Helênio" });
     jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Copa Record 2005", "data": "2005-11-18", "estadio": "Rua Bariri" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Paraná", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Torneio Festival Brasileiro de Futebol", "data": "1997-12-04", "estadio": "Morenão" });
@@ -5518,7 +5518,7 @@ function jogos() {
     jogos.push({ "mandante": "Vasco", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1976-01-24", "estadio": "Raulino de Oliveira" });
     jogos.push({ "mandante": "Vasco", "visitante": "Botafogo", "golsMandante": 4, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1977-02-18", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Vasco", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Taça Adolpho Bloch", "data": "1990-12-02", "estadio": "Caio Martins" });
-    jogos.push({ "mandante": "Vasco", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Taça Adolpho Bloch", "data": "1990-12-16", "estadio": "São Januário" });
+    jogos.push({ "mandante": "Vasco", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Taça Adolpho Bloch", "data": "1990-12-15", "estadio": "São Januário" });
     jogos.push({ "mandante": "Vasco", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Copa Rio de Janeiro", "data": "1991-06-20", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Vasco", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Copa Rio de Janeiro", "data": "1991-07-02", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Vasco", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Copa Rio de Janeiro", "data": "1992-06-24", "estadio": "Conselheiro Galvão" });
@@ -5831,14 +5831,16 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Americano", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Copa Rio 1991", "data": "1991-07-04", "estadio": "Caio Martins" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Olaria", "golsMandante": 7, "golsVisitante": 0, "campeonato": "Copa Rio 1991", "data": "1991-06-15", "estadio": "Caio Martins" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Combinado Carioca", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1990-12-19", "estadio": "Caio Martins" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "Santos", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Copa Dener", "data": "1994-05-27", "estadio": "Ítalo del Cima" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "Portuguesa", "golsMandante": 3, "golsVisitante": 2, "campeonato": "Copa Dener", "data": "1994-05-30", "estadio": "Ítalo del Cima" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Santos", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Copa Dener 1994", "data": "1994-05-27", "estadio": "Ítalo del Cima" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Portuguesa", "golsMandante": 3, "golsVisitante": 2, "campeonato": "Copa Dener 1994", "data": "1994-05-30", "estadio": "Ítalo del Cima" });
     jogos.push({ "mandante": "Manchester-MG", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1994-06-09", "estadio": "" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Seleção do Rio de Janeiro", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1994-07-24", "estadio": "" });
     jogos.push({ "mandante": "Barra da Tijuca", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Triangular Eduardo Paes", "data": "1994-07-31", "estadio": "Campo do Barra Futebol Clube" });
-    jogos.push({ "mandante": "Olaria", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Copa Rio", "data": "1994-11-05", "estadio": "" });
-    jogos.push({ "mandante": "Madureira", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Copa Rio", "data": "1993-09-29", "estadio": "" });
-    jogos.push({ "mandante": "Madureira", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Copa Rio", "data": "1992-07-16", "estadio": "" });
+    jogos.push({ "mandante": "Olaria", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Copa Rio 1994", "data": "1994-11-05", "estadio": "" });
+    jogos.push({ "mandante": "Madureira", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Copa Rio 1993", "data": "1993-09-29", "estadio": "" });
+    jogos.push({ "mandante": "Madureira", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Copa Rio 1992", "data": "1992-07-16", "estadio": "" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Bangu", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Taça Adolpho Bloch", "data": "1990-11-29", "estadio": "Caio Martins" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Bangu", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Taça Adolpho Bloch", "data": "1990-12-13", "estadio": "Caio Martins" });
     
     jogos = jogos.concat(ProximosJogos());
 

@@ -42,7 +42,24 @@ class Adversarios extends Component {
       }
     }
 
-    this.state.adversarios.sort();
+    this.state.adversarios.sort((a, b) => {
+      const qtdJogosA = common.getTotalAdversario(this.state.meuTime, a, jogos);
+      const qtdJogosB = common.getTotalAdversario(this.state.meuTime, b, jogos);
+
+      // Ordena por quantidade de jogos (decrescente)
+      if (qtdJogosB !== qtdJogosA) {
+        return qtdJogosB - qtdJogosA;
+      }
+
+      // Se a quantidade de jogos for igual, ordena por nome (alfabética)
+      if (a < b) {
+        return -1;
+      }
+      if (a > b) {
+        return 1;
+      }
+      return 0; // Nomes iguais
+    });
 
     this.setState({ isLoading: false });
   }
@@ -66,6 +83,7 @@ class Adversarios extends Component {
   }
 
   searchTeam = async (e) => {
+    var jogos = this.state.jogos;
     this.setState({
       filtered: this.state.adversarios.filter(time => {
         const normalizeString = (str) => str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
@@ -73,6 +91,25 @@ class Adversarios extends Component {
         const normalizedTime = normalizeString(time.toUpperCase().trim());
         return normalizedTime.includes(searchTerm);
       })
+    });
+
+    this.state.filtered.sort((a, b) => {
+      const qtdJogosA = common.getTotalAdversario(this.state.meuTime, a, jogos);
+      const qtdJogosB = common.getTotalAdversario(this.state.meuTime, b, jogos);
+
+      // Ordena por quantidade de jogos (decrescente)
+      if (qtdJogosB !== qtdJogosA) {
+        return qtdJogosB - qtdJogosA;
+      }
+
+      // Se a quantidade de jogos for igual, ordena por nome (alfabética)
+      if (a < b) {
+        return -1;
+      }
+      if (a > b) {
+        return 1;
+      }
+      return 0; // Nomes iguais
     });
   }
 

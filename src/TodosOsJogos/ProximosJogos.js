@@ -42,7 +42,7 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Fluminense", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2025", "data": "2025-04-26", "estadio": "Nilton Santos", "horario": "21:00" });
     jogos.push({ "mandante": "Estudiantes", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Libertadores 2025", "data": "2025-04-23", "estadio": "Estadio Uno", "horario": "21:30" });
     jogos.push({ "mandante": "Atlético-MG", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2025", "data": "2025-04-20", "estadio": "Arena MRV", "horario": "16:00" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "São Paulo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2025", "data": "2025-04-17", "estadio": "A definir", "horario": "19:00" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "São Paulo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2025", "data": "2025-04-16", "estadio": "A definir", "horario": "19:00" });
     jogos.push({ "mandante": "Red Bull Bragantino", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2025", "data": "2025-04-12", "estadio": "Nabi Abi Chedid", "horario": "16:00" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Carabobo", "golsMandante": "", "golsVisitante": "", "campeonato": "Libertadores 2025", "data": "2025-04-08", "estadio": "Nilton Santos", "horario": "19:00" });
 

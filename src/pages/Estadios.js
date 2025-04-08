@@ -33,7 +33,24 @@ class Estadios extends Component {
         this.state.estadios.push(jogos[i].estadio);
       }
     }
-    this.state.estadios.sort();
+    this.state.estadios.sort((a, b) => {
+      const qtdJogosA = common.getTotalEstadio(a, jogos);
+      const qtdJogosB = common.getTotalEstadio(b, jogos);
+
+      // Ordena por quantidade de jogos (decrescente)
+      if (qtdJogosB !== qtdJogosA) {
+        return qtdJogosB - qtdJogosA;
+      }
+
+      // Se a quantidade de jogos for igual, ordena por nome (alfabética)
+      if (a < b) {
+        return -1;
+      }
+      if (a > b) {
+        return 1;
+      }
+      return 0; // Nomes iguais
+    });
     this.setState({ isLoading: false })
   }
 
@@ -55,6 +72,7 @@ class Estadios extends Component {
   }
 
   searchStadium = async (e) => {
+    var jogos = this.state.jogos;
     this.setState({
       filtered: this.state.estadios.filter(estadio => {
         const normalizeString = (str) => str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
@@ -62,7 +80,25 @@ class Estadios extends Component {
         const normalizedEstadio = normalizeString(estadio.toUpperCase().trim());
         return normalizedEstadio.includes(searchTerm);
       })
-    })
+    });
+    this.state.filtered.sort((a, b) => {
+      const qtdJogosA = common.getTotalEstadio(a, jogos);
+      const qtdJogosB = common.getTotalEstadio(b, jogos);
+
+      // Ordena por quantidade de jogos (decrescente)
+      if (qtdJogosB !== qtdJogosA) {
+        return qtdJogosB - qtdJogosA;
+      }
+
+      // Se a quantidade de jogos for igual, ordena por nome (alfabética)
+      if (a < b) {
+        return -1;
+      }
+      if (a > b) {
+        return 1;
+      }
+      return 0; // Nomes iguais
+    });
   }
 
   render() {
