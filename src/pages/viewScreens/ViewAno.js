@@ -72,47 +72,32 @@ import Times from '../../Times';
 import Estatisticas from '../../components/Estatisticas';
 import Anos from '../Anos';
 import LinhaJogo from '../../components/LinhaJogo';
-import TodosOsJogos from '../TodosOsJogos';
+import BotafogoJogos from '../../TodosOsJogos/BotafogoJogos';
 
-function ViewAno({ amigo }) {
-    const { ano } = useParams();
-    const meuTime = this.state.meuTime;
-    const flag = this.state.flag;
-    let clicked = false;
-    const buttonClickFunction = () => clicked = !clicked;
-    var imagemAno;
-    this.state.jogos.sort(function (a, b) {
-        return a.data < b.data ? -1 : a.data > b.data ? 1 : 0;
-    });
-    try {
-        imagemAno = require('../../anos/' + this.props.ano + '.png');
-    } catch (e) {
-        imagemAno = "";
+function getAnoJogos(ano) {
+    let jogos = BotafogoJogos();
+    let jogosAno = [];
+
+    for (var a = 0; a < jogos.length; a++) {
+        const anoAtual = jogos[a].data.split("-")[0];
+        if (anoAtual.toString().includes(ano)) {
+            if (!jogosAno.includes(jogos[a])) {
+                jogosAno.push(jogos[a]);
+            }
+        }
     }
+    return jogosAno;
+}
 
+function ViewAno() {
+    const { ano } = useParams();
+    const jogos = getAnoJogos(ano);
+
+    console.log(jogos);
     return (
-        clicked && flag === "meusJogos" ? <Anos meuTime={meuTime} meusJogos={this.props.meusJogos} fromView={true} /> :
-            clicked && flag === "todosOsJogos" ? <TodosOsJogos meuTime={meuTime} jogos={this.props.jogos} meusJogos={this.props.meusJogos} fromView={true} /> :
-                <div style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }}>
-                    <div className='a'>
-                        <button style={{ outline: 'none', border: 'none', textDecoration: 'underline', fontSize: '25px', cursor: 'pointer', backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }} onClick={() => buttonClickFunction()}>{"< Voltar"}</button>
-                    </div>
-                    <div className="App-header" style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }}>
-                        <div>{imagemAno !== "" ? <img src={imagemAno} style={{ verticalAlign: 'middle' }} alt='ano' height='250' width='250' /> : ""}</div>
-                        <h1 style={{ padding: '5px' }}>{this.props.ano}</h1>
-                        <br />
-                        <Estatisticas meuTime={this.state.meuTime} jogos={this.props.jogosAno} />
-                        {
-                            flag === "meusJogos" ?
-                                this.state.jogos.map((index) => {
-                                    return <LinhaJogo meuTime={meuTime} jogo={index} meusJogos={this.props.meusJogos} />
-                                }) :
-                                this.state.jogos.map((index) => {
-                                    return <LinhaJogo meuTime={meuTime} jogo={index} meusJogos={this.props.meusJogos} />
-                                })
-                        }
-                    </div>
-                </div>
+        <div>
+            
+        </div>
     )
 }
 

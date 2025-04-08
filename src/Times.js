@@ -2816,6 +2816,12 @@ function Times(time, data) {
                   backgroundColor = "#00923f";
                   letterColor = "white";
                   break;
+            case "Athletic":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "black";
+                  letterColor = "white";
+                  break;
             case "River-PI":
                   nomeAtual = time;
                   escudo = time;

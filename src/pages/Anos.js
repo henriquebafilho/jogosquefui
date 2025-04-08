@@ -34,8 +34,7 @@ class Anos extends Component {
         this.state.anos.push(ano);
       }
     }
-    this.state.anos.sort();
-    this.state.anos.reverse();
+    this.state.anos.sort().reverse();
     this.setState({ isLoading: false })
   }
 

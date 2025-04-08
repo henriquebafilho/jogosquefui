@@ -3669,7 +3669,7 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Flamengo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Rio-São Paulo 55", "data": "1955-05-05", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Santos", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 0, "campeonato": "Rio-São Paulo 55", "data": "1955-05-01", "estadio": "Pacaembu" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Fluminense", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Rio-São Paulo 55", "data": "1955-04-28", "estadio": "Maracanã" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "Vasco", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Rio-São Paulo 55", "data": "1955-04-20", "estadio": "Maracanã" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Vasco", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Rio-São Paulo 55", "data": "1955-04-20", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Palmeiras", "golsMandante": 3, "golsVisitante": 2, "campeonato": "Rio-São Paulo 55", "data": "1955-04-16", "estadio": "Maracanã" });
     jogos.push({ "mandante": "América-RJ", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Rio-São Paulo 55", "data": "1955-04-13", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Portuguesa", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Rio-São Paulo 55", "data": "1955-04-09", "estadio": "Pacaembu" });
@@ -5149,7 +5149,7 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Palmeiras", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Rio-São Paulo 52", "data": "1952-03-15", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Palmeiras", "golsMandante": 5, "golsVisitante": 3, "campeonato": "Rio-São Paulo 53", "data": "1953-04-19", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Palmeiras", "visitante": "Botafogo", "golsMandante": 4, "golsVisitante": 2, "campeonato": "Rio-São Paulo 1954", "data": "1954-03-13", "estadio": "Pacaembu" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "Palmeiras", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Torneio Quadrangular de Belo Horizonte", "data": "1955-03-30", "estadio": "Independência" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Palmeiras", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Torneio Quadrangular JK", "data": "1955-03-30", "estadio": "Independência" });
     jogos.push({ "mandante": "Palmeiras", "visitante": "Botafogo", "golsMandante": 4, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1957-02-27", "estadio": "Palestra Itália" });
     jogos.push({ "mandante": "Palmeiras", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1960-06-23", "estadio": "Pacaembu" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Palmeiras", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1962-06-28", "estadio": "Maracanã" });
@@ -5366,7 +5366,7 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "América-RJ", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Torneio Início 1977", "data": "1977-03-13", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Flamengo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Torneio Início 1977", "data": "1977-03-13", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Vasco", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Torneio Início 1977", "data": "1977-03-13", "estadio": "Maracanã" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "Náutico", "golsMandante": 2, "golsVisitante": 4, "campeonato": "Torneio Quadrangular (Taça JK)", "data": "1955-04-03", "estadio": "Independência" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Náutico", "golsMandante": 2, "golsVisitante": 4, "campeonato": "Torneio Quadrangular JK", "data": "1955-04-03", "estadio": "Independência" });
     jogos.push({ "mandante": "Náutico", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1955-10-14", "estadio": "Ilha do Retiro" });
     jogos.push({ "mandante": "Náutico", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1957-06-20", "estadio": "Aflitos" });
     jogos.push({ "mandante": "Náutico", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1985-07-21", "estadio": "Nildo Pereira de Menezes" });
@@ -5841,6 +5841,11 @@ function jogos() {
     jogos.push({ "mandante": "Madureira", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Copa Rio 1992", "data": "1992-07-16", "estadio": "" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Bangu", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Taça Adolpho Bloch", "data": "1990-11-29", "estadio": "Caio Martins" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Bangu", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Taça Adolpho Bloch", "data": "1990-12-13", "estadio": "Caio Martins" });
+    jogos.push({ "mandante": "Confiança", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 5, "campeonato": "Amistoso", "data": "1955-03-18", "estadio": "Estádio Municipal de Aracaju" });
+    jogos.push({ "mandante": "Rio Preto", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1955-04-24", "estadio": "" });
+    jogos.push({ "mandante": "Athletic", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1955-09-07", "estadio": "" });
+    jogos.push({ "mandante": "Sport-MG", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1955-11-13", "estadio": "" });
+    jogos.push({ "mandante": "Americano", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1955-12-21", "estadio": "" });
     
     jogos = jogos.concat(ProximosJogos());
 
