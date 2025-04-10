@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jogosquefui/static/css/main.6fbd8afb.css",
-    "main.js": "/jogosquefui/static/js/main.f734b83e.js",
+    "main.js": "/jogosquefui/static/js/main.bb62fb74.js",
     "static/media/Atanasio Girardot.png": "/jogosquefui/static/media/Atanasio Girardot.654b0fba4632fac4057b.png",
     "static/media/Corisabbá.png": "/jogosquefui/static/media/Corisabbá.4b6783df88df9e49eae8.png",
     "static/media/Colosso da Lagoa.png": "/jogosquefui/static/media/Colosso da Lagoa.b7008037ac5675a07045.png",
@@ -167,6 +167,7 @@
     "static/media/Ajax1991.png": "/jogosquefui/static/media/Ajax1991.5c9e5fd84aa5c9da2c9e.png",
     "static/media/Aruba.png": "/jogosquefui/static/media/Aruba.b2b70ef4e5d635752777.png",
     "static/media/SantaCruz1958.png": "/jogosquefui/static/media/SantaCruz1958.d34c3fd3950c8056962e.png",
+    "static/media/Capital.png": "/jogosquefui/static/media/Capital.a68f2666a959013faa5f.png",
     "static/media/1979.png": "/jogosquefui/static/media/1979.c16082d358b987447500.png",
     "static/media/Palmeiras-RJ.png": "/jogosquefui/static/media/Palmeiras-RJ.0edbb4d7f2af4840178d.png",
     "static/media/Síria.png": "/jogosquefui/static/media/Síria.ab71dc5485b948239f8a.png",
@@ -796,10 +797,10 @@
     "static/media/Ceará.png": "/jogosquefui/static/media/Ceará.2667c31fce77d94092f4.png",
     "index.html": "/jogosquefui/index.html",
     "main.6fbd8afb.css.map": "/jogosquefui/static/css/main.6fbd8afb.css.map",
-    "main.f734b83e.js.map": "/jogosquefui/static/js/main.f734b83e.js.map"
+    "main.bb62fb74.js.map": "/jogosquefui/static/js/main.bb62fb74.js.map"
   },
   "entrypoints": [
     "static/css/main.6fbd8afb.css",
-    "static/js/main.f734b83e.js"
+    "static/js/main.bb62fb74.js"
   ]
 }
