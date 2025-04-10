@@ -2,13 +2,14 @@ import React, { Component } from 'react';
 import Times from '../Times';
 import common from '../common';
 import ViewEstadio from './viewScreens/ViewEstadio';
+import BotafogoJogos from '../TodosOsJogos/BotafogoJogos';
 
 class Estadios extends Component {
   constructor(props) {
     super(props);
     this.state = {
       meuTime: props.meuTime,
-      jogos: props.meusJogos,
+      jogos: [],
       estadios: [],
       filtered: [],
       isLoading: false,
@@ -20,8 +21,17 @@ class Estadios extends Component {
   }
 
   async componentDidMount() {
+    await this.getJogos();
     await this.getEstadios();
     this.setState({ filtered: this.state.estadios })
+  }
+
+  getJogos = async () => {
+    this.setState({ isLoading: true });
+    this.setState({
+      jogos: BotafogoJogos().filter(jogo => jogo.golsMandante !== "" && jogo.golsVisitante !== "")
+    });
+    this.setState({ isLoading: false });
   }
 
   getEstadios = async () => {

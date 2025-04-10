@@ -1497,8 +1497,14 @@ function Times(time, data) {
             case "Uberaba":
                   nomeAtual = time;
                   escudo = time;
-                  backgroundColor = "#da251e";
+                  backgroundColor = "#d30a11";
                   letterColor = "white";
+                  break;
+            case "Capital":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#30a7eb";
+                  letterColor = "black";
                   break;
             case "Uberlândia":
                   nomeAtual = time;
@@ -2765,7 +2771,7 @@ function Times(time, data) {
             case "Riachuelo-RJ":
                   nomeAtual = time;
                   escudo = time;
-                  backgroundColor = "#459A54";
+                  backgroundColor = "#048439";
                   letterColor = "white";
                   break;
             case "Rio Branco-AC":

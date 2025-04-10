@@ -2,13 +2,14 @@ import React, { Component } from 'react';
 import Times from '../Times';
 import common from '../common';
 import ViewAno from './viewScreens/ViewAno';
+import BotafogoJogos from '../TodosOsJogos/BotafogoJogos';
 
 class Anos extends Component {
   constructor(props) {
     super(props);
     this.state = {
       meuTime: props.meuTime,
-      jogos: props.meusJogos,
+      jogos: [],
       anos: [],
       filtered: [],
       isLoading: false,
@@ -20,14 +21,23 @@ class Anos extends Component {
   }
 
   async componentDidMount() {
+    await this.getJogos();
     await this.getAnos();
     this.setState({ filtered: this.state.anos });
+  }
+
+  getJogos = async () => {
+    this.setState({ isLoading: true });
+    this.setState({
+      jogos: BotafogoJogos().filter(jogo => jogo.golsMandante !== "" && jogo.golsVisitante !== "")
+    });
+    this.setState({ isLoading: false });
   }
 
   getAnos = async () => {
     var jogos = this.state.jogos;
 
-    this.setState({ isLoading: true })
+    this.setState({ isLoading: true });
     for (var i in jogos) {
       const ano = jogos[i].data.split("-")[0];
       if (!this.state.anos.includes(ano)) {
@@ -35,7 +45,7 @@ class Anos extends Component {
       }
     }
     this.state.anos.sort().reverse();
-    this.setState({ isLoading: false })
+    this.setState({ isLoading: false });
   }
 
   buttonClick = async (ano) => {
@@ -62,12 +72,12 @@ class Anos extends Component {
 
   render() {
     const meuTime = this.state.meuTime;
-    const meusJogos = this.props.meusJogos;
+    const meusJogos = this.state.jogos;
     const buttonClickFunction = (ano) => this.buttonClick(ano);
 
     return (
       <>
-        {this.state.clicked ? <ViewAno flag="meusJogos" meuTime={this.props.meuTime} meusJogos={meusJogos} jogosAno={this.state.jogosAno} ano={this.state.anoAtual} /> :
+        {this.state.clicked ? <ViewAno meuTime={this.props.meuTime} meusJogos={meusJogos} jogosAno={this.state.jogosAno} ano={this.state.anoAtual} /> :
           <div className="App-header" style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor, alignItems: 'normal' }}>
             <table>
               <tbody>

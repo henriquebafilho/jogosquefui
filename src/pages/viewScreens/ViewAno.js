@@ -3,7 +3,6 @@ import Times from '../../Times';
 import Estatisticas from '../../components/Estatisticas';
 import Anos from '../Anos';
 import LinhaJogo from '../../components/LinhaJogo';
-import TodosOsJogos from '../TodosOsJogos';
 
 class ViewAno extends Component {
     constructor(props) {
@@ -11,7 +10,6 @@ class ViewAno extends Component {
         this.state = {
             meuTime: props.meuTime,
             jogos: props.jogosAno,
-            flag: props.flag,
             clicked: false
         }
     }
@@ -26,7 +24,6 @@ class ViewAno extends Component {
 
     render() {
         const meuTime = this.state.meuTime;
-        const flag = this.state.flag;
         const buttonClickFunction = () => this.buttonClick();
         var imagemAno;
         this.state.jogos.sort(function (a, b) {
@@ -38,28 +35,23 @@ class ViewAno extends Component {
             imagemAno = "";
         }
         return (
-            this.state.clicked && flag === "meusJogos" ? <Anos meuTime={meuTime} meusJogos={this.props.meusJogos} fromView={true} /> :
-                this.state.clicked && flag === "todosOsJogos" ? <TodosOsJogos meuTime={meuTime} jogos={this.props.jogos} meusJogos={this.props.meusJogos} fromView={true} /> :
-                    <div style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }}>
-                        <div className='a'>
-                            <button style={{ outline: 'none', border: 'none', textDecoration: 'underline', fontSize: '25px', cursor: 'pointer', backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }} onClick={() => buttonClickFunction()}>{"< Voltar"}</button>
-                        </div>
-                        <div className="App-header" style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }}>
-                            <div>{imagemAno !== "" ? <img src={imagemAno} style={{ verticalAlign: 'middle' }} alt='ano' height='250' width='250' /> : ""}</div>
-                            <h1 style={{ padding: '5px' }}>{this.props.ano}</h1>
-                            <br />
-                            <Estatisticas meuTime={this.state.meuTime} jogos={this.props.jogosAno} />
-                            {
-                                flag === "meusJogos" ?
-                                    this.state.jogos.map((index) => {
-                                        return <LinhaJogo meuTime={meuTime} jogo={index} meusJogos={this.props.meusJogos} />
-                                    }) :
-                                    this.state.jogos.map((index) => {
-                                        return <LinhaJogo meuTime={meuTime} jogo={index} meusJogos={this.props.meusJogos} />
-                                    })
-                            }
-                        </div>
+            this.state.clicked ? <Anos meuTime={meuTime} meusJogos={this.props.meusJogos} /> :
+                <div style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }}>
+                    <div className='a'>
+                        <button style={{ outline: 'none', border: 'none', textDecoration: 'underline', fontSize: '25px', cursor: 'pointer', backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }} onClick={() => buttonClickFunction()}>{"< Voltar"}</button>
                     </div>
+                    <div className="App-header" style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }}>
+                        <div>{imagemAno !== "" ? <img src={imagemAno} style={{ verticalAlign: 'middle' }} alt='ano' height='250' width='250' /> : ""}</div>
+                        <h1 style={{ padding: '5px' }}>{this.props.ano}</h1>
+                        <br />
+                        <Estatisticas meuTime={this.state.meuTime} jogos={this.props.jogosAno} />
+                        {
+                            this.state.jogos.map((index) => {
+                                return <LinhaJogo meuTime={meuTime} jogo={index} meusJogos={this.props.meusJogos} />
+                            })
+                        }
+                    </div>
+                </div>
         )
     }
 }

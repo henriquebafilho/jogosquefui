@@ -5,6 +5,7 @@ import Estadios from '../pages/Estadios';
 import Times from '../Times';
 import LinhaJogo from './LinhaJogo';
 import ProximosJogos from '../pages/ProximosJogos';
+import BotafogoJogos from '../TodosOsJogos/BotafogoJogos';
 //import { Link } from 'react-router-dom';
 
 class Tabs extends Component {
@@ -12,22 +13,26 @@ class Tabs extends Component {
         super(props);
         this.state = {
             toggleState: 1,
-            meusJogos: props.meusJogos.filter(jogo => jogo.golsMandante !== "" && jogo.golsVisitante !== ""),
+            meusJogos: [],
             meuTime: props.meuTime,
             currentPage: 1,
-            itemsPerPage: 20,
-            ultimos: 1
+            ultimos: 1,
+            isLoading: false
         };
         this.handleNextPage = this.handleNextPage.bind(this);
         this.handlePrevPage = this.handlePrevPage.bind(this);
     }
 
     async componentDidMount() {
+        await this.getJogos();
+    }
+
+    getJogos = async () => {
+        this.setState({ isLoading: true });
         this.setState({
-            meusJogos: this.state.meusJogos.sort(function (a, b) {
-                return a.data < b.data ? 1 : a.data > b.data ? -1 : 0;
-            })
-        })
+            meusJogos: BotafogoJogos().filter(jogo => jogo.golsMandante !== "" && jogo.golsVisitante !== "").reverse().slice(0, 20)
+        });
+        this.setState({ isLoading: false });
     }
 
     handleNextPage() {
@@ -46,25 +51,19 @@ class Tabs extends Component {
         this.setState({ toggleState: index });
     }
 
-    ultimosTab = async (index) => {
+    recentesTab = async (index) => {
         this.setState({ ultimos: index })
     }
 
     render() {
         const toggleTab = (index) => this.toggleTab(index);
-        const ultimosTab = (index) => this.ultimosTab(index);
+        const recentesTab = (index) => this.recentesTab(index);
         let toggleState = this.state.toggleState;
         let meusJogos = this.state.meusJogos;
         let meuTime = this.state.meuTime;
         let ultimos = this.state.ultimos;
         let anoAtual = 0;
-        const { currentPage, itemsPerPage } = this.state;
 
-        const indexOfLastItem = currentPage * itemsPerPage;
-        const indexOfFirstItem = indexOfLastItem - itemsPerPage;
-        const currentItems = meusJogos.slice(indexOfFirstItem, indexOfLastItem);
-
-        //const totalPages = Math.ceil(meusJogos.length / itemsPerPage);
         return (
             <div className="container" style={{ color: Times(this.props.meuTime).letterColor, backgroundColor: Times(this.props.meuTime).backgroundColor, border: "3px" }}>
                 <div className="bloc-tabs">
@@ -86,17 +85,17 @@ class Tabs extends Component {
                     <div className={toggleState === 1 ? "content  active-content" : "content"}>
                         <div className="container" style={{ color: Times(this.props.meuTime).letterColor, backgroundColor: Times(this.props.meuTime).backgroundColor, border: "3px", maxWidth: '80%', marginBottom: '20px' }}>
                             <div className="bloc-tabs">
-                                <button id="tab" className={ultimos === 1 ? "tabs active-tabs" : "tabs"} onClick={() => ultimosTab(1)}>
+                                <button id="tab" className={ultimos === 1 ? "tabs active-tabs" : "tabs"} onClick={() => recentesTab(1)}>
                                     Últimos Jogos
                                 </button>
-                                <button id="tab" className={ultimos === 1 ? "tabs" : "tabs active-tabs"} onClick={() => ultimosTab(2)}>
+                                <button id="tab" className={ultimos === 1 ? "tabs" : "tabs active-tabs"} onClick={() => recentesTab(2)}>
                                     Próximos Jogos
                                 </button>
                             </div>
                         </div>
                         {ultimos === 1 ?
                             <div className="container" style={{ color: Times(this.props.meuTime).letterColor, backgroundColor: Times(this.props.meuTime).backgroundColor }}>
-                                {meusJogos.length > 0 ? currentItems.map((index) => {
+                                {meusJogos.length > 0 ? meusJogos.map((index) => {
                                     let mostraAno = false;
                                     if (anoAtual !== index.data.split("-")[0]) {
                                         anoAtual = index.data.split("-")[0];
@@ -107,8 +106,7 @@ class Tabs extends Component {
                                         <LinhaJogo meuTime={meuTime} jogo={index} meusJogos={meusJogos} />
                                     </div>
                                 }) : <div>
-                                    <h1 style={{ color: Times(meuTime).letterColor, textAlign: 'center', paddingBottom: '50px' }}>Você ainda não possui jogos cadastrados</h1>
-                                    <h4 style={{ color: Times(meuTime).letterColor, textAlign: 'center' }}>Vá em "Jogos do {meuTime}" para selecionar os jogos que você já foi</h4>
+                                    <h4 style={{ color: Times(meuTime).letterColor, textAlign: 'center' }}>Nenhum jogo cadastrado</h4>
                                 </div>}
                             </div>
                             :
@@ -121,7 +119,7 @@ class Tabs extends Component {
                     </div>
 
                     <div className={toggleState === 2 ? "content  active-content" : "content"}>
-                        <Anos meuTime={meuTime} meusJogos={meusJogos} />
+                        <Anos meuTime={meuTime} />
                     </div>
 
                     <div className={toggleState === 3 ? "content  active-content" : "content"}>

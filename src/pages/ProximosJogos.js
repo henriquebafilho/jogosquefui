@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Times from '../Times';
 import LinhaJogo from '../components/LinhaJogo';
-import BotafogoJogos from '../TodosOsJogos/BotafogoJogos';
+import Proximos from '../TodosOsJogos/ProximosJogos';
 
 class ProximosJogos extends Component {
     constructor(props) {
@@ -23,7 +23,7 @@ class ProximosJogos extends Component {
     }
 
     getProximosJogos = async () => {
-        let todosOsJogos = BotafogoJogos();
+        let todosOsJogos = Proximos();
 
         let proximosJogos = todosOsJogos.filter(function (i) {
             return i.golsMandante === "" && i.golsVisitante === "";
