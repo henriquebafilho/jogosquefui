@@ -4696,7 +4696,7 @@ function jogos() {
     jogos.push({ "mandante": "Martinica", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1993-06-15", "estadio": "" });
     jogos.push({ "mandante": "Nantes", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1993-04-23", "estadio": "La Beaujoire" });
     jogos.push({ "mandante": "América-MEX", "visitante": "Botafogo", "golsMandante": 4, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1991-11-26", "estadio": "Azteca" });
-    jogos.push({ "mandante": "Alianza Lima", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1991-11-26", "estadio": "Alejandro Villanueva" });
+    jogos.push({ "mandante": "Alianza Lima", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1991-10-08", "estadio": "Alejandro Villanueva" });
     jogos.push({ "mandante": "West Ham", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1991-08-11", "estadio": "Boleyn Ground" });
     jogos.push({ "mandante": "Leeds United", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1991-08-09", "estadio": "Elland Road" });
     jogos.push({ "mandante": "Leeds United", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1991-08-05", "estadio": "Tóquio Dome Stadium" });
@@ -5847,6 +5847,13 @@ function jogos() {
     jogos.push({ "mandante": "Athletic", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1955-09-07", "estadio": "" });
     jogos.push({ "mandante": "Sport-MG", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1955-11-13", "estadio": "" });
     jogos.push({ "mandante": "Americano", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1955-12-21", "estadio": "" });
+    jogos.push({ "mandante": "Guará", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1991-05-25", "estadio": "" });
+    jogos.push({ "mandante": "Juventus-SC", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1991-06-04", "estadio": "" });
+    jogos.push({ "mandante": "Inter de Lages", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1991-06-06", "estadio": "" });
+    jogos.push({ "mandante": "Araranguá", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1991-06-09", "estadio": "Grêmio Fronteira" });
+    jogos.push({ "mandante": "Campo Grande-RJ", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Copa Rio", "data": "1991-06-22", "estadio": "" });
+    jogos.push({ "mandante": "Americano", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Copa Rio", "data": "1991-06-22", "estadio": "" });
+    jogos.push({ "mandante": "Araxá", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1991-07-20", "estadio": "" });
     
     jogos = jogos.concat(ProximosJogos());
 

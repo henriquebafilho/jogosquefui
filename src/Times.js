@@ -2017,6 +2017,12 @@ function Times(time, data) {
                   backgroundColor = "#6a023c";
                   letterColor = "white";
                   break;
+            case "Juventus-SC":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#6a023c";
+                  letterColor = "white";
+                  break;
             case "Kenitra":
                   nomeAtual = time;
                   escudo = time;
@@ -2024,6 +2030,24 @@ function Times(time, data) {
                   letterColor = "white";
                   break;
             case "Koln":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#d30a11";
+                  letterColor = "white";
+                  break;
+            case "Araxá":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "black";
+                  letterColor = "white";
+                  break;
+            case "Araranguá":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#fbbd08";
+                  letterColor = "#003a94";
+                  break;
+            case "Inter de Lages":
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#d30a11";
