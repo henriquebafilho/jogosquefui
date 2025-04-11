@@ -53,8 +53,8 @@ class Adversarios extends Component {
     }
 
     this.state.adversarios.sort((a, b) => {
-      const qtdJogosA = common.getTotalAdversario(this.state.meuTime, a, jogos);
-      const qtdJogosB = common.getTotalAdversario(this.state.meuTime, b, jogos);
+      const qtdJogosA = common.getTotalAdversario(this.state.meuTime, a);
+      const qtdJogosB = common.getTotalAdversario(this.state.meuTime, b);
 
       // Ordena por quantidade de jogos (decrescente)
       if (qtdJogosB !== qtdJogosA) {
@@ -76,24 +76,9 @@ class Adversarios extends Component {
 
   buttonClick = async (adversario) => {
     this.setState({ clicked: true, adversarioAtual: adversario });
-    await this.getAdversarioJogos(adversario);
-  }
-
-  getAdversarioJogos = async (adversario) => {
-    var adversarioAtual = adversario;
-
-    for (var a = 0; a < this.state.jogos.length; a++) {
-      if (((this.state.jogos[a].mandante === this.state.meuTime) && (Times(this.state.jogos[a].visitante).nomeAtual === adversarioAtual)) ||
-        ((this.state.jogos[a].visitante === this.state.meuTime) && (Times(this.state.jogos[a].mandante).nomeAtual === adversarioAtual))) {
-        if (!this.state.jogosAdversario.includes(this.state.jogos[a])) {
-          this.state.jogosAdversario.push(this.state.jogos[a]);
-        }
-      }
-    }
   }
 
   searchTeam = async (e) => {
-    var jogos = this.state.jogos;
     this.setState({
       filtered: this.state.adversarios.filter(time => {
         const normalizeString = (str) => str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
@@ -104,8 +89,8 @@ class Adversarios extends Component {
     });
 
     this.state.filtered.sort((a, b) => {
-      const qtdJogosA = common.getTotalAdversario(this.state.meuTime, a, jogos);
-      const qtdJogosB = common.getTotalAdversario(this.state.meuTime, b, jogos);
+      const qtdJogosA = common.getTotalAdversario(this.state.meuTime, a);
+      const qtdJogosB = common.getTotalAdversario(this.state.meuTime, b);
 
       // Ordena por quantidade de jogos (decrescente)
       if (qtdJogosB !== qtdJogosA) {
@@ -125,15 +110,14 @@ class Adversarios extends Component {
 
   render() {
     const meuTime = this.state.meuTime;
-    const meusJogos = this.state.jogos;
+    const filtered = this.state.filtered;
     const buttonClickFunction = (adversario) => this.buttonClick(adversario);
     return (
       <>
-        {this.state.clicked ? <ViewAdversario meuTime={this.props.meuTime} meusJogos={meusJogos} jogosAdversario={this.state.jogosAdversario} adversario={this.state.adversarioAtual} /> :
+        {this.state.clicked ? <ViewAdversario meuTime={this.props.meuTime} adversario={this.state.adversarioAtual} /> :
           <div className="App-header" style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor, alignItems: 'normal' }}>
             <table>
               <tbody>
-                {this.state.isLoading && <h1>Carregando...</h1>}
                 <input
                   type="text"
                   placeholder="Insira o nome do time"
@@ -146,9 +130,9 @@ class Adversarios extends Component {
                     padding: '5px'
                   }}
                 />
-                {this.state.filtered.length > 0 ?
-                  !this.state.isLoading && this.state.filtered.map(function (i) {
-                    var totalAdversario = common.getTotalAdversario(meuTime, i, meusJogos);
+                {!this.state.isLoading ?
+                  filtered.length > 0 ? filtered.map(function (i) {
+                    var totalAdversario = common.getTotalAdversario(meuTime, i);
                     const nomesAnteriores = Times(i).nomesAnteriores;
                     return <div key={i}>
                       <button id='selectAdversario' onClick={() => buttonClickFunction(Times(i).nomeAtual)} style={{ backgroundColor: Times(Times(i).nomeAtual).backgroundColor, color: Times(Times(i).nomeAtual).letterColor, borderColor: Times(meuTime).backgroundColor === 'white' ? 'black' : 'white', borderStyle: 'solid' }}>
@@ -167,6 +151,9 @@ class Adversarios extends Component {
                     </div>
                   }) : <div>
                     <h4 style={{ color: Times(this.state.meuTime).letterColor, textAlign: 'center', paddingBottom: '50px' }}>Nenhum adversário encontrado</h4>
+                  </div>
+                  : <div>
+                    <h4 style={{ color: Times(this.state.meuTime).letterColor, textAlign: 'center', paddingBottom: '50px' }}>Carregando adversários...</h4>
                   </div>}
               </tbody>
             </table>

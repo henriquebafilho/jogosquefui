@@ -3,20 +3,38 @@ import Times from '../../Times';
 import Estatisticas from '../../components/Estatisticas';
 import LinhaJogo from '../../components/LinhaJogo';
 import Adversarios from '../Adversarios';
+import BotafogoJogos from '../../TodosOsJogos/BotafogoJogos';
 
 class ViewAdversario extends Component {
   constructor(props) {
     super(props);
     this.state = {
       meuTime: props.meuTime,
-      jogos: props.jogosAdversario,
-      clicked: false
+      adversario: props.adversario,
+      clicked: false,
+      isLoading: false,
+      jogosAdversario: []
     }
   }
 
   async componentDidMount() {
     this._isMounted = true;
     window.scrollTo(0, 0);
+    await this.getJogosAdversario();
+  }
+
+  getJogosAdversario = async () => {
+    this.setState({ isLoading: true });
+    var adversario = this.state.adversario;
+    var jogosAdversario = BotafogoJogos().filter(jogo =>
+      (jogo.golsMandante !== "" && jogo.golsVisitante !== "") &&
+      ((jogo.mandante === adversario && jogo.visitante === this.state.meuTime) ||
+        (jogo.mandante === this.state.meuTime && jogo.visitante === adversario))
+    );
+    jogosAdversario = jogosAdversario.sort(function (a, b) {
+      return a.data < b.data ? -1 : a.data > b.data ? 1 : 0;
+    });
+    this.setState({ isLoading: false, jogosAdversario });
   }
 
   buttonClick = async () => {
@@ -27,12 +45,9 @@ class ViewAdversario extends Component {
     const meuTime = this.state.meuTime;
     const buttonClickFunction = () => this.buttonClick();
     let anoAtual = 0;
-    this.state.jogos.sort(function (a, b) {
-      return a.data < b.data ? -1 : a.data > b.data ? 1 : 0;
-    });
 
     return (
-      this.state.clicked ? <Adversarios meuTime={meuTime} meusJogos={this.props.meusJogos} /> :
+      this.state.clicked ? <Adversarios meuTime={meuTime} /> :
         <div style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }}>
           <div className='a'>
             <button style={{ outline: 'none', border: 'none', textDecoration: 'underline', fontSize: '25px', cursor: 'pointer', backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }} onClick={() => buttonClickFunction()}>{"< Voltar"}</button>
@@ -60,8 +75,8 @@ class ViewAdversario extends Component {
               </div>
             </div>
             <br />
-            <Estatisticas meuTime={this.state.meuTime} jogos={this.props.jogosAdversario} />
-            {this.state.jogos.reverse().map((index) => {
+            <Estatisticas meuTime={this.state.meuTime} jogos={this.state.jogosAdversario} />
+            {this.state.jogosAdversario.reverse().map((index) => {
               let mostraAno = false;
               if (anoAtual !== index.data.split("-")[0]) {
                 anoAtual = index.data.split("-")[0];
@@ -69,7 +84,7 @@ class ViewAdversario extends Component {
               }
               return <div style={{ width: '100%' }}>
                 {mostraAno ? <h1 style={{ textAlign: 'center', color: Times(meuTime).letterColor, margin: '40px' }}>{anoAtual}</h1> : ""}
-                <LinhaJogo meuTime={meuTime} jogo={index} meusJogos={this.props.meusJogos} />
+                <LinhaJogo meuTime={meuTime} jogo={index} />
               </div>
             })}
           </div>

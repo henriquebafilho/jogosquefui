@@ -1,6 +1,9 @@
 import Times from './Times';
+import BotafogoJogos from './TodosOsJogos/BotafogoJogos';
 
-const getTotalAdversario = (meuTime, adversario, jogos) => {
+const jogos = BotafogoJogos().filter(jogo => jogo.golsMandante !== "" && jogo.golsVisitante !== "");
+
+const getTotalAdversario = (meuTime, adversario) => {
     var total = 0;
     var adversarioAtual = Times(adversario).nomeAtual;
 

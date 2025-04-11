@@ -10,29 +10,13 @@ class LinhaJogo extends Component {
         this.state = {
             meuTime: props.meuTime,
             jogo: props.jogo,
-            isLoading: false,
-            clicked: false,
-            checked: false
+            isLoading: false
         }
     }
 
     async componentDidMount() {
         this._isMounted = true;
         window.scrollTo(0, 0);
-        this.setState({ isLoading: true })
-        if (this.state.jogo.golsMandante !== "" && this.state.jogo.golsVisitante !== "") {
-            await this.getJogosQueFui();
-        }
-        this.setState({ isLoading: false })
-    }
-
-    getJogosQueFui = async () => {
-        for (var a = 0; a < this.props.meusJogos.length; a++) {
-            if (this.state.jogo.data === this.props.meusJogos[a][5]) {
-                this.setState({ checked: true });
-                break;
-            }
-        }
     }
 
     converteData(data) {
