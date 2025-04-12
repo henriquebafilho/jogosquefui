@@ -2228,7 +2228,7 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Porto Alegre-RJ", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Carioca 1988", "data": "1988-04-03", "estadio": "Caio Martins" });
     jogos.push({ "mandante": "Vasco", "visitante": "Botafogo", "golsMandante": 4, "golsVisitante": 3, "campeonato": "Carioca 1988", "data": "1988-03-28", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Friburguense", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Carioca 1988", "data": "1988-03-23", "estadio": "Caio Martins" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "Goytacaz", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Carioca 1988", "data": "1988-03-20", "estadio": "São Januário" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Goytacaz", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Carioca 1988", "data": "1988-03-20", "estadio": "São Januário" });
     jogos.push({ "mandante": "Fluminense", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Carioca 1988", "data": "1988-03-17", "estadio": "Maracanã" });
     jogos.push({ "mandante": "América-RJ", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Carioca 1988", "data": "1988-03-12", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Flamengo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Carioca 1988", "data": "1988-03-06", "estadio": "Maracanã" });
@@ -5854,6 +5854,10 @@ function jogos() {
     jogos.push({ "mandante": "Campo Grande-RJ", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Copa Rio", "data": "1991-06-22", "estadio": "" });
     jogos.push({ "mandante": "Americano", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Copa Rio", "data": "1991-06-22", "estadio": "" });
     jogos.push({ "mandante": "Araxá", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1991-07-20", "estadio": "" });
+    jogos.push({ "mandante": "Gama", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1990-05-13", "estadio": "" });
+    jogos.push({ "mandante": "Rio Branco-ES", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1990-05-20", "estadio": "" });
+    jogos.push({ "mandante": "Seleção de Nova Friburgo", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1989-01-29", "estadio": "" });
+    jogos.push({ "mandante": "Fabril", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1988-06-18", "estadio": "" });
     
     jogos = jogos.concat(ProximosJogos());
 
