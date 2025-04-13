@@ -25,11 +25,11 @@ class ViewAdversario extends Component {
 
   getJogosAdversario = async () => {
     this.setState({ isLoading: true });
-    var adversario = this.state.adversario;
+    var adversario = [this.state.adversario, ...Times(this.state.adversario).nomesAnteriores];
     var jogosAdversario = BotafogoJogos().filter(jogo =>
       (jogo.golsMandante !== "" && jogo.golsVisitante !== "") &&
-      ((jogo.mandante === adversario && jogo.visitante === this.state.meuTime) ||
-        (jogo.mandante === this.state.meuTime && jogo.visitante === adversario))
+      ((adversario.includes(jogo.mandante) && jogo.visitante === this.state.meuTime) ||
+        (jogo.mandante === this.state.meuTime && adversario.includes(jogo.visitante)))
     );
     jogosAdversario = jogosAdversario.sort(function (a, b) {
       return a.data < b.data ? -1 : a.data > b.data ? 1 : 0;
