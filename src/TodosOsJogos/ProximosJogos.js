@@ -40,7 +40,7 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Internacional", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2025", "data": "2025-05-11", "estadio": "Nilton Santos", "horario": "20:00" });
     jogos.push({ "mandante": "Carabobo", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Libertadores 2025", "data": "2025-05-06", "estadio": "Misael Delgado", "horario": "19:00" });
     jogos.push({ "mandante": "Bahia", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2025", "data": "2025-05-03", "estadio": "Fonte Nova", "horario": "21:00" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "Capital", "golsMandante": "", "golsVisitante": "", "campeonato": "Copa do Brasil 2025", "data": "2025-04-30", "estadio": "Nilton Santos" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Capital", "golsMandante": "", "golsVisitante": "", "campeonato": "Copa do Brasil 2025", "data": "2025-04-30", "estadio": "Nilton Santos", "horario": "19:00" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Fluminense", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2025", "data": "2025-04-26", "estadio": "Nilton Santos", "horario": "21:00" });
     jogos.push({ "mandante": "Estudiantes", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Libertadores 2025", "data": "2025-04-23", "estadio": "Estadio Uno", "horario": "21:30" });
     jogos.push({ "mandante": "Atlético-MG", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2025", "data": "2025-04-20", "estadio": "Mineirão", "horario": "16:00" });
