@@ -3,6 +3,11 @@ import ProximosJogos from "./ProximosJogos";
 function jogos() {
     let jogos = [];
 
+    jogos.push({ "mandante": "Botafogo", "visitante": "Capital", "golsMandante": 4, "golsVisitante": 0, "campeonato": "Copa do Brasil 2025", "data": "2025-04-30", "estadio": "Nilton Santos", "horario": "19:00" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Fluminense", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Brasileirão 2025", "data": "2025-04-26", "estadio": "Nilton Santos", "horario": "21:00" });
+    jogos.push({ "mandante": "Estudiantes", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Libertadores 2025", "data": "2025-04-23", "estadio": "Estadio Uno", "horario": "21:30" });
+    jogos.push({ "mandante": "Atlético-MG", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Brasileirão 2025", "data": "2025-04-20", "estadio": "Mineirão", "horario": "16:00" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "São Paulo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Brasileirão 2025", "data": "2025-04-16", "estadio": "Nilton Santos", "horario": "18:30" });
     jogos.push({ "mandante": "Red Bull Bragantino", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Brasileirão 2025", "data": "2025-04-12", "estadio": "Nabi Abi Chedid", "horario": "16:00" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Carabobo", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Libertadores 2025", "data": "2025-04-08", "estadio": "Nilton Santos", "horario": "19:00" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Juventude", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Brasileirão 2025", "data": "2025-04-05", "estadio": "Nilton Santos", "horario": "21:00" });
@@ -5620,7 +5625,6 @@ function jogos() {
     jogos.push({ "mandante": "Guarani-MG", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1954-06-01", "estadio": "Farião" });
     jogos.push({ "mandante": "Olympic", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 5, "campeonato": "Amistoso", "data": "1956-10-14", "estadio": "Santa Tereza" });
     jogos.push({ "mandante": "Tijuco", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1958-04-13", "estadio": "Estádio Municipal de Diamantina" });
-    jogos.push({ "mandante": "Santo Antônio", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1958-08-17", "estadio": "Rubens Gomes" });
     jogos.push({ "mandante": "Ferroviário-PR", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1960-11-17", "estadio": "Vila Capanema" });
     jogos.push({ "mandante": "Madureira", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 5, "campeonato": "Amistoso", "data": "1959-07-11", "estadio": "Conselheiro Galvão" });
     jogos.push({ "mandante": "Usipa", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1964-11-11", "estadio": "Amaro Lanari Júnior" });
@@ -5859,6 +5863,19 @@ function jogos() {
     jogos.push({ "mandante": "Rio Branco-ES", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1990-05-20", "estadio": "" });
     jogos.push({ "mandante": "Seleção de Nova Friburgo", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1989-01-29", "estadio": "" });
     jogos.push({ "mandante": "Fabril", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1988-06-18", "estadio": "" });
+    jogos.push({ "mandante": "Santo Antônio", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1956-02-26", "estadio": "" });
+    jogos.push({ "mandante": "Colo-Colo-BA", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 5, "campeonato": "Amistoso", "data": "1956-03-03", "estadio": "" });
+    jogos.push({ "mandante": "Seleção de Itabuna", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1956-03-04", "estadio": "" });
+    jogos.push({ "mandante": "Americano", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1956-03-11", "estadio": "" });
+    jogos.push({ "mandante": "Uberaba", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 5, "campeonato": "Amistoso", "data": "1956-03-15", "estadio": "" });
+    jogos.push({ "mandante": "Uberlândia", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1956-03-17", "estadio": "" });
+    jogos.push({ "mandante": "Seleção de Araguari", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1956-03-18", "estadio": "" });
+    jogos.push({ "mandante": "Social", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 6, "campeonato": "Amistoso", "data": "1956-08-05", "estadio": "" });
+    jogos.push({ "mandante": "Galícia", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1956-09-01", "estadio": "" });
+    jogos.push({ "mandante": "Bahia", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1956-09-02", "estadio": "" });
+    jogos.push({ "mandante": "Fluminense de Feira", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1956-09-04", "estadio": "" });
+    jogos.push({ "mandante": "Pastoril", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1956-11-04", "estadio": "Campo da Companhia Agro Pastoril" });
+    jogos.push({ "mandante": "Seleção de Minas Gerais", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1956-12-30", "estadio": "" });
     
     jogos = jogos.concat(ProximosJogos());
 

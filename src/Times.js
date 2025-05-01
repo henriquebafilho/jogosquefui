@@ -1473,7 +1473,13 @@ function Times(time, data) {
             case "Fluminense de Feira":
                   nomeAtual = time;
                   escudo = time;
-                  backgroundColor = "#048439";
+                  backgroundColor = "#006940";
+                  letterColor = "white";
+                  break;
+            case "Pastoril":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#03923c";
                   letterColor = "white";
                   break;
             case "Royal":
@@ -2781,6 +2787,18 @@ function Times(time, data) {
                   escudo = time;
                   backgroundColor = "#003a94";
                   letterColor = "white";
+                  break;
+            case "Social":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "black";
+                  letterColor = "white";
+                  break;
+            case "Colo-Colo-BA":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#003a94";
+                  letterColor = "#fbbd08";
                   break;
             case "Força e Luz":
                   nomeAtual = time;
