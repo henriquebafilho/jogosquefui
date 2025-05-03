@@ -49,7 +49,7 @@ class ViewAdversario extends Component {
     return (
       this.state.clicked ? <Adversarios meuTime={meuTime} /> :
         <div style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }}>
-          <div className='a'>
+          <div className='a' key="voltar">
             <button style={{ outline: 'none', border: 'none', textDecoration: 'underline', fontSize: '25px', cursor: 'pointer', backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }} onClick={() => buttonClickFunction()}>{"< Voltar"}</button>
           </div>
           <div className="App-header">
@@ -84,7 +84,7 @@ class ViewAdversario extends Component {
               }
               return <div style={{ width: '100%' }}>
                 {mostraAno ? <h1 style={{ textAlign: 'center', color: Times(meuTime).letterColor, margin: '40px' }}>{anoAtual}</h1> : ""}
-                <LinhaJogo meuTime={meuTime} jogo={index} />
+                <LinhaJogo key={JSON.stringify(index)} meuTime={meuTime} jogo={index} />
               </div>
             })}
           </div>

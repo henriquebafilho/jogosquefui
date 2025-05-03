@@ -632,11 +632,16 @@ function Times(time, data) {
                   backgroundColor = "#fdd116";
                   letterColor = "red";
                   break;
-            case "Cabofriense":
-                  nomeAtual = time;
-                  escudo = time;
+            case "Cabofriense": case "Cabo Frio":
+                  nomeAtual = "Cabofriense";
+                  if(ano < 1997){
+                        escudo = "Cabofriense1997";
+                  } else {
+                        escudo = time;
+                  }
                   backgroundColor = "#00913c";
                   letterColor = "white";
+                  nomesAnteriores = ["Cabo Frio"];
                   break;
             case "Cádiz":
                   nomeAtual = time;
@@ -1994,6 +1999,18 @@ function Times(time, data) {
                   letterColor = "white";
                   break;
             case "Juventude":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#048439";
+                  letterColor = "white";
+                  break;
+            case "Cartaginés":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#252d69";
+                  letterColor = "white";
+                  break;
+            case "Ipiranga de Manhuaçu":
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#048439";
@@ -3645,6 +3662,12 @@ function Times(time, data) {
                   backgroundColor = "#d30a11";
                   letterColor = "white";
                   break;
+            case "Guarapari":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#d30a11";
+                  letterColor = "black";
+                  break;
             case "Rio Grande":
                   nomeAtual = time;
                   escudo = time;
@@ -3674,6 +3697,18 @@ function Times(time, data) {
                   escudo = time;
                   backgroundColor = "#343380";
                   letterColor = "#fff200";
+                  break;
+            case "São Francisco":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#162d4f";
+                  letterColor = "white";
+                  break;
+            case "Sul América":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#28166f";
+                  letterColor = "white";
                   break;
             default:
                   nomeAtual = time;

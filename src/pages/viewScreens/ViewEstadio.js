@@ -55,7 +55,7 @@ class ViewEstadio extends Component {
               }
               return <div style={{ width: '100%' }}>
                 {mostraAno ? <h1 style={{ textAlign: 'center', color: Times(meuTime).letterColor, margin: '40px' }}>{anoAtual}</h1> : ""}
-                <LinhaJogo meuTime={meuTime} jogo={index} meusJogos={this.props.meusJogos}/>
+                <LinhaJogo key={JSON.stringify(index)} meuTime={meuTime} jogo={index} meusJogos={this.props.meusJogos}/>
               </div>
             })}
           </div>

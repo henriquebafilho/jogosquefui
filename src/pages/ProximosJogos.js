@@ -39,7 +39,7 @@ class ProximosJogos extends Component {
                 <div className="container" style={{ color: Times(this.props.meuTime).letterColor, backgroundColor: Times(this.props.meuTime).backgroundColor }}>
                     {jogos.length > 0 ? jogos.map((index) => {
                         return <div>
-                            <LinhaJogo meuTime={meuTime} jogo={index} />
+                            <LinhaJogo key={JSON.stringify(index)} meuTime={meuTime} jogo={index} />
                         </div>
                     }) : <div>
                         <h4 style={{ color: Times(meuTime).letterColor, textAlign: 'center' }}>Não há jogos futuros</h4>

@@ -47,7 +47,7 @@ class ViewAno extends Component {
                         <Estatisticas meuTime={this.state.meuTime} jogos={this.props.jogosAno} />
                         {
                             this.state.jogos.map((index) => {
-                                return <LinhaJogo meuTime={meuTime} jogo={index} meusJogos={this.props.meusJogos} />
+                                return <LinhaJogo key={JSON.stringify(index)} meuTime={meuTime} jogo={index} meusJogos={this.props.meusJogos} />
                             })
                         }
                     </div>
