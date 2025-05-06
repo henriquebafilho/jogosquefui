@@ -2004,6 +2004,42 @@ function Times(time, data) {
                   backgroundColor = "#048439";
                   letterColor = "white";
                   break;
+            case "Nova Venécia":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#d30a11";
+                  letterColor = "white";
+                  break;
+            case "Nacional de Patos":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#006649";
+                  letterColor = "white";
+                  break;
+            case "Baraúnas":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#048439";
+                  letterColor = "white";
+                  break;
+            case "Santos-ES":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#263b96";
+                  letterColor = "white";
+                  break;
+            case "Atlético de Cajazeiras":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#313491";
+                  letterColor = "white";
+                  break;
+            case "Colatina":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#0a1780";
+                  letterColor = "white";
+                  break;
             case "Cartaginés":
                   nomeAtual = time;
                   escudo = time;
