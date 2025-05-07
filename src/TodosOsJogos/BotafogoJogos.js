@@ -3,6 +3,8 @@ import ProximosJogos from "./ProximosJogos";
 function jogos() {
     let jogos = [];
 
+    jogos.push({ "mandante": "Carabobo", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Libertadores 2025", "data": "2025-05-06", "estadio": "Misael Delgado", "horario": "19:00" });
+    jogos.push({ "mandante": "Bahia", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Brasileirão 2025", "data": "2025-05-03", "estadio": "Fonte Nova", "horario": "21:00" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Capital", "golsMandante": 4, "golsVisitante": 0, "campeonato": "Copa do Brasil 2025", "data": "2025-04-30", "estadio": "Nilton Santos", "horario": "19:00" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Fluminense", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Brasileirão 2025", "data": "2025-04-26", "estadio": "Nilton Santos", "horario": "21:00" });
     jogos.push({ "mandante": "Estudiantes", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Libertadores 2025", "data": "2025-04-23", "estadio": "Estadio Uno", "horario": "21:30" });
@@ -5914,6 +5916,17 @@ function jogos() {
     jogos.push({ "mandante": "Baraúnas", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1985-07-17", "estadio": "" });
     jogos.push({ "mandante": "Nacional de Patos", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1985-07-19", "estadio": "" });
     jogos.push({ "mandante": "Nova Venécia", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1985-11-27", "estadio": "Zenor Pedrosa Rocha" });
+    jogos.push({ "mandante": "Royal", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1984-01-28", "estadio": "" });
+    jogos.push({ "mandante": "Goytacaz", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1984-06-15", "estadio": "" });
+    jogos.push({ "mandante": "Seleção de Itajubá", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1984-06-24", "estadio": "" });
+    jogos.push({ "mandante": "Seleção de Ilhéus", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1984-06-28", "estadio": "" });
+    jogos.push({ "mandante": "Aymorés", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1984-12-13", "estadio": "" });
+    jogos.push({ "mandante": "Taguatinga", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Torneio José Ornellas", "data": "1983-04-20", "estadio": "Serejão" });
+    jogos.push({ "mandante": "Tiradentes-DF", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Torneio José Ornellas", "data": "1983-04-23", "estadio": "Bezerrão" });
+    jogos.push({ "mandante": "Volta Redonda", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1983-05-08", "estadio": "Raulino de Oliveira" });
+    jogos.push({ "mandante": "Athletic", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1983-05-21", "estadio": "" });
+    jogos.push({ "mandante": "Seleção de Barbacena", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1983-06-26", "estadio": "Santa Tereza" });
+    jogos.push({ "mandante": "Brasília", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1983-12-18", "estadio": "Mané Garrincha" });
     
     jogos = jogos.concat(ProximosJogos());
 

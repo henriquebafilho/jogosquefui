@@ -2004,10 +2004,22 @@ function Times(time, data) {
                   backgroundColor = "#048439";
                   letterColor = "white";
                   break;
+            case "Tiradentes-DF":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#d30a11";
+                  letterColor = "black";
+                  break;
             case "Nova Venécia":
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#d30a11";
+                  letterColor = "white";
+                  break;
+            case "Taguatinga":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#000079";
                   letterColor = "white";
                   break;
             case "Nacional de Patos":
