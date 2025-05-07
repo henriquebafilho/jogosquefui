@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jogosquefui/static/css/main.6fbd8afb.css",
-    "main.js": "/jogosquefui/static/js/main.25d135f7.js",
+    "main.js": "/jogosquefui/static/js/main.612290f6.js",
     "static/media/Atanasio Girardot.png": "/jogosquefui/static/media/Atanasio Girardot.654b0fba4632fac4057b.png",
     "static/media/Corisabbá.png": "/jogosquefui/static/media/Corisabbá.4b6783df88df9e49eae8.png",
     "static/media/Colosso da Lagoa.png": "/jogosquefui/static/media/Colosso da Lagoa.b7008037ac5675a07045.png",
@@ -347,6 +347,7 @@
     "static/media/Ascoli.png": "/jogosquefui/static/media/Ascoli.3ba7f553dc633ee93501.png",
     "static/media/Nacional de Patos.png": "/jogosquefui/static/media/Nacional de Patos.cd38d3b691682d3be581.png",
     "static/media/Nacional de Rosário.png": "/jogosquefui/static/media/Nacional de Rosário.8b6787e61ef039aa3cfe.png",
+    "static/media/Taguatinga.png": "/jogosquefui/static/media/Taguatinga.c4b9ed7c787998f80e28.png",
     "static/media/Veracruz.png": "/jogosquefui/static/media/Veracruz.2ba1a07333b5f43b4786.png",
     "static/media/Cádiz.png": "/jogosquefui/static/media/Cádiz.69ae255c8c468d0bbe90.png",
     "static/media/São José-SP.png": "/jogosquefui/static/media/São José-SP.78174858f0ad2ce0816e.png",
@@ -730,6 +731,7 @@
     "static/media/Botafogo-SP2021.png": "/jogosquefui/static/media/Botafogo-SP2021.b1060d32687c1221c348.png",
     "static/media/América-MG1942.png": "/jogosquefui/static/media/América-MG1942.f3ff423c9c0d05c19a0e.png",
     "static/media/Botafogo-PB.png": "/jogosquefui/static/media/Botafogo-PB.e59df4fa72f2358b3b4c.png",
+    "static/media/Tiradentes-DF.png": "/jogosquefui/static/media/Tiradentes-DF.009ab01461720c4e7ddc.png",
     "static/media/Ferroviário.png": "/jogosquefui/static/media/Ferroviário.ffc322c97aacf743be96.png",
     "static/media/Alecrim-RN.png": "/jogosquefui/static/media/Alecrim-RN.2cd62d5af34d573f4a5a.png",
     "static/media/IndependienteSantaFé.png": "/jogosquefui/static/media/IndependienteSantaFé.2e68502166abfa265177.png",
@@ -818,10 +820,10 @@
     "static/media/Ceará.png": "/jogosquefui/static/media/Ceará.2667c31fce77d94092f4.png",
     "index.html": "/jogosquefui/index.html",
     "main.6fbd8afb.css.map": "/jogosquefui/static/css/main.6fbd8afb.css.map",
-    "main.25d135f7.js.map": "/jogosquefui/static/js/main.25d135f7.js.map"
+    "main.612290f6.js.map": "/jogosquefui/static/js/main.612290f6.js.map"
   },
   "entrypoints": [
     "static/css/main.6fbd8afb.css",
-    "static/js/main.25d135f7.js"
+    "static/js/main.612290f6.js"
   ]
 }
