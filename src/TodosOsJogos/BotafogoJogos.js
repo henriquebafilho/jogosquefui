@@ -3,6 +3,8 @@ import ProximosJogos from "./ProximosJogos";
 function jogos() {
     let jogos = [];
 
+    jogos.push({ "mandante": "Botafogo", "visitante": "Estudiantes", "golsMandante": 3, "golsVisitante": 2, "campeonato": "Libertadores 2025", "data": "2025-05-14", "estadio": "Nilton Santos", "horario": "21:30" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Internacional", "golsMandante": 4, "golsVisitante": 0, "campeonato": "Brasileirão 2025", "data": "2025-05-11", "estadio": "Nilton Santos", "horario": "20:00" });
     jogos.push({ "mandante": "Carabobo", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Libertadores 2025", "data": "2025-05-06", "estadio": "Misael Delgado", "horario": "19:00" });
     jogos.push({ "mandante": "Bahia", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Brasileirão 2025", "data": "2025-05-03", "estadio": "Fonte Nova", "horario": "21:00" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Capital", "golsMandante": 4, "golsVisitante": 0, "campeonato": "Copa do Brasil 2025", "data": "2025-04-30", "estadio": "Nilton Santos", "horario": "19:00" });
@@ -2478,7 +2480,7 @@ function jogos() {
     jogos.push({ "mandante": "Fluminense", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Carioca 1982", "data": "1982-09-11", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Vasco", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Carioca 1982", "data": "1982-09-05", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Portuguesa-RJ", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Carioca 1982", "data": "1982-08-29", "estadio": "Ítalo del Cima" });
-    jogos.push({ "mandante": "Americano", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Carioca 1982", "data": "1982-08-21", "estadio": "Godofredo Cruz" });
+    jogos.push({ "mandante": "Americano", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Carioca 1982", "data": "1982-08-22", "estadio": "Godofredo Cruz" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Campo Grande-RJ", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Carioca 1982", "data": "1982-08-19", "estadio": "Moça Bonita" });
     jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 0, "campeonato": "Carioca 1982", "data": "1982-08-14", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Bonsucesso", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Carioca 1982", "data": "1982-08-07", "estadio": "Maracanã" });
@@ -5861,7 +5863,7 @@ function jogos() {
     jogos.push({ "mandante": "Campo Grande-RJ", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Copa Rio", "data": "1991-06-22", "estadio": "" });
     jogos.push({ "mandante": "Americano", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Copa Rio", "data": "1991-06-22", "estadio": "" });
     jogos.push({ "mandante": "Araxá", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1991-07-20", "estadio": "" });
-    jogos.push({ "mandante": "Gama", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1990-05-13", "estadio": "" });
+    jogos.push({ "mandante": "Gama", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1990-05-13", "estadio": "Bezerrão" });
     jogos.push({ "mandante": "Rio Branco-ES", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1990-05-20", "estadio": "" });
     jogos.push({ "mandante": "Seleção de Nova Friburgo", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1989-01-29", "estadio": "" });
     jogos.push({ "mandante": "Fabril", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1988-06-18", "estadio": "" });
@@ -5927,6 +5929,16 @@ function jogos() {
     jogos.push({ "mandante": "Athletic", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1983-05-21", "estadio": "" });
     jogos.push({ "mandante": "Seleção de Barbacena", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1983-06-26", "estadio": "Santa Tereza" });
     jogos.push({ "mandante": "Brasília", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1983-12-18", "estadio": "Mané Garrincha" });
+    jogos.push({ "mandante": "Seleção de Ubá", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 5, "campeonato": "Amistoso", "data": "1982-01-20", "estadio": "Centenário (Ubá)" });
+    jogos.push({ "mandante": "Fluminense de Feira", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1982-03-28", "estadio": "" });
+    jogos.push({ "mandante": "Vitória", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1982-03-30", "estadio": "Fonte Nova" });
+    jogos.push({ "mandante": "Internacional-BA", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1982-03-30", "estadio": "Joviniano Dourado Lopes" });
+    jogos.push({ "mandante": "Sport-MG", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 5, "campeonato": "Amistoso", "data": "1982-04-18", "estadio": "" });
+    jogos.push({ "mandante": "Serrano", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 5, "campeonato": "Amistoso", "data": "1982-05-01", "estadio": "" });
+    jogos.push({ "mandante": "Serrano", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1982-06-10", "estadio": "" });
+    jogos.push({ "mandante": "Serrano", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1982-06-29", "estadio": "" });
+    jogos.push({ "mandante": "Brasília", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1982-12-08", "estadio": "" });
+    jogos.push({ "mandante": "Seleção de Foz do Iguaçu", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 6, "campeonato": "Amistoso", "data": "1982-12-12", "estadio": "" });
     
     jogos = jogos.concat(ProximosJogos());
 
