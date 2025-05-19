@@ -5933,7 +5933,7 @@ function jogos() {
     jogos.push({ "mandante": "Fluminense de Feira", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1982-03-28", "estadio": "" });
     jogos.push({ "mandante": "Vitória", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1982-03-30", "estadio": "Fonte Nova" });
     jogos.push({ "mandante": "Internacional-BA", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1982-03-30", "estadio": "Joviniano Dourado Lopes" });
-    jogos.push({ "mandante": "Sport-MG", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 5, "campeonato": "Amistoso", "data": "1982-04-18", "estadio": "" });
+    jogos.push({ "mandante": "Sport-MG", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 5, "campeonato": "Amistoso", "data": "1982-04-18", "estadio": "Doutor José Procópio Teixeira" });
     jogos.push({ "mandante": "Serrano", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 5, "campeonato": "Amistoso", "data": "1982-05-01", "estadio": "" });
     jogos.push({ "mandante": "Serrano", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1982-06-10", "estadio": "" });
     jogos.push({ "mandante": "Serrano", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1982-06-29", "estadio": "" });
