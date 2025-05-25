@@ -1602,6 +1602,12 @@ function Times(time, data) {
                   backgroundColor = "#d30a11";
                   letterColor = "white";
                   break;
+            case "Smart":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#d30a11";
+                  letterColor = "black";
+                  break;
             case "Villa Nova":
                   nomeAtual = time;
                   escudo = time;

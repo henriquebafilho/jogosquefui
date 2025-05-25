@@ -3,6 +3,8 @@ import ProximosJogos from "./ProximosJogos";
 function jogos() {
     let jogos = [];
 
+    jogos.push({ "mandante": "Capital", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Copa do Brasil 2025", "data": "2025-05-22", "estadio": "Mané Garrincha", "horario": "21:30" });
+    jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Brasileirão 2025", "data": "2025-05-18", "estadio": "Maracanã", "horario": "18:30" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Estudiantes", "golsMandante": 3, "golsVisitante": 2, "campeonato": "Libertadores 2025", "data": "2025-05-14", "estadio": "Nilton Santos", "horario": "21:30" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Internacional", "golsMandante": 4, "golsVisitante": 0, "campeonato": "Brasileirão 2025", "data": "2025-05-11", "estadio": "Nilton Santos", "horario": "20:00" });
     jogos.push({ "mandante": "Carabobo", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Libertadores 2025", "data": "2025-05-06", "estadio": "Misael Delgado", "horario": "19:00" });
@@ -5934,9 +5936,9 @@ function jogos() {
     jogos.push({ "mandante": "Vitória", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1982-03-30", "estadio": "Fonte Nova" });
     jogos.push({ "mandante": "Internacional-BA", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1982-03-30", "estadio": "Joviniano Dourado Lopes" });
     jogos.push({ "mandante": "Sport-MG", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 5, "campeonato": "Amistoso", "data": "1982-04-18", "estadio": "Doutor José Procópio Teixeira" });
-    jogos.push({ "mandante": "Serrano", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 5, "campeonato": "Amistoso", "data": "1982-05-01", "estadio": "" });
-    jogos.push({ "mandante": "Serrano", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1982-06-10", "estadio": "" });
-    jogos.push({ "mandante": "Serrano", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1982-06-29", "estadio": "" });
+    jogos.push({ "mandante": "Serrano", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 5, "campeonato": "Amistoso", "data": "1982-05-01", "estadio": "Atilio Marotti" });
+    jogos.push({ "mandante": "Serrano", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1982-06-10", "estadio": "Atilio Marotti" });
+    jogos.push({ "mandante": "Serrano", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1982-06-29", "estadio": "Atilio Marotti" });
     jogos.push({ "mandante": "Brasília", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1982-12-08", "estadio": "" });
     jogos.push({ "mandante": "Seleção de Foz do Iguaçu", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 6, "campeonato": "Amistoso", "data": "1982-12-12", "estadio": "" });
     jogos.push({ "mandante": "Potyguar", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1981-12-06", "estadio": "Bezerrão-RN" });
@@ -5947,12 +5949,13 @@ function jogos() {
     jogos.push({ "mandante": "Combinado Tocantins/Imperatriz", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1981-09-15", "estadio": "" });
     jogos.push({ "mandante": "Moto Club", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1981-09-17", "estadio": "Nhozinho Santos" });
     jogos.push({ "mandante": "Bahia", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1981-10-01", "estadio": "Fonte Nova" });
-    jogos.push({ "mandante": "Serrano", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1981-11-29", "estadio": "" });
+    jogos.push({ "mandante": "Serrano", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1981-11-29", "estadio": "Atilio Marotti" });
     jogos.push({ "mandante": "Baraúnas", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1981-12-01", "estadio": "" });
     jogos.push({ "mandante": "América-RN", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1981-12-03", "estadio": "Machadão" });
     jogos.push({ "mandante": "Sport-MG", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1980-05-27", "estadio": "Doutor José Procópio Teixeira" });
     jogos.push({ "mandante": "Volta Redonda", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1980-02-03", "estadio": "Raulino de Oliveira" });
     jogos.push({ "mandante": "Campo Grande", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1980-02-07", "estadio": "" });
+    jogos.push({ "mandante": "Barra Mansa", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1965-09-30", "estadio": "Esperidião Geraidine" });
     
     jogos = jogos.concat(ProximosJogos());
 
