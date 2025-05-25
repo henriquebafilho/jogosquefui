@@ -1608,6 +1608,12 @@ function Times(time, data) {
                   backgroundColor = "#d20001";
                   letterColor = "white";
                   break;
+            case "Marcílio Dias":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#000078";
+                  letterColor = "white";
+                  break;
             case "Obreros": case "Cruz Azul Hidalgo":
                   nomeAtual = "Cruz Azul Hidalgo";
                   escudo = time;
@@ -1624,6 +1630,12 @@ function Times(time, data) {
                   } else {
                         escudo = time;
                   }
+                  backgroundColor = "#11519b";
+                  letterColor = "white";
+                  break;
+            case "Potyguar":
+                  nomeAtual = time;
+                  escudo = time;
                   backgroundColor = "#11519b";
                   letterColor = "white";
                   break;
