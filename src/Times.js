@@ -1344,7 +1344,7 @@ function Times(time, data) {
                   backgroundColor = "#511a1d";
                   letterColor = "white";
                   break;
-            case "Ferroviário":
+            case "Ferroviário-CE":
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#d30a11";
