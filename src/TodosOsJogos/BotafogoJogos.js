@@ -5166,7 +5166,7 @@ function jogos() {
     jogos.push({ "mandante": "Palmeiras", "visitante": "Botafogo", "golsMandante": 4, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1957-02-27", "estadio": "Palestra Itália" });
     jogos.push({ "mandante": "Palmeiras", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1960-06-23", "estadio": "Pacaembu" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Palmeiras", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1962-06-28", "estadio": "Maracanã" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "Palmeiras", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Quadrangular de Aniversário do América-MG", "data": "1962-06-28", "estadio": "Mineirão" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Palmeiras", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Quadrangular de Aniversário do América-MG", "data": "1966-04-19", "estadio": "Mineirão" });
     jogos.push({ "mandante": "Palmeiras", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1971-06-30", "estadio": "Morumbi" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Palmeiras", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1996-06-11", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Grêmio", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1931-06-24", "estadio": "Estádio da Baixada" });
