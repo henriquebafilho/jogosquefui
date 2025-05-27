@@ -5130,7 +5130,7 @@ function jogos() {
     jogos.push({ "mandante": "Transvaal", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 4, "campeonato": "Torneio Quadrangular do Suriname", "data": "1964-06-17", "estadio": "" });
     jogos.push({ "mandante": "Leo Victor", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 5, "campeonato": "Torneio Quadrangular do Suriname", "data": "1964-06-19", "estadio": "" });
     jogos.push({ "mandante": "Universitario", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1965-01-13", "estadio": "Nacional (Lima)" });
-    jogos.push({ "mandante": "Alianza Lima", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1965-01-17", "estadio": "Nacional (Lima)" });
+    jogos.push({ "mandante": "Alianza Lima", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1965-01-17", "estadio": "Nacional (Lima)" });
     jogos.push({ "mandante": "Combinado Dep. Municipal/Sp. Cristal", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1965-01-19", "estadio": "" });
     jogos.push({ "mandante": "Universitario", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1965-01-22", "estadio": "" });
     jogos.push({ "mandante": "Melgar", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 6, "campeonato": "Amistoso", "data": "1965-01-24", "estadio": "" });
