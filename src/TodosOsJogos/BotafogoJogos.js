@@ -5367,7 +5367,7 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Canto do Rio", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Torneio Início 1962", "data": "1962-06-24", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Portuguesa-RJ", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Torneio Início 1963", "data": "1963-06-23", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Fluminense", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Torneio Início 1963", "data": "1963-06-23", "estadio": "Maracanã" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "Campo Grande-RJ", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Torneio Início 1963", "data": "1963-06-23", "estadio": "Maracanã" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Campo Grande-RJ", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Torneio Início 1963", "data": "1963-06-23", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Canto do Rio", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Torneio Início 1964", "data": "1964-06-28", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Bangu", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Torneio Início 1964", "data": "1964-06-28", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Botafogo", "visitante": "América-RJ", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Torneio Início 1965", "data": "1965-09-07", "estadio": "Maracanã" });
@@ -5960,6 +5960,7 @@ function jogos() {
     jogos.push({ "mandante": "Ferroviário-CE", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1957-06-23", "estadio": "" });
     jogos.push({ "mandante": "Goiânia", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 6, "campeonato": "Amistoso", "data": "1959-01-25", "estadio": "Olímpico (Goiânia)" });
     jogos.push({ "mandante": "Goiás", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1959-04-12", "estadio": "Olímpico (Goiânia)" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Millonarios", "golsMandante": "WO", "golsVisitante": 0, "campeonato": "Libertadores 1963", "data": "1963-07-31", "estadio": "Maracanã" });
     
     jogos = jogos.concat(ProximosJogos());
 
