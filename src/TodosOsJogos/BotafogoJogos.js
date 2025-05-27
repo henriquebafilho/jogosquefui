@@ -5903,10 +5903,10 @@ function jogos() {
     jogos.push({ "mandante": "Paysandu", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Torneio Pará-Guanabara", "data": "1966-05-01", "estadio": "Baenão" });
     jogos.push({ "mandante": "Paysandu", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 3, "campeonato": "Torneio Ney Braga", "data": "1976-11-07", "estadio": "Vivaldão" });
     jogos.push({ "mandante": "Paysandu", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 4, "campeonato": "Torneio Ney Braga", "data": "1976-11-24", "estadio": "Baenão" });
-    jogos.push({ "mandante": "Rio Negro-AM", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Torneio Quadrangular de Manaus", "data": "1985-05-22", "estadio": "" });
+    jogos.push({ "mandante": "Rio Negro-AM", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Torneio Quadrangular de Manaus", "data": "1985-05-22", "estadio": "Vivaldão" });
     jogos.push({ "mandante": "Nacional-AM", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Torneio Quadrangular de Manaus", "data": "1985-05-26", "estadio": "Vivaldão" });
-    jogos.push({ "mandante": "Bahia", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Torneio Quadrangular de Manaus", "data": "1985-05-28", "estadio": "" });
-    jogos.push({ "mandante": "Bahia", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1985-05-30", "estadio": "", "penaltis": "4 x 1" });
+    jogos.push({ "mandante": "Bahia", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Torneio Quadrangular de Manaus", "data": "1985-05-28", "estadio": "Vivaldão" });
+    jogos.push({ "mandante": "Bahia", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Troféu Governador de Rondônia", "data": "1985-05-30", "estadio": "", "penaltis": "4 x 1" });
     jogos.push({ "mandante": "Rio Branco-AC", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1985-06-01", "estadio": "" });
     jogos.push({ "mandante": "Cruzeiro", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1985-06-21", "estadio": "" });
     jogos.push({ "mandante": "Seleção de Teófilo Otoni", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1985-06-23", "estadio": "" });
