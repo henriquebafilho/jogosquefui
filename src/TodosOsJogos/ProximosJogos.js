@@ -19,7 +19,9 @@ function jogos() {
     jogos.push({ "mandante": "São Paulo", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2025", "data": "2025-09-13", "estadio": "Morumbi" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Red Bull Bragantino", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2025", "data": "2025-08-30", "estadio": "Nilton Santos" });
     jogos.push({ "mandante": "Juventude", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2025", "data": "2025-08-23", "estadio": "Alfredo Jaconi" });
+    jogos.push({ "mandante": "LDU", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Liberadores 2025", "data": "2025-08-20", "estadio": "Casablanca" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Palmeiras", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2025", "data": "2025-08-16", "estadio": "Nilton Santos" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "LDU", "golsMandante": "", "golsVisitante": "", "campeonato": "Liberadores 2025", "data": "2025-08-13", "estadio": "Nilton Santos" });
     jogos.push({ "mandante": "Fortaleza", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2025", "data": "2025-08-09", "estadio": "Castelão-CE" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Cruzeiro", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2025", "data": "2025-08-02", "estadio": "Nilton Santos" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Corinthians", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2025", "data": "2025-07-26", "estadio": "Nilton Santos" });
@@ -30,7 +32,7 @@ function jogos() {
     jogos.push({ "mandante": "Atlético de Madrid", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Super Mundial de Clubes 2025", "data": "2025-06-23", "estadio": "Rose Bowl", "horario": "16:00" });
     jogos.push({ "mandante": "Paris Saint-Germain", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Super Mundial de Clubes 2025", "data": "2025-06-19", "estadio": "Rose Bowl", "horario": "22:00" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Seattle Sounders", "golsMandante": "", "golsVisitante": "", "campeonato": "Super Mundial de Clubes 2025", "data": "2025-06-15", "estadio": "Lumen Field", "horario": "23:00" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "Mirassol", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2025", "data": "2025-06-11", "estadio": "Nilton Santos" });
+    //jogos.push({ "mandante": "Botafogo", "visitante": "Mirassol", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2025", "data": "2025-06-11", "estadio": "Nilton Santos" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Ceará", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2025", "data": "2025-06-04", "estadio": "Nilton Santos", "horario": "20:00" });
     jogos.push({ "mandante": "Santos", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Brasileirão 2025", "data": "2025-06-01", "estadio": "Vila Belmiro", "horario": "16:00" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Universidad de Chile", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Libertadores 2025", "data": "2025-05-27", "estadio": "Nilton Santos", "horario": "21:30" });
