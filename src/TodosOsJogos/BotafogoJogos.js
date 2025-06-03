@@ -5974,7 +5974,7 @@ function jogos() {
     jogos.push({ "mandante": "Uberaba", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1957-05-03", "estadio": "Boulanger Pucci" });
     jogos.push({ "mandante": "Olímpica de Lavras", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1957-05-19", "estadio": "" });
     jogos.push({ "mandante": "Sport-MG", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1957-05-24", "estadio": "Doutor José Procópio Teixeira" });
-    jogos.push({ "mandante": "América de Três Rios", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 7, "campeonato": "Amistoso", "data": "1957-05-28", "estadio": "Doutor José Procópio Teixeira" });
+    jogos.push({ "mandante": "América de Três Rios", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 7, "campeonato": "Amistoso", "data": "1957-05-28", "estadio": "" });
 
     jogos = jogos.concat(ProximosJogos());
 
