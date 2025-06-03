@@ -3,6 +3,8 @@ import ProximosJogos from "./ProximosJogos";
 function jogos() {
     let jogos = [];
 
+    jogos.push({ "mandante": "Santos", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Brasileirão 2025", "data": "2025-06-01", "estadio": "Vila Belmiro", "horario": "16:00" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Universidad de Chile", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Libertadores 2025", "data": "2025-05-27", "estadio": "Nilton Santos", "horario": "21:30" });
     jogos.push({ "mandante": "Capital", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Copa do Brasil 2025", "data": "2025-05-22", "estadio": "Mané Garrincha", "horario": "21:30" });
     jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Brasileirão 2025", "data": "2025-05-18", "estadio": "Maracanã", "horario": "18:30" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Estudiantes", "golsMandante": 3, "golsVisitante": 2, "campeonato": "Libertadores 2025", "data": "2025-05-14", "estadio": "Nilton Santos", "horario": "21:30" });
@@ -5146,7 +5148,7 @@ function jogos() {
     jogos.push({ "mandante": "Atlético Operário", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1961-07-23", "estadio": "Waldermar de Brito" });
     jogos.push({ "mandante": "Londrina", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 8, "campeonato": "Amistoso", "data": "1961-08-30", "estadio": "VGD" });
     jogos.push({ "mandante": "Estrela do Norte", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 6, "campeonato": "Taça Capitão Válter Paiva", "data": "1961-09-07", "estadio": "Sumaré" });
-    jogos.push({ "mandante": "Guará", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 6, "campeonato": "Amistoso", "data": "1961-09-17", "estadio": "Israel Pinheiro" });
+    jogos.push({ "mandante": "Guará", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 6, "campeonato": "Amistoso", "data": "1961-09-17", "estadio": "Israel Pinheiro (Brasília)" });
     jogos.push({ "mandante": "América-MG", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1961-09-20", "estadio": "Otacílio Negrão de Lima" });
     jogos.push({ "mandante": "Palestra Itália-SP", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1922-05-03", "estadio": "Palestra Itália" });
     jogos.push({ "mandante": "Palestra Itália-SP", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1929-03-10", "estadio": "Palestra Itália" });
@@ -5961,7 +5963,19 @@ function jogos() {
     jogos.push({ "mandante": "Goiânia", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 6, "campeonato": "Amistoso", "data": "1959-01-25", "estadio": "Olímpico (Goiânia)" });
     jogos.push({ "mandante": "Goiás", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1959-04-12", "estadio": "Olímpico (Goiânia)" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Millonarios", "golsMandante": "WO", "golsVisitante": 0, "campeonato": "Libertadores 1963", "data": "1963-07-31", "estadio": "Maracanã" });
-    
+    jogos.push({ "mandante": "Valeriodoce", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1957-02-17", "estadio": "Israel Pinheiro (Itabira)" });
+    jogos.push({ "mandante": "Internacional de Bebedouro", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1957-02-21", "estadio": "" });
+    jogos.push({ "mandante": "América SJ Rio Preto", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1957-02-23", "estadio": "" });
+    jogos.push({ "mandante": "Catanduva", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1957-02-24", "estadio": "" });
+    jogos.push({ "mandante": "Smart", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1957-04-21", "estadio": "" });
+    jogos.push({ "mandante": "Ituiutaba", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1957-04-28", "estadio": "" });
+    jogos.push({ "mandante": "Botafogo-SP", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1957-05-01", "estadio": "" });
+    jogos.push({ "mandante": "Uberaba", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1957-05-02", "estadio": "Boulanger Pucci" });
+    jogos.push({ "mandante": "Uberaba", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1957-05-03", "estadio": "Boulanger Pucci" });
+    jogos.push({ "mandante": "Olímpica de Lavras", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1957-05-19", "estadio": "" });
+    jogos.push({ "mandante": "Sport-MG", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1957-05-24", "estadio": "Doutor José Procópio Teixeira" });
+    jogos.push({ "mandante": "América de Três Rios", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 7, "campeonato": "Amistoso", "data": "1957-05-28", "estadio": "Doutor José Procópio Teixeira" });
+
     jogos = jogos.concat(ProximosJogos());
 
     jogos.sort(function (a, b) {

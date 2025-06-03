@@ -520,11 +520,12 @@ function Times(time, data) {
                   backgroundColor = "#0d80bf";
                   letterColor = "white";
                   break;
-            case "Boa Esporte":
-                  nomeAtual = time;
-                  escudo = "BoaEsporte";
+            case "Boa Esporte": case "Ituiutaba":
+                  nomeAtual = "Boa Esporte";
+                  escudo = time;
                   backgroundColor = "#d30a11";
                   letterColor = "white";
+                  nomesAnteriores = ["Ituiutaba"];
                   break;
             case "Boavista": case "Barreira":
                   nomeAtual = "Boavista";
@@ -1025,6 +1026,12 @@ function Times(time, data) {
                   backgroundColor = "#003a94";
                   letterColor = "white";
                   break;
+            case "Olímpica de Lavras":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#003a94";
+                  letterColor = "white";
+                  break;
             case "Cruzeiro": case "Palestra Itália-MG":
                   nomeAtual = "Cruzeiro";
                   if (time === "Cruzeiro") {
@@ -1345,6 +1352,30 @@ function Times(time, data) {
                   letterColor = "white";
                   break;
             case "Ferroviário-CE":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#d30a11";
+                  letterColor = "white";
+                  break;
+            case "Valeriodoce":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#d30a11";
+                  letterColor = "white";
+                  break;
+            case "Catanduva":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#17116b";
+                  letterColor = "#fbef1e";
+                  break;
+            case "Internacional de Bebedouro":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#d30a11";
+                  letterColor = "white";
+                  break;
+            case "América SJ Rio Preto":
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#d30a11";
