@@ -35,7 +35,7 @@ function jogos() {
     jogos.push({ "mandante": "Paris Saint-Germain", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Super Mundial de Clubes 2025", "data": "2025-06-19", "estadio": "Rose Bowl", "horario": "22:00" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Seattle Sounders", "golsMandante": "", "golsVisitante": "", "campeonato": "Super Mundial de Clubes 2025", "data": "2025-06-15", "estadio": "Lumen Field", "horario": "23:00" });
     //jogos.push({ "mandante": "Botafogo", "visitante": "Mirassol", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2025", "data": "2025-06-11", "estadio": "Nilton Santos" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "Ceará", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2025", "data": "2025-06-04", "estadio": "Nilton Santos", "horario": "20:00" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Ceará", "golsMandante": 3, "golsVisitante": 2, "campeonato": "Brasileirão 2025", "data": "2025-06-04", "estadio": "Nilton Santos", "horario": "20:00" });
 
     jogos.sort(function (a, b) {
         return a.data < b.data ? -1 : a.data > b.data ? 1 : 0;
