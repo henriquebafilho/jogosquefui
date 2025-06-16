@@ -4840,8 +4840,8 @@ function jogos() {
     jogos.push({ "mandante": "Camarões", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1972-01-27", "estadio": "" });
     jogos.push({ "mandante": "Camarões", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1972-01-23", "estadio": "" });
     jogos.push({ "mandante": "Mali", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1972-01-16", "estadio": "" });
+    jogos.push({ "mandante": "Puebla", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1971-02-16", "estadio": "" });
     jogos.push({ "mandante": "Atlante", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1971-02-14", "estadio": "Los Angeles Memorial Coliseum" });
-    jogos.push({ "mandante": "Puebla", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1971-02-11", "estadio": "" });
     jogos.push({ "mandante": "América-MEX", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1971-02-09", "estadio": "" });
     jogos.push({ "mandante": "Veracruz", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1971-02-07", "estadio": "" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Partizan", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1971-02-02", "estadio": "El Campín" });
