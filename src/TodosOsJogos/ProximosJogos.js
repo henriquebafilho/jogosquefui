@@ -23,9 +23,9 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Palmeiras", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2025", "data": "2025-08-16", "estadio": "Nilton Santos" });
     jogos.push({ "mandante": "Botafogo", "visitante": "LDU", "golsMandante": "", "golsVisitante": "", "campeonato": "Libertadores 2025", "data": "2025-08-14", "estadio": "Nilton Santos", "horario": "19:00" });
     jogos.push({ "mandante": "Fortaleza", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2025", "data": "2025-08-09", "estadio": "Castelão-CE" });
-    jogos.push({ "mandante": "Red Bull Bragantino", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Copa do Brasil 2025", "data": "2025-08-06", "estadio": "Nabi Abi Chedid" });
+    jogos.push({ "mandante": "Red Bull Bragantino", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Copa do Brasil 2025", "data": "2025-08-06", "estadio": "Cicero De Souza Marques", "horario": "19:00" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Cruzeiro", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2025", "data": "2025-08-02", "estadio": "Nilton Santos" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "Red Bull Bragantino", "golsMandante": "", "golsVisitante": "", "campeonato": "Copa do Brasil 2025", "data": "2025-07-30", "estadio": "Nilton Santos" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Red Bull Bragantino", "golsMandante": "", "golsVisitante": "", "campeonato": "Copa do Brasil 2025", "data": "2025-07-29", "estadio": "Nilton Santos", "horario": "19:00" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Corinthians", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2025", "data": "2025-07-26", "estadio": "Nilton Santos" });
     jogos.push({ "mandante": "Grêmio", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2025", "data": "2025-07-23", "estadio": "Arena do Grêmio" });
     jogos.push({ "mandante": "Sport", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2025", "data": "2025-07-19", "estadio": "Ilha do Retiro" });
