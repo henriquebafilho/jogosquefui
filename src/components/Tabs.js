@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+/* import React, { Component } from 'react';
 import Adversarios from '../pages/Adversarios';
 import Anos from '../pages/Anos';
 import Estadios from '../pages/Estadios';
@@ -133,4 +133,44 @@ class Tabs extends Component {
     }
 }
 
-export default Tabs;
+export default Tabs; */
+
+import React from 'react';
+import { NavLink } from 'react-router-dom';
+
+function TabComponent() {
+  return (
+    <nav style={{ display: 'flex', borderBottom: '1px solid #eee', marginBottom: '20px' }}>
+      <NavLink
+        to="proximos" // Rota relativa à rota pai (que é Perfil)
+        className={({ isActive }) => (isActive ? 'active-tab' : 'tab-item')}
+        style={{ padding: '10px 15px', textDecoration: 'none', color: 'black', borderRight: '1px solid #eee' }}
+      >
+        Tab 1
+      </NavLink>
+      <NavLink
+        to="anos"
+        className={({ isActive }) => (isActive ? 'active-tab' : 'tab-item')}
+        style={{ padding: '10px 15px', textDecoration: 'none', color: 'black', borderRight: '1px solid #eee' }}
+      >
+        Tab 2
+      </NavLink>
+      <NavLink
+        to="estadios"
+        className={({ isActive }) => (isActive ? 'active-tab' : 'tab-item')}
+        style={{ padding: '10px 15px', textDecoration: 'none', color: 'black', borderRight: '1px solid #eee' }}
+      >
+        Tab 3
+      </NavLink>
+      <NavLink
+        to="adversarios"
+        className={({ isActive }) => (isActive ? 'active-tab' : 'tab-item')}
+        style={{ padding: '10px 15px', textDecoration: 'none', color: 'black' }}
+      >
+        Tab 4
+      </NavLink>
+    </nav>
+  );
+}
+
+export default TabComponent;
