@@ -5977,6 +5977,20 @@ function jogos() {
     jogos.push({ "mandante": "Olímpica de Lavras", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1957-05-19", "estadio": "" });
     jogos.push({ "mandante": "Sport-MG", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1957-05-24", "estadio": "Doutor José Procópio Teixeira" });
     jogos.push({ "mandante": "América de Três Rios", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 7, "campeonato": "Amistoso", "data": "1957-05-28", "estadio": "" });
+    jogos.push({ "mandante": "ABC", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1962-05-01", "estadio": "Juvenal Lamartine" });
+    jogos.push({ "mandante": "ABC", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1970-12-13", "estadio": "Juvenal Lamartine" });
+    jogos.push({ "mandante": "Campinense", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1962-05-06", "estadio": "Plínio Lemos" });
+    jogos.push({ "mandante": "Campinense", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1973-06-26", "estadio": "Presidente Vargas (Campina Grande)" });
+    jogos.push({ "mandante": "Campinense", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1975-03-08", "estadio": "Amigão" });
+    jogos.push({ "mandante": "Nacional-AM", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1962-05-09", "estadio": "" });
+    jogos.push({ "mandante": "Seleção do Amazonas", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1962-05-13", "estadio": "" });
+    jogos.push({ "mandante": "River-PI", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1962-05-23", "estadio": "" });
+    jogos.push({ "mandante": "Botafogo-PB", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1960-09-25", "estadio": "Vila Olímpica Parahyba" });
+    jogos.push({ "mandante": "Botafogo-PB", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1962-05-27", "estadio": "Vila Olímpica Parahyba" });
+    jogos.push({ "mandante": "CRB", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1962-06-03", "estadio": "" });
+    jogos.push({ "mandante": "CRB", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1970-12-09", "estadio": "Rei Pelé" });
+    jogos.push({ "mandante": "Sergipe", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1962-06-08", "estadio": "Batistão" });
+    jogos.push({ "mandante": "Royal", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 6, "campeonato": "Amistoso", "data": "1962-10-03", "estadio": "Paulo Fernandes" });
 
     jogos = jogos.concat(ProximosJogos());
 
