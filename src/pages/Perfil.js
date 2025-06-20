@@ -13,13 +13,7 @@ function Perfil(props) {
   return (
     <>
       <div className="App-header" style={{ backgroundColor: Times(props.meuTime).backgroundColor }}>
-        <div style={{ margin: '20px' }}>
-          <p style={{ display: 'inline', color: Times(props.meuTime).letterColor }}>
-            Botafogo de Futebol e Regatas
-          </p>
-        </div>
-        <img src={require('../escudos/' + Times(props.meuTime).escudo + '.png')} className="App-logo" alt={"Escudo do " + props.meuTime} style={{ verticalAlign: 'middle', width: '100px', height: '100px' }} />
-        <br />
+        
         <Tabs meuTime={meuTime} meusJogos={meusJogos} />
       </div>
     </>
@@ -35,30 +29,30 @@ import Anos from './Anos';
 import Estadios from './Estadios';
 import Adversarios from './Adversarios';
 import Times from '../Times';
+import { useTime } from '../MeuTime';
 
 function Perfil() {
-  const meuTime = "Botafogo";
+  const meuTime = useTime().time;
   document.body.style = `background: ${Times(meuTime).backgroundColor}; color: ${Times(meuTime).letterColor}`;
   return (
-    <div>
-      {/* Cabeçalho do Perfil (fica sempre visível) */}
-      <header>
-        <h1>Meu Perfil</h1>
-        <p>Informações de usuário</p>
-      </header>
+    <div className="App-header" style={{ backgroundColor: Times(meuTime).backgroundColor }}>
+      <div style={{ margin: '20px' }}>
+        <p style={{ display: 'inline', color: Times(meuTime).letterColor }}>
+          Botafogo de Futebol e Regatas
+        </p>
+      </div>
+      <img src={require('../escudos/' + Times(meuTime).escudo + '.png')} className="App-logo" alt={"Escudo do " + meuTime} style={{ verticalAlign: 'middle', width: '100px', height: '100px' }} />
+      <br />
 
-      {/* Componente de Tabs */}
-      <Tabs />
+      <Tabs meuTime={meuTime} />
 
-      {/* Conteúdo das Telas (renderizado pela rota filha) */}
       <main style={{ padding: '20px' }}>
         <Routes>
-          {/* Redireciona para a primeira tela por padrão se a rota for apenas /perfil */}
-          <Route path="/" element={<Navigate to="tela1" replace />} />
-          <Route path="proximos" element={<ProximosJogos meuTime={meuTime}/>} />
-          <Route path="anos" element={<Anos meuTime={meuTime}/>} />
-          <Route path="estadios" element={<Estadios meuTime={meuTime}/>} />
-          <Route path="adversario" element={<Adversarios meuTime={meuTime}/>} />
+          <Route path="/" element={<Navigate to="proximos" replace />} />
+          <Route path="proximos" element={<ProximosJogos meuTime={meuTime} />} />
+          <Route path="anos" element={<Anos meuTime={meuTime} />} />
+          <Route path="estadios" element={<Estadios meuTime={meuTime} />} />
+          <Route path="adversarios" element={<Adversarios meuTime={meuTime} />} />
         </Routes>
       </main>
     </div>

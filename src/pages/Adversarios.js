@@ -74,6 +74,7 @@ class Adversarios extends Component {
     this.setState({ isLoading: false });
   }
 
+
   buttonClick = async (adversario) => {
     this.setState({ clicked: true, adversarioAtual: adversario });
   }
