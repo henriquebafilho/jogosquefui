@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jogosquefui/static/css/main.6fbd8afb.css",
-    "main.js": "/jogosquefui/static/js/main.c86d1d94.js",
+    "main.js": "/jogosquefui/static/js/main.f8498e21.js",
     "static/media/Atanasio Girardot.png": "/jogosquefui/static/media/Atanasio Girardot.654b0fba4632fac4057b.png",
     "static/media/Corisabbá.png": "/jogosquefui/static/media/Corisabbá.4b6783df88df9e49eae8.png",
     "static/media/Colosso da Lagoa.png": "/jogosquefui/static/media/Colosso da Lagoa.b7008037ac5675a07045.png",
@@ -93,7 +93,7 @@
     "static/media/2012.png": "/jogosquefui/static/media/2012.a05542812f4344ffa6eb.png",
     "static/media/1969.png": "/jogosquefui/static/media/1969.c0e3a08899e3632c10f3.png",
     "static/media/1993.png": "/jogosquefui/static/media/1993.d29954c552efc407f427.png",
-    "static/media/ADN-Niterói.png": "/jogosquefui/static/media/ADN-Niterói.d2d872b60bac56e6e77d.png",
+    "static/media/Niterói.png": "/jogosquefui/static/media/Niterói.d2d872b60bac56e6e77d.png",
     "static/media/1996.png": "/jogosquefui/static/media/1996.d84a6a2d4f98b924c63b.png",
     "static/media/Anacleto Campanella.png": "/jogosquefui/static/media/Anacleto Campanella.f33934501160e3976a39.png",
     "static/media/Laranjeiras.png": "/jogosquefui/static/media/Laranjeiras.5708e911712e042c00c2.png",
@@ -468,6 +468,7 @@
     "static/media/DeportivoLara.png": "/jogosquefui/static/media/DeportivoLara.1ae3c2beb80b6c9d1ba4.png",
     "static/media/Guarany de Bagé.png": "/jogosquefui/static/media/Guarany de Bagé.efb99dd0dcec79f53b7f.png",
     "static/media/Hajduk Split.png": "/jogosquefui/static/media/Hajduk Split.7d9d437244fccaad88c7.png",
+    "static/media/União Carvalheira.png": "/jogosquefui/static/media/União Carvalheira.260f89cbe22ea5e65df0.png",
     "static/media/IFK Norrkoping.png": "/jogosquefui/static/media/IFK Norrkoping.6dfa625a00156d37e959.png",
     "static/media/Londrina.png": "/jogosquefui/static/media/Londrina.22675c67c69141f86fca.png",
     "static/media/Deportivo Cali.png": "/jogosquefui/static/media/Deportivo Cali.74af4f1315b2abdaae2e.png",
@@ -475,6 +476,7 @@
     "static/media/Cabofriense1997.png": "/jogosquefui/static/media/Cabofriense1997.80c65893a9643ada23d3.png",
     "static/media/Associação Internacional-RJ.png": "/jogosquefui/static/media/Associação Internacional-RJ.bde40544f60cd553fe24.png",
     "static/media/Cabofriense.png": "/jogosquefui/static/media/Cabofriense.930f45d92b80571b54aa.png",
+    "static/media/Hepacaré.png": "/jogosquefui/static/media/Hepacaré.763f3e40d8f2696466f8.png",
     "static/media/Juventus2004.png": "/jogosquefui/static/media/Juventus2004.f9613536527da4d1c242.png",
     "static/media/Saint-Étienne2022.png": "/jogosquefui/static/media/Saint-Étienne2022.4e3faa9639e800df344f.png",
     "static/media/Chile.png": "/jogosquefui/static/media/Chile.f8afda31781a16cac91a.png",
@@ -489,7 +491,7 @@
     "static/media/Blumenau.png": "/jogosquefui/static/media/Blumenau.b8e99e6d4459662842b7.png",
     "static/media/Servette.png": "/jogosquefui/static/media/Servette.b14842e3b06b48cacaa6.png",
     "static/media/Saarbrucken.png": "/jogosquefui/static/media/Saarbrucken.382571019c039e25c23f.png",
-    "static/media/Rio Negro-AM.png": "/jogosquefui/static/media/Rio Negro-AM.bd18f70c7b7f1465cf6f.png",
+    "static/media/Rio Negro.png": "/jogosquefui/static/media/Rio Negro.bd18f70c7b7f1465cf6f.png",
     "static/media/Seattle Sounders.png": "/jogosquefui/static/media/Seattle Sounders.ff7c217d686560fa0447.png",
     "static/media/Bahia de Feira.png": "/jogosquefui/static/media/Bahia de Feira.a2976e65190c03ad9cff.png",
     "static/media/Nurnberg.png": "/jogosquefui/static/media/Nurnberg.99f3cb986bf76869d5f3.png",
@@ -829,10 +831,10 @@
     "static/media/Ceará.png": "/jogosquefui/static/media/Ceará.2667c31fce77d94092f4.png",
     "index.html": "/jogosquefui/index.html",
     "main.6fbd8afb.css.map": "/jogosquefui/static/css/main.6fbd8afb.css.map",
-    "main.c86d1d94.js.map": "/jogosquefui/static/js/main.c86d1d94.js.map"
+    "main.f8498e21.js.map": "/jogosquefui/static/js/main.f8498e21.js.map"
   },
   "entrypoints": [
     "static/css/main.6fbd8afb.css",
-    "static/js/main.c86d1d94.js"
+    "static/js/main.f8498e21.js"
   ]
 }
