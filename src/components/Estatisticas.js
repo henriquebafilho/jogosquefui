@@ -4,13 +4,13 @@ import Common from '../common';
 function Estatisticas(props) {
     // Calcular vitórias, empates e derrotas de acordo com o array de jogos
     var total = props.jogos.length;
-    var vitorias = Common.getVitorias(props.meuTime, props.jogos);
-    var empates = Common.getEmpates(props.meuTime, props.jogos);
-    var derrotas = Common.getDerrotas(props.meuTime, props.jogos);
+    var vitorias = Common.getVitorias(props.time, props.jogos);
+    var empates = Common.getEmpates(props.time, props.jogos);
+    var derrotas = Common.getDerrotas(props.time, props.jogos);
     return (
         <div style={{ paddingBottom: '30px', width: '100%', fontSize: '25px' }}>
-            <p style={{ color: Times(props.meuTime).letterColor }}>{total} jogo{total > 1 ? 's' : ''}</p>
-            <div className='resultsBar' style={{ borderColor: Times(props.meuTime).backgroundColor === 'white' ? 'black' : 'white' }}>
+            <p style={{ color: Times(props.time).letterColor }}>{total} jogo{total > 1 ? 's' : ''}</p>
+            <div className='resultsBar' style={{ borderColor: Times(props.time).backgroundColor === 'white' ? 'black' : 'white' }}>
                 <div className="vitoriasBar" title={vitorias + ' Vitórias'}
                     style={{
                         width: vitorias * 100 / total + '%',

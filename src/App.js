@@ -1,21 +1,21 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Footer from './components/Footer';
-import Perfil from './pages/Perfil';
+import Principal from './pages/Principal';
 import VoltarAoTopo from './components/VoltarAoTopo';
 import Times from './Times';
-import { TimeProvider } from './MeuTime';
+import { TimeProvider } from './Time';
 
 function App() {
-  const meuTime = "Botafogo"; //tentar usar context aqui
-  document.body.style = `background: ${Times(meuTime).backgroundColor}; color: ${Times(meuTime).letterColor}`;
+  const time = "Botafogo"; //tentar usar context aqui
+  document.body.style = `background: ${Times(time).backgroundColor}; color: ${Times(time).letterColor}`;
 
   return (
     <>
       <TimeProvider>
         <Router>
           <Routes>
-            <Route exact path='/jogosquefui/*' element={<Perfil meuTime={meuTime} />} />
+            <Route exact path='/jogosquefui/*' element={<Principal time={time} />} />
           </Routes>
         </Router>
         <VoltarAoTopo />

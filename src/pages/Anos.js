@@ -8,7 +8,7 @@ class Anos extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      meuTime: props.meuTime,
+      time: props.time,
       jogos: [],
       anos: [],
       filtered: [],
@@ -71,14 +71,14 @@ class Anos extends Component {
   }
 
   render() {
-    const meuTime = this.state.meuTime;
+    const time = this.state.time;
     const meusJogos = this.state.jogos;
     const buttonClickFunction = (ano) => this.buttonClick(ano);
 
     return (
       <>
-        {this.state.clicked ? <ViewAno meuTime={this.props.meuTime} meusJogos={meusJogos} jogosAno={this.state.jogosAno} ano={this.state.anoAtual} /> :
-          <div className="App-header" style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor, alignItems: 'normal' }}>
+        {this.state.clicked ? <ViewAno time={this.props.time} meusJogos={meusJogos} jogosAno={this.state.jogosAno} ano={this.state.anoAtual} /> :
+          <div className="App-header" style={{ backgroundColor: Times(this.props.time).backgroundColor, color: Times(this.props.time).letterColor, alignItems: 'normal' }}>
             <table>
               <tbody>
                 {this.state.isLoading && <h1>Carregando...</h1>}
@@ -105,14 +105,14 @@ class Anos extends Component {
                       imagemAno = "";
                     }
                     return <div key={i}>
-                      <button id='selectAno' onClick={() => buttonClickFunction(i)} style={{ borderColor: Times(meuTime).letterColor, borderStyle: 'solid', backgroundColor: Times(meuTime).backgroundColor, color: Times(meuTime).letterColor }}>
+                      <button id='selectAno' onClick={() => buttonClickFunction(i)} style={{ borderColor: Times(time).letterColor, borderStyle: 'solid', backgroundColor: Times(time).backgroundColor, color: Times(time).letterColor }}>
                         <div>{imagemAno !== "" ? <img src={imagemAno} style={{ verticalAlign: 'middle' }} alt='ano' height='150' width='150' /> : ""}</div>
                         <div id='tituloOpcao' style={{ display: 'inline', padding: '10px', fontSize: '30px' }}>{i}</div>
                         <div style={{ paddingBottom: '5px', fontSize: '15px', fontWeight: '100' }}>{totalAno} {totalAno > 1 ? "jogos" : "jogo"}</div>
                       </button>
                     </div>
                   }) : <div>
-                    <h4 style={{ color: Times(this.state.meuTime).letterColor, textAlign: 'center', paddingBottom: '50px' }}>Nenhum ano encontrado</h4>
+                    <h4 style={{ color: Times(this.state.time).letterColor, textAlign: 'center', paddingBottom: '50px' }}>Nenhum ano encontrado</h4>
                   </div>}
               </tbody>
             </table>

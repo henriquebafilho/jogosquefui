@@ -7,7 +7,7 @@ class ProximosJogos extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            meuTime: props.meuTime,
+            time: props.time,
             proximosJogos: [],
             isLoading: false,
             clicked: false
@@ -32,17 +32,17 @@ class ProximosJogos extends Component {
     }
 
     render() {
-        const meuTime = this.state.meuTime;
+        const time = this.state.time;
         const jogos = this.state.proximosJogos;
         return (
             <>
-                <div className="container" style={{ color: Times(this.props.meuTime).letterColor, backgroundColor: Times(this.props.meuTime).backgroundColor }}>
+                <div className="container" style={{ color: Times(this.props.time).letterColor, backgroundColor: Times(this.props.time).backgroundColor }}>
                     {jogos.length > 0 ? jogos.map((index) => {
                         return <div>
-                            <LinhaJogo key={JSON.stringify(index)} meuTime={meuTime} jogo={index} />
+                            <LinhaJogo key={JSON.stringify(index)} time={time} jogo={index} />
                         </div>
                     }) : <div>
-                        <h4 style={{ color: Times(meuTime).letterColor, textAlign: 'center' }}>Não há jogos futuros</h4>
+                        <h4 style={{ color: Times(time).letterColor, textAlign: 'center' }}>Não há jogos futuros</h4>
                     </div>}
                 </div>
             </>

@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom';
 import Times from '../Times';
-import { useTime } from '../MeuTime';
+import { useTime } from '../Time';
 
 function TabComponent() {
     const time = useTime().time;
@@ -9,7 +9,7 @@ function TabComponent() {
             <div className="bloc-tabs">
                 <NavLink
                     id="tab"
-                    to="proximos" // Rota relativa à rota pai (que é Perfil)
+                    to="proximos" // Rota relativa à rota pai (que é Principal)
                     className={({ isActive }) => (isActive ? "tabs active-tabs" : 'tabs')}
                     style={{ textDecoration: 'none' }}
                 >
