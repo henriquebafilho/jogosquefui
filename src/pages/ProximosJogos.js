@@ -9,26 +9,24 @@ class ProximosJogos extends Component {
         this.state = {
             time: props.time,
             proximosJogos: [],
-            isLoading: false,
-            clicked: false
+            isLoading: false
         }
     }
 
     async componentDidMount() {
         this._isMounted = true;
         window.scrollTo(0, 0);
-        this.setState({ isLoading: true })
         await this.getProximosJogos();
-        this.setState({ isLoading: false })
     }
 
     getProximosJogos = async () => {
+        this.setState({ isLoading: true })
         let todosOsJogos = Proximos();
 
         let proximosJogos = todosOsJogos.filter(function (i) {
             return i.golsMandante === "" && i.golsVisitante === "";
         });
-        this.setState({ proximosJogos });
+        this.setState({ proximosJogos, isLoading: false });
     }
 
     render() {

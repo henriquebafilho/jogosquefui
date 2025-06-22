@@ -1,16 +1,20 @@
-import { NavLink } from 'react-router-dom';
+import { NavLink, useLocation } from 'react-router-dom';
 import Times from '../Times';
 import { useTime } from '../Time';
 
-function TabComponent() {
+function TabMain() {
     const time = useTime().time;
+    const location = useLocation();
+    const isRecentesActive = location.pathname === '/jogosquefui/' || location.pathname.startsWith('/jogosquefui/proximos');
+
     return (
         <nav className="container" style={{ color: Times(time).letterColor, backgroundColor: Times(time).backgroundColor, border: "3px" }}>
             <div className="bloc-tabs">
                 <NavLink
                     id="tab"
-                    to="proximos" // Rota relativa à rota pai (que é Principal)
-                    className={({ isActive }) => (isActive ? "tabs active-tabs" : 'tabs')}
+                    to="/jogosquefui/"
+                    end
+                    className={({ isActive }) => (isActive || isRecentesActive ? 'tabs active-tabs' : 'tabs')}
                     style={{ textDecoration: 'none' }}
                 >
                     Recentes
@@ -44,4 +48,4 @@ function TabComponent() {
     );
 }
 
-export default TabComponent;
+export default TabMain;
