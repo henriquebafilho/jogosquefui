@@ -2580,7 +2580,7 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Serrano", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Carioca 1980", "data": "1980-10-26", "estadio": "Atilio Marotti" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Bangu", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Carioca 1980", "data": "1980-10-19", "estadio": "Marechal Hermes" });
     jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Carioca 1980", "data": "1980-10-12", "estadio": "Maracanã" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "ADN-Niterói", "golsMandante": 3, "golsVisitante": 0, "campeonato": "Carioca 1980", "data": "1980-10-08", "estadio": "Marechal Hermes" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Niterói", "golsMandante": 3, "golsVisitante": 0, "campeonato": "Carioca 1980", "data": "1980-10-08", "estadio": "Marechal Hermes" });
     jogos.push({ "mandante": "Volta Redonda", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Carioca 1980", "data": "1980-10-05", "estadio": "Raulino de Oliveira" });
     jogos.push({ "mandante": "Botafogo", "visitante": "América-RJ", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Carioca 1980", "data": "1980-10-01", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Americano", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Carioca 1980", "data": "1980-09-28", "estadio": "Marechal Hermes" });
@@ -2645,7 +2645,7 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Bonsucesso", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Carioca 1979", "data": "1979-06-27", "estadio": "Marechal Hermes" });
     jogos.push({ "mandante": "Goytacaz", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Carioca 1979", "data": "1979-06-24", "estadio": "Aryzão" });
     jogos.push({ "mandante": "Campo Grande-RJ", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Carioca 1979", "data": "1979-06-17", "estadio": "Ítalo del Cima" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "ADN-Niterói", "golsMandante": 7, "golsVisitante": 1, "campeonato": "Carioca 1979", "data": "1979-06-14", "estadio": "Marechal Hermes" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Niterói", "golsMandante": 7, "golsVisitante": 1, "campeonato": "Carioca 1979", "data": "1979-06-14", "estadio": "Marechal Hermes" });
     jogos.push({ "mandante": "Fluminense Nova Friburgo", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 3, "campeonato": "Carioca 1979", "data": "1979-06-10", "estadio": "Marechal Hermes" });
     jogos.push({ "mandante": "São Cristóvão", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Carioca 1979", "data": "1979-06-06", "estadio": "Marechal Hermes" });
     jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Carioca 1979", "data": "1979-06-03", "estadio": "Maracanã" });
@@ -2821,7 +2821,7 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Fortaleza", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Brasileirão 1975", "data": "1975-11-05", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Comercial-MS", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Brasileirão 1975", "data": "1975-10-29", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Moto Club", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Brasileirão 1975", "data": "1975-10-26", "estadio": "Nhozinho Santos" });
-    jogos.push({ "mandante": "Rio Negro-AM", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Brasileirão 1975", "data": "1975-10-22", "estadio": "Vivaldão" });
+    jogos.push({ "mandante": "Rio Negro", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Brasileirão 1975", "data": "1975-10-22", "estadio": "Vivaldão" });
     jogos.push({ "mandante": "Fluminense", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Brasileirão 1975", "data": "1975-10-05", "estadio": "Maracanã" });
     jogos.push({ "mandante": "América-MG", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Brasileirão 1975", "data": "1975-09-28", "estadio": "Mineirão" });
     jogos.push({ "mandante": "Tiradentes-PI", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Brasileirão 1975", "data": "1975-09-24", "estadio": "Albertão" });
@@ -5907,7 +5907,7 @@ function jogos() {
     jogos.push({ "mandante": "Paysandu", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Torneio Pará-Guanabara", "data": "1966-05-01", "estadio": "Baenão" });
     jogos.push({ "mandante": "Paysandu", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 3, "campeonato": "Torneio Ney Braga", "data": "1976-11-07", "estadio": "Vivaldão" });
     jogos.push({ "mandante": "Paysandu", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 4, "campeonato": "Torneio Ney Braga", "data": "1976-11-24", "estadio": "Baenão" });
-    jogos.push({ "mandante": "Rio Negro-AM", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Torneio Quadrangular de Manaus", "data": "1985-05-22", "estadio": "Vivaldão" });
+    jogos.push({ "mandante": "Rio Negro", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Torneio Quadrangular de Manaus", "data": "1985-05-22", "estadio": "Vivaldão" });
     jogos.push({ "mandante": "Nacional-AM", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Torneio Quadrangular de Manaus", "data": "1985-05-26", "estadio": "Vivaldão" });
     jogos.push({ "mandante": "Bahia", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Torneio Quadrangular de Manaus", "data": "1985-05-28", "estadio": "Vivaldão" });
     jogos.push({ "mandante": "Bahia", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Troféu Governador de Rondônia", "data": "1985-05-30", "estadio": "", "penaltis": "4 x 1" });
@@ -5991,6 +5991,25 @@ function jogos() {
     jogos.push({ "mandante": "CRB", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1970-12-09", "estadio": "Rei Pelé" });
     jogos.push({ "mandante": "Sergipe", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1962-06-08", "estadio": "Batistão" });
     jogos.push({ "mandante": "Royal", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 6, "campeonato": "Amistoso", "data": "1962-10-03", "estadio": "Paulo Fernandes" });
+    jogos.push({ "mandante": "União Carvalheira", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1979-01-28", "estadio": "Estádio Municipal de Vassouras" });
+    jogos.push({ "mandante": "Serrano", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1979-02-24", "estadio": "Atilio Marotti" });
+    jogos.push({ "mandante": "Serrano", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1979-12-09", "estadio": "Atilio Marotti" });
+    jogos.push({ "mandante": "Joinville", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1979-03-08", "estadio": "" });
+    jogos.push({ "mandante": "Rio Negro", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1979-03-22", "estadio": "" });
+    jogos.push({ "mandante": "Nacional-AM", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1979-03-25", "estadio": "" });
+    jogos.push({ "mandante": "Taguatinga", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1979-05-09", "estadio": "Serejão" });
+    jogos.push({ "mandante": "Seleção de Juiz de Fora", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1979-05-31", "estadio": "" });
+    jogos.push({ "mandante": "Combinado Tupi/Tupynambás", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1965-08-15", "estadio": "Salles Oliveira" });
+    jogos.push({ "mandante": "Hepacaré", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 6, "campeonato": "Amistoso", "data": "1978-01-22", "estadio": "General Affonseca" });
+    jogos.push({ "mandante": "Goiás", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1978-03-02", "estadio": "Serra Dourada" });
+    jogos.push({ "mandante": "Uberlândia", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1978-03-05", "estadio": "Juca Ribeiro" });
+    jogos.push({ "mandante": "Joinville", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1978-03-09", "estadio": "" });
+    jogos.push({ "mandante": "Seleção do Pará", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1978-03-12", "estadio": "" });
+    jogos.push({ "mandante": "Brasília", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1978-03-17", "estadio": "Pelezão" });
+    jogos.push({ "mandante": "Gama", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1978-03-19", "estadio": "Bezerrão" });
+    jogos.push({ "mandante": "Uberlândia", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1978-08-05", "estadio": "Juca Ribeiro" });
+    jogos.push({ "mandante": "Volta Redonda", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1978-12-10", "estadio": "Raulino de Oliveira" });
+    jogos.push({ "mandante": "Caldense", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1976-01-18", "estadio": "Ronaldão" });
 
     jogos = jogos.concat(ProximosJogos());
 

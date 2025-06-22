@@ -25,7 +25,7 @@ function Times(time, data) {
                   backgroundColor = "black";
                   letterColor = "white";
                   break;
-            case "ADN-Niterói":
+            case "Niterói":
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#d30a11";
@@ -1024,6 +1024,12 @@ function Times(time, data) {
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#003a94";
+                  letterColor = "white";
+                  break;
+            case "União Carvalheira":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "black";
                   letterColor = "white";
                   break;
             case "Olímpica de Lavras":
@@ -2972,7 +2978,13 @@ function Times(time, data) {
                   backgroundColor = "#d30a11";
                   letterColor = "white";
                   break;
-            case "Rio Negro-AM":
+            case "Hepacaré":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#d30a11";
+                  letterColor = "white";
+                  break;
+            case "Rio Negro":
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "black";
