@@ -6017,6 +6017,7 @@ function jogos() {
     jogos.push({ "mandante": "Atlético de Três Corações", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1977-03-19", "estadio": "" });
     jogos.push({ "mandante": "Itabuna", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1977-04-24", "estadio": "Itabunão" });
     jogos.push({ "mandante": "Grêmio Maringá", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1977-05-10", "estadio": "" });
+    jogos.push({ "mandante": "Brasil de Pelotas", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1976-10-31", "estadio": "Bento de Freitas" });
 
     jogos = jogos.concat(ProximosJogos());
 
