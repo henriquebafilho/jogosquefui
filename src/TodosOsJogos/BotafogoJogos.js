@@ -3,6 +3,8 @@ import ProximosJogos from "./ProximosJogos";
 function jogos() {
     let jogos = [];
 
+    jogos.push({ "mandante": "Atlético de Madrid", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Copa do Mundo de Clubes 2025", "data": "2025-06-23", "estadio": "Rose Bowl", "horario": "16:00" });
+    jogos.push({ "mandante": "Paris Saint-Germain", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Copa do Mundo de Clubes 2025", "data": "2025-06-19", "estadio": "Rose Bowl", "horario": "22:00" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Seattle Sounders", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Copa do Mundo de Clubes 2025", "data": "2025-06-15", "estadio": "Lumen Field", "horario": "23:00" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Ceará", "golsMandante": 3, "golsVisitante": 2, "campeonato": "Brasileirão 2025", "data": "2025-06-04", "estadio": "Nilton Santos", "horario": "20:00" });
     jogos.push({ "mandante": "Santos", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Brasileirão 2025", "data": "2025-06-01", "estadio": "Vila Belmiro", "horario": "16:00" });
