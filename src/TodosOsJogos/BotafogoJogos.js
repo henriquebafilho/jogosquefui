@@ -5945,7 +5945,7 @@ function jogos() {
     jogos.push({ "mandante": "Brasília", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1982-12-08", "estadio": "" });
     jogos.push({ "mandante": "Seleção de Foz do Iguaçu", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 6, "campeonato": "Amistoso", "data": "1982-12-12", "estadio": "" });
     jogos.push({ "mandante": "Potyguar", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1981-12-06", "estadio": "Bezerrão-RN" });
-    jogos.push({ "mandante": "Taguatinga", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1981-05-01", "estadio": "" });
+    jogos.push({ "mandante": "Taguatinga", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1981-05-01", "estadio": "Serejão" });
     jogos.push({ "mandante": "Criciúma", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1981-07-22", "estadio": "Heriberto Hulse" });
     jogos.push({ "mandante": "Marcílio Dias", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1981-07-28", "estadio": "" });
     jogos.push({ "mandante": "Sport-MG", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1981-09-09", "estadio": "Doutor José Procópio Teixeira" });
@@ -6010,6 +6010,13 @@ function jogos() {
     jogos.push({ "mandante": "Uberlândia", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1978-08-05", "estadio": "Juca Ribeiro" });
     jogos.push({ "mandante": "Volta Redonda", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1978-12-10", "estadio": "Raulino de Oliveira" });
     jogos.push({ "mandante": "Caldense", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1976-01-18", "estadio": "Ronaldão" });
+    jogos.push({ "mandante": "Taguatinga", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 5, "campeonato": "Amistoso", "data": "1977-07-17", "estadio": "Mané Garrincha" });
+    jogos.push({ "mandante": "Bahia", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1977-01-19", "estadio": "" });
+    jogos.push({ "mandante": "Volta Redonda", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1977-01-29", "estadio": "Raulino de Oliveira" });
+    jogos.push({ "mandante": "Seleção de Teófilo Otoni", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 6, "campeonato": "Amistoso", "data": "1977-02-13", "estadio": "" });
+    jogos.push({ "mandante": "Atlético de Três Corações", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1977-03-19", "estadio": "" });
+    jogos.push({ "mandante": "Itabuna", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1977-04-24", "estadio": "Itabunão" });
+    jogos.push({ "mandante": "Grêmio Maringá", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1977-05-10", "estadio": "" });
 
     jogos = jogos.concat(ProximosJogos());
 
