@@ -8,6 +8,7 @@ import UltimosJogos from './UltimosJogos';
 import Times from '../Times';
 import { useTime } from '../Time';
 import TabRecentes from '../components/TabRecentes';
+import ViewAno from './viewScreens/ViewAno';
 
 function Principal() {
   const time = useTime().time;
@@ -31,6 +32,7 @@ function Principal() {
           <Route path="/" element={<UltimosJogos time={time} />} />
           <Route path="proximos" element={<ProximosJogos time={time} />} />
           <Route path="anos" element={<Anos time={time} />} />
+          <Route path="anos/:ano" element={<ViewAno time={time} />} />
           <Route path="estadios" element={<Estadios time={time} />} />
           <Route path="adversarios" element={<Adversarios time={time} />} />
           <Route path="*" element={<Navigate to="/jogosquefui/" replace />} />

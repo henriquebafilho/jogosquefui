@@ -140,7 +140,7 @@ class Adversarios extends Component {
                         <img src={require('../escudos/' + Times(Times(i).nomeAtual).escudo + '.png')} style={{ verticalAlign: 'middle' }} alt='escudo' height='75' width='75' />
                         <div id='tituloOpcao' style={{ paddingTop: '5px' }}>{Times(i).nomeAtual}</div>
                         <div style={{ paddingBottom: '5px', fontSize: '15px', fontWeight: '100' }}>{totalAdversario} {totalAdversario > 1 ? "jogos" : "jogo"}</div>
-                        {nomesAnteriores.length > 0 &&
+                        {nomesAnteriores && nomesAnteriores.length > 0 &&
                           <div>
                             <div>Nomes anteriores:</div>
                             {nomesAnteriores.map((nome) => {

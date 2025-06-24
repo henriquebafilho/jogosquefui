@@ -3,6 +3,7 @@ import Times from '../Times';
 import common from '../common';
 import ViewAno from './viewScreens/ViewAno';
 import BotafogoJogos from '../TodosOsJogos/BotafogoJogos';
+import { NavLink } from 'react-router-dom';
 
 class Anos extends Component {
   constructor(props) {
@@ -106,9 +107,15 @@ class Anos extends Component {
                     }
                     return <div key={i}>
                       <button id='selectAno' onClick={() => buttonClickFunction(i)} style={{ borderColor: Times(time).letterColor, borderStyle: 'solid', backgroundColor: Times(time).backgroundColor, color: Times(time).letterColor }}>
+                        <NavLink
+                          to={`/jogosquefui/anos/${i}`}
+                          end
+                          style={{ textDecoration: 'none' }}
+                        >
                         <div>{imagemAno !== "" ? <img src={imagemAno} style={{ verticalAlign: 'middle' }} alt='ano' height='150' width='150' /> : ""}</div>
                         <div id='tituloOpcao' style={{ display: 'inline', padding: '10px', fontSize: '30px' }}>{i}</div>
                         <div style={{ paddingBottom: '5px', fontSize: '15px', fontWeight: '100' }}>{totalAno} {totalAno > 1 ? "jogos" : "jogo"}</div>
+                        </NavLink>
                       </button>
                     </div>
                   }) : <div>

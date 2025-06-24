@@ -2580,7 +2580,7 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Serrano", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Carioca 1980", "data": "1980-10-26", "estadio": "Atilio Marotti" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Bangu", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Carioca 1980", "data": "1980-10-19", "estadio": "Marechal Hermes" });
     jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Carioca 1980", "data": "1980-10-12", "estadio": "Maracanã" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "ADN-Niterói", "golsMandante": 3, "golsVisitante": 0, "campeonato": "Carioca 1980", "data": "1980-10-08", "estadio": "Marechal Hermes" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Niterói", "golsMandante": 3, "golsVisitante": 0, "campeonato": "Carioca 1980", "data": "1980-10-08", "estadio": "Marechal Hermes" });
     jogos.push({ "mandante": "Volta Redonda", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Carioca 1980", "data": "1980-10-05", "estadio": "Raulino de Oliveira" });
     jogos.push({ "mandante": "Botafogo", "visitante": "América-RJ", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Carioca 1980", "data": "1980-10-01", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Americano", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Carioca 1980", "data": "1980-09-28", "estadio": "Marechal Hermes" });
@@ -2645,7 +2645,7 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Bonsucesso", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Carioca 1979", "data": "1979-06-27", "estadio": "Marechal Hermes" });
     jogos.push({ "mandante": "Goytacaz", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Carioca 1979", "data": "1979-06-24", "estadio": "Aryzão" });
     jogos.push({ "mandante": "Campo Grande-RJ", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Carioca 1979", "data": "1979-06-17", "estadio": "Ítalo del Cima" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "ADN-Niterói", "golsMandante": 7, "golsVisitante": 1, "campeonato": "Carioca 1979", "data": "1979-06-14", "estadio": "Marechal Hermes" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Niterói", "golsMandante": 7, "golsVisitante": 1, "campeonato": "Carioca 1979", "data": "1979-06-14", "estadio": "Marechal Hermes" });
     jogos.push({ "mandante": "Fluminense Nova Friburgo", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 3, "campeonato": "Carioca 1979", "data": "1979-06-10", "estadio": "Marechal Hermes" });
     jogos.push({ "mandante": "São Cristóvão", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Carioca 1979", "data": "1979-06-06", "estadio": "Marechal Hermes" });
     jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Carioca 1979", "data": "1979-06-03", "estadio": "Maracanã" });

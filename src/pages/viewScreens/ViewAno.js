@@ -9,7 +9,7 @@ class ViewAno extends Component {
         super(props);
         this.state = {
             time: props.time,
-            jogos: props.jogosAno,
+            jogos: props.jogosAno, // pesquisar os jogos aqui dentro
             clicked: false
         }
     }
