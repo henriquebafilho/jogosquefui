@@ -1759,96 +1759,112 @@ function Times(time, data) {
                   escudo = time;
                   backgroundColor = "#004f9e";
                   letterColor = "#ffdc00";
+                  endpoint = "saarbrucken";
                   break;
             case "Tchecoslováquia":
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#db2222";
                   letterColor = "white";
+                  endpoint = "tchecoslovaquia";
                   break;
             case "Uberaba":
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#d30a11";
                   letterColor = "white";
+                  endpoint = "uberaba";
                   break;
             case "Capital":
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#30a7eb";
                   letterColor = "black";
+                  endpoint = "capital";
                   break;
             case "Uberlândia":
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#008c45";
                   letterColor = "white";
+                  endpoint = "uberlandia";
                   break;
             case "Vojvodina":
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#ed1c25";
                   letterColor = "white";
+                  endpoint = "vojvodina";
                   break;
             case "Willem II":
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#242c51";
                   letterColor = "white";
+                  endpoint = "willem-ii";
                   break;
             case "Internacional de Petrópolis":
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "black";
                   letterColor = "white";
+                  endpoint = "internacional-de-petropolis";
                   break;
             case "Syrio-SP":
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#d30a11";
                   letterColor = "white";
+                  endpoint = "syrio-sp";
                   break;
             case "Guarani-MG":
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#d30a11";
                   letterColor = "white";
+                  endpoint = "guarani-mg";
                   break;
             case "Luziânia":
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#8dc6e4";
                   letterColor = "#012b5b";
+                  endpoint = "luziania";
                   break;
             case "Olympic":
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#134294";
                   letterColor = "white";
+                  endpoint = "olympic";
                   break;
             case "Tijuco":
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#d30a11";
                   letterColor = "black";
+                  endpoint = "tijuco";
                   break;
             case "Usipa":
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#01984b";
                   letterColor = "white";
+                  endpoint = "usipa";
                   break;
             case "Tamoio":
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "black";
                   letterColor = "white";
+                  endpoint = "tamoio";
                   break;
             case "Metalúrgico":
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#d30a11";
                   letterColor = "#252c61";
+                  endpoint = "metalurgico";
                   break;
             case "Football and Athletic": case "Associação Internacional-RJ":
                   nomeAtual = "Football and Athletic";
@@ -1856,30 +1872,35 @@ function Times(time, data) {
                   backgroundColor = "#d30a11";
                   letterColor = "white";
                   nomesAnteriores = ["Associação Internacional-RJ", "Athletic-RJ"];
+                  endpoint = "football-and-athletic";
                   break;
             case "Áustria":
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#d30a11";
                   letterColor = "white";
+                  endpoint = "austria";
                   break;
             case "Smart":
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#d30a11";
                   letterColor = "black";
+                  endpoint = "smart";
                   break;
             case "Villa Nova":
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#d20001";
                   letterColor = "white";
+                  endpoint = "villa-nova";
                   break;
             case "Marcílio Dias":
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#000078";
                   letterColor = "white";
+                  endpoint = "marcilio-dias";
                   break;
             case "Obreros": case "Cruz Azul Hidalgo":
                   nomeAtual = "Cruz Azul Hidalgo";
@@ -1887,6 +1908,7 @@ function Times(time, data) {
                   backgroundColor = "#002664";
                   letterColor = "white";
                   nomesAnteriores = ["Obreros"];
+                  endpoint = "cruz-azul-hidalgo";
                   break;
             case "Fortaleza":
                   nomeAtual = time;
@@ -1899,12 +1921,14 @@ function Times(time, data) {
                   }
                   backgroundColor = "#11519b";
                   letterColor = "white";
+                  endpoint = "fortaleza";
                   break;
             case "Potyguar":
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#11519b";
                   letterColor = "white";
+                  endpoint = "potyguar";
                   break;
             case "Friburguense": case "Fluminense Nova Friburgo":
                   nomeAtual = "Friburguense";
@@ -1917,12 +1941,14 @@ function Times(time, data) {
                   }
                   letterColor = "white";
                   nomesAnteriores = ["Fluminense Nova Friburgo"];
+                  endpoint = "friburguense";
                   break;
             case "Galícia":
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#003a94";
                   letterColor = "white";
+                  endpoint = "galicia";
                   break;
             case "Portugal":
                   nomeAtual = time;
