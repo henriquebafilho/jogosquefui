@@ -2984,6 +2984,12 @@ function Times(time, data) {
                   backgroundColor = "#d30a11";
                   letterColor = "white";
                   break;
+            case "Saad":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#212d83";
+                  letterColor = "white";
+                  break;
             case "Atlético de Três Corações":
                   nomeAtual = time;
                   escudo = time;

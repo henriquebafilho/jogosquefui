@@ -6020,6 +6020,19 @@ function jogos() {
     jogos.push({ "mandante": "Itabuna", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1977-04-24", "estadio": "Itabunão" });
     jogos.push({ "mandante": "Grêmio Maringá", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1977-05-10", "estadio": "" });
     jogos.push({ "mandante": "Brasil de Pelotas", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1976-10-31", "estadio": "Bento de Freitas" });
+    jogos.push({ "mandante": "Nacional-AM", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1976-11-14", "estadio": "Vivaldão" });
+    jogos.push({ "mandante": "Nacional-AM", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1976-11-28", "estadio": "Baenão" });
+    jogos.push({ "mandante": "Seleção de Juiz de Fora", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1976-01-31", "estadio": "Doutor José Procópio Teixeira" });
+    jogos.push({ "mandante": "São José-SP", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1976-02-22", "estadio": "" });
+    jogos.push({ "mandante": "Saad", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1976-02-24", "estadio": "Palestra Itália" });
+    jogos.push({ "mandante": "Vitória", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1976-03-07", "estadio": "" });
+    jogos.push({ "mandante": "Americano", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1976-05-27", "estadio": "" });
+    jogos.push({ "mandante": "CEUB", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Troféu Alberto Peres", "data": "1976-06-01", "estadio": "Pelezão", "penaltis": "3 x 1" });
+    jogos.push({ "mandante": "Volta Redonda", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1976-06-01", "estadio": "Raulino de Oliveira" });
+    jogos.push({ "mandante": "CEUB", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1973-02-10", "estadio": "Pelezão" });
+    jogos.push({ "mandante": "Seleção de Rondônia", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 5, "campeonato": "Amistoso", "data": "1976-11-17", "estadio": "" });
+    jogos.push({ "mandante": "Seleção de Santarém", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1976-11-19", "estadio": "" });
+    jogos.push({ "mandante": "Seleção do Amapá", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1976-12-01", "estadio": "" });
 
     jogos = jogos.concat(ProximosJogos());
 
