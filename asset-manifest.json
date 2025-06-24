@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jogosquefui/static/css/main.6fbd8afb.css",
-    "main.js": "/jogosquefui/static/js/main.0b93d6ad.js",
+    "main.js": "/jogosquefui/static/js/main.dc83b154.js",
     "static/media/Atanasio Girardot.png": "/jogosquefui/static/media/Atanasio Girardot.654b0fba4632fac4057b.png",
     "static/media/Corisabbá.png": "/jogosquefui/static/media/Corisabbá.4b6783df88df9e49eae8.png",
     "static/media/Colosso da Lagoa.png": "/jogosquefui/static/media/Colosso da Lagoa.b7008037ac5675a07045.png",
@@ -602,6 +602,7 @@
     "static/media/Goiânia.png": "/jogosquefui/static/media/Goiânia.5a7a3c5b78fe8d7ddc57.png",
     "static/media/Charleroi.png": "/jogosquefui/static/media/Charleroi.00be0450a055222658eb.png",
     "static/media/Malmo.png": "/jogosquefui/static/media/Malmo.813e68b438b943d3563a.png",
+    "static/media/Saad.png": "/jogosquefui/static/media/Saad.513e71084e1d45358926.png",
     "static/media/União Esportiva.png": "/jogosquefui/static/media/União Esportiva.79762be9dc301d7db25a.png",
     "static/media/Brasil.png": "/jogosquefui/static/media/Brasil.e544afd772c61a82544f.png",
     "static/media/Toluca.png": "/jogosquefui/static/media/Toluca.6bcc9ad1696928219074.png",
@@ -839,10 +840,10 @@
     "static/media/Ceará.png": "/jogosquefui/static/media/Ceará.2667c31fce77d94092f4.png",
     "index.html": "/jogosquefui/index.html",
     "main.6fbd8afb.css.map": "/jogosquefui/static/css/main.6fbd8afb.css.map",
-    "main.0b93d6ad.js.map": "/jogosquefui/static/js/main.0b93d6ad.js.map"
+    "main.dc83b154.js.map": "/jogosquefui/static/js/main.dc83b154.js.map"
   },
   "entrypoints": [
     "static/css/main.6fbd8afb.css",
-    "static/js/main.0b93d6ad.js"
+    "static/js/main.dc83b154.js"
   ]
 }
