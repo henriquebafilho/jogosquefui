@@ -1038,6 +1038,12 @@ function Times(time, data) {
                   backgroundColor = "#003a94";
                   letterColor = "white";
                   break;
+            case "Usina Ceará":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#003a94";
+                  letterColor = "white";
+                  break;
             case "Cruzeiro": case "Palestra Itália-MG":
                   nomeAtual = "Cruzeiro";
                   if (time === "Cruzeiro") {
@@ -2902,6 +2908,12 @@ function Times(time, data) {
                   backgroundColor = "#09153b";
                   letterColor = "white";
                   break;
+            case "Carlos Renaux":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#003a94";
+                  letterColor = "white";
+                  break;
             case "Cruzeiro-RS":
                   nomeAtual = time;
                   escudo = time;
@@ -3789,10 +3801,22 @@ function Times(time, data) {
                   backgroundColor = "#d30a11";
                   letterColor = "black";
                   break;
+            case "Renner":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#d30a11";
+                  letterColor = "white";
+                  break;
             case "Rio Grande":
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#00933d";
+                  letterColor = "white";
+                  break;
+            case "Riograndense":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#2c8227";
                   letterColor = "white";
                   break;
             case "Estrela do Norte":

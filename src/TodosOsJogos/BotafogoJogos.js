@@ -6033,6 +6033,20 @@ function jogos() {
     jogos.push({ "mandante": "Seleção de Rondônia", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 5, "campeonato": "Amistoso", "data": "1976-11-17", "estadio": "" });
     jogos.push({ "mandante": "Seleção de Santarém", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1976-11-19", "estadio": "" });
     jogos.push({ "mandante": "Seleção do Amapá", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1976-12-01", "estadio": "" });
+    jogos.push({ "mandante": "Carlos Renaux", "visitante": "Botafogo", "golsMandante": 5, "golsVisitante": 5, "campeonato": "Amistoso", "data": "1958-03-30", "estadio": "Augusto Bauer" });
+    jogos.push({ "mandante": "Seleção de Saquarema", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 7, "campeonato": "Amistoso", "data": "1958-06-22", "estadio": "Heitor Bravo" });
+    jogos.push({ "mandante": "Seleção do Maranhão", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1958-07-18", "estadio": "Nhozinho Santos" });
+    jogos.push({ "mandante": "Portuguesa-RJ", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 6, "campeonato": "Torneio Extra João Teixeira de Carvalho", "data": "1958-06-05", "estadio": "Campo do Kosmos" });
+    jogos.push({ "mandante": "Seleção de Santa Catarina", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 5, "campeonato": "Amistoso", "data": "1958-04-01", "estadio": "" });
+    jogos.push({ "mandante": "Uberaba", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Triangular de Uberaba", "data": "1958-04-18", "estadio": "Boulanger Pucci" });
+    jogos.push({ "mandante": "Botafogo-SP", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 3, "campeonato": "Triangular de Uberaba", "data": "1958-04-20", "estadio": "Boulanger Pucci" });
+    jogos.push({ "mandante": "Renner", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1958-04-29", "estadio": "Estádio dos Eucaliptos" });
+    jogos.push({ "mandante": "Riograndense", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1958-05-01", "estadio": "Estádio dos Eucaliptos (Santa Maria)" });
+    jogos.push({ "mandante": "Guarany de Bagé", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1958-05-04", "estadio": "Estrela d'Alva" });
+    jogos.push({ "mandante": "Usina Ceará", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1958-07-16", "estadio": "Presidente Vargas" });
+    jogos.push({ "mandante": "River-PI", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1958-07-20", "estadio": "Lindolfo Monteiro" });
+    jogos.push({ "mandante": "Bahia", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1958-07-23", "estadio": "" });
+    jogos.push({ "mandante": "Uberaba", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1958-08-19", "estadio": "Boulanger Pucci" });
 
     jogos = jogos.concat(ProximosJogos());
 
