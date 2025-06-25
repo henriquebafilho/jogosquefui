@@ -3,6 +3,7 @@ import Times from '../Times';
 import common from '../common';
 import ViewAno from './viewScreens/ViewAno';
 import BotafogoJogos from '../TodosOsJogos/BotafogoJogos';
+import Estatisticas from '../components/Estatisticas';
 
 class Anos extends Component {
   constructor(props) {
@@ -81,6 +82,7 @@ class Anos extends Component {
           <div className="App-header" style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor, alignItems: 'normal' }}>
             <table>
               <tbody>
+                <Estatisticas meuTime={meuTime} jogos={meusJogos} />
                 {this.state.isLoading && <h1>Carregando...</h1>}
                 <input
                   type="number"
