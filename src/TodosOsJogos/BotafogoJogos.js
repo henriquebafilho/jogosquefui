@@ -3391,7 +3391,7 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Bahia", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Taça Brasil 63", "data": "1963-10-30", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Campo Grande-RJ", "golsMandante": 3, "golsVisitante": 0, "campeonato": "Carioca 1963", "data": "1963-10-26", "estadio": "General Severiano" });
     jogos.push({ "mandante": "Canto do Rio", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Carioca 1963", "data": "1963-10-20", "estadio": "Rua Bariri" });
-    jogos.push({ "mandante": "Bahia", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Taça Brasil 63", "data": "1963-10-17", "estadio": "Maracanã" });
+    jogos.push({ "mandante": "Bahia", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Taça Brasil 63", "data": "1963-10-17", "estadio": "Fonte Nova" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Flamengo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Carioca 1963", "data": "1963-10-13", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Madureira", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Carioca 1963", "data": "1963-10-10", "estadio": "Conselheiro Galvão" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Bonsucesso", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Carioca 1963", "data": "1963-10-05", "estadio": "General Severiano" });
