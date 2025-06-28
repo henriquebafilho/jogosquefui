@@ -635,7 +635,7 @@ function Times(time, data) {
                   break;
             case "Cabofriense": case "Cabo Frio":
                   nomeAtual = "Cabofriense";
-                  if(ano < 1997){
+                  if (ano < 1997) {
                         escudo = "Cabofriense1997";
                   } else {
                         escudo = time;
@@ -720,11 +720,22 @@ function Times(time, data) {
                   backgroundColor = "#193D8B";
                   letterColor = "white";
                   break;
-            case "Caxias":
+            case "Umuarama":
                   nomeAtual = time;
                   escudo = time;
-                  backgroundColor = "#7B1138";
-                  letterColor = "white";
+                  backgroundColor = "#158e3d";
+                  letterColor = "#f7d611";
+                  break;
+            case "Caxias": case "Associação Caxias":
+                  nomeAtual = "Caxias";
+                  escudo = time;
+                  if (time === "Associação Caxias") {
+                        backgroundColor = "black";
+                        letterColor = "white";
+                  } else {
+                        backgroundColor = "#7B1138";
+                        letterColor = "white";
+                  }
                   break;
             case "Ceará":
                   nomeAtual = time;
@@ -1066,6 +1077,12 @@ function Times(time, data) {
                   escudo = time;
                   backgroundColor = "#003259";
                   letterColor = "white";
+                  break;
+            case "Jequié":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#00008e";
+                  letterColor = "#fdd116";
                   break;
             case "Real Oviedo":
                   nomeAtual = time;
@@ -2454,7 +2471,7 @@ function Times(time, data) {
             case "Nacional-AM":
                   nomeAtual = time;
                   escudo = time;
-                  backgroundColor = "#19417E";
+                  backgroundColor = "#003a94";
                   letterColor = "#F5D94D";
                   break;
             case "Nacional-PAR":
@@ -3504,7 +3521,7 @@ function Times(time, data) {
             case "Tiradentes-PI":
                   nomeAtual = time;
                   escudo = time;
-                  backgroundColor = "#415DA6";
+                  backgroundColor = "#003a94";
                   letterColor = "#fde900";
                   break;
             case "Tolima":

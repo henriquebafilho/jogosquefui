@@ -6073,6 +6073,13 @@ function jogos() {
     jogos.push({ "mandante": "Rio Branco-ES", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1975-04-02", "estadio": "" });
     jogos.push({ "mandante": "Bahia", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1975-07-16", "estadio": "" });
     jogos.push({ "mandante": "Americano", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1975-10-15", "estadio": "" });
+    jogos.push({ "mandante": "Jequié", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1974-04-21", "estadio": "Waldomirão" });
+    jogos.push({ "mandante": "Fluminense de Feira", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1974-05-21", "estadio": "" });
+    jogos.push({ "mandante": "Associação Caxias", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1974-06-23", "estadio": "Centenário (Caxias do Sul)" });
+    jogos.push({ "mandante": "Umuarama", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1974-07-21", "estadio": "Estádio Municipal Lúcio Pipino" });
+    jogos.push({ "mandante": "Vitória", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1974-10-30", "estadio": "Itabunão" });
+    jogos.push({ "mandante": "Nacional-AM", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1974-12-15", "estadio": "Vivaldão" });
+    jogos.push({ "mandante": "Goiás", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1974-12-17", "estadio": "Olímpico (Goiânia)" });
 
     jogos = jogos.concat(ProximosJogos());
 
