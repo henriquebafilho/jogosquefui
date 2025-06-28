@@ -3512,6 +3512,18 @@ function Times(time, data) {
                   backgroundColor = "#003a94";
                   letterColor = "white";
                   break;
+            case "Parnahyba":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#13245a";
+                  letterColor = "white";
+                  break;
+            case "Central":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "black";
+                  letterColor = "white";
+                  break;
             case "Tigres do Brasil":
                   nomeAtual = time;
                   escudo = "TigresdoBrasil";

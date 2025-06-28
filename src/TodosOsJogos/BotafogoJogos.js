@@ -3,6 +3,7 @@ import ProximosJogos from "./ProximosJogos";
 function jogos() {
     let jogos = [];
 
+    jogos.push({ "mandante": "Palmeiras", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Copa do Mundo de Clubes 2025", "data": "2025-06-28", "estadio": "Lincoln Financial Field", "horario": "13:00" });
     jogos.push({ "mandante": "Atlético de Madrid", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Copa do Mundo de Clubes 2025", "data": "2025-06-23", "estadio": "Rose Bowl", "horario": "16:00" });
     jogos.push({ "mandante": "Paris Saint-Germain", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Copa do Mundo de Clubes 2025", "data": "2025-06-19", "estadio": "Rose Bowl", "horario": "22:00" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Seattle Sounders", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Copa do Mundo de Clubes 2025", "data": "2025-06-15", "estadio": "Lumen Field", "horario": "23:00" });
@@ -6080,6 +6081,10 @@ function jogos() {
     jogos.push({ "mandante": "Vitória", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1974-10-30", "estadio": "Itabunão" });
     jogos.push({ "mandante": "Nacional-AM", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1974-12-15", "estadio": "Vivaldão" });
     jogos.push({ "mandante": "Goiás", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1974-12-17", "estadio": "Olímpico (Goiânia)" });
+    jogos.push({ "mandante": "América-RJ", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Taça Erasmo Martins Pedro 1973", "data": "1973-02-07", "estadio": "São Januário" });
+    jogos.push({ "mandante": "Tiradentes-PI", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1973-06-13", "estadio": "Albertão" });
+    jogos.push({ "mandante": "Parnahyba", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 5, "campeonato": "Amistoso", "data": "1973-06-17", "estadio": "Petrônio Portela" });
+    jogos.push({ "mandante": "Central", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1973-07-01", "estadio": "Lacerdão" });
 
     jogos = jogos.concat(ProximosJogos());
 
