@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jogosquefui/static/css/main.6fbd8afb.css",
-    "main.js": "/jogosquefui/static/js/main.2b791c8b.js",
+    "main.js": "/jogosquefui/static/js/main.797c7ebc.js",
     "static/media/Atanasio Girardot.png": "/jogosquefui/static/media/Atanasio Girardot.654b0fba4632fac4057b.png",
     "static/media/Corisabbá.png": "/jogosquefui/static/media/Corisabbá.4b6783df88df9e49eae8.png",
     "static/media/Colosso da Lagoa.png": "/jogosquefui/static/media/Colosso da Lagoa.b7008037ac5675a07045.png",
@@ -124,7 +124,6 @@
     "static/media/Aluizão.png": "/jogosquefui/static/media/Aluizão.78ad975e0097f5d81205.png",
     "static/media/2014.png": "/jogosquefui/static/media/2014.bdaa2f29998d83744baf.png",
     "static/media/Vila Belmiro.png": "/jogosquefui/static/media/Vila Belmiro.d4db62bf4093288df4c4.png",
-    "static/media/Tiradentes-PI.png": "/jogosquefui/static/media/Tiradentes-PI.23cfe7a28420e34de3e5.png",
     "static/media/2022.png": "/jogosquefui/static/media/2022.ba84fd60e24199d22f90.png",
     "static/media/Corinthians1919.png": "/jogosquefui/static/media/Corinthians1919.3af83581c01ea533afb2.png",
     "static/media/Giulite Coutinho.png": "/jogosquefui/static/media/Giulite Coutinho.4189a5f305875ce05223.png",
@@ -167,6 +166,7 @@
     "static/media/LeedsUnited1991.png": "/jogosquefui/static/media/LeedsUnited1991.948521d91289b4b53110.png",
     "static/media/2008.png": "/jogosquefui/static/media/2008.4060c684e6a1d05f41cc.png",
     "static/media/1981.png": "/jogosquefui/static/media/1981.b8cf58322c9e7ffbf295.png",
+    "static/media/Umuarama.png": "/jogosquefui/static/media/Umuarama.317ff024e7a9cda93944.png",
     "static/media/Cruzeiro.png": "/jogosquefui/static/media/Cruzeiro.bef861a8c295c8d4b44c.png",
     "static/media/Colo-Colo-BA.png": "/jogosquefui/static/media/Colo-Colo-BA.64a3251fff34ba04066e.png",
     "static/media/Internacional1982.png": "/jogosquefui/static/media/Internacional1982.74d1bc370e5024d16ec5.png",
@@ -223,6 +223,7 @@
     "static/media/Puebla.png": "/jogosquefui/static/media/Puebla.dbd134c92292a5d121a1.png",
     "static/media/Guará.png": "/jogosquefui/static/media/Guará.6a8b1a13b8252f867c2d.png",
     "static/media/SãoBernardo.png": "/jogosquefui/static/media/SãoBernardo.65626674651b3d1b95fb.png",
+    "static/media/Tiradentes-PI.png": "/jogosquefui/static/media/Tiradentes-PI.3b327c5432dc78e58779.png",
     "static/media/SantaCruz1960.png": "/jogosquefui/static/media/SantaCruz1960.0d4b8734c143a3cbdc51.png",
     "static/media/São Paulo Athletic.png": "/jogosquefui/static/media/São Paulo Athletic.ffa2956e398a88a6ab94.png",
     "static/media/Canto do Rio.png": "/jogosquefui/static/media/Canto do Rio.726acd5cbb2e6da36c2c.png",
@@ -453,6 +454,7 @@
     "static/media/SampaioCorrêa-RJ.png": "/jogosquefui/static/media/SampaioCorrêa-RJ.b0d502f7ef1dd97cf67c.png",
     "static/media/Espanyol.png": "/jogosquefui/static/media/Espanyol.a1bf190ef6fb9b0a4dd8.png",
     "static/media/Votuporanguense.png": "/jogosquefui/static/media/Votuporanguense.359a486839d66e014bb5.png",
+    "static/media/Jequié.png": "/jogosquefui/static/media/Jequié.9e7bf6dcb29656a850af.png",
     "static/media/RiverPlate.png": "/jogosquefui/static/media/RiverPlate.53cfc210e64aba4bbb91.png",
     "static/media/Vitória de Guimarães.png": "/jogosquefui/static/media/Vitória de Guimarães.a0a7b9c7bd07cea6c8db.png",
     "static/media/AudaxRio.png": "/jogosquefui/static/media/AudaxRio.2ef50949c8ab3728136d.png",
@@ -531,6 +533,7 @@
     "static/media/Mesquita.png": "/jogosquefui/static/media/Mesquita.24bea9a27b2313a3df4d.png",
     "static/media/Salernitana.png": "/jogosquefui/static/media/Salernitana.77de9f4e076620b76905.png",
     "static/media/Valeriodoce.png": "/jogosquefui/static/media/Valeriodoce.03c87d9334993be5214a.png",
+    "static/media/Associação Caxias.png": "/jogosquefui/static/media/Associação Caxias.058848b73ef8cb26ccc6.png",
     "static/media/SC Brasil.png": "/jogosquefui/static/media/SC Brasil.78229efda51326e08dac.png",
     "static/media/Figueirense1974.png": "/jogosquefui/static/media/Figueirense1974.702ec57f6d68c2b1eeac.png",
     "static/media/Brasiliense.png": "/jogosquefui/static/media/Brasiliense.eedbdb1240fc49d56ed1.png",
@@ -846,10 +849,10 @@
     "static/media/Ceará.png": "/jogosquefui/static/media/Ceará.2667c31fce77d94092f4.png",
     "index.html": "/jogosquefui/index.html",
     "main.6fbd8afb.css.map": "/jogosquefui/static/css/main.6fbd8afb.css.map",
-    "main.2b791c8b.js.map": "/jogosquefui/static/js/main.2b791c8b.js.map"
+    "main.797c7ebc.js.map": "/jogosquefui/static/js/main.797c7ebc.js.map"
   },
   "entrypoints": [
     "static/css/main.6fbd8afb.css",
-    "static/js/main.2b791c8b.js"
+    "static/js/main.797c7ebc.js"
   ]
 }
