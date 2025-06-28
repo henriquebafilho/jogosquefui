@@ -31,7 +31,7 @@ function jogos() {
     jogos.push({ "mandante": "Sport", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2025", "data": "2025-07-19", "estadio": "Ilha do Retiro" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Vitória", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2025", "data": "2025-07-16", "estadio": "Nilton Santos" });
     jogos.push({ "mandante": "Vasco", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2025", "data": "2025-07-12", "estadio": "Mané Garrincha" });
-    jogos.push({ "mandante": "Palmeiras", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Copa do Mundo de Clubes 2025", "data": "2025-06-28", "estadio": "Lincoln Financial Field", "horario": "13:00" });
+    jogos.push({ "mandante": "Palmeiras", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Copa do Mundo de Clubes 2025", "data": "2025-06-28", "estadio": "Lincoln Financial Field", "horario": "13:00" });
     //jogos.push({ "mandante": "Botafogo", "visitante": "Mirassol", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2025", "data": "2025-06-11", "estadio": "Nilton Santos" });
     
     jogos.sort(function (a, b) {
