@@ -1518,6 +1518,12 @@ function Times(time, data) {
                   backgroundColor = "#9f022f";
                   letterColor = "white";
                   break;
+            case "Comercial-MG":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#9f022f";
+                  letterColor = "white";
+                  break;
             case "Fluminense de Feira":
                   nomeAtual = time;
                   escudo = time;
@@ -2060,6 +2066,12 @@ function Times(time, data) {
                   letterColor = "white";
                   break;
             case "Juventude":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#048439";
+                  letterColor = "white";
+                  break;
+            case "Tuna Luso":
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#048439";
