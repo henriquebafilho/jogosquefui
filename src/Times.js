@@ -1446,6 +1446,16 @@ function Times(time, data) {
                   backgroundColor = "#d30a11";
                   letterColor = "black";
                   break;
+            case "Flamengo-PI":
+                  nomeAtual = time;
+                  if (ano < 2023) {
+                        escudo = "Flamengo-PI2023";
+                  } else {
+                        escudo = time;
+                  }
+                  backgroundColor = "#d30a11";
+                  letterColor = "black";
+                  break;
             case "Alajuelense":
                   nomeAtual = time;
                   escudo = time;
@@ -2937,6 +2947,12 @@ function Times(time, data) {
                   backgroundColor = "#09153b";
                   letterColor = "white";
                   break;
+            case "Anápolis":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#d30a11";
+                  letterColor = "white";
+                  break;
             case "Carlos Renaux":
                   nomeAtual = time;
                   escudo = time;
@@ -2944,6 +2960,12 @@ function Times(time, data) {
                   letterColor = "white";
                   break;
             case "Cruzeiro-RS":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#003a94";
+                  letterColor = "white";
+                  break;
+            case "Piauí":
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#003a94";

@@ -1134,7 +1134,7 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Fluminense", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Carioca 2008", "data": "2008-03-30", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Cardoso Moreira", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Carioca 2008", "data": "2008-03-28", "estadio": "Nilton Santos" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Macaé", "golsMandante": 7, "golsVisitante": 0, "campeonato": "Carioca 2008", "data": "2008-03-23", "estadio": "Nilton Santos" });
-    jogos.push({ "mandante": "River-PI", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Copa do Brasil 2008", "data": "2008-03-20", "estadio": "José Luís Nery Corrêa" });
+    jogos.push({ "mandante": "River-PI", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Copa do Brasil 2008", "data": "2008-03-20", "estadio": "Correão-PI" });
     jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 3, "campeonato": "Carioca 2008", "data": "2008-03-16", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Duque de Caxias", "golsMandante": 4, "golsVisitante": 1, "campeonato": "Carioca 2008", "data": "2008-03-13", "estadio": "Nilton Santos" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Volta Redonda", "golsMandante": 3, "golsVisitante": 0, "campeonato": "Carioca 2008", "data": "2008-03-09", "estadio": "Nilton Santos" });
@@ -3182,7 +3182,7 @@ function jogos() {
     jogos.push({ "mandante": "Portuguesa-RJ", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 4, "campeonato": "Carioca 1969", "data": "1969-04-26", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Carioca 1969", "data": "1969-04-20", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Madureira", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 4, "campeonato": "Carioca 1969", "data": "1969-04-13", "estadio": "Conselheiro Galvão" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "Metropol", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Taça Brasil 68", "data": "1969-04-02", "estadio": "General Severiano" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Metropol", "golsMandante": "WO", "golsVisitante": 0, "campeonato": "Taça Brasil 68", "data": "1969-04-02", "estadio": "General Severiano" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Bangu", "golsMandante": 3, "golsVisitante": 0, "campeonato": "Carioca 1969", "data": "1969-03-30", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Fluminense", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Carioca 1969", "data": "1969-03-23", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Campo Grande-RJ", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Carioca 1969", "data": "1969-03-19", "estadio": "Maracanã" });
@@ -4836,13 +4836,13 @@ function jogos() {
     jogos.push({ "mandante": "The Strongest", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1972-06-04", "estadio": "" });
     jogos.push({ "mandante": "Blooming", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1972-06-01", "estadio": "" });
     jogos.push({ "mandante": "Panathinaikos", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1972-02-09", "estadio": "" });
-    jogos.push({ "mandante": "Besiktas", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1972-02-06", "estadio": "Mithatpaşa" });
-    jogos.push({ "mandante": "Fenerbahçe", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1972-02-05", "estadio": "Mithatpaşa" });
+    jogos.push({ "mandante": "Besiktas", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1972-02-06", "estadio": "Mithatpasa" });
+    jogos.push({ "mandante": "Fenerbahçe", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1972-02-05", "estadio": "Mithatpasa" });
     jogos.push({ "mandante": "Olympiacos", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1972-02-02", "estadio": "" });
     jogos.push({ "mandante": "Congo", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1972-01-30", "estadio": "" });
     jogos.push({ "mandante": "Camarões", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1972-01-27", "estadio": "" });
     jogos.push({ "mandante": "Camarões", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1972-01-23", "estadio": "" });
-    jogos.push({ "mandante": "Mali", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1972-01-16", "estadio": "" });
+    jogos.push({ "mandante": "Mali", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1972-01-16", "estadio": "" });
     jogos.push({ "mandante": "Puebla", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1971-02-16", "estadio": "" });
     jogos.push({ "mandante": "Atlante", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1971-02-14", "estadio": "Los Angeles Memorial Coliseum" });
     jogos.push({ "mandante": "América-MEX", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1971-02-09", "estadio": "" });
@@ -5378,7 +5378,7 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Bangu", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Torneio Início 1964", "data": "1964-06-28", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Botafogo", "visitante": "América-RJ", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Torneio Início 1965", "data": "1965-09-07", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Entrerriense", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 8, "campeonato": "Amistoso", "data": "1965-09-07", "estadio": "Odair Gama" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "Campo Grande-RJ", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Torneio Início 1967", "data": "1967-07-09", "estadio": "Maracanã" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Campo Grande-RJ", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Torneio Início 1967", "data": "1967-07-09", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Botafogo", "visitante": "São Cristóvão", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Torneio Início 1967", "data": "1967-07-09", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Madureira", "golsMandante": 3, "golsVisitante": 0, "campeonato": "Torneio Início 1967", "data": "1967-07-09", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Bangu", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Torneio Início 1977", "data": "1977-03-13", "estadio": "Maracanã" });
@@ -5986,7 +5986,7 @@ function jogos() {
     jogos.push({ "mandante": "Campinense", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1975-03-08", "estadio": "Amigão" });
     jogos.push({ "mandante": "Nacional-AM", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1962-05-09", "estadio": "" });
     jogos.push({ "mandante": "Seleção do Amazonas", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1962-05-13", "estadio": "" });
-    jogos.push({ "mandante": "River-PI", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1962-05-23", "estadio": "" });
+    jogos.push({ "mandante": "River-PI", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1962-05-23", "estadio": "Lindolfo Monteiro" });
     jogos.push({ "mandante": "Botafogo-PB", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1960-09-25", "estadio": "Vila Olímpica Parahyba" });
     jogos.push({ "mandante": "Botafogo-PB", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1962-05-27", "estadio": "Vila Olímpica Parahyba" });
     jogos.push({ "mandante": "CRB", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1962-06-03", "estadio": "" });
@@ -6082,9 +6082,23 @@ function jogos() {
     jogos.push({ "mandante": "Nacional-AM", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1974-12-15", "estadio": "Vivaldão" });
     jogos.push({ "mandante": "Goiás", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1974-12-17", "estadio": "Olímpico (Goiânia)" });
     jogos.push({ "mandante": "América-RJ", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Taça Erasmo Martins Pedro 1973", "data": "1973-02-07", "estadio": "São Januário" });
-    jogos.push({ "mandante": "Tiradentes-PI", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1973-06-13", "estadio": "Albertão" });
+    jogos.push({ "mandante": "Tiradentes-PI", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1973-06-13", "estadio": "Lindolfo Monteiro" });
     jogos.push({ "mandante": "Parnahyba", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 5, "campeonato": "Amistoso", "data": "1973-06-17", "estadio": "Petrônio Portela" });
     jogos.push({ "mandante": "Central", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1973-07-01", "estadio": "Lacerdão" });
+    jogos.push({ "mandante": "River-PI", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Torneio Quadrangular de Teresina", "data": "1966-05-12", "estadio": "Lindolfo Monteiro" });
+    jogos.push({ "mandante": "Flamengo-PI", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Torneio Quadrangular de Teresina", "data": "1966-05-15", "estadio": "Lindolfo Monteiro" });
+    jogos.push({ "mandante": "Piauí", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 0, "campeonato": "Torneio Quadrangular de Teresina", "data": "1966-05-19", "estadio": "Lindolfo Monteiro" });
+    jogos.push({ "mandante": "Ferroviário-CE", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 3, "campeonato": "Pentagonal de Fortaleza", "data": "1966-05-29", "estadio": "Presidente Vargas" });
+    jogos.push({ "mandante": "Royal", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1966-06-19", "estadio": "Paulo Fernandes" });
+    jogos.push({ "mandante": "Democrata GV", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1966-06-26", "estadio": "Mamudão" });
+    jogos.push({ "mandante": "Usipa", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1966-06-29", "estadio": "Amaro Lanari Júnior" });
+    jogos.push({ "mandante": "Anápolis", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1966-07-05", "estadio": "Jonas Duarte" });
+    jogos.push({ "mandante": "Uberlândia", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1966-07-07", "estadio": "Juca Ribeiro" });
+    jogos.push({ "mandante": "Seleção de Macaé", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1966-07-29", "estadio": "Expedicionário" });
+    jogos.push({ "mandante": "Costa do Marfim", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 5, "campeonato": "Amistoso", "data": "1972-01-20", "estadio": "" });
+    jogos.push({ "mandante": "Fluminense de Feira", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1971-03-18", "estadio": "Joia da Princesa" });
+    jogos.push({ "mandante": "Bahia", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1971-03-31", "estadio": "Fonte Nova" });
+    jogos.push({ "mandante": "Combinado Moto Club/Sampaio Correa", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1971-10-14", "estadio": "" });
 
     jogos = jogos.concat(ProximosJogos());
 
