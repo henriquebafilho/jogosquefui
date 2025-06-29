@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jogosquefui/static/css/main.6fbd8afb.css",
-    "main.js": "/jogosquefui/static/js/main.d1fca86e.js",
+    "main.js": "/jogosquefui/static/js/main.dc6f8560.js",
     "static/media/Atanasio Girardot.png": "/jogosquefui/static/media/Atanasio Girardot.654b0fba4632fac4057b.png",
     "static/media/Corisabbá.png": "/jogosquefui/static/media/Corisabbá.4b6783df88df9e49eae8.png",
     "static/media/Colosso da Lagoa.png": "/jogosquefui/static/media/Colosso da Lagoa.b7008037ac5675a07045.png",
@@ -472,6 +472,7 @@
     "static/media/Cabo Frio.png": "/jogosquefui/static/media/Cabo Frio.a01f66f1c25197c061f6.png",
     "static/media/RioPreto.png": "/jogosquefui/static/media/RioPreto.0e646ec74d4e7ce7d532.png",
     "static/media/Stabaek.png": "/jogosquefui/static/media/Stabaek.ff67b372437048e3dfba.png",
+    "static/media/Anápolis.png": "/jogosquefui/static/media/Anápolis.64312073d1921c1fa5d2.png",
     "static/media/Ji-Paraná.png": "/jogosquefui/static/media/Ji-Paraná.2976f95587a7314c9d39.png",
     "static/media/América-RN.png": "/jogosquefui/static/media/América-RN.2d5f1479833c9c0e7baa.png",
     "static/media/Cruzeiro1942.png": "/jogosquefui/static/media/Cruzeiro1942.1c5328c77aaa32ce6046.png",
@@ -503,6 +504,7 @@
     "static/media/Itabaiana.png": "/jogosquefui/static/media/Itabaiana.c3e6718a05c5584b0a5f.png",
     "static/media/Americano1980.png": "/jogosquefui/static/media/Americano1980.02835e27bd708bb59c0f.png",
     "static/media/Atlético de Madrid1970.png": "/jogosquefui/static/media/Atlético de Madrid1970.58d788e1c6fba9bbccd4.png",
+    "static/media/Piauí.png": "/jogosquefui/static/media/Piauí.e3af378109f5c5da1407.png",
     "static/media/Blumenau.png": "/jogosquefui/static/media/Blumenau.b8e99e6d4459662842b7.png",
     "static/media/Servette.png": "/jogosquefui/static/media/Servette.b14842e3b06b48cacaa6.png",
     "static/media/Saarbrucken.png": "/jogosquefui/static/media/Saarbrucken.382571019c039e25c23f.png",
@@ -788,6 +790,7 @@
     "static/media/Atlético-GO2020.png": "/jogosquefui/static/media/Atlético-GO2020.0e6a5c295c9634b05552.png",
     "static/media/Itaperuna.png": "/jogosquefui/static/media/Itaperuna.b10cd298769d4ce25030.png",
     "static/media/Magallanes.png": "/jogosquefui/static/media/Magallanes.b08cdb46c3a1c3d239c2.png",
+    "static/media/Flamengo-PI2023.png": "/jogosquefui/static/media/Flamengo-PI2023.3fa7aa8deca737b96c04.png",
     "static/media/Alajuelense.png": "/jogosquefui/static/media/Alajuelense.f72b638a504577cdd42e.png",
     "static/media/Ipatinga.png": "/jogosquefui/static/media/Ipatinga.3a9feb8f9fc0933aafad.png",
     "static/media/Mixto.png": "/jogosquefui/static/media/Mixto.7dd3ebb18f1f13ff010f.png",
@@ -811,6 +814,7 @@
     "static/media/Comercial-MS.png": "/jogosquefui/static/media/Comercial-MS.15d3f2cf6449a23842a7.png",
     "static/media/Democrata GV.png": "/jogosquefui/static/media/Democrata GV.993fcfb1751351557a88.png",
     "static/media/Grêmio Maringá.png": "/jogosquefui/static/media/Grêmio Maringá.68cc6e395f4ec88c659f.png",
+    "static/media/Flamengo-PI.png": "/jogosquefui/static/media/Flamengo-PI.133364e5745efe896817.png",
     "static/media/Cocotá.png": "/jogosquefui/static/media/Cocotá.a9568228163db9615914.png",
     "static/media/SãoRaimundo-PA.png": "/jogosquefui/static/media/SãoRaimundo-PA.586d0b5ab03cb5e4b890.png",
     "static/media/Barreira.png": "/jogosquefui/static/media/Barreira.6c01b12ec041d3294259.png",
@@ -851,10 +855,10 @@
     "static/media/Ceará.png": "/jogosquefui/static/media/Ceará.2667c31fce77d94092f4.png",
     "index.html": "/jogosquefui/index.html",
     "main.6fbd8afb.css.map": "/jogosquefui/static/css/main.6fbd8afb.css.map",
-    "main.d1fca86e.js.map": "/jogosquefui/static/js/main.d1fca86e.js.map"
+    "main.dc6f8560.js.map": "/jogosquefui/static/js/main.dc6f8560.js.map"
   },
   "entrypoints": [
     "static/css/main.6fbd8afb.css",
-    "static/js/main.d1fca86e.js"
+    "static/js/main.dc6f8560.js"
   ]
 }
