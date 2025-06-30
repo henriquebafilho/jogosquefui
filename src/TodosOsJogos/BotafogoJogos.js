@@ -6099,6 +6099,20 @@ function jogos() {
     jogos.push({ "mandante": "Fluminense de Feira", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1971-03-18", "estadio": "Joia da Princesa" });
     jogos.push({ "mandante": "Bahia", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1971-03-31", "estadio": "Fonte Nova" });
     jogos.push({ "mandante": "Combinado Moto Club/Sampaio Correa", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1971-10-14", "estadio": "" });
+    jogos.push({ "mandante": "Bangu", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Troféu Arthur Costa e Silva", "data": "1967-03-14", "estadio": "Mané Garrincha" });
+    jogos.push({ "mandante": "Guarany de Bagé", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1967-04-02", "estadio": "Estrela D'Alva" });
+    jogos.push({ "mandante": "Seleção de Uruguaiana", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1967-04-04", "estadio": "" });
+    jogos.push({ "mandante": "Democrata GV", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1967-06-11", "estadio": "Mamudão" });
+    jogos.push({ "mandante": "América de Teófilo Otoni", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1967-06-13", "estadio": "Nassri Mattar" });
+    jogos.push({ "mandante": "Combinado do Rio de Janeiro", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1967-06-22", "estadio": "" });
+    jogos.push({ "mandante": "Democrata SL", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1967-06-25", "estadio": "Duarte de Paiva" });
+    jogos.push({ "mandante": "América-RJ", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1967-07-02", "estadio": "Mané Garrincha" });
+    jogos.push({ "mandante": "Luve", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1967-09-17", "estadio": "(Viçosa)" });
+    jogos.push({ "mandante": "Uberlândia", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1967-09-24", "estadio": "Juca Ribeiro" });
+    jogos.push({ "mandante": "Ituiutaba", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1967-09-26", "estadio": "" });
+    jogos.push({ "mandante": "Guarani de Ponta Grossa", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1968-01-18", "estadio": "Joaquim de Paula Xavier" });
+    jogos.push({ "mandante": "Goiânia", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1968-09-11", "estadio": "" });
+    jogos.push({ "mandante": "Olaria", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1969-03-02", "estadio": "Eduardo Guinle" });
 
     jogos = jogos.concat(ProximosJogos());
 
