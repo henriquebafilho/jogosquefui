@@ -39,10 +39,13 @@ class Estadios extends Component {
 
     this.setState({ isLoading: true })
     for (let i in jogos) {
-      if (!this.state.estadios.includes(jogos[i].estadio) && jogos[i].estadio !== "") {
+      if (!this.state.estadios.includes(jogos[i].estadio) &&
+        jogos[i].estadio !== "" &&
+        jogos[i].estadio[0] !== "(") {
         this.state.estadios.push(jogos[i].estadio);
       }
     }
+
     this.state.estadios.sort((a, b) => {
       const qtdJogosA = common.getTotalEstadio(a, jogos);
       const qtdJogosB = common.getTotalEstadio(b, jogos);

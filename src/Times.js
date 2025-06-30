@@ -144,7 +144,7 @@ function Times(time, data) {
                   backgroundColor = "#003a94";
                   letterColor = "white";
                   break;
-            case "Alecrim-RN":
+            case "Alecrim":
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#01904e";
@@ -406,7 +406,7 @@ function Times(time, data) {
                   backgroundColor = "#4ebde5";
                   letterColor = "white";
                   break;
-            case "Auto Esporte-PI":
+            case "Auto Esporte":
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#03953f";
@@ -714,7 +714,7 @@ function Times(time, data) {
                   backgroundColor = "#d30a11";
                   letterColor = "white";
                   break;
-            case "Cattete FC":
+            case "Cattete":
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#193D8B";
@@ -1516,7 +1516,7 @@ function Times(time, data) {
                   backgroundColor = "black";
                   letterColor = "white";
                   break;
-            case "Floresta-CE":
+            case "Floresta":
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#87c53f";
@@ -2424,7 +2424,7 @@ function Times(time, data) {
                   backgroundColor = "#003a94";
                   letterColor = "white";
                   break;
-            case "Minervén FC":
+            case "Minervén":
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#18407D";
@@ -2813,8 +2813,8 @@ function Times(time, data) {
                   backgroundColor = "#257524";
                   letterColor = "white";
                   break;
-            case "Pinheiros-PR": case "Água Verde":
-                  nomeAtual = "Pinheiros-PR";
+            case "Pinheiros": case "Água Verde":
+                  nomeAtual = "Pinheiros";
                   escudo = time;
                   backgroundColor = time === "Água Verde" ? "#007c3e" : "#003a94";
                   letterColor = "white";
@@ -3011,7 +3011,7 @@ function Times(time, data) {
                   backgroundColor = "white";
                   letterColor = "black";
                   break;
-            case "Riachuelo-RJ":
+            case "Riachuelo":
                   nomeAtual = time;
                   escudo = time;
                   backgroundColor = "#048439";
