@@ -6120,11 +6120,6 @@ function jogos() {
         return a.data < b.data ? -1 : a.data > b.data ? 1 : 0;
     });
 
-    jogos.forEach(element => {
-        const dataSemHifen = element.data.replace(/-/g, '');
-        element.id = dataSemHifen;
-    });
-
     return jogos;
 }
 export default jogos;
