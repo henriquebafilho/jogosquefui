@@ -1,7 +1,6 @@
-import React, { Component } from 'react';
+import { Component } from 'react';
 import Times from '../Times';
 import common from '../common';
-import ViewAno from './viewScreens/ViewAno';
 import BotafogoJogos from '../TodosOsJogos/BotafogoJogos';
 import { NavLink } from 'react-router-dom';
 
@@ -14,11 +13,9 @@ class Anos extends Component {
       anos: [],
       filtered: [],
       isLoading: false,
-      clicked: false,
       anoAtual: '',
       jogosAno: []
     }
-    this.buttonClick = this.buttonClick.bind(this);
   }
 
   async componentDidMount() {
@@ -73,57 +70,54 @@ class Anos extends Component {
 
   render() {
     const time = this.state.time;
-    const meusJogos = this.state.jogos;
-    const buttonClickFunction = (ano) => this.buttonClick(ano);
 
     return (
       <>
-        {this.state.clicked ? <ViewAno time={this.props.time} meusJogos={meusJogos} jogosAno={this.state.jogosAno} ano={this.state.anoAtual} /> :
-          <div className="App-header" style={{ backgroundColor: Times(this.props.time).backgroundColor, color: Times(this.props.time).letterColor, alignItems: 'normal' }}>
-            <table>
-              <tbody>
-                {this.state.isLoading && <h1>Carregando...</h1>}
-                <input
-                  type="number"
-                  inputMode='numeric'
-                  placeholder="Insira o ano"
-                  onChange={this.searchAno}
-                  style={{
-                    width: '100%',
-                    marginBottom: '20px',
-                    marginTop: '20px',
-                    height: '40px',
-                    padding: '5px'
-                  }}
-                />
-                {this.state.filtered.length > 0 ?
-                  !this.state.isLoading && this.state.filtered.map(function (i) {
-                    var totalAno = common.getTotalAno(i, meusJogos);
-                    let imagemAno;
-                    try {
-                      imagemAno = require('../anos/' + i + '.png');
-                    } catch (e) {
-                      imagemAno = "";
-                    }
-                    return <div key={i}>
-                      <button id='selectAno' onClick={() => buttonClickFunction(i)} style={{ borderColor: Times(time).letterColor, borderStyle: 'solid', backgroundColor: Times(time).backgroundColor, color: Times(time).letterColor }}>
-                        <NavLink
-                          to={`/jogosquefui/anos/${i}`}
-                          end
-                          style={{ textDecoration: 'none' }}
-                        >
+        <div className="App-header" style={{ backgroundColor: Times(this.props.time).backgroundColor, color: Times(this.props.time).letterColor, alignItems: 'normal' }}>
+          <table>
+            <tbody>
+              {this.state.isLoading && <h1>Carregando...</h1>}
+              <input
+                type="number"
+                inputMode='numeric'
+                placeholder="Insira o ano"
+                onChange={this.searchAno}
+                style={{
+                  width: '100%',
+                  marginBottom: '20px',
+                  marginTop: '20px',
+                  height: '40px',
+                  padding: '5px'
+                }}
+              />
+              {this.state.filtered.length > 0 ?
+                !this.state.isLoading && this.state.filtered.map(function (i) {
+                  var totalAno = common.getTotalAno(i);
+                  let imagemAno;
+                  try {
+                    imagemAno = require('../anos/' + i + '.png');
+                  } catch (e) {
+                    imagemAno = "";
+                  }
+                  return <div key={i}>
+                    <button id='selectAno' style={{ borderColor: Times(time).letterColor, borderStyle: 'solid', backgroundColor: Times(time).backgroundColor, color: Times(time).letterColor }}>
+                      <NavLink
+                        to={`/jogosquefui/anos/${i}`}
+                        end
+                        style={{ textDecoration: 'none' }}
+                      >
                         <div>{imagemAno !== "" ? <img src={imagemAno} style={{ verticalAlign: 'middle' }} alt='ano' height='150' width='150' /> : ""}</div>
                         <div id='tituloOpcao' style={{ display: 'inline', padding: '10px', fontSize: '30px' }}>{i}</div>
                         <div style={{ paddingBottom: '5px', fontSize: '15px', fontWeight: '100' }}>{totalAno} {totalAno > 1 ? "jogos" : "jogo"}</div>
-                        </NavLink>
-                      </button>
-                    </div>
-                  }) : <div>
-                    <h4 style={{ color: Times(this.state.time).letterColor, textAlign: 'center', paddingBottom: '50px' }}>Nenhum ano encontrado</h4>
-                  </div>}
-              </tbody>
-            </table>
-          </div>}
+                      </NavLink>
+                    </button>
+                  </div>
+                }) : <div>
+                  <h4 style={{ color: Times(this.state.time).letterColor, textAlign: 'center', paddingBottom: '50px' }}>Nenhum ano encontrado</h4>
+                </div>}
+            </tbody>
+          </table>
+        </div>
       </>
     )
   }

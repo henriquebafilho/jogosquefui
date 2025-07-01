@@ -29,7 +29,7 @@ const getTotalEstadio = (estadio, jogos) => {
     return total;
 }
 
-const getTotalAno = (ano, jogos) => {
+const getTotalAno = (ano) => {
     var total = 0;
 
     for (var a in jogos) {
@@ -40,6 +40,19 @@ const getTotalAno = (ano, jogos) => {
     }
 
     return total;
+}
+
+const getJogosAno = (ano) => {
+    var jogosAno = [];
+
+    for (var i in jogos) {
+        const anoAtual = jogos[i].data.split("-")[0];
+        if (ano === anoAtual) {
+            jogosAno.push(jogos[i]);
+        }
+    }
+
+    return jogosAno;
 }
 
 const getVitorias = (time, jogos) => {
@@ -99,6 +112,7 @@ const commonFunctions = {
     getTotalAdversario,
     getTotalEstadio,
     getTotalAno,
+    getJogosAno,
     getVitorias,
     getEmpates,
     getDerrotas,
