@@ -3,6 +3,7 @@ import Times from '../Times';
 import common from '../common';
 import BotafogoJogos from '../TodosOsJogos/BotafogoJogos';
 import { NavLink } from 'react-router-dom';
+import Estatisticas from '../components/Estatisticas';
 
 class Anos extends Component {
   constructor(props) {
@@ -76,6 +77,7 @@ class Anos extends Component {
         <div className="App-header" style={{ backgroundColor: Times(this.props.time).backgroundColor, color: Times(this.props.time).letterColor, alignItems: 'normal' }}>
           <table>
             <tbody>
+              <Estatisticas meuTime={time} jogos={this.state.jogos} />
               {this.state.isLoading && <h1>Carregando...</h1>}
               <input
                 type="number"
