@@ -8,7 +8,7 @@ class Adversarios extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      meuTime: props.meuTime,
+      time: props.time,
       jogos: [],
       adversarios: [],
       filtered: [],
@@ -40,12 +40,12 @@ class Adversarios extends Component {
     this.setState({ isLoading: true });
 
     for (var a in jogos) {
-      if (Times(jogos[a].mandante).nomeAtual !== this.props.meuTime) {
+      if (Times(jogos[a].mandante).nomeAtual !== this.props.time) {
         if (!this.state.adversarios.includes(Times(jogos[a].mandante).nomeAtual)) {
           this.state.adversarios.push(Times(jogos[a].mandante).nomeAtual);
         }
       }
-      if (Times(jogos[a].visitante).nomeAtual !== this.props.meuTime) {
+      if (Times(jogos[a].visitante).nomeAtual !== this.props.time) {
         if (!this.state.adversarios.includes(Times(jogos[a].visitante).nomeAtual)) {
           this.state.adversarios.push(Times(jogos[a].visitante).nomeAtual);
         }
@@ -53,8 +53,8 @@ class Adversarios extends Component {
     }
 
     this.state.adversarios.sort((a, b) => {
-      const qtdJogosA = common.getTotalAdversario(this.state.meuTime, a);
-      const qtdJogosB = common.getTotalAdversario(this.state.meuTime, b);
+      const qtdJogosA = common.getTotalAdversario(this.state.time, a);
+      const qtdJogosB = common.getTotalAdversario(this.state.time, b);
 
       // Ordena por quantidade de jogos (decrescente)
       if (qtdJogosB !== qtdJogosA) {
@@ -74,6 +74,7 @@ class Adversarios extends Component {
     this.setState({ isLoading: false });
   }
 
+
   buttonClick = async (adversario) => {
     this.setState({ clicked: true, adversarioAtual: adversario });
   }
@@ -89,8 +90,8 @@ class Adversarios extends Component {
     });
 
     this.state.filtered.sort((a, b) => {
-      const qtdJogosA = common.getTotalAdversario(this.state.meuTime, a);
-      const qtdJogosB = common.getTotalAdversario(this.state.meuTime, b);
+      const qtdJogosA = common.getTotalAdversario(this.state.time, a);
+      const qtdJogosB = common.getTotalAdversario(this.state.time, b);
 
       // Ordena por quantidade de jogos (decrescente)
       if (qtdJogosB !== qtdJogosA) {
@@ -109,13 +110,13 @@ class Adversarios extends Component {
   }
 
   render() {
-    const meuTime = this.state.meuTime;
+    const time = this.state.time;
     const filtered = this.state.filtered;
     const buttonClickFunction = (adversario) => this.buttonClick(adversario);
     return (
       <>
-        {this.state.clicked ? <ViewAdversario meuTime={this.props.meuTime} adversario={this.state.adversarioAtual} /> :
-          <div className="App-header" style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor, alignItems: 'normal' }}>
+        {this.state.clicked ? <ViewAdversario time={this.props.time} adversario={this.state.adversarioAtual} /> :
+          <div className="App-header" style={{ backgroundColor: Times(this.props.time).backgroundColor, color: Times(this.props.time).letterColor, alignItems: 'normal' }}>
             <table>
               <tbody>
                 <input
@@ -132,14 +133,14 @@ class Adversarios extends Component {
                 />
                 {!this.state.isLoading ?
                   filtered.length > 0 ? filtered.map(function (i) {
-                    var totalAdversario = common.getTotalAdversario(meuTime, i);
+                    var totalAdversario = common.getTotalAdversario(time, i);
                     const nomesAnteriores = Times(i).nomesAnteriores;
                     return <div key={i}>
-                      <button id='selectAdversario' onClick={() => buttonClickFunction(Times(i).nomeAtual)} style={{ backgroundColor: Times(Times(i).nomeAtual).backgroundColor, color: Times(Times(i).nomeAtual).letterColor, borderColor: Times(meuTime).backgroundColor === 'white' ? 'black' : 'white', borderStyle: 'solid' }}>
+                      <button id='selectAdversario' onClick={() => buttonClickFunction(Times(i).nomeAtual)} style={{ backgroundColor: Times(Times(i).nomeAtual).backgroundColor, color: Times(Times(i).nomeAtual).letterColor, borderColor: Times(time).backgroundColor === 'white' ? 'black' : 'white', borderStyle: 'solid' }}>
                         <img src={require('../escudos/' + Times(Times(i).nomeAtual).escudo + '.png')} style={{ verticalAlign: 'middle' }} alt='escudo' height='75' width='75' />
                         <div id='tituloOpcao' style={{ paddingTop: '5px' }}>{Times(i).nomeAtual}</div>
                         <div style={{ paddingBottom: '5px', fontSize: '15px', fontWeight: '100' }}>{totalAdversario} {totalAdversario > 1 ? "jogos" : "jogo"}</div>
-                        {nomesAnteriores.length > 0 &&
+                        {nomesAnteriores && nomesAnteriores.length > 0 &&
                           <div>
                             <div>Nomes anteriores:</div>
                             {nomesAnteriores.map((nome) => {
@@ -150,10 +151,10 @@ class Adversarios extends Component {
                       </button>
                     </div>
                   }) : <div>
-                    <h4 style={{ color: Times(this.state.meuTime).letterColor, textAlign: 'center', paddingBottom: '50px' }}>Nenhum adversário encontrado</h4>
+                    <h4 style={{ color: Times(this.state.time).letterColor, textAlign: 'center', paddingBottom: '50px' }}>Nenhum adversário encontrado</h4>
                   </div>
                   : <div>
-                    <h4 style={{ color: Times(this.state.meuTime).letterColor, textAlign: 'center', paddingBottom: '50px' }}>Carregando adversários...</h4>
+                    <h4 style={{ color: Times(this.state.time).letterColor, textAlign: 'center', paddingBottom: '50px' }}>Carregando adversários...</h4>
                   </div>}
               </tbody>
             </table>

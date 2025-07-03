@@ -7,42 +7,40 @@ class ProximosJogos extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            meuTime: props.meuTime,
+            time: props.time,
             proximosJogos: [],
-            isLoading: false,
-            clicked: false
+            isLoading: false
         }
     }
 
     async componentDidMount() {
         this._isMounted = true;
         window.scrollTo(0, 0);
-        this.setState({ isLoading: true })
         await this.getProximosJogos();
-        this.setState({ isLoading: false })
     }
 
     getProximosJogos = async () => {
+        this.setState({ isLoading: true })
         let todosOsJogos = Proximos();
 
         let proximosJogos = todosOsJogos.filter(function (i) {
             return i.golsMandante === "" && i.golsVisitante === "";
         });
-        this.setState({ proximosJogos });
+        this.setState({ proximosJogos, isLoading: false });
     }
 
     render() {
-        const meuTime = this.state.meuTime;
+        const time = this.state.time;
         const jogos = this.state.proximosJogos;
         return (
             <>
-                <div className="container" style={{ color: Times(this.props.meuTime).letterColor, backgroundColor: Times(this.props.meuTime).backgroundColor }}>
+                <div className="container" style={{ color: Times(this.props.time).letterColor, backgroundColor: Times(this.props.time).backgroundColor }}>
                     {jogos.length > 0 ? jogos.map((index) => {
                         return <div>
-                            <LinhaJogo key={JSON.stringify(index)} meuTime={meuTime} jogo={index} />
+                            <LinhaJogo key={JSON.stringify(index)} time={time} jogo={index} />
                         </div>
                     }) : <div>
-                        <h4 style={{ color: Times(meuTime).letterColor, textAlign: 'center' }}>Não há jogos futuros</h4>
+                        <h4 style={{ color: Times(time).letterColor, textAlign: 'center' }}>Não há jogos futuros</h4>
                     </div>}
                 </div>
             </>
