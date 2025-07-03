@@ -27,17 +27,15 @@ function Principal() {
 
       <TabRecentes />
 
-      <main style={{ padding: '20px' }}>
-        <Routes>
-          <Route path="/" element={<UltimosJogos time={time} />} />
-          <Route path="proximos" element={<ProximosJogos time={time} />} />
-          <Route path="anos" element={<Anos time={time} />} />
-          <Route path="anos/:ano" element={<ViewAno time={time} />} />
-          <Route path="estadios" element={<Estadios time={time} />} />
-          <Route path="adversarios" element={<Adversarios time={time} />} />
-          <Route path="*" element={<Navigate to="/jogosquefui/" replace />} />
-        </Routes>
-      </main>
+      <Routes>
+        <Route path="/" element={<UltimosJogos time={time} />} />
+        <Route path="proximos" element={<ProximosJogos time={time} />} />
+        <Route path="anos" element={<Anos time={time} />} />
+        <Route path="anos/:ano" element={<ViewAno time={time} />} />
+        <Route path="estadios" element={<Estadios time={time} />} />
+        <Route path="adversarios" element={<Adversarios time={time} />} />
+        <Route path="*" element={<Navigate to="/jogosquefui/" replace />} />
+      </Routes>
     </div>
   );
 }

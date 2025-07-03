@@ -100,15 +100,15 @@ class Anos extends Component {
                     imagemAno = "";
                   }
                   return <div key={i}>
-                    <button id='selectAno' style={{ borderColor: Times(time).letterColor, borderStyle: 'solid', backgroundColor: Times(time).backgroundColor, color: Times(time).letterColor }}>
+                    <button id='selectAno' style={{ borderColor: Times(time).letterColor, borderStyle: 'solid', backgroundColor: Times(time).backgroundColor }}>
                       <NavLink
                         to={`/jogosquefui/anos/${i}`}
                         end
                         style={{ textDecoration: 'none' }}
                       >
                         <div>{imagemAno !== "" ? <img src={imagemAno} style={{ verticalAlign: 'middle' }} alt='ano' height='150' width='150' /> : ""}</div>
-                        <div id='tituloOpcao' style={{ display: 'inline', padding: '10px', fontSize: '30px' }}>{i}</div>
-                        <div style={{ paddingBottom: '5px', fontSize: '15px', fontWeight: '100' }}>{totalAno} {totalAno > 1 ? "jogos" : "jogo"}</div>
+                        <div style={{ display: 'inline', padding: '10px', fontSize: '30px', color: Times(time).letterColor }}>{i}</div>
+                        <div style={{ paddingBottom: '5px', fontSize: '15px', fontWeight: '100', color: Times(time).letterColor }}>{totalAno} {totalAno > 1 ? "jogos" : "jogo"}</div>
                       </NavLink>
                     </button>
                   </div>

@@ -23,7 +23,7 @@ function ViewAno(props) {
     }
 
     return (
-        <div className="content  active-content" style={{ backgroundColor: Times(time).backgroundColor, color: Times(time).letterColor }}>
+        <div className="container" style={{ backgroundColor: Times(time).backgroundColor, color: Times(time).letterColor }}>
             <div className="App-header" style={{ backgroundColor: Times(time).backgroundColor, color: Times(time).letterColor }}>
                 <div>{imagemAno !== "" ? <img src={imagemAno} style={{ verticalAlign: 'middle' }} alt='ano' height='250' width='250' /> : ""}</div>
                 <h1 style={{ padding: '5px' }}>{anoParam}</h1>
