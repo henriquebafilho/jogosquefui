@@ -8,7 +8,7 @@ class LinhaJogo extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            time: props.time,
+            meuTime: props.meuTime,
             jogo: props.jogo,
             isLoading: false
         }
@@ -52,7 +52,7 @@ class LinhaJogo extends Component {
                     paddingBottom: '10px',
                     marginBottom: '10px',
                     width: '100%',
-                    borderColor: Times(this.props.time).backgroundColor === 'white' ? 'black' : 'white'
+                    borderColor: Times(this.props.meuTime).backgroundColor === 'white' ? 'black' : 'white'
                 }}
                 key={JSON.stringify(this.props.jogo)}
             >

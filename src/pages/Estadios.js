@@ -8,7 +8,7 @@ class Estadios extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      time: props.time,
+      meuTime: props.meuTime,
       jogos: [],
       estadios: [],
       filtered: [],
@@ -115,14 +115,14 @@ class Estadios extends Component {
   }
 
   render() {
-    const time = this.state.time;
+    const meuTime = this.state.meuTime;
     const meusJogos = this.state.jogos;
     const buttonClickFunction = (estadio) => this.buttonClick(estadio);
 
     return (
       <>
-        {this.state.clicked ? <ViewEstadio time={this.props.time} meusJogos={meusJogos} jogosEstadio={this.state.jogosEstadio} estadio={this.state.estadioAtual} /> :
-          <div className="App-header" style={{ backgroundColor: Times(this.props.time).backgroundColor, color: Times(this.props.time).letterColor, alignItems: 'normal' }}>
+        {this.state.clicked ? <ViewEstadio meuTime={this.props.meuTime} meusJogos={meusJogos} jogosEstadio={this.state.jogosEstadio} estadio={this.state.estadioAtual} /> :
+          <div className="App-header" style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor, alignItems: 'normal' }}>
             <h4 style={{ textAlign: 'center' }}>{this.state.estadios.length + " estádio"}{this.state.estadios.length > 1 ? "s" : ""}{" cadastrados"}</h4>
             <br />
             <table>
@@ -149,14 +149,14 @@ class Estadios extends Component {
                       imagemEstadio = "";
                     }
                     return <div key={i}>
-                      <button id='selectEstadio' onClick={() => buttonClickFunction(i)} style={{ borderColor: Times(time).letterColor, borderStyle: 'solid', backgroundColor: Times(time).backgroundColor, color: Times(time).letterColor }}>
+                      <button id='selectEstadio' onClick={() => buttonClickFunction(i)} style={{ borderColor: Times(meuTime).letterColor, borderStyle: 'solid', backgroundColor: Times(meuTime).backgroundColor, color: Times(meuTime).letterColor }}>
                         {imagemEstadio !== "" ? <img src={imagemEstadio} style={{ verticalAlign: 'middle' }} alt='escudo' height='150' width='150' /> : ""}
                         <div id='tituloOpcao' style={{ padding: '10px' }}>{i}</div>
                         <div style={{ paddingBottom: '5px', fontSize: '15px', fontWeight: '100' }}>{totalEstadio} {totalEstadio > 1 ? "jogos" : "jogo"}</div>
                       </button>
                     </div>
                   }) : <div>
-                    <h4 style={{ color: Times(this.state.time).letterColor, textAlign: 'center', paddingBottom: '50px' }}>Nenhum estádio encontrado</h4>
+                    <h4 style={{ color: Times(this.state.meuTime).letterColor, textAlign: 'center', paddingBottom: '50px' }}>Nenhum estádio encontrado</h4>
                   </div>}
               </tbody>
             </table>

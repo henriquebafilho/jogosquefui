@@ -3,13 +3,13 @@ import BotafogoJogos from './TodosOsJogos/BotafogoJogos';
 
 const jogos = BotafogoJogos().filter(jogo => jogo.golsMandante !== "" && jogo.golsVisitante !== "");
 
-const getTotalAdversario = (time, adversario) => {
+const getTotalAdversario = (meuTime, adversario) => {
     var total = 0;
     var adversarioAtual = Times(adversario).nomeAtual;
 
     for (var a in jogos) {
-        if (((jogos[a].mandante === time) && (Times(jogos[a].visitante).nomeAtual === adversarioAtual)) ||
-            ((jogos[a].visitante === time) && (Times(jogos[a].mandante).nomeAtual === adversarioAtual))) {
+        if (((jogos[a].mandante === meuTime) && (Times(jogos[a].visitante).nomeAtual === adversarioAtual)) ||
+            ((jogos[a].visitante === meuTime) && (Times(jogos[a].mandante).nomeAtual === adversarioAtual))) {
             total += 1;
         }
     }
@@ -29,7 +29,7 @@ const getTotalEstadio = (estadio, jogos) => {
     return total;
 }
 
-const getTotalAno = (ano) => {
+const getTotalAno = (ano, jogos) => {
     var total = 0;
 
     for (var a in jogos) {
@@ -42,30 +42,17 @@ const getTotalAno = (ano) => {
     return total;
 }
 
-const getJogosAno = (ano) => {
-    var jogosAno = [];
-
-    for (var i in jogos) {
-        const anoAtual = jogos[i].data.split("-")[0];
-        if (ano === anoAtual) {
-            jogosAno.push(jogos[i]);
-        }
-    }
-
-    return jogosAno;
-}
-
-const getVitorias = (time, jogos) => {
+const getVitorias = (meuTime, jogos) => {
     var vitorias = 0;
 
     for (var a in jogos) {
-        if (jogos[a].golsMandante === "WO" && jogos[a].mandante === time) {
+        if (jogos[a].golsMandante === "WO" && jogos[a].mandante === meuTime) {
             vitorias += 1;
-        } else if (jogos[a].golsVisitante === "WO" && jogos[a].visitante === time) {
+        } else if (jogos[a].golsVisitante === "WO" && jogos[a].visitante === meuTime) {
             vitorias += 1;
         } else {
-            if (((jogos[a].mandante === time) && (jogos[a].golsMandante > jogos[a].golsVisitante)) ||
-                ((jogos[a].visitante === time) && (jogos[a].golsMandante < jogos[a].golsVisitante))) {
+            if (((jogos[a].mandante === meuTime) && (jogos[a].golsMandante > jogos[a].golsVisitante)) ||
+                ((jogos[a].visitante === meuTime) && (jogos[a].golsMandante < jogos[a].golsVisitante))) {
                 vitorias += 1;
             }
         }
@@ -74,12 +61,12 @@ const getVitorias = (time, jogos) => {
     return vitorias;
 }
 
-const getEmpates = (time, jogos) => {
+const getEmpates = (meuTime, jogos) => {
     var empates = 0;
 
     for (var a in jogos) {
         if (jogos[a].golsMandante === jogos[a].golsVisitante &&
-            (time === jogos[a].mandante || time === jogos[a].visitante)) {
+            (meuTime === jogos[a].mandante || meuTime === jogos[a].visitante)) {
             empates += 1;
         }
     }
@@ -87,17 +74,17 @@ const getEmpates = (time, jogos) => {
     return empates;
 }
 
-const getDerrotas = (time, jogos) => {
+const getDerrotas = (meuTime, jogos) => {
     var derrotas = 0;
 
     for (var a in jogos) {
-        if (jogos[a].golsMandante === "WO" && jogos[a].visitante === time) {
+        if (jogos[a].golsMandante === "WO" && jogos[a].visitante === meuTime) {
             derrotas += 1;
-        } else if (jogos[a].golsVisitante === "WO" && jogos[a].mandante === time) {
+        } else if (jogos[a].golsVisitante === "WO" && jogos[a].mandante === meuTime) {
             derrotas += 1;
         } else {
-            if (((jogos[a].mandante === time) && (jogos[a].golsMandante < jogos[a].golsVisitante)) ||
-                ((jogos[a].visitante === time) && (jogos[a].golsMandante > jogos[a].golsVisitante))) {
+            if (((jogos[a].mandante === meuTime) && (jogos[a].golsMandante < jogos[a].golsVisitante)) ||
+                ((jogos[a].visitante === meuTime) && (jogos[a].golsMandante > jogos[a].golsVisitante))) {
                 derrotas += 1;
             }
         }
@@ -112,7 +99,6 @@ const commonFunctions = {
     getTotalAdversario,
     getTotalEstadio,
     getTotalAno,
-    getJogosAno,
     getVitorias,
     getEmpates,
     getDerrotas,
