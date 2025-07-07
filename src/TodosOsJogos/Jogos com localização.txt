@@ -1,5 +1,3 @@
-All Matches of Botafogo de Futebol e Regatas (RJ)
-DATA        LOCAL                            GF-GC ADVERSÁRIO (Estado_País)                              COMPETIÇÃO
 02/10/1904  Rio de Janeiro (RJ)               0-3  FOOTBALL AND ATHLETIC (RJ)                            ESTADUAL, AMISTOSO
 21/05/1905  Rio de Janeiro (RJ)               1-0  PETROPOLITANO (RJ)                                    ESTADUAL, AMISTOSO
 28/05/1905  Rio de Janeiro (RJ)               1-0  COLÉGIO MILITAR (RJ)                                  ESTADUAL, AMISTOSO

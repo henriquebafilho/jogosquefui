@@ -4275,9 +4275,9 @@ function jogos() {
     jogos.push({ "mandante": "Fluminense", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Carioca 1929", "data": "1929-10-26", "estadio": "Laranjeiras" });
     jogos.push({ "mandante": "Vasco", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Carioca 1929", "data": "1929-10-20", "estadio": "São Januário" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Bonsucesso", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Carioca 1929", "data": "1929-10-06", "estadio": "General Severiano" });
-    jogos.push({ "mandante": "Andarahy", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 6, "campeonato": "Carioca 1929", "data": "1929-09-29", "estadio": "" });
-    jogos.push({ "mandante": "São Cristóvão", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Carioca 1929", "data": "1929-09-22", "estadio": "" });
-    jogos.push({ "mandante": "SC Brasil", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 4, "campeonato": "Carioca 1929", "data": "1929-09-20", "estadio": "" });
+    jogos.push({ "mandante": "Andarahy", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 6, "campeonato": "Carioca 1929", "data": "1929-09-29", "estadio": "(Rio de Janeiro-RJ)" });
+    jogos.push({ "mandante": "São Cristóvão", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Carioca 1929", "data": "1929-09-22", "estadio": "(Rio de Janeiro-RJ)" });
+    jogos.push({ "mandante": "SC Brasil", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 4, "campeonato": "Carioca 1929", "data": "1929-09-20", "estadio": "(Rio de Janeiro-RJ)" });
     jogos.push({ "mandante": "Botafogo", "visitante": "SC Brasil", "golsMandante": 5, "golsVisitante": 0, "campeonato": "Carioca 1929", "data": "1929-09-01", "estadio": "Laranjeiras" });
     jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 5, "campeonato": "Carioca 1929", "data": "1929-08-18", "estadio": "Rua Paysandu" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Bangu", "golsMandante": 3, "golsVisitante": 5, "campeonato": "Carioca 1929", "data": "1929-08-04", "estadio": "Laranjeiras" });
@@ -4357,10 +4357,10 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Vasco", "golsMandante": 3, "golsVisitante": 5, "campeonato": "Amistoso", "data": "1926-04-11", "estadio": "General Severiano" });
     jogos.push({ "mandante": "São Cristóvão", "visitante": "Botafogo", "golsMandante": 6, "golsVisitante": 3, "campeonato": "Carioca 1926", "data": "1926-04-04", "estadio": "Figueira de Melo" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Bangu", "golsMandante": "WO", "golsVisitante": 0, "campeonato": "Carioca 1925", "data": "1925-12-20", "estadio": "General Severiano" });
-    jogos.push({ "mandante": "São Cristóvão", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Carioca 1925", "data": "1925-12-13", "estadio": "" });
+    jogos.push({ "mandante": "São Cristóvão", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Carioca 1925", "data": "1925-12-13", "estadio": "(Rio de Janeiro-RJ)" });
     jogos.push({ "mandante": "Santos", "visitante": "Botafogo", "golsMandante": 4, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1925-12-06", "estadio": "Vila Belmiro" });
-    jogos.push({ "mandante": "SC Brasil", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 4, "campeonato": "Carioca 1925", "data": "1925-11-29", "estadio": "" });
-    jogos.push({ "mandante": "Syrio e Libanez", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Carioca 1925", "data": "1925-11-22", "estadio": "" });
+    jogos.push({ "mandante": "SC Brasil", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 4, "campeonato": "Carioca 1925", "data": "1925-11-29", "estadio": "(Rio de Janeiro-RJ)" });
+    jogos.push({ "mandante": "Syrio e Libanez", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Carioca 1925", "data": "1925-11-22", "estadio": "(Rio de Janeiro-RJ)" });
     jogos.push({ "mandante": "Hellênico", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 4, "campeonato": "Carioca 1925", "data": "1925-11-15", "estadio": "General Severiano" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Flamengo", "golsMandante": 2, "golsVisitante": 3, "campeonato": "Carioca 1925", "data": "1925-10-25", "estadio": "General Severiano" });
     jogos.push({ "mandante": "Vasco", "visitante": "Botafogo", "golsMandante": 4, "golsVisitante": 2, "campeonato": "Carioca 1925", "data": "1925-10-11", "estadio": "Laranjeiras" });
@@ -4368,7 +4368,7 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "América-RJ", "golsMandante": 3, "golsVisitante": 2, "campeonato": "Carioca 1925", "data": "1925-07-12", "estadio": "General Severiano" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Hellênico", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Carioca 1925", "data": "1925-06-28", "estadio": "General Severiano" });
     jogos.push({ "mandante": "Botafogo", "visitante": "São Cristóvão", "golsMandante": 3, "golsVisitante": 2, "campeonato": "Carioca 1925", "data": "1925-06-21", "estadio": "General Severiano" });
-    jogos.push({ "mandante": "Bangu", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Carioca 1925", "data": "1925-06-07", "estadio": "" });
+    jogos.push({ "mandante": "Bangu", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Carioca 1925", "data": "1925-06-07", "estadio": "(Rio de Janeiro-RJ)" });
     jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 0, "campeonato": "Carioca 1925", "data": "1925-05-31", "estadio": "Rua Paysandu" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Syrio e Libanez", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Carioca 1925", "data": "1925-05-24", "estadio": "General Severiano" });
     jogos.push({ "mandante": "Botafogo", "visitante": "SC Brasil", "golsMandante": 8, "golsVisitante": 4, "campeonato": "Carioca 1925", "data": "1925-05-13", "estadio": "General Severiano" });
