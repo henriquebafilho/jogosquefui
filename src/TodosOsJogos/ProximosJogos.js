@@ -26,7 +26,7 @@ function jogos() {
     jogos.push({ "mandante": "Red Bull Bragantino", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Copa do Brasil 2025", "data": "2025-08-06", "estadio": "Cicero De Souza Marques", "horario": "19:00" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Cruzeiro", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2025", "data": "2025-08-03", "estadio": "Nilton Santos", "horario": "16:00" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Red Bull Bragantino", "golsMandante": "", "golsVisitante": "", "campeonato": "Copa do Brasil 2025", "data": "2025-07-29", "estadio": "Nilton Santos", "horario": "19:00" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "Corinthians", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2025", "data": "2025-07-26", "estadio": "Nilton Santos", "horario": "18:30" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Corinthians", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Brasileirão 2025", "data": "2025-07-26", "estadio": "Nilton Santos", "horario": "18:30" });
     //jogos.push({ "mandante": "Grêmio", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2025", "data": "2025-07-23", "estadio": "Arena do Grêmio" });
     jogos.push({ "mandante": "Sport", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Brasileirão 2025", "data": "2025-07-20", "estadio": "Ilha do Retiro", "horario": "17:30" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Vitória", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Brasileirão 2025", "data": "2025-07-16", "estadio": "Nilton Santos", "horario": "21:30" });
