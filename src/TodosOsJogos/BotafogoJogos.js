@@ -3,6 +3,14 @@ import ProximosJogos from "./ProximosJogos";
 function jogos() {
     let jogos = [];
 
+    jogos.push({ "mandante": "Fortaleza", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 5, "campeonato": "Brasileirão 2025", "data": "2025-08-09", "estadio": "Castelão-CE", "horario": "20:30" });
+    jogos.push({ "mandante": "Red Bull Bragantino", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Copa do Brasil 2025", "data": "2025-08-06", "estadio": "Cícero de Souza Marques", "horario": "19:00" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Cruzeiro", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Brasileirão 2025", "data": "2025-08-03", "estadio": "Nilton Santos", "horario": "16:00" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Red Bull Bragantino", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Copa do Brasil 2025", "data": "2025-07-29", "estadio": "Nilton Santos", "horario": "19:00" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Corinthians", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Brasileirão 2025", "data": "2025-07-26", "estadio": "Nilton Santos", "horario": "18:30" });
+    jogos.push({ "mandante": "Sport", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Brasileirão 2025", "data": "2025-07-20", "estadio": "Ilha do Retiro", "horario": "17:30" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Vitória", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Brasileirão 2025", "data": "2025-07-16", "estadio": "Nilton Santos", "horario": "21:30" });
+    jogos.push({ "mandante": "Vasco", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Brasileirão 2025", "data": "2025-07-12", "estadio": "Mané Garrincha", "horario": "18:30" });
     jogos.push({ "mandante": "Palmeiras", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Copa do Mundo de Clubes 2025", "data": "2025-06-28", "estadio": "Lincoln Financial Field", "horario": "13:00" });
     jogos.push({ "mandante": "Atlético de Madrid", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Copa do Mundo de Clubes 2025", "data": "2025-06-23", "estadio": "Rose Bowl", "horario": "16:00" });
     jogos.push({ "mandante": "Paris Saint-Germain", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Copa do Mundo de Clubes 2025", "data": "2025-06-19", "estadio": "Rose Bowl", "horario": "22:00" });
