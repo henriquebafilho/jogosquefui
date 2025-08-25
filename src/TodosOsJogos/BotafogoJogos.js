@@ -3,6 +3,10 @@ import ProximosJogos from "./ProximosJogos";
 function jogos() {
     let jogos = [];
 
+    jogos.push({ "mandante": "Juventude", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Brasileirão 2025", "data": "2025-08-24", "estadio": "Alfredo Jaconi", "horario": "18:30" });
+    jogos.push({ "mandante": "LDU", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Libertadores 2025", "data": "2025-08-21", "estadio": "Casablanca", "horario": "19:00" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Palmeiras", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Brasileirão 2025", "data": "2025-08-17", "estadio": "Nilton Santos", "horario": "20:30" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "LDU", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Libertadores 2025", "data": "2025-08-14", "estadio": "Nilton Santos", "horario": "19:00" });
     jogos.push({ "mandante": "Fortaleza", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 5, "campeonato": "Brasileirão 2025", "data": "2025-08-09", "estadio": "Castelão-CE", "horario": "20:30" });
     jogos.push({ "mandante": "Red Bull Bragantino", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Copa do Brasil 2025", "data": "2025-08-06", "estadio": "Cícero de Souza Marques", "horario": "19:00" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Cruzeiro", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Brasileirão 2025", "data": "2025-08-03", "estadio": "Nilton Santos", "horario": "16:00" });
@@ -1527,7 +1531,7 @@ function jogos() {
     jogos.push({ "mandante": "Americano", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 5, "campeonato": "Rio-São Paulo 02", "data": "2002-01-20", "estadio": "Godofredo Cruz" });
     jogos.push({ "mandante": "Botafogo", "visitante": "São Caetano", "golsMandante": 2, "golsVisitante": 4, "campeonato": "Brasileirão 2001", "data": "2001-12-01", "estadio": "Caio Martins" });
     jogos.push({ "mandante": "Portuguesa", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Brasileirão 2001", "data": "2001-11-24", "estadio": "Canindé" });
-    jogos.push({ "mandante": "Juventude", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Brasileirão 2001", "data": "2001-11-18", "estadio": "Alfredo Jaconi" });
+    jogos.push({ "mandante": "Juventude", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Brasileirão 2001", "data": "2001-11-18", "estadio": "Centenário (Caxias do Sul)" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Corinthians", "golsMandante": 2, "golsVisitante": 4, "campeonato": "Brasileirão 2001", "data": "2001-11-15", "estadio": "Serejão" });
     jogos.push({ "mandante": "São Paulo", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Brasileirão 2001", "data": "2001-11-10", "estadio": "Morumbi" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Grêmio", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Brasileirão 2001", "data": "2001-11-07", "estadio": "Maracanã" });
