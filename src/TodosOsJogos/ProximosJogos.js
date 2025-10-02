@@ -19,7 +19,7 @@ function jogos() {
     jogos.push({ "mandante": "Ceará", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2025", "data": "2025-10-19", "estadio": "Castelão-CE", "horario": "16:00" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Flamengo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2025", "data": "2025-10-15", "estadio": "Nilton Santos", "horario": "19:30" });
     jogos.push({ "mandante": "Internacional", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2025", "data": "2025-10-04", "estadio": "Beira-Rio", "horario": "18:30"  });
-    jogos.push({ "mandante": "Botafogo", "visitante": "Bahia", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2025", "data": "2025-10-01", "estadio": "Nilton Santos", "horario": "21:30" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Bahia", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Brasileirão 2025", "data": "2025-10-01", "estadio": "Nilton Santos", "horario": "21:30" });
     jogos.push({ "mandante": "Fluminense", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Brasileirão 2025", "data": "2025-09-28", "estadio": "Maracanã", "horario": "16:00" });
     
     jogos.sort(function (a, b) {
