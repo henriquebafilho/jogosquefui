@@ -5814,7 +5814,7 @@ function jogos() {
     jogos.push({ "mandante": "Democrata SL", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1954-02-03", "estadio": "(Sete Lagoas-MG)" });
     jogos.push({ "mandante": "Remo", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1954-02-14", "estadio": "Souzão" });
     jogos.push({ "mandante": "Remo", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1954-02-17", "estadio": "Souzão" });
-    jogos.push({ "mandante": "Ribeiro Junqueira", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 7, "campeonato": "Amistoso", "data": "1954-04-27", "estadio": "(Leopoldina-MG)" });
+    jogos.push({ "mandante": "Ribeiro Junqueira", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 7, "campeonato": "Amistoso", "data": "1954-04-27", "estadio": "Guanahyro Fraga Motta" });
     jogos.push({ "mandante": "Calouros do Ar", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1954-06-12", "estadio": "Presidente Vargas" });
     jogos.push({ "mandante": "Ceará", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1954-06-13", "estadio": "Presidente Vargas" });
     jogos.push({ "mandante": "Passense", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1954-09-07", "estadio": "(Passos-MG)" });
