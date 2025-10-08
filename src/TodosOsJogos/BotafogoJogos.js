@@ -5107,7 +5107,7 @@ function jogos() {
     jogos.push({ "mandante": "Independiente Santa Fé", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 5, "campeonato": "Amistoso", "data": "1961-02-12", "estadio": "El Campín" });
     jogos.push({ "mandante": "Independiente Medellín", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1961-02-15", "estadio": "Atanasio Girardot" });
     jogos.push({ "mandante": "Seleção de Quito", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 5, "campeonato": "Amistoso", "data": "1961-02-19", "estadio": "Olímpico Atahualpa" });
-    jogos.push({ "mandante": "Colo-Colo", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1961-02-25", "estadio": "(Santiago - Chile)" });
+    jogos.push({ "mandante": "Colo-Colo", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Amistoso", "data": "1961-02-25", "estadio": "Nacional de Chile" });
     jogos.push({ "mandante": "Áustria", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1961-05-17", "estadio": "Ernst Happel Stadion" });
     jogos.push({ "mandante": "Estrela Vermelha", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1961-05-20", "estadio": "(Belgrado - Iugoslávia)" });
     jogos.push({ "mandante": "Combinado Bayern-1860", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1961-05-26", "estadio": "(Munique - Alemanha)" });
