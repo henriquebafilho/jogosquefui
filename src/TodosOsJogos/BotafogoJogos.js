@@ -1545,8 +1545,8 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Corinthians", "golsMandante": 2, "golsVisitante": 4, "campeonato": "Brasileirão 2001", "data": "2001-11-15", "estadio": "Serejão" });
     jogos.push({ "mandante": "São Paulo", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Brasileirão 2001", "data": "2001-11-10", "estadio": "Morumbi" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Grêmio", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Brasileirão 2001", "data": "2001-11-07", "estadio": "Maracanã" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "Palmeiras", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Brasileirão 2001", "data": "2001-11-04", "estadio": "Boca do Jacaré" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "Cruzeiro", "golsMandante": 3, "golsVisitante": 0, "campeonato": "Brasileirão 2001", "data": "2001-10-28", "estadio": "Boca do Jacaré" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Palmeiras", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Brasileirão 2001", "data": "2001-11-04", "estadio": "Serejão" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Cruzeiro", "golsMandante": 3, "golsVisitante": 0, "campeonato": "Brasileirão 2001", "data": "2001-10-28", "estadio": "Serejão" });
     jogos.push({ "mandante": "Internacional", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Brasileirão 2001", "data": "2001-10-21", "estadio": "Beira-Rio" });
     jogos.push({ "mandante": "Vasco", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Brasileirão 2001", "data": "2001-10-13", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Flamengo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Brasileirão 2001", "data": "2001-10-10", "estadio": "Maracanã" });
@@ -2590,7 +2590,7 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Grêmio", "golsMandante": 2, "golsVisitante": 3, "campeonato": "Brasileirão 1981", "data": "1981-02-07", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Pinheiros", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Brasileirão 1981", "data": "1981-02-04", "estadio": "Couto Pereira" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Portuguesa", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Brasileirão 1981", "data": "1981-01-31", "estadio": "Maracanã" });
-    jogos.push({ "mandante": "Brasília", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Brasileirão 1981", "data": "1981-01-28", "estadio": "Boca do Jacaré" });
+    jogos.push({ "mandante": "Brasília", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Brasileirão 1981", "data": "1981-01-28", "estadio": "Serejão" });
     jogos.push({ "mandante": "Corinthians", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Brasileirão 1981", "data": "1981-01-25", "estadio": "Morumbi" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Operário-MS", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Brasileirão 1981", "data": "1981-01-21", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Desportiva Ferroviária", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 4, "campeonato": "Brasileirão 1981", "data": "1981-01-18", "estadio": "Engenheiro Araripe" });
