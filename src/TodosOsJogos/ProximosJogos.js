@@ -7,7 +7,7 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Volta Redonda", "golsMandante": "", "golsVisitante": "", "campeonato": "Carioca 2026", "data": "2026-01-31", "estadio": "Nilton Santos" });
     jogos.push({ "mandante": "Sampaio Corrêa-RJ", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Carioca 2026", "data": "2026-01-24", "estadio": "Lourivaldão" });
     jogos.push({ "mandante": "Portuguesa-RJ", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Carioca 2026", "data": "2026-01-21", "estadio": "Luso Brasileiro" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "Fortaleza", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2025", "data": "2025-12-07", "estadio": "Nilton Santos" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Fortaleza", "golsMandante": 4, "golsVisitante": 2, "campeonato": "Brasileirão 2025", "data": "2025-12-07", "estadio": "Nilton Santos" });
     jogos.push({ "mandante": "Cruzeiro", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Brasileirão 2025", "data": "2025-12-04", "estadio": "Mineirão" });
     jogos.push({ "mandante": "Corinthians", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Brasileirão 2025", "data": "2025-11-30", "estadio": "Neo Química Arena", "horario": "16:00" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Grêmio", "golsMandante": 3, "golsVisitante": 2, "campeonato": "Brasileirão 2025", "data": "2025-11-22", "estadio": "Nilton Santos", "horario": "19:30" });
