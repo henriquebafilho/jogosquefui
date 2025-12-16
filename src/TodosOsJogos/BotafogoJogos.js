@@ -3,6 +3,17 @@ import ProximosJogos from "./ProximosJogos";
 function jogos() {
     let jogos = [];
 
+    jogos.push({ "mandante": "Botafogo", "visitante": "Fortaleza", "golsMandante": 4, "golsVisitante": 2, "campeonato": "Brasileirão 2025", "data": "2025-12-07", "estadio": "Nilton Santos" });
+    jogos.push({ "mandante": "Cruzeiro", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Brasileirão 2025", "data": "2025-12-04", "estadio": "Mineirão" });
+    jogos.push({ "mandante": "Corinthians", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Brasileirão 2025", "data": "2025-11-30", "estadio": "Neo Química Arena", "horario": "16:00" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Grêmio", "golsMandante": 3, "golsVisitante": 2, "campeonato": "Brasileirão 2025", "data": "2025-11-22", "estadio": "Nilton Santos", "horario": "19:30" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Sport", "golsMandante": 3, "golsVisitante": 2, "campeonato": "Brasileirão 2025", "data": "2025-11-18", "estadio": "Nilton Santos", "horario": "20:30" });
+    jogos.push({ "mandante": "Vitória", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Brasileirão 2025", "data": "2025-11-09", "estadio": "Barradão", "horario": "16:00" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Vasco", "golsMandante": 3, "golsVisitante": 0, "campeonato": "Brasileirão 2025", "data": "2025-11-05", "estadio": "Nilton Santos", "horario": "19:30" });
+    jogos.push({ "mandante": "Mirassol", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Brasileirão 2025", "data": "2025-11-01", "estadio": "José Maria de Campos Maia", "horario": "18:00" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Santos", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Brasileirão 2025", "data": "2025-10-26", "estadio": "Nilton Santos", "horario": "16:00" });
+    jogos.push({ "mandante": "Ceará", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Brasileirão 2025", "data": "2025-10-19", "estadio": "Castelão-CE", "horario": "18:30" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Flamengo", "golsMandante": 0, "golsVisitante": 3, "campeonato": "Brasileirão 2025", "data": "2025-10-15", "estadio": "Nilton Santos", "horario": "19:30" });
     jogos.push({ "mandante": "Internacional", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Brasileirão 2025", "data": "2025-10-04", "estadio": "Beira-Rio", "horario": "18:30"  });
     jogos.push({ "mandante": "Botafogo", "visitante": "Bahia", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Brasileirão 2025", "data": "2025-10-01", "estadio": "Nilton Santos", "horario": "21:30" });
     jogos.push({ "mandante": "Fluminense", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Brasileirão 2025", "data": "2025-09-28", "estadio": "Maracanã", "horario": "16:00" });
