@@ -3101,6 +3101,12 @@ function Times(time, data) {
                   backgroundColor = "#003a94";
                   letterColor = "white";
                   break;
+            case "Nacional Potosí":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "white";
+                  letterColor = "#d30a11";
+                  break;
             case "River Plate":
                   nomeAtual = time;
                   if (ano < 2020) {
