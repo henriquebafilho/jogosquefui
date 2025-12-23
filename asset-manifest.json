@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jogosquefui/static/css/main.6fbd8afb.css",
-    "main.js": "/jogosquefui/static/js/main.189a56db.js",
+    "main.js": "/jogosquefui/static/js/main.676f4c7e.js",
     "static/media/Atanasio Girardot.png": "/jogosquefui/static/media/Atanasio Girardot.654b0fba4632fac4057b.png",
     "static/media/Corisabbá.png": "/jogosquefui/static/media/Corisabbá.4b6783df88df9e49eae8.png",
     "static/media/Colosso da Lagoa.png": "/jogosquefui/static/media/Colosso da Lagoa.b7008037ac5675a07045.png",
@@ -504,6 +504,7 @@
     "static/media/Itabaiana.png": "/jogosquefui/static/media/Itabaiana.c3e6718a05c5584b0a5f.png",
     "static/media/Americano1980.png": "/jogosquefui/static/media/Americano1980.02835e27bd708bb59c0f.png",
     "static/media/Atlético de Madrid1970.png": "/jogosquefui/static/media/Atlético de Madrid1970.58d788e1c6fba9bbccd4.png",
+    "static/media/Nacional Potosí.png": "/jogosquefui/static/media/Nacional Potosí.11aded4acf3202df05bd.png",
     "static/media/Piauí.png": "/jogosquefui/static/media/Piauí.e3af378109f5c5da1407.png",
     "static/media/Blumenau.png": "/jogosquefui/static/media/Blumenau.b8e99e6d4459662842b7.png",
     "static/media/Servette.png": "/jogosquefui/static/media/Servette.b14842e3b06b48cacaa6.png",
@@ -857,10 +858,10 @@
     "static/media/Ceará.png": "/jogosquefui/static/media/Ceará.2667c31fce77d94092f4.png",
     "index.html": "/jogosquefui/index.html",
     "main.6fbd8afb.css.map": "/jogosquefui/static/css/main.6fbd8afb.css.map",
-    "main.189a56db.js.map": "/jogosquefui/static/js/main.189a56db.js.map"
+    "main.676f4c7e.js.map": "/jogosquefui/static/js/main.676f4c7e.js.map"
   },
   "entrypoints": [
     "static/css/main.6fbd8afb.css",
-    "static/js/main.189a56db.js"
+    "static/js/main.676f4c7e.js"
   ]
 }
