@@ -39,14 +39,14 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Vitória", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2026", "data": "2026-02-25", "estadio": "Nilton Santos" });
     jogos.push({ "mandante": "Nacional Potosí", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Libertadores 2026", "data": "2026-02-18", "estadio": "Bolívia", "horario": "21:30" });
     jogos.push({ "mandante": "Fluminense", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2026", "data": "2026-02-11", "estadio": "Maracanã" });
-    jogos.push({ "mandante": "Vasco", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Carioca 2026", "data": "2026-02-07", "estadio": "São Januário" });
+    jogos.push({ "mandante": "Vasco", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Carioca 2026", "data": "2026-02-08", "estadio": "São Januário", "horario": "18:00" });
     jogos.push({ "mandante": "Grêmio", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2026", "data": "2026-02-04", "estadio": "Arena do Grêmio" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "Fluminense", "golsMandante": "", "golsVisitante": "", "campeonato": "Carioca 2026", "data": "2026-01-31", "estadio": "Nilton Santos" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Fluminense", "golsMandante": "", "golsVisitante": "", "campeonato": "Carioca 2026", "data": "2026-02-01", "estadio": "Nilton Santos", "horario": "18:00" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Cruzeiro", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2026", "data": "2026-01-28", "estadio": "Nilton Santos" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "Bangu", "golsMandante": "", "golsVisitante": "", "campeonato": "Carioca 2026", "data": "2026-01-24", "estadio": "Nilton Santos" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "Volta Redonda", "golsMandante": "", "golsVisitante": "", "campeonato": "Carioca 2026", "data": "2026-01-21", "estadio": "Nilton Santos" });
-    jogos.push({ "mandante": "Sampaio Corrêa-RJ", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Carioca 2026", "data": "2026-01-17", "estadio": "Lourivaldão" });
-    jogos.push({ "mandante": "Portuguesa-RJ", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Carioca 2026", "data": "2026-01-14", "estadio": "Luso Brasileiro" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Bangu", "golsMandante": "", "golsVisitante": "", "campeonato": "Carioca 2026", "data": "2026-01-24", "estadio": "Nilton Santos", "horario": "21:00" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Volta Redonda", "golsMandante": "", "golsVisitante": "", "campeonato": "Carioca 2026", "data": "2026-01-21", "estadio": "Nilton Santos", "horario": "19:00" });
+    jogos.push({ "mandante": "Sampaio Corrêa-RJ", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Carioca 2026", "data": "2026-01-18", "estadio": "Lourivaldão", "horario": "20:30"});
+    jogos.push({ "mandante": "Portuguesa-RJ", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Carioca 2026", "data": "2026-01-15", "estadio": "Luso Brasileiro", "horario": "19:00" });
     
     jogos.sort(function (a, b) {
         return a.data < b.data ? -1 : a.data > b.data ? 1 : 0;
