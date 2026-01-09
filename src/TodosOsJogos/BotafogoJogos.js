@@ -6002,7 +6002,7 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Millonarios", "golsMandante": "WO", "golsVisitante": 0, "campeonato": "Libertadores 1963", "data": "1963-07-31", "estadio": "Maracanã" });
     jogos.push({ "mandante": "Valeriodoce", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Amistoso", "data": "1957-02-17", "estadio": "Israel Pinheiro (Itabira)" });
     jogos.push({ "mandante": "Internacional de Bebedouro", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1957-02-21", "estadio": "(Bebedouro-SP)" });
-    jogos.push({ "mandante": "América SJ Rio Preto", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1957-02-23", "estadio": "(São José do Rio Preto-SP)" });
+    jogos.push({ "mandante": "América SJ Rio Preto", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1957-02-23", "estadio": "Mário Alves Mendonça" });
     jogos.push({ "mandante": "Catanduva", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1957-02-24", "estadio": "(Catanduva-SP)" });
     jogos.push({ "mandante": "Smart", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1957-04-21", "estadio": "(Itajubá-MG)" });
     jogos.push({ "mandante": "Ituiutaba", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1957-04-28", "estadio": "(Ituiutaba-MG)" });
