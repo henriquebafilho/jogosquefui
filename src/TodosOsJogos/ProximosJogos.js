@@ -31,10 +31,10 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Coritiba", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2026", "data": "2026-04-11", "estadio": "Nilton Santos" });
     jogos.push({ "mandante": "Vasco", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2026", "data": "2026-04-04", "estadio": "São Januário" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Mirassol", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2026", "data": "2026-04-01", "estadio": "Nilton Santos" });
-    jogos.push({ "mandante": "Red Bull Bragantino", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2026", "data": "2026-03-21", "estadio": "Cícero de Souza Marques", "16:00" });
+    jogos.push({ "mandante": "Red Bull Bragantino", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2026", "data": "2026-03-21", "estadio": "Cícero de Souza Marques", "horario": "16:00" });
     jogos.push({ "mandante": "Palmeiras", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2026", "data": "2026-03-18", "estadio": "Allianz Parque", "horario": "19:00" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Flamengo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2026", "data": "2026-03-14", "estadio": "Nilton Santos", "horario": "20:30" });
-    jogos.push({ "mandante": "Athletico-PR", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2026", "data": "2026-03-11", "estadio": "Arena da Baixada", "19:00" });
+    jogos.push({ "mandante": "Athletico-PR", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2026", "data": "2026-03-11", "estadio": "Arena da Baixada", "horario": "19:00" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Nacional Potosí", "golsMandante": "", "golsVisitante": "", "campeonato": "Libertadores 2026", "data": "2026-02-25", "estadio": "Nilton Santos", "horario": "21:30" });
     /*jogos.push({ "mandante": "Botafogo", "visitante": "Vitória", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2026", "data": "2026-02-25", "estadio": "Nilton Santos" });*/
     jogos.push({ "mandante": "Nacional Potosí", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Libertadores 2026", "data": "2026-02-18", "estadio": "Víctor Agustín Ugarte", "horario": "21:30" });
