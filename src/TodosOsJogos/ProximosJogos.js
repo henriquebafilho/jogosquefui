@@ -46,7 +46,7 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Bangu", "golsMandante": "", "golsVisitante": "", "campeonato": "Carioca 2026", "data": "2026-01-24", "estadio": "Nilton Santos", "horario": "21:00" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Volta Redonda", "golsMandante": "", "golsVisitante": "", "campeonato": "Carioca 2026", "data": "2026-01-21", "estadio": "Nilton Santos", "horario": "19:00" });
     jogos.push({ "mandante": "Sampaio Corrêa-RJ", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Carioca 2026", "data": "2026-01-18", "estadio": "Lourivaldão", "horario": "20:30"});
-    jogos.push({ "mandante": "Portuguesa-RJ", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Carioca 2026", "data": "2026-01-15", "estadio": "Luso Brasileiro", "horario": "19:00" });
+    jogos.push({ "mandante": "Portuguesa-RJ", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Carioca 2026", "data": "2026-01-15", "estadio": "Luso Brasileiro", "horario": "19:00" });
     
     jogos.sort(function (a, b) {
         return a.data < b.data ? -1 : a.data > b.data ? 1 : 0;
