@@ -160,7 +160,7 @@ function jogos() {
     jogos.push({ "mandante": "Vasco", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Brasileirão 2023", "data": "2023-11-06", "estadio": "São Januário" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Palmeiras", "golsMandante": 3, "golsVisitante": 4, "campeonato": "Brasileirão 2023", "data": "2023-11-01", "estadio": "Nilton Santos" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Cuiabá", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Brasileirão 2023", "data": "2023-10-29", "estadio": "Nilton Santos" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "Athletico-PR", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Brasileirão 2023", "data": "2023-10-22", "estadio": "Nilton Santos", "horario": "21:00" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Athletico-PR", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Brasileirão 2023", "data": "2023-10-21", "estadio": "Nilton Santos", "horario": "21:00" });
     jogos.push({ "mandante": "América-MG", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Brasileirão 2023", "data": "2023-10-18", "estadio": "Independência", "horario": "20:00" });
     jogos.push({ "mandante": "Fluminense", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Brasileirão 2023", "data": "2023-10-08", "estadio": "Maracanã", "horario": "16:00" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Goiás", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Brasileirão 2023", "data": "2023-10-02", "estadio": "Nilton Santos", "horario": "20:00" });
