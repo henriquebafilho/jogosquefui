@@ -229,7 +229,7 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Cuiabá", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Brasileirão 2022", "data": "2022-11-01", "estadio": "Nilton Santos" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Red Bull Bragantino", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Brasileirão 2022", "data": "2022-10-26", "estadio": "Nilton Santos" });
     jogos.push({ "mandante": "Fluminense", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 2, "campeonato": "Brasileirão 2022", "data": "2022-10-23", "estadio": "Maracanã" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "Internacional", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Brasileirão 2022", "data": "2022-10-17", "estadio": "Nilton Santos" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Internacional", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Brasileirão 2022", "data": "2022-10-16", "estadio": "Nilton Santos" });
     jogos.push({ "mandante": "São Paulo", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Brasileirão 2022", "data": "2022-10-09", "estadio": "Morumbi" });
     jogos.push({ "mandante": "Avaí", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Brasileirão 2022", "data": "2022-10-06", "estadio": "Ressacada" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Palmeiras", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Brasileirão 2022", "data": "2022-10-03", "estadio": "Nilton Santos" });
