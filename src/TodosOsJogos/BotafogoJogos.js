@@ -148,7 +148,7 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Portuguesa-RJ", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Carioca 2024", "data": "2024-01-30", "estadio": "Nilton Santos" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Sampaio Corrêa-RJ", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Carioca 2024", "data": "2024-01-27", "estadio": "Nilton Santos" });
     jogos.push({ "mandante": "Boavista", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Carioca 2024", "data": "2024-01-24", "estadio": "Elcyr Resende" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "Bangu", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Carioca 2024", "data": "2024-01-21", "estadio": "Nilton Santos" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Bangu", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Carioca 2024", "data": "2024-01-20", "estadio": "Nilton Santos" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Madureira", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Carioca 2024", "data": "2024-01-17", "estadio": "Nilton Santos" });
     jogos.push({ "mandante": "Internacional", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Brasileirão 2023", "data": "2023-12-06", "estadio": "Beira-Rio" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Cruzeiro", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Brasileirão 2023", "data": "2023-12-03", "estadio": "Nilton Santos" });
