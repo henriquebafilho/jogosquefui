@@ -55,7 +55,12 @@ class ViewAdversario extends Component {
           <div className="App-header">
             <div>
               <div style={{ float: 'left', textAlign: 'center' }}>
-                <img src={require('../../escudos/' + Times(meuTime).escudo + '.png')} style={{ display: 'inline', verticalAlign: 'middle', width: "4em", height: "4em", margin: '10px' }} alt={meuTime} />
+                <img
+                  src={process.env.PUBLIC_URL + '/escudos/' + Times(meuTime).escudo + '.png'}
+                  style={{ display: 'inline', verticalAlign: 'middle', width: "4em", height: "4em", margin: '10px' }}
+                  alt={meuTime}
+                  loading='lazy'
+                />
                 <p id='tituloAdversario'>{meuTime}</p>
               </div>
               <div style={{ float: 'left', margin: '20px' }}>
@@ -70,7 +75,12 @@ class ViewAdversario extends Component {
                   backgroundColor: Times(this.props.adversario).backgroundColor,
                   color: Times(this.props.adversario).letterColor
                 }}>
-                <img src={require('../../escudos/' + Times(this.props.adversario).escudo + '.png')} style={{ display: 'inline', verticalAlign: 'middle', width: "4em", height: "4em", margin: '10px' }} alt={this.props.adversario} />
+                <img
+                  src={process.env.PUBLIC_URL + '/escudos/' + Times(this.props.adversario).escudo + '.png'}
+                  style={{ display: 'inline', verticalAlign: 'middle', width: "4em", height: "4em", margin: '10px' }}
+                  alt={this.props.adversario}
+                  loading='lazy'
+                />
                 <p id='tituloAdversario' style={{ padding: "0px 10px 0px 10px" }}>{this.props.adversario}</p>
               </div>
             </div>

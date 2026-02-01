@@ -32,7 +32,7 @@ class ViewEstadio extends Component {
       return a.data < b.data ? -1 : a.data > b.data ? 1 : 0;
     });
     try {
-      imagemEstadio = require('../../estadios/' + this.props.estadio + '.png');
+      imagemEstadio = process.env.PUBLIC_URL + '/estadios/' + this.props.estadio + '.png';
     } catch (e) {
       imagemEstadio = "";
     }
@@ -43,7 +43,7 @@ class ViewEstadio extends Component {
             <button style={{ outline: 'none', border: 'none', textDecoration: 'underline', fontSize: '25px', cursor: 'pointer', backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }} onClick={() => buttonClickFunction()}>{"< Voltar"}</button>
           </div>
           <div className="App-header" style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }}>
-            {imagemEstadio !== "" ? <img src={imagemEstadio} style={{ verticalAlign: 'middle' }} alt='estadio' height='250' width='250' /> : ""}
+            {imagemEstadio !== "" ? <img src={imagemEstadio} style={{ verticalAlign: 'middle' }} alt='estadio' height='250' width='250' loading='lazy' /> : ""}
             <h1>{this.props.estadio}</h1>
             <br />
             <Estatisticas meuTime={this.state.meuTime} jogos={this.props.jogosEstadio} />

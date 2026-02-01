@@ -85,14 +85,27 @@ class LinhaJogo extends Component {
                     }}>
                         {this.props.jogo.mandante.toUpperCase()}
                     </p>
-                    <img className='escudoLinha' src={require('../escudos/' + Times(this.props.jogo.mandante, this.props.jogo.data).escudo + '.png')} title={this.props.jogo.mandante} style={{ display: 'inline-block', verticalAlign: 'middle' }} alt={this.props.jogo.mandante} />
+                    <img
+                        className='escudoLinha'
+                        src={process.env.PUBLIC_URL + '/escudos/' + Times(this.props.jogo.mandante, this.props.jogo.data).escudo + '.png'}
+                        title={this.props.jogo.mandante}
+                        style={{ display: 'inline-block', verticalAlign: 'middle' }}
+                        alt={this.props.jogo.mandante}
+                        loading='lazy'
+                    />
                     <div style={{ paddingTop: '1%', display: 'inline', minWidth: this.props.jogo.golsMandante === "" && this.props.jogo.golsVisitante === "" ? "40px" : "90px", textAlign: "center", fontSize: '2em', textShadow: Common.textShadow, color: "white" }}>
                         {(this.props.jogo.golsMandante === "WO" || this.props.jogo.golsVisitante === "WO") && <div>WO</div>}
                         {this.props.jogo.golsMandante === "WO" ? <div>←</div> : this.props.jogo.golsVisitante === "WO" ? <div>→</div> : ''}
                         {this.props.jogo.golsMandante !== "WO" && this.props.jogo.golsVisitante !== "WO" && this.props.jogo.golsMandante === "" && this.props.jogo.golsVisitante === "" && <p className="horario" style={{ fontSize: "13px", paddingTop: "20%", minWidth: "41px" }}>{this.props.jogo.horario ? this.props.jogo.horario : " X "}</p>}
                         {this.props.jogo.golsMandante !== "WO" && this.props.jogo.golsVisitante !== "WO" && this.props.jogo.golsMandante !== "" && this.props.jogo.golsVisitante !== "" && ' ' + this.props.jogo.golsMandante + ' x ' + this.props.jogo.golsVisitante + ' '}
                     </div>
-                    <img className='escudoLinha' src={require('../escudos/' + Times(this.props.jogo.visitante, this.props.jogo.data).escudo + '.png')} title={this.props.jogo.visitante} style={{ display: 'inline-block', verticalAlign: 'middle' }} alt={this.props.jogo.visitante} />
+                    <img
+                        className='escudoLinha' src={process.env.PUBLIC_URL + '/escudos/' + Times(this.props.jogo.visitante, this.props.jogo.data).escudo + '.png'}
+                        title={this.props.jogo.visitante}
+                        style={{ display: 'inline-block', verticalAlign: 'middle' }}
+                        alt={this.props.jogo.visitante}
+                        loading='lazy'
+                    />
                     <p className='nomeTime'
                         style={{
                             paddingTop: '20px',

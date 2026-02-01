@@ -144,13 +144,13 @@ class Estadios extends Component {
                     let totalEstadio = common.getTotalEstadio(i, meusJogos);
                     let imagemEstadio;
                     try {
-                      imagemEstadio = require('../estadios/' + i + '.png');
+                      imagemEstadio = process.env.PUBLIC_URL + '/estadios/' + i + '.png';
                     } catch (e) {
                       imagemEstadio = "";
                     }
                     return <div key={i}>
                       <button id='selectEstadio' onClick={() => buttonClickFunction(i)} style={{ borderColor: Times(meuTime).letterColor, borderStyle: 'solid', backgroundColor: Times(meuTime).backgroundColor, color: Times(meuTime).letterColor }}>
-                        {imagemEstadio !== "" ? <img src={imagemEstadio} style={{ verticalAlign: 'middle' }} alt='escudo' height='150' width='150' /> : ""}
+                        {imagemEstadio !== "" ? <img src={imagemEstadio} style={{ verticalAlign: 'middle' }} alt='escudo' height='150' width='150' loading='lazy' /> : ""}
                         <div id='tituloOpcao' style={{ padding: '10px' }}>{i}</div>
                         <div style={{ paddingBottom: '5px', fontSize: '15px', fontWeight: '100' }}>{totalEstadio} {totalEstadio > 1 ? "jogos" : "jogo"}</div>
                       </button>
