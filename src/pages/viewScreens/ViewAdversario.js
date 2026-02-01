@@ -60,6 +60,7 @@ class ViewAdversario extends Component {
                   style={{ display: 'inline', verticalAlign: 'middle', width: "4em", height: "4em", margin: '10px' }}
                   alt={meuTime}
                   loading='lazy'
+                  onError={(e) => { e.target.src = '/escudos/escudo.png' }}
                 />
                 <p id='tituloAdversario'>{meuTime}</p>
               </div>
@@ -80,6 +81,7 @@ class ViewAdversario extends Component {
                   style={{ display: 'inline', verticalAlign: 'middle', width: "4em", height: "4em", margin: '10px' }}
                   alt={this.props.adversario}
                   loading='lazy'
+                  onError={(e) => { e.target.src = '/escudos/escudo.png' }}
                 />
                 <p id='tituloAdversario' style={{ padding: "0px 10px 0px 10px" }}>{this.props.adversario}</p>
               </div>

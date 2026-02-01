@@ -143,6 +143,7 @@ class Adversarios extends Component {
                           height='75'
                           width='75'
                           loading='lazy'
+                          onError={(e) => { e.target.src = '/escudos/escudo.png' }}
                         />
                         <div id='tituloOpcao' style={{ paddingTop: '5px' }}>{Times(i).nomeAtual}</div>
                         <div style={{ paddingBottom: '5px', fontSize: '15px', fontWeight: '100' }}>{totalAdversario} {totalAdversario > 1 ? "jogos" : "jogo"}</div>

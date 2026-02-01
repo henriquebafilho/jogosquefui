@@ -92,6 +92,7 @@ class LinhaJogo extends Component {
                         style={{ display: 'inline-block', verticalAlign: 'middle' }}
                         alt={this.props.jogo.mandante}
                         loading='lazy'
+                        onError={(e) => { e.target.src = '/escudos/escudo.png' }}
                     />
                     <div style={{ paddingTop: '1%', display: 'inline', minWidth: this.props.jogo.golsMandante === "" && this.props.jogo.golsVisitante === "" ? "40px" : "90px", textAlign: "center", fontSize: '2em', textShadow: Common.textShadow, color: "white" }}>
                         {(this.props.jogo.golsMandante === "WO" || this.props.jogo.golsVisitante === "WO") && <div>WO</div>}
@@ -105,6 +106,7 @@ class LinhaJogo extends Component {
                         style={{ display: 'inline-block', verticalAlign: 'middle' }}
                         alt={this.props.jogo.visitante}
                         loading='lazy'
+                        onError={(e) => { e.target.src = '/escudos/escudo.png' }}
                     />
                     <p className='nomeTime'
                         style={{

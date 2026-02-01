@@ -150,7 +150,15 @@ class Estadios extends Component {
                     }
                     return <div key={i}>
                       <button id='selectEstadio' onClick={() => buttonClickFunction(i)} style={{ borderColor: Times(meuTime).letterColor, borderStyle: 'solid', backgroundColor: Times(meuTime).backgroundColor, color: Times(meuTime).letterColor }}>
-                        {imagemEstadio !== "" ? <img src={imagemEstadio} style={{ verticalAlign: 'middle' }} alt='escudo' height='150' width='150' loading='lazy' /> : ""}
+                        <img
+                          src={imagemEstadio}
+                          style={{ verticalAlign: 'middle' }}
+                          alt='estádio'
+                          height='150'
+                          width='150'
+                          loading='lazy'
+                          onError={(e) => { e.target.style.display = 'none' }}
+                        />
                         <div id='tituloOpcao' style={{ padding: '10px' }}>{i}</div>
                         <div style={{ paddingBottom: '5px', fontSize: '15px', fontWeight: '100' }}>{totalEstadio} {totalEstadio > 1 ? "jogos" : "jogo"}</div>
                       </button>

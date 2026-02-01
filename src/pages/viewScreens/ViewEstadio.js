@@ -43,7 +43,15 @@ class ViewEstadio extends Component {
             <button style={{ outline: 'none', border: 'none', textDecoration: 'underline', fontSize: '25px', cursor: 'pointer', backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }} onClick={() => buttonClickFunction()}>{"< Voltar"}</button>
           </div>
           <div className="App-header" style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }}>
-            {imagemEstadio !== "" ? <img src={imagemEstadio} style={{ verticalAlign: 'middle' }} alt='estadio' height='250' width='250' loading='lazy' /> : ""}
+            <img
+              src={imagemEstadio}
+              style={{ verticalAlign: 'middle' }}
+              alt='estadio'
+              height='250'
+              width='250'
+              loading='lazy'
+              onError={(e) => { e.target.style.display = 'none' }}
+            />
             <h1>{this.props.estadio}</h1>
             <br />
             <Estatisticas meuTime={this.state.meuTime} jogos={this.props.jogosEstadio} />
@@ -55,7 +63,7 @@ class ViewEstadio extends Component {
               }
               return <div style={{ width: '100%' }}>
                 {mostraAno ? <h1 style={{ textAlign: 'center', color: Times(meuTime).letterColor, margin: '40px' }}>{anoAtual}</h1> : ""}
-                <LinhaJogo key={JSON.stringify(index)} meuTime={meuTime} jogo={index} meusJogos={this.props.meusJogos}/>
+                <LinhaJogo key={JSON.stringify(index)} meuTime={meuTime} jogo={index} meusJogos={this.props.meusJogos} />
               </div>
             })}
           </div>

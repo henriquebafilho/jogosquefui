@@ -23,6 +23,7 @@ function Perfil(props) {
           alt={"Escudo do " + props.meuTime}
           style={{ verticalAlign: 'middle', width: '100px', height: '100px' }}
           loading='lazy'
+          onError={(e) => { e.target.src = '/escudos/escudo.png' }}
         />
         <br />
         <Tabs meuTime={meuTime} meusJogos={meusJogos} />

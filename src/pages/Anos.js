@@ -108,7 +108,7 @@ class Anos extends Component {
                     }
                     return <div key={i}>
                       <button id='selectAno' onClick={() => buttonClickFunction(i)} style={{ borderColor: Times(meuTime).letterColor, borderStyle: 'solid', backgroundColor: Times(meuTime).backgroundColor, color: Times(meuTime).letterColor }}>
-                        <div>{imagemAno !== "" ? <img src={imagemAno} style={{ verticalAlign: 'middle' }} alt='ano' height='150' width='150' loading='lazy' /> : ""}</div>
+                        <div><img src={imagemAno} style={{ verticalAlign: 'middle' }} alt='ano' height='150' width='150' loading='lazy' onError={(e) => { e.target.src = '/escudos/escudo.png' }} /></div>
                         <div id='tituloOpcao' style={{ display: 'inline', padding: '10px', fontSize: '30px' }}>{i}</div>
                         <div style={{ paddingBottom: '5px', fontSize: '15px', fontWeight: '100' }}>{totalAno} {totalAno > 1 ? "jogos" : "jogo"}</div>
                       </button>

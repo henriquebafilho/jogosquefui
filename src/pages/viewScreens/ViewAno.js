@@ -41,7 +41,15 @@ class ViewAno extends Component {
                         <button style={{ outline: 'none', border: 'none', textDecoration: 'underline', fontSize: '25px', cursor: 'pointer', backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }} onClick={() => buttonClickFunction()}>{"< Voltar"}</button>
                     </div>
                     <div className="App-header" style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }}>
-                        <div>{imagemAno !== "" ? <img src={imagemAno} style={{ verticalAlign: 'middle' }} alt='ano' height='250' width='250' loading='lazy' /> : ""}</div>
+                        <img
+                            src={imagemAno}
+                            style={{ verticalAlign: 'middle' }}
+                            alt='ano'
+                            height='250'
+                            width='250'
+                            loading='lazy'
+                            onError={(e) => { e.target.style.display = 'none' }}
+                        />
                         <h1 style={{ padding: '5px' }}>{this.props.ano}</h1>
                         <br />
                         <Estatisticas meuTime={this.state.meuTime} jogos={this.props.jogosAno} />
