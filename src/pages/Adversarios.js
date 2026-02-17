@@ -110,11 +110,12 @@ class Adversarios extends Component {
 
   render() {
     const meuTime = this.state.meuTime;
-    const filtered = this.state.filtered;
+    const filtered = this.state.filtered || [];
+    const display = filtered.slice(0, 20);
     const buttonClickFunction = (adversario) => this.buttonClick(adversario);
     return (
       <>
-        {this.state.clicked ? <ViewAdversario meuTime={this.props.meuTime} adversario={this.state.adversarioAtual} /> :
+        {this.state.clicked ? <ViewAdversario meuTime={this.props.meuTime} adversario={this.state.adversarioAtual} onBack={() => this.setState({clicked: false})} /> :
           <div className="App-header" style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor, alignItems: 'normal' }}>
             <table>
               <tbody>
@@ -131,33 +132,40 @@ class Adversarios extends Component {
                   }}
                 />
                 {!this.state.isLoading ?
-                  filtered.length > 0 ? filtered.map(function (i) {
-                    var totalAdversario = common.getTotalAdversario(meuTime, i);
-                    const nomesAnteriores = Times(i).nomesAnteriores;
-                    return <div key={i}>
-                      <button id='selectAdversario' onClick={() => buttonClickFunction(Times(i).nomeAtual)} style={{ backgroundColor: Times(Times(i).nomeAtual).backgroundColor, color: Times(Times(i).nomeAtual).letterColor, borderColor: Times(meuTime).backgroundColor === 'white' ? 'black' : 'white', borderStyle: 'solid' }}>
-                        <img
-                          src={process.env.PUBLIC_URL + '/escudos/' + Times(Times(i).nomeAtual).escudo + '.png'}
-                          style={{ verticalAlign: 'middle' }}
-                          alt='escudo'
-                          height='75'
-                          width='75'
-                          loading='lazy'
-                          onError={(e) => { e.target.src = '/escudos/escudo.png' }}
-                        />
-                        <div id='tituloOpcao' style={{ paddingTop: '5px' }}>{Times(i).nomeAtual}</div>
-                        <div style={{ paddingBottom: '5px', fontSize: '15px', fontWeight: '100' }}>{totalAdversario} {totalAdversario > 1 ? "jogos" : "jogo"}</div>
-                        {nomesAnteriores.length > 0 &&
-                          <div>
-                            <div>Nomes anteriores:</div>
-                            {nomesAnteriores.map((nome) => {
-                              return <div>-{nome}</div>;
-                            })}
-                          </div>
-                        }
-                      </button>
-                    </div>
-                  }) : <div>
+                  filtered.length > 0 ? <>
+                    {filtered.length > 20 &&
+                      <div style={{ textAlign: 'center', marginBottom: '8px', color: Times(meuTime).letterColor }}>
+                        {`Mostrando ${Math.min(20, filtered.length)} de ${filtered.length}`}
+                      </div>
+                    }
+                    {display.map(function (i) {
+                      var totalAdversario = common.getTotalAdversario(meuTime, i);
+                      const nomesAnteriores = Times(i).nomesAnteriores;
+                      return <div key={i}>
+                        <button id='selectAdversario' onClick={() => buttonClickFunction(Times(i).nomeAtual)} style={{ backgroundColor: Times(Times(i).nomeAtual).backgroundColor, color: Times(Times(i).nomeAtual).letterColor, borderColor: Times(meuTime).backgroundColor === 'white' ? 'black' : 'white', borderStyle: 'solid' }}>
+                          <img
+                            src={process.env.PUBLIC_URL + '/escudos/' + Times(Times(i).nomeAtual).escudo + '.png'}
+                            style={{ verticalAlign: 'middle' }}
+                            alt='escudo'
+                            height='75'
+                            width='75'
+                            loading='lazy'
+                            onError={(e) => { e.target.src = '/escudos/escudo.png' }}
+                          />
+                          <div id='tituloOpcao' style={{ paddingTop: '5px' }}>{Times(i).nomeAtual}</div>
+                          <div style={{ paddingBottom: '5px', fontSize: '15px', fontWeight: '100' }}>{totalAdversario} {totalAdversario > 1 ? "jogos" : "jogo"}</div>
+                          {nomesAnteriores.length > 0 &&
+                            <div>
+                              <div>Nomes anteriores:</div>
+                              {nomesAnteriores.map((nome) => {
+                                return <div>-{nome}</div>;
+                              })}
+                            </div>
+                          }
+                        </button>
+                      </div>
+                    })}
+                  </> : <div>
                     <h4 style={{ color: Times(this.state.meuTime).letterColor, textAlign: 'center', paddingBottom: '50px' }}>Nenhum adversário encontrado</h4>
                   </div>
                   : <div>

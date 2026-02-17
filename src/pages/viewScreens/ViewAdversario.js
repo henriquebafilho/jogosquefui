@@ -38,7 +38,12 @@ class ViewAdversario extends Component {
   }
 
   buttonClick = async () => {
-    this.setState({ clicked: true });
+    // Use parent callback when available so we don't remount a full Adversarios component
+    if (this.props.onBack) {
+      this.props.onBack();
+    } else {
+      this.setState({ clicked: true });
+    }
   }
 
   render() {
@@ -47,7 +52,7 @@ class ViewAdversario extends Component {
     let anoAtual = 0;
 
     return (
-      this.state.clicked ? <Adversarios meuTime={meuTime} /> :
+      (this.state.clicked && !this.props.onBack) ? <Adversarios meuTime={meuTime} /> :
         <div style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }}>
           <div className='a' key="voltar">
             <button style={{ outline: 'none', border: 'none', textDecoration: 'underline', fontSize: '25px', cursor: 'pointer', backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }} onClick={() => buttonClickFunction()}>{"< Voltar"}</button>
