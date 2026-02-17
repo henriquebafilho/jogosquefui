@@ -20,12 +20,7 @@ class ViewEstadio extends Component {
   }
 
   buttonClick = async () => {
-    // Use parent onBack when provided so we don't remount the full list
-    if (this.props.onBack) {
-      this.props.onBack();
-    } else {
-      this.setState({ clicked: true });
-    }
+    this.setState({ clicked: true });
   }
 
   render() {
@@ -42,7 +37,7 @@ class ViewEstadio extends Component {
       imagemEstadio = "";
     }
     return (
-      (this.state.clicked && !this.props.onBack) ? <Estadios meuTime={meuTime} meusJogos={this.props.meusJogos} /> :
+      this.state.clicked ? <Estadios meuTime={meuTime} meusJogos={this.props.meusJogos} /> :
         <div style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }}>
           <div className='a'>
             <button style={{ outline: 'none', border: 'none', textDecoration: 'underline', fontSize: '25px', cursor: 'pointer', backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }} onClick={() => buttonClickFunction()}>{"< Voltar"}</button>

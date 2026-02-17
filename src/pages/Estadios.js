@@ -118,10 +118,12 @@ class Estadios extends Component {
     const meuTime = this.state.meuTime;
     const meusJogos = this.state.jogos;
     const buttonClickFunction = (estadio) => this.buttonClick(estadio);
+
     return (
       <>
-        {this.state.clicked ? <ViewEstadio meuTime={this.props.meuTime} meusJogos={meusJogos} jogosEstadio={this.state.jogosEstadio} estadio={this.state.estadioAtual} onBack={() => this.setState({clicked: false})} /> :
+        {this.state.clicked ? <ViewEstadio meuTime={this.props.meuTime} meusJogos={meusJogos} jogosEstadio={this.state.jogosEstadio} estadio={this.state.estadioAtual} /> :
           <div className="App-header" style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor, alignItems: 'normal' }}>
+            <h4 style={{ textAlign: 'center' }}>{this.state.estadios.length + " estádio"}{this.state.estadios.length > 1 ? "s" : ""}{" cadastrados"}</h4>
             <br />
             <table>
               <tbody>
@@ -138,37 +140,30 @@ class Estadios extends Component {
                   }}
                 />
                 {this.state.filtered.length > 0 ?
-                  <>
-                    {this.state.filtered.length > 20 &&
-                      <div style={{ textAlign: 'center', marginBottom: '8px', color: Times(this.state.meuTime).letterColor }}>
-                        {`Mostrando ${Math.min(20, this.state.filtered.length)} de ${this.state.filtered.length}`}
-                      </div>
+                  !this.state.isLoading && this.state.filtered.map(function (i) {
+                    let totalEstadio = common.getTotalEstadio(i, meusJogos);
+                    let imagemEstadio;
+                    try {
+                      imagemEstadio = process.env.PUBLIC_URL + '/estadios/' + i + '.png';
+                    } catch (e) {
+                      imagemEstadio = "";
                     }
-                    {!this.state.isLoading && this.state.filtered.slice(0, 20).map(function (i) {
-                      let totalEstadio = common.getTotalEstadio(i, meusJogos);
-                      let imagemEstadio;
-                      try {
-                        imagemEstadio = process.env.PUBLIC_URL + '/estadios/' + i + '.png';
-                      } catch (e) {
-                        imagemEstadio = "";
-                      }
-                      return <div key={i}>
-                        <button id='selectEstadio' onClick={() => buttonClickFunction(i)} style={{ borderColor: Times(meuTime).letterColor, borderStyle: 'solid', backgroundColor: Times(meuTime).backgroundColor, color: Times(meuTime).letterColor }}>
-                          <img
-                            src={imagemEstadio}
-                            style={{ verticalAlign: 'middle' }}
-                            alt='estádio'
-                            height='150'
-                            width='150'
-                            loading='lazy'
-                            onError={(e) => { e.target.style.display = 'none' }}
-                          />
-                          <div id='tituloOpcao' style={{ padding: '10px' }}>{i}</div>
-                          <div style={{ paddingBottom: '5px', fontSize: '15px', fontWeight: '100' }}>{totalEstadio} {totalEstadio > 1 ? "jogos" : "jogo"}</div>
-                        </button>
-                      </div>
-                    })}
-                  </> : <div>
+                    return <div key={i}>
+                      <button id='selectEstadio' onClick={() => buttonClickFunction(i)} style={{ borderColor: Times(meuTime).letterColor, borderStyle: 'solid', backgroundColor: Times(meuTime).backgroundColor, color: Times(meuTime).letterColor }}>
+                        <img
+                          src={imagemEstadio}
+                          style={{ verticalAlign: 'middle' }}
+                          alt='estádio'
+                          height='150'
+                          width='150'
+                          loading='lazy'
+                          onError={(e) => { e.target.style.display = 'none' }}
+                        />
+                        <div id='tituloOpcao' style={{ padding: '10px' }}>{i}</div>
+                        <div style={{ paddingBottom: '5px', fontSize: '15px', fontWeight: '100' }}>{totalEstadio} {totalEstadio > 1 ? "jogos" : "jogo"}</div>
+                      </button>
+                    </div>
+                  }) : <div>
                     <h4 style={{ color: Times(this.state.meuTime).letterColor, textAlign: 'center', paddingBottom: '50px' }}>Nenhum estádio encontrado</h4>
                   </div>}
               </tbody>

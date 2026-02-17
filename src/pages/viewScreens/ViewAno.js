@@ -19,12 +19,7 @@ class ViewAno extends Component {
     }
 
     buttonClick = async () => {
-        // Prefer parent callback when available to avoid remounting Anos
-        if (this.props.onBack) {
-            this.props.onBack();
-        } else {
-            this.setState({ clicked: true });
-        }
+        this.setState({ clicked: true });
     }
 
     render() {
@@ -40,7 +35,7 @@ class ViewAno extends Component {
             imagemAno = "";
         }
         return (
-            (this.state.clicked && !this.props.onBack) ? <Anos meuTime={meuTime} meusJogos={this.props.meusJogos} /> :
+            this.state.clicked ? <Anos meuTime={meuTime} meusJogos={this.props.meusJogos} /> :
                 <div style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }}>
                     <div className='a'>
                         <button style={{ outline: 'none', border: 'none', textDecoration: 'underline', fontSize: '25px', cursor: 'pointer', backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor }} onClick={() => buttonClickFunction()}>{"< Voltar"}</button>
