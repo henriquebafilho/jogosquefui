@@ -6,7 +6,6 @@ import Times from '../Times';
 import LinhaJogo from './LinhaJogo';
 import ProximosJogos from '../pages/ProximosJogos';
 import BotafogoJogos from '../TodosOsJogos/BotafogoJogos';
-//import { Link } from 'react-router-dom';
 
 class Tabs extends Component {
     constructor(props) {
@@ -17,7 +16,8 @@ class Tabs extends Component {
             meuTime: props.meuTime,
             currentPage: 1,
             ultimos: 1,
-            isLoading: false
+            isLoading: false,
+            jogoHoje: null
         };
         this.handleNextPage = this.handleNextPage.bind(this);
         this.handlePrevPage = this.handlePrevPage.bind(this);
@@ -30,7 +30,8 @@ class Tabs extends Component {
     getJogos = async () => {
         this.setState({ isLoading: true });
         this.setState({
-            meusJogos: BotafogoJogos().filter(jogo => jogo.golsMandante !== "" && jogo.golsVisitante !== "").reverse().slice(0, 20)
+            meusJogos: BotafogoJogos().filter(jogo => jogo.golsMandante !== "" && jogo.golsVisitante !== "").reverse().slice(0, 20),
+            jogoHoje: BotafogoJogos().find(jogo => (jogo.data === new Date().toISOString().split('T')[0]) && jogo.golsMandante === "" && jogo.golsVisitante === "")
         });
         this.setState({ isLoading: false });
     }
@@ -95,6 +96,10 @@ class Tabs extends Component {
                         </div>
                         {ultimos === 1 ?
                             <div className="container" style={{ color: Times(this.props.meuTime).letterColor, backgroundColor: Times(this.props.meuTime).backgroundColor }}>
+                                {this.state.jogoHoje && <div key={"Hoje"}>
+                                    <h1 style={{ textAlign: 'center', color: Times(meuTime).letterColor, margin: '40px' }}>Hoje</h1>
+                                    <LinhaJogo meuTime={meuTime} jogo={this.state.jogoHoje} />
+                                </div>}
                                 {meusJogos.length > 0 ? meusJogos.map((index) => {
                                     let mostraAno = false;
                                     if (anoAtual !== index.data.split("-")[0]) {
@@ -103,7 +108,7 @@ class Tabs extends Component {
                                     }
                                     return <div key={JSON.stringify(index)}>
                                         {mostraAno ? <h1 style={{ textAlign: 'center', color: Times(meuTime).letterColor, margin: '40px' }}>{anoAtual}</h1> : ""}
-                                        <LinhaJogo meuTime={meuTime} jogo={index} meusJogos={meusJogos} />
+                                        <LinhaJogo meuTime={meuTime} jogo={index} />
                                     </div>
                                 }) : <div>
                                     <h4 style={{ color: Times(meuTime).letterColor, textAlign: 'center' }}>Nenhum jogo cadastrado</h4>
