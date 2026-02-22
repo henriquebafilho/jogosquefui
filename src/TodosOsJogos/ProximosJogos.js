@@ -37,7 +37,7 @@ function jogos() {
     jogos.push({ "mandante": "Athletico-PR", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2026", "data": "2026-03-11", "estadio": "Arena da Baixada", "horario": "19:00" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Boavista", "golsMandante": "", "golsVisitante": "", "campeonato": "Carioca 2026", "data": "2026-02-28", "estadio": "Nilton Santos", "horario": "19:30" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Nacional Potosí", "golsMandante": "", "golsVisitante": "", "campeonato": "Libertadores 2026", "data": "2026-02-25", "estadio": "Nilton Santos", "horario": "21:30" });
-    jogos.push({ "mandante": "Boavista", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Carioca 2026", "data": "2026-02-21", "estadio": "Elcyr Resende", "horario": "21:00" });
+    jogos.push({ "mandante": "Boavista", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Carioca 2026", "data": "2026-02-21", "estadio": "Elcyr Resende", "horario": "21:00" });
     /*jogos.push({ "mandante": "Botafogo", "visitante": "Vitória", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2026", "data": "2026-02-25", "estadio": "Nilton Santos" });*/ 
     
     jogos.sort(function (a, b) {
