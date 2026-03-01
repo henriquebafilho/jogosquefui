@@ -4897,7 +4897,7 @@ function jogos() {
     jogos.push({ "mandante": "Millonarios", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Torneio Pentagonal da Colômbia", "data": "1971-01-24", "estadio": "El Campín" });
     jogos.push({ "mandante": "Deportivo Cali", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Torneio Pentagonal da Colômbia", "data": "1971-01-20", "estadio": "Pascual Guerrero" });
     jogos.push({ "mandante": "Independiente Santa Fé", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Torneio Pentagonal da Colômbia", "data": "1971-01-17", "estadio": "El Campín" });
-    jogos.push({ "mandante": "Barcelona de Guayaquil", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1970-10-11", "estadio": "(Guayaquil - Equador)" });
+    jogos.push({ "mandante": "Barcelona de Guayaquil", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Amistoso", "data": "1970-10-11", "estadio": "Alberto Spencer" });
     jogos.push({ "mandante": "Universitario", "visitante": "Botafogo", "golsMandante": 3, "golsVisitante": 0, "campeonato": "Amistoso", "data": "1970-10-08", "estadio": "Nacional (Lima)" });
     jogos.push({ "mandante": "Alianza Lima", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 3, "campeonato": "Troféu Dr. José M. Rodríguez Arnaiz", "data": "1970-10-06", "estadio": "Nacional (Lima)" });
     jogos.push({ "mandante": "Deportivo Cali", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 4, "campeonato": "Amistoso", "data": "1970-02-08", "estadio": "Pascual Guerrero" });
