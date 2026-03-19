@@ -33,7 +33,7 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Mirassol", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2026", "data": "2026-04-01", "estadio": "Nilton Santos" });
     jogos.push({ "mandante": "Athletico-PR", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2026", "data": "2026-03-29", "estadio": "Arena da Baixada", "horario": "18:30" });
     jogos.push({ "mandante": "Red Bull Bragantino", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2026", "data": "2026-03-21", "estadio": "Cícero de Souza Marques", "horario": "16:00" });
-    jogos.push({ "mandante": "Palmeiras", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2026", "data": "2026-03-18", "estadio": "Allianz Parque", "horario": "19:00" });
+    jogos.push({ "mandante": "Palmeiras", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Brasileirão 2026", "data": "2026-03-18", "estadio": "Allianz Parque", "horario": "19:00" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Flamengo", "golsMandante": 0, "golsVisitante": 3, "campeonato": "Brasileirão 2026", "data": "2026-03-14", "estadio": "Nilton Santos", "horario": "20:30" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Barcelona de Guayaquil", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Libertadores 2026", "data": "2026-03-10", "estadio": "Nilton Santos", "horario": "21:30" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Bangu", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Carioca 2026", "data": "2026-03-07", "estadio": "Nilton Santos", "horario": "18:00" });
