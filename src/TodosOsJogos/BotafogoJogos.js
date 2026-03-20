@@ -3,6 +3,14 @@ import ProximosJogos from "./ProximosJogos";
 function jogos() {
     let jogos = [];
 
+    jogos.push({ "mandante": "Palmeiras", "visitante": "Botafogo", "golsMandante": 2, "golsVisitante": 1, "campeonato": "Brasileirão 2026", "data": "2026-03-18", "estadio": "Allianz Parque", "horario": "19:00" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Flamengo", "golsMandante": 0, "golsVisitante": 3, "campeonato": "Brasileirão 2026", "data": "2026-03-14", "estadio": "Nilton Santos", "horario": "20:30" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Barcelona de Guayaquil", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Libertadores 2026", "data": "2026-03-10", "estadio": "Nilton Santos", "horario": "21:30" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Bangu", "golsMandante": 3, "golsVisitante": 1, "campeonato": "Carioca 2026", "data": "2026-03-07", "estadio": "Nilton Santos", "horario": "18:00" });
+    jogos.push({ "mandante": "Barcelona de Guayaquil", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Libertadores 2026", "data": "2026-03-03", "estadio": "Monumental Banco Pichincha", "horario": "21:30" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Boavista", "golsMandante": 0, "golsVisitante": 0, "campeonato": "Carioca 2026", "data": "2026-02-28", "estadio": "Nilton Santos", "horario": "19:30" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Nacional Potosí", "golsMandante": 2, "golsVisitante": 0, "campeonato": "Libertadores 2026", "data": "2026-02-25", "estadio": "Nilton Santos", "horario": "21:30" });
+    jogos.push({ "mandante": "Boavista", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 2, "campeonato": "Carioca 2026", "data": "2026-02-21", "estadio": "Elcyr Resende", "horario": "21:00" });
     jogos.push({ "mandante": "Nacional Potosí", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Libertadores 2026", "data": "2026-02-18", "estadio": "Víctor Agustín Ugarte", "horario": "21:30" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Flamengo", "golsMandante": 1, "golsVisitante": 2, "campeonato": "Carioca 2026", "data": "2026-02-15", "estadio": "Nilton Santos", "horario": "17:30" });
     jogos.push({ "mandante": "Fluminense", "visitante": "Botafogo", "golsMandante": 1, "golsVisitante": 0, "campeonato": "Brasileirão 2026", "data": "2026-02-12", "estadio": "Maracanã", "horario": "19:30" });
