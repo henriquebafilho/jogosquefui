@@ -29,11 +29,28 @@ class Tabs extends Component {
 
     getJogos = async () => {
         this.setState({ isLoading: true });
+    
+        const hojeBrasilia = new Intl.DateTimeFormat('en-CA', {
+            timeZone: 'America/Sao_Paulo',
+            year: 'numeric',
+            month: '2-digit',
+            day: '2-digit'
+        }).format(new Date());
+    
+        const todosOsJogos = BotafogoJogos();
+    
         this.setState({
-            meusJogos: BotafogoJogos().filter(jogo => jogo.golsMandante !== "" && jogo.golsVisitante !== "").reverse().slice(0, 20),
-            jogoHoje: BotafogoJogos().find(jogo => (jogo.data === new Date().toISOString().split('T')[0]) && jogo.golsMandante === "" && jogo.golsVisitante === "")
+            meusJogos: todosOsJogos
+                .filter(jogo => jogo.golsMandante !== "" && jogo.golsVisitante !== "")
+                .reverse()
+                .slice(0, 20),
+            jogoHoje: todosOsJogos.find(jogo => 
+                jogo.data === hojeBrasilia && 
+                jogo.golsMandante === "" && 
+                jogo.golsVisitante === ""
+            ),
+            isLoading: false
         });
-        this.setState({ isLoading: false });
     }
 
     handleNextPage() {
