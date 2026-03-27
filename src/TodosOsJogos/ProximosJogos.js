@@ -31,7 +31,7 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Racing", "golsMandante": "", "golsVisitante": "", "campeonato": "Copa Sul-Americana 2026", "data": "2026-05-06", "estadio": "Nilton Santos", "horario": "21:30" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Remo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2026", "data": "2026-05-02", "estadio": "Nilton Santos" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Independiente Petrolero", "golsMandante": "", "golsVisitante": "", "campeonato": "Copa Sul-Americana 2026", "data": "2026-04-28", "estadio": "Nilton Santos", "horario": "21:30" });
-    jogos.push({ "mandante": "Botafogo", "visitante": "Internacional", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2026", "data": "2026-04-25", "estadio": "Nilton Santos" });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Internacional", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2026", "data": "2026-04-25", "estadio": "Mané Garrincha" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Chapecoense", "golsMandante": "", "golsVisitante": "", "campeonato": "Copa do Brasil 2026", "data": "2026-04-21", "estadio": "Nilton Santos" });
     jogos.push({ "mandante": "Chapecoense", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2026", "data": "2026-04-18", "estadio": "Arena Condá" });
     jogos.push({ "mandante": "Racing", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Copa Sul-Americana 2026", "data": "2026-04-15", "estadio": "El Cilindro", "horario": "19:00" });
