@@ -21,7 +21,7 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Grêmio", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2026", "data": "2026-07-29", "estadio": "Nilton Santos" });
     jogos.push({ "mandante": "Cruzeiro", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2026", "data": "2026-07-25", "estadio": "Mineirão" });
     jogos.push({ "mandante": "Botafogo", "visitante": "Santos", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2026", "data": "2026-07-22", "estadio": "Nilton Santos" });
-    jogos.push({ "mandante": "Bahia", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2026", "data": "2026-05-30", "estadio": "Fonte Nova" });
+    jogos.push({ "mandante": "Bahia", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2026", "data": "2026-05-30", "estadio": "Fonte Nova", "horario": "17:30" });
     jogos.push({ "mandante": "Caracas", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Copa Sul-Americana 2026", "data": "2026-05-27", "estadio": "Olímpico de Caracas", "horario": "19:00" });
     jogos.push({ "mandante": "São Paulo", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2026", "data": "2026-05-23", "estadio": "Morumbi", "horario": "17:00" });
     jogos.push({ "mandante": "Independiente Petrolero", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Copa Sul-Americana 2026", "data": "2026-05-20", "estadio": "Olímpico Patria", "horario": "21:00" });
