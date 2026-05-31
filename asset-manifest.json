@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/jogosquefui/static/css/main.6fbd8afb.css",
-    "main.js": "/jogosquefui/static/js/main.62a5058c.js",
+    "main.js": "/jogosquefui/static/js/main.ca2ef10e.js",
     "index.html": "/jogosquefui/index.html",
     "main.6fbd8afb.css.map": "/jogosquefui/static/css/main.6fbd8afb.css.map",
-    "main.62a5058c.js.map": "/jogosquefui/static/js/main.62a5058c.js.map"
+    "main.ca2ef10e.js.map": "/jogosquefui/static/js/main.ca2ef10e.js.map"
   },
   "entrypoints": [
     "static/css/main.6fbd8afb.css",
-    "static/js/main.62a5058c.js"
+    "static/js/main.ca2ef10e.js"
   ]
 }
