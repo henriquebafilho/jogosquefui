@@ -1,7 +1,6 @@
 import { Component } from 'react';
 import Times from '../../Times';
 import Estatisticas from '../../components/Estatisticas';
-import Anos from '../Anos';
 import LinhaJogo from '../../components/LinhaJogo';
 
 class ViewAno extends Component {
@@ -57,40 +56,3 @@ class ViewAno extends Component {
 }
 
 export default ViewAno;
-/* 
-import React from 'react';
-import { useParams } from 'react-router-dom';
-import Times from '../../Times';
-import Estatisticas from '../../components/Estatisticas';
-import Anos from '../Anos';
-import LinhaJogo from '../../components/LinhaJogo';
-import BotafogoJogos from '../../TodosOsJogos/BotafogoJogos';
-
-function getAnoJogos(ano) {
-    let jogos = BotafogoJogos();
-    let jogosAno = [];
-
-    for (var a = 0; a < jogos.length; a++) {
-        const anoAtual = jogos[a].data.split("-")[0];
-        if (anoAtual.toString().includes(ano)) {
-            if (!jogosAno.includes(jogos[a])) {
-                jogosAno.push(jogos[a]);
-            }
-        }
-    }
-    return jogosAno;
-}
-
-function ViewAno() {
-    const { ano } = useParams();
-    const jogos = getAnoJogos(ano);
-
-    console.log(jogos);
-    return (
-        <div>
-            
-        </div>
-    )
-}
-
-export default ViewAno; */

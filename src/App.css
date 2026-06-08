@@ -34,15 +34,12 @@
   color: #61dafb;
 }
 
-/* @import url('https://fonts.googleapis.com/css?family=Montserrat'); */
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap');
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
-  /*font-family: 'Montserrat', sans-serif;*/
   font-family: 'Be Vietnam Pro';
 }
 
@@ -124,7 +121,6 @@ p {
   white-space: normal;
 }
 
-/* SUMMARY DEFAULT */
 details[open] #summaryDefault::after {
   transform: translate(0%, 5%) rotate(90deg);
 }
@@ -133,8 +129,6 @@ details[open] #summaryDefault::after {
 #summaryDefault::after {
   transform: translateY(5%);
 }
-
-/* SUMMARY ADVERSÁRIO */
 
 details[open] #summaryAdversario::after {
   transform: translate(0%, 80%) rotate(90deg);
@@ -145,7 +139,6 @@ details[open] #summaryAdversario::after {
   transform: translateY(70%);
 }
 
-/* BARRA DE RESULTADOS */
 .resultsBar {
   width: 100%;
   height: 35px;
@@ -176,14 +169,12 @@ details[open] #summaryAdversario::after {
   float: left;
 }
 
-/* Div Jogo */
 .divJogo {
   text-align: center;
   border: 2px solid white;
   border-radius: 10px;
 }
 
-/* TABS */
 *,
 ::before,
 ::after {
@@ -308,9 +299,6 @@ button#tab {
   }
   .nomeTime{
     font-size: 2.5vw;
-    /* overflow: 'hidden';
-    text-overflow: 'ellipsis';
-    white-space: 'pre-wrap'; */
   }
 }
 

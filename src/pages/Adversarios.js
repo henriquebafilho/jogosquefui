@@ -55,20 +55,16 @@ class Adversarios extends Component {
     this.state.adversarios.sort((a, b) => {
       const qtdJogosA = common.getTotalAdversario(this.state.meuTime, a);
       const qtdJogosB = common.getTotalAdversario(this.state.meuTime, b);
-
-      // Ordena por quantidade de jogos (decrescente)
       if (qtdJogosB !== qtdJogosA) {
         return qtdJogosB - qtdJogosA;
       }
-
-      // Se a quantidade de jogos for igual, ordena por nome (alfabética)
       if (a < b) {
         return -1;
       }
       if (a > b) {
         return 1;
       }
-      return 0; // Nomes iguais
+      return 0;
     });
 
     this.setState({ isLoading: false });

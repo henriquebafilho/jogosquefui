@@ -6,7 +6,7 @@ const VoltarAoTopo = () => {
   useEffect(() => {
     const handleScroll = () => {
       const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-      setIsVisible(scrollTop > 200); // exibe o botão quando a rolagem é maior que 200 pixels
+      setIsVisible(scrollTop > 200);
     };
 
     window.addEventListener('scroll', handleScroll);

@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import Times from '../../Times';
 import Estatisticas from '../../components/Estatisticas';
 import LinhaJogo from '../../components/LinhaJogo';
-import Adversarios from '../Adversarios';
 import BotafogoJogos from '../../TodosOsJogos/BotafogoJogos';
 
 class ViewAdversario extends Component {
