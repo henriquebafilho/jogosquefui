@@ -8,8 +8,6 @@ class ViewAdversario extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      meuTime: props.meuTime,
-      adversario: props.adversario,
       isLoading: false,
       jogosAdversario: []
     }
@@ -20,13 +18,20 @@ class ViewAdversario extends Component {
     await this.getJogosAdversario();
   }
 
+  async componentDidUpdate(prevProps) {
+    if (this.props.adversario !== prevProps.adversario) {
+      await this.getJogosAdversario();
+    }
+  }
+
   getJogosAdversario = async () => {
     this.setState({ isLoading: true });
-    var adversario = [this.state.adversario, ...Times(this.state.adversario).nomesAnteriores];
+    const adversarioSelecionado = this.props.adversario;
+    const adversario = [adversarioSelecionado, ...Times(adversarioSelecionado).nomesAnteriores];
     var jogosAdversario = BotafogoJogos().filter(jogo =>
       (jogo.golsMandante !== "" && jogo.golsVisitante !== "") &&
-      ((adversario.includes(jogo.mandante) && jogo.visitante === this.state.meuTime) ||
-        (jogo.mandante === this.state.meuTime && adversario.includes(jogo.visitante)))
+      ((adversario.includes(jogo.mandante) && jogo.visitante === this.props.meuTime) ||
+        (jogo.mandante === this.props.meuTime && adversario.includes(jogo.visitante)))
     );
     jogosAdversario = jogosAdversario.sort(function (a, b) {
       return a.data < b.data ? -1 : a.data > b.data ? 1 : 0;
@@ -35,7 +40,7 @@ class ViewAdversario extends Component {
   }
 
   render() {
-    const meuTime = this.state.meuTime;
+    const meuTime = this.props.meuTime;
     let anoAtual = 0;
     const jogos = [...this.state.jogosAdversario].reverse();
 
@@ -79,7 +84,7 @@ class ViewAdversario extends Component {
             </div>
           </div>
           <br />
-          <Estatisticas meuTime={this.state.meuTime} jogos={this.state.jogosAdversario} />
+          <Estatisticas meuTime={this.props.meuTime} jogos={this.state.jogosAdversario} />
           {jogos.map((index) => {
             let mostraAno = false;
             if (anoAtual !== index.data.split("-")[0]) {
