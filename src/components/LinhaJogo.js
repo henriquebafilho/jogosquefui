@@ -14,9 +14,15 @@ class LinhaJogo extends Component {
         }
     }
 
+    scrollToTop = () => {
+        window.scrollTo({ top: 0, left: 0, behavior: 'auto' });
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+
     async componentDidMount() {
         this._isMounted = true;
-        window.scrollTo(0, 0);
+        this.scrollToTop();
     }
 
     converteData(data) {
@@ -84,7 +90,7 @@ class LinhaJogo extends Component {
                             fontSize: '1em',
                             cursor: estadioClickable ? 'pointer' : 'default'
                         }}
-                        onClick={estadioClickable ? () => this.props.onSelectEstadio(estadio) : undefined}
+                        onClick={estadioClickable ? () => { this.scrollToTop(); this.props.onSelectEstadio(estadio); } : undefined}
                         title={estadioClickable ? 'Ver estádio' : ''}
                     >
                         <MdStadium style={{ color: Times(this.props.jogo.mandante).letterColor }} /> {estadio !== "" ? estadio : " - "}
@@ -104,7 +110,7 @@ class LinhaJogo extends Component {
                         color: Times(this.props.jogo.mandante, this.props.jogo.data).letterColor,
                         cursor: mandanteClickable ? 'pointer' : 'default'
                     }}
-                        onClick={mandanteClickable ? () => this.props.onSelectAdversario(mandante) : undefined}
+                        onClick={mandanteClickable ? () => { this.scrollToTop(); this.props.onSelectAdversario(mandante); } : undefined}
                         title={mandanteClickable ? 'Ver adversário' : ''}
                     >
                         {mandante.toUpperCase()}
@@ -146,7 +152,7 @@ class LinhaJogo extends Component {
                             whiteSpace: 'nowrap',
                             cursor: visitanteClickable ? 'pointer' : 'default'
                         }}
-                        onClick={visitanteClickable ? () => this.props.onSelectAdversario(visitante) : undefined}
+                        onClick={visitanteClickable ? () => { this.scrollToTop(); this.props.onSelectAdversario(visitante); } : undefined}
                         title={visitanteClickable ? 'Ver adversário' : ''}
                     >
                         {visitante.toUpperCase()}

@@ -13,14 +13,21 @@ class ViewAdversario extends Component {
     }
   }
 
+  scrollToTop = () => {
+    window.scrollTo({ top: 0, left: 0, behavior: 'auto' });
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+
   async componentDidMount() {
-    window.scrollTo(0, 0);
+    this.scrollToTop();
     await this.getJogosAdversario();
   }
 
   async componentDidUpdate(prevProps) {
     if (this.props.adversario !== prevProps.adversario) {
       await this.getJogosAdversario();
+      this.scrollToTop();
     }
   }
 
