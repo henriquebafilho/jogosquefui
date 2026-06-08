@@ -88,7 +88,7 @@ class ViewAdversario extends Component {
             }
             return <div style={{ width: '100%' }}>
               {mostraAno ? <h1 style={{ textAlign: 'center', color: Times(meuTime).letterColor, margin: '40px' }}>{anoAtual}</h1> : ""}
-              <LinhaJogo key={JSON.stringify(index)} meuTime={meuTime} jogo={index} />
+              <LinhaJogo key={JSON.stringify(index)} meuTime={meuTime} jogo={index} onSelectEstadio={this.props.onSelectEstadio} disableTeamClick={true} />
             </div>
           })}
         </div>

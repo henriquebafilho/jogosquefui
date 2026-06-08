@@ -17,7 +17,9 @@ class Tabs extends Component {
             currentPage: 1,
             ultimos: 1,
             isLoading: false,
-            jogoHoje: null
+            jogoHoje: null,
+            selectedEstadio: '',
+            selectedAdversario: ''
         };
         this.handleNextPage = this.handleNextPage.bind(this);
         this.handlePrevPage = this.handlePrevPage.bind(this);
@@ -63,6 +65,15 @@ class Tabs extends Component {
         this.setState({
             currentPage: this.state.currentPage - 1
         });
+    }
+
+    selectEstadio = (estadio) => {
+        this.setState({ toggleState: 3, selectedEstadio: estadio, selectedAdversario: '' });
+    }
+
+    selectAdversario = (adversario) => {
+        const nomeAtual = Times(adversario).nomeAtual;
+        this.setState({ toggleState: 4, selectedAdversario: nomeAtual, selectedEstadio: '' });
     }
 
     toggleTab = async (index) => {
@@ -115,7 +126,7 @@ class Tabs extends Component {
                             <div className="container" style={{ color: Times(this.props.meuTime).letterColor, backgroundColor: Times(this.props.meuTime).backgroundColor }}>
                                 {this.state.jogoHoje && <div key={"Hoje"}>
                                     <h1 style={{ textAlign: 'center', color: Times(meuTime).letterColor, margin: '40px' }}>Hoje</h1>
-                                    <LinhaJogo meuTime={meuTime} jogo={this.state.jogoHoje} />
+                                    <LinhaJogo meuTime={meuTime} jogo={this.state.jogoHoje} onSelectEstadio={this.selectEstadio} onSelectAdversario={this.selectAdversario} />
                                 </div>}
                                 {meusJogos.length > 0 ? meusJogos.map((index) => {
                                     let mostraAno = false;
@@ -125,7 +136,7 @@ class Tabs extends Component {
                                     }
                                     return <div key={JSON.stringify(index)}>
                                         {mostraAno ? <h1 style={{ textAlign: 'center', color: Times(meuTime).letterColor, margin: '40px' }}>{anoAtual}</h1> : ""}
-                                        <LinhaJogo meuTime={meuTime} jogo={index} />
+                                        <LinhaJogo meuTime={meuTime} jogo={index} onSelectEstadio={this.selectEstadio} onSelectAdversario={this.selectAdversario} />
                                     </div>
                                 }) : <div>
                                     <h4 style={{ color: Times(meuTime).letterColor, textAlign: 'center' }}>Nenhum jogo cadastrado</h4>
@@ -133,21 +144,21 @@ class Tabs extends Component {
                             </div>
                             :
                             <div className={ultimos === 2 ? "content  active-content" : "content"}>
-                                <ProximosJogos meuTime={meuTime} />
+                                <ProximosJogos meuTime={meuTime} onSelectEstadio={this.selectEstadio} onSelectAdversario={this.selectAdversario} />
                             </div>
                         }
                     </div>
 
                     <div className={toggleState === 2 ? "content  active-content" : "content"}>
-                        <Anos meuTime={meuTime} />
+                        <Anos meuTime={meuTime} onSelectEstadio={this.selectEstadio} onSelectAdversario={this.selectAdversario} />
                     </div>
 
                     <div className={toggleState === 3 ? "content  active-content" : "content"}>
-                        <Estadios meuTime={meuTime} meusJogos={meusJogos} />
+                        <Estadios meuTime={meuTime} meusJogos={meusJogos} selectedEstadio={this.state.selectedEstadio} onSelectAdversario={this.selectAdversario} />
                     </div>
 
                     <div className={toggleState === 4 ? "content  active-content" : "content"}>
-                        <Adversarios meuTime={meuTime} meusJogos={meusJogos} />
+                        <Adversarios meuTime={meuTime} meusJogos={meusJogos} selectedAdversario={this.state.selectedAdversario} onSelectEstadio={this.selectEstadio} />
                     </div>
                 </div>
             </div>

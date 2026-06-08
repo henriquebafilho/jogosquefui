@@ -26,6 +26,21 @@ class Adversarios extends Component {
     this.setState({ filtered: this.state.adversarios })
   }
 
+  componentDidUpdate(prevProps) {
+    if (this.props.selectedAdversario && this.props.selectedAdversario !== prevProps.selectedAdversario) {
+      this.openSelectedAdversario();
+    }
+  }
+
+  openSelectedAdversario = () => {
+    const selected = this.props.selectedAdversario ? Times(this.props.selectedAdversario).nomeAtual : '';
+    if (selected && this.state.adversarios.includes(selected)) {
+      if (!this.state.clicked || this.state.adversarioAtual !== selected) {
+        this.buttonClick(selected);
+      }
+    }
+  }
+
   getJogos = async () => {
     this.setState({ isLoading: true });
     this.setState({
@@ -67,7 +82,7 @@ class Adversarios extends Component {
       return 0;
     });
 
-    this.setState({ isLoading: false });
+    this.setState({ isLoading: false }, () => this.openSelectedAdversario());
   }
 
   buttonClick = (adversario) => {
@@ -112,7 +127,7 @@ class Adversarios extends Component {
     const buttonClickFunction = (adversario) => this.buttonClick(adversario);
     return (
       <>
-        {this.state.clicked ? <ViewAdversario meuTime={this.props.meuTime} adversario={this.state.adversarioAtual} onBack={this.handleBack} /> :
+        {this.state.clicked ? <ViewAdversario meuTime={this.props.meuTime} adversario={this.state.adversarioAtual} onBack={this.handleBack} onSelectEstadio={this.props.onSelectEstadio} /> :
           <div className="App-header" style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor, alignItems: 'normal' }}>
             <table>
               <tbody>

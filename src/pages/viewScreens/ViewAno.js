@@ -46,7 +46,7 @@ class ViewAno extends Component {
                     <Estatisticas meuTime={this.props.meuTime} jogos={this.props.jogosAno} />
                     {
                         jogos.map((index) => {
-                            return <LinhaJogo key={JSON.stringify(index)} meuTime={meuTime} jogo={index} meusJogos={this.props.meusJogos} />
+                            return <LinhaJogo key={JSON.stringify(index)} meuTime={meuTime} jogo={index} meusJogos={this.props.meusJogos} onSelectAdversario={this.props.onSelectAdversario} onSelectEstadio={this.props.onSelectEstadio} />
                         })
                     }
                 </div>

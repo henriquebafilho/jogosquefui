@@ -44,6 +44,14 @@ class LinhaJogo extends Component {
     render() {
         const converteDia = (dia) => this.converteDia(dia);
         const converteData = (data) => this.converteData(data);
+        const mandante = this.props.jogo.mandante;
+        const visitante = this.props.jogo.visitante;
+        const estadio = this.props.jogo.estadio;
+        const disableTeamClick = this.props.disableTeamClick;
+        const disableEstadioClick = this.props.disableEstadioClick;
+        const mandanteClickable = !disableTeamClick && mandante !== this.props.meuTime && this.props.onSelectAdversario;
+        const visitanteClickable = !disableTeamClick && visitante !== this.props.meuTime && this.props.onSelectAdversario;
+        const estadioClickable = estadio && estadio !== "" && this.props.onSelectEstadio && !disableEstadioClick;
         return (
             <div className='divJogo'
                 style={{
@@ -68,7 +76,19 @@ class LinhaJogo extends Component {
                 </div>
                 <div>
                     <p style={{ textShadow: Common.textShadow, color: "white", fontSize: '1em' }}><FaTrophy style={{ color: Times(this.props.jogo.mandante).letterColor }} /> {this.props.jogo.campeonato}</p>
-                    <p style={{ textShadow: Common.textShadow, color: "white", marginBottom: '5px', fontSize: '1em' }}><MdStadium style={{ color: Times(this.props.jogo.mandante).letterColor }} /> {this.props.jogo.estadio !== "" ? this.props.jogo.estadio : " - "}</p>
+                    <p
+                        style={{
+                            textShadow: Common.textShadow,
+                            color: "white",
+                            marginBottom: '5px',
+                            fontSize: '1em',
+                            cursor: estadioClickable ? 'pointer' : 'default'
+                        }}
+                        onClick={estadioClickable ? () => this.props.onSelectEstadio(estadio) : undefined}
+                        title={estadioClickable ? 'Ver estádio' : ''}
+                    >
+                        <MdStadium style={{ color: Times(this.props.jogo.mandante).letterColor }} /> {estadio !== "" ? estadio : " - "}
+                    </p>
                 </div>
                 <div id='placar' style={{ display: 'flex', justifyContent: 'center', marginTop: '10px' }}>
                     <p className='nomeTime' style={{
@@ -81,9 +101,13 @@ class LinhaJogo extends Component {
                         overflow: 'hidden',
                         textOverflow: 'ellipsis',
                         whiteSpace: 'nowrap',
-                        color: Times(this.props.jogo.mandante, this.props.jogo.data).letterColor
-                    }}>
-                        {this.props.jogo.mandante.toUpperCase()}
+                        color: Times(this.props.jogo.mandante, this.props.jogo.data).letterColor,
+                        cursor: mandanteClickable ? 'pointer' : 'default'
+                    }}
+                        onClick={mandanteClickable ? () => this.props.onSelectAdversario(mandante) : undefined}
+                        title={mandanteClickable ? 'Ver adversário' : ''}
+                    >
+                        {mandante.toUpperCase()}
                     </p>
                     <img
                         className='escudoLinha'
@@ -119,9 +143,13 @@ class LinhaJogo extends Component {
                             paddingLeft: '5px',
                             overflow: 'hidden',
                             textOverflow: 'ellipsis',
-                            whiteSpace: 'nowrap'
-                        }}>
-                        {this.props.jogo.visitante.toUpperCase()}
+                            whiteSpace: 'nowrap',
+                            cursor: visitanteClickable ? 'pointer' : 'default'
+                        }}
+                        onClick={visitanteClickable ? () => this.props.onSelectAdversario(visitante) : undefined}
+                        title={visitanteClickable ? 'Ver adversário' : ''}
+                    >
+                        {visitante.toUpperCase()}
                     </p>
                 </div>
                 {this.props.jogo.penaltis &&

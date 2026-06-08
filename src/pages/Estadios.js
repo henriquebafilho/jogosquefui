@@ -25,6 +25,20 @@ class Estadios extends Component {
     await this.getEstadios(jogos);
   }
 
+  componentDidUpdate(prevProps) {
+    if (this.props.selectedEstadio && this.props.selectedEstadio !== prevProps.selectedEstadio) {
+      this.openSelectedEstadio();
+    }
+  }
+
+  openSelectedEstadio = () => {
+    if (this.props.selectedEstadio && this.state.estadios.includes(this.props.selectedEstadio)) {
+      if (!this.state.clicked || this.state.estadioAtual !== this.props.selectedEstadio) {
+        this.buttonClick(this.props.selectedEstadio);
+      }
+    }
+  }
+
   getJogos = async () => {
     this.setState({ isLoading: true });
     const jogos = BotafogoJogos().filter(jogo => jogo.golsMandante !== "" && jogo.golsVisitante !== "");
@@ -59,7 +73,7 @@ class Estadios extends Component {
       }
       return 0;
     });
-    this.setState({ estadios, filtered: estadios, isLoading: false })
+    this.setState({ estadios, filtered: estadios, isLoading: false }, () => this.openSelectedEstadio())
   }
 
   buttonClick = (estadio) => {
@@ -98,7 +112,7 @@ class Estadios extends Component {
 
     return (
       <>
-        {this.state.clicked ? <ViewEstadio meuTime={this.props.meuTime} meusJogos={meusJogos} jogosEstadio={this.state.jogosEstadio} estadio={this.state.estadioAtual} onBack={() => this.setState({ clicked: false })} /> :
+        {this.state.clicked ? <ViewEstadio meuTime={this.props.meuTime} meusJogos={meusJogos} jogosEstadio={this.state.jogosEstadio} estadio={this.state.estadioAtual} onBack={() => this.setState({ clicked: false })} onSelectAdversario={this.props.onSelectAdversario} /> :
           <div className="App-header" style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor, alignItems: 'normal' }}>
             <h4 style={{ textAlign: 'center' }}>{this.state.estadios.length + " estádio"}{this.state.estadios.length > 1 ? "s" : ""}{" cadastrados"}</h4>
             <br />
