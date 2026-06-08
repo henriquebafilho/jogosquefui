@@ -22,49 +22,38 @@ class Anos extends Component {
   }
 
   async componentDidMount() {
-    await this.getJogos();
-    await this.getAnos();
-    this.setState({ filtered: this.state.anos });
+    const jogos = await this.getJogos();
+    await this.getAnos(jogos);
   }
 
   getJogos = async () => {
     this.setState({ isLoading: true });
-    this.setState({
-      jogos: BotafogoJogos().filter(jogo => jogo.golsMandante !== "" && jogo.golsVisitante !== "")
-    });
-    this.setState({ isLoading: false });
+    const jogos = BotafogoJogos().filter(jogo => jogo.golsMandante !== "" && jogo.golsVisitante !== "");
+    this.setState({ jogos, isLoading: false });
+    return jogos;
   }
 
-  getAnos = async () => {
-    var jogos = this.state.jogos;
+  getAnos = async (jogos = this.state.jogos) => {
+    const anos = [];
 
     this.setState({ isLoading: true });
     for (var i in jogos) {
       const ano = jogos[i].data.split("-")[0];
-      if (!this.state.anos.includes(ano)) {
-        this.state.anos.push(ano);
+      if (!anos.includes(ano)) {
+        anos.push(ano);
       }
     }
-    this.state.anos.sort().reverse();
-    this.setState({ isLoading: false });
+    anos.sort().reverse();
+    this.setState({ anos, filtered: anos, isLoading: false });
   }
 
-  buttonClick = async (ano) => {
-    this.setState({ clicked: true, anoAtual: ano });
-    await this.getAnoJogos(ano);
+  buttonClick = (ano) => {
+    const jogosAno = this.state.jogos.filter(jogo => jogo.data.split("-")[0] === ano.toString());
+    this.setState({ clicked: true, anoAtual: ano, jogosAno });
   }
 
-  getAnoJogos = async (ano) => {
-    var anoAtual = ano;
-
-    for (var a = 0; a < this.state.jogos.length; a++) {
-      const ano = this.state.jogos[a].data.split("-")[0];
-      if (anoAtual.toString().includes(ano)) {
-        if (!this.state.jogosAno.includes(this.state.jogos[a])) {
-          this.state.jogosAno.push(this.state.jogos[a]);
-        }
-      }
-    }
+  handleBack = () => {
+    this.setState({ clicked: false });
   }
 
   searchAno = async (e) => {
@@ -78,7 +67,7 @@ class Anos extends Component {
 
     return (
       <>
-        {this.state.clicked ? <ViewAno meuTime={this.props.meuTime} meusJogos={meusJogos} jogosAno={this.state.jogosAno} ano={this.state.anoAtual} /> :
+        {this.state.clicked ? <ViewAno meuTime={this.props.meuTime} meusJogos={meusJogos} jogosAno={this.state.jogosAno} ano={this.state.anoAtual} onBack={this.handleBack} /> :
           <div className="App-header" style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor, alignItems: 'normal' }}>
             <table>
               <tbody>
@@ -108,7 +97,7 @@ class Anos extends Component {
                     }
                     return <div key={i}>
                       <button id='selectAno' onClick={() => buttonClickFunction(i)} style={{ borderColor: Times(meuTime).letterColor, borderStyle: 'solid', backgroundColor: Times(meuTime).backgroundColor, color: Times(meuTime).letterColor }}>
-                        <div><img src={imagemAno} style={{ verticalAlign: 'middle' }} alt='ano' height='150' width='150' loading='lazy' onError={(e) => { e.target.src = '/escudos/escudo.png' }} /></div>
+                        <div><img src={imagemAno} style={{ verticalAlign: 'middle' }} alt='ano' height='150' width='150' loading='lazy' onError={(e) => { e.target.style.display = 'none' }} /></div>
                         <div id='tituloOpcao' style={{ display: 'inline', padding: '10px', fontSize: '30px' }}>{i}</div>
                         <div style={{ paddingBottom: '5px', fontSize: '15px', fontWeight: '100' }}>{totalAno} {totalAno > 1 ? "jogos" : "jogo"}</div>
                       </button>

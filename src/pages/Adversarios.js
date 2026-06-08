@@ -74,38 +74,38 @@ class Adversarios extends Component {
     this.setState({ isLoading: false });
   }
 
-  buttonClick = async (adversario) => {
+  buttonClick = (adversario) => {
     this.setState({ clicked: true, adversarioAtual: adversario });
   }
 
+  handleBack = () => {
+    this.setState({ clicked: false });
+  }
+
   searchTeam = async (e) => {
-    this.setState({
-      filtered: this.state.adversarios.filter(time => {
-        const normalizeString = (str) => str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-        const searchTerm = normalizeString(e.target.value.toUpperCase().trim());
-        const normalizedTime = normalizeString(time.toUpperCase().trim());
-        return normalizedTime.includes(searchTerm);
-      })
+    const filtered = this.state.adversarios.filter(time => {
+      const normalizeString = (str) => str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+      const searchTerm = normalizeString(e.target.value.toUpperCase().trim());
+      const normalizedTime = normalizeString(time.toUpperCase().trim());
+      return normalizedTime.includes(searchTerm);
     });
 
-    this.state.filtered.sort((a, b) => {
+    filtered.sort((a, b) => {
       const qtdJogosA = common.getTotalAdversario(this.state.meuTime, a);
       const qtdJogosB = common.getTotalAdversario(this.state.meuTime, b);
-
-      // Ordena por quantidade de jogos (decrescente)
       if (qtdJogosB !== qtdJogosA) {
         return qtdJogosB - qtdJogosA;
       }
-
-      // Se a quantidade de jogos for igual, ordena por nome (alfabética)
       if (a < b) {
         return -1;
       }
       if (a > b) {
         return 1;
       }
-      return 0; // Nomes iguais
+      return 0;
     });
+
+    this.setState({ filtered });
   }
 
   render() {
@@ -114,7 +114,7 @@ class Adversarios extends Component {
     const buttonClickFunction = (adversario) => this.buttonClick(adversario);
     return (
       <>
-        {this.state.clicked ? <ViewAdversario meuTime={this.props.meuTime} adversario={this.state.adversarioAtual} /> :
+        {this.state.clicked ? <ViewAdversario meuTime={this.props.meuTime} adversario={this.state.adversarioAtual} onBack={this.handleBack} /> :
           <div className="App-header" style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor, alignItems: 'normal' }}>
             <table>
               <tbody>

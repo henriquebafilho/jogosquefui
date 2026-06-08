@@ -21,97 +21,74 @@ class Estadios extends Component {
   }
 
   async componentDidMount() {
-    await this.getJogos();
-    await this.getEstadios();
-    this.setState({ filtered: this.state.estadios })
+    const jogos = await this.getJogos();
+    await this.getEstadios(jogos);
   }
 
   getJogos = async () => {
     this.setState({ isLoading: true });
-    this.setState({
-      jogos: BotafogoJogos().filter(jogo => jogo.golsMandante !== "" && jogo.golsVisitante !== "")
-    });
-    this.setState({ isLoading: false });
+    const jogos = BotafogoJogos().filter(jogo => jogo.golsMandante !== "" && jogo.golsVisitante !== "");
+    this.setState({ jogos, isLoading: false });
+    return jogos;
   }
 
-  getEstadios = async () => {
-    let jogos = this.state.jogos;
+  getEstadios = async (jogos = this.state.jogos) => {
+    const estadios = [];
 
     this.setState({ isLoading: true })
     for (let i in jogos) {
-      if (!this.state.estadios.includes(jogos[i].estadio) &&
+      if (!estadios.includes(jogos[i].estadio) &&
         jogos[i].estadio !== "" &&
         jogos[i].estadio[0] !== "(") {
-        this.state.estadios.push(jogos[i].estadio);
+        estadios.push(jogos[i].estadio);
       }
     }
 
-    this.state.estadios.sort((a, b) => {
+    estadios.sort((a, b) => {
       const qtdJogosA = common.getTotalEstadio(a, jogos);
       const qtdJogosB = common.getTotalEstadio(b, jogos);
 
-      // Ordena por quantidade de jogos (decrescente)
       if (qtdJogosB !== qtdJogosA) {
         return qtdJogosB - qtdJogosA;
       }
-
-      // Se a quantidade de jogos for igual, ordena por nome (alfabética)
       if (a < b) {
         return -1;
       }
       if (a > b) {
         return 1;
       }
-      return 0; // Nomes iguais
+      return 0;
     });
-    this.setState({ isLoading: false })
+    this.setState({ estadios, filtered: estadios, isLoading: false })
   }
 
-  buttonClick = async (estadio) => {
-    this.setState({ clicked: true, estadioAtual: estadio });
-    await this.getEstadioJogos(estadio);
-  }
-
-  getEstadioJogos = async (estadio) => {
-    let estadioAtual = estadio;
-
-    for (let a = 0; a < this.state.jogos.length; a++) {
-      if (this.state.jogos[a].estadio === estadioAtual) {
-        if (!this.state.jogosEstadio.includes(this.state.jogos[a])) {
-          this.state.jogosEstadio.push(this.state.jogos[a]);
-        }
-      }
-    }
+  buttonClick = (estadio) => {
+    const jogosEstadio = this.state.jogos.filter(jogo => jogo.estadio === estadio);
+    this.setState({ clicked: true, estadioAtual: estadio, jogosEstadio });
   }
 
   searchStadium = async (e) => {
-    var jogos = this.state.jogos;
-    this.setState({
-      filtered: this.state.estadios.filter(estadio => {
-        const normalizeString = (str) => str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-        const searchTerm = normalizeString(e.target.value.toUpperCase().trim());
-        const normalizedEstadio = normalizeString(estadio.toUpperCase().trim());
-        return normalizedEstadio.includes(searchTerm);
-      })
+    const jogos = this.state.jogos;
+    const normalizedSearchTerm = e.target.value.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toUpperCase().trim();
+    const filtered = this.state.estadios.filter(estadio => {
+      const normalizedEstadio = estadio.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toUpperCase().trim();
+      return normalizedEstadio.includes(normalizedSearchTerm);
     });
-    this.state.filtered.sort((a, b) => {
+    filtered.sort((a, b) => {
       const qtdJogosA = common.getTotalEstadio(a, jogos);
       const qtdJogosB = common.getTotalEstadio(b, jogos);
-
-      // Ordena por quantidade de jogos (decrescente)
       if (qtdJogosB !== qtdJogosA) {
         return qtdJogosB - qtdJogosA;
       }
-
-      // Se a quantidade de jogos for igual, ordena por nome (alfabética)
       if (a < b) {
         return -1;
       }
       if (a > b) {
         return 1;
       }
-      return 0; // Nomes iguais
+      return 0;
     });
+    this.setState({ filtered });
   }
 
   render() {
@@ -121,7 +98,7 @@ class Estadios extends Component {
 
     return (
       <>
-        {this.state.clicked ? <ViewEstadio meuTime={this.props.meuTime} meusJogos={meusJogos} jogosEstadio={this.state.jogosEstadio} estadio={this.state.estadioAtual} /> :
+        {this.state.clicked ? <ViewEstadio meuTime={this.props.meuTime} meusJogos={meusJogos} jogosEstadio={this.state.jogosEstadio} estadio={this.state.estadioAtual} onBack={() => this.setState({ clicked: false })} /> :
           <div className="App-header" style={{ backgroundColor: Times(this.props.meuTime).backgroundColor, color: Times(this.props.meuTime).letterColor, alignItems: 'normal' }}>
             <h4 style={{ textAlign: 'center' }}>{this.state.estadios.length + " estádio"}{this.state.estadios.length > 1 ? "s" : ""}{" cadastrados"}</h4>
             <br />
