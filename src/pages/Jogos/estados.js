@@ -55,7 +55,7 @@ const estados = {
     "Byron":                               { estado: "Rio de Janeiro",       uf: "RJ" },
     "Cabofriense":                         { estado: "Rio de Janeiro",       uf: "RJ" },
     "Caldense":                            { estado: "Minas Gerais",         uf: "MG" },
-    "Calouros do Ar":                      { estado: "Minas Gerais",         uf: "MG" },
+    "Calouros do Ar":                      { estado: "Ceará",                uf: "CE" },
     "Campinense":                          { estado: "Paraíba",              uf: "PB" },
     "Campo Grande":                        { estado: "Rio de Janeiro",       uf: "RJ" },
     "Campo Grande-RJ":                     { estado: "Rio de Janeiro",       uf: "RJ" },
