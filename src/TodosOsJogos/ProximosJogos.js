@@ -21,6 +21,7 @@ function jogos() {
     jogos.push({ "mandante": "Cienciano", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Copa Sul-Americana 2026", "data": "2026-08-13", "estadio": "Inca Garcilaso de La Vega", "horario": "21:30", "presente": false });
     jogos.push({ "mandante": "Botafogo", "visitante": "Fluminense", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2026", "data": "2026-08-08", "estadio": "Nilton Santos", "horario": "21:00", "presente": false });
     //jogos.push({ "mandante": "Botafogo", "visitante": "Grêmio", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2026", "data": "2026-07-29", "estadio": "Nilton Santos", "presente": false });
+    jogos.push({ "mandante": "Cruzeiro", "visitante": "Botafogo", "golsMandante": 0, "golsVisitante": 1, "campeonato": "Brasileirão 2026", "data": "2026-07-26", "estadio": "Mineirão", "horario": "16:00", "presente": false });
 
     jogos.sort(function (a, b) {
         return a.data < b.data ? -1 : a.data > b.data ? 1 : 0;
