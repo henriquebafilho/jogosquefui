@@ -38,6 +38,12 @@ function Times(time, data) {
                   backgroundColor = "#d30a11";
                   letterColor = "white";
                   break;
+            case "Cienciano":
+                  nomeAtual = time;
+                  escudo = time;
+                  backgroundColor = "#d30a11";
+                  letterColor = "white";
+                  break;
             case "CSKA Moscow":
                   nomeAtual = time;
                   escudo = time;
