@@ -50,7 +50,30 @@ for (const relPath of TRACKED_FILES) {
     for (const g of extractGames(currentContent)) after.add(g);
 }
 
-const missing = [...before].filter(g => !after.has(g));
+const teamPair = (g) => g.split('|').slice(0, 2).join('|');
+
+const missingKeys = [...before].filter(g => !after.has(g));
+const newKeys = [...after].filter(g => !before.has(g));
+const newPairs = new Map(); // teamPair -> queue of unmatched new keys
+for (const g of newKeys) {
+    const p = teamPair(g);
+    if (!newPairs.has(p)) newPairs.set(p, []);
+    newPairs.get(p).push(g);
+}
+
+// A "missing" game whose two teams still show up under a different date is
+// almost always a date/detail edit (e.g. a fixture reschedule), not a loss —
+// pair it off against one of the new entries for that same matchup instead
+// of flagging it.
+const missing = [];
+for (const g of missingKeys) {
+    const queue = newPairs.get(teamPair(g));
+    if (queue && queue.length > 0) {
+        queue.shift();
+        continue;
+    }
+    missing.push(g);
+}
 
 console.log(`Games before this commit: ${before.size}`);
 console.log(`Games after this commit:  ${after.size}`);
