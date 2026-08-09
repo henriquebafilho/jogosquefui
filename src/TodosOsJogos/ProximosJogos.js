@@ -19,7 +19,7 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Cienciano", "golsMandante": "", "golsVisitante": "", "campeonato": "Copa Sul-Americana 2026", "data": "2026-08-20", "estadio": "Nilton Santos", "horario": "21:30", "presente": false });
     jogos.push({ "mandante": "Vitória", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2026", "data": "2026-08-16", "estadio": "Barradão", "horario": "18:30", "presente": false });
     jogos.push({ "mandante": "Cienciano", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Copa Sul-Americana 2026", "data": "2026-08-13", "estadio": "Inca Garcilaso de La Vega", "horario": "21:30", "presente": false });
-    jogos.push({ "mandante": "Botafogo", "visitante": "Fluminense", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2026", "data": "2026-08-08", "estadio": "Nilton Santos", "horario": "21:00", "presente": false });
+    jogos.push({ "mandante": "Botafogo", "visitante": "Fluminense", "golsMandante": 1, "golsVisitante": 1, "campeonato": "Brasileirão 2026", "data": "2026-08-08", "estadio": "Nilton Santos", "horario": "21:00", "presente": true });
     //jogos.push({ "mandante": "Botafogo", "visitante": "Grêmio", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2026", "data": "2026-07-29", "estadio": "Nilton Santos", "presente": false });
 
     jogos.sort(function (a, b) {
