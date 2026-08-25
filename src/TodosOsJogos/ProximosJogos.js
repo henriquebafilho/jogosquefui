@@ -15,7 +15,6 @@ function jogos() {
     jogos.push({ "mandante": "Botafogo", "visitante": "Red Bull Bragantino", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2026", "data": "2026-09-12", "estadio": "Nilton Santos", "presente": false });
     jogos.push({ "mandante": "Botafogo", "visitante": "Palmeiras", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2026", "data": "2026-09-06", "estadio": "Nilton Santos", "horario": "18:30", "presente": false });
     jogos.push({ "mandante": "Flamengo", "visitante": "Botafogo", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2026", "data": "2026-08-30", "estadio": "Maracanã", "horario": "16:00", "presente": false });
-    jogos.push({ "mandante": "Botafogo", "visitante": "Athletico-PR", "golsMandante": 2, "golsVisitante": 3, "campeonato": "Brasileirão 2026", "data": "2026-08-24", "estadio": "Nilton Santos", "horario": "20:00", "presente": true });
     //jogos.push({ "mandante": "Botafogo", "visitante": "Grêmio", "golsMandante": "", "golsVisitante": "", "campeonato": "Brasileirão 2026", "data": "2026-07-29", "estadio": "Nilton Santos", "presente": false });
 
     jogos.sort(function (a, b) {
